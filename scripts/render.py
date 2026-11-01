@@ -54,7 +54,7 @@ TOPICS = {
 MONTHS = ["января", "февраля", "марта", "апреля", "мая", "июня", "июля",
           "августа", "сентября", "октября", "ноября", "декабря"]
 WEEKDAYS = ["понедельник", "вторник", "среда", "четверг", "пятница", "суббота", "воскресенье"]
-MAX_IMAGES = 40
+MAX_IMAGES = 90
 # разные домены одного издания считаем одним источником
 OUTLET_ALIASES = {"bbc.co.uk": "bbc.com", "voguebusiness.com": "vogue.com", "github.blog": "github.com"}
 
@@ -323,7 +323,7 @@ def main():
         tid = t.get("id")
         title, emoji, a, b = TOPICS.get(tid, (s(t.get("title"), 60) or "Другое", "📰", "#64748b", "#475569"))
         topic = {"id": tid or "x", "title": title, "emoji": emoji, "a": a, "b": b, "items": []}
-        for it in t.get("items", [])[:5]:
+        for it in t.get("items", [])[:10]:
             title_i = s(it.get("title"), 160)
             sources, indep = norm_sources(it, trusted, primary)
             if not title_i or not sources:
@@ -344,6 +344,7 @@ def main():
                                 "why": s(v.get("why"), 240)}
             body = [s(x, 1800) for x in (it.get("body") or [])[:30] if isinstance(x, str) and s(x, 1800)]                 if isinstance(it.get("body"), list) else []
             topic["items"].append({
+                "minor": bool(it.get("minor")),
                 "body": body,
                 "i18n": i18n,
                 "title": title_i,
@@ -358,18 +359,12 @@ def main():
                 "photos": [],
                 "_topic": topic,
             })
-        topic["also"] = []
-        for a in (t.get("also") or [])[:3]:
-            if isinstance(a, dict) and s(a.get("title"), 140):
-                srcs, _ = norm_sources(a, trusted, primary)
-                topic["also"].append({"title": s(a.get("title"), 140), "summary": s(a.get("summary"), 200),
-                                      "src": ", ".join(x["name"] for x in srcs)})
         if topic["items"]:
             topics.append(topic)
     order = list(TOPICS)
     # внутри темы самые важные новости выше (порядок Claude сохраняется при равной важности)
     for t in topics:
-        t["items"].sort(key=lambda i: -i["importance"])
+        t["items"].sort(key=lambda i: (i["minor"], -i["importance"]))
 
     # темы: чем важнее новости, тем выше тема; «Любопытное» всегда последняя;
     # при равенстве работает привычный порядок тем

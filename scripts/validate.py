@@ -53,13 +53,12 @@ for t in d["topics"]:
     if not isinstance(items, list) or not items:
         errors.append(f"тема {tid}: нет items")
         continue
-    for a in (t.get("also") or []):
-        for sx in (a.get("sources") or []) if isinstance(a, dict) else []:
-            u = sx.get("url") if isinstance(sx, dict) else None
-            if known and u and u not in known and not d.get("demo"):
-                errors.append(f"{tid} also: ссылки нет в candidates.json: {str(u)[:90]}")
-    if len(items) > 4:
-        warns.append(f"тема {tid}: {len(items)} новостей (в промпте не больше 4)")
+    main_n = sum(1 for x in items if not x.get("minor"))
+    minor_n = len(items) - main_n
+    if main_n > 4:
+        warns.append(f"тема {tid}: {main_n} основных новостей (в промпте не больше 4)")
+    if minor_n > 5:
+        warns.append(f"тема {tid}: {minor_n} мелких плиток (в промпте не больше 5)")
     for n, it in enumerate(items, 1):
         where = f"{tid}#{n}"
         total += 1
