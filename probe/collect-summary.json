@@ -1,17 +1,21 @@
 {
- "feeds_ok": 57,
+ "feeds_ok": 61,
  "feeds_failed": [
   "politics/France 24 на русском: HTTPError",
   "politics/CBC: ReadTimeout",
   "fashion/Business of Fashion: HTTPError"
  ],
- "total": 145,
- "with_text": 130,
- "text_bytes_total": 466241,
+ "total": 146,
+ "with_text": 134,
+ "text_bytes_total": 544070,
  "by_outlet": {
   "ABC Australia": {
-   "rows": 3,
-   "text": 3
+   "rows": 2,
+   "text": 2
+  },
+  "Al Jazeera": {
+   "rows": 2,
+   "text": 2
   },
   "Ars Technica": {
    "rows": 2,
@@ -26,16 +30,16 @@
    "text": 2
   },
   "BleepingComputer": {
-   "rows": 7,
-   "text": 7
+   "rows": 8,
+   "text": 8
   },
   "DW": {
-   "rows": 3,
-   "text": 3
+   "rows": 2,
+   "text": 2
   },
   "DW на русском": {
-   "rows": 3,
-   "text": 3
+   "rows": 2,
+   "text": 2
   },
   "Dezeen": {
    "rows": 4,
@@ -46,11 +50,11 @@
    "text": 3
   },
   "Euronews": {
-   "rows": 3,
-   "text": 3
+   "rows": 2,
+   "text": 2
   },
   "France 24": {
-   "rows": 3,
+   "rows": 2,
    "text": 0
   },
   "GameSpot": {
@@ -69,20 +73,24 @@
    "rows": 8,
    "text": 8
   },
+  "Japan Times": {
+   "rows": 2,
+   "text": 2
+  },
   "LWN": {
    "rows": 3,
    "text": 2
   },
   "NASA": {
-   "rows": 2,
-   "text": 2
+   "rows": 1,
+   "text": 1
   },
   "NPR": {
-   "rows": 8,
+   "rows": 7,
    "text": 7
   },
   "NYT": {
-   "rows": 3,
+   "rows": 2,
    "text": 0
   },
   "New Scientist": {
@@ -97,6 +105,10 @@
    "rows": 3,
    "text": 3
   },
+  "SCMP": {
+   "rows": 2,
+   "text": 2
+  },
   "STAT": {
    "rows": 1,
    "text": 1
@@ -110,12 +122,16 @@
    "text": 12
   },
   "TechCrunch": {
-   "rows": 4,
-   "text": 4
+   "rows": 5,
+   "text": 5
   },
   "The Guardian": {
-   "rows": 15,
-   "text": 15
+   "rows": 14,
+   "text": 14
+  },
+  "The Hindu": {
+   "rows": 2,
+   "text": 2
   },
   "The Verge": {
    "rows": 4,
@@ -139,17 +155,195 @@
   }
  },
  "log": [
-  "ok   fashion   Dezeen: 7",
   "ok   fashion   The Guardian: 2",
   "FAIL fashion   Business of Fashion: HTTPError",
   "ok   fashion   WWD: 10",
   "ok   security  Krebs on Security: 0",
-  "ok   security  BleepingComputer: 7",
+  "ok   security  BleepingComputer: 8",
   "ok   security  The Record: 0",
   "ok   security  SecurityWeek: 2",
   "ok   security  Schneier: 0",
   "ok   security  CISA: 0",
-  "Тексты статей: сохранено 130 из 145",
-  "Итого заголовков: 145, лент ок: 57, с ошибкой: 3"
+  "Тексты статей: сохранено 134 из 146",
+  "События с 2+ изданиями: 4",
+  "Итого заголовков: 146, лент ок: 61, с ошибкой: 3"
+ ],
+ "tails": [
+  {
+   "id": "44be6d9cd9",
+   "lines": 18,
+   "first": "If you give an AI agent a robotic arm, an injector, and a live mouse, it might just perfor",
+   "last2": [
+    "Santero thinks AI agents will increasingly work alongside human scientists, with direct access to lab equipmen",
+    "As for the mouse, Santero reports it’s recovering well."
+   ]
+  },
+  {
+   "id": "29fe9bed31",
+   "lines": 5,
+   "first": "Rejoice, Nintendo Switch 2 owners with a taste for the cozy, because Hoyoverse, the studio",
+   "last2": [
+    "\"In my short time of about five hours with a preview of the closed beta, Petit Planet offered a charming, \"The",
+    "The special update also revealed a bunch of chances for players to score pre-registration prizes as well as a "
+   ]
+  },
+  {
+   "id": "87ee26c329",
+   "lines": 27,
+   "first": "Bulgaria’s President Iliana Iotova, who favours dialogue with Moscow and opposes military ",
+   "last2": [
+    "Historically close to Russia, Bulgaria remains deeply divided over its relationship with Moscow.",
+    "Published - November 02, 2026 02:17 am IST"
+   ]
+  },
+  {
+   "id": "3cb400ebb9",
+   "lines": 28,
+   "first": "- Published",
+   "last2": [
+    "\"For you to have to say, 'sorry I don't know, because I don't have the report in front of me', or perhaps you ",
+    "\"The primary concern is for the patient, but it is not very nice for a clinician to have to do that over and o"
+   ]
+  },
+  {
+   "id": "efe8a88fa2",
+   "lines": 3,
+   "first": "Discover the cosmos! Each day a different image or photograph of our fascinating universe ",
+   "last2": [
+    "Colors of the Moon",
+    "Explanation: What color is the Moon? It depends on the night -- and the time. Outside of the Earth's atmospher"
+   ]
+  },
+  {
+   "id": "e016333df7",
+   "lines": 11,
+   "first": "A struggling Welsh health board could close urgent primary care centres at three hospitals",
+   "last2": [
+    "In September, Powys health board, which spans a quarter of the country, announced it was considering cutting 1",
+    "Opinion polls show that the NHS is overwhelmingly Welsh voters’ top concern. Turning the service around is wid"
+   ]
+  },
+  {
+   "id": "e630747aaa",
+   "lines": 17,
+   "first": "- Published",
+   "last2": [
+    "There are Ukrainian military positions just 5km (3.1 miles) from Oleshky, but evacuees had to travel through R",
+    "The oldest evacuee was 94 years old, while the youngest was one, according to Dmytro Lubinets, Ukraine's human"
+   ]
+  },
+  {
+   "id": "bc398a80a0",
+   "lines": 10,
+   "first": "A federal judge denied a motion by xAI seeking to dismiss an NAACP lawsuit accusing the Sp",
+   "last2": [
+    "The NAACP lawsuit is moving forward as public opinion seems to have turned sharply against data centers, with ",
+    "The backlash also prompted Amazon and Microsoft to promise to stop using NDAs in their dealings with governmen"
+   ]
+  },
+  {
+   "id": "676f23ce4f",
+   "lines": 62,
+   "first": "Drone photo award winners: Far-out landscapes. Ship recycling. Rugs, rugs rugs!",
+   "last2": [
+    "Kamala Thiagarajan is a freelance journalist based in Madurai, South India. She reports on global health, scie",
+    "For stories about life in our changing world, subscribe to NPR's Global Health newsletter."
+   ]
+  },
+  {
+   "id": "344dcf7974",
+   "lines": 5,
+   "first": "OpenAI’s latest funding round isn’t quite living up to expectations, according to multiple",
+   "last2": [
+    "A follow-up story in The Wall Street Journal offered more details, namely that the company has secured $11 bil",
+    "TechCrunch has reached out to OpenAI for comment. The company’s reported funding challenges could be blamed, i"
+   ]
+  },
+  {
+   "id": "eefc80b9e1",
+   "lines": 12,
+   "first": "The moon dives towards the glowing heart of the constellation Leo for a spectacular rendez",
+   "last2": [
+    "You must confirm your public display name before commenting",
+    "Please logout and then login again, you will then be prompted to enter your display name."
+   ]
+  },
+  {
+   "id": "107181c434",
+   "lines": 14,
+   "first": "The head of Serbia's criminal police directorate has been arrested and charged with abuse ",
+   "last2": [
+    "It was in this position that he is alleged to have personally led the abduction of a group of university stude",
+    "At the end of 2025, he was appointed head of the Serbian Criminal Police."
+   ]
+  },
+  {
+   "id": "be60c5eea0",
+   "lines": 18,
+   "first": "On Episode 234 of This Week In Space, Tariq Malik and Mike Wall are joined by Than Putzig ",
+   "last2": [
+    "You must confirm your public display name before commenting",
+    "Please logout and then login again, you will then be prompted to enter your display name."
+   ]
+  },
+  {
+   "id": "d3efcdcc46",
+   "lines": 23,
+   "first": "There could be more than just ghosts and ghouls lurking in the skies this Halloween! From ",
+   "last2": [
+    "You must confirm your public display name before commenting",
+    "Please logout and then login again, you will then be prompted to enter your display name."
+   ]
+  }
+ ],
+ "groups": [
+  {
+   "outlets": [
+    "Tom's Hardware",
+    "Wired"
+   ],
+   "ids": [
+    "bc2326c848",
+    "370354f1b8"
+   ],
+   "id": "g2"
+  },
+  {
+   "outlets": [
+    "BBC",
+    "The Guardian"
+   ],
+   "ids": [
+    "e016333df7",
+    "c3fc8203b7"
+   ],
+   "id": "g3"
+  },
+  {
+   "outlets": [
+    "Al Jazeera",
+    "BBC",
+    "SCMP",
+    "The Guardian"
+   ],
+   "ids": [
+    "f5b6d367ab",
+    "a97ab52165",
+    "0fd5d085d5",
+    "2ececc4094"
+   ],
+   "id": "g1"
+  },
+  {
+   "outlets": [
+    "Euronews",
+    "The Hindu"
+   ],
+   "ids": [
+    "e1e12443e8",
+    "87ee26c329"
+   ],
+   "id": "g4"
+  }
  ]
 }
