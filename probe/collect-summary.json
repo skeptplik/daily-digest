@@ -6,8 +6,8 @@
   "fashion/Business of Fashion: HTTPError"
  ],
  "total": 146,
- "with_text": 134,
- "text_bytes_total": 544070,
+ "with_text": 132,
+ "text_bytes_total": 532532,
  "by_outlet": {
   "ABC Australia": {
    "rows": 2,
@@ -15,7 +15,7 @@
   },
   "Al Jazeera": {
    "rows": 2,
-   "text": 2
+   "text": 1
   },
   "Ars Technica": {
    "rows": 2,
@@ -51,7 +51,7 @@
   },
   "Euronews": {
    "rows": 2,
-   "text": 2
+   "text": 1
   },
   "France 24": {
    "rows": 2,
@@ -164,7 +164,7 @@
   "ok   security  SecurityWeek: 2",
   "ok   security  Schneier: 0",
   "ok   security  CISA: 0",
-  "Тексты статей: сохранено 134 из 146",
+  "Тексты статей: сохранено 132 из 146",
   "События с 2+ изданиями: 4",
   "Итого заголовков: 146, лент ок: 61, с ошибкой: 3"
  ],
@@ -189,20 +189,74 @@
   },
   {
    "id": "87ee26c329",
-   "lines": 27,
+   "lines": 26,
    "first": "Bulgaria’s President Iliana Iotova, who favours dialogue with Moscow and opposes military ",
    "last2": [
-    "Historically close to Russia, Bulgaria remains deeply divided over its relationship with Moscow.",
-    "Published - November 02, 2026 02:17 am IST"
+    "She took over as president this year when Mr. Radev stepped down to run in parliamentary elections.",
+    "Historically close to Russia, Bulgaria remains deeply divided over its relationship with Moscow."
    ]
   },
   {
-   "id": "3cb400ebb9",
-   "lines": 28,
-   "first": "- Published",
+   "id": "3ecfdfa9ee",
+   "lines": 34,
+   "first": "Grand Theft Auto's radio stations have long stood as an integral part of the series' whole",
    "last2": [
-    "\"For you to have to say, 'sorry I don't know, because I don't have the report in front of me', or perhaps you ",
-    "\"The primary concern is for the patient, but it is not very nice for a clinician to have to do that over and o"
+    "- Born N Raised - DJ Khaled ft Trick Daddy, Rick Ross & Pitbull",
+    "Mollie spent her early childhood deeply invested in games like Killer Instinct, Toontown and Audition Online, "
+   ]
+  },
+  {
+   "id": "f5b6d367ab",
+   "lines": 27,
+   "first": "A Democrat in Michigan has endorsed the Republican candidate in the state's crucial US Sen",
+   "last2": [
+    "Stevens is a more centrist Democrat - and had the support of party figures such as Michigan Governor Gretchen ",
+    "Follow the twists and turns of Trump's second term with North America correspondent Anthony Zurcher's US Polit"
+   ]
+  },
+  {
+   "id": "e0a7403045",
+   "lines": 14,
+   "first": "A teenage violinist has won the BBC Young Musician competition 2026, in the first all-fema",
+   "last2": [
+    "The winner receives the trophy, a cash prize of £3,000 towards music studies as well as recording and broadcas",
+    "“I am so honoured and thrilled to have been a part of BBC Young Musician,” said Demetriades. “I loved playing "
+   ]
+  },
+  {
+   "id": "ed0268fa6e",
+   "lines": 20,
+   "first": "Mark Zuckerberg’s Meta made AI look so stinking cute by giving it a squishy little face — ",
+   "last2": [
+    "That means I don’t really know how useful a Muse Charm may or may not be for those who do know how to code and",
+    "The reason to have a dedicated piece of hardware is to do things you can’t do on the phone that’s already in y"
+   ]
+  },
+  {
+   "id": "bd09d17255",
+   "lines": 8,
+   "first": "A sand tiger shark that had been at an aquarium since its opening almost 30 years ago has ",
+   "last2": [
+    "\"Rest assured, our beautiful sand tigers, Ushaka and Mandela, can still be seen in our Atlantic Ocean habitat.",
+    "Follow BBC Devon on X, external, Facebook, external and Instagram, external. Send your story ideas to spotligh"
+   ]
+  },
+  {
+   "id": "676f23ce4f",
+   "lines": 61,
+   "first": "Drone photo award winners: Far-out landscapes. Ship recycling. Rugs, rugs rugs!",
+   "last2": [
+    "\"I don't just want to get a picture. I want to get the best possible picture,\" he says.",
+    "Kamala Thiagarajan is a freelance journalist based in Madurai, South India. She reports on global health, scie"
+   ]
+  },
+  {
+   "id": "34cf317402",
+   "lines": 25,
+   "first": "Metroid Prime 4: Beyond was, unfortunately, not the return many were hoping for when it fi",
+   "last2": [
+    "Daryl is an entertainment writer and author of two books—The Making of Tomb Raider and 50 Years of Boss Fights",
+    "With over a decade of experience, his work has been featured in TechRadar, Tom’s Guide, SUPERJUMP, Pocket Tact"
    ]
   },
   {
@@ -215,60 +269,6 @@
    ]
   },
   {
-   "id": "e016333df7",
-   "lines": 11,
-   "first": "A struggling Welsh health board could close urgent primary care centres at three hospitals",
-   "last2": [
-    "In September, Powys health board, which spans a quarter of the country, announced it was considering cutting 1",
-    "Opinion polls show that the NHS is overwhelmingly Welsh voters’ top concern. Turning the service around is wid"
-   ]
-  },
-  {
-   "id": "e630747aaa",
-   "lines": 17,
-   "first": "- Published",
-   "last2": [
-    "There are Ukrainian military positions just 5km (3.1 miles) from Oleshky, but evacuees had to travel through R",
-    "The oldest evacuee was 94 years old, while the youngest was one, according to Dmytro Lubinets, Ukraine's human"
-   ]
-  },
-  {
-   "id": "bc398a80a0",
-   "lines": 10,
-   "first": "A federal judge denied a motion by xAI seeking to dismiss an NAACP lawsuit accusing the Sp",
-   "last2": [
-    "The NAACP lawsuit is moving forward as public opinion seems to have turned sharply against data centers, with ",
-    "The backlash also prompted Amazon and Microsoft to promise to stop using NDAs in their dealings with governmen"
-   ]
-  },
-  {
-   "id": "676f23ce4f",
-   "lines": 62,
-   "first": "Drone photo award winners: Far-out landscapes. Ship recycling. Rugs, rugs rugs!",
-   "last2": [
-    "Kamala Thiagarajan is a freelance journalist based in Madurai, South India. She reports on global health, scie",
-    "For stories about life in our changing world, subscribe to NPR's Global Health newsletter."
-   ]
-  },
-  {
-   "id": "344dcf7974",
-   "lines": 5,
-   "first": "OpenAI’s latest funding round isn’t quite living up to expectations, according to multiple",
-   "last2": [
-    "A follow-up story in The Wall Street Journal offered more details, namely that the company has secured $11 bil",
-    "TechCrunch has reached out to OpenAI for comment. The company’s reported funding challenges could be blamed, i"
-   ]
-  },
-  {
-   "id": "eefc80b9e1",
-   "lines": 12,
-   "first": "The moon dives towards the glowing heart of the constellation Leo for a spectacular rendez",
-   "last2": [
-    "You must confirm your public display name before commenting",
-    "Please logout and then login again, you will then be prompted to enter your display name."
-   ]
-  },
-  {
    "id": "107181c434",
    "lines": 14,
    "first": "The head of Serbia's criminal police directorate has been arrested and charged with abuse ",
@@ -278,21 +278,21 @@
    ]
   },
   {
-   "id": "be60c5eea0",
-   "lines": 18,
-   "first": "On Episode 234 of This Week In Space, Tariq Malik and Mike Wall are joined by Than Putzig ",
+   "id": "c3fc8203b7",
+   "lines": 22,
+   "first": "Plans to close urgent primary care services at three hospitals would have \"dire consequenc",
    "last2": [
-    "You must confirm your public display name before commenting",
-    "Please logout and then login again, you will then be prompted to enter your display name."
+    "\"As with any possible service change, we would expect NHS Wales organisations to engage openly and transparent",
+    "The move would not impact UPCC services at Mold Community Hospital or Wrexham Maelor Hospital."
    ]
   },
   {
-   "id": "d3efcdcc46",
+   "id": "d6313a2cd5",
    "lines": 23,
-   "first": "There could be more than just ghosts and ghouls lurking in the skies this Halloween! From ",
+   "first": "They signed up for a lifetime at sea on an endless cruise. High gas prices intervened",
    "last2": [
-    "You must confirm your public display name before commenting",
-    "Please logout and then login again, you will then be prompted to enter your display name."
+    "Copyright © 2026 NPR. All rights reserved. Visit our website terms of use and permissions pages at www.npr.org",
+    "Accuracy and availability of transcripts for NPR programming may vary. Transcript text may also be revised to "
    ]
   }
  ],
@@ -306,7 +306,7 @@
     "bc2326c848",
     "370354f1b8"
    ],
-   "id": "g2"
+   "id": "g3"
   },
   {
    "outlets": [
@@ -317,11 +317,10 @@
     "e016333df7",
     "c3fc8203b7"
    ],
-   "id": "g3"
+   "id": "g4"
   },
   {
    "outlets": [
-    "Al Jazeera",
     "BBC",
     "SCMP",
     "The Guardian"
@@ -329,21 +328,22 @@
    "ids": [
     "f5b6d367ab",
     "a97ab52165",
-    "0fd5d085d5",
-    "2ececc4094"
+    "0fd5d085d5"
    ],
    "id": "g1"
   },
   {
    "outlets": [
+    "Al Jazeera",
     "Euronews",
     "The Hindu"
    ],
    "ids": [
     "e1e12443e8",
+    "4416ab3779",
     "87ee26c329"
    ],
-   "id": "g4"
+   "id": "g2"
   }
  ]
 }
