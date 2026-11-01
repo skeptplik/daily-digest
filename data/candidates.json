@@ -1,0 +1,1040 @@
+{
+ "generated_at": "2026-11-01 16:25 UTC",
+ "window_hours": 40,
+ "feeds_ok": 57,
+ "feeds_failed": [
+  "politics/France 24 на русском: HTTPError",
+  "politics/CBC: ReadTimeout",
+  "fashion/Business of Fashion: HTTPError"
+ ],
+ "topics": {
+  "ai": [
+   {
+    "outlet": "TechCrunch",
+    "title": "Apple CEO says the company doesn’t ‘want to ship AI for AI’s sake’",
+    "link": "https://techcrunch.com/2026/10/31/apple-ceo-says-the-company-doesnt-want-to-ship-ai-for-ais-sake/",
+    "published": "2026-10-31 21:41",
+    "summary": "Apple's new CEO defended the company's current position in the AI landscape."
+   },
+   {
+    "outlet": "The Verge",
+    "title": "I built an AI Tamagotchi before Meta could",
+    "link": "https://www.theverge.com/gadgets/1013375/muse-charm-gadgets-preview-waveshare-esp32-claude-vibe-code",
+    "published": "2026-10-31 16:09",
+    "summary": "Mark Zuckerberg's Meta made AI look so stinking cute by giving it a squishy little face - and this holiday season, he wants to sell you a Muse Charm so you can carry your jolly AI helper around like a Tamagotchi. But I won't be buying one,…"
+   },
+   {
+    "outlet": "Wired",
+    "title": "Chatbots Are Leading Hikers Astray, With Dangerous Consequences",
+    "link": "https://www.wired.com/story/chatbots-are-leading-hikers-astray-with-dangerous-consequences/",
+    "published": "2026-11-01 10:30",
+    "summary": "Outsourcing planning to AI can lead people to surrender their own critical thinking, which can have potentially deadly results in places like the backcountry."
+   },
+   {
+    "outlet": "TechCrunch",
+    "title": "4 days left: How TechCrunch Founder Summit helps you make more useful connections to scale",
+    "link": "https://techcrunch.com/2026/10/31/4-days-left-how-techcrunch-founder-summit-helps-you-make-more-useful-connections-to-scale/",
+    "published": "2026-10-31 21:36",
+    "summary": "On November 4 at Boston’s SoWa Power Station, get ready for a full day packed with meaningful networking opportunities, actionable insights, and connections that could change the trajectory of your idea and startup. Register before all pri…"
+   },
+   {
+    "outlet": "Wired",
+    "title": "Spooky New Infostealer Malware Uses AI to ‘Autodox’ Victims",
+    "link": "https://www.wired.com/story/kernel-panic-volta-autodoxer-ai-infostealer-malware/",
+    "published": "2026-10-31 12:00",
+    "summary": "Named “Volta-Autodoxer,” the recently uncovered malware uses AI tools to collect troves of data about victims, from login credentials and credit card numbers to Discord sessions and UberEats receipts."
+   },
+   {
+    "outlet": "TechCrunch",
+    "title": "Judge allows NAACP lawsuit over xAI data center pollution to move forward",
+    "link": "https://techcrunch.com/2026/10/31/judge-allows-naacp-lawsuit-over-xai-data-center-pollution-to-move-forward/",
+    "published": "2026-10-31 21:17",
+    "summary": "An NAACP lawsuit accuses the SpaceX-owned AI company of violating the Clean Air Act."
+   },
+   {
+    "outlet": "Wired",
+    "title": "Meta’s Muse Could Upend All Kinds of Businesses. It Hasn’t Yet",
+    "link": "https://www.wired.com/story/metas-muse-could-upend-all-kinds-of-businesses-it-hasnt-yet/",
+    "published": "2026-10-31 10:30",
+    "summary": "Companies have spent the past several weeks trying to reassure investors that Muse and other AI agents pose more of an opportunity than a threat."
+   },
+   {
+    "outlet": "TechCrunch",
+    "title": "OpenAI reportedly lowers funding target for new round",
+    "link": "https://techcrunch.com/2026/10/31/openai-reportedly-lowers-funding-target-for-new-round/",
+    "published": "2026-10-31 16:12",
+    "summary": "OpenAI’s latest funding round doesn't seem to be living up to expectations."
+   },
+   {
+    "outlet": "Wired",
+    "title": "An AI Agent Injected Drugs Into a Live Mouse’s Brain",
+    "link": "https://www.wired.com/story/an-ai-agent-did-brain-surgery-on-live-mouse/",
+    "published": "2026-10-31 10:00",
+    "summary": "A biotech startup let an agent choose a gene therapy and successfully inject the treatment, offering a startling glimpse of the future of research labs."
+   },
+   {
+    "outlet": "TechCrunch",
+    "title": "Nvidia weighs playing the cosigner for Nscale’s AI data center in West Virginia",
+    "link": "https://techcrunch.com/2026/10/30/nvidia-weighs-playing-the-cosigner-for-nscales-ai-data-center-in-west-virginia/",
+    "published": "2026-10-31 01:20",
+    "summary": "When investors get nervous about AI spending, it helps to have the chipmaker that sells the chips offer to cosign the loan."
+   }
+  ],
+  "health": [
+   {
+    "outlet": "BBC",
+    "title": "At risk in-person postpartum mums' groups saved",
+    "link": "https://www.bbc.co.uk/news/articles/cvglw35zjwkgo?at_medium=RSS&at_campaign=rss",
+    "published": "2026-11-01 16:15",
+    "summary": "The Happy Mums Foundation supports women experiencing postpartum mental health challenges."
+   },
+   {
+    "outlet": "STAT",
+    "title": "STAT+: The 4 biggest ways the midterms could change health policy, according to policymakers, lobbyists, and experts",
+    "link": "https://www.statnews.com/2026/10/31/midterm-election-tipping-point-healthcare-policy/?utm_campaign=rss",
+    "published": "2026-10-31 11:00",
+    "summary": "No matter what happens on Election Day, the midterms will have sweeping implications for American health care. More than two dozen experts on what could come next."
+   },
+   {
+    "outlet": "The Guardian",
+    "title": "The truth about testicles: are we facing spermageddon?",
+    "link": "https://www.theguardian.com/global/2026/nov/01/the-truth-about-testicles-are-we-facing-spermageddon",
+    "published": "2026-11-01 14:00",
+    "summary": "When it comes to fertility, testosterone and reproductive fitness, manosphere misinformation is rife - which can lead to a lot of heartache. Meet the man who wants to change all that “I think you can tell it’s for a lay audience,” says Mic…"
+   },
+   {
+    "outlet": "NPR",
+    "title": "Has Trump kept his promises to the MAHA movement?",
+    "link": "https://www.npr.org/2026/11/01/nx-s1-6022240/has-trump-kept-his-promises-to-the-maha-movement",
+    "published": "2026-11-01 13:07",
+    "summary": "It's been just over two years since the rise of Make America Healthy Again, or MAHA. How well is the Trump administration meeting its promises?"
+   },
+   {
+    "outlet": "BBC",
+    "title": "Cancer patients 'deteriorating' due to staff shortages, radiologists warn",
+    "link": "https://www.bbc.co.uk/news/articles/cmly0xle2rddo?at_medium=RSS&at_campaign=rss",
+    "published": "2026-11-01 14:49",
+    "summary": "North and west Wales have a 42% shortfall in consultant radiologists, compared to 22% in south Wales."
+   },
+   {
+    "outlet": "The Guardian",
+    "title": "Welsh health board considers closing urgent primary care centres at three hospitals",
+    "link": "https://www.theguardian.com/uk-news/2026/nov/01/welsh-health-board-urgent-primary-care-centres-upcc-holyhead-tremadog-bangor-betsi-cadwaladr",
+    "published": "2026-11-01 13:13",
+    "summary": "Holyhead, Tremadog and Bangor UPCCs may shut as Betsi Cadwaladr University health board struggles with funding A struggling Welsh health board could close urgent primary care centres at three hospitals, citing funding and recruitment issue…"
+   },
+   {
+    "outlet": "NPR",
+    "title": "It's ACA open enrollment time. Here are the changes for health insurance shoppers",
+    "link": "https://www.npr.org/2026/11/01/nx-s1-6023423/aca-open-enrollment-health-insurance",
+    "published": "2026-11-01 12:00",
+    "summary": "The ACA health insurance marketplaces — find yours at HealthCare.gov — open Nov. 1 for 2027 coverage. Getting an early start may be especially important this year."
+   },
+   {
+    "outlet": "BBC",
+    "title": "New charity uses outdoors to improve mental health",
+    "link": "https://www.bbc.co.uk/news/articles/ck98zqpzn1e5o?at_medium=RSS&at_campaign=rss",
+    "published": "2026-11-01 07:39",
+    "summary": "A new charity hopes to use outdoor activities to improve men's mental health on the Isle of Man."
+   },
+   {
+    "outlet": "The Guardian",
+    "title": "How to improve your memory: 10 easy, enjoyable expert tips – from reading a book to getting more sleep",
+    "link": "https://www.theguardian.com/lifeandstyle/2026/nov/01/how-to-improve-your-memory-10-easy-enjoyable-expert-tips-from-reading-a-book-to-getting-more-sleep",
+    "published": "2026-11-01 05:00",
+    "summary": "Relying on technology can make us forgetful, but there are some simple ways to sharpen your recall. Memory experts describe the tricks and habits that can help Memory can worsen as we age, but it is often possible to do something about it.…"
+   },
+   {
+    "outlet": "NPR",
+    "title": "How one family gave a critical boost to gene therapy research",
+    "link": "https://www.npr.org/2026/11/01/nx-s1-6014739/sanfilippo-gene-therapy-fayuvi",
+    "published": "2026-11-01 09:00",
+    "summary": "A family affected by Sanfilippo syndrome raised millions of dollars for research. The Food and Drug Administration just approved a gene therapy the support helped make possible."
+   },
+   {
+    "outlet": "BBC",
+    "title": "Hospital admits full responsibility for 24 failures that led to toddler's death",
+    "link": "https://www.bbc.co.uk/news/articles/cmn06eldj9rwo?at_medium=RSS&at_campaign=rss",
+    "published": "2026-11-01 07:07",
+    "summary": "Eleanor Aldred-Owen died after surgery because an abnormal scan was not flagged."
+   },
+   {
+    "outlet": "The Guardian",
+    "title": "Can Democrats win Maha voters after Trump let them down?",
+    "link": "https://www.theguardian.com/society/2026/oct/31/democrats-maha-voters",
+    "published": "2026-10-31 09:00",
+    "summary": "The party is hoping they can integrate the public health message with grassroots concern, but leave behind conspiracy theories Chellie Pingree remembers when she moved to Maine as a teenager in the 1970s – she was one “hippie” among thousa…"
+   },
+   {
+    "outlet": "NPR",
+    "title": "Drone photo award winners: Far-out landscapes. Ship recycling. Rugs, rugs rugs!",
+    "link": "https://www.npr.org/2026/10/31/g-s1-150698/drone-photo-award-winners",
+    "published": "2026-10-31 11:56",
+    "summary": "The Siena Drone Photo Awards for 2026 offer breathtaking bird's-eye views of our planet, revealing landscapes, livelihoods and human stories often invisible from the ground."
+   },
+   {
+    "outlet": "BBC",
+    "title": "Closing urgent care centres would have 'dire consequences', objectors say",
+    "link": "https://www.bbc.co.uk/news/articles/c9e8lj021dnno?at_medium=RSS&at_campaign=rss",
+    "published": "2026-10-31 17:42",
+    "summary": "Plan to close three urgent care centres sparks worry about pressure on GPs and emergency departments."
+   }
+  ],
+  "science": [
+   {
+    "outlet": "BBC",
+    "title": "Aquarium shark that helped 'dispel myths' dies",
+    "link": "https://www.bbc.co.uk/news/articles/c64g18lkz0kno?at_medium=RSS&at_campaign=rss",
+    "published": "2026-11-01 12:13",
+    "summary": "Staff at Plymouth's aquarium pay tribute to a sand tiger shark believed to be almost 30 years old."
+   },
+   {
+    "outlet": "The Guardian",
+    "title": "Tributes paid to ‘inspiring’ Cambridge scientist who died in Spain train crash",
+    "link": "https://www.theguardian.com/world/2026/nov/01/tributes-marta-shahbazi-university-of-cambridge-scientist-spanish-train-crash",
+    "published": "2026-11-01 15:00",
+    "summary": "Dr Marta Shahbazi was travelling to a conference to receive award for scientific excellence in developmental biology An “inspiring” University of Cambridge scientist died in the Spanish train collision on Wednesday that killed at least 69…"
+   },
+   {
+    "outlet": "New Scientist",
+    "title": "Fish pay attention to one influential neighbour in virtual reality",
+    "link": "https://www.newscientist.com/article/2596645-fish-only-pay-attention-to-one-most-influential-neighbor-in-virtual-reality/?utm_campaign=RSS|NSNS&utm_content=home&utm_medium=RSS&utm_source=NSNS",
+    "published": "2026-11-01 10:00",
+    "summary": "Observing interactions between real and virtual rummy-nose tetra fish shows that, within a group, each individual takes cues from only one influential neighbour"
+   },
+   {
+    "outlet": "NPR",
+    "title": "Oyster stocks have plunged in the Chesapeake. This resident wants to bring them back",
+    "link": "https://www.npr.org/2026/10/31/nx-s1-6011228/oyster-farming-conservation-chesapeake-bay",
+    "published": "2026-10-31 09:00",
+    "summary": "Oyster reefs once abounded in the Chesapeake, but overharvesting slashed their populations, leading to poorer water quality and less habitat for other species. Now, researchers and local residents are finding creative ways to bring their n…"
+   },
+   {
+    "outlet": "BBC",
+    "title": "Spill from vandalised home oil tank kills 13 birds",
+    "link": "https://www.bbc.co.uk/news/videos/crwyd2lyj15go?at_medium=RSS&at_campaign=rss",
+    "published": "2026-11-01 08:57",
+    "summary": "A number of birds are also injured after the spill from the oil tank earlier this week."
+   },
+   {
+    "outlet": "The Guardian",
+    "title": "The UK’s legal cannabis market is booming – so why can’t this talented artist get any to treat his epilepsy? | Kojo Koram",
+    "link": "https://www.theguardian.com/commentisfree/2026/nov/01/uk-legal-cannabis-market-booming-louis-petit-epilepsy",
+    "published": "2026-11-01 12:33",
+    "summary": "Companies have rushed to supply the drug as a wellness treatment, but patients with serious illnesses aren’t able to get NHS prescriptions In 2022, a prodigiously talented young artist named Louis Petit was preparing to return to the UK, h…"
+   },
+   {
+    "outlet": "New Scientist",
+    "title": "The best new science-fiction novels of November 2026",
+    "link": "https://www.newscientist.com/article/2596484-the-best-new-science-fiction-novels-of-november-2026/?utm_campaign=RSS|NSNS&utm_content=home&utm_medium=RSS&utm_source=NSNS",
+    "published": "2026-11-01 08:00",
+    "summary": "An audio drama produced by The Martian author Andy Weir, a fictional autobiography from Michael Moorcock and a new John Scalzi novel – November is a big month for sci-fi fans, says Alison Flood"
+   },
+   {
+    "outlet": "BBC",
+    "title": "Rhino siblings celebrate first birthday with cake",
+    "link": "https://www.bbc.co.uk/news/articles/cqrkypljk526o?at_medium=RSS&at_campaign=rss",
+    "published": "2026-11-01 07:11",
+    "summary": "Markus and Mo weighed about 70kg (11st) at birth, and now weigh about 500kg (78st) each."
+   },
+   {
+    "outlet": "The Guardian",
+    "title": "From gold rush to cosmic questions: a South Dakota mine and the search for the secrets of the universe",
+    "link": "https://www.theguardian.com/science/2026/oct/31/south-dakota-mine-search-secrets-universe-dark-matter-antimatter",
+    "published": "2026-10-31 11:00",
+    "summary": "A mile beneath the Black Hills, scientists are building giant detectors to analyse neutrino particles – and possibly find the answer to existence For more than a century, the mining town of Lead, in the Black Hills of South Dakota, attract…"
+   },
+   {
+    "outlet": "New Scientist",
+    "title": "Allergic reactions after sex should be listed as an antibiotic risk, experts say",
+    "link": "https://www.newscientist.com/article/2596737-allergic-reactions-after-sex-should-be-listed-as-an-antibiotic-risk-experts-say/?utm_campaign=RSS|NSNS&utm_content=home&utm_medium=RSS&utm_source=NSNS",
+    "published": "2026-10-31 16:00",
+    "summary": "A woman developed a severe allergic reaction to an antibiotic in her partner's semen after sex, prompting clinicians to call for this risk to be listed on the drug's patient information leaflet"
+   },
+   {
+    "outlet": "BBC",
+    "title": "'Fascinating' rare beetle found in Wales again after 60 years",
+    "link": "https://www.bbc.co.uk/news/articles/cry8317pdp5yo?at_medium=RSS&at_campaign=rss",
+    "published": "2026-11-01 07:08",
+    "summary": "It was feared The Short-Necked Oil Beetle had become extinct in Wales after recent surveys"
+   },
+   {
+    "outlet": "BBC",
+    "title": "Oil tank vandalism results in waterfowl park 'nightmare'",
+    "link": "https://www.bbc.co.uk/news/articles/c64g14ene2epo?at_medium=RSS&at_campaign=rss",
+    "published": "2026-11-01 06:42",
+    "summary": "The popular attraction in County Down has been forced to close while efforts continue to remove oil from the pond."
+   },
+   {
+    "outlet": "BBC",
+    "title": "'Rok' solid recognition for Slovenian space scientist",
+    "link": "https://www.bbc.co.uk/news/articles/cqx283v54zd6o?at_medium=RSS&at_campaign=rss",
+    "published": "2026-11-01 06:35",
+    "summary": "Two men from the Armagh Planetarium and Observatory have had asteroids named in their honour in recognition of their work."
+   },
+   {
+    "outlet": "BBC",
+    "title": "Rare damselfly spotted by restored chalk river",
+    "link": "https://www.bbc.co.uk/news/articles/c617kvqjd81jo?at_medium=RSS&at_campaign=rss",
+    "published": "2026-11-01 06:19",
+    "summary": "The Herts and Middlesex Trust says it is \"thrilled\" the new wetlands are helping species thrive."
+   }
+  ],
+  "space": [
+   {
+    "outlet": "NASA",
+    "title": "APOD: 2026 November 1 – Colors of the Moon",
+    "link": "https://science.nasa.gov/image-article/apod-2026-november-1-colors-of-the-moon/",
+    "published": "2026-11-01 04:05",
+    "summary": "APOD Science APOD APOD: 2026 November 1 –… Today’s APOD Archive Submissions Index Search Calendar RSS Education About Discuss APOD Astronomy Picture of the Day Discover the cosmos! Each day a different image or photograph of our fascinatin…"
+   },
+   {
+    "outlet": "Space.com",
+    "title": "Planetary defense: How military and civil satellites are watching fireballs to help keep Earth safe from space rocks",
+    "link": "https://www.space.com/stargazing/meteor-showers/planetary-defense-how-military-and-civil-satellites-are-watching-fireballs-to-help-keep-earth-safe-from-space-rocks",
+    "published": "2026-11-01 15:00",
+    "summary": "It came from outer space, exploding high above the South Atlantic off the coast of Argentina. That April 1 event — an incoming meteor , also termed a bolide — was observed by both U.S. space-based military and civil sensors. Hush-hush U.S.…"
+   },
+   {
+    "outlet": "NASA",
+    "title": "APOD: 2026 October 31 – Night on a Spooky Planet",
+    "link": "https://science.nasa.gov/image-article/apod-2026-october-31-night-on-a-spooky-planet/",
+    "published": "2026-10-31 04:05",
+    "summary": "APOD Science APOD APOD: 2026 October 31 –… Today’s APOD Archive Submissions Index Search Calendar RSS Education About Discuss APOD Astronomy Picture of the Day Discover the cosmos! Each day a different image or photograph of our fascinatin…"
+   },
+   {
+    "outlet": "Space.com",
+    "title": "On this day in space! Nov. 1, 1962: The Soviet Union Launches Mars 1 spacecraft to Red Planet during the Space Race",
+    "link": "https://www.space.com/space-exploration/on-this-day-in-space-november-1-2026",
+    "published": "2026-11-01 14:50",
+    "summary": "On Nov. 1, 1962, the Soviet Union launched the Mars 1 spacecraft on a mission to fly by the Red Planet. While it did end up flying by Mars , the mission was not exactly a success. After it separated from the rocket, it deployed its solar p…"
+   },
+   {
+    "outlet": "Space.com",
+    "title": "NASA's Swift space telescope is about to crash to Earth. Where will it fall?",
+    "link": "https://www.space.com/space-exploration/missions/nasas-swift-space-telescope-is-about-to-crash-to-earth-where-will-it-fall",
+    "published": "2026-11-01 13:00",
+    "summary": "NASA's Swift space telescope is expected to crash back to Earth in the next few days. The Neil Gehrels Swift Observatory will reenter Earth's atmosphere in an uncontrolled fashion, after a robotic rescue mission failed to boost the scope t…"
+   },
+   {
+    "outlet": "Space.com",
+    "title": "5 bright planets to spot in November — when and where to see them",
+    "link": "https://www.space.com/stargazing/5-bright-planets-to-spot-in-november-when-and-where-to-see-them",
+    "published": "2026-11-01 11:00",
+    "summary": "This is a great month for planet watching, either in the evenings or mornings. During convenient evening hours, the planet of choice is Saturn , visible well up in the southern sky during mid-to-late evening hours. Telescopically, the sout…"
+   },
+   {
+    "outlet": "Space.com",
+    "title": "9 nightmarish sci-fi spaceships to crawl aboard for Halloween if you dare",
+    "link": "https://www.space.com/entertainment/9-nightmarish-sci-fi-spaceships-to-crawl-aboard-for-halloween-if-you-dare",
+    "published": "2026-10-31 15:00",
+    "summary": "Abandoned, possessed, or infested spaceships in sci-fi films, books, and video games are usually not a welcoming place to hang your helmet and kick back inside. Many are distinctly marked as DO NOT APPROACH zones and equipped with clearly…"
+   },
+   {
+    "outlet": "Space.com",
+    "title": "This Week In Space podcast: Episode 234 — Living in Lunar Caves",
+    "link": "https://www.space.com/entertainment/space-movies-shows/this-week-in-space-podcast-episode-234-living-in-lunar-caves",
+    "published": "2026-10-31 13:36",
+    "summary": "On Episode 234 of This Week In Space , Tariq Malik and Mike Wall are joined by Than Putzig of the Planetary Science Institute about a NASA-backed payload bound for the Marius Hills Pit on the moon. In our ongoing quest to develop a moon ba…"
+   },
+   {
+    "outlet": "Space.com",
+    "title": "On this day in space! Oct. 31, 2015: Creepy skull-shaped Halloween asteroid flies by Earth, NASA names it the 'Great Pumpkin'",
+    "link": "https://www.space.com/space-exploration/on-this-day-in-space-october-31-2026",
+    "published": "2026-10-31 13:26",
+    "summary": "On October 31, 2015, an asteroid shaped like a human skull flew by Earth. It arrived with excellent timing on Halloween, which made the already-creepy asteroid even creepier. During its closest approach, the creepy asteroid was about 300,0…"
+   },
+   {
+    "outlet": "Space.com",
+    "title": "The moon, Mars, and Jupiter shine in the heart of the Lion overnight on Nov. 1-2",
+    "link": "https://www.space.com/stargazing/the-moon-mars-and-jupiter-shine-in-the-heart-of-the-lion-overnight-on-nov-1-2",
+    "published": "2026-10-31 13:00",
+    "summary": "The moon dives towards the glowing heart of the constellation Leo for a spectacular rendezvous with Mars and Jupiter overnight on Nov. 1-2, as the glittering stars of the Beehive Cluster shine nearby. Here's what you need to know. Look to…"
+   },
+   {
+    "outlet": "Space.com",
+    "title": "Betelgeuse is haunted by a cosmic poltergeist tormenting the doomed star's atmosphere",
+    "link": "https://www.space.com/astronomy/stars/betelgeuse-is-haunted-by-a-cosmic-poltergeist-tormenting-the-doomed-stars-atmosphere",
+    "published": "2026-10-31 12:00",
+    "summary": "Something spooky is stirring in the shadows of the infamous star Betelgeuse, a cosmic poltergeist that is disrupting the atmosphere of the red supergiant. New radio observations have shown Betelgeuse's smaller stellar companion, Siwarha (n…"
+   },
+   {
+    "outlet": "Space.com",
+    "title": "Halloween night sky 2026 — Saturn, shooting stars and a space station await US stargazers",
+    "link": "https://www.space.com/stargazing/halloween-night-sky-2026-saturn-shooting-stars-and-a-space-station-await-us-stargazers",
+    "published": "2026-10-31 10:00",
+    "summary": "There could be more than just ghosts and ghouls lurking in the skies this Halloween! From Saturn's spectacular rings to shooting stars and even a space station flyover, the night sky has a few treats of its own in store for U.S. skywatcher…"
+   },
+   {
+    "outlet": "Space.com",
+    "title": "Happy Halloween! SpaceX launches 27 Starlink satellites to orbit from California (video)",
+    "link": "https://www.space.com/space-exploration/launches-spacecraft/spacex-starlink-launch-falcon-9-group-15-18-landing-ocisly",
+    "published": "2026-10-31 05:24",
+    "summary": "SpaceX celebrated Halloween with an early-morning launch from California. A Falcon 9 rocket lifted off from Vandenberg Space Force Base today (Oct. 31) at 12:04 a.m. EDT (0404 GMT; 9:04 p.m. on Oct. 30 local time), sending 27 of the compan…"
+   }
+  ],
+  "politics": [
+   {
+    "outlet": "BBC",
+    "title": "Crypto firm Binance covers 90% of losses after $6.3bn hack",
+    "link": "https://www.bbc.co.uk/news/articles/ckpdg3ql4169o?at_medium=RSS&at_campaign=rss",
+    "published": "2026-11-01 13:11",
+    "summary": "The Federal Bureau of Investigation (FBI) says North Korea was responsible for the hack."
+   },
+   {
+    "outlet": "BBC Русская служба",
+    "title": "Протесты против роста стоимости жизни в Германии переросли в беспорядки с грабежами магазинов",
+    "link": "https://www.bbc.com/russian/articles/cmy0e4vdqn0yo?at_medium=RSS&at_campaign=rss",
+    "published": "2026-11-01 12:55",
+    "summary": "Демонстрации произошли во Франкфурте, Берлине, Кельне и Гамбурге. Протесты начались мирно, но к вечеру переросли в беспорядки, демонстранты били витрины и грабили магазины. В некоторых случаях полиция применила силу."
+   },
+   {
+    "outlet": "The Guardian",
+    "title": "Five teenagers hurt in stabbing at Halloween party in Hampshire",
+    "link": "https://www.theguardian.com/uk-news/2026/nov/01/teenagers-stabbing-halloween-party-hampshire",
+    "published": "2026-11-01 16:14",
+    "summary": "Police searching for ‘unknown group’ that gained entry to property in Chandler’s Ford on Saturday night Five teenage boys have been seriously hurt after being stabbed at a Halloween party in Hampshire, leading police to launch a search for…"
+   },
+   {
+    "outlet": "DW",
+    "title": "France opens attempted murder probe after protest attack",
+    "link": "https://www.dw.com/en/france-opens-attempted-murder-probe-after-protest-attack/a-79822853?maca=en-rss-en-all-1573-rdf",
+    "published": "2026-11-01 14:50",
+    "summary": "Paris prosecutors have opened an attempted murder investigation after a Molotov attack on police. France reported 779 arrests during nationwide protests and Halloween night, fewer than on previous weekends."
+   },
+   {
+    "outlet": "DW на русском",
+    "title": "Суд в США окончательно отклонил иск Трампа к WSJ по делу о клевете на 10 млрд долларов",
+    "link": "https://www.dw.com/ru/суд-в-сша-окончательно-отклонил-иск-трампа-к-wsj-по-делу-о-клевете-на-10-млрд-долларов/a-79823354?maca=rus-rss-ru-all-1126-rdf",
+    "published": "2026-11-01 16:10",
+    "summary": "Суд во Флориде окончательно отклонил иск президента США Дональда Трампа по делу о клевете к The Wall Street Journal на 10 млрд долларов. Трамп отрицал, что отправлял финансисту Джеффри Эпштейну поздравительную открытку."
+   },
+   {
+    "outlet": "NPR",
+    "title": "They signed up for a lifetime at sea on an endless cruise. High gas prices intervened",
+    "link": "https://www.npr.org/2026/11/01/nx-s1-6022214/they-signed-up-for-a-lifetime-at-sea-on-an-endless-cruise-high-gas-prices-intervened",
+    "published": "2026-11-01 13:15",
+    "summary": "A cruise ship suspended operations suddenly, citing soaring fuel costs. Passengers, including Randy Cassingham, had to disembark in Cambodia. NPR's Ayesha Rascoe talks to Cassingham about the ordeal."
+   },
+   {
+    "outlet": "Euronews",
+    "title": "Heidi Klum's 2026 Halloween party costume: a giant bloody replica of her own hand",
+    "link": "https://www.euronews.com/2026/11/01/heidi-klums-2026-halloween-party-costume-a-giant-bloody-replica-of-her-own-hand",
+    "published": "2026-11-01 16:05",
+    "summary": "“I looked at my hand and I thought, ‘Hey, I think I could fit my body in this somehow,’” Klum said of the inspiration for the costume, per the Associated Press."
+   },
+   {
+    "outlet": "France 24",
+    "title": "Data centres on the ballot: could the AI infrastructure shape US midterms?",
+    "link": "https://www.france24.com/en/data-centres-on-the-ballot-could-the-ai-infrastructure-shape-us-midterms",
+    "published": "2026-11-01 15:11",
+    "summary": "Voters from Ohio to Illinois decide dozens of local measures on Tuesday, as opposition to the giant buildings powering AI cuts across party lines."
+   },
+   {
+    "outlet": "NYT",
+    "title": "Thailand’s Most Famous Snake Catcher",
+    "link": "https://www.nytimes.com/video/world/asia/100000011244032/thailand-snake-catcher-bangkok.html",
+    "published": "2026-11-01 15:10",
+    "summary": "Pinyo Pukpinyo, Thailand’s most famous snake catcher, has found the critters slithering in nooks and crannies all over Bangkok. He refuses to kill them."
+   },
+   {
+    "outlet": "ABC Australia",
+    "title": "Tonga and Samoa can be State of Origin for the new century",
+    "link": "https://www.abc.net.au/news/2026-11-01/samoa-tonga-world-cup-rugby-league-origin/107334272",
+    "published": "2026-11-01 12:25",
+    "summary": "The scale and spectacle of Tonga's Rugby League World Cup win over Samoa was not just an instant classic, it proved a demand for this clash that rugby league must find a way to supply."
+   },
+   {
+    "outlet": "BBC",
+    "title": "Shops looted as German cost-of-living protests turn violent",
+    "link": "https://www.bbc.co.uk/news/articles/cqj34gnd3n30o?at_medium=RSS&at_campaign=rss",
+    "published": "2026-11-01 11:57",
+    "summary": "The protests in cities across Germany - including Berlin, Hamburg and Frankfurt - came on the same day hundreds of thousands also protested in France."
+   },
+   {
+    "outlet": "BBC Русская служба",
+    "title": "Президентские выборы в Болгарии: призывающая к переговорам с Россией Йотова против критика Кремля Гюрова",
+    "link": "https://www.bbc.com/russian/articles/cq1kdy0rwnd0o?at_medium=RSS&at_campaign=rss",
+    "published": "2026-11-01 12:49",
+    "summary": "Исполняющая обязанности президента Илиана Йотова, выступающая за диалог с Москвой и против военной помощи Украине, борется за пост с Андреем Гюровым — банкиром и бывшим исполняющим обязанности премьер-министра, которого поддерживает прозап…"
+   },
+   {
+    "outlet": "The Guardian",
+    "title": "Multiple shootings in Dallas leave four dead and 15 injured on Halloween night",
+    "link": "https://www.theguardian.com/us-news/2026/nov/01/shootings-halloween-night-dallas-birmingham",
+    "published": "2026-11-01 16:13",
+    "summary": "Separately, one person was killed and eight wounded in a Birmingham, Alabama, shooting after a football game Police in Dallas say four people are dead and 15 are injured following separate shootings in a Dallas neighborhood. The police chi…"
+   },
+   {
+    "outlet": "DW",
+    "title": "Ukraine: Russian attacks leave tens of thousands without power",
+    "link": "https://www.dw.com/en/ukraine-russian-attacks-leave-tens-of-thousands-without-power/live-79815409?maca=en-rss-en-all-1573-rdf",
+    "published": "2026-11-01 14:13",
+    "summary": "Volodymyr Zelenskyy says Russia struck energy infrastructure in at least four regions overnight. Meanwhile, a Melania Trump-brokered ceasefire for the Kherson region is set to end on Sunday evening. DW has more."
+   },
+   {
+    "outlet": "DW на русском",
+    "title": "Угроза теракта в \"Царицыно\": ФСБ задержала российского подростка, выложившего в TikTok фото с напоминающим оружие предметом и фото из парка \"Царицыно\"",
+    "link": "https://www.dw.com/ru/угроза-теракта-в-царицыно-фсб-задержала-российского-подростка-выложившего-в-tiktok-фото-с-напоминающим-оружие-предметом-и-фото-из-парка-царицыно/a-79823319?maca=rus-rss-ru-all-1126-rdf",
+    "published": "2026-11-01 15:37",
+    "summary": "ФСБ отчиталась о задержании несовершеннолетнего россиянина, опубликовавшего в TikTok фото с предметом, похожим на автоматическое оружие, и фото из \"Царицына\" с подписью: \"I found a place\"."
+   },
+   {
+    "outlet": "NPR",
+    "title": "Secretary Rubio has a tough time getting officials at G20 on the same page",
+    "link": "https://www.npr.org/2026/10/31/nx-s1-6022223/secretary-rubio-has-a-tough-time-getting-officials-at-g20-on-the-same-page",
+    "published": "2026-10-31 21:14",
+    "summary": "U.S. Secretary of State Marco Rubio is hosting the G20 foreign ministers' meeting in Atlanta, with a focus on economic and security challenges."
+   },
+   {
+    "outlet": "Euronews",
+    "title": "Russia arrests minor after US embassy warns of 'credible threat of a mass casualty event'",
+    "link": "https://www.euronews.com/2026/11/01/russia-arrests-minor-after-us-embassy-warns-of-credible-threat-of-a-mass-casualty-event",
+    "published": "2026-11-01 15:39",
+    "summary": "Russian state media published a statement from the Federal Security Service (FSB) on Sunday announcing that a minor had been detained in relation to the threat."
+   },
+   {
+    "outlet": "France 24",
+    "title": "Oleshky residents return to Ukraine",
+    "link": "https://www.france24.com/en/oleshky-residents-return-to-ukraine",
+    "published": "2026-11-01 14:56",
+    "summary": "Residents evacuated from Russian-occupied Oleshky have reached Ukrainian-held territory following a rare local truce. They described years of isolation, food shortages and regular shelling, with some saying they were forced to eat grass an…"
+   },
+   {
+    "outlet": "NYT",
+    "title": "India’s Congress Party Holds Mass Protest in New Delhi",
+    "link": "https://www.nytimes.com/2026/10/31/world/asia/congress-cjp-protest-delhi-india-modi.html",
+    "published": "2026-11-01 14:34",
+    "summary": "Tens of thousands gathered in India’s capital in a clamor of banging drums, chants and billowing flags, with participants from across the country."
+   },
+   {
+    "outlet": "ABC Australia",
+    "title": "Lebanon's team of tradies win in all-time great finish at World Cup",
+    "link": "https://www.abc.net.au/news/2026-11-01/rugby-league-world-cup-lebanon-france-golden-point-finish/107334186",
+    "published": "2026-11-01 11:14",
+    "summary": "Lebanon and France were not expected to produce one of the blockbusters of this Rugby League World Cup. But the two minnows showed great things can come from the most unexpected places."
+   },
+   {
+    "outlet": "BBC",
+    "title": "India's opposition holds mega rally seeking election chief's resignation",
+    "link": "https://www.bbc.co.uk/news/articles/c60qk92dvlwgo?at_medium=RSS&at_campaign=rss",
+    "published": "2026-11-01 07:00",
+    "summary": "Thousands gathered in the heart of delhi, calling for the chief election commissioner to step down."
+   },
+   {
+    "outlet": "BBC Русская служба",
+    "title": "Жуткий образ Хайди Клум на Хэллоуин: актриса пришла на вечеринку в наряде оторванной руки",
+    "link": "https://www.bbc.com/russian/watch/crq5n1qqyz15o?at_medium=RSS&at_campaign=rss",
+    "published": "2026-11-01 12:20",
+    "summary": "Страшный образ Хайди Клум на Хэллоуин: актриса пришла на вечеринку в наряде оторванной руки"
+   },
+   {
+    "outlet": "The Guardian",
+    "title": "Tens of thousands protest against Narendra Modi regime in Delhi",
+    "link": "https://www.theguardian.com/world/2026/nov/01/india-opposition-protest-rally-delhi",
+    "published": "2026-11-01 16:11",
+    "summary": "Led by Congress party, India’s opposition alliance channels anger over removal of 130 million names from voter roll Thousands of opposition supporters have gathered in Delhi as protests against the Narendra Modi government continue to gath…"
+   },
+   {
+    "outlet": "DW",
+    "title": "Ethnic Germans in Kazakhstan face legacy of the Soviet Union",
+    "link": "https://www.dw.com/en/ethnic-germans-in-kazakhstan-face-legacy-of-the-soviet-union/a-79754048?maca=en-rss-en-all-1573-rdf",
+    "published": "2026-11-01 13:00",
+    "summary": "Kazakhstan is struggling to deal with the legacy of the Soviet dictatorship. Some 85 years ago, Stalin deported hundreds of thousands of people: Some 400,000 ethnic Germans living in the USSR were sent to Kazakhstan."
+   },
+   {
+    "outlet": "DW на русском",
+    "title": "Глава МВД ФРГ Добриндт связал беспорядки на демонстрациях в стране с левыми группами и хулиганами из мигрантской среды и пообещал суровые последствия",
+    "link": "https://www.dw.com/ru/глава-мвд-фрг-добриндт-связал-беспорядки-на-демонстрациях-в-стране-с-левыми-группами-и-хулиганами-из-мигрантской-среды-и-пообещал-суровые-последствия/a-79823084?maca=rus-rss-ru-all-1126-rdf",
+    "published": "2026-11-01 15:02",
+    "summary": "Комментируя беспорядки, в которые вылились демонстрации сторонников движения Gen Z regelt во Франкфурте и других городах Германии, Добриндт связал их с воздействием \"левых групп и хулиганов из мигрантской среды\"."
+   },
+   {
+    "outlet": "NPR",
+    "title": "A new political era in the Southern Philippines",
+    "link": "https://www.npr.org/2026/10/31/nx-s1-6020639/a-new-political-era-in-the-southern-philippines",
+    "published": "2026-10-31 21:14",
+    "summary": "A new local government has taken its seat in the southern Philippines, in a step that marks a milestone in the peace process for a conflict that has lasted some 80 years."
+   },
+   {
+    "outlet": "Euronews",
+    "title": "University of Cambridge scientist among victims of deadly Spain train crash",
+    "link": "https://www.euronews.com/2026/11/01/university-of-cambridge-scientist-among-victims-of-deadly-spain-train-crash",
+    "published": "2026-11-01 15:14",
+    "summary": "Marta Shahbazi had been on her way to collect the 2026 José Luis Gómez-Skarmeta prize for her \"outstanding contributions to the study of the early stages of human development.\""
+   },
+   {
+    "outlet": "France 24",
+    "title": "French high school blockades to restart on Monday, student unions say",
+    "link": "https://www.france24.com/en/france/20261101-french-high-school-blockades-to-restart-on-monday-student-unions-say",
+    "published": "2026-11-01 14:31",
+    "summary": "The head of a student union said Sunday that high school blockades throughout France would restart on Monday. French President Emmanuel Macron has called for classes to resume after the government announced new measures to address the ongo…"
+   },
+   {
+    "outlet": "NYT",
+    "title": "Clashes Erupt Again in France, After Festive Start to Day of Protest",
+    "link": "https://www.nytimes.com/2026/10/31/world/europe/france-protests-clashes.html",
+    "published": "2026-11-01 14:25",
+    "summary": "More than 300,000 people took to the streets, some wearing Halloween costumes, before the demonstrations ended in violence."
+   },
+   {
+    "outlet": "ABC Australia",
+    "title": "Australia's latest World Cup smash-up helps nobody",
+    "link": "https://www.abc.net.au/news/2026-11-01/australia-wales-womens-rugby-league-world-cup/107334088",
+    "published": "2026-11-01 07:53",
+    "summary": "Australia ran up the biggest win in women's international rugby league history with its World Cup victory over Wales but it was the kind of result that served little purpose other than stuffing the stats sheet."
+   }
+  ],
+  "tech": [
+   {
+    "outlet": "The Verge",
+    "title": "A fully playable version of Portal prequel F-Stop leaked",
+    "link": "https://www.theverge.com/games/1024206/playable-portal-prequel-f-stop-leak",
+    "published": "2026-11-01 16:22",
+    "summary": "Leakers have pieced together a playable version of the canceled Portal prequel F-Stop. Most of the assets came from the massive 12-terabyte leak that dropped this August. That didn't include the game's source code or map data, but those fi…"
+   },
+   {
+    "outlet": "Ars Technica",
+    "title": "Seabirds racing home over the ocean can get jet-lagged",
+    "link": "https://arstechnica.com/science/2026/10/seabirds-racing-home-over-the-ocean-can-get-jet-lagged/",
+    "published": "2026-10-31 11:15",
+    "summary": "A long flight home from feeding grounds messes with birds' internal clocks."
+   },
+   {
+    "outlet": "Tom's Hardware",
+    "title": "Walmart honors massive shelf price mistake, lucky buyer gets two $2,299 CyberPowerPC gaming rigs for $1,099 each",
+    "link": "https://www.tomshardware.com/desktops/gaming-pcs/lucky-pc-buyer-gets-usd1-200-discount-on-9900x3d-gaming-pc-walmart-honors-usd1-099-shelf-price-on-usd2-299-unit",
+    "published": "2026-11-01 15:53",
+    "summary": "One shopper got the deal of a lifetime after they secured two CyberPowerPC units at more than 50% off. u/joker497 shared the find on the r/pcmasterrace subreddit , with Walmart putting two units of the Supreme Gaming Desktop for just $1,09…"
+   },
+   {
+    "outlet": "Wired",
+    "title": "The 30 Best Gifts for Star Wars Fans (2026)",
+    "link": "https://www.wired.com/gallery/best-star-wars-gifts/",
+    "published": "2026-11-01 12:30",
+    "summary": "From marble runs to advent calendars, these are the best Star Wars gifts for fans of all ages."
+   },
+   {
+    "outlet": "BBC",
+    "title": "These firms you've never heard of are feeding fears the AI bubble could burst",
+    "link": "https://www.bbc.co.uk/news/articles/cje36degrgv5o?at_medium=RSS&at_campaign=rss",
+    "published": "2026-11-01 01:37",
+    "summary": "The amount of debt held by data centres is measured in the tens of billions of pounds."
+   },
+   {
+    "outlet": "The Guardian",
+    "title": "AI is stealing Indigenous Australian art and churning out ‘Temu slop’, artist says",
+    "link": "https://www.theguardian.com/artanddesign/2026/nov/02/ai-stealing-indigenous-australian-art-temu-slop-artist-says-ntwnfb",
+    "published": "2026-11-01 14:00",
+    "summary": "Chair of National Gallery’s First Nations advisory group says the technology is undermining artists’ agency and the authenticity of their work Get our breaking news email , free app or daily news podcast AI is taking First Nations art and…"
+   },
+   {
+    "outlet": "The Verge",
+    "title": "HomePod Mini 2 first look: Three things I love and one disappointment",
+    "link": "https://www.theverge.com/tech/1024108/homepod-mini-2-hands-on-siri-smart-home-mac-speaker",
+    "published": "2026-11-01 16:04",
+    "summary": "When I first heard about the new $149 HomePod Mini 2 at Apple's Welcome Home event last month, I was disappointed. It's been six years since Apple launched its entry-level smart speaker, and all it got in the second gen was a chip bump, so…"
+   },
+   {
+    "outlet": "Ars Technica",
+    "title": "The FDA wants to pull its approval of a drug. It’s not so easy.",
+    "link": "https://arstechnica.com/science/2026/10/the-fda-wants-to-pull-its-approval-of-a-drug-its-not-so-easy/",
+    "published": "2026-10-31 11:02",
+    "summary": "The regulator says Tavneos was approved on the basis of manipulated study data. Should patients still have access to it?"
+   },
+   {
+    "outlet": "Tom's Hardware",
+    "title": "Brazilian lawyers busted for attempting to manipulate court's AI with prompt injection hidden in filing",
+    "link": "https://www.tomshardware.com/tech-industry/artificial-intelligence/brazilian-lawyers-busted-for-attempting-to-manipulate-courts-ai-with-prompt-injection-hidden-in-filing-courts-ai-flags-hidden-text-that-demanded-superficial-legal-scrutiny-lawyers-fined-usd16-000",
+    "published": "2026-11-01 15:05",
+    "summary": "A Brazilian labor court fined two lawyers after it discovered that their latest filing contained hidden text that attempted to influence its AI tool. Prof. Vladimir Aras of the University of Brazil (UnB) shared the court’s ruling on X [mac…"
+   },
+   {
+    "outlet": "Wired",
+    "title": "There’s a Free Video Editor Inside Google Drive That Anyone Can Use",
+    "link": "https://www.wired.com/story/google-vids-free-video-editor-inside-google-drive/",
+    "published": "2026-11-01 12:00",
+    "summary": "You may not have noticed everything Google’s free software suite offers—especially a web app called Google Vids."
+   },
+   {
+    "outlet": "BBC",
+    "title": "Why North Korea's 'elite' hackers are the prime suspect in major Binance hack",
+    "link": "https://www.bbc.co.uk/news/articles/ck9dz3v7z7v3o?at_medium=RSS&at_campaign=rss",
+    "published": "2026-10-31 02:12",
+    "summary": "If the accusations are true, the record-making heist shows how powerful suspected North Korean hackers have become."
+   },
+   {
+    "outlet": "The Guardian",
+    "title": "A gift to scammers: why you should probably keep your birthday a secret",
+    "link": "https://www.theguardian.com/money/2026/nov/01/do-not-share-date-of-birth-online-scam-fraudsters-advice",
+    "published": "2026-11-01 07:00",
+    "summary": "Using a fake DOB or leaving the field blank when making an online account can offer protection from identity theft You get a call from your bank saying there has been suspicious activity on your account. They read out your name, address an…"
+   },
+   {
+    "outlet": "The Verge",
+    "title": "North Korea linked to massive Binance crypto heist",
+    "link": "https://www.theverge.com/tech/1024176/north-korea-binance-crypto-heist",
+    "published": "2026-11-01 14:33",
+    "summary": "The FBI says North Korea was behind the massive $6.3 billion crypto heist that hit Binance on October 29th. The FBI labeled the activity \"TraderTraitor\" and said that it had observed actors it has connected to hack converting the tokens to…"
+   },
+   {
+    "outlet": "Tom's Hardware",
+    "title": "Biwin M560 2TB SSD Review: The DRAM-less drive to beat",
+    "link": "https://www.tomshardware.com/pc-components/ssds/biwin-m560-2tb-ssd-review",
+    "published": "2026-11-01 15:00",
+    "summary": "We’re back with another drive from Biwin, which has been putting out some good SSDs with minor exceptions. This one uses hardware we’ve wanted to test in retail for quite some time: the SMI SM2504XT SSD controller, which is hard to find. T…"
+   }
+  ],
+  "dev": [
+   {
+    "outlet": "InfoQ",
+    "title": "AWS Capacity Largely Sold Out Through 2027, With On Demand Headroom Reserved",
+    "link": "https://www.infoq.com/news/2026/11/aws-capacity-sold-out/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+    "published": "2026-11-01 08:03",
+    "summary": "Amazon CEO Andy Jassy says AWS’s large committed cloud capacity is largely sold out through 2027, with part of 2028 already allocated, while the company continues to reserve headroom for On Demand, EC2 and Bedrock. Practitioners discussing…"
+   },
+   {
+    "outlet": "LWN",
+    "title": "Final release for the 7.2 stable series",
+    "link": "https://lwn.net/Articles/1104629/",
+    "published": "2026-11-01 15:03",
+    "summary": "Greg Kroah-Hartman has announced the release of the 7.2.15 kernel, with a handful of updates. Note, this is the LAST 7.2.y kernel release. After this one the 7.2.y kernel tree is end-of-life. Please move to 7.3.y at this time. And yes, you…"
+   },
+   {
+    "outlet": "IEEE Spectrum",
+    "title": "When Electric Cars Were for Women",
+    "link": "https://spectrum.ieee.org/early-electric-vehicles",
+    "published": "2026-10-31 13:00",
+    "summary": "At the turn of the last century, the automobile industry was still new and evolving rapidly. In 1898, there were about 50 carmakers in the United States. A decade later, that number had increased fivefold. In 1901, the companies produced 7…"
+   },
+   {
+    "outlet": "InfoQ",
+    "title": "File Mover Express: AWS Releases Open-Source Tool for S3 File Transfers",
+    "link": "https://www.infoq.com/news/2026/11/aws-s3-file-transfer/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+    "published": "2026-11-01 06:32",
+    "summary": "AWS has recently released File Mover Express, an open-source application under the Apache 2.0 license for transferring large files between local systems and Amazon S3. Available for macOS, Windows, and Linux, it supports parallel transfers…"
+   },
+   {
+    "outlet": "LWN",
+    "title": "A massive pile of security updates for Saturday",
+    "link": "https://lwn.net/Articles/1104612/",
+    "published": "2026-10-31 22:34",
+    "summary": "Security updates have been issued by AlmaLinux (.NET 10.0, .NET 11.0, .NET 8.0, .NET 9.0, aspell, bind, bind9.18, container-tools:1.0, container-tools:rhel8, curl, dogtag-pki, ignition, java-21-openjdk, python-pillow, tomcat, and virt:rhel…"
+   },
+   {
+    "outlet": "InfoQ",
+    "title": "Cloudflare’s Post-Quantum GeoKey Manager Enters Closed Beta Without Attribute-Based Encryption",
+    "link": "https://www.infoq.com/news/2026/10/cf-pq-geokey-manager/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+    "published": "2026-10-31 19:56",
+    "summary": "Cloudflare has moved a post-quantum rebuild of GeoKey Manager into closed beta, guarding geo-fenced keys with hybrid ML-KEM-768 and X25519 instead of the attribute-based encryption used since 2022. Keys live only in kernel memory on verifi…"
+   },
+   {
+    "outlet": "LWN",
+    "title": "How We Could Have Backdoored Bash (Hacktron blog)",
+    "link": "https://lwn.net/Articles/1104262/",
+    "published": "2026-10-31 14:00",
+    "summary": "The Hacktron blog documents how the group was able to compromise the GNU Savannah forge and could have pushed malware into any of the projects hosted there. Using Hacktron, we found that an email address like `touch${IFS}/tmp/savane-rce-pr…"
+   },
+   {
+    "outlet": "InfoQ",
+    "title": "OpenBSD 8.0 Brings Expanded Hardware Support, Security Enhancements, and Virtualization Improvements",
+    "link": "https://www.infoq.com/news/2026/10/openbsd-8-released/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+    "published": "2026-10-31 17:00",
+    "summary": "OpenBSD 8.0 is a substantial upgrade bringing broader hardware compatibility, enhanced security, an expanded virtual address space, and support for modern architectures, including Intel Arc A-Series graphics support, ARM64 hibernation, RIS…"
+   },
+   {
+    "outlet": "InfoQ",
+    "title": "Spring News Roundup: First Release Candidates of Boot, Framework, Data, Security, Modulith, AI",
+    "link": "https://www.infoq.com/news/2026/10/spring-news-roundup-oct19-2026/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+    "published": "2026-10-31 13:30",
+    "summary": "There was a flurry of activity during the week of October 19th, 2026, highlighting: first release candidates of: Spring Boot, Spring Framework, Spring Data, Spring Cloud, Spring Security, Spring for GraphQL, Spring Session, Spring Integrat…"
+   },
+   {
+    "outlet": "InfoQ",
+    "title": "Kubernetes Confidential Containers Get Fortanix Attestation and Key Management",
+    "link": "https://www.infoq.com/news/2026/10/k8s-confidential-containers/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+    "published": "2026-10-31 08:18",
+    "summary": "Fortanix's CoCo integration connects workload attestation to decryption-key release for Kubernetes AI workloads. GPU-verification settings affect protection, while upstream Trustee and Azure Secure Key Release offer alternative routes to a…"
+   },
+   {
+    "outlet": "InfoQ",
+    "title": "LocalStack for Azure Enters Public Preview with Security Settings Stored but Not Enforced",
+    "link": "https://www.infoq.com/news/2026/10/localstack-azure-preview/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+    "published": "2026-10-31 07:57",
+    "summary": "LocalStack has opened its Azure emulator to a free public preview, running Azure services locally and accepting existing ARM, Bicep, and Terraform without rewrites. Its own documentation reports partial operation coverage per service and a…"
+   },
+   {
+    "outlet": "InfoQ",
+    "title": "Google Discloses PageBreak AI Security Agent That Found 500+ XSS Bugs",
+    "link": "https://www.infoq.com/news/2026/10/google-pagebreak-security-agent/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+    "published": "2026-10-31 06:20",
+    "summary": "According to a paper published by Google, its AI-powered security agent has uncovered more than 500 XSS vulnerabilities across its web applications since entering full operation in January. PageBreak uses Gemini models to autonomously inve…"
+   }
+  ],
+  "games": [
+   {
+    "outlet": "IGN",
+    "title": "Everyone Is Running a Con in You Can See Everything",
+    "link": "https://www.ign.com/articles/everyone-is-running-a-con-in-you-can-see-everything",
+    "published": "2026-11-01 13:00",
+    "summary": "Everyone is running a con in the Elizabeth Holmes Documentary You Can See Everything."
+   },
+   {
+    "outlet": "Eurogamer",
+    "title": "Dune: Awakening's free Blood and Ice expansion swaps sand for snow on 1st December",
+    "link": "https://www.eurogamer.net/dune-awakening-blood-and-ice-free-expansion",
+    "published": "2026-11-01 13:44",
+    "summary": "Funcom's survival MMO Dune: Awakening is heading north with a free expansion that trades the deserts of Arrakis for a frozen new map. Read more"
+   },
+   {
+    "outlet": "PC Gamer",
+    "title": "I'm glad that WoW: Forever'll have a slower, lo-fi update schedule, because I'm not playing this thing to be in a rush",
+    "link": "https://www.pcgamer.com/games/world-of-warcraft/im-glad-that-wow-foreverll-have-a-slower-lo-fi-update-schedule-because-im-not-playing-this-thing-to-be-in-a-rush/",
+    "published": "2026-11-01 16:00",
+    "summary": "Harvey Randall (Image credit: Future) I've played about 50+ hours of the World of Warcraft: Forever beta, and wouldn't you know it, I'm going to be playing a lot more when it comes out November 4. Earlier this week, Kris Zierhut, principal…"
+   },
+   {
+    "outlet": "Polygon",
+    "title": "A Persona 1 Remake Is In Development, New Leak Suggests",
+    "link": "https://www.polygon.com/persona-1-remake-leak/",
+    "published": "2026-11-01 16:14",
+    "summary": "Persona games really do have a bad habit of leaking ahead of their reveals, as gameplay of a Revelations: Persona remake has surfaced"
+   },
+   {
+    "outlet": "GameSpot",
+    "title": "The Biggest New Game Releases Of November 2026",
+    "link": "https://www.gamespot.com/articles/the-biggest-new-game-releases-of-november-2026/",
+    "published": "2026-11-01 07:00",
+    "summary": "Who would possibly think it's a good idea to launch a new game in the same month as Grand Theft Auto 6? That's probably what you're asking yourself, but a ton of new releases are coming before Rockstar's November 19 open-world crime caper,…"
+   },
+   {
+    "outlet": "IGN",
+    "title": "UK Deals: AliExpress Has a Ton of Early Black Friday Deals for Gamers",
+    "link": "https://www.ign.com/articles/uk-deals-aliexpress-has-a-ton-of-early-black-friday-deals-for-gamers",
+    "published": "2026-11-01 12:33",
+    "summary": "AliExpress launches a whole bunch of early Black Friday deals for tech lovers, including some excellent gaming and PC discounts, such as Nintendo Switch 2 consoles from just £335.52."
+   },
+   {
+    "outlet": "Eurogamer",
+    "title": "Pikmin 4 Nintendo Switch 2 Edition launches 12th November and a demo is out tomorrow",
+    "link": "https://www.eurogamer.net/pikmin-4-switch-2-edition-release-date-demo",
+    "published": "2026-11-01 10:04",
+    "summary": "Pikmin 4 Nintendo Switch 2 Edition will launch on 12th November, bundled with a new mode called Dandori Academy. Read more"
+   },
+   {
+    "outlet": "PC Gamer",
+    "title": "Forza co-creator Dan Greenawalt is reportedly leaving Microsoft",
+    "link": "https://www.pcgamer.com/games/racing/forza-co-creator-dan-greenawalt-is-reportedly-leaving-microsoft/",
+    "published": "2026-11-01 04:05",
+    "summary": "The Verge reports that Dan Greenawalt, studio head of Forza Motorsport developer Turn 10, is planning to retire after nearly 27 years, quoting an internal memo from Trevor Williams of Playground Games. \"Dan Greenawalt has decided that this…"
+   },
+   {
+    "outlet": "Polygon",
+    "title": "Itch.io Reveals Just How Much AI Slop Is Flooding Gaming Storefronts",
+    "link": "https://www.polygon.com/itch-io-doubled-game-pages-ai-slop/",
+    "published": "2026-11-01 15:36",
+    "summary": "The number of new game pages being created daily has doubled in the past two months, itch.io confirmed"
+   },
+   {
+    "outlet": "GameSpot",
+    "title": "Gears Of War Should Have Killed Off Marcus Fenix Years Ago",
+    "link": "https://www.gamespot.com/articles/gears-of-war-should-have-killed-off-marcus-fenix-years-ago/",
+    "published": "2026-10-31 20:00",
+    "summary": "Gears of War is arguably the most masculine property in video games. A franchise founded on the idea of muscular, refrigerator-sized dudes tearing apart stinky underground monsters with badass chainsaws until they’re covered in bloody visc…"
+   },
+   {
+    "outlet": "IGN",
+    "title": "Input Lag Is So Bad in Call of Duty: Modern Warfare 4 on Nintendo Switch 2 That Players Suffer From a 'Competitive Disadvantage'",
+    "link": "https://www.ign.com/articles/input-lag-is-so-bad-in-call-of-duty-modern-warfare-4-on-nintendo-switch-2-that-players-suffer-from-a-competitive-disadvantage",
+    "published": "2026-10-31 23:32",
+    "summary": "If you’re playing Call of Duty: Modern Warfare 4 on Nintendo Switch 2, beware: you’re at a disadvantage in competitive Multiplayer due to crushing input lag that is much worse than the other platforms."
+   },
+   {
+    "outlet": "Eurogamer",
+    "title": "PUBG live-action series in the works at Netflix, with Donald Glover set to direct and star",
+    "link": "https://www.eurogamer.net/pubg-live-action-netflix-series-donald-glover",
+    "published": "2026-10-31 17:35",
+    "summary": "PUBG is being turned into a live-action series for Netflix, with Donald Glover set to direct, write, executive produce, and star. Read more"
+   },
+   {
+    "outlet": "PC Gamer",
+    "title": "After almost a decade of work, Alien: Isolation mod tools hit 1.0 with support for 'full custom maps, missions, modes, characters, weapons, animations, sounds, models, textures, and more'",
+    "link": "https://www.pcgamer.com/games/horror/after-almost-a-decade-of-work-alien-isolation-mod-tools-hit-1-0-with-support-for-full-custom-maps-missions-modes-characters-weapons-animations-sounds-models-textures-and-more/",
+    "published": "2026-11-01 01:30",
+    "summary": "Nine years ago, Matt Filer officially began work on the OpenCAGE mod tools for Alien: Isolation—following two-and-a-half years of work on prototype versions. During that time the tools have been available for anyone to use, which is part o…"
+   },
+   {
+    "outlet": "Polygon",
+    "title": "New Fortnite Item Makes Everything on the Item Shop Completely Free",
+    "link": "https://www.polygon.com/fortnite-pirate-item-shop-access-token-free-how-to-get/",
+    "published": "2026-11-01 15:14",
+    "summary": "There's a rare item in Fortnite that grants free Item Shop cosmetics for two weeks, as part of the new One Piece season."
+   }
+  ],
+  "fashion": [
+   {
+    "outlet": "Vogue",
+    "title": "Hertunba Lagos Spring 2027",
+    "link": "https://www.vogue.com/fashion-shows/lagos-spring-2027/hertunba",
+    "published": "2026-11-01 16:24",
+    "summary": ""
+   },
+   {
+    "outlet": "Dezeen",
+    "title": "Tiered immigration hub by Aedas opens at Shenzhen-Hong Kong border",
+    "link": "https://www.dezeen.com/2026/11/01/new-huanggang-port-development-aedas-shenzhen-hong-kong/",
+    "published": "2026-11-01 11:00",
+    "summary": "Architecture studio Aedas has completed a tiered, round-edged building to house a new gateway between Hong Kong and Shenzhen, China. The post Tiered immigration hub by Aedas opens at Shenzhen-Hong Kong border appeared first on Dezeen ."
+   },
+   {
+    "outlet": "The Guardian",
+    "title": "Jess Cartner-Morley’s November style essentials: fancy flats, sexy knits and a Christmassy pigeon",
+    "link": "https://www.theguardian.com/thefilter/2026/nov/01/jess-cartner-morleys-november-style-essentials-2026",
+    "published": "2026-11-01 13:00",
+    "summary": "Whether it’s a two-in-one coat or a truly delicious handbag, add some fun to getting dressed during the cold, dark months with our expert’s favourites • The best women’s shoes and boots for autumn The clocks have gone back. The mornings ar…"
+   },
+   {
+    "outlet": "WWD",
+    "title": "Where to Watch the 2026 New York City Marathon Online Without Cable",
+    "link": "https://wwd.com/shop/shop-shoes/how-to-watch-nyc-marathon-online-free-livestream-2026-1239388908/",
+    "published": "2026-10-31 22:00",
+    "summary": "The 2026 TCS New York City Marathon promises to bring together nearly 60,000 runners from all over the world. Here's how to livestream the event for free online."
+   },
+   {
+    "outlet": "Vogue",
+    "title": "Oshobor Lagos Spring 2027",
+    "link": "https://www.vogue.com/fashion-shows/lagos-spring-2027/oshobor",
+    "published": "2026-11-01 16:24",
+    "summary": ""
+   },
+   {
+    "outlet": "Dezeen",
+    "title": "Dezeen's favourite furniture and homeware from October",
+    "link": "https://www.dezeen.com/2026/11/01/dezeens-favourite-furniture-homeware-october/",
+    "published": "2026-11-01 10:00",
+    "summary": "The first piece of furniture by architecture office Studio Hagen Hall and a pleated cabinet by Didi Ng Wing Yin feature in this roundup of design pieces spotted by Dezeen's Jane Englefield over the last month. The post Dezeen's favourite f…"
+   },
+   {
+    "outlet": "The Guardian",
+    "title": "A-listers and AI stylists: how high-street brands are staging a fashion comeback",
+    "link": "https://www.theguardian.com/fashion/2026/oct/31/a-listers-ai-stylists-high-street-brands-fashion-comeback",
+    "published": "2026-10-31 16:00",
+    "summary": "Gap, M&S, Topshop and more are taking a leaf from luxury label playbooks to satisfy savvier generation of shoppers High street brands that boomed in the noughties before the squeeze of both sustainably minded consumers and the rise of ultr…"
+   },
+   {
+    "outlet": "WWD",
+    "title": "Rita Ora Honors Dolly Parton in Push-Up Bra and Gucci Horsebit Heels",
+    "link": "https://wwd.com/footwear-news/shoe-trends/rita-ora-dolly-parton-costume-gucci-horsebit-heels-1239394862/",
+    "published": "2026-10-31 21:31",
+    "summary": "While attending a Halloween party on Friday night, Ora appeared in a Dolly Parton outfit complete with vibrant red pumps well-suited to the late singer’s style."
+   },
+   {
+    "outlet": "Vogue",
+    "title": "Harry Styles’s Thank-You Note to New York? A Special Issue of The Village Voice",
+    "link": "https://www.vogue.com/article/harry-styles-the-village-voice-special-issue",
+    "published": "2026-11-01 15:05",
+    "summary": "“It has been an honour to live and work in your city for the past three months,” Harry Styles writes in a note addressed to “friends, strangers, citizens of New York.” “The energy of the audiences, the openness, the dancing, the sheer joy,…"
+   },
+   {
+    "outlet": "Dezeen",
+    "title": "Scrapped marine rope recast as stools that rock like buoys",
+    "link": "https://www.dezeen.com/2026/11/01/buoy-stools-the-new-raw/",
+    "published": "2026-11-01 06:00",
+    "summary": "Rotterdam studio The New Raw has conceived stools from discarded rope salvaged at the city's harbour, which have been nominated for a Dezeen Award. The post Scrapped marine rope recast as stools that rock like buoys appeared first on Dezee…"
+   },
+   {
+    "outlet": "WWD",
+    "title": "Jennifer Hudson Shines in Floral Blockade Christian Siriano Gown at 2026 Daytime Emmys",
+    "link": "https://wwd.com/pop-culture/celebrity-news/jennifer-hudson-christian-siriano-gown-2026-daytime-emmys-1239394856/",
+    "published": "2026-10-31 21:23",
+    "summary": "The actress, who was nominated for her work on “The Jennifer Hudson Show,” sported a shimmering metallic dress for the event."
+   },
+   {
+    "outlet": "Vogue",
+    "title": "How Heidi Klum Transformed Into a Giant Hand For Her 2026 Halloween Costume",
+    "link": "https://www.vogue.com/article/heidi-klum-2026-halloween-costume-hand-10-31-2026",
+    "published": "2026-11-01 14:29",
+    "summary": "This year, the queen of Halloween transformed herself into a giant replica of her own hand. “I thought it would be funny and bizarre to take something so familiar and twist it.”"
+   },
+   {
+    "outlet": "Dezeen",
+    "title": "Em-Estudio lines Mexico City bar with walls of books",
+    "link": "https://www.dezeen.com/2026/10/31/libreria-valladolid-mexico-city-bar-em-estudio/",
+    "published": "2026-10-31 18:00",
+    "summary": "The vintage bookstores of Mexico City's Roma neighbourhood influenced the interiors of this basement bar, designed by local outfit Em-Estudio. The post Em-Estudio lines Mexico City bar with walls of books appeared first on Dezeen ."
+   },
+   {
+    "outlet": "WWD",
+    "title": "Jordyn and Jodie Woods Appear in Coordinated Feathered Stunt Heels at Woods by Jordyn New York City Popup",
+    "link": "https://wwd.com/footwear-news/shoe-trends/jordyn-and-jodie-woods-stunt-heels-woods-by-jordyn-popup-1239394836/",
+    "published": "2026-10-31 19:17",
+    "summary": "The sisters represented the brand with bold heels endowed with dramatic feathers around the ankle."
+   }
+  ],
+  "security": [
+   {
+    "outlet": "BleepingComputer",
+    "title": "Alpine Linux rebuilds GitLab after attempted RCE attack",
+    "link": "https://www.bleepingcomputer.com/news/security/alpine-linux-rebuilds-gitlab-after-attempted-rce-attack/",
+    "published": "2026-11-01 15:11",
+    "summary": "Hackers attempted to exploit a critical GitLab vulnerability in Alpine Linux's development infrastructure on October 20-21, prompting the open-source project to rebuild its GitLab server and reset all passwords over concerns of a possible…"
+   },
+   {
+    "outlet": "SecurityWeek",
+    "title": "Northstar Security Exits Stealth With $7M to Expose Toxic Risk Combinations",
+    "link": "https://www.securityweek.com/northstar-security-exits-stealth-with-7m-to-expose-toxic-risk-combinations/",
+    "published": "2026-11-01 11:15",
+    "summary": "The startup maps how identities, assets and vulnerabilities connect, and uses AI agents to find and fix risky combinations of issues. The post Northstar Security Exits Stealth With $7M to Expose Toxic Risk Combinations appeared first on Se…"
+   },
+   {
+    "outlet": "BleepingComputer",
+    "title": "OpenAI says it's doubling Pro usage limits and bringing Work features to Chat",
+    "link": "https://www.bleepingcomputer.com/news/artificial-intelligence/openai-says-its-doubling-pro-usage-limits-and-bringing-work-features-to-chat/",
+    "published": "2026-11-01 13:53",
+    "summary": "OpenAI has just confirmed that it's rolling out ChatGPT Work capabilities directly into regular Chat, while also combining usage allowances across ChatGPT and Codex. [...]"
+   },
+   {
+    "outlet": "SecurityWeek",
+    "title": "Syrian Hacker Gets Prison Time in US After Over a Decade on the Run",
+    "link": "https://www.securityweek.com/syrian-hacker-gets-prison-time-in-us-after-over-a-decade-on-the-run/",
+    "published": "2026-10-31 11:00",
+    "summary": "A US court sentenced Syrian hacker Ahmad Umar Agha to 42 months for pro-Assad attacks on media, businesses, and government entities. The post Syrian Hacker Gets Prison Time in US After Over a Decade on the Run appeared first on SecurityWee…"
+   },
+   {
+    "outlet": "BleepingComputer",
+    "title": "Northflank security breach leads to abuse of customers' AI API keys",
+    "link": "https://www.bleepingcomputer.com/news/security/northflank-security-breach-leads-to-abuse-of-customers-ai-api-keys/",
+    "published": "2026-10-31 18:01",
+    "summary": "Cloud application hosting platform Northflank is warning customers to rotate all credentials and secrets stored on its platform after a security breach led to unauthorized use of customers' AI API keys. [...]"
+   },
+   {
+    "outlet": "BleepingComputer",
+    "title": "New Android SMS of Death exploit can remotely crash unpatched phones",
+    "link": "https://www.bleepingcomputer.com/news/security/new-android-sms-of-death-exploit-can-remotely-crash-unpatched-phones/",
+    "published": "2026-10-31 15:35",
+    "summary": "A security researcher has released a proof-of-concept exploit for a recently patched Android vulnerability, dubbed \"SMS of Death\" and tracked as CVE-2026-58882, that lets attackers remotely disrupt cellular service or crash phones by sendi…"
+   },
+   {
+    "outlet": "BleepingComputer",
+    "title": "Reddit to lock content behind logins to fight scrapers",
+    "link": "https://www.bleepingcomputer.com/news/security/reddit-to-lock-content-behind-logins-to-fight-scrapers/",
+    "published": "2026-10-31 14:05",
+    "summary": "Reddit announced in a post by co-founder Steve Huffman that the site will gradually become a \"logged-in service,\" offering limited access to visitors without accounts. [...]"
+   },
+   {
+    "outlet": "BleepingComputer",
+    "title": "From Beginner to Bug Hunter: Learning Cybersecurity in the AI Era.",
+    "link": "https://www.bleepingcomputer.com/news/security/from-beginner-to-bug-hunter-learning-cybersecurity-in-the-ai-era/",
+    "published": "2026-10-31 13:10",
+    "summary": "AI-generated vulnerability reports are overwhelming some bug bounty programs, making it harder for aspiring security researchers to know where to start. TryHackMe explains how beginners can build practical cybersecurity skills, use AI resp…"
+   },
+   {
+    "outlet": "BleepingComputer",
+    "title": "Chainalysis discloses data breach from \"offensive agentic techniques\"",
+    "link": "https://www.bleepingcomputer.com/news/security/chainalysis-discloses-data-breach-from-offensive-agentic-techniques/",
+    "published": "2026-10-31 12:50",
+    "summary": "Blockchain analytics firm Chainalysis disclosed a data breach after attackers used \"offensive agentic techniques\" to access internal systems and tools, exposing customer names, email addresses, user IDs, and organizational roles. [...]"
+   }
+  ]
+ }
+}
