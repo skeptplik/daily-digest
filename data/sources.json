@@ -1,0 +1,34 @@
+{
+  "_comment": "Список изданий, которым доверяет сборщик. Правьте как хотите: добавляйте и удаляйте домены. Ни один источник не бывает полностью нейтральным, поэтому для политики дополнительно требуется подтверждение минимум двумя независимыми изданиями.",
+  "trusted": {
+    "world_news_agencies_and_broadcasters": [
+      "reuters.com", "apnews.com", "afp.com", "bbc.com", "bbc.co.uk", "dw.com", "france24.com",
+      "npr.org", "pbs.org", "euronews.com", "swissinfo.ch", "abc.net.au", "cbc.ca"
+    ],
+    "major_dailies_across_the_spectrum": [
+      "theguardian.com", "nytimes.com", "washingtonpost.com", "wsj.com", "ft.com", "economist.com", "bloomberg.com"
+    ],
+    "science_health_space": [
+      "nature.com", "science.org", "thelancet.com", "nejm.org", "bmj.com", "statnews.com", "newscientist.com",
+      "scientificamerican.com", "sciencenews.org", "quantamagazine.org", "who.int", "cdc.gov", "nih.gov",
+      "nasa.gov", "esa.int", "space.com"
+    ],
+    "ai_tech_dev": [
+      "arstechnica.com", "theverge.com", "wired.com", "technologyreview.com", "spectrum.ieee.org",
+      "techcrunch.com", "tomshardware.com", "anandtech.com", "infoq.com", "lwn.net"
+    ],
+    "games": [
+      "ign.com", "eurogamer.net", "gamespot.com", "pcgamer.com", "polygon.com", "gamesindustry.biz"
+    ],
+    "fashion_design": [
+      "businessoffashion.com", "vogue.com", "voguebusiness.com", "wwd.com", "dezeen.com"
+    ],
+    "security": [
+      "krebsonsecurity.com", "bleepingcomputer.com", "schneier.com", "cisa.gov", "therecord.media", "securityweek.com"
+    ]
+  },
+  "primary": [
+    "arxiv.org", "github.com", "github.blog", "openai.com", "anthropic.com", "deepmind.google", "blog.google",
+    "microsoft.com", "apple.com", "nvidia.com", "europa.eu", "un.org"
+  ]
+}
