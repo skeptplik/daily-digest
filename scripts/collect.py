@@ -108,6 +108,60 @@ def parse_feed(xml_bytes: bytes):
             yield row
 
 
+STOP = set("""this that with from have been were will would their there about after before over into more than they them
+what when which while also said says says news how why who new year years today week their could should being only
+для или как что это его все при она они еще уже после перед через между вчера сегодня году года время также которые
+которая который этого этом чтобы если были было быть будет своих""".split())
+
+
+def tokens(row):
+    text = (row["title"] + " " + row["summary"][:140]).lower()
+    return {w[:6] for w in re.findall(r"[a-zа-яё0-9]{4,}", text) if w not in STOP}
+
+
+def group_rows(rows, min_score=0.25):
+    """Группирует заголовки об одном событии (разные издания, один язык) по редким общим словам.
+    Возвращает список групп: [{"id", "outlets", "ids"}] только из 2+ изданий."""
+    from math import log
+    toks = [tokens(r) for r in rows]
+    df = {}
+    for t in toks:
+        for w in t:
+            df[w] = df.get(w, 0) + 1
+    n = len(rows)
+    idf = {w: log(n / c) for w, c in df.items()}
+    parent = list(range(n))
+
+    def find(x):
+        while parent[x] != x:
+            parent[x] = parent[parent[x]]
+            x = parent[x]
+        return x
+
+    for i in range(n):
+        for j in range(i + 1, n):
+            if rows[i]["outlet"] == rows[j]["outlet"]:
+                continue
+            common = toks[i] & toks[j]
+            if len(common) < 2:
+                continue
+            w_common = sum(idf[w] for w in common)
+            w_min = min(sum(idf[w] for w in toks[i]), sum(idf[w] for w in toks[j])) or 1
+            if w_common / w_min >= min_score and w_common >= 3.5:
+                parent[find(i)] = find(j)
+    buckets = {}
+    for i in range(n):
+        buckets.setdefault(find(i), []).append(i)
+    groups = []
+    for members in buckets.values():
+        outlets = sorted({rows[i]["outlet"] for i in members})
+        if len(outlets) >= 2:
+            groups.append({"outlets": outlets, "ids": [rows[i]["id"] for i in members]})
+    for k, g in enumerate(sorted(groups, key=lambda g: -len(g["outlets"])), 1):
+        g["id"] = f"g{k}"
+    return groups
+
+
 def article_id(link: str) -> str:
     return hashlib.sha1(link.encode("utf-8")).hexdigest()[:10]
 
@@ -183,10 +237,16 @@ def main() -> int:
     for r, ok_ in zip(rows_all, got):
         r["has_text"] = bool(ok_)
     print(f"Тексты статей: сохранено {sum(got)} из {len(rows_all)}")
+    groups = group_rows(rows_all)
+    by_id = {r["id"]: r for r in rows_all}
+    for g in sorted(groups, key=lambda g: g["id"]):
+        for i in g["ids"]:
+            by_id[i]["group"] = g["id"]
+    print(f"События с 2+ изданиями: {len(groups)}")
 
     total = sum(len(v) for v in topics.values())
     out = {"generated_at": now.strftime("%Y-%m-%d %H:%M UTC"), "window_hours": WINDOW_HOURS,
-           "feeds_ok": ok, "feeds_failed": failed, "topics": topics}
+           "feeds_ok": ok, "feeds_failed": failed, "groups": groups, "topics": topics}
     (ROOT / "data/candidates.json").write_text(json.dumps(out, ensure_ascii=False, indent=1), encoding="utf-8")
     print(f"Итого заголовков: {total}, лент ок: {ok}, с ошибкой: {len(failed)}")
     return 0

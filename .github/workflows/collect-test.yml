@@ -33,6 +33,15 @@ jobs:
                  "total": sum(v[0] for v in st.values()), "with_text": sum(v[1] for v in st.values()),
                  "text_bytes_total": sum(sizes), "by_outlet": {k: {"rows": v[0], "text": v[1]} for k, v in sorted(st.items())},
                  "log": open("probe-collect.log", encoding="utf-8").read().splitlines()[-12:]}
+          import random
+          random.seed(1)
+          files = sorted(pathlib.Path("data/articles").glob("*.txt"))
+          tails = []
+          for f in random.sample(files, min(14, len(files))):
+              lines = [l for l in f.read_text(encoding="utf-8").splitlines() if l.strip()]
+              tails.append({"id": f.stem, "lines": len(lines), "first": lines[0][:90], "last2": [l[:110] for l in lines[-2:]]})
+          out["tails"] = tails
+          out["groups"] = c.get("groups", [])
           json.dump(out, open("probe/collect-summary.json", "w", encoding="utf-8"), ensure_ascii=False, indent=1)
           PY
       - name: Save summary to branch
