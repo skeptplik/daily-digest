@@ -53,3 +53,4 @@ jobs:
           git status --short
           git commit -m "Сводка пробы collect"
           git push origin HEAD:claude/reader
+# retrigger 1793568112

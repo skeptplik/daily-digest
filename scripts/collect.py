@@ -162,6 +162,20 @@ def group_rows(rows, min_score=0.25):
     return groups
 
 
+# служебные строки страниц, которые trafilatura иногда оставляет в тексте
+JUNK_RE = re.compile(
+    r"^(-\s*)?published(\s*[-:].*)?$|^updated\s*[-:].*$|^you must confirm your public display name|^please logout and then login|"
+    r"^sign up (for|to) our|^subscribe (to|for|now)|^for stories about life in our changing world|^read more:?|"
+    r"^related( articles| stories| topics)?:?$|^advertisement$|^share this (article|story)|^follow us on|^click here to|"
+    r"^читайте также|^подписывайтесь",
+    re.I)
+
+
+def strip_junk(text: str) -> str:
+    lines = [l for l in text.splitlines() if l.strip() and not JUNK_RE.match(l.strip())]
+    return chr(10).join(lines)
+
+
 def article_id(link: str) -> str:
     return hashlib.sha1(link.encode("utf-8")).hexdigest()[:10]
 
@@ -179,6 +193,7 @@ def fetch_text(row):
         text = trafilatura.extract(r.text, include_comments=False, include_tables=False, favor_precision=True) or ""
     except Exception:
         return False
+    text = strip_junk(text)
     if len(text) < 400:  # слишком коротко: скорее всего заглушка или пейволл
         return False
     if len(text) > ARTICLE_CHARS:

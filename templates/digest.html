@@ -58,16 +58,21 @@ h1{margin:6px 0 4px;font-size:clamp(28px,8vw,38px);line-height:1.05;letter-spaci
 
 /* карточки тем */
 .tc{margin:16px 16px 0;border-radius:24px;overflow:hidden;background:var(--sf);border:1px solid var(--ln);box-shadow:var(--shadow)}
-.cov{position:relative;display:block;width:100%;height:132px;border:0;padding:0;cursor:pointer;text-align:left;color:#fff;
+.cov{position:relative;display:block;width:100%;height:80px;border:0;padding:0;cursor:pointer;text-align:left;color:#fff;
   background:linear-gradient(135deg,var(--a),var(--b));background-size:cover;background-position:center}
 .cov:after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,rgba(0,0,0,.05),rgba(0,0,0,.78))}
-.cov .em{position:absolute;right:10px;top:-4px;font-size:84px;opacity:.35}
-.cv-in{position:absolute;left:0;right:0;bottom:0;z-index:2;display:flex;align-items:center;gap:12px;padding:14px 16px}
+.cov .em{position:absolute;right:12px;top:6px;font-size:52px;opacity:.3}
+.cv-in{position:absolute;left:0;right:0;bottom:0;top:0;z-index:2;display:flex;align-items:center;gap:12px;padding:0 16px}
 .cv-in .ic{width:40px;height:40px;border-radius:13px;display:grid;place-items:center;font-size:21px;background:rgba(255,255,255,.2);backdrop-filter:blur(8px);-webkit-backdrop-filter:blur(8px)}
 .cv-in .tt{font-weight:800;font-size:19px;line-height:1.15}
 .cv-in .tt small{display:block;font-weight:500;font-size:12.5px;opacity:.85}
 .cv-in .pl{margin-left:auto;flex:none;width:36px;height:36px;border-radius:50%;display:grid;place-items:center;background:#fff;color:#000;font-size:14px}
 .rows{padding:4px 8px 8px}
+.also{margin:0 16px 14px;padding:11px 12px;border-radius:16px;background:var(--chip);border:1px solid var(--ln)}
+.also h4{margin:0 0 6px;font-size:12px;letter-spacing:.06em;text-transform:uppercase;color:var(--mu)}
+.also p{margin:0 0 7px;font-size:14px;line-height:1.35}
+.also p:last-child{margin-bottom:0}
+.also small{display:block;color:var(--mu);font-size:12px;margin-top:1px}
 .rw{display:flex;gap:12px;align-items:center;width:100%;border:0;background:none;text-align:left;cursor:pointer;padding:8px;border-radius:16px}
 .rw:active{background:var(--chip)}
 .th{position:relative;flex:none;width:76px;height:76px;border-radius:16px;overflow:hidden;display:grid;place-items:center;font-size:28px;
@@ -165,17 +170,17 @@ var NEWS={
   de:function(n){return n+' '+(n===1?'Meldung':'Meldungen')}
 };
 var UI={
- ru:{title:'Дайджест дня',top:'Главное за день',play:'Смотреть только важное',playSub:'Самое главное изо всех тем',of:'из',min:'мин',read:'Читать',rdAi:'Перевод ИИ',rdSrc:'Источник',rdOrig:'Оригинал ↗ (может не открыться из вашей сети)',rdNote:'Текст переведён ИИ с оригинала и может содержать неточности. Оригинал доступен по ссылке.',
+ ru:{title:'Дайджест дня',top:'Главное за день',play:'Смотреть только важное',playSub:'Самое главное изо всех тем',of:'из',min:'мин',read:'Читать',also:'Также интересно',rdAi:'Перевод ИИ',rdSrc:'Источник',rdOrig:'Оригинал ↗ (может не открыться из вашей сети)',rdNote:'Текст переведён ИИ с оригинала и может содержать неточности. Оригинал доступен по ссылке.',
   head:'Главное за ',hot:'🔥 Очень важно',mid:'⭐ Заметно',
   vOk:'✅ Подтверждено независимыми источниками: ',vPrim:'📄 Опирается на первоисточник',vWarn:'⚠️ Пока сообщает один независимый источник',vOne:'☝️ Один проверенный источник',vOut:'⚠️ Источник вне списка проверенных',
   demo:'⚠️ <b>Демо-данные.</b> Новости выдуманы, фото заменены заглушками. В настоящем дайджесте фото берутся из самих статей, а источники проверяются по списку надёжных изданий.',
   foot:'Собрано автоматически',foot2:'Краткие пересказы по независимым источникам. Подробности по ссылкам внутри историй.'},
- en:{title:'Daily Digest',top:'Top of the day',play:'Watch only the top stories',playSub:'The most important from all topics',of:'of',min:'min',read:'Read',rdAi:'AI translation',rdSrc:'Source',rdOrig:'Original ↗ (may not open from your network)',rdNote:'Translated by AI from the original; may contain inaccuracies.',
+ en:{title:'Daily Digest',top:'Top of the day',play:'Watch only the top stories',playSub:'The most important from all topics',of:'of',min:'min',read:'Read',also:'Also of interest',rdAi:'AI translation',rdSrc:'Source',rdOrig:'Original ↗ (may not open from your network)',rdNote:'Translated by AI from the original; may contain inaccuracies.',
   head:'Top stories of ',hot:'🔥 Very important',mid:'⭐ Notable',
   vOk:'✅ Confirmed by independent sources: ',vPrim:'📄 Based on a primary source',vWarn:'⚠️ Only one independent source so far',vOne:'☝️ One trusted source',vOut:'⚠️ Source not on the trusted list',
   demo:'⚠️ <b>Demo data.</b> The stories are made up and photos are placeholders. Real digests use photos from the articles and check sources against a trusted list.',
   foot:'Compiled automatically',foot2:'Short summaries from independent sources. Details via the links inside each story.'},
- de:{title:'Tagesüberblick',top:'Das Wichtigste des Tages',play:'Nur das Wichtigste ansehen',playSub:'Das Wichtigste aus allen Themen',of:'von',min:'Min.',read:'Lesen',rdAi:'KI-Übersetzung',rdSrc:'Quelle',rdOrig:'Original ↗ (aus Ihrem Netz evtl. nicht erreichbar)',rdNote:'Von KI aus dem Original übersetzt; kann Ungenauigkeiten enthalten.',
+ de:{title:'Tagesüberblick',top:'Das Wichtigste des Tages',play:'Nur das Wichtigste ansehen',playSub:'Das Wichtigste aus allen Themen',of:'von',min:'Min.',read:'Lesen',also:'Außerdem interessant',rdAi:'KI-Übersetzung',rdSrc:'Quelle',rdOrig:'Original ↗ (aus Ihrem Netz evtl. nicht erreichbar)',rdNote:'Von KI aus dem Original übersetzt; kann Ungenauigkeiten enthalten.',
   head:'Das Wichtigste vom ',hot:'🔥 Sehr wichtig',mid:'⭐ Bemerkenswert',
   vOk:'✅ Von unabhängigen Quellen bestätigt: ',vPrim:'📄 Beruht auf einer Primärquelle',vWarn:'⚠️ Bisher nur eine unabhängige Quelle',vOne:'☝️ Eine vertrauenswürdige Quelle',vOut:'⚠️ Quelle nicht auf der Vertrauensliste',
   demo:'⚠️ <b>Demodaten.</b> Die Meldungen sind erfunden, die Fotos nur Platzhalter. Echte Ausgaben nutzen Fotos aus den Artikeln und prüfen die Quellen anhand einer Liste vertrauenswürdiger Medien.',
@@ -242,7 +247,9 @@ function renderHome(){
       h+='<button class="rw" data-g="'+k+'" data-i="'+i+'"><span class="th" style="'+bgs(it)+'">'+(it.img?'':t.emoji)+(it.importance===3?'<i class="fire">🔥</i>':'')+
         '</span><span class="rt"><b>'+esc(L(it,'title'))+'</b><small>'+esc(names(it))+' · '+it.minutes+' '+u.min+(it.indep>=2?' · ✅':'')+'</small></span></button>';
     });
-    h+='</div></section>';
+    h+='</div>';
+    if(t.also&&t.also.length){h+='<div class="also"><h4>'+u.also+'</h4>'+t.also.map(function(a){return '<p>'+esc(a.title)+(a.summary?'<small>'+esc(a.summary)+'</small>':'')+(a.src?'<small>'+esc(a.src)+'</small>':'')+'</p>'}).join('')+'</div>'}
+    h+='</section>';
   });
   document.getElementById('list').innerHTML=h;
 }

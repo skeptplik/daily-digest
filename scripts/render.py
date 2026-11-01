@@ -358,6 +358,12 @@ def main():
                 "photos": [],
                 "_topic": topic,
             })
+        topic["also"] = []
+        for a in (t.get("also") or [])[:3]:
+            if isinstance(a, dict) and s(a.get("title"), 140):
+                srcs, _ = norm_sources(a, trusted, primary)
+                topic["also"].append({"title": s(a.get("title"), 140), "summary": s(a.get("summary"), 200),
+                                      "src": ", ".join(x["name"] for x in srcs)})
         if topic["items"]:
             topics.append(topic)
     order = list(TOPICS)

@@ -53,6 +53,11 @@ for t in d["topics"]:
     if not isinstance(items, list) or not items:
         errors.append(f"тема {tid}: нет items")
         continue
+    for a in (t.get("also") or []):
+        for sx in (a.get("sources") or []) if isinstance(a, dict) else []:
+            u = sx.get("url") if isinstance(sx, dict) else None
+            if known and u and u not in known and not d.get("demo"):
+                errors.append(f"{tid} also: ссылки нет в candidates.json: {str(u)[:90]}")
     if len(items) > 4:
         warns.append(f"тема {tid}: {len(items)} новостей (в промпте не больше 4)")
     for n, it in enumerate(items, 1):
