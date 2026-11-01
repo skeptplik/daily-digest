@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Отправляет в Telegram ссылку на дайджест и сам HTML-файл."""
+"""Отправляет в Telegram ОДНО текстовое сообщение: главное за день и ссылка на дайджест."""
 import json
 import os
 import sys
@@ -15,34 +15,35 @@ if not token or not chat:
     print("::warning::Секреты TELEGRAM_BOT_TOKEN / TELEGRAM_CHAT_ID не заданы, отправка пропущена.")
     sys.exit(0)
 
-out = Path("out")
-meta = json.loads((out / "meta.json").read_text(encoding="utf-8"))
-api = f"https://api.telegram.org/bot{token}"
+meta = json.loads(Path("out/meta.json").read_text(encoding="utf-8"))
+data = json.loads(Path("data/digest.json").read_text(encoding="utf-8"))
+
+ICONS = {"ai": "🤖", "health": "🩺", "science": "🔬", "space": "🚀", "politics": "🌍",
+         "tech": "💻", "dev": "⌨️", "games": "🎮", "fashion": "👗", "security": "🔐"}
+
+items = [(t["id"], i) for t in data.get("topics", []) for i in t.get("items", [])]
+total = len(items)
+hot = [(tid, i) for tid, i in items if i.get("importance") == 3][:7]
+if not hot:  # на случай, если важных нет: берём самые заметные
+    hot = [(tid, i) for tid, i in items if i.get("importance") == 2][:5]
 
 demo = "🧪 ДЕМО · " if meta.get("demo") else ""
-text = f"{demo}☀️ Дайджест · события за {meta['news_day']}\n\n"
+text = f"{demo}☀️ Дайджест · события за {meta['news_day']}\n"
 if meta.get("headline"):
-    text += meta["headline"] + "\n\n"
-text += f"🔗 {page_url}"
+    text += f"\n{meta['headline']}\n"
+if hot:
+    text += "\n🔥 Главное:\n"
+    for tid, i in hot:
+        text += f"{ICONS.get(tid, '•')} {i['title']}\n"
+text += f"\nВсего новостей: {total}. Все темы, фото и источники внутри:\n🔗 {page_url}"
+text = text[:4000]
 
-ok = True
 try:
-    r = requests.post(f"{api}/sendMessage", data={"chat_id": chat, "text": text}, timeout=30)
+    r = requests.post(f"https://api.telegram.org/bot{token}/sendMessage",
+                      data={"chat_id": chat, "text": text, "disable_web_page_preview": "false"},
+                      timeout=30)
     print("sendMessage:", r.status_code, r.json().get("description", "ok"))
-    ok &= r.ok
-
-    path = out / meta["file"]
-    with path.open("rb") as fh:
-        r = requests.post(
-            f"{api}/sendDocument",
-            data={"chat_id": chat, "caption": "📎 Копия для чтения без интернета (с картинками)"},
-            files={"document": (path.name, fh, "text/html")},
-            timeout=120,
-        )
-    print("sendDocument:", r.status_code, r.json().get("description", "ok"))
-    ok &= r.ok
+    sys.exit(0 if r.ok else 1)
 except Exception as e:  # не печатаем детали запроса, чтобы не светить токен
     print("::error::Ошибка отправки в Telegram:", type(e).__name__)
-    ok = False
-
-sys.exit(0 if ok else 1)
+    sys.exit(1)
