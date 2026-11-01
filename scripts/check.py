@@ -22,6 +22,21 @@ try:
 except Exception as e:
     problems.append(f"не удалось прочитать data/digest.json ({type(e).__name__})")
 
+# сайт на GitHub Pages тоже должен показывать сегодняшний дайджест (ловит сбой публикации/проверки)
+if not problems:
+    try:
+        import re
+        owner = os.environ.get("GITHUB_REPOSITORY", "skeptplik/daily-digest").split("/")
+        page = requests.get(f"https://{owner[0].lower()}.github.io/{owner[1]}/?t={today}", timeout=30).text
+        m = re.search(r'<meta name="digest-date" content="(\d{4}-\d{2}-\d{2})"', page)
+        if not m:
+            problems.append("на сайте не нашлась дата дайджеста (страница не открылась или пустая)")
+        elif m.group(1) != today:
+            problems.append(f"файл дайджеста обновлён, но сайт показывает {m.group(1)}: "
+                            "откройте Actions → Publish digest, возможно сборка упала на проверке данных")
+    except Exception as e:
+        print("warn: сайт не проверен:", type(e).__name__)
+
 cand = None
 try:
     cand = json.loads((ROOT / "data/candidates.json").read_text(encoding="utf-8"))
@@ -42,7 +57,14 @@ if not problems:
     sys.exit(0)
 
 text = "⚠️ Дайджест на сегодня не собран.\n\n" + "\n".join(f"• {p}" for p in problems)
-text += "\n\nЧто сделать: claude.ai/code/routines → «Утренний дайджест» → Run now."
+try:
+    engine = json.loads((ROOT / "data/engine.json").read_text(encoding="utf-8")).get("engine", "claude")
+except Exception:
+    engine = "claude"
+if engine == "codex":
+    text += "\n\nАктивный движок: Codex. Что сделать: откройте автоматизацию дайджеста в Codex и запустите её вручную."
+else:
+    text += "\n\nАктивный движок: Claude. Что сделать: claude.ai/code/routines → «Утренний дайджест» → Run now."
 print(text)
 token = os.environ.get("TELEGRAM_BOT_TOKEN", "").strip()
 chat = os.environ.get("TELEGRAM_CHAT_ID", "").strip()

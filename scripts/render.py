@@ -26,7 +26,10 @@ from PIL import Image, ImageOps
 Image.MAX_IMAGE_PIXELS = 40_000_000
 
 ROOT = Path(__file__).resolve().parent.parent
-DATA = ROOT / "data" / "digest.json"
+# DIGEST_FILE: отрисовать другой файл (например, дайджест от другой модели) только в out/preview-ИМЯ.html,
+# не трогая site/ и рассылку (режим сравнения моделей)
+PREVIEW_SRC = os.environ.get("DIGEST_FILE")
+DATA = Path(PREVIEW_SRC).resolve() if PREVIEW_SRC else ROOT / "data" / "digest.json"
 SOURCES = ROOT / "data" / "sources.json"
 SITE = ROOT / "site"
 OUT = ROOT / "out"
@@ -387,6 +390,11 @@ def main():
 
     SITE.mkdir(exist_ok=True)
     OUT.mkdir(exist_ok=True)
+    if PREVIEW_SRC:
+        target = OUT / f"preview-{DATA.stem}.html"
+        target.write_text(html, encoding="utf-8")
+        print(f"Предпросмотр: {target} ({len(all_items)} новостей, {len(topics)} тем)")
+        return 0
     (SITE / "index.html").write_text(html, encoding="utf-8")
     (SITE / ".nojekyll").write_text("", encoding="utf-8")
     (OUT / f"digest-{date_iso}.html").write_text(html, encoding="utf-8")

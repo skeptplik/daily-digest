@@ -21,7 +21,21 @@
 | `routine_prompt.md` | Источник правды для промпта облачной задачи. Копия живёт ВНУТРИ задачи в claude.ai (см. docs/OPERATIONS.md) |
 | `local/` | Скрипты Windows: `Install-Task.ps1`, `Get-Digest.ps1` |
 | `.github/workflows/` | `collect.yml`, `publish.yml`, `check.yml` |
-| `docs/` | STATUS, ARCHITECTURE, OPERATIONS, DECISIONS, ROADMAP, SETUP-VSCODE |
+| `scripts/validate.py` | Проверка `digest.json` перед публикацией (формат, темы, ссылки есть в candidates). Запускается в `publish.yml` |
+| `scripts/make_handoff.py` | Готовит `handoff/PROMPT-FOR-OTHER-AI.md`: запрос для ChatGPT/любой модели из `routine_prompt.md` + сегодняшние заголовки |
+| `handoff/` | Файл-запрос для других ИИ, обновляется каждую ночь в `collect.yml` |
+| `data/engine.json` | Какой движок сейчас пишет дайджест (claude или codex), читается `check.py` |
+| `docs/` | SWITCH-TO-CODEX, SWITCH-TO-CLAUDE, ENGINES, STATUS, ARCHITECTURE, OPERATIONS, DECISIONS, ROADMAP, SETUP-VSCODE |
+
+## Смена редактора дайджеста (Claude ⇄ Codex)
+«Редактор» — это ИИ, который каждое утро пишет `data/digest.json`. Сейчас он записан в `data/engine.json` (`claude` или `codex`).
+
+**Если владелец говорит что-то вроде «переключись на Codex», «пусть дайджест ведёт Codex», «переключись на Claude», «ты теперь главный», «вернись на Claude»: это команда сменить редактора.** Сделайте так:
+1. Откройте `data/engine.json` и узнайте, кто главный сейчас. Если владелец просит того же, кто уже главный, скажите об этом и ничего не меняйте.
+2. Если просят Codex: выполните `docs/SWITCH-TO-CODEX.md` пошагово. Если просят Claude: выполните `docs/SWITCH-TO-CLAUDE.md`. Остановитесь на шагах, где нужно действие владельца (поставить прежнего редактора на паузу, подтвердить), и подождите ответа.
+3. Не пропускайте шаг «остановить прежнего редактора»: двое одновременно перезапишут друг друга и пришлют в Telegram дубль.
+4. Закончив, обновите `data/engine.json` и `docs/STATUS.md` и скажите владельцу, что именно теперь работает и как проверить.
+Владельцу не нужно помнить детали: ему достаточно сказать любому из агентов одну из фраз выше. Не начинайте смену по собственной инициативе без такой просьбы.
 
 ## Поток данных (UTC, зимнее время Польши = UTC+1)
 03:00 `collect.yml` собирает заголовки → 05:12 (06:12 Варшава) облачная задача Claude читает `candidates.json`, пишет `digest.json`, пушит в `main` → пуш запускает `publish.yml` (сборка, GitHub Pages, Telegram) → 06:15 UTC `check.yml` проверяет результат → 06:30 по часам ПК задача Windows скачивает файл. Подробности в `docs/ARCHITECTURE.md`.

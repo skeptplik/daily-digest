@@ -8,6 +8,8 @@
 
 ## Документы
 - `docs/SETUP-VSCODE.md`: как начать работу в папке (VS Code, Claude Code, Codex)
+- `docs/SWITCH-TO-CODEX.md` и `docs/SWITCH-TO-CLAUDE.md`: пошаговые runbook для смены редактора (для агента и человека)
+- `docs/ENGINES.md`: как поменять Claude на ChatGPT или другую модель и сравнить результаты
 - `docs/STATUS.md`: что работает, результаты тестов, открытые вопросы
 - `docs/ARCHITECTURE.md`: схема, расписание, форматы данных
 - `docs/OPERATIONS.md`: облачная задача, GitHub, Windows, Telegram, поломки
