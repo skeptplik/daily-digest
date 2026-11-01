@@ -43,5 +43,4 @@ jobs:
           git add -f probe/collect-summary.json
           git status --short
           git commit -m "Сводка пробы collect"
-          git pull --rebase origin claude/reader
           git push origin HEAD:claude/reader
