@@ -24,7 +24,11 @@
 | `scripts/validate.py` | Проверка `digest.json` перед публикацией (формат, темы, ссылки есть в candidates). Запускается в `publish.yml` |
 | `scripts/make_handoff.py` | Готовит `handoff/PROMPT-FOR-OTHER-AI.md`: запрос для ChatGPT/любой модели из `routine_prompt.md` + сегодняшние заголовки |
 | `handoff/` | Файл-запрос для других ИИ, обновляется каждую ночь в `collect.yml` |
-| `docs/` | ENGINES, STATUS, ARCHITECTURE, OPERATIONS, DECISIONS, ROADMAP, SETUP-VSCODE |
+| `data/engine.json` | Какой движок сейчас пишет дайджест (claude или codex), читается `check.py` |
+| `docs/` | SWITCH-TO-CODEX, SWITCH-TO-CLAUDE, ENGINES, STATUS, ARCHITECTURE, OPERATIONS, DECISIONS, ROADMAP, SETUP-VSCODE |
+
+## Смена редактора дайджеста (Claude ⇄ Codex)
+Файл `AGENTS.md` лишь рассказывает агенту, как устроен проект: сам по себе он ничего не переключает. Если владелец просит «перейти на Codex» или «вернуть Claude», выполняйте runbook: `docs/SWITCH-TO-CODEX.md` или `docs/SWITCH-TO-CLAUDE.md`. Текущий движок записан в `data/engine.json`. Одновременно работает только один редактор. Не запускайте смену по собственной инициативе.
 
 ## Поток данных (UTC, зимнее время Польши = UTC+1)
 03:00 `collect.yml` собирает заголовки → 05:12 (06:12 Варшава) облачная задача Claude читает `candidates.json`, пишет `digest.json`, пушит в `main` → пуш запускает `publish.yml` (сборка, GitHub Pages, Telegram) → 06:15 UTC `check.yml` проверяет результат → 06:30 по часам ПК задача Windows скачивает файл. Подробности в `docs/ARCHITECTURE.md`.

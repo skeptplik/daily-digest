@@ -1,0 +1,6 @@
+{
+  "_comment": "Какой «редактор» сейчас пишет data/digest.json: claude (облачная задача в claude.ai) или codex (автоматизация Codex). Одновременно должен работать только один. Меняется по runbook docs/SWITCH-TO-CODEX.md и docs/SWITCH-TO-CLAUDE.md. Эту подсказку читает check.py, чтобы в сообщении о сбое назвать, что проверять.",
+  "engine": "claude",
+  "since": "2026-11-01",
+  "claude_routine_id": "trig_017E2QkParxE5gozcVmQzo2E"
+}

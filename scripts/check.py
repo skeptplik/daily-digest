@@ -57,7 +57,14 @@ if not problems:
     sys.exit(0)
 
 text = "⚠️ Дайджест на сегодня не собран.\n\n" + "\n".join(f"• {p}" for p in problems)
-text += "\n\nЧто сделать: claude.ai/code/routines → «Утренний дайджест» → Run now."
+try:
+    engine = json.loads((ROOT / "data/engine.json").read_text(encoding="utf-8")).get("engine", "claude")
+except Exception:
+    engine = "claude"
+if engine == "codex":
+    text += "\n\nАктивный движок: Codex. Что сделать: откройте автоматизацию дайджеста в Codex и запустите её вручную."
+else:
+    text += "\n\nАктивный движок: Claude. Что сделать: claude.ai/code/routines → «Утренний дайджест» → Run now."
 print(text)
 token = os.environ.get("TELEGRAM_BOT_TOKEN", "").strip()
 chat = os.environ.get("TELEGRAM_CHAT_ID", "").strip()
