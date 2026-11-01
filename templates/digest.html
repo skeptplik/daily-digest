@@ -76,7 +76,9 @@ h1{margin:6px 0 4px;font-size:clamp(28px,8vw,38px);line-height:1.05;letter-spaci
 .hc b{display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden;font-size:21px;line-height:1.18;letter-spacing:-.01em}
 .hc small{display:block;margin-top:5px;font-size:12.5px;opacity:.85}
 .hc .fire{left:12px;top:12px;font-size:15px;padding:4px 6px}
-.mini{margin:6px 0 12px;padding:0 0 0 14px}
+.mini{position:relative;margin:6px 0 12px;padding:0 0 0 14px}
+.mini.more:after{content:"";position:absolute;right:0;top:20px;bottom:0;width:34px;pointer-events:none;background:linear-gradient(90deg,transparent,var(--sf))}
+.mini h4 span{opacity:.7;margin-left:4px}
 .mini h4{margin:0 0 7px;font-size:11px;letter-spacing:.07em;text-transform:uppercase;color:var(--mu);font-weight:600}
 .mstrip{display:flex;gap:9px;overflow-x:auto;padding:0 14px 2px 0;scrollbar-width:none}
 .mstrip::-webkit-scrollbar{display:none}
@@ -90,7 +92,8 @@ h1{margin:6px 0 4px;font-size:clamp(28px,8vw,38px);line-height:1.05;letter-spaci
   background:linear-gradient(135deg,var(--a),var(--b));background-size:cover;background-position:center}
 .fire{position:absolute;left:4px;top:4px;font-style:normal;font-size:13px;line-height:1;padding:3px 4px;border-radius:8px;background:rgba(0,0,0,.6)}
 .rt{min-width:0}
-.rt b{display:-webkit-box;-webkit-line-clamp:4;-webkit-box-orient:vertical;overflow:hidden;font-size:16.5px;line-height:1.26}
+.rt b{display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden;font-size:16.5px;line-height:1.26}
+.rt .sm{display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden;margin-top:4px;font-size:13px;line-height:1.3;color:var(--mu)}
 .rt small{display:block;margin-top:3px;font-size:12.5px;color:var(--mu);overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
 
 footer{max-width:560px;margin:26px auto 0;padding:0 20px 40px;color:var(--mu);font-size:12.5px;text-align:center}
@@ -261,10 +264,10 @@ function renderHome(){
     h+='<div class="rows">';
     main.slice(1).forEach(function(x){var it=x[0],i=x[1];
       h+='<button class="rw" data-g="'+k+'" data-i="'+i+'"><span class="th" style="'+bgs(it)+'">'+(it.img?'':t.emoji)+(it.importance===3?'<i class="fire">🔥</i>':'')+
-        '</span><span class="rt"><b>'+esc(L(it,'title'))+'</b><small>'+esc(names(it))+' · '+it.minutes+' '+u.min+(it.indep>=2?' · ✅':'')+'</small></span></button>';
+        '</span><span class="rt"><b>'+esc(L(it,'title'))+'</b>'+(it.importance===3&&L(it,'summary')?'<span class="sm">'+esc(L(it,'summary'))+'</span>':'')+'<small>'+esc(names(it))+' · '+it.minutes+' '+u.min+(it.indep>=2?' · ✅':'')+'</small></span></button>';
     });
     h+='</div>';
-    if(minor.length&&main.length){h+='<div class="mini"><h4>'+u.also+'</h4><div class="mstrip">'+minor.map(function(x){var it=x[0],i=x[1];
+    if(minor.length&&main.length){h+='<div class="mini'+(minor.length>4?' more':'')+'"><h4>'+u.also+'<span>'+minor.length+'</span></h4><div class="mstrip">'+minor.map(function(x){var it=x[0],i=x[1];
       return '<button class="mt" data-g="'+k+'" data-i="'+i+'"><span class="mi" style="'+bgs(it)+'">'+(it.img?'':t.emoji)+'</span><b>'+esc(L(it,'title'))+'</b></button>'}).join('')+'</div></div>'}
     h+='</section>';
   });
