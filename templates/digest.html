@@ -117,7 +117,7 @@ footer{max-width:560px;margin:26px auto 0;padding:0 20px 40px;color:var(--mu);fo
   <header class="hero">
     <div class="row1">
       <div class="eyebrow" id="eyebrow">{{ weekday }}, {{ date_human }}</div>
-      <div class="ctl"><div class="langs" id="langs" role="group" aria-label="Language" hidden></div><button class="theme" id="theme" aria-label="Theme">🌓</button></div>
+      <div class="ctl"><div class="langs" id="langs" role="group" aria-label="Language" hidden></div><button class="theme" id="listen" aria-label="Слушать важное" title="Слушать важное" hidden>🔊</button><button class="theme" id="theme" aria-label="Theme">🌓</button></div>
     </div>
     <h1 id="h1">Дайджест дня</h1>
     <p class="headline" id="headline">{{ headline or ("Главное за " ~ news_day) }}</p>
@@ -308,6 +308,48 @@ document.getElementById('theme').addEventListener('click',function(){
   var dark=root.getAttribute('data-theme')?root.getAttribute('data-theme')==='dark':!window.matchMedia('(prefers-color-scheme: light)').matches;
   var nx=dark?'light':'dark';root.setAttribute('data-theme',nx);try{localStorage.setItem('digest-theme',nx)}catch(e){}
 });
+
+/* ---------- слушать «только важное» (голос телефона, без интернета и токенов) ---------- */
+(function(){
+  var btn=document.getElementById('listen');
+  if(!btn||!('speechSynthesis' in window)||typeof SpeechSynthesisUtterance==='undefined')return;
+  btn.hidden=false;
+  var playing=false,queue=[],idx=0;
+  function pickVoice(){
+    var vs=speechSynthesis.getVoices()||[];
+    var code=(LOC[lang]||'ru-RU').toLowerCase();
+    return vs.filter(function(v){return v.lang&&v.lang.toLowerCase().replace('_','-')===code})[0]
+        ||vs.filter(function(v){return v.lang&&v.lang.toLowerCase().indexOf(code.slice(0,2))===0})[0]||null;
+  }
+  function build(){
+    var q=[];
+    var hl=lang==='ru'?D.headline:((D.headline_i18n&&D.headline_i18n[lang])||D.headline);
+    if(hl)q.push(hl);
+    hot.forEach(function(it,n){
+      var v=(lang!=='ru'&&it.i18n&&it.i18n[lang])||it;
+      q.push((n+1)+'. '+v.title+'.');
+      if(v.summary)q.push(v.summary);
+    });
+    return q;
+  }
+  function stop(){playing=false;speechSynthesis.cancel();btn.textContent='🔊';btn.setAttribute('aria-pressed','false')}
+  function speak(){
+    if(!playing)return;
+    if(idx>=queue.length){stop();return}
+    var u=new SpeechSynthesisUtterance(queue[idx]);
+    var v=pickVoice();if(v)u.voice=v;
+    u.lang=(v&&v.lang)||LOC[lang]||'ru-RU';u.rate=1.02;
+    u.onend=function(){idx++;speak()};
+    u.onerror=function(){stop()};
+    speechSynthesis.speak(u);
+  }
+  btn.addEventListener('click',function(){
+    if(playing){stop();return}
+    queue=build();idx=0;playing=true;btn.textContent='⏹';btn.setAttribute('aria-pressed','true');
+    speechSynthesis.cancel();speak();
+  });
+  window.addEventListener('pagehide',function(){speechSynthesis.cancel()});
+})();
 
 renderHome();
 })();
