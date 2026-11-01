@@ -1,29 +1,479 @@
 {
   "date": "2026-11-01",
   "news_date": "2026-10-31",
-  "headline": "Скромный выпуск: подтвердить удалось только новости NASA о телескопах Hubble и Webb.",
+  "headline": "Массовые протесты в Германии и Франции и атрибуция взлома Binance на $6,3 млрд северокорейским хакерам.",
   "topics": [
-    {"id": "space", "items": [
-      {
-        "title": "NASA изучает возможность коммерческого обслуживания телескопа «Хаббл»",
-        "summary": "NASA опубликовало запрос информации у компаний о подъёме орбиты «Хаббла», его модернизации или контролируемом сведении с орбиты. Падение телескопа в атмосферу прогнозируют на 2033–2034 годы, поэтому миссия должна стартовать до 2032 года. Пока сообщает только один источник — само NASA.",
-        "why": "От решения зависит, сколько лет ещё проработает один из главных телескопов.",
-        "sources": [
-          {"name": "NASA", "url": "https://science.nasa.gov/missions/hubble/nasa-explores-potential-commercial-servicing-for-hubble-telescope/"}
-        ],
-        "importance": 2,
-        "minutes": 3
-      },
-      {
-        "title": "«Джеймс Уэбб» снял в среднем инфракрасном диапазоне туманность «Голова кошки»",
-        "summary": "NASA опубликовало снимок «Голова кошки» — пылевой колонны, форму которой, вероятно, создали ультрафиолетовое излучение и ветры массивных звёзд соседней туманности Киля. Плотный материал пока противостоит разрушению. Пока сообщает только одно издание — NASA.",
-        "why": "Снимок показывает, как излучение звёзд лепит структуры в областях звездообразования.",
-        "sources": [
-          {"name": "NASA", "url": "https://www.nasa.gov/image-article/nasas-james-webb-space-telescope-captures-eerie-cats-head/"}
-        ],
-        "importance": 1,
-        "minutes": 2
-      }
-    ]}
+    {
+      "id": "ai",
+      "items": [
+        {
+          "title": "Агент ИИ сам выбрал генную терапию и ввёл её в мозг живой мыши",
+          "summary": "По данным Wired, биотех-стартап поручил ИИ-агенту выбрать генную терапию, и агент успешно ввёл препарат живой мыши. Издание называет это взглядом на будущее лабораторных исследований.",
+          "why": "Показывает, как ИИ-агенты начинают выполнять реальные лабораторные операции.",
+          "sources": [
+            {
+              "name": "Wired",
+              "url": "https://www.wired.com/story/an-ai-agent-did-brain-surgery-on-live-mouse/"
+            }
+          ],
+          "importance": 2,
+          "minutes": 4
+        },
+        {
+          "title": "OpenAI, по сообщениям, снизила цель нового раунда финансирования",
+          "summary": "TechCrunch пишет со ссылкой на сообщения, что OpenAI снизила цель привлечения средств в новом раунде: он, судя по всему, не оправдывает ожиданий.",
+          "why": "Отражает настроения инвесторов к крупнейшим ИИ-компаниям.",
+          "sources": [
+            {
+              "name": "TechCrunch",
+              "url": "https://techcrunch.com/2026/10/31/openai-reportedly-lowers-funding-target-for-new-round/"
+            }
+          ],
+          "importance": 1,
+          "minutes": 2
+        },
+        {
+          "title": "Суд разрешил иск NAACP о загрязнении воздуха дата-центром xAI",
+          "summary": "Судья допустил к рассмотрению иск NAACP, обвиняющий принадлежащую SpaceX компанию xAI в нарушении закона о чистом воздухе (Clean Air Act) из-за дата-центра.",
+          "why": "Экологические претензии к инфраструктуре ИИ становятся судебными делами.",
+          "sources": [
+            {
+              "name": "TechCrunch",
+              "url": "https://techcrunch.com/2026/10/31/judge-allows-naacp-lawsuit-over-xai-data-center-pollution-to-move-forward/"
+            }
+          ],
+          "importance": 1,
+          "minutes": 3
+        }
+      ]
+    },
+    {
+      "id": "health",
+      "items": [
+        {
+          "title": "В США открылась запись на медстрахование ACA на 2027 год",
+          "summary": "Биржи медицинского страхования ACA (HealthCare.gov) открылись 1 ноября для покрытия на 2027 год. NPR советует начать выбор плана пораньше и разбирает изменения для покупателей.",
+          "why": "Касается выбора страховки для миллионов американцев.",
+          "sources": [
+            {
+              "name": "NPR",
+              "url": "https://www.npr.org/2026/11/01/nx-s1-6023423/aca-open-enrollment-health-insurance"
+            }
+          ],
+          "importance": 2,
+          "minutes": 5
+        },
+        {
+          "title": "FDA одобрило генную терапию при синдроме Санфилиппо",
+          "summary": "По данным NPR, Управление по контролю за продуктами и лекарствами США одобрило генную терапию, созданию которой помогли миллионы долларов, собранные семьёй, затронутой синдромом Санфилиппо.",
+          "why": "Новый вариант лечения редкого генетического заболевания.",
+          "sources": [
+            {
+              "name": "NPR",
+              "url": "https://www.npr.org/2026/11/01/nx-s1-6014739/sanfilippo-gene-therapy-fayuvi"
+            }
+          ],
+          "importance": 2,
+          "minutes": 5
+        },
+        {
+          "title": "Радиологи предупреждают об ухудшении состояния онкобольных в Уэльсе",
+          "summary": "Радиологи заявляют, что из-за нехватки персонала состояние онкологических пациентов ухудшается. На севере и западе Уэльса дефицит врачей-радиологов — 42%, на юге — 22%.",
+          "why": "Нехватка кадров напрямую влияет на скорость диагностики рака.",
+          "sources": [
+            {
+              "name": "BBC",
+              "url": "https://www.bbc.co.uk/news/articles/cmly0xle2rddo?at_medium=RSS&at_campaign=rss"
+            }
+          ],
+          "importance": 1,
+          "minutes": 3
+        }
+      ]
+    },
+    {
+      "id": "science",
+      "items": [
+        {
+          "title": "Под землёй в Южной Дакоте строят гигантские детекторы нейтрино",
+          "summary": "Как пишет Guardian, в бывшей золотой шахте в Блэк-Хиллс учёные создают крупные детекторы для изучения нейтрино в поисках ответов на вопросы о происхождении вещества во Вселенной.",
+          "why": "Фундаментальная физика ищет объяснение, почему существует материя.",
+          "sources": [
+            {
+              "name": "The Guardian",
+              "url": "https://www.theguardian.com/science/2026/oct/31/south-dakota-mine-search-secrets-universe-dark-matter-antimatter"
+            }
+          ],
+          "importance": 2,
+          "minutes": 7
+        },
+        {
+          "title": "Врачи предлагают указывать аллергию на сперму партнёра в рисках антибиотика",
+          "summary": "New Scientist: у женщины развилась тяжёлая аллергия на антибиотик, попавший в организм через сперму партнёра. Клиницисты призывают отразить такой риск в инструкции к препарату.",
+          "why": "Редкий путь попадания лекарства может быть учтён в рекомендациях.",
+          "sources": [
+            {
+              "name": "New Scientist",
+              "url": "https://www.newscientist.com/article/2596737-allergic-reactions-after-sex-should-be-listed-as-an-antibiotic-risk-experts-say/?utm_campaign=RSS|NSNS&utm_content=home&utm_medium=RSS&utm_source=NSNS"
+            }
+          ],
+          "importance": 1,
+          "minutes": 3
+        },
+        {
+          "title": "Рыбы в виртуальной реальности ориентируются на одного влиятельного соседа",
+          "summary": "Эксперименты с настоящими и виртуальными рыбками-тетрами показали, что в стае каждая особь учитывает сигналы лишь одного влиятельного соседа.",
+          "why": "Помогает понять механизмы коллективного поведения животных.",
+          "sources": [
+            {
+              "name": "New Scientist",
+              "url": "https://www.newscientist.com/article/2596645-fish-only-pay-attention-to-one-most-influential-neighbor-in-virtual-reality/?utm_campaign=RSS|NSNS&utm_content=home&utm_medium=RSS&utm_source=NSNS"
+            }
+          ],
+          "importance": 1,
+          "minutes": 3
+        }
+      ]
+    },
+    {
+      "id": "space",
+      "items": [
+        {
+          "title": "Телескоп NASA Swift в ближайшие дни неконтролируемо упадёт на Землю",
+          "summary": "Обсерватория Нила Герелса Swift сойдёт с орбиты и войдёт в атмосферу неуправляемо: роботизированная миссия по подъёму телескопа на более высокую орбиту не удалась.",
+          "why": "Завершение работы одного из ключевых астрофизических телескопов.",
+          "sources": [
+            {
+              "name": "Space.com",
+              "url": "https://www.space.com/space-exploration/missions/nasas-swift-space-telescope-is-about-to-crash-to-earth-where-will-it-fall"
+            }
+          ],
+          "importance": 2,
+          "minutes": 4
+        },
+        {
+          "title": "Радионаблюдения показали, как спутник влияет на атмосферу Бетельгейзе",
+          "summary": "Новые радионаблюдения свидетельствуют, что меньший компаньон красного сверхгиганта Бетельгейзе, Сивара, возмущает атмосферу звезды.",
+          "why": "Помогает понять поведение звезды, близкой к финалу жизни.",
+          "sources": [
+            {
+              "name": "Space.com",
+              "url": "https://www.space.com/astronomy/stars/betelgeuse-is-haunted-by-a-cosmic-poltergeist-tormenting-the-doomed-stars-atmosphere"
+            }
+          ],
+          "importance": 1,
+          "minutes": 3
+        },
+        {
+          "title": "SpaceX запустила 27 спутников Starlink с базы Ванденберг",
+          "summary": "Ракета Falcon 9 стартовала с авиабазы Ванденберг 31 октября в 04:04 GMT и вывела на орбиту 27 спутников Starlink.",
+          "why": "Продолжается наращивание спутниковой группировки Starlink.",
+          "sources": [
+            {
+              "name": "Space.com",
+              "url": "https://www.space.com/space-exploration/launches-spacecraft/spacex-starlink-launch-falcon-9-group-15-18-landing-ocisly"
+            }
+          ],
+          "importance": 1,
+          "minutes": 2
+        }
+      ]
+    },
+    {
+      "id": "politics",
+      "items": [
+        {
+          "title": "Протесты из-за стоимости жизни в Германии переросли в беспорядки",
+          "summary": "Демонстрации прошли во Франкфурте, Берлине, Кельне и Гамбурге; к вечеру начались беспорядки и грабежи магазинов. Глава МВД Добриндт связал их с левыми группами и хулиганами из мигрантской среды и пообещал суровые последствия.",
+          "why": "Крупные уличные протесты в крупнейшей экономике Европы.",
+          "sources": [
+            {
+              "name": "BBC Русская служба",
+              "url": "https://www.bbc.com/russian/articles/cmy0e4vdqn0yo?at_medium=RSS&at_campaign=rss"
+            },
+            {
+              "name": "BBC",
+              "url": "https://www.bbc.co.uk/news/articles/cqj34gnd3n30o?at_medium=RSS&at_campaign=rss"
+            },
+            {
+              "name": "DW на русском",
+              "url": "https://www.dw.com/ru/глава-мвд-фрг-добриндт-связал-беспорядки-на-демонстрациях-в-стране-с-левыми-группами-и-хулиганами-из-мигрантской-среды-и-пообещал-суровые-последствия/a-79823084?maca=rus-rss-ru-all-1126-rdf"
+            }
+          ],
+          "importance": 3,
+          "minutes": 4
+        },
+        {
+          "title": "Во Франции после протестов возбуждено дело о покушении на убийство",
+          "summary": "Парижская прокуратура начала расследование после атаки коктейлем Молотова на полицейских. По данным DW, за выходные задержаны 779 человек; в протестах участвовали более 300 тысяч (NYT), лицеисты возобновят блокады в понедельник.",
+          "why": "Продолжающиеся массовые протесты влияют на политику во Франции.",
+          "sources": [
+            {
+              "name": "DW",
+              "url": "https://www.dw.com/en/france-opens-attempted-murder-probe-after-protest-attack/a-79822853?maca=en-rss-en-all-1573-rdf"
+            },
+            {
+              "name": "France 24",
+              "url": "https://www.france24.com/en/france/20261101-french-high-school-blockades-to-restart-on-monday-student-unions-say"
+            },
+            {
+              "name": "NYT",
+              "url": "https://www.nytimes.com/2026/10/31/world/europe/france-protests-clashes.html"
+            }
+          ],
+          "importance": 3,
+          "minutes": 4
+        },
+        {
+          "title": "В Дели прошёл массовый митинг оппозиции против главы избиркома",
+          "summary": "Десятки тысяч сторонников Конгресса и оппозиционного альянса вышли на улицы Дели, требуя отставки главного избирательного комиссара. Поводом, по данным Guardian, стало удаление 130 млн имён из списков избирателей.",
+          "why": "Спор о списках избирателей в крупнейшей демократии мира.",
+          "sources": [
+            {
+              "name": "The Guardian",
+              "url": "https://www.theguardian.com/world/2026/nov/01/india-opposition-protest-rally-delhi"
+            },
+            {
+              "name": "BBC",
+              "url": "https://www.bbc.co.uk/news/articles/c60qk92dvlwgo?at_medium=RSS&at_campaign=rss"
+            },
+            {
+              "name": "NYT",
+              "url": "https://www.nytimes.com/2026/10/31/world/asia/congress-cjp-protest-delhi-india-modi.html"
+            }
+          ],
+          "importance": 2,
+          "minutes": 4
+        },
+        {
+          "title": "ФСБ сообщила о задержании подростка после предупреждения посольства США об угрозе",
+          "summary": "ФСБ заявила о задержании несовершеннолетнего, выложившего в TikTok фото предмета, похожего на автомат, и снимок парка «Царицыно» с подписью «I found a place». Ранее посольство США предупредило о «достоверной угрозе массовых жертв».",
+          "why": "Угроза безопасности в Москве и реакция властей.",
+          "sources": [
+            {
+              "name": "DW на русском",
+              "url": "https://www.dw.com/ru/угроза-теракта-в-царицыно-фсб-задержала-российского-подростка-выложившего-в-tiktok-фото-с-напоминающим-оружие-предметом-и-фото-из-парка-царицыно/a-79823319?maca=rus-rss-ru-all-1126-rdf"
+            },
+            {
+              "name": "Euronews",
+              "url": "https://www.euronews.com/2026/11/01/russia-arrests-minor-after-us-embassy-warns-of-credible-threat-of-a-mass-casualty-event"
+            }
+          ],
+          "importance": 2,
+          "minutes": 3
+        }
+      ]
+    },
+    {
+      "id": "tech",
+      "items": [
+        {
+          "title": "ФБР возложило на КНДР ответственность за взлом Binance на $6,3 млрд",
+          "summary": "ФБР заявило, что за кражей 29 октября стоит Северная Корея (группа TraderTraitor). Binance, по данным BBC, покрывает 90% потерь.",
+          "why": "Крупнейшая криптокража, связанная с государственными хакерами.",
+          "sources": [
+            {
+              "name": "The Verge",
+              "url": "https://www.theverge.com/tech/1024176/north-korea-binance-crypto-heist"
+            },
+            {
+              "name": "BBC",
+              "url": "https://www.bbc.co.uk/news/articles/ckpdg3ql4169o?at_medium=RSS&at_campaign=rss"
+            }
+          ],
+          "importance": 3,
+          "minutes": 4
+        },
+        {
+          "title": "BBC: долги малоизвестных дата-центровых компаний подпитывают опасения о пузыре ИИ",
+          "summary": "Задолженность операторов дата-центров измеряется десятками миллиардов фунтов, что усиливает опасения, что пузырь ИИ может лопнуть.",
+          "why": "Долговая нагрузка инфраструктуры ИИ — фактор риска для рынка.",
+          "sources": [
+            {
+              "name": "BBC",
+              "url": "https://www.bbc.co.uk/news/articles/cje36degrgv5o?at_medium=RSS&at_campaign=rss"
+            }
+          ],
+          "importance": 2,
+          "minutes": 5
+        },
+        {
+          "title": "FDA хочет отозвать одобрение препарата Tavneos, но это непросто",
+          "summary": "Регулятор утверждает, что препарат одобрили на основании сфальсифицированных данных исследования. Ars Technica обсуждает, должны ли пациенты сохранить доступ к лекарству.",
+          "why": "Показывает сложности отзыва уже одобренных лекарств.",
+          "sources": [
+            {
+              "name": "Ars Technica",
+              "url": "https://arstechnica.com/science/2026/10/the-fda-wants-to-pull-its-approval-of-a-drug-its-not-so-easy/"
+            }
+          ],
+          "importance": 1,
+          "minutes": 5
+        }
+      ]
+    },
+    {
+      "id": "dev",
+      "items": [
+        {
+          "title": "Джасси: мощности AWS в основном распроданы до 2027 года",
+          "summary": "Глава Amazon Энди Джасси сообщил, что крупные контрактные мощности AWS в основном проданы до конца 2027 года, часть 2028-го уже распределена; запас для On Demand, EC2 и Bedrock сохраняется.",
+          "why": "Дефицит облачных мощностей влияет на планы разработчиков и компаний.",
+          "sources": [
+            {
+              "name": "InfoQ",
+              "url": "https://www.infoq.com/news/2026/11/aws-capacity-sold-out/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global"
+            }
+          ],
+          "importance": 2,
+          "minutes": 3
+        },
+        {
+          "title": "ИИ-агент Google PageBreak нашёл более 500 XSS-уязвимостей",
+          "summary": "По статье Google, агент на основе Gemini с января автономно обнаружил более 500 XSS-уязвимостей в веб-приложениях компании.",
+          "why": "ИИ всё активнее применяют для поиска уязвимостей в коде.",
+          "sources": [
+            {
+              "name": "InfoQ",
+              "url": "https://www.infoq.com/news/2026/10/google-pagebreak-security-agent/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global"
+            }
+          ],
+          "importance": 1,
+          "minutes": 3
+        },
+        {
+          "title": "Исследователи показали, как можно было взломать GNU Savannah и подменить код проектов",
+          "summary": "Блог Hacktron описывает, как удалось скомпрометировать форж GNU Savannah, что позволяло внедрить вредоносный код в любые размещённые там проекты, включая Bash.",
+          "why": "Атаки на цепочку поставок open-source затрагивают многих.",
+          "sources": [
+            {
+              "name": "LWN",
+              "url": "https://lwn.net/Articles/1104262/"
+            }
+          ],
+          "importance": 1,
+          "minutes": 5
+        }
+      ]
+    },
+    {
+      "id": "games",
+      "items": [
+        {
+          "title": "Сооснователь Forza Дэн Гринуолт, по сообщениям, уходит из Microsoft",
+          "summary": "По данным The Verge (через PC Gamer), глава Turn 10 Дэн Гринуолт планирует уйти на пенсию после почти 27 лет в компании.",
+          "why": "Смена лидера ключевой гоночной студии Xbox.",
+          "sources": [
+            {
+              "name": "PC Gamer",
+              "url": "https://www.pcgamer.com/games/racing/forza-co-creator-dan-greenawalt-is-reportedly-leaving-microsoft/"
+            }
+          ],
+          "importance": 1,
+          "minutes": 2
+        },
+        {
+          "title": "Itch.io: число новых страниц игр в день выросло вдвое за два месяца",
+          "summary": "Платформа подтвердила, что ежедневное число новых страниц игр удвоилось за последние два месяца; Polygon связывает это с наплывом ИИ-контента.",
+          "why": "Магазины игр сталкиваются с лавиной низкокачественного контента.",
+          "sources": [
+            {
+              "name": "Polygon",
+              "url": "https://www.polygon.com/itch-io-doubled-game-pages-ai-slop/"
+            }
+          ],
+          "importance": 1,
+          "minutes": 3
+        },
+        {
+          "title": "Netflix снимет игровой сериал по PUBG с Дональдом Гловером",
+          "summary": "Netflix готовит киноадаптацию PUBG; Дональд Гловер выступит режиссёром, сценаристом, исполнительным продюсером и исполнителем роли.",
+          "why": "Ещё одна игровая франшиза переходит на экран.",
+          "sources": [
+            {
+              "name": "Eurogamer",
+              "url": "https://www.eurogamer.net/pubg-live-action-netflix-series-donald-glover"
+            }
+          ],
+          "importance": 1,
+          "minutes": 2
+        }
+      ]
+    },
+    {
+      "id": "fashion",
+      "items": [
+        {
+          "title": "Британские масс-маркет бренды возвращаются, перенимая приёмы люкса",
+          "summary": "Guardian пишет, что Gap, M&S, Topshop и другие используют звёзд и ИИ-стилистов, чтобы вернуть покупателей.",
+          "why": "Показывает, как меняется массовый розничный рынок одежды.",
+          "sources": [
+            {
+              "name": "The Guardian",
+              "url": "https://www.theguardian.com/fashion/2026/oct/31/a-listers-ai-stylists-high-street-brands-fashion-comeback"
+            }
+          ],
+          "importance": 1,
+          "minutes": 5
+        },
+        {
+          "title": "Aedas открыла многоярусный иммиграционный комплекс на границе Шэньчжэня и Гонконга",
+          "summary": "Архитектурная студия завершила здание с округлыми формами для нового пункта пропуска между Гонконгом и Шэньчжэнем.",
+          "why": "Заметный новый объект общественной архитектуры.",
+          "sources": [
+            {
+              "name": "Dezeen",
+              "url": "https://www.dezeen.com/2026/11/01/new-huanggang-port-development-aedas-shenzhen-hong-kong/"
+            }
+          ],
+          "importance": 1,
+          "minutes": 2
+        }
+      ]
+    },
+    {
+      "id": "security",
+      "items": [
+        {
+          "title": "Взлом Northflank привёл к злоупотреблению ИИ-ключами клиентов",
+          "summary": "Платформа Northflank просит клиентов сменить все учётные данные и секреты: после взлома чужие ключи API ИИ использовались без разрешения.",
+          "why": "Клиентам нужно срочно обновить ключи.",
+          "sources": [
+            {
+              "name": "BleepingComputer",
+              "url": "https://www.bleepingcomputer.com/news/security/northflank-security-breach-leads-to-abuse-of-customers-ai-api-keys/"
+            }
+          ],
+          "importance": 2,
+          "minutes": 3
+        },
+        {
+          "title": "Chainalysis сообщила об утечке после атаки с «агентными техниками»",
+          "summary": "Компания сообщила, что злоумышленники с помощью «наступательных агентных техник» получили доступ к внутренним системам; раскрыты имена, адреса почты, ID и роли клиентов.",
+          "why": "ИИ-агенты используются и в атаках.",
+          "sources": [
+            {
+              "name": "BleepingComputer",
+              "url": "https://www.bleepingcomputer.com/news/security/chainalysis-discloses-data-breach-from-offensive-agentic-techniques/"
+            }
+          ],
+          "importance": 2,
+          "minutes": 3
+        },
+        {
+          "title": "Alpine Linux пересобрал GitLab после попытки удалённого выполнения кода",
+          "summary": "20–21 октября хакеры пытались использовать критическую уязвимость GitLab в инфраструктуре Alpine Linux; проект пересобрал сервер и сбросил все пароли.",
+          "why": "Атаки на инфраструктуру open-source проектов.",
+          "sources": [
+            {
+              "name": "BleepingComputer",
+              "url": "https://www.bleepingcomputer.com/news/security/alpine-linux-rebuilds-gitlab-after-attempted-rce-attack/"
+            }
+          ],
+          "importance": 1,
+          "minutes": 3
+        }
+      ]
+    }
   ]
 }
