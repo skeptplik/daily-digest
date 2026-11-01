@@ -332,7 +332,18 @@ def main():
         if topic["items"]:
             topics.append(topic)
     order = list(TOPICS)
-    topics.sort(key=lambda t: order.index(t["id"]) if t["id"] in order else 99)
+    # внутри темы самые важные новости выше (порядок Claude сохраняется при равной важности)
+    for t in topics:
+        t["items"].sort(key=lambda i: -i["importance"])
+
+    # темы: чем важнее новости, тем выше тема; «Любопытное» всегда последняя;
+    # при равенстве работает привычный порядок тем
+    def topic_rank(t):
+        imps = [i["importance"] for i in t["items"]]
+        pos = order.index(t["id"]) if t["id"] in order else 99
+        return (t["id"] == "curious", -max(imps), -sum(imps), pos)
+
+    topics.sort(key=topic_rank)
     all_items = [it for t in topics for it in t["items"]]
 
     if not NO_NET:
