@@ -54,7 +54,7 @@ TOPICS = {
 MONTHS = ["января", "февраля", "марта", "апреля", "мая", "июня", "июля",
           "августа", "сентября", "октября", "ноября", "декабря"]
 WEEKDAYS = ["понедельник", "вторник", "среда", "четверг", "пятница", "суббота", "воскресенье"]
-MAX_IMAGES = 40
+MAX_IMAGES = 90
 # разные домены одного издания считаем одним источником
 OUTLET_ALIASES = {"bbc.co.uk": "bbc.com", "voguebusiness.com": "vogue.com", "github.blog": "github.com"}
 
@@ -209,6 +209,7 @@ def resolve_image(item):
     if item.get("image"):
         uri = try_image(item["image"], None)
         if uri:
+            item["_cover_url"] = item["image"]
             return uri
     for src in item["sources"]:
         page = src["url"]
@@ -217,15 +218,37 @@ def resolve_image(item):
             uri = try_image(RSS_IMAGES[page], origin)
             if uri:
                 STATS["rss"] += 1
+                item["_cover_url"] = RSS_IMAGES[page]
                 return uri
         url = og_image(page)
         if url:
             uri = try_image(url, origin)
             if uri:
                 STATS["og"] += 1
+                item["_cover_url"] = url
                 return uri
     STATS["none"] += 1
     return None
+
+
+MAX_PHOTOS = 2
+
+
+def resolve_photos(item):
+    """Дополнительные фото для читалки: картинки других источников той же новости (RSS и og:image),
+    кроме обложки. Берём не больше MAX_PHOTOS."""
+    out, seen = [], {item.get("_cover_url")}
+    for src in item["sources"]:
+        page = src["url"]
+        origin = "{0.scheme}://{0.netloc}/".format(urlparse(page))
+        for url in (RSS_IMAGES.get(page), None if len(out) >= MAX_PHOTOS else og_image(page)):
+            if not url or url in seen or len(out) >= MAX_PHOTOS:
+                continue
+            seen.add(url)
+            uri = try_image(url, origin)
+            if uri:
+                out.append(uri)
+    return out
 
 
 def placeholder(item):
@@ -300,7 +323,7 @@ def main():
         tid = t.get("id")
         title, emoji, a, b = TOPICS.get(tid, (s(t.get("title"), 60) or "Другое", "📰", "#64748b", "#475569"))
         topic = {"id": tid or "x", "title": title, "emoji": emoji, "a": a, "b": b, "items": []}
-        for it in t.get("items", [])[:5]:
+        for it in t.get("items", [])[:10]:
             title_i = s(it.get("title"), 160)
             sources, indep = norm_sources(it, trusted, primary)
             if not title_i or not sources:
@@ -319,7 +342,10 @@ def main():
                 if isinstance(v, dict) and s(v.get("title"), 160):
                     i18n[lg] = {"title": s(v.get("title"), 160), "summary": s(v.get("summary"), 420),
                                 "why": s(v.get("why"), 240)}
+            body = [s(x, 1800) for x in (it.get("body") or [])[:30] if isinstance(x, str) and s(x, 1800)]                 if isinstance(it.get("body"), list) else []
             topic["items"].append({
+                "minor": bool(it.get("minor")),
+                "body": body,
                 "i18n": i18n,
                 "title": title_i,
                 "summary": s(it.get("summary"), 420),
@@ -330,6 +356,7 @@ def main():
                 "indep": indep,
                 "image": clean_url(it.get("image")),
                 "img": None,
+                "photos": [],
                 "_topic": topic,
             })
         if topic["items"]:
@@ -337,7 +364,7 @@ def main():
     order = list(TOPICS)
     # внутри темы самые важные новости выше (порядок Claude сохраняется при равной важности)
     for t in topics:
-        t["items"].sort(key=lambda i: -i["importance"])
+        t["items"].sort(key=lambda i: (i["minor"], -i["importance"]))
 
     # темы: чем важнее новости, тем выше тема; «Любопытное» всегда последняя;
     # при равенстве работает привычный порядок тем
@@ -355,6 +382,11 @@ def main():
         with ThreadPoolExecutor(8) as ex:
             for it, uri in zip(ranked, ex.map(resolve_image, ranked)):
                 it["img"] = uri
+        with_body = [i for i in ranked if i["body"]]
+        with ThreadPoolExecutor(8) as ex:
+            for it, ph in zip(with_body, ex.map(resolve_photos, with_body)):
+                it["photos"] = ph
+        print(f"Читалка: статей с текстом {len(with_body)}, дополнительных фото {sum(len(i['photos']) for i in with_body)}")
         missing = sorted({urlparse(i["sources"][0]["url"]).hostname or "?" for i in ranked if not i["img"]})
         print(f"Фото: из RSS {STATS['rss']}, из og:image {STATS['og']}, не найдено {STATS['none']}")
         if missing:
@@ -366,9 +398,16 @@ def main():
                 it["img"] = placeholder(it)
                 it["ph"] = True
 
+    # демо без сети: заглушки вместо дополнительных фото, чтобы видеть вёрстку читалки
+    if os.environ.get("PLACEHOLDER_IMAGES") == "1":
+        for it in all_items:
+            if it["body"] and not it["photos"]:
+                it["photos"] = [placeholder({**it, "title": it["title"] + str(k), "_topic": it["_topic"]}) for k in (1, 2)]
+
     for it in all_items:
         it.pop("_topic", None)
         it.pop("image", None)
+        it.pop("_cover_url", None)
 
     # статистика для журнала запуска
     single = [i["title"][:60] for t in topics if t["id"] == "politics" for i in t["items"] if i["indep"] < 2]

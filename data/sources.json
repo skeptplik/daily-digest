@@ -3,7 +3,7 @@
   "trusted": {
     "world_news_agencies_and_broadcasters": [
       "reuters.com", "apnews.com", "afp.com", "bbc.com", "bbc.co.uk", "dw.com", "france24.com",
-      "npr.org", "pbs.org", "euronews.com", "swissinfo.ch", "abc.net.au", "cbc.ca"
+      "npr.org", "pbs.org", "euronews.com", "swissinfo.ch", "abc.net.au", "cbc.ca", "aljazeera.com", "thehindu.com", "scmp.com", "japantimes.co.jp"
     ],
     "major_dailies_across_the_spectrum": [
       "theguardian.com", "nytimes.com", "washingtonpost.com", "wsj.com", "ft.com", "economist.com", "bloomberg.com"

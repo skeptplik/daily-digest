@@ -3,6 +3,7 @@
 и пишет data/candidates.json. Работает на GitHub Actions: там есть нормальный
 доступ в интернет, а токены Claude не тратятся. Облачная задача Claude потом
 выбирает из готового списка самое важное и пишет краткие пересказы."""
+import hashlib
 import html
 import json
 import re
@@ -14,12 +15,20 @@ from pathlib import Path
 from urllib.parse import urlparse
 
 import requests
+from concurrent.futures import ThreadPoolExecutor
 
 ROOT = Path(__file__).resolve().parent.parent
 WINDOW_HOURS = 40
 PER_TOPIC = {"politics": 30}
 DEFAULT_PER_TOPIC = 14
 UA = {"User-Agent": "Mozilla/5.0 (compatible; DailyDigestBot/1.0; +https://github.com)"}
+
+BROWSER_UA = {"User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0 Safari/537.36",
+              "Accept-Language": "en,ru;q=0.8"}
+# платные издания: полный текст не сохраняем (страницы дайджеста публичные), только заголовок и описание из RSS
+PAYWALLED = {"nytimes.com", "wsj.com", "ft.com", "economist.com", "bloomberg.com", "washingtonpost.com"}
+ARTICLE_CHARS = 20000
+ARTICLES_DIR = ROOT / "data" / "articles"
 
 feeds = json.loads((ROOT / "data/feeds.json").read_text(encoding="utf-8"))
 src = json.loads((ROOT / "data/sources.json").read_text(encoding="utf-8"))
@@ -99,6 +108,101 @@ def parse_feed(xml_bytes: bytes):
             yield row
 
 
+STOP = set("""this that with from have been were will would their there about after before over into more than they them
+what when which while also said says says news how why who new year years today week their could should being only
+для или как что это его все при она они еще уже после перед через между вчера сегодня году года время также которые
+которая который этого этом чтобы если были было быть будет своих""".split())
+
+
+def tokens(row):
+    text = (row["title"] + " " + row["summary"][:140]).lower()
+    return {w[:6] for w in re.findall(r"[a-zа-яё0-9]{4,}", text) if w not in STOP}
+
+
+def group_rows(rows, min_score=0.25):
+    """Группирует заголовки об одном событии (разные издания, один язык) по редким общим словам.
+    Возвращает список групп: [{"id", "outlets", "ids"}] только из 2+ изданий."""
+    from math import log
+    toks = [tokens(r) for r in rows]
+    df = {}
+    for t in toks:
+        for w in t:
+            df[w] = df.get(w, 0) + 1
+    n = len(rows)
+    idf = {w: log(n / c) for w, c in df.items()}
+    parent = list(range(n))
+
+    def find(x):
+        while parent[x] != x:
+            parent[x] = parent[parent[x]]
+            x = parent[x]
+        return x
+
+    for i in range(n):
+        for j in range(i + 1, n):
+            if rows[i]["outlet"] == rows[j]["outlet"]:
+                continue
+            common = toks[i] & toks[j]
+            if len(common) < 2:
+                continue
+            w_common = sum(idf[w] for w in common)
+            w_min = min(sum(idf[w] for w in toks[i]), sum(idf[w] for w in toks[j])) or 1
+            if w_common / w_min >= min_score and w_common >= 3.5:
+                parent[find(i)] = find(j)
+    buckets = {}
+    for i in range(n):
+        buckets.setdefault(find(i), []).append(i)
+    groups = []
+    for members in buckets.values():
+        outlets = sorted({rows[i]["outlet"] for i in members})
+        if len(outlets) >= 2:
+            groups.append({"outlets": outlets, "ids": [rows[i]["id"] for i in members]})
+    for k, g in enumerate(sorted(groups, key=lambda g: -len(g["outlets"])), 1):
+        g["id"] = f"g{k}"
+    return groups
+
+
+# служебные строки страниц, которые trafilatura иногда оставляет в тексте
+JUNK_RE = re.compile(
+    r"^(-\s*)?published(\s*[-:].*)?$|^updated\s*[-:].*$|^you must confirm your public display name|^please logout and then login|"
+    r"^sign up (for|to) our|^subscribe (to|for|now)|^for stories about life in our changing world|^read more:?|"
+    r"^related( articles| stories| topics)?:?$|^advertisement$|^share this (article|story)|^follow us on|^click here to|"
+    r"^читайте также|^подписывайтесь|^follow .{0,40} on (x|facebook|instagram|twitter)|"
+    r"^accuracy and availability of transcripts|^follow the twists and turns",
+    re.I)
+
+
+def strip_junk(text: str) -> str:
+    lines = [l for l in text.splitlines() if l.strip() and not JUNK_RE.match(l.strip())]
+    return chr(10).join(lines)
+
+
+def article_id(link: str) -> str:
+    return hashlib.sha1(link.encode("utf-8")).hexdigest()[:10]
+
+
+def fetch_text(row):
+    """Скачивает статью и вытаскивает основной текст. Возвращает True, если текст сохранён."""
+    host = (urlparse(row["link"]).hostname or "").lower()
+    if any(host == d or host.endswith("." + d) for d in PAYWALLED):
+        return False
+    try:
+        import trafilatura
+        r = requests.get(row["link"], headers=BROWSER_UA, timeout=25)
+        if r.status_code != 200:
+            return False
+        text = trafilatura.extract(r.text, include_comments=False, include_tables=False, favor_precision=True) or ""
+    except Exception:
+        return False
+    text = strip_junk(text)
+    if len(text) < 400:  # слишком коротко: скорее всего заглушка или пейволл
+        return False
+    if len(text) > ARTICLE_CHARS:
+        text = text[:ARTICLE_CHARS].rsplit(chr(10), 1)[0]
+    (ARTICLES_DIR / f"{row['id']}.txt").write_text(text, encoding="utf-8")
+    return True
+
+
 def main() -> int:
     now = datetime.now(timezone.utc)
     since = now - timedelta(hours=WINDOW_HOURS)
@@ -138,9 +242,27 @@ def main() -> int:
             i += 1
         topics[tid] = picked
 
+    rows_all = [r for v in topics.values() for r in v]
+    for r in rows_all:
+        r["id"] = article_id(r["link"])
+    ARTICLES_DIR.mkdir(exist_ok=True)
+    for old in ARTICLES_DIR.glob("*.txt"):  # вчерашние тексты не копим
+        old.unlink()
+    with ThreadPoolExecutor(8) as ex:
+        got = list(ex.map(fetch_text, rows_all))
+    for r, ok_ in zip(rows_all, got):
+        r["has_text"] = bool(ok_)
+    print(f"Тексты статей: сохранено {sum(got)} из {len(rows_all)}")
+    groups = group_rows(rows_all)
+    by_id = {r["id"]: r for r in rows_all}
+    for g in sorted(groups, key=lambda g: g["id"]):
+        for i in g["ids"]:
+            by_id[i]["group"] = g["id"]
+    print(f"События с 2+ изданиями: {len(groups)}")
+
     total = sum(len(v) for v in topics.values())
     out = {"generated_at": now.strftime("%Y-%m-%d %H:%M UTC"), "window_hours": WINDOW_HOURS,
-           "feeds_ok": ok, "feeds_failed": failed, "topics": topics}
+           "feeds_ok": ok, "feeds_failed": failed, "groups": groups, "topics": topics}
     (ROOT / "data/candidates.json").write_text(json.dumps(out, ensure_ascii=False, indent=1), encoding="utf-8")
     print(f"Итого заголовков: {total}, лент ок: {ok}, с ошибкой: {len(failed)}")
     return 0

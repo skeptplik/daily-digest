@@ -41,7 +41,11 @@
     {"outlet": "France 24 на русском", "url": "https://www.france24.com/ru/rss"},
     {"outlet": "NYT", "url": "https://rss.nytimes.com/services/xml/rss/nyt/World.xml"},
     {"outlet": "ABC Australia", "url": "https://www.abc.net.au/news/feed/2942460/rss.xml"},
-    {"outlet": "CBC", "url": "https://www.cbc.ca/webfeed/rss/rss-world"}
+    {"outlet": "CBC", "url": "https://www.cbc.ca/webfeed/rss/rss-world"},
+    {"outlet": "Al Jazeera", "url": "https://www.aljazeera.com/xml/rss/all.xml"},
+    {"outlet": "The Hindu", "url": "https://www.thehindu.com/news/international/feeder/default.rss"},
+    {"outlet": "SCMP", "url": "https://www.scmp.com/rss/91/feed"},
+    {"outlet": "Japan Times", "url": "https://www.japantimes.co.jp/feed/"}
   ],
   "tech": [
     {"outlet": "The Verge", "url": "https://www.theverge.com/rss/index.xml"},

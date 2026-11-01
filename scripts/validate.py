@@ -53,6 +53,12 @@ for t in d["topics"]:
     if not isinstance(items, list) or not items:
         errors.append(f"тема {tid}: нет items")
         continue
+    main_n = sum(1 for x in items if not x.get("minor"))
+    minor_n = len(items) - main_n
+    if main_n > 4:
+        warns.append(f"тема {tid}: {main_n} основных новостей (в промпте не больше 4)")
+    if minor_n > 5:
+        warns.append(f"тема {tid}: {minor_n} мелких плиток (в промпте не больше 5)")
     for n, it in enumerate(items, 1):
         where = f"{tid}#{n}"
         total += 1
@@ -66,6 +72,12 @@ for t in d["topics"]:
             errors.append(f"{where}: importance должна быть 1, 2 или 3, а не «{it.get('importance')}»")
         elif it["importance"] == 3:
             hot += 1
+        if "body" in it:
+            b = it["body"]
+            if not isinstance(b, list) or not all(isinstance(x, str) for x in b):
+                errors.append(f"{where}: body должен быть списком строк")
+            elif sum(len(x.split()) for x in b) > 1500:
+                warns.append(f"{where}: body длиннее 1500 слов")
         srcs = it.get("sources")
         if not isinstance(srcs, list) or not srcs:
             errors.append(f"{where}: нет sources")
