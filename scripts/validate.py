@@ -66,6 +66,12 @@ for t in d["topics"]:
             errors.append(f"{where}: importance должна быть 1, 2 или 3, а не «{it.get('importance')}»")
         elif it["importance"] == 3:
             hot += 1
+        if "body" in it:
+            b = it["body"]
+            if not isinstance(b, list) or not all(isinstance(x, str) for x in b):
+                errors.append(f"{where}: body должен быть списком строк")
+            elif sum(len(x.split()) for x in b) > 600:
+                warns.append(f"{where}: body длиннее 600 слов")
         srcs = it.get("sources")
         if not isinstance(srcs, list) or not srcs:
             errors.append(f"{where}: нет sources")

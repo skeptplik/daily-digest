@@ -319,7 +319,9 @@ def main():
                 if isinstance(v, dict) and s(v.get("title"), 160):
                     i18n[lg] = {"title": s(v.get("title"), 160), "summary": s(v.get("summary"), 420),
                                 "why": s(v.get("why"), 240)}
+            body = [s(x, 1800) for x in (it.get("body") or [])[:30] if isinstance(x, str) and s(x, 1800)]                 if isinstance(it.get("body"), list) else []
             topic["items"].append({
+                "body": body,
                 "i18n": i18n,
                 "title": title_i,
                 "summary": s(it.get("summary"), 420),
