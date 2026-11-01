@@ -1,0 +1,83 @@
+{
+  "_comment": "RSS-ленты проверенных изданий по темам. Сборщик scripts/collect.py каждое утро читает их и кладёт свежие заголовки в data/candidates.json. Добавляйте и удаляйте ленты как хотите; ссылки на статьи должны вести на домены из sources.json.",
+  "ai": [
+    {"outlet": "TechCrunch", "url": "https://techcrunch.com/category/artificial-intelligence/feed/"},
+    {"outlet": "Ars Technica", "url": "https://arstechnica.com/ai/feed/"},
+    {"outlet": "The Verge", "url": "https://www.theverge.com/rss/ai-artificial-intelligence/index.xml"},
+    {"outlet": "MIT Technology Review", "url": "https://www.technologyreview.com/topic/artificial-intelligence/feed"},
+    {"outlet": "Wired", "url": "https://www.wired.com/feed/tag/ai/latest/rss"}
+  ],
+  "health": [
+    {"outlet": "BBC", "url": "https://feeds.bbci.co.uk/news/health/rss.xml"},
+    {"outlet": "STAT", "url": "https://www.statnews.com/feed/"},
+    {"outlet": "The Guardian", "url": "https://www.theguardian.com/society/health/rss"},
+    {"outlet": "NPR", "url": "https://feeds.npr.org/1128/rss.xml"},
+    {"outlet": "ВОЗ", "url": "https://www.who.int/rss-feeds/news-english.xml"}
+  ],
+  "science": [
+    {"outlet": "Nature", "url": "https://www.nature.com/nature.rss"},
+    {"outlet": "BBC", "url": "https://feeds.bbci.co.uk/news/science_and_environment/rss.xml"},
+    {"outlet": "The Guardian", "url": "https://www.theguardian.com/science/rss"},
+    {"outlet": "Science News", "url": "https://www.sciencenews.org/feed"},
+    {"outlet": "New Scientist", "url": "https://www.newscientist.com/feed/home/"},
+    {"outlet": "NPR", "url": "https://feeds.npr.org/1007/rss.xml"},
+    {"outlet": "Quanta", "url": "https://www.quantamagazine.org/feed/"}
+  ],
+  "space": [
+    {"outlet": "NASA", "url": "https://www.nasa.gov/feed/"},
+    {"outlet": "Space.com", "url": "https://www.space.com/feeds/all"},
+    {"outlet": "ESA", "url": "https://www.esa.int/rssfeed/Our_Activities/Space_News"},
+    {"outlet": "The Guardian", "url": "https://www.theguardian.com/science/space/rss"}
+  ],
+  "politics": [
+    {"outlet": "BBC", "url": "https://feeds.bbci.co.uk/news/world/rss.xml"},
+    {"outlet": "BBC Русская служба", "url": "https://feeds.bbci.co.uk/russian/rss.xml"},
+    {"outlet": "The Guardian", "url": "https://www.theguardian.com/world/rss"},
+    {"outlet": "DW", "url": "https://rss.dw.com/rdf/rss-en-all"},
+    {"outlet": "DW на русском", "url": "https://rss.dw.com/rdf/rss-ru-all"},
+    {"outlet": "NPR", "url": "https://feeds.npr.org/1004/rss.xml"},
+    {"outlet": "Euronews", "url": "https://www.euronews.com/rss"},
+    {"outlet": "France 24", "url": "https://www.france24.com/en/rss"},
+    {"outlet": "France 24 на русском", "url": "https://www.france24.com/ru/rss"},
+    {"outlet": "NYT", "url": "https://rss.nytimes.com/services/xml/rss/nyt/World.xml"},
+    {"outlet": "ABC Australia", "url": "https://www.abc.net.au/news/feed/2942460/rss.xml"},
+    {"outlet": "CBC", "url": "https://www.cbc.ca/webfeed/rss/rss-world"}
+  ],
+  "tech": [
+    {"outlet": "The Verge", "url": "https://www.theverge.com/rss/index.xml"},
+    {"outlet": "Ars Technica", "url": "https://feeds.arstechnica.com/arstechnica/index"},
+    {"outlet": "Tom's Hardware", "url": "https://www.tomshardware.com/feeds/all"},
+    {"outlet": "Wired", "url": "https://www.wired.com/feed/rss"},
+    {"outlet": "BBC", "url": "https://feeds.bbci.co.uk/news/technology/rss.xml"},
+    {"outlet": "The Guardian", "url": "https://www.theguardian.com/technology/rss"}
+  ],
+  "dev": [
+    {"outlet": "InfoQ", "url": "https://feed.infoq.com/"},
+    {"outlet": "LWN", "url": "https://lwn.net/headlines/rss"},
+    {"outlet": "GitHub Blog", "url": "https://github.blog/feed/"},
+    {"outlet": "IEEE Spectrum", "url": "https://spectrum.ieee.org/feeds/feed.rss"}
+  ],
+  "games": [
+    {"outlet": "IGN", "url": "https://feeds.ign.com/ign/all"},
+    {"outlet": "Eurogamer", "url": "https://www.eurogamer.net/feed"},
+    {"outlet": "PC Gamer", "url": "https://www.pcgamer.com/rss/"},
+    {"outlet": "Polygon", "url": "https://www.polygon.com/rss/index.xml"},
+    {"outlet": "GamesIndustry.biz", "url": "https://www.gamesindustry.biz/feed"},
+    {"outlet": "GameSpot", "url": "https://www.gamespot.com/feeds/mashup/"}
+  ],
+  "fashion": [
+    {"outlet": "Vogue", "url": "https://www.vogue.com/feed/rss"},
+    {"outlet": "Dezeen", "url": "https://www.dezeen.com/feed/"},
+    {"outlet": "The Guardian", "url": "https://www.theguardian.com/fashion/rss"},
+    {"outlet": "Business of Fashion", "url": "https://www.businessoffashion.com/arc/outboundfeeds/rss/"},
+    {"outlet": "WWD", "url": "https://wwd.com/feed/"}
+  ],
+  "security": [
+    {"outlet": "Krebs on Security", "url": "https://krebsonsecurity.com/feed/"},
+    {"outlet": "BleepingComputer", "url": "https://www.bleepingcomputer.com/feed/"},
+    {"outlet": "The Record", "url": "https://therecord.media/feed"},
+    {"outlet": "SecurityWeek", "url": "https://feeds.feedburner.com/securityweek"},
+    {"outlet": "Schneier", "url": "https://www.schneier.com/feed/atom/"},
+    {"outlet": "CISA", "url": "https://www.cisa.gov/cybersecurity-advisories/all.xml"}
+  ]
+}
