@@ -101,14 +101,15 @@ def is_public(url):
         return False
 
 
-def fetch(url, max_bytes, timeout=8):
+def fetch(url, max_bytes, timeout=8, referer=None):
     """Скачивает url, вручную проходя редиректы и проверяя каждый адрес."""
     for _ in range(4):
         if not is_public(url):
             return None
         try:
             r = requests.get(url, headers={"User-Agent": UA, "Accept-Language": "en,ru;q=0.8",
-                                           "Accept": "text/html,image/avif,image/webp,image/*;q=0.8,*/*;q=0.5"},
+                                           "Accept": "text/html,image/avif,image/webp,image/*;q=0.8,*/*;q=0.5",
+                                           **({"Referer": referer} if referer else {})},
                              timeout=timeout, stream=True, allow_redirects=False)
         except Exception:
             return None
@@ -178,26 +179,48 @@ def to_data_uri(raw):
         return None
 
 
+RSS_IMAGES = {}  # ссылка на статью -> картинка из RSS (собирает scripts/collect.py)
+STATS = {"rss": 0, "og": 0, "none": 0}
+
+
+def load_rss_images():
+    p = ROOT / "data" / "candidates.json"
+    try:
+        c = json.loads(p.read_text(encoding="utf-8"))
+        for rows in c.get("topics", {}).values():
+            for r in rows:
+                if r.get("image"):
+                    RSS_IMAGES[r["link"]] = r["image"]
+    except Exception:
+        pass
+
+
+def try_image(url, referer):
+    res = fetch(url, 3_000_000, timeout=10, referer=referer)
+    return to_data_uri(res[1]) if res else None
+
+
 def resolve_image(item):
-    """Пробуем: явная картинка, затем og:image каждого источника по очереди."""
-    candidates = [item["image"]] if item.get("image") else []
-    candidates += [None] * len(item["sources"])
-    page_urls = [s["url"] for s in item["sources"]]
-    k = 0
-    for c in candidates:
-        if c:
-            url = c
-        else:
-            url = og_image(page_urls[k])
-            k += 1
-        if not url:
-            continue
-        res = fetch(url, 3_000_000, timeout=10)
-        if not res:
-            continue
-        uri = to_data_uri(res[1])
+    """Порядок: явная картинка, затем для каждого источника: картинка из RSS, затем og:image страницы."""
+    if item.get("image"):
+        uri = try_image(item["image"], None)
         if uri:
             return uri
+    for src in item["sources"]:
+        page = src["url"]
+        origin = "{0.scheme}://{0.netloc}/".format(urlparse(page))
+        if RSS_IMAGES.get(page):
+            uri = try_image(RSS_IMAGES[page], origin)
+            if uri:
+                STATS["rss"] += 1
+                return uri
+        url = og_image(page)
+        if url:
+            uri = try_image(url, origin)
+            if uri:
+                STATS["og"] += 1
+                return uri
+    STATS["none"] += 1
     return None
 
 
@@ -312,11 +335,13 @@ def main():
     all_items = [it for t in topics for it in t["items"]]
 
     if not NO_NET:
+        load_rss_images()
         ranked = sorted(all_items, key=lambda i: -i["importance"])[:MAX_IMAGES]
         with ThreadPoolExecutor(8) as ex:
             for it, uri in zip(ranked, ex.map(resolve_image, ranked)):
                 it["img"] = uri
         missing = sorted({urlparse(i["sources"][0]["url"]).hostname or "?" for i in ranked if not i["img"]})
+        print(f"Фото: из RSS {STATS['rss']}, из og:image {STATS['og']}, не найдено {STATS['none']}")
         if missing:
             print("Без фото (источники, откуда не удалось взять обложку):", ", ".join(missing))
 

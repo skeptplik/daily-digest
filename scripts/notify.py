@@ -3,6 +3,7 @@
 import json
 import os
 import sys
+from datetime import datetime, timezone
 from pathlib import Path
 
 import requests
@@ -35,7 +36,9 @@ if hot:
     text += "\n🔥 Главное:\n"
     for tid, i in hot:
         text += f"{ICONS.get(tid, '•')} {i['title']}\n"
-text += f"\nВсего новостей: {total}. Все темы, фото и источники внутри:\n🔗 {page_url}"
+# параметр в конце ссылки не даёт Telegram/браузеру показать вчерашнюю копию страницы из кэша
+link = f"{page_url.rstrip('/')}/?d={meta['date']}-{datetime.now(timezone.utc).strftime('%H%M')}"
+text += f"\nВсего новостей: {total}. Все темы, фото и источники внутри:\n🔗 {link}"
 text = text[:4000]
 
 try:

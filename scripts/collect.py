@@ -57,12 +57,22 @@ def parse_date(text: str):
     return dt.astimezone(timezone.utc)
 
 
+MEDIA_NS = "{http://search.yahoo.com/mrss/}"
+IMG_RE = re.compile(r"<img[^>]+src=[\"']([^\"']+)", re.I)
+
+
+def abs_img(u):
+    u = html.unescape((u or "").strip())
+    return u if u.startswith("http://") or u.startswith("https://") else ""
+
+
 def parse_feed(xml_bytes: bytes):
     root = ET.fromstring(xml_bytes)
     for node in root.iter():
         if local(node.tag) not in ("item", "entry"):
             continue
-        row = {"title": "", "link": "", "date": None, "summary": ""}
+        row = {"title": "", "link": "", "date": None, "summary": "", "image": ""}
+        media, thumb, enclosure, inline = "", "", "", ""
         for ch in node:
             name = local(ch.tag)
             if name == "title":
@@ -71,8 +81,20 @@ def parse_feed(xml_bytes: bytes):
                 row["link"] = (ch.get("href") or ch.text or "").strip() if not row["link"] or ch.get("rel") == "alternate" else row["link"]
             elif name in ("pubDate", "published", "updated", "date") and not row["date"]:
                 row["date"] = parse_date(ch.text)
-            elif name in ("description", "summary", "encoded", "content") and not row["summary"]:
-                row["summary"] = clean(ch.text or "", 240)
+            elif name in ("description", "summary", "encoded", "content") and not ch.tag.startswith(MEDIA_NS):
+                if not row["summary"]:
+                    row["summary"] = clean(ch.text or "", 240)
+                if not inline:
+                    m = IMG_RE.search(html.unescape(ch.text or ""))
+                    inline = abs_img(m.group(1)) if m else ""
+            elif ch.tag.startswith(MEDIA_NS) and name == "content" and not media:
+                if (ch.get("medium") == "image") or (ch.get("type") or "").startswith("image") or re.search(r"\.(jpe?g|png|webp)(\?|$)", ch.get("url") or "", re.I):
+                    media = abs_img(ch.get("url"))
+            elif ch.tag.startswith(MEDIA_NS) and name == "thumbnail" and not thumb:
+                thumb = abs_img(ch.get("url"))
+            elif name == "enclosure" and not enclosure and (ch.get("type") or "").startswith("image"):
+                enclosure = abs_img(ch.get("url"))
+        row["image"] = media or enclosure or inline or thumb
         if row["title"] and row["link"]:
             yield row
 
@@ -96,7 +118,8 @@ def main() -> int:
                     if not is_trusted(it["link"]):
                         continue
                     rows.append({"outlet": f["outlet"], "title": it["title"], "link": it["link"],
-                                 "published": it["date"].strftime("%Y-%m-%d %H:%M"), "summary": it["summary"]})
+                                 "published": it["date"].strftime("%Y-%m-%d %H:%M"), "summary": it["summary"],
+                                 "image": it["image"]})
                 rows.sort(key=lambda x: x["published"], reverse=True)
                 per_outlet.append(rows)
                 ok += 1
