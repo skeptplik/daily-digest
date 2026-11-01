@@ -1,0 +1,155 @@
+{
+ "feeds_ok": 57,
+ "feeds_failed": [
+  "politics/France 24 на русском: HTTPError",
+  "politics/CBC: ReadTimeout",
+  "fashion/Business of Fashion: HTTPError"
+ ],
+ "total": 145,
+ "with_text": 130,
+ "text_bytes_total": 466241,
+ "by_outlet": {
+  "ABC Australia": {
+   "rows": 3,
+   "text": 3
+  },
+  "Ars Technica": {
+   "rows": 2,
+   "text": 2
+  },
+  "BBC": {
+   "rows": 15,
+   "text": 14
+  },
+  "BBC Русская служба": {
+   "rows": 3,
+   "text": 2
+  },
+  "BleepingComputer": {
+   "rows": 7,
+   "text": 7
+  },
+  "DW": {
+   "rows": 3,
+   "text": 3
+  },
+  "DW на русском": {
+   "rows": 3,
+   "text": 3
+  },
+  "Dezeen": {
+   "rows": 4,
+   "text": 4
+  },
+  "Eurogamer": {
+   "rows": 3,
+   "text": 3
+  },
+  "Euronews": {
+   "rows": 3,
+   "text": 3
+  },
+  "France 24": {
+   "rows": 3,
+   "text": 0
+  },
+  "GameSpot": {
+   "rows": 2,
+   "text": 0
+  },
+  "IEEE Spectrum": {
+   "rows": 2,
+   "text": 2
+  },
+  "IGN": {
+   "rows": 3,
+   "text": 3
+  },
+  "InfoQ": {
+   "rows": 8,
+   "text": 8
+  },
+  "LWN": {
+   "rows": 3,
+   "text": 2
+  },
+  "NASA": {
+   "rows": 2,
+   "text": 2
+  },
+  "NPR": {
+   "rows": 8,
+   "text": 7
+  },
+  "NYT": {
+   "rows": 3,
+   "text": 0
+  },
+  "New Scientist": {
+   "rows": 3,
+   "text": 0
+  },
+  "PC Gamer": {
+   "rows": 3,
+   "text": 3
+  },
+  "Polygon": {
+   "rows": 3,
+   "text": 3
+  },
+  "STAT": {
+   "rows": 1,
+   "text": 1
+  },
+  "SecurityWeek": {
+   "rows": 2,
+   "text": 2
+  },
+  "Space.com": {
+   "rows": 12,
+   "text": 12
+  },
+  "TechCrunch": {
+   "rows": 4,
+   "text": 4
+  },
+  "The Guardian": {
+   "rows": 15,
+   "text": 15
+  },
+  "The Verge": {
+   "rows": 4,
+   "text": 4
+  },
+  "Tom's Hardware": {
+   "rows": 3,
+   "text": 3
+  },
+  "Vogue": {
+   "rows": 4,
+   "text": 4
+  },
+  "WWD": {
+   "rows": 4,
+   "text": 4
+  },
+  "Wired": {
+   "rows": 7,
+   "text": 7
+  }
+ },
+ "log": [
+  "ok   fashion   Dezeen: 7",
+  "ok   fashion   The Guardian: 2",
+  "FAIL fashion   Business of Fashion: HTTPError",
+  "ok   fashion   WWD: 10",
+  "ok   security  Krebs on Security: 0",
+  "ok   security  BleepingComputer: 7",
+  "ok   security  The Record: 0",
+  "ok   security  SecurityWeek: 2",
+  "ok   security  Schneier: 0",
+  "ok   security  CISA: 0",
+  "Тексты статей: сохранено 130 из 145",
+  "Итого заголовков: 145, лент ок: 57, с ошибкой: 3"
+ ]
+}
