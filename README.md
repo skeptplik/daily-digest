@@ -1,12 +1,19 @@
 # daily-digest
 
-Ежедневный новостной дайджест в формате историй.
+Личный ежедневный новостной дайджест на русском: красивая мобильная страница в стиле историй, одно сообщение в Telegram со ссылкой, копия на Windows в `C:\Digests`.
 
-1. В 8:00 облачная задача (routine) Claude собирает новости из проверенных изданий (`data/sources.json`) и пишет `data/digest.json` в ветку main.
-2. Workflow `.github/workflows/publish.yml` собирает страницу (`scripts/render.py` + `templates/digest.html`),
-   публикует на GitHub Pages и отправляет ссылку и файл в Telegram (`scripts/notify.py`).
-3. На Windows `local/Install-Task.ps1` ставит задачу, которая скачивает свежий файл в `C:\Digests` и чистит старые.
+Как работает: GitHub Actions собирает свежие заголовки из RSS проверенных изданий → облачная задача Claude (Sonnet 5.5, по подписке, без API) выбирает главное и пишет `data/digest.json` → Actions собирает страницу, публикует на GitHub Pages и шлёт сообщение в Telegram → проверка сбоя → задача Windows скачивает файл.
 
-Пошаговая инструкция: `ИНСТРУКЦИЯ.md`. Секреты (Settings → Secrets and variables → Actions): `TELEGRAM_BOT_TOKEN`, `TELEGRAM_CHAT_ID`.
+Страница: https://skeptplik.github.io/daily-digest/
 
-Файл `data/digest.json` изначально содержит ДЕМО-данные. Первый настоящий запуск заменит их.
+## Документы
+- `docs/SETUP-VSCODE.md`: как начать работу в папке (VS Code, Claude Code, Codex)
+- `docs/STATUS.md`: что работает, результаты тестов, открытые вопросы
+- `docs/ARCHITECTURE.md`: схема, расписание, форматы данных
+- `docs/OPERATIONS.md`: облачная задача, GitHub, Windows, Telegram, поломки
+- `docs/DECISIONS.md`: решения и предпочтения владельца
+- `docs/ROADMAP.md`: планы
+- `AGENTS.md` / `CLAUDE.md`: правила для ИИ-агентов
+- `ИНСТРУКЦИЯ.md`: первоначальная пошаговая установка (частично устарела, актуальное расписание и схема в `docs/`)
+
+Секреты (Settings → Secrets and variables → Actions): `TELEGRAM_BOT_TOKEN`, `TELEGRAM_CHAT_ID`.

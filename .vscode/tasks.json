@@ -1,0 +1,26 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Digest: собрать демо-страницу (без сети)",
+      "type": "shell",
+      "command": "python scripts/render.py",
+      "options": { "env": { "NO_NETWORK": "1", "PLACEHOLDER_IMAGES": "1", "PYTHONUTF8": "1" } },
+      "problemMatcher": []
+    },
+    {
+      "label": "Digest: проверить digest.json",
+      "type": "shell",
+      "command": "python -m json.tool data/digest.json",
+      "options": { "env": { "PYTHONUTF8": "1" } },
+      "problemMatcher": []
+    },
+    {
+      "label": "Digest: собрать заголовки (RSS, нужен интернет)",
+      "type": "shell",
+      "command": "python scripts/collect.py",
+      "options": { "env": { "PYTHONUTF8": "1" } },
+      "problemMatcher": []
+    }
+  ]
+}

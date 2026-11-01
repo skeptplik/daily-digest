@@ -1,0 +1,9 @@
+{
+  "recommendations": [
+    "ms-python.python",
+    "anthropic.claude-code",
+    "openai.chatgpt",
+    "github.vscode-github-actions",
+    "ritwickdey.liveserver"
+  ]
+}
