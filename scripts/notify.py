@@ -20,7 +20,7 @@ meta = json.loads(Path("out/meta.json").read_text(encoding="utf-8"))
 data = json.loads(Path("data/digest.json").read_text(encoding="utf-8"))
 
 ICONS = {"ai": "🤖", "health": "🩺", "science": "🔬", "space": "🚀", "politics": "🌍",
-         "tech": "💻", "dev": "⌨️", "games": "🎮", "fashion": "👗", "security": "🔐"}
+         "tech": "💻", "dev": "⌨️", "games": "🎮", "fashion": "👗", "security": "🔐", "curious": "🎈"}
 
 items = [(t["id"], i) for t in data.get("topics", []) for i in t.get("items", [])]
 total = len(items)
