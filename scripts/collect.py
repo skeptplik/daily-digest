@@ -167,7 +167,8 @@ JUNK_RE = re.compile(
     r"^(-\s*)?published(\s*[-:].*)?$|^updated\s*[-:].*$|^you must confirm your public display name|^please logout and then login|"
     r"^sign up (for|to) our|^subscribe (to|for|now)|^for stories about life in our changing world|^read more:?|"
     r"^related( articles| stories| topics)?:?$|^advertisement$|^share this (article|story)|^follow us on|^click here to|"
-    r"^читайте также|^подписывайтесь",
+    r"^читайте также|^подписывайтесь|^follow .{0,40} on (x|facebook|instagram|twitter)|"
+    r"^accuracy and availability of transcripts|^follow the twists and turns",
     re.I)
 
 
