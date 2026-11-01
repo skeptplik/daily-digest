@@ -53,6 +53,8 @@ for t in d["topics"]:
     if not isinstance(items, list) or not items:
         errors.append(f"тема {tid}: нет items")
         continue
+    if len(items) > 4:
+        warns.append(f"тема {tid}: {len(items)} новостей (в промпте не больше 4)")
     for n, it in enumerate(items, 1):
         where = f"{tid}#{n}"
         total += 1
@@ -70,8 +72,8 @@ for t in d["topics"]:
             b = it["body"]
             if not isinstance(b, list) or not all(isinstance(x, str) for x in b):
                 errors.append(f"{where}: body должен быть списком строк")
-            elif sum(len(x.split()) for x in b) > 600:
-                warns.append(f"{where}: body длиннее 600 слов")
+            elif sum(len(x.split()) for x in b) > 1500:
+                warns.append(f"{where}: body длиннее 1500 слов")
         srcs = it.get("sources")
         if not isinstance(srcs, list) or not srcs:
             errors.append(f"{where}: нет sources")

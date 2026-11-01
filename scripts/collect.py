@@ -27,7 +27,7 @@ BROWSER_UA = {"User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 
               "Accept-Language": "en,ru;q=0.8"}
 # платные издания: полный текст не сохраняем (страницы дайджеста публичные), только заголовок и описание из RSS
 PAYWALLED = {"nytimes.com", "wsj.com", "ft.com", "economist.com", "bloomberg.com", "washingtonpost.com"}
-ARTICLE_CHARS = 6000
+ARTICLE_CHARS = 20000
 ARTICLES_DIR = ROOT / "data" / "articles"
 
 feeds = json.loads((ROOT / "data/feeds.json").read_text(encoding="utf-8"))

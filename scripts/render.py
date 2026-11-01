@@ -209,6 +209,7 @@ def resolve_image(item):
     if item.get("image"):
         uri = try_image(item["image"], None)
         if uri:
+            item["_cover_url"] = item["image"]
             return uri
     for src in item["sources"]:
         page = src["url"]
@@ -217,15 +218,37 @@ def resolve_image(item):
             uri = try_image(RSS_IMAGES[page], origin)
             if uri:
                 STATS["rss"] += 1
+                item["_cover_url"] = RSS_IMAGES[page]
                 return uri
         url = og_image(page)
         if url:
             uri = try_image(url, origin)
             if uri:
                 STATS["og"] += 1
+                item["_cover_url"] = url
                 return uri
     STATS["none"] += 1
     return None
+
+
+MAX_PHOTOS = 2
+
+
+def resolve_photos(item):
+    """Дополнительные фото для читалки: картинки других источников той же новости (RSS и og:image),
+    кроме обложки. Берём не больше MAX_PHOTOS."""
+    out, seen = [], {item.get("_cover_url")}
+    for src in item["sources"]:
+        page = src["url"]
+        origin = "{0.scheme}://{0.netloc}/".format(urlparse(page))
+        for url in (RSS_IMAGES.get(page), None if len(out) >= MAX_PHOTOS else og_image(page)):
+            if not url or url in seen or len(out) >= MAX_PHOTOS:
+                continue
+            seen.add(url)
+            uri = try_image(url, origin)
+            if uri:
+                out.append(uri)
+    return out
 
 
 def placeholder(item):
@@ -332,6 +355,7 @@ def main():
                 "indep": indep,
                 "image": clean_url(it.get("image")),
                 "img": None,
+                "photos": [],
                 "_topic": topic,
             })
         if topic["items"]:
@@ -357,6 +381,11 @@ def main():
         with ThreadPoolExecutor(8) as ex:
             for it, uri in zip(ranked, ex.map(resolve_image, ranked)):
                 it["img"] = uri
+        with_body = [i for i in ranked if i["body"]]
+        with ThreadPoolExecutor(8) as ex:
+            for it, ph in zip(with_body, ex.map(resolve_photos, with_body)):
+                it["photos"] = ph
+        print(f"Читалка: статей с текстом {len(with_body)}, дополнительных фото {sum(len(i['photos']) for i in with_body)}")
         missing = sorted({urlparse(i["sources"][0]["url"]).hostname or "?" for i in ranked if not i["img"]})
         print(f"Фото: из RSS {STATS['rss']}, из og:image {STATS['og']}, не найдено {STATS['none']}")
         if missing:
@@ -368,9 +397,16 @@ def main():
                 it["img"] = placeholder(it)
                 it["ph"] = True
 
+    # демо без сети: заглушки вместо дополнительных фото, чтобы видеть вёрстку читалки
+    if os.environ.get("PLACEHOLDER_IMAGES") == "1":
+        for it in all_items:
+            if it["body"] and not it["photos"]:
+                it["photos"] = [placeholder({**it, "title": it["title"] + str(k), "_topic": it["_topic"]}) for k in (1, 2)]
+
     for it in all_items:
         it.pop("_topic", None)
         it.pop("image", None)
+        it.pop("_cover_url", None)
 
     # статистика для журнала запуска
     single = [i["title"][:60] for t in topics if t["id"] == "politics" for i in t["items"] if i["indep"] < 2]
