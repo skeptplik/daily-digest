@@ -54,6 +54,8 @@
 10. Из среды Claude Code `git push` может молча зависнуть (ждёт учётные данные). Запускайте `GIT_TERMINAL_PROMPT=0 timeout 60 git push`; чтение (`git ls-remote`) при этом работает.
 11. Тестовые ветки `claude/*` удаляйте командой `git push origin --delete <имя>`; на GitHub в `main` остаётся единственная ветка.
 12. Читалка: читатель не открывает сайты изданий (их блокируют), поэтому поле `body` в `digest.json` это полный рассказ по-русски, а кнопка «Читать» есть только у новостей с `body`. Платные издания (nytimes, wsj, ft, economist, bloomberg, washingtonpost) без текста: только заголовок и описание как подтверждение события. Мелкие новости темы идут с `"minor": true` (плитки «Также интересно»), основных в теме до 4.
+13. Макет и снимки: `DIGEST_FILE=<json> NO_NETWORK=1 PLACEHOLDER_IMAGES=1 python scripts/render.py` строит `out/preview-<имя>.html` (папка `out/` не в git). Безголовый Chrome из Bash молча не пишет снимок, если у владельца открыт обычный Chrome: запускать через PowerShell `Start-Process chrome.exe` с `--headless=new`, отдельным `--user-data-dir`, `--window-size=500,H` и страницей в `iframe` шириной 393 px.
+14. Пуш в `main` без изменения `data/digest.json` рассылку не запускает (`publish.yml` срабатывает только по этому файлу). Тестовый воркфлоу на ветке, сохраняющий результат коммитом, делает `git push origin HEAD:<ветка>` без `git pull --rebase`.
 
 ## Локальная проверка (Python 3.12, `pip install -r requirements.txt`)
 ```
