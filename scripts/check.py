@@ -22,6 +22,21 @@ try:
 except Exception as e:
     problems.append(f"не удалось прочитать data/digest.json ({type(e).__name__})")
 
+# сайт на GitHub Pages тоже должен показывать сегодняшний дайджест (ловит сбой публикации/проверки)
+if not problems:
+    try:
+        import re
+        owner = os.environ.get("GITHUB_REPOSITORY", "skeptplik/daily-digest").split("/")
+        page = requests.get(f"https://{owner[0].lower()}.github.io/{owner[1]}/?t={today}", timeout=30).text
+        m = re.search(r'<meta name="digest-date" content="(\d{4}-\d{2}-\d{2})"', page)
+        if not m:
+            problems.append("на сайте не нашлась дата дайджеста (страница не открылась или пустая)")
+        elif m.group(1) != today:
+            problems.append(f"файл дайджеста обновлён, но сайт показывает {m.group(1)}: "
+                            "откройте Actions → Publish digest, возможно сборка упала на проверке данных")
+    except Exception as e:
+        print("warn: сайт не проверен:", type(e).__name__)
+
 cand = None
 try:
     cand = json.loads((ROOT / "data/candidates.json").read_text(encoding="utf-8"))
