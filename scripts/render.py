@@ -169,19 +169,40 @@ def og_image(page_url):
     return urljoin(final_url, p.image) if p.image else None
 
 
-def to_data_uri(raw):
+COVER_W, COVER_H = 800, 600   # обложка 4:3; малые картинки не растягиваем
+GOOD_W = 700                  # такая ширина оригинала считается достаточно чёткой
+
+
+def prep_image(raw):
+    """Картинка -> (data URI WebP, ширина оригинала). Растягивать малые не будем: режем до 4:3 и ужимаем только вниз."""
     try:
         im = Image.open(io.BytesIO(raw))
         im.load()
         im = im.convert("RGB")
+        native_w = im.width
         if im.width < 240 or im.height < 120:
-            return None
-        im = ImageOps.fit(im, (720, 540), method=Image.LANCZOS)  # 4:3
+            return None, 0
+        w, h = im.size
+        # обрезка до 4:3 по центру (чуть выше центра: лица и заголовки обычно вверху)
+        if w * 3 > h * 4:
+            nw = h * 4 // 3
+            x0 = (w - nw) // 2
+            im = im.crop((x0, 0, x0 + nw, h))
+        else:
+            nh = w * 3 // 4
+            y0 = max(0, int((h - nh) * 0.35))
+            im = im.crop((0, y0, w, y0 + nh))
+        if im.width > COVER_W:
+            im = im.resize((COVER_W, COVER_H), Image.LANCZOS)
         buf = io.BytesIO()
-        im.save(buf, "JPEG", quality=72, optimize=True, progressive=True)
-        return "data:image/jpeg;base64," + base64.b64encode(buf.getvalue()).decode()
+        im.save(buf, "WEBP", quality=74, method=6)
+        return "data:image/webp;base64," + base64.b64encode(buf.getvalue()).decode(), native_w
     except Exception:
-        return None
+        return None, 0
+
+
+def to_data_uri(raw):
+    return prep_image(raw)[0]
 
 
 RSS_IMAGES = {}  # ссылка на статью -> картинка из RSS (собирает scripts/collect.py)
@@ -201,33 +222,41 @@ def load_rss_images():
 
 
 def try_image(url, referer):
+    """(data URI, ширина оригинала) или (None, 0)."""
     res = fetch(url, 3_000_000, timeout=10, referer=referer)
-    return to_data_uri(res[1]) if res else None
+    return prep_image(res[1]) if res else (None, 0)
 
 
 def resolve_image(item):
-    """Порядок: явная картинка, затем для каждого источника: картинка из RSS, затем og:image страницы."""
-    if item.get("image"):
-        uri = try_image(item["image"], None)
-        if uri:
-            item["_cover_url"] = item["image"]
-            return uri
-    for src in item["sources"]:
-        page = src["url"]
-        origin = "{0.scheme}://{0.netloc}/".format(urlparse(page))
-        if RSS_IMAGES.get(page):
-            uri = try_image(RSS_IMAGES[page], origin)
-            if uri:
-                STATS["rss"] += 1
-                item["_cover_url"] = RSS_IMAGES[page]
-                return uri
-        url = og_image(page)
-        if url:
-            uri = try_image(url, origin)
-            if uri:
-                STATS["og"] += 1
-                item["_cover_url"] = url
-                return uri
+    """Обложка: из всех кандидатов (явная, RSS и og:image каждого источника) берём самую чёткую.
+    Если очередная картинка шире GOOD_W, сразу её, иначе пробуем следующую и берём лучшую."""
+    best = (None, 0, None, None)  # uri, ширина, url, тип
+    tried = 0
+
+    def consider(url, origin, kind):
+        nonlocal best, tried
+        if not url or tried >= 5:
+            return False
+        tried += 1
+        uri, w = try_image(url, origin)
+        if uri and w > best[1]:
+            best = (uri, w, url, kind)
+        return best[1] >= GOOD_W
+
+    if consider(item.get("image"), None, "rss"):
+        pass
+    else:
+        for src in item["sources"]:
+            page = src["url"]
+            origin = "{0.scheme}://{0.netloc}/".format(urlparse(page))
+            if consider(RSS_IMAGES.get(page), origin, "rss"):
+                break
+            if consider(og_image(page), origin, "og"):
+                break
+    if best[0]:
+        STATS["rss" if best[3] == "rss" else "og"] += 1
+        item["_cover_url"] = best[2]
+        return best[0]
     STATS["none"] += 1
     return None
 
@@ -246,8 +275,8 @@ def resolve_photos(item):
             if not url or url in seen or len(out) >= MAX_PHOTOS:
                 continue
             seen.add(url)
-            uri = try_image(url, origin)
-            if uri:
+            uri, w = try_image(url, origin)
+            if uri and w >= 400:
                 out.append(uri)
     return out
 
