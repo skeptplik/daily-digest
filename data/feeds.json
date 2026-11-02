@@ -38,7 +38,7 @@
     {"outlet": "NPR", "url": "https://feeds.npr.org/1004/rss.xml"},
     {"outlet": "Euronews", "url": "https://www.euronews.com/rss"},
     {"outlet": "France 24", "url": "https://www.france24.com/en/rss"},
-    {"outlet": "France 24 на русском", "url": "https://www.france24.com/ru/rss"},
+    {"outlet": "RFI на русском", "url": "https://www.rfi.fr/ru/rss"},
     {"outlet": "NYT", "url": "https://rss.nytimes.com/services/xml/rss/nyt/World.xml"},
     {"outlet": "ABC Australia", "url": "https://www.abc.net.au/news/feed/2942460/rss.xml"},
     {"outlet": "CBC", "url": "https://www.cbc.ca/webfeed/rss/rss-world"},

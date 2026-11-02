@@ -119,17 +119,56 @@ def tokens(row):
     return {w[:6] for w in re.findall(r"[a-zа-яё0-9]{4,}", text) if w not in STOP}
 
 
+CYR = dict(zip("абвгдеёжзийклмнопрстуфхцчшщъыьэюя",
+              ["a", "b", "v", "g", "d", "e", "e", "zh", "z", "i", "i", "k", "l", "m", "n", "o", "p", "r", "s", "t",
+               "u", "f", "h", "ts", "ch", "sh", "sh", "", "i", "", "e", "iu", "ia"]))
+
+
+def skeleton(w):
+    """Фонетический скелет слова: русское и английское написание одного имени дают один ключ
+    (Binance/Бинанс, Trump/Трамп, Bulgaria/Болгарии). Грубо, но для подсказки о группе хватает."""
+    w = w.lower()
+    if re.search("[а-яё]", w):
+        w = "".join(CYR.get(ch, ch) for ch in w)
+    w = re.sub(r"c(?=[eiy])", "s", w)
+    for a, b in (("ph", "f"), ("th", "t"), ("ck", "k"), ("kh", "h"), ("sch", "sh"), ("tch", "ch"), ("x", "ks"), ("w", "v")):
+        w = w.replace(a, b)
+    w = re.sub(r"[cq]", "k", w)
+    w = re.sub(r"[jy]", "i", w)
+    w = w.translate(str.maketrans("zgdb", "sktp"))
+    w = re.sub(r"(.)+", r"", w)
+    out = w[:1] + re.sub(r"[aeiou]", "", w[1:])
+    return re.sub(r"(.)+", r"", out)[:5]
+
+
+def is_ru(row):
+    return bool(re.search("[а-яё]", row["title"].lower()))
+
+
+def tokens_x(row):
+    """Ключи для сравнения заголовков на разных языках: скелеты слов и числа."""
+    text = (row["title"] + " " + row["summary"][:140]).lower()
+    keys = {skeleton(w) for w in re.findall(r"[a-zа-яё]{4,}", text) if w not in STOP}
+    keys = {k for k in keys if len(k) >= 3}
+    return keys | {"#" + n.replace(",", ".") for n in re.findall(r"\d+(?:[.,]\d+)?", text) if len(n) >= 2}
+
+
 def group_rows(rows, min_score=0.25):
     """Группирует заголовки об одном событии (разные издания, один язык) по редким общим словам.
     Возвращает список групп: [{"id", "outlets", "ids"}] только из 2+ изданий."""
     from math import log
     toks = [tokens(r) for r in rows]
-    df = {}
+    toks_x = [tokens_x(r) for r in rows]
+    df, df_x = {}, {}
     for t in toks:
         for w in t:
             df[w] = df.get(w, 0) + 1
+    for t in toks_x:
+        for w in t:
+            df_x[w] = df_x.get(w, 0) + 1
     n = len(rows)
     idf = {w: log(n / c) for w, c in df.items()}
+    idf_x = {w: log(n / c) for w, c in df_x.items()}
     parent = list(range(n))
 
     def find(x):
@@ -142,12 +181,15 @@ def group_rows(rows, min_score=0.25):
         for j in range(i + 1, n):
             if rows[i]["outlet"] == rows[j]["outlet"]:
                 continue
-            common = toks[i] & toks[j]
-            if len(common) < 2:
+            cross = is_ru(rows[i]) != is_ru(rows[j])  # русский и английский заголовок: сравниваем скелеты
+            ti, tj, d = (toks_x[i], toks_x[j], idf_x) if cross else (toks[i], toks[j], idf)
+            common = ti & tj
+            if len(common) < (3 if cross else 2):
                 continue
-            w_common = sum(idf[w] for w in common)
-            w_min = min(sum(idf[w] for w in toks[i]), sum(idf[w] for w in toks[j])) or 1
-            if w_common / w_min >= min_score and w_common >= 3.5:
+            w_common = sum(d[w] for w in common)
+            w_min = min(sum(d[w] for w in ti), sum(d[w] for w in tj)) or 1
+            # у пар на разных языках общих слов мало, поэтому доля ниже, а общих ключей нужно больше
+            if w_common / w_min >= (0.15 if cross else min_score) and w_common >= (6 if cross else 3.5):
                 parent[find(i)] = find(j)
     buckets = {}
     for i in range(n):
@@ -213,8 +255,12 @@ def main() -> int:
         per_outlet = []
         for f in lst:
             try:
-                r = requests.get(f["url"], headers=UA, timeout=25)
-                r.raise_for_status()
+                try:
+                    r = requests.get(f["url"], headers=UA, timeout=25)
+                    r.raise_for_status()
+                except Exception:  # часть лент (CBC, Business of Fashion) отвечает только браузеру
+                    r = requests.get(f["url"], headers=BROWSER_UA, timeout=25)
+                    r.raise_for_status()
                 rows = []
                 for it in parse_feed(r.content):
                     if not it["date"] or it["date"] < since or it["date"] > now + timedelta(hours=2):

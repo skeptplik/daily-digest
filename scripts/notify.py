@@ -30,8 +30,6 @@ if not hot:  # на случай, если важных нет: берём са�
 
 demo = "🧪 ДЕМО · " if meta.get("demo") else ""
 text = f"{demo}☀️ Дайджест · события за {meta['news_day']}\n"
-if meta.get("headline"):
-    text += f"\n{meta['headline']}\n"
 if hot:
     text += "\n🔥 Главное:\n"
     for tid, i in hot:

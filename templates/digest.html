@@ -150,7 +150,7 @@ footer{max-width:560px;margin:26px auto 0;padding:0 20px 40px;color:var(--mu);fo
       <div class="ctl"><div class="langs" id="langs" role="group" aria-label="Language" hidden></div><button class="theme" id="listen" aria-label="Слушать важное" title="Слушать важное" hidden>🔊</button><button class="theme" id="theme" aria-label="Theme">🌓</button></div>
     </div>
     <h1 id="h1">Дайджест дня</h1>
-    <p class="headline" id="headline">{{ headline or ("Главное за " ~ news_day) }}</p>
+    <p class="headline" id="headline">Главное за {{ news_day }}</p>
     <div id="demobox"></div>
   </header>
   <div class="avs" id="avs"></div>
@@ -171,7 +171,7 @@ topics.forEach(function(t){t.items.forEach(function(it){it.t=t})});
 var all=[];topics.forEach(function(t){all=all.concat(t.items)});
 
 var hot=all.filter(function(i){return i.importance===3});
-if(hot.length<3){hot=hot.concat(all.filter(function(i){return i.importance===2}))}
+if(hot.length<1){hot=all.filter(function(i){return i.importance===2}).slice(0,5)}
 if(hot.length<1){hot=all.slice(0,5)}
 hot=hot.slice(0,10);
 var HOT={id:'hot',emoji:'🔥',a:'#f59e0b',b:'#ef4444',items:hot};
@@ -237,8 +237,7 @@ function renderHome(){
   document.documentElement.lang=lang;
   document.getElementById('eyebrow').textContent=fmt(D.date,{weekday:'long',day:'numeric',month:'long'});
   document.getElementById('h1').textContent=u.title;
-  var hl=lang==='ru'?D.headline:((D.headline_i18n&&D.headline_i18n[lang])||D.headline);
-  document.getElementById('headline').textContent=hl||(u.head+fmt(D.news_iso,{day:'numeric',month:'long'}));
+  document.getElementById('headline').textContent=u.head+fmt(D.news_iso,{day:'numeric',month:'long'});
   document.getElementById('demobox').innerHTML=D.demo?'<div class="demo">'+u.demo+'</div>':'';
   document.getElementById('foot').innerHTML=u.foot+' · '+esc(D.generated)+'<br>'+u.foot2;
   document.title=u.title+' · '+fmt(D.date,{day:'numeric',month:'long'});
@@ -390,8 +389,6 @@ document.getElementById('theme').addEventListener('click',function(){
   }
   function build(){
     var q=[];
-    var hl=lang==='ru'?D.headline:((D.headline_i18n&&D.headline_i18n[lang])||D.headline);
-    if(hl)q.push(hl);
     hot.forEach(function(it,n){
       var v=(lang!=='ru'&&it.i18n&&it.i18n[lang])||it;
       q.push((n+1)+'. '+v.title+'.');
