@@ -24,9 +24,8 @@ ICONS = {"ai": "🤖", "health": "🩺", "science": "🔬", "space": "🚀", "po
 
 items = [(t["id"], i) for t in data.get("topics", []) for i in t.get("items", [])]
 total = len(items)
-hot = [(tid, i) for tid, i in items if i.get("importance") == 3][:7]
-if not hot:  # на случай, если важных нет: берём самые заметные
-    hot = [(tid, i) for tid, i in items if i.get("importance") == 2][:5]
+# 🔥 считает render.py по охвату (число изданий) и пишет в meta.json
+hot = [(h["topic"], {"title": h["title"]}) for h in meta.get("hot", [])][:7]
 
 demo = "🧪 ДЕМО · " if meta.get("demo") else ""
 text = f"{demo}☀️ Дайджест · события за {meta['news_day']}\n"

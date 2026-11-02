@@ -10,6 +10,7 @@ import base64
 import io
 import ipaddress
 import json
+import re
 import os
 import socket
 import sys
@@ -307,6 +308,34 @@ def norm_sources(it, trusted, primary):
     return out, indep
 
 
+HOT_MIN_OUTLETS = 3   # столько независимых изданий нужно событию для 🔥
+HOT_MAX = 5           # не больше стольких 🔥 за день
+TOPIC_WEIGHT = {"politics": 1.5}   # мировые события при отборе 🔥 весят больше узких тем
+
+
+def load_reach(trusted, primary):
+    """link -> group и group -> множество изданий из candidates.json: настоящий охват события."""
+    link_group, group_outlets = {}, {}
+    try:
+        cand = json.loads((ROOT / "data" / "candidates.json").read_text(encoding="utf-8"))
+    except Exception:
+        return link_group, group_outlets
+    for rows in (cand.get("topics") or {}).values():
+        for r in rows:
+            g, link = r.get("group"), r.get("link")
+            if g is None or not link:
+                continue
+            host = urlparse(link).hostname or ""
+            host_n = host[4:] if host.startswith("www.") else host
+            outlet = match_domain(host, trusted) or match_domain(host, primary) or host_n
+            outlet = OUTLET_ALIASES.get(outlet, outlet)
+            # живые ленты («… live», «as it happened») охватывают много событий сразу: к группе их не привязываем
+            if not re.search(r"\blive\b|as it happened|/live/", f"{r.get('title','')} {link}", re.I):
+                link_group[link] = g
+            group_outlets.setdefault(g, set()).add(outlet)
+    return link_group, group_outlets
+
+
 def main():
     raw = json.loads(DATA.read_text(encoding="utf-8"))
     demo = bool(raw.get("demo"))
@@ -318,6 +347,7 @@ def main():
     day_h, weekday = human_date(date_iso)
     news_day_h, _ = human_date(news_iso)
 
+    link_group, group_outlets = load_reach(trusted, primary)
     topics = []
     for t in raw.get("topics", []):
         tid = t.get("id")
@@ -328,10 +358,16 @@ def main():
             sources, indep = norm_sources(it, trusted, primary)
             if not title_i or not sources:
                 continue
+            # охват: все издания, писавшие об этом событии (по группе из candidates.json)
+            reach = {x["outlet"] for x in sources if x["kind"] == "trusted"}
+            for x in sources:
+                reach |= group_outlets.get(link_group.get(x["url"]), set())
+            indep = max(indep, len(reach))
             try:
                 imp = max(1, min(3, int(it.get("importance", 1))))
             except Exception:
                 imp = 1
+            llm_imp = imp
             try:
                 minutes = max(1, min(15, int(it.get("minutes", 1))))
             except Exception:
@@ -351,6 +387,7 @@ def main():
                 "summary": s(it.get("summary"), 420),
                 "why": s(it.get("why"), 240),
                 "importance": imp,
+                "llm": llm_imp,
                 "minutes": minutes,
                 "sources": sources,
                 "indep": indep,
@@ -362,9 +399,28 @@ def main():
         if topic["items"]:
             topics.append(topic)
     order = list(TOPICS)
-    # внутри темы самые важные новости выше (порядок Claude сохраняется при равной важности)
+    # важность считает скрипт по охвату: 🔥 только событию, о котором писали
+    # HOT_MIN_OUTLETS+ независимых изданий и которое ИИ не счёл мелочью (llm >= 2);
+    # из них не больше HOT_MAX с самым большим охватом. ИИ может лишь снять 🔥.
+    pool = [i for t in topics for i in t["items"] if not i["minor"]]
+    tw = {id(i): TOPIC_WEIGHT.get(t["id"], 1) for t in topics for i in t["items"]}
+    cand_hot = sorted((i for i in pool if i["indep"] >= HOT_MIN_OUTLETS and i["llm"] >= 2),
+                      key=lambda i: (-i["indep"] * tw[id(i)], -i["llm"]))
+    hot_ids = {id(i) for i in cand_hot[:HOT_MAX]}
+    for i in pool:
+        if id(i) in hot_ids:
+            i["importance"] = 3
+        elif i["llm"] >= 2 or i["indep"] >= 2:
+            i["importance"] = 2
+        else:
+            i["importance"] = 1
     for t in topics:
-        t["items"].sort(key=lambda i: (i["minor"], -i["importance"]))
+        for i in t["items"]:
+            if i["minor"]:
+                i["importance"] = min(i["importance"], 2) if i["indep"] >= 2 else 1
+    # внутри темы: сначала основные, выше те, у кого важнее и больше охват
+    for t in topics:
+        t["items"].sort(key=lambda i: (i["minor"], -i["importance"], -i["indep"], -i["llm"]))
 
     # темы: чем важнее новости, тем выше тема; «Любопытное» всегда последняя;
     # при равенстве работает привычный порядок тем
@@ -441,6 +497,8 @@ def main():
         "date": date_iso, "news_day": news_day_h, "headline": payload["headline"],
         "demo": demo, "file": f"digest-{date_iso}.html",
         "important": sum(1 for i in all_items if i["importance"] == 3),
+        "hot": [{"topic": t["id"], "title": i["title"], "n": i["indep"]}
+                for t in topics for i in t["items"] if i["importance"] == 3],
     }, ensure_ascii=False), encoding="utf-8")
     langs = [lg for lg in ("en", "de") if any(lg in i["i18n"] for i in all_items)]
     print("Языки перевода:", ", ".join(langs) if langs else "только русский")
