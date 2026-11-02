@@ -1,0 +1,12 @@
+Supermarkets in Belgium, Estonia, Luxembourg and Sweden reported anomalies in their freezer systems on Monday in an apparent cyberattack similar to one in France three weeks ago in which unidentified malign actors were accused of having hijacked refrigeration systems — setting them to defrost and spoiling fresh and frozen foods.
+In Monday's incident, Swedish supermarket chains ICA and Coop said "a limited number" of shops had been hit, with ICA spokeswoman Helena Johansson saying the company is "looking into what has happened and the scale of it."
+"Fridges and freezers have either stopped working entirely or have been partially impaired," Coop spokesman Carlos Cancino told the French AFP news agency. He noted that six of roughly 800 Coop stores in Sweden had been impacted, adding, "I haven't received any information that this is a cyberattack."
+Dutch supermarket chain Ahold Delhaize on Monday said an overnight "IT incident" had hit freezers in several of its stores in Belgium and Luxembourg.
+Chains Carrefour, Intermarche and Spar were targeted as well, with Carrefour's Belgium spokesman Mich Vergauwen saying, "It's a cyberattack… There's no other reason."
+Belgium's prosecutor's office opened a criminal investigation into the attack, the Reuters news agency quoted a spokesperson as saying.
+How are hackers getting into supermarket refrigeration systems?
+As on October 12, Monday's disruption prompted the discarding of spoiled products and again raised concerns about food security.
+The ICA Kvantum branch in Sjobo in southern Sweden said temperatures in their systems were remotely dialed up to 50 degrees Celsius (122 degrees Fahrenheit).
+Sweden's National Cybersecurity Center boss John Billow told the Reuters news agency on Monday that his department is investigating.
+"We have in recent weeks... identified that we have quite a lot of exposed operational technology devices in Sweden that we have been clear about the necessity to update or patch," he added.
+That "exposed operational technology" includes everything from refrigerators and heating systems to security cameras, alarm networks and an expanding range of devices that were once largely mechanical but are now often monitored and controlled remotely, creating new opportunities for cybercriminals as they seek to exploit security vulnerabilities.

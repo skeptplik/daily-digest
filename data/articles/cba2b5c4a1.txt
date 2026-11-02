@@ -8,7 +8,7 @@ The Belga news agency reported overnight temperature increases at dozens of Ahol
 Stephan Moelans said the units’ evaporators were switched to defrost mode.
 Also in Belgium, five Spar shops had their fridge systems attacked, said a spokesperson for Colruyt Group, which operates the franchise system.
 In Estonia, at least one supermarket chain was affected, technology supplier Kitman Coldtech told public broadcaster ERR.
-“This is very fresh, it happened this morning,” Kitman CEO Jann Mutso said, without naming the affected chain.
+“This is very fresh, it happened this morning,” Kitman’s CEO Jann Mutso said, without naming the affected chain.
 Ahold Delhaize reported a cybersecurity incident to Dutch police last month.
 The cyberattack on refrigeration systems at hundreds of supermarkets in France raised the temperature of fridges and freezers to as high as 50 degrees Celsius (122F), spoiling food and causing fires at several stores.
 One Swedish store said in a social media post on Monday that the temperature of its refrigerators and freezers had been set to the same temperature as during the cyberattack in France.
@@ -17,5 +17,5 @@ Kitman’s Mutso also said that temperatures at the Estonian chain were set to 5
 Privately-held retailer Coop told Swedish daily Aftonbladet that six of its stores had been affected by similar incidents.
 There has been no claim of responsibility for Monday’s attack, nor the one earlier in France.
 However, the incidents help to increase concern regarding hybrid warfare stemming from Russia’s invasion of Ukraine and the Iran-United States war.
-European states have blamed Moscow for a growing number of incidents affecting infrastructure, including via cyberattacks, in recent months. Russian has repeatedly denied involvement in any sabotage or hybrid warfare operations.
+European states have blamed Moscow for a growing number of incidents affecting infrastructure, including via cyberattacks, in recent months. Russia has repeatedly denied involvement in any sabotage or hybrid warfare operations.
 “These incidents show that cyberattacks can disrupt services, affect businesses and directly affect citizens’ daily lives”, a European Commission spokesperson said, stressing the importance of strengthening cybersecurity across the bloc.

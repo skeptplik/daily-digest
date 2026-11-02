@@ -24,4 +24,15 @@ Peeps keep thinking that tax breaks are money handed over to companies. Well, ye
 Arguments favor emotions over logic, because people are emotional creatures. You bring up numbers, and peoples' eyes glaze over. Saying "we are paying Google $80M" or "data centers are taking our water and raising our utility bills" gets their proper attention.
 BTW, the tax breaks aren't $80M. That's just for the city rebate on property tax, spread over 28 years. The larger tax break is the state sales & use tax, which can amount to $20M/yr, is still in play, and presumably already granted given the go-ahead.
 If anyone wants the particular on Google's tax burden for this particular example in Hermantown, Minnesota, I invite you to query your online chatbot. The numbers may not be correct, but they should be in the ballpark. It's a fair chunk of change per year, in the tens of millions. If assuming a 20-year life span, then hundreds of millions. It's not (just) about jobs.
-Real life is complicated, and not conducive to simple good-evil motif that conspiracy peeps tend to cling to. Reply
+Edit: Per Meta's Muse Spark,
+Total tax break requested:
+. City property tax: $80M nominal / $33.5M present value
+. State sales/use on IT: ~$400-700M over 20-35 years on our $2B build assumptions
+. State sales/use on electricity: ~$50M over 20 years if it had stayed exempt
+= ~$530M to $830M lifetime nominal — but only the $80M was ever in a city document.
+Total actually granted going forward after the withdrawal and the new state laws:
+. City property tax abatement: $0
+. State sales/use on IT equipment: partial — likely the first tranche pre-July 2026 still exempt, all future refresh fully taxable
+. State sales/use on electricity: $0
+. State annual fee owed by Google: ~$5M/year
+That's why the city could announce "Google will pay full taxes" and be technically true for property tax, while the much larger state exemption that dwarfs the $80M was quietly grandfathered and then repealed for everyone else next year. Reply

@@ -13,3 +13,10 @@ This just shows we DON'T need to connect every single part of our lives to Inter
 - 
 Wild that after the first attack they didn’t update or fix any vulnerabilities.
 Honestly why do refrigeration units even need to be connected to the internet? Like we’ve been using basic reliable refrigeration equipment for decades, if anything it should be a local network similar to UART or CAN that isn't connected to the actual internet. Reply
+- 
+"The company says switching units to a secure internet connection is the simplest solution in the meantime"
+Why they did not think about it when architecting the system before it goes online? Is SSL a 2026 tech? Or are VPNs a luxury?
+And how on earth could a freezer go up to 50 Celsius? Reply
+- 
+T3Kgamer said:Wild that after the first attack they didn’t update or fix any vulnerabilities.
+Honestly why do refrigeration units even need to be connected to the internet? Like we’ve been using basic reliable refrigeration equipment for decades, if anything it should be a local network similar to UART or CAN that isn't connected to the actual internet.Exactly. They should not allow commands over the Internet. only allow telemetry and notifications to be sent to the cloud. In other words make the freezer read-only. Reply

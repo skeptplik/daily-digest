@@ -1,12 +1,6 @@
-Irish and Estonian supermarkets also targeted in freezer cyber-hacks
-SuperValu, Ireland’s third-largest supermarket chain, says it’s also had some of its freezer temperatures in-store tampered with, in this second wave of suspected cyber hackings of supermarkets across Europe.
-SuperValu said a cyber incident had taken place at 13 of its 233 stores – and that it’s also been forced to throw out chilled and frozen products that have spoiled.
-In Estonia, a manufacturer of the affected fridge technology said one its clients had been affected, and the cyber-hackers had gotten into a computer controlling the refrigeration levels and turned the temperature up to 50C. The Selver chain said one of its stores was affected.
-As we’ve been reporting, supermarkets across Sweden, Belgium and Luxembourg all experienced this temperature- control meddling overnight.
-In Belgium, affected chains include Spar, Carrefour, Delhaize, Intermarche, and in Sweden, ICA, Coop and Axfood.
-Carrefour said 15 of its stores in Belgium had been affected by the hack. The chain was targeted in a mass cyber attack in France last month.
-“It’s a cyberattack, there is no other reason,” Carrefour Belgium spokesman Mich Vergauwen told AFP news agency, but noting the “impact is very limited”.
-He said 15 stores among 700 in total were affected but not every refrigerator was impacted.
+EU food commissioner says fridge hacks aimed at 'disrupting food supply'
+This latest wave of cyberattacks targeting supermarkets across Europe is “a deliberate attempt to disrupt” the EU’s food supply, says Christophe Hansen, the European Commissioner for Agriculture and Food.
+He added it was also aimed at undermining the public’s confidence, and while “food security is not currently at risk, ... the food waste and impact on businesses are real.”
 Reuters has a quick snap that an EU spokesperson has said it will continue to work with member states over the fridge and freezer cyber-attacks reported earlier.
 The spokesperson insisted the EU had several tools in place to deal with such incidents, but that it showed that cyber-attacks can disrupt the daily lives of citizens.
 Three men accused of causing a deadly explosion in the heart of Athens’ tourist district by allegedly stealing copper piping from the local gas supply network were appearing in court Monday for a preliminary hearing, AP reports.
