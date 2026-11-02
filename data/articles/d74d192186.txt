@@ -1,5 +1,5 @@
 Rocket Lab will launch its 99th mission to date today (Nov. 2), and you can watch the action live.
-An Electron rocket is scheduled to lift off from Rocket Lab's New Zealand site today, during a window that opens at 11:30 a.m. EST (1630 GMT; 5:30 a.m. on Nov. 3 local New Zealand time),
+An Electron rocket is scheduled to lift off from Rocket Lab's New Zealand site today, during a window that opens at 11:41 a.m. EST (1641 GMT; 5:41 a.m. on Nov. 3 local New Zealand time),
 The mission, which Rocket Lab calls "The Sea God Surveys," will carry an Earth-observing radar satellite for the Japanese company iQPS. You can watch it live via Rocket Lab starting about 30 minutes before launch, and Space.com will carry the company's feed if, as expected, it's made available.
 "The Sea God Surveys" will be Rocket Lab's 10th launch to date for iQPS, which is assembling a constellation of three dozen synthetic aperture radar (SAR) satellites in low Earth orbit (LEO).
 SAR satellites offer advantages over those that view our planet in optical wavelengths. They can peer through cloud cover, for example, and study our planet at night as well as during the day.

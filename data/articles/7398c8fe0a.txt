@@ -1,0 +1,15 @@
+Over 1,000 Internet-exposed GitLab servers are still unpatched against a maximum-severity flaw actively exploited in remote code execution attacks.
+Tracked as CVE-2026-97229, this vulnerability stems from an integer overflow weakness and was discovered in the CI/CD Regular Expression Compiler, which parses and evaluates regular expressions in pipeline configuration files.
+"GitLab has remediated an issue that, under certain conditions, could have allowed an unauthenticated user to execute arbitrary code on the GitLab server via a specially crafted regular expression in a CI/CD configuration, due to insufficient regular expression validation," the company explained on October 12 when it released security patches to address the security issue in GitLab Community Edition (CE) and Enterprise Edition (EE) versions 19.4.2, 19.3.5, and 19.2.8.
+"These versions contain important bug and security fixes, and we strongly recommend that all self-managed GitLab installations be upgraded to one of these versions immediately. GitLab.com is already running the patched version. GitLab Dedicated customers do not need to take action," it added.
+On Friday, the US Cybersecurity and Infrastructure Security Agency (CISA) confirmed that attackers have begun exploiting the flaw in the wild and added CVE-2026-97229 to its Known Exploited Vulnerabilities (KEV) Catalog, ordering federal agencies to secure their servers by Sunday.
+Although GitLab released patches three weeks ago, threat watchdog Shadowserver revealed over the weekend that it tracks more than 1,000 unpatched GitLab servers exposed to ongoing attacks.
+CVE-2026-97229 is the latest in a series of GitLab security issues addressed since the start of the year. In January, GitLab fixed a high-severity flaw (CVE-2026-0723) that that can be exploited to steal credentials and other secrets.
+CISA also flagged CVE-2026-85706 as actively abused in the wild after cybersecurity firm watchTowr reported that attackers had already begun scanning for vulnerable GitLab servers.
+Last month, it addressed another maximum-severity Regular Expression Compiler bug (CVE-2026-110264) that lets threat actors run arbitrary code on targeted instances.
+"We are currently tracking over 1000 GitLab instances vulnerable to CVE-2026-97229 (on @CISACyber KEV) and over 11300 instances vulnerable to CVE-2026-110264 (out of around 39K GitLab instances we see daily)," Shadowserver said on Sunday.
+Since November 2021, CISA has added six GitLab flaws to its catalog of actively exploited vulnerabilities, one of which has also been used in ransomware attacks.
+GitLab says its DevSecOps platform has over 70 million registered users and is used by more than 50% of Fortune 100 companies worldwide.
+Adaptive Security's AI agents analyze email intent, context, and behavior to uncover phishing, business email compromise, and invoice fraud.
+See what's getting through with a 14-day read-only scan of Microsoft 365 or Google Workspace, with no MX changes.
+Start your free email security scan.
