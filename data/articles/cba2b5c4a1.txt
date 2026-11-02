@@ -1,0 +1,21 @@
+Suspected cyberattacks have triggered temperatures to rise in grocery store refrigeration systems in a growing number of countries across Europe.
+Overnight temperature spikes were recorded in stores in Belgium, Estonia, Ireland, Luxembourg and Sweden. On Monday, retailers and authorities pointed to alleged cyberattacks that underscored the vulnerability of systems that once largely operated mechanically.
+The head of Sweden’s national cybersecurity centre, John Billow, confirmed on Monday to the Reuters news agency that the centre is responding to multiple incidents affecting store cooling systems.
+“We have in recent weeks … identified that we have quite a lot of exposed operational technology devices in Sweden that we have been clear about the necessity to update or patch,” he said.
+The temperature of freezers in several Swedish stores rose suddenly overnight, store operators ICA and Coop said, while Swedish retailer Axfood said freezers at a distribution centre for home delivery of groceries in the Gothenburg area were hacked.
+SuperValu, Ireland’s third-largest supermarket chain, said a specific model of refrigeration systems has been affected by a “cyber incident” at 13 of its 223 stores.
+The Belga news agency reported overnight temperature increases at dozens of Ahold Delhaize stores in Belgium and Luxembourg. They were blamed on a cyberattack, according to the chief executive of refrigeration company, Sabcobel.
+Stephan Moelans said the units’ evaporators were switched to defrost mode.
+Also in Belgium, five Spar shops had their fridge systems attacked, said a spokesperson for Colruyt Group, which operates the franchise system.
+In Estonia, at least one supermarket chain was affected, technology supplier Kitman Coldtech told public broadcaster ERR.
+“This is very fresh, it happened this morning,” Kitman CEO Jann Mutso said, without naming the affected chain.
+Ahold Delhaize reported a cybersecurity incident to Dutch police last month.
+The cyberattack on refrigeration systems at hundreds of supermarkets in France raised the temperature of fridges and freezers to as high as 50 degrees Celsius (122F), spoiling food and causing fires at several stores.
+One Swedish store said in a social media post on Monday that the temperature of its refrigerators and freezers had been set to the same temperature as during the cyberattack in France.
+“We are aware that a limited number of stores were affected by an incident overnight, which impacted their refrigeration and freezer systems,” a spokesperson for privately held ICA told Reuters in an email.
+Kitman’s Mutso also said that temperatures at the Estonian chain were set to 50 degrees Celsius (122F).
+Privately-held retailer Coop told Swedish daily Aftonbladet that six of its stores had been affected by similar incidents.
+There has been no claim of responsibility for Monday’s attack, nor the one earlier in France.
+However, the incidents help to increase concern regarding hybrid warfare stemming from Russia’s invasion of Ukraine and the Iran-United States war.
+European states have blamed Moscow for a growing number of incidents affecting infrastructure, including via cyberattacks, in recent months. Russian has repeatedly denied involvement in any sabotage or hybrid warfare operations.
+“These incidents show that cyberattacks can disrupt services, affect businesses and directly affect citizens’ daily lives”, a European Commission spokesperson said, stressing the importance of strengthening cybersecurity across the bloc.

@@ -1,0 +1,25 @@
+Fresh wave of fridge cyberattacks hits European supermarkets
+Stores and supermarkets across Belgium, Luxembourg and Sweden all reported abrupt temperature spikes in their fridges and freezers early Monday in an apparent cyberattack targeting refrigeration units. The incidents follow a similar attack that hit hundreds of supermarkets across France in October, triggering food loss and fires.
+Ahold Delhaize and Colruyt said on Monday that an IT incident overnight hit fridges and freezers in dozens of stores in Belgium and Luxembourg, while Swedish grocers ICA and Coop reported similar temperature spikes, with one store blaming a cyberattack.
+The incidents follow an attack in France last month, in which police said hackers seized control of cooling units at hundreds of supermarkets, raising temperatures as high as 50°C and causing fires and food losses.
+Ahold also reported a cybersecurity incident to Dutch police last month after it detected suspicious activity in its infrastructure.
+On Monday, the Delhaize supermarket chain realised there were temperature increases in the cooling systems, Delhaize spokesperson Sarah De Meester said. The company is investigating the incident.
+Stephan Moelans, the CEO of Belgian refrigeration company Sabcobel, which operates Delhaize's systems, told the Belga news agency that the incident was a cyberattack, in which the units' evaporators were switched to defrost mode. Moelans' office declined to comment when contacted by Reuters.
+Carrefour Belgium reported disruption in about 15 of its 700 stores in Belgium.
+"It's a cyberattack, there is no other reason," said Mich Vergauwen, a spokesman for Carrefour Belgium.
+Watch moreSupermarket fridge cyberattacks due to lack of basic cybersecurity measures, expert says
+An Ikea Belgium spokeswoman likewise said a cyberattack hit its store in Mons, southwestern Belgium, causing the temperature of freezers to rise suddenly in the early hours of Monday.
+It is the only Ikea store affected because it uses a different service provider than others in Belgium, the spokeswoman added, without identifying the provider.
+A spokesperson for Colruyt Group, which operates Spar stores in Belgium under a franchise system, said five shops had their fridge systems attacked.
+From refrigerators and heating systems to security cameras and alarm networks, an expanding range of devices once largely mechanical can now be monitored and controlled remotely, creating new opportunities for cybercriminals.
+Authorities have not indicated who could have been behind last month's incidents. There were no claims of responsibility.
+Swedish stores also hit
+The head of Sweden's national cybersecurity centre, John Billow, told Reuters it was working on several incidents regarding refrigeration systems in grocery stores around Sweden.
+One Swedish ICA store said on social media that the temperature of its refrigerators and freezers had been "hacked" overnight and set to 50°C. It said later that the store had since opened.
+At an ICA Baronen store in Stockholm, a notice said all the shop's freezers were broken due to a cyberattack. The store's sales manager said the attack happened at 2am (0100 GMT) and was noticed at 5:30am.
+"We are aware that a limited number of stores were affected by an incident overnight, which impacted their refrigeration and freezer systems," a spokesperson at privately held ICA said in an email.
+Privately held grocery retail group Coop told Swedish daily Aftonbladet that six of its stores had been affected by similar incidents. It did not immediately respond to a request for comment.
+"We have in recent weeks ... identified that we have quite a lot of exposed operational technology devices in Sweden that we have been clear about the necessity to update or patch," the cybersecurity centre's Billow said.
+An Estonian supermarket chain was also affected, with temperatures set to 50°C, technology supplier Kitman Coldtech told public broadcaster ERR.
+"This is very fresh, it happened this morning," Kitman CEO Jann Mutso told ERR. He declined to name the affected grocery chain.
+(FRANCE 24 with Reuters and AFP)

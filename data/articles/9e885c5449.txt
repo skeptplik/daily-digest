@@ -1,0 +1,4 @@
+China’s EDA champion buys start-up to address weak link, support Huawei’s Tau Scaling Law
+Empyrean’s purchase of Easy-Logic highlights efforts by Chinese firms to reduce reliance on Western chip-design software providers
+The Beijing-based firm said in a Shenzhen Stock Exchange filing on Sunday that it would acquire a 50.38 per cent stake in Easy-Logic Technology for 218.8 million yuan (US$33 million). Once completed, the start-up would be consolidated into Empyrean’s financial statements.
+Founded in 2021, Shenzhen-based Easy-Logic develops logic optimisation tools that help chip designers reduce iteration time and resource requirements. The start-up’s algorithms had won international EDA competitions and its products were used by nearly 100 digital chip design firms across the globe, according to Empyrean.
