@@ -19,8 +19,10 @@ from concurrent.futures import ThreadPoolExecutor
 
 ROOT = Path(__file__).resolve().parent.parent
 WINDOW_HOURS = 40
-PER_TOPIC = {"politics": 30}
-DEFAULT_PER_TOPIC = 14
+# лимиты на тему: по кругу берём из разных изданий, чтобы одно не заняло весь список.
+# Раньше было 30 и 14: из ~650 свежих заголовков до задачи доходило 144. Теперь отсекается только самый хвост.
+PER_TOPIC = {"politics": 150}
+DEFAULT_PER_TOPIC = 60
 UA = {"User-Agent": "Mozilla/5.0 (compatible; DailyDigestBot/1.0; +https://github.com)"}
 
 BROWSER_UA = {"User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0 Safari/537.36",
@@ -223,21 +225,56 @@ def article_id(link: str) -> str:
     return hashlib.sha1(link.encode("utf-8")).hexdigest()[:10]
 
 
+OG_RE = re.compile(r"<meta[^>]+(?:property|name)=[\"'](?:og:image|twitter:image)[\"'][^>]*content=[\"']([^\"']+)|"
+                   r"<meta[^>]+content=[\"']([^\"']+)[\"'][^>]*(?:property|name)=[\"'](?:og:image|twitter:image)[\"']", re.I)
+FAIL_REASONS = {}  # издание -> {причина: сколько}, печатается в конце для диагностики
+
+
+def note_fail(outlet, why):
+    d = FAIL_REASONS.setdefault(outlet, {})
+    d[why] = d.get(why, 0) + 1
+
+
+def get_page(url):
+    """Страница статьи: сначала под браузером, при отказе под ботом. Возвращает (текст или None, причина)."""
+    why = "?"
+    for hdrs in (BROWSER_UA, UA):
+        try:
+            r = requests.get(url, headers=hdrs, timeout=25)
+        except Exception as e:
+            why = type(e).__name__
+            continue
+        if r.status_code == 200:
+            return r.text, ""
+        why = f"HTTP {r.status_code}"
+    return None, why
+
+
 def fetch_text(row):
-    """Скачивает статью и вытаскивает основной текст. Возвращает True, если текст сохранён."""
+    """Скачивает статью, вытаскивает основной текст и (если в RSS не было) картинку.
+    Возвращает True, если текст сохранён."""
     host = (urlparse(row["link"]).hostname or "").lower()
-    if any(host == d or host.endswith("." + d) for d in PAYWALLED):
+    paywalled = any(host == d or host.endswith("." + d) for d in PAYWALLED)
+    page, why = get_page(row["link"])
+    if page is None:
+        note_fail(row["outlet"], why)
+        return False
+    if not row.get("image"):
+        m = OG_RE.search(page)
+        img = abs_img((m.group(1) or m.group(2)) if m else "")
+        if img:
+            row["image"] = img
+    if paywalled:  # платные издания: текст не сохраняем (страницы дайджеста публичные)
         return False
     try:
         import trafilatura
-        r = requests.get(row["link"], headers=BROWSER_UA, timeout=25)
-        if r.status_code != 200:
-            return False
-        text = trafilatura.extract(r.text, include_comments=False, include_tables=False, favor_precision=True) or ""
+        text = trafilatura.extract(page, include_comments=False, include_tables=False, favor_precision=True) or ""
     except Exception:
+        note_fail(row["outlet"], "ошибка разбора")
         return False
     text = strip_junk(text)
     if len(text) < 400:  # слишком коротко: скорее всего заглушка или пейволл
+        note_fail(row["outlet"], "текст короче 400 знаков")
         return False
     if len(text) > ARTICLE_CHARS:
         text = text[:ARTICLE_CHARS].rsplit(chr(10), 1)[0]
@@ -298,7 +335,9 @@ def main() -> int:
         got = list(ex.map(fetch_text, rows_all))
     for r, ok_ in zip(rows_all, got):
         r["has_text"] = bool(ok_)
-    print(f"Тексты статей: сохранено {sum(got)} из {len(rows_all)}")
+    print(f"Тексты статей: сохранено {sum(got)} из {len(rows_all)}; с картинкой {sum(bool(r.get('image')) for r in rows_all)}")
+    for o, d in sorted(FAIL_REASONS.items()):
+        print(f"  без текста {o}: {d}")
     groups = group_rows(rows_all)
     by_id = {r["id"]: r for r in rows_all}
     for g in sorted(groups, key=lambda g: g["id"]):
