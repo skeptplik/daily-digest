@@ -56,6 +56,8 @@
 12. Читалка: читатель не открывает сайты изданий (их блокируют), поэтому поле `body` в `digest.json` это полный рассказ по-русски, а кнопка «Читать» есть только у новостей с `body`. Платные издания (nytimes, wsj, ft, economist, bloomberg, washingtonpost) без текста: только заголовок и описание как подтверждение события. Мелкие новости темы идут с `"minor": true` (плитки «Также интересно»), основных в теме до 4.
 13. Макет и снимки: `DIGEST_FILE=<json> NO_NETWORK=1 PLACEHOLDER_IMAGES=1 python scripts/render.py` строит `out/preview-<имя>.html` (папка `out/` не в git). Безголовый Chrome из Bash молча не пишет снимок, если у владельца открыт обычный Chrome: запускать через PowerShell `Start-Process chrome.exe` с `--headless=new`, отдельным `--user-data-dir`, `--window-size=500,H` и страницей в `iframe` шириной 393 px.
 14. Пуш в `main` без изменения `data/digest.json` рассылку не запускает (`publish.yml` срабатывает только по этому файлу). Тестовый воркфлоу на ветке, сохраняющий результат коммитом, делает `git push origin HEAD:<ветка>` без `git pull --rebase`.
+15. 🔥 и порядок новостей считает `scripts/render.py` по охвату (издания в группах `candidates.json`, порог 3, потолок 5); ИИ ставит только importance 1–2. `routine_prompt.md` читает сама задача из репозитория при каждом запуске.
+16. `RemoteTrigger update` с большим телом (~14 КБ) обрывается: держите промпт в репозитории, а в самой задаче только короткий запуск. Правки Python через heredoc с `` дают символ backspace: используйте Edit.
 
 ## Локальная проверка (Python 3.12, `pip install -r requirements.txt`)
 ```
