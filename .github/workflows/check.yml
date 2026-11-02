@@ -4,7 +4,8 @@ name: Check digest
 # 06:15 UTC = 07:15 зимой / 08:15 летом по Польше (задача Claude стартует в 06:12 по Польше).
 on:
   schedule:
-    - cron: "15 6 * * *"
+    - cron: "13 6 * * *"
+    - cron: "41 7 * * *"  # запасной: GitHub может пропустить или сдвинуть первый
   workflow_dispatch:
 
 permissions:
