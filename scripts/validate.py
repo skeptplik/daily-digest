@@ -55,10 +55,10 @@ for t in d["topics"]:
         continue
     main_n = sum(1 for x in items if not x.get("minor"))
     minor_n = len(items) - main_n
-    if main_n > 4:
-        warns.append(f"тема {tid}: {main_n} основных новостей (в промпте не больше 4)")
-    if minor_n > 5:
-        warns.append(f"тема {tid}: {minor_n} мелких плиток (в промпте не больше 5)")
+    if main_n > 5:
+        warns.append(f"тема {tid}: {main_n} основных новостей (в промпте не больше 5)")
+    if minor_n > 8:
+        warns.append(f"тема {tid}: {minor_n} мелких плиток (в промпте не больше 8)")
     for n, it in enumerate(items, 1):
         where = f"{tid}#{n}"
         total += 1

@@ -54,7 +54,7 @@ TOPICS = {
 MONTHS = ["января", "февраля", "марта", "апреля", "мая", "июня", "июля",
           "августа", "сентября", "октября", "ноября", "декабря"]
 WEEKDAYS = ["понедельник", "вторник", "среда", "четверг", "пятница", "суббота", "воскресенье"]
-MAX_IMAGES = 90
+MAX_IMAGES = 160
 # разные домены одного издания считаем одним источником
 OUTLET_ALIASES = {"bbc.co.uk": "bbc.com", "voguebusiness.com": "vogue.com", "github.blog": "github.com"}
 
@@ -323,7 +323,7 @@ def main():
         tid = t.get("id")
         title, emoji, a, b = TOPICS.get(tid, (s(t.get("title"), 60) or "Другое", "📰", "#64748b", "#475569"))
         topic = {"id": tid or "x", "title": title, "emoji": emoji, "a": a, "b": b, "items": []}
-        for it in t.get("items", [])[:10]:
+        for it in t.get("items", [])[:14]:
             title_i = s(it.get("title"), 160)
             sources, indep = norm_sources(it, trusted, primary)
             if not title_i or not sources:

@@ -73,7 +73,9 @@
     {"outlet": "Vogue", "url": "https://www.vogue.com/feed/rss"},
     {"outlet": "Dezeen", "url": "https://www.dezeen.com/feed/"},
     {"outlet": "The Guardian", "url": "https://www.theguardian.com/fashion/rss"},
-    {"outlet": "WWD", "url": "https://wwd.com/feed/"}
+    {"outlet": "WWD", "url": "https://wwd.com/feed/"},
+    {"outlet": "Fashionista", "url": "https://fashionista.com/.rss/excerpt/"},
+    {"outlet": "Harper's Bazaar", "url": "https://www.harpersbazaar.com/rss/all.xml/"}
   ],
   "security": [
     {"outlet": "Krebs on Security", "url": "https://krebsonsecurity.com/feed/"},
