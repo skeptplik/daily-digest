@@ -1,0 +1,14 @@
+National Grid has taken a step towards building Britain’s biggest electricity substation on Teesside, which could supply power to a vast neighbouring datacentre as the UK races to expand its AI infrastructure.
+Last week, the company agreed to purchase 29.5 hectares (73 acres) of land at Dorman Point on a site owned by Teesworks, a local private-public partnership. The deal was first reported by Sky News.
+The deal followed reports last year that the UK government had picked Teesworks as the site for a new artificial intelligence datacentre, and planning applications had been submitted for a project that would span nearly 500,000 sq metres.
+The deal “reflects the constructive work between all those involved to enable this vital infrastructure … and will support the growth of AI and digital technologies, and enable the region’s next phase of industrial and economic development”, Matt Pearce, the head of land at National Grid, said.
+“We are committed to working closely with our partners to progress the development as quickly as possible,” he added.
+Ben Houchen, the mayor of the Tees Valley combined authority, told Sky News: “Everyone who has tried to build a datacentre in this country knows the biggest problem is getting enough power to the site quickly.
+“While we’ve been stuck in the queue, the US, the Gulf and parts of Europe have been getting on with it and hoovering up the investment. Having up to 3.2GW of capacity here means we can finally compete for those projects.
+“If Britain is serious about having its own AI capability, with sensitive data stored safely on British soil, it needs somewhere to physically put it, and I’d much rather that was Teesside than Texas or Abu Dhabi.”
+Last week, the government published a draft national policy statement on datacentres, describing them as “as fundamental to our economy as the railways and electricity networks on which we have long depended”.
+“We must take control over the development of datacentres in this country and ensure that the country and host communities benefit from them,” it said.
+However, the rapid construction of datacentres in the UK has been met by strong opposition, with campaign groups protesting against planned developments in places ranging from Auchtertool, a village north of Edinburgh, to Brick Lane in east London.
+In October, the Guardian reported that AI companies told ministers they had 12 months to head off public opposition to datacentres in the UK or risk US-style protests that could threaten their construction.
+The London-listed infrastructure services group Balfour Beatty was reported to be in line to deliver the Teesworks substation for National Grid, with the utilities firm Steel River Power (SRP) also heavily involved in the project.
+Balfour Beatty and SRP were approached for comment.

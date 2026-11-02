@@ -1,0 +1,27 @@
+Ukraine and Russia have accused each other of hacking into systems used to send out emergency alerts to citizens, raising fears of a new escalation of digital and psychological warfare tactics.
+The systems’ apps sent out radiation alerts on Sunday and Monday to civilians before officials issued public clarifications.
+The fake threats began on the same day as a localised ceasefire in the Russian-occupied Kherson region came to an end on Sunday. The truce, which the United States said was brokered by first lady Melania Trump, is the longest so far in Russia’s more than four-year war on Ukraine. The ceasefire lasted for six days, during which humanitarian aid and evacuations were allowed in the Russian-occupied town of Olekshy.
+Al Jazeera’s Audrey Macalpine, reporting from Kyiv, said many people in Ukraine now expect renewed fighting along the front lines.
+Here’s what we know about the fake notifications:
+What happened?
+Ukraine’s Air Force said late on Sunday that users of its Air Alert app, which warns people of incoming air attacks, received fake warnings of nuclear and chemical threats to areas in and around Kyiv.
+Users were also warned of potential street combat and told that Russia’s hypersonic Oreshnik missile had been deployed.
+“The air alert app appears to have been subjected to enemy influence,” the Ukrainian Air Force said on Telegram.
+“There is no radiation threat! Stay calm and follow our updates on our channel.”
+Ukraine’s Center for Strategic Communications blamed Russia. In a post on X, the agency pointed to the use of the Russian language in one of the fake messages. The Ukrainian government said a separate app created for the capital city was working normally.
+The fake alerts came just after 10pm (20:00 GMT), startling a lot of people, Macalpine reported.
+“Even the speakers here in the centre of the city rang out warnings of these attacks,” she said. “But most people here understood within at least half an hour that this was some kind of hacking attack.”
+Hours later on Monday morning, similar announcements came from Russia’s Ministry of Civil Defence, Emergencies and Disaster Relief, which said its warnings app came under a “massive cyberattack” and wrongly warned users of imminent drone attacks. The ministry did not name any suspects but said the alerts spread “false information”.
+Media reports said the hackers warned Russians that “nuclear warheads mounted on P1-Suns [Ukrainian drones] had been launched on all regions” of the country. The alerts also instructed people to “urgently” stock up on food for three weeks and to hide.
+Has this happened before?
+This appears to be the first time either Ukraine’s or Russia’s official alert apps have been hacked.
+However, cyberwarfare has long been a major part of the countries’ previous confrontations.
+Russian hackers have attacked Ukraine’s election systems in the past and in January 2022 attacked Ukrainian government and banking sites. Cyberwarfare tactics have only intensified since February 2022 when Russia launched a full-scale invasion of Ukraine. In late 2023, the Russian hacker group Sandworm took the private telecommunications network Kyivstar offline, disrupting notifications for days.
+Ukrainian groups have also launched multiple cyberattacks on Russia.
+The country’s volunteer-based IT Army of Ukraine was founded in the wake of Russia’s invasion specifically to engage in cyberwarfare against Russia and has reportedly targeted the Moscow Stock Exchange, Russia’s power grids and several government websites. In 2022, the Reuters news agency reported Ukrainian attackers used facial recognition software to scan the faces of dead Russian combatants and notified their families of their deaths.
+Why is the threat of nuclear radiation in Ukraine significant?
+Ukraine is particularly vulnerable because it has already suffered one nuclear disaster and it remains at risk due to fighting around another major nuclear plant.
+In April 1986, the Chornobyl nuclear power plant, located in the then-Ukrainian Soviet Republic, exploded, releasing radioactive material. Scores of people died from the explosion itself, but thousands later developed severe health issues as a result, including thyroid cancer. Radiation was detected as far away as Sweden. It’s regarded as one of the two worst nuclear accidents in history along with the 2011 Fukushima disaster in Japan. Chornobyl remains a ghost town after its inhabitants were evacuated.
+Ongoing fighting in the Ukrainian region of Zaporizhia has raised fears that the tragic story could repeat itself. Russia partly controls the region, including Enerhodar, where the Zaporizhzhia Nuclear Power Plant, Europe’s largest nuclear energy facility, is located.
+Both sides have repeatedly launched attacks on each other’s positions with Russia targeting the Ukrainian-held provincial capital, Zaporizhzhia, and Ukraine targeting Russian-held areas, including Enerhodar.
+Last week, the International Atomic Energy Agency, the United Nations nuclear watchdog, said a welder working at the Zaporizhzhia nuclear plant was killed in a drone attack. The head of the agency, Rafael Grossi, called for “maximum military restraint” from both sides.

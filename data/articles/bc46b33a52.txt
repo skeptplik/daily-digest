@@ -1,0 +1,21 @@
+Binance customers withdrew $3.6bn (Â£2.7bn) of assets from the world's biggest cryptocurrency exchange as it reopened on Sunday following what is believed to be the largest hack in history.
+The firm suspended all transactions in the wake of the incident, which impacted $6.3bn worth of digital assets.
+Major organisations, including the US Federal Bureau of Investigation (FBI), have accused North Korea of being responsible for the cyber-attack.
+The company said it has covered around 95% of the assets stolen in the breach but the remaining amount may take longer to source. Binance has repeatedly said it would cover all of the losses linked to the attack.
+Binance said on X: "Between 06:00 and 15:30 [GMT] on November 1, we processed $4.649 billion in withdrawals and $1.01 billion in deposits, resulting in a net outflow of approximately $3.64 billion."
+There was an "initial spike" in withdrawals, which later declined and "are stabilising as expected", it added.
+Sunday's net withdrawals account for just over 2% of the $171bn of assets under its management, said Binance.
+The firm said last week that it has reserved more than $6.3bn in funds, to deal with âthe fallout of the attack.
+Binance also said withdrawals of more than two dozen major cryptocurrencies like Bitcoin and Ethereum have resumed and that more services will resume in phases once security checks are completed.
+Funds linked to the Binance hack continue to be laundered, according to Alec Zebrick, senior manager in global services at Chainalysis, which has been working with the firm and governments to get the stolen money back.
+"We continue to see funds being laundered quite actively," he told the BBC's Today Programme.
+"The attackers are layering these funds across many thousands of addresses, across thousands of deposits," he added.
+The attack on Binance has been attributed to TraderTraitor, a North Korean cybercrime group also known as the Lazarus Group, which stole a then-record $1.5bn from crypto exchange Bybit in 2025.
+The FBI on Saturday published a list of cryptocurrency wallet addresses linked to the group and urged partners in the industry to help by blocking transactions involving them.
+The exchange scrambled to urge cryptocurrency issuers to freeze affected assets.
+Binance said last week that early checks suggest the incident may have started with a compromised laptop that belonged to an engineer, allowing hackers to find a way to make unauthorised transactions.
+The hack hit Binance's global centralised exchange, Binance.com, while its US-facing platform has said it was not affected by the issue.
+Binance said it had replaced customers' assets using a combination of sources, including its corporate treasury as well as its futures insurance and emergency reserve funds.
+"Our commitment remains the same: Binance will fully cover the financial impact of the funds stolen in this incident," the firm said.
+Cryptocurrencies are digital assets traded on exchanges such as Binance. Unlike cash, they do not exist in physical form and are managed on computers, smartphones and other digital devices.
+Binance was founded in China and has hundreds of millions of registered users globally.

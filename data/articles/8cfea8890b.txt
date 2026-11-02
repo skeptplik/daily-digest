@@ -1,0 +1,24 @@
+The FBI has confirmed that North Korean state-sponsored hackers known as TraderTraitor were behind the $6.3 billion crypto-theft attack on Binance, making it the largest cryptocurrency heist on record.
+In a security alert published Saturday, the agency attributed the attack to TraderTraitor, a North Korean hacking group also tracked as Lazarus Group, Jade Sleet, and APT38, linked to numerous cryptocurrency thefts.
+"The Federal Bureau of Investigation (FBI) is releasing information advising the Democratic People's Republic of Korea (North Korea) was responsible for the theft of more than $6 billion USD in virtual assets from cryptocurrency exchange Binance, on or about October 29, 2026," the FBI said.
+This official attribution follows blockchain intelligence firms TRM Labs and Chainalysis, which had already linked the theft to TraderTraitor.
+As previously reported, Binance linked the breach to a compromised DevOps engineer's laptop, which allowed the attackers to access a service container and submit unauthorized withdrawal transactions.
+The attackers stole approximately $6.36 billion in cryptocurrency across ten blockchains, with most of the funds transferred in just 20 minutes.
+The FBI says it has observed TraderTraitor converting stolen assets primarily into Ethereum (ETH), which it expects will be further laundered through decentralized finance (DeFi) platforms and instant cryptocurrency swap services.
+The FBI, U.S. Secret Service, and IRS Criminal Investigation are now asking cryptocurrency exchanges, blockchain operators, and other virtual asset service providers to block transactions linked to addresses the hackers used to launder stolen funds.
+The agency also published a list of 628 cryptocurrency addresses associated with the theft, including 608 Ethereum addresses, 19 Bitcoin addresses, and one Solana address.
+TraderTraitor has a long history of targeting cryptocurrency companies and their employees, with North Korean hackers linked to numerous crypto-theft attacks, including the $387.5 million Bitget theft in September 2026, the $280 million Drift hack in April 2026, $1.5 billion Bybit heist in February 2025, and the $308 million DMM Bitcoin theft in May 2024.
+One tactic used by North Korean Lazarus hackers is a long-running campaign known as 'Operation DreamJob,' in which they impersonate recruiters and approach software developers and cryptocurrency employees with fake job offers to trick them into installing malware.
+Both the DMM and Bybit attacks involved compromising computers belonging to employees or developers with access to cryptocurrency infrastructure.
+In the DMM Bitcoin attack, hackers impersonated a recruiter on LinkedIn and tricked an employee at the cryptocurrency wallet company Ginco into running malicious Python code disguised as a pre-employment test.
+The Bybit heist also stemmed from a compromised Safe{Wallet} developer's computer, which let hackers access the wallet platform and manipulate a legitimate transaction request by a DMM employee, redirecting $1.5 billion in cryptocurrency to wallets they controlled.
+More recently, the April 2026 Drift attack involved a six-month social engineering operation in which individuals posing as representatives of a cryptocurrency trading firm met Drift contributors in person at multiple industry conferences.
+The attackers spent months building relationships, and are believed to have compromised employees' devices through a malicious code repository or a TestFlight application.
+In a statement shared with BleepingComputer today, Binance said it was preparing to resume the first phase of withdrawals on November 1 between 06:00 and 09:00 UTC, as it continues working to restore services and cover the stolen assets.
+The exchange says it has now covered approximately 95% of the impacted amount, up from 90% in its previous update. The remaining 5% consists of less-liquid tokens that Binance is continuing to purchase through market and over-the-counter channels.
+Binance also said that BTC, ETH, USDT, BNB, SOL, USDC, XRP, USD1, RLUSD, and ZEC balances are fully backed, and that deposit services remain unaffected by the incident.
+"Our commitment remains unchanged: Binance will bear the financial impact of the stolen funds. These losses will not be passed on to users," Binance told BleepingComputer.
+"Resuming withdrawals is a major milestone, but our work continues. We will continue strengthening our safeguards, completing the recovery process, and providing updates as progress continues."
+Adaptive Security's AI agents analyze email intent, context, and behavior to uncover phishing, business email compromise, and invoice fraud.
+See what's getting through with a 14-day read-only scan of Microsoft 365 or Google Workspace, with no MX changes.
+Start your free email security scan.

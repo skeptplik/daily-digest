@@ -1,0 +1,20 @@
+Ivanti released security updates to patch two more Connect Secure (ICS) remote access gateway flaws that have been chained in zero-day attacks since at least October 1.
+Threat actors exploited these two flaws (tracked as CVE-2026-111357 and CVE-2026-118527) alongside an authentication bypass vulnerability (CVE-2026-104935), which Ivanti patched last month to remove the main attack surface.
+CVE-2026-111357 is a high-severity privilege escalation flaw, and CVE-2026-118527 lets authenticated attackers upload files on an unpatched device.
+When it released patches for CVE-2026-104935 in October, Ivanti urged admins to upgrade as soon as possible since it was aware of "limited exploitation in the wild."
+"At the time of discovery of exploitation, Ivanti had a fix developed for CVE-2026-104935 which was already in QA for supported versions, and we made the decision to not delay getting a fix to customers that resolved the primary exploitation path when the LPE was discovered," Ivanti added in an advisory updated on Thursday.
+"Because of this, our focus was initially centered on the disclosure of CVE-2026-104935 and providing protection for our customers as quickly as possible."
+Cybersecurity firm Volexity, which found the flaw, reported at the time that a threat actor (UTA0576) was chaining the CVE-2026-104935 vulnerability since at least October 3 with two other flaws to gain unauthenticated root-level code execution on fully patched ICS devices.
+"Notably, UTA0576 deployed no malware or web shell. Instead, the threat actor re-exploited the device for every command it ran and tampered with logs to cover its tracks, evading Ivanti's Integrity Checker Tool," Volexity said.
+Threat intelligence firm Defused also confirmed Volexity's report, saying that it spotted the first signs of active CVE-2026-104935 exploitation starting October 1.
+On Tuesday, the US Cybersecurity and Infrastructure Security Agency (CISA) added CVE-2026-104935 to its catalog of actively exploited vulnerabilities and ordered federal agencies to patch their systems by Friday,
+Internet threat watchdog Shadowserver now tracks over 5,000 Internet-exposed ICS instances, but there is no information on how many have already been secured against ongoing attacks.
+Threat actors frequently target Ivanti vulnerabilities, often in zero-day attacks, because they provide a quick way into enterprise networks to steal sensitive corporate and customer data.
+Over the past several years, Ivanti has patched several other Connect Secure zero-days exploited in the wild, some of them chained in widespread attacks to deploy malware.
+It addressed a command injection (CVE-2024-21887) and an authentication bypass (CVE-2023-46805) in early January 2024, and a server-side request forgery (CVE-2024-21893) two weeks later.
+More recently, Ivanti has fixed a remote code execution (RCE) bug (CVE-2025-0282) in January 2025 and a second RCE flaw (CVE-2025-22457) exploited by China-linked state hackers since at least mid-March 2025.
+Ivanti has over 3,000 employees, a network of more than 7,000 partners, and over 40,000 customers using its IT asset management solutions worldwide.
+Since November 2021, CISA has flagged 38 Ivanti vulnerabilities as actively exploited in the wild, including 12 that have also been abused in ransomware attacks.
+Adaptive Security's AI agents analyze email intent, context, and behavior to uncover phishing, business email compromise, and invoice fraud.
+See what's getting through with a 14-day read-only scan of Microsoft 365 or Google Workspace, with no MX changes.
+Start your free email security scan.
