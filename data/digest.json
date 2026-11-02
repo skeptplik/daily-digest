@@ -1,902 +1,1712 @@
 {
-  "date": "2026-11-02",
-  "news_date": "2026-11-01",
-  "headline": "Протесты в Германии и Франции, северокорейский след во взломе Binance на $6,3 млрд.",
-  "topics": [
+ "date": "2026-11-02",
+ "news_date": "2026-11-01",
+ "headline": "Взлом Binance на $6,3 млрд с подозрением на КНДР, кибератаки на холодильники в Европе и накануне выборов в Конгресс США.",
+ "topics": [
+  {
+   "id": "ai",
+   "items": [
     {
-      "id": "ai",
-      "items": [
-        {
-          "title": "Биотех-стартап поручил ИИ-агенту ввести лекарство в мозг живой мыши",
-          "summary": "Биотехнологический стартап позволил ИИ-агенту самому выбрать генную терапию и успешно ввести её мышам в мозг. Wired называет это взглядом на будущее исследовательских лабораторий.",
-          "why": "Показывает, как ИИ-агенты выходят в реальные лабораторные работы.",
-          "sources": [
-            {
-              "name": "Wired",
-              "url": "https://www.wired.com/story/an-ai-agent-did-brain-surgery-on-live-mouse/"
-            }
-          ],
-          "importance": 2,
-          "minutes": 4
-        },
-        {
-          "title": "OpenAI, по сообщениям, снизила цель нового раунда финансирования",
-          "summary": "По данным TechCrunch, новый раунд финансирования OpenAI пока не оправдывает ожиданий, и компания снизила целевую сумму.",
-          "why": "Отражает настроение инвесторов в отношении ИИ-расходов.",
-          "sources": [
-            {
-              "name": "TechCrunch",
-              "url": "https://techcrunch.com/2026/10/31/openai-reportedly-lowers-funding-target-for-new-round/"
-            }
-          ],
-          "importance": 2,
-          "minutes": 2
-        },
-        {
-          "title": "Суд разрешил продолжить иск NAACP о загрязнении от дата-центра xAI",
-          "summary": "Судья позволил двигаться дальше иску NAACP: организация обвиняет принадлежащую SpaceX компанию xAI в нарушении закона о чистом воздухе.",
-          "why": "Экологические претензии к ИИ-инфраструктуре становятся судебными.",
-          "sources": [
-            {
-              "name": "TechCrunch",
-              "url": "https://techcrunch.com/2026/10/31/judge-allows-naacp-lawsuit-over-xai-data-center-pollution-to-move-forward/"
-            }
-          ],
-          "importance": 2,
-          "minutes": 2
-        },
-        {
-          "title": "Nvidia рассматривает роль поручителя по кредиту дата-центра Nscale",
-          "summary": "TechCrunch пишет, что Nvidia обдумывает выступить поручителем по займу для ИИ-дата-центра Nscale в Западной Вирджинии, пока инвесторы нервничают из-за трат на ИИ.",
-          "why": "Показывает, как поставщики чипов поддерживают финансирование ИИ-инфраструктуры.",
-          "sources": [
-            {
-              "name": "TechCrunch",
-              "url": "https://techcrunch.com/2026/10/30/nvidia-weighs-playing-the-cosigner-for-nscales-ai-data-center-in-west-virginia/"
-            }
-          ],
-          "importance": 1,
-          "minutes": 2,
-          "minor": true
-        },
-        {
-          "title": "Глава Apple: компания не хочет выпускать ИИ ради ИИ",
-          "summary": "Новый генеральный директор Apple защитил нынешнюю позицию компании в сфере ИИ.",
-          "why": "Показывает подход Apple к ИИ на фоне конкурентов.",
-          "sources": [
-            {
-              "name": "TechCrunch",
-              "url": "https://techcrunch.com/2026/10/31/apple-ceo-says-the-company-doesnt-want-to-ship-ai-for-ais-sake/"
-            }
-          ],
-          "importance": 1,
-          "minutes": 2,
-          "minor": true
-        },
-        {
-          "title": "Чат-боты уводят туристов с маршрута, что может быть опасно",
-          "summary": "Wired пишет, что передача планирования походов ИИ лишает людей критического мышления, что в глуши может иметь смертельные последствия.",
-          "why": "Практический риск доверия чат-ботам.",
-          "sources": [
-            {
-              "name": "Wired",
-              "url": "https://www.wired.com/story/chatbots-are-leading-hikers-astray-with-dangerous-consequences/"
-            }
-          ],
-          "importance": 1,
-          "minutes": 4,
-          "minor": true
-        }
-      ]
+     "title": "Сотни ИИ-приложений скрывали генерацию откровенных дипфейков, пишет WIRED",
+     "summary": "WIRED нашёл более 400 связанных доменов и приложений, которые под видом обычных сервисов при определённых условиях открывают интерфейс для откровенных ИИ-дипфейков. Пока сообщает только одно издание; Apple и Google удалили часть приложений.",
+     "why": "После проверки магазинами приложения меняли содержимое, а реклама шла через Facebook и Instagram.",
+     "sources": [
+      {
+       "name": "Wired",
+       "url": "https://www.wired.com/story/hundreds-of-mundane-ai-apps-are-hiding-abusive-deepfake-features/"
+      }
+     ],
+     "importance": 2,
+     "minutes": 6,
+     "minor": false,
+     "body": [
+      "WIRED выяснил, что сеть из более чем 400 связанных доменов и приложений выдаёт себя за обычные сервисы: приложение для «портретов питомцев» Viefur, языковые курсы, ИИ-тренер по фитнесу. При определённых условиях они загружают скрытый веб-интерфейс, где по присланным фото людей можно создавать откровенные ИИ-изображения и видео.",
+      "Механизм описан со слов исследователя Пола Бушо (Paul Bouchaud, AI Forensics): при каждой загрузке приложение отправляет серверу данные о пользователе, а сервер решает, показать безобидную или откровенную версию. Одним из триггеров, по-видимому, служит установка после клика по рекламе в Meta. Интерфейс продаёт «алмазы» для генерации и содержит десятки шаблонов порнографических дипфейков.",
+      "Сеть начала появляться в конце 2025 года с пиком весной 2026-го; по подсчётам Бушо, в какой-то момент регистрировалось около 30 сайтов в неделю. В сентябре 27 приложений сети были в Google Play, суммарно их скачали более 350 000 раз. Самое популярное, DiffAI, скачали более 100 000 раз.",
+      "Исследователи связали с сетью десятки тысяч откровенных дипфейк-объявлений в Facebook и Instagram с начала года. Платить за генерацию можно было через Apple Pay и Google Pay.",
+      "Apple после запроса WIRED удалила 19 приложений, включая Viefur; компания заявила, что приложения проходили проверку, а потом разработчики подменяли содержимое сайта. Google не ответила на запрос, но до обращения удалила большинство приложений. Meta сообщила, что нашла более 3000 связанных объявлений, около двух третей удалила, и сообщила о действиях против 11 600 рекламных аккаунтов и блокировке 209 приложений.",
+      "По данным WIRED и исследователей, за сетью, по-видимому, стоят китайские разработчики и гонконгская компания KeLing Technology Limited; на запросы издания она не ответила. По словам Бушо, похожие объявления и приложения продолжали появляться, пока материал готовили к выходу."
+     ]
     },
     {
-      "id": "health",
-      "items": [
-        {
-          "title": "FDA одобрило генную терапию при синдроме Санфилиппо",
-          "summary": "Управление по контролю за продуктами и лекарствами США одобрило генную терапию, созданную при поддержке семьи, собравшей на исследования миллионы долларов (NPR).",
-          "why": "Новое лечение редкой тяжёлой болезни.",
-          "sources": [
-            {
-              "name": "NPR",
-              "url": "https://www.npr.org/2026/11/01/nx-s1-6014739/sanfilippo-gene-therapy-fayuvi"
-            }
-          ],
-          "importance": 2,
-          "minutes": 4
-        },
-        {
-          "title": "Радиологи: в Уэльсе из-за нехватки врачей пациенты с раком ухудшаются",
-          "summary": "По данным BBC, на севере и западе Уэльса не хватает 42% консультантов-радиологов, на юге 22%; радиологи предупреждают об ухудшении состояния онкопациентов.",
-          "why": "Нехватка кадров напрямую влияет на диагностику рака.",
-          "sources": [
-            {
-              "name": "BBC",
-              "url": "https://www.bbc.co.uk/news/articles/cmly0xle2rddo?at_medium=RSS&at_campaign=rss"
-            }
-          ],
-          "importance": 2,
-          "minutes": 3
-        },
-        {
-          "title": "Валлийский совет здравоохранения может закрыть три центра неотложной помощи",
-          "summary": "Совет Betsi Cadwaladr рассматривает закрытие центров в Холихеде, Тремадоге и Бангоре из-за нехватки средств; противники говорят о «тяжёлых последствиях».",
-          "why": "Влияет на доступность неотложной помощи в регионе.",
-          "sources": [
-            {
-              "name": "The Guardian",
-              "url": "https://www.theguardian.com/uk-news/2026/nov/01/welsh-health-board-urgent-primary-care-centres-upcc-holyhead-tremadog-bangor-betsi-cadwaladr"
-            },
-            {
-              "name": "BBC",
-              "url": "https://www.bbc.co.uk/news/articles/c9e8lj021dnno?at_medium=RSS&at_campaign=rss"
-            }
-          ],
-          "importance": 2,
-          "minutes": 3
-        },
-        {
-          "title": "Больница признала полную ответственность за 24 сбоя, приведших к смерти малыша",
-          "summary": "BBC: Элеанор Олдред-Оуэн умерла после операции, потому что аномальный снимок не был отмечен.",
-          "why": "Показывает системные ошибки в британском здравоохранении.",
-          "sources": [
-            {
-              "name": "BBC",
-              "url": "https://www.bbc.co.uk/news/articles/cmn06eldj9rwo?at_medium=RSS&at_campaign=rss"
-            }
-          ],
-          "importance": 2,
-          "minutes": 3
-        },
-        {
-          "title": "Стартовала открытая запись на медстрахование ACA на 2027 год",
-          "summary": "По данным NPR, рынки ACA открылись 1 ноября; начать заранее особенно важно в этом году.",
-          "why": "Затрагивает миллионы американцев при выборе страховки.",
-          "sources": [
-            {
-              "name": "NPR",
-              "url": "https://www.npr.org/2026/11/01/nx-s1-6023423/aca-open-enrollment-health-insurance"
-            }
-          ],
-          "importance": 1,
-          "minutes": 3,
-          "minor": true
-        },
-        {
-          "title": "Что принесут выборы в США в сфере здравоохранения",
-          "summary": "STAT опросил экспертов о четырёх основных способах, которыми промежуточные выборы изменят политику в здравоохранении.",
-          "why": "Определяет курс медицинской политики США.",
-          "sources": [
-            {
-              "name": "STAT",
-              "url": "https://www.statnews.com/2026/10/31/midterm-election-tipping-point-healthcare-policy/?utm_campaign=rss"
-            }
-          ],
-          "importance": 1,
-          "minutes": 5,
-          "minor": true
-        }
-      ]
+     "title": "ChatGPT объединит вкладки Chat и Work, а Codex и ChatGPT будут делить общий лимит",
+     "summary": "OpenAI сообщила пользователям, что вкладки Chat и Work в приложении ChatGPT объединят, сначала для небольшой группы. ChatGPT и Codex будут расходовать один общий лимит.",
+     "why": "Меняются вкладки в приложении ChatGPT и правила лимитов для ChatGPT и Codex.",
+     "sources": [
+      {
+       "name": "BleepingComputer",
+       "url": "https://www.bleepingcomputer.com/news/artificial-intelligence/openai-says-its-doubling-pro-usage-limits-and-bringing-work-features-to-chat/"
+      },
+      {
+       "name": "TechCrunch",
+       "url": "https://techcrunch.com/2026/11/02/openai-is-finally-merging-chatgpts-chat-and-work-tabs/"
+      }
+     ],
+     "importance": 1,
+     "minutes": 2,
+     "minor": true,
+     "body": [
+      "По письму OpenAI пользователям, которое цитируют BleepingComputer и TechCrunch, в приложении ChatGPT вкладки Chat и Work будут объединены: сначала новый режим проверят на небольшой группе, затем расширят. Codex останется отдельным разделом.",
+      "ChatGPT и Codex будут списывать использование из одного общего лимита; остаток и время сброса будут видны в Settings > Usage. По данным BleepingComputer, когда лимит закончится, можно дождаться сброса, повысить подписку или купить кредиты. По словам OpenAI, на большинство пользователей это не повлияет.",
+      "BleepingComputer напоминает, что 29 октября OpenAI удвоила лимиты Work и Codex для подписок Pro 100, Pro 200 и Pro 500. TechCrunch отмечает, что Anthropic в сентябре объединила чат и Cowork в Claude в один экран."
+     ]
     },
     {
-      "id": "science",
-      "items": [
-        {
-          "title": "Под землёй в Южной Дакоте строят детекторы нейтрино",
-          "summary": "The Guardian рассказывает, как в бывшей золотой шахте в Блэк-Хилс учёные создают гигантские детекторы нейтрино, чтобы искать ответы о тёмной материи и антиматерии.",
-          "why": "Фундаментальные исследования о происхождении Вселенной.",
-          "sources": [
-            {
-              "name": "The Guardian",
-              "url": "https://www.theguardian.com/science/2026/oct/31/south-dakota-mine-search-secrets-universe-dark-matter-antimatter"
-            }
-          ],
-          "importance": 2,
-          "minutes": 5
-        },
-        {
-          "title": "Рыбы в виртуальной реальности следуют лишь за одним самым влиятельным соседом",
-          "summary": "Эксперименты New Scientist с живыми и виртуальными рыбами показали: в стае каждая особь ориентируется только на одного соседа.",
-          "why": "Объясняет механику коллективного поведения.",
-          "sources": [
-            {
-              "name": "New Scientist",
-              "url": "https://www.newscientist.com/article/2596645-fish-only-pay-attention-to-one-most-influential-neighbor-in-virtual-reality/?utm_campaign=RSS|NSNS&utm_content=home&utm_medium=RSS&utm_source=NSNS"
-            }
-          ],
-          "importance": 1,
-          "minutes": 3
-        },
-        {
-          "title": "Врачи просят указывать риск аллергии на антибиотик после контакта с партнёром",
-          "summary": "New Scientist: у женщины развилась тяжёлая аллергия на антибиотик из-за его присутствия в сперме партнёра; клиницисты просят добавить риск в инструкцию.",
-          "why": "Редкий, но важный риск для безопасности лекарств.",
-          "sources": [
-            {
-              "name": "New Scientist",
-              "url": "https://www.newscientist.com/article/2596737-allergic-reactions-after-sex-should-be-listed-as-an-antibiotic-risk-experts-say/?utm_campaign=RSS|NSNS&utm_content=home&utm_medium=RSS&utm_source=NSNS"
-            }
-          ],
-          "importance": 1,
-          "minutes": 3
-        },
-        {
-          "title": "Морские птицы страдают от «джетлага» при возвращении домой",
-          "summary": "Ars Technica: долгий перелёт с кормовых мест нарушает внутренние часы птиц.",
-          "why": "Необычный эффект миграции.",
-          "sources": [
-            {
-              "name": "Ars Technica",
-              "url": "https://arstechnica.com/science/2026/10/seabirds-racing-home-over-the-ocean-can-get-jet-lagged/"
-            }
-          ],
-          "importance": 1,
-          "minutes": 3,
-          "minor": true
-        },
-        {
-          "title": "В Уэльсе спустя 60 лет снова нашли редкого жука",
-          "summary": "BBC: короткошеего нефтяного жука считали исчезнувшим в Уэльсе, но его обнаружили вновь.",
-          "why": "Хорошая новость для сохранения видов.",
-          "sources": [
-            {
-              "name": "BBC",
-              "url": "https://www.bbc.co.uk/news/articles/cry8317pdp5yo?at_medium=RSS&at_campaign=rss"
-            }
-          ],
-          "importance": 1,
-          "minutes": 2,
-          "minor": true
-        }
-      ]
-    },
-    {
-      "id": "space",
-      "items": [
-        {
-          "title": "Телескоп NASA Swift в ближайшие дни неуправляемо упадёт на Землю",
-          "summary": "Space.com: обсерватория Нила Герелса Swift сойдёт с орбиты неуправляемо; издание разбирает, где она может упасть.",
-          "why": "Редкий случай входа в атмосферу крупного аппарата.",
-          "sources": [
-            {
-              "name": "Space.com",
-              "url": "https://www.space.com/space-exploration/missions/nasas-swift-space-telescope-is-about-to-crash-to-earth-where-will-it-fall"
-            }
-          ],
-          "importance": 2,
-          "minutes": 3
-        },
-        {
-          "title": "Военные и гражданские спутники следят за болидами для планетарной защиты",
-          "summary": "Space.com: взрыв метеора 1 апреля над Южной Атлантикой у берегов Аргентины зафиксировали военные и гражданские спутники.",
-          "why": "Помогает отслеживать опасные космические объекты.",
-          "sources": [
-            {
-              "name": "Space.com",
-              "url": "https://www.space.com/stargazing/meteor-showers/planetary-defense-how-military-and-civil-satellites-are-watching-fireballs-to-help-keep-earth-safe-from-space-rocks"
-            }
-          ],
-          "importance": 2,
-          "minutes": 4
-        },
-        {
-          "title": "Радионаблюдения показали «полтергейст» в атмосфере Бетельгейзе",
-          "summary": "Новые радионаблюдения выявили нечто, возмущающее атмосферу красного сверхгиганта Бетельгейзе.",
-          "why": "Новые данные о судьбе массивной звезды.",
-          "sources": [
-            {
-              "name": "Space.com",
-              "url": "https://www.space.com/astronomy/stars/betelgeuse-is-haunted-by-a-cosmic-poltergeist-tormenting-the-doomed-stars-atmosphere"
-            }
-          ],
-          "importance": 1,
-          "minutes": 3
-        },
-        {
-          "title": "SpaceX запустила 27 спутников Starlink с авиабазы Ванденберг",
-          "summary": "Falcon 9 стартовала 31 октября в 12:04 по восточному времени США.",
-          "why": "Продолжение развёртывания спутниковой группировки.",
-          "sources": [
-            {
-              "name": "Space.com",
-              "url": "https://www.space.com/space-exploration/launches-spacecraft/spacex-starlink-launch-falcon-9-group-15-18-landing-ocisly"
-            }
-          ],
-          "importance": 1,
-          "minutes": 2,
-          "minor": true
-        },
-        {
-          "title": "Луна, Марс и Юпитер сблизятся в созвездии Льва в ночь на 2 ноября",
-          "summary": "Space.com: Луна пройдёт рядом с Марсом и Юпитером, рядом будет скопление Улей.",
-          "why": "Наблюдательная возможность.",
-          "sources": [
-            {
-              "name": "Space.com",
-              "url": "https://www.space.com/stargazing/the-moon-mars-and-jupiter-shine-in-the-heart-of-the-lion-overnight-on-nov-1-2"
-            }
-          ],
-          "importance": 1,
-          "minutes": 2,
-          "minor": true
-        }
-      ]
-    },
-    {
-      "id": "politics",
-      "items": [
-        {
-          "title": "ФБР: взлом Binance на $6,3 млрд совершила Северная Корея",
-          "summary": "ФБР возложило ответственность за кражу 29 октября на северокорейскую группу «TraderTraitor». По данным BBC, Binance покрывает 90% убытков.",
-          "why": "Рекордная кража криптовалюты с государственным следом.",
-          "sources": [
-            {
-              "name": "BBC",
-              "url": "https://www.bbc.co.uk/news/articles/ckpdg3ql4169o?at_medium=RSS&at_campaign=rss"
-            },
-            {
-              "name": "The Verge",
-              "url": "https://www.theverge.com/tech/1024176/north-korea-binance-crypto-heist"
-            }
-          ],
-          "importance": 3,
-          "minutes": 4
-        },
-        {
-          "title": "Протесты в Германии из-за стоимости жизни переросли в беспорядки",
-          "summary": "Демонстрации прошли во Франкфурте, Берлине, Кёльне и Гамбурге; к вечеру начались погромы магазинов. Глава МВД Добриндт связал беспорядки с левыми группами и хулиганами из мигрантской среды.",
-          "why": "Крупнейшие протесты на фоне роста цен.",
-          "sources": [
-            {
-              "name": "BBC Русская служба",
-              "url": "https://www.bbc.com/russian/articles/cmy0e4vdqn0yo?at_medium=RSS&at_campaign=rss"
-            },
-            {
-              "name": "BBC",
-              "url": "https://www.bbc.co.uk/news/articles/cqj34gnd3n30o?at_medium=RSS&at_campaign=rss"
-            },
-            {
-              "name": "DW на русском",
-              "url": "https://www.dw.com/ru/глава-мвд-фрг-добриндт-связал-беспорядки-на-демонстрациях-в-стране-с-левыми-группами-и-хулиганами-из-мигрантской-среды-и-пообещал-суровые-последствия/a-79823084?maca=rus-rss-ru-all-1126-rdf"
-            }
-          ],
-          "importance": 3,
-          "minutes": 4
-        },
-        {
-          "title": "Во Франции идут массовые протесты, возбуждено дело о покушении на убийство",
-          "summary": "Более 300 тысяч человек вышли на улицы; демонстрации закончились столкновениями. Париж открыл дело о покушении на убийство после атаки коктейлем Молотова на полицию, задержаны 779 человек. Школьники обещают возобновить блокады.",
-          "why": "Одна из крупнейших уличных кампаний в стране.",
-          "sources": [
-            {
-              "name": "DW",
-              "url": "https://www.dw.com/en/france-opens-attempted-murder-probe-after-protest-attack/a-79822853?maca=en-rss-en-all-1573-rdf"
-            },
-            {
-              "name": "NYT",
-              "url": "https://www.nytimes.com/2026/10/31/world/europe/france-protests-clashes.html"
-            },
-            {
-              "name": "France 24",
-              "url": "https://www.france24.com/en/france/20261101-french-high-school-blockades-to-restart-on-monday-student-unions-say"
-            }
-          ],
-          "importance": 3,
-          "minutes": 4
-        },
-        {
-          "title": "Оппозиция Индии провела массовый митинг в Дели",
-          "summary": "Десятки тысяч сторонников Конгресса требуют отставки главы избиркома из-за удаления 130 млн имён из списков избирателей.",
-          "why": "Спор вокруг честности выборов в Индии.",
-          "sources": [
-            {
-              "name": "The Guardian",
-              "url": "https://www.theguardian.com/world/2026/nov/01/india-opposition-protest-rally-delhi"
-            },
-            {
-              "name": "BBC",
-              "url": "https://www.bbc.co.uk/news/articles/c60qk92dvlwgo?at_medium=RSS&at_campaign=rss"
-            },
-            {
-              "name": "NYT",
-              "url": "https://www.nytimes.com/2026/10/31/world/asia/congress-cjp-protest-delhi-india-modi.html"
-            }
-          ],
-          "importance": 2,
-          "minutes": 3
-        },
-        {
-          "title": "ФСБ задержала подростка после предупреждения посольства США об угрозе теракта",
-          "summary": "ФСБ сообщила о задержании несовершеннолетнего, выложившего в TikTok фото похожего на оружие предмета и снимок из парка «Царицыно».",
-          "why": "Связано с предупреждением США об угрозе массовых жертв.",
-          "sources": [
-            {
-              "name": "DW на русском",
-              "url": "https://www.dw.com/ru/угроза-теракта-в-царицыно-фсб-задержала-российского-подростка-выложившего-в-tiktok-фото-с-напоминающим-оружие-предметом-и-фото-из-парка-царицыно/a-79823319?maca=rus-rss-ru-all-1126-rdf"
-            },
-            {
-              "name": "Euronews",
-              "url": "https://www.euronews.com/2026/11/01/russia-arrests-minor-after-us-embassy-warns-of-credible-threat-of-a-mass-casualty-event"
-            }
-          ],
-          "importance": 2,
-          "minutes": 3,
-          "minor": true
-        },
-        {
-          "title": "Суд окончательно отклонил иск Трампа к WSJ на $10 млрд",
-          "summary": "Суд во Флориде отклонил иск о клевете из-за публикации о письме Эпштейну. Пока сообщает только одно издание.",
-          "why": "Завершение крупного дела о клевете.",
-          "sources": [
-            {
-              "name": "DW на русском",
-              "url": "https://www.dw.com/ru/суд-в-сша-окончательно-отклонил-иск-трампа-к-wsj-по-делу-о-клевете-на-10-млрд-долларов/a-79823354?maca=rus-rss-ru-all-1126-rdf"
-            }
-          ],
-          "importance": 2,
-          "minutes": 2,
-          "minor": true
-        },
-        {
-          "title": "Россия атаковала энергетику Украины в четырёх регионах",
-          "summary": "Зеленский сообщил об ударах; десятки тысяч остались без света. Пока сообщает только одно издание.",
-          "why": "Удары по энергосистеме перед зимой.",
-          "sources": [
-            {
-              "name": "DW",
-              "url": "https://www.dw.com/en/ukraine-russian-attacks-leave-tens-of-thousands-without-power/live-79815409?maca=en-rss-en-all-1573-rdf"
-            }
-          ],
-          "importance": 2,
-          "minutes": 2,
-          "minor": true
-        },
-        {
-          "title": "В Болгарии идёт борьба за пост президента",
-          "summary": "Врио президента Илиана Йотова, выступающая за диалог с Москвой, спорит за пост с Андреем Гюровым. Пока сообщает только одно издание.",
-          "why": "Результат влияет на позицию Болгарии по Украине.",
-          "sources": [
-            {
-              "name": "BBC Русская служба",
-              "url": "https://www.bbc.com/russian/articles/cq1kdy0rwnd0o?at_medium=RSS&at_campaign=rss"
-            }
-          ],
-          "importance": 2,
-          "minutes": 3,
-          "minor": true
-        },
-        {
-          "title": "Дата-центры стали темой местных голосований в США",
-          "summary": "France 24: избиратели в Огайо, Иллинойсе и других штатах решат десятки местных вопросов на фоне сопротивления гигантским ИИ-центрам.",
-          "why": "Оппозиция объединяет разные партии.",
-          "sources": [
-            {
-              "name": "France 24",
-              "url": "https://www.france24.com/en/data-centres-on-the-ballot-could-the-ai-infrastructure-shape-us-midterms"
-            }
-          ],
-          "importance": 1,
-          "minutes": 3,
-          "minor": true
-        }
-      ]
-    },
-    {
-      "id": "tech",
-      "items": [
-        {
-          "title": "Фирмы-должники дата-центров подпитывают опасения «пузыря ИИ»",
-          "summary": "BBC: долги дата-центров исчисляются десятками миллиардов фунтов.",
-          "why": "Финансовые риски ИИ-бума.",
-          "sources": [
-            {
-              "name": "BBC",
-              "url": "https://www.bbc.co.uk/news/articles/cje36degrgv5o?at_medium=RSS&at_campaign=rss"
-            }
-          ],
-          "importance": 2,
-          "minutes": 4
-        },
-        {
-          "title": "Бразильских юристов оштрафовали за скрытую инъекцию промпта в иск",
-          "summary": "Трудовой суд Бразилии оштрафовал двух юристов (около $16 тыс.): в документе нашли скрытый текст для воздействия на ИИ суда.",
-          "why": "Первый заметный случай манипуляции судебным ИИ.",
-          "sources": [
-            {
-              "name": "Tom's Hardware",
-              "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/brazilian-lawyers-busted-for-attempting-to-manipulate-courts-ai-with-prompt-injection-hidden-in-filing-courts-ai-flags-hidden-text-that-demanded-superficial-legal-scrutiny-lawyers-fined-usd16-000"
-            }
-          ],
-          "importance": 2,
-          "minutes": 3
-        },
-        {
-          "title": "FDA хочет отозвать одобрение препарата Tavneos",
-          "summary": "Регулятор говорит, что препарат одобрили на основании сфальсифицированных данных исследований.",
-          "why": "Вопрос о доступе пациентов и доверии к данным.",
-          "sources": [
-            {
-              "name": "Ars Technica",
-              "url": "https://arstechnica.com/science/2026/10/the-fda-wants-to-pull-its-approval-of-a-drug-its-not-so-easy/"
-            }
-          ],
-          "importance": 2,
-          "minutes": 4
-        },
-        {
-          "title": "Утёк играбельный вариант отменённой игры F-Stop из вселенной Portal",
-          "summary": "Энтузиасты собрали версию из материалов августовской утечки на 12 ТБ.",
-          "why": "Интересно фанатам.",
-          "sources": [
-            {
-              "name": "The Verge",
-              "url": "https://www.theverge.com/games/1024206/playable-portal-prequel-f-stop-leak"
-            }
-          ],
-          "importance": 1,
-          "minutes": 2,
-          "minor": true
-        },
-        {
-          "title": "HomePod Mini 2: первый взгляд",
-          "summary": "The Verge: новая колонка за $149, обзор с тремя плюсами и одним разочарованием.",
-          "why": "Обзор новинки Apple.",
-          "sources": [
-            {
-              "name": "The Verge",
-              "url": "https://www.theverge.com/tech/1024108/homepod-mini-2-hands-on-siri-smart-home-mac-speaker"
-            }
-          ],
-          "importance": 1,
-          "minutes": 3,
-          "minor": true
-        }
-      ]
-    },
-    {
-      "id": "dev",
-      "items": [
-        {
-          "title": "Емкость AWS почти распродана до 2027 года",
-          "summary": "Энди Джасси сообщил: крупные контракты на облачные мощности продаются до 2027 года, часть 2028 уже распределена.",
-          "why": "Дефицит мощностей влияет на планы разработчиков.",
-          "sources": [
-            {
-              "name": "InfoQ",
-              "url": "https://www.infoq.com/news/2026/11/aws-capacity-sold-out/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global"
-            }
-          ],
-          "importance": 2,
-          "minutes": 3
-        },
-        {
-          "title": "Google: ИИ-агент PageBreak нашёл более 500 XSS-уязвимостей",
-          "summary": "Согласно статье Google, агент нашёл более 500 XSS-уязвимостей в веб-приложениях компании с января.",
-          "why": "Практический пример ИИ в поиске уязвимостей.",
-          "sources": [
-            {
-              "name": "InfoQ",
-              "url": "https://www.infoq.com/news/2026/10/google-pagebreak-security-agent/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global"
-            }
-          ],
-          "importance": 2,
-          "minutes": 3
-        },
-        {
-          "title": "Хакеры могли внедрить бэкдор в Bash через GNU Savannah",
-          "summary": "Hacktron описала компрометацию GNU Savannah, позволявшую подложить вредоносный код в проекты.",
-          "why": "Риск цепочки поставок открытого ПО.",
-          "sources": [
-            {
-              "name": "LWN",
-              "url": "https://lwn.net/Articles/1104262/"
-            }
-          ],
-          "importance": 2,
-          "minutes": 3
-        },
-        {
-          "title": "Вышло последнее обновление ядра Linux 7.2",
-          "summary": "Грег Кроа-Хартман выпустил 7.2.15, ветка 7.2.y больше не поддерживается.",
-          "why": "Нужен переход на новую ветку.",
-          "sources": [
-            {
-              "name": "LWN",
-              "url": "https://lwn.net/Articles/1104629/"
-            }
-          ],
-          "importance": 1,
-          "minutes": 2,
-          "minor": true
-        },
-        {
-          "title": "Вышла OpenBSD 8.0",
-          "summary": "Расширена поддержка железа, улучшена безопасность, добавлены Intel Arc A-Series.",
-          "why": "Релиз ОС.",
-          "sources": [
-            {
-              "name": "InfoQ",
-              "url": "https://www.infoq.com/news/2026/10/openbsd-8-released/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global"
-            }
-          ],
-          "importance": 1,
-          "minutes": 2,
-          "minor": true
-        },
-        {
-          "title": "Cloudflare открыла закрытую бету постквантового GeoKey Manager",
-          "summary": "Используются гибридные ML-KEM-768 и X25519.",
-          "why": "Шаг к постквантовой защите.",
-          "sources": [
-            {
-              "name": "InfoQ",
-              "url": "https://www.infoq.com/news/2026/10/cf-pq-geokey-manager/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global"
-            }
-          ],
-          "importance": 1,
-          "minutes": 3,
-          "minor": true
-        }
-      ]
-    },
-    {
-      "id": "games",
-      "items": [
-        {
-          "title": "Dune: Awakening получит бесплатное зимнее дополнение 1 декабря",
-          "summary": "Дополнение Blood and Ice заменит пустыни снежной картой.",
-          "why": "Крупное бесплатное обновление.",
-          "sources": [
-            {
-              "name": "Eurogamer",
-              "url": "https://www.eurogamer.net/dune-awakening-blood-and-ice-free-expansion"
-            }
-          ],
-          "importance": 2,
-          "minutes": 2
-        },
-        {
-          "title": "Netflix снимет сериал по PUBG: Дональд Гловер будет режиссёром и актёром",
-          "summary": "Гловер напишет, срежиссирует и продюсирует.",
-          "why": "Новая крупная экранизация игры.",
-          "sources": [
-            {
-              "name": "Eurogamer",
-              "url": "https://www.eurogamer.net/pubg-live-action-netflix-series-donald-glover"
-            }
-          ],
-          "importance": 2,
-          "minutes": 2
-        },
-        {
-          "title": "Дэн Гринуолт покидает Microsoft",
-          "summary": "По данным The Verge, глава Turn 10 планирует уйти на пенсию после почти 27 лет.",
-          "why": "Смена главы студии Forza.",
-          "sources": [
-            {
-              "name": "PC Gamer",
-              "url": "https://www.pcgamer.com/games/racing/forza-co-creator-dan-greenawalt-is-reportedly-leaving-microsoft/"
-            }
-          ],
-          "importance": 1,
-          "minutes": 2
-        },
-        {
-          "title": "Itch.io: число новых игровых страниц удвоилось за два месяца",
-          "summary": "Платформа подтвердила рост, который связывают с ИИ-мусором.",
-          "why": "Влияет на магазины игр.",
-          "sources": [
-            {
-              "name": "Polygon",
-              "url": "https://www.polygon.com/itch-io-doubled-game-pages-ai-slop/"
-            }
-          ],
-          "importance": 1,
-          "minutes": 2,
-          "minor": true
-        },
-        {
-          "title": "Pikmin 4 для Switch 2 выйдет 12 ноября",
-          "summary": "В издании будет режим Dandori Academy, демо выходит завтра.",
-          "why": "Дата релиза.",
-          "sources": [
-            {
-              "name": "Eurogamer",
-              "url": "https://www.eurogamer.net/pikmin-4-switch-2-edition-release-date-demo"
-            }
-          ],
-          "importance": 1,
-          "minutes": 2,
-          "minor": true
-        },
-        {
-          "title": "В Call of Duty: Modern Warfare 4 на Switch 2 сильная задержка ввода",
-          "summary": "IGN: игроки оказываются в невыгодном положении в соревновательном режиме.",
-          "why": "Техническая проблема.",
-          "sources": [
-            {
-              "name": "IGN",
-              "url": "https://www.ign.com/articles/input-lag-is-so-bad-in-call-of-duty-modern-warfare-4-on-nintendo-switch-2-that-players-suffer-from-a-competitive-disadvantage"
-            }
-          ],
-          "importance": 1,
-          "minutes": 2,
-          "minor": true
-        }
-      ]
-    },
-    {
-      "id": "fashion",
-      "items": [
-        {
-          "title": "Бренды высокой улицы возвращаются с помощью звёзд и ИИ-стилистов",
-          "summary": "Gap, M&S, Topshop используют приёмы люксовых марок.",
-          "why": "Тренд розничной моды.",
-          "sources": [
-            {
-              "name": "The Guardian",
-              "url": "https://www.theguardian.com/fashion/2026/oct/31/a-listers-ai-stylists-high-street-brands-fashion-comeback"
-            }
-          ],
-          "importance": 1,
-          "minutes": 3
-        },
-        {
-          "title": "Студия Aedas завершила здание КПП между Гонконгом и Шэньчжэнем",
-          "summary": "Здание ступенчатой формы со скруглёнными краями.",
-          "why": "Заметная архитектура.",
-          "sources": [
-            {
-              "name": "Dezeen",
-              "url": "https://www.dezeen.com/2026/11/01/new-huanggang-port-development-aedas-shenzhen-hong-kong/"
-            }
-          ],
-          "importance": 1,
-          "minutes": 2
-        },
-        {
-          "title": "Стулья из выброшенного морского каната номинированы на Dezeen Award",
-          "summary": "Студия The New Raw из Роттердама собрала их из каната в порту.",
-          "why": "Переработка в дизайне.",
-          "sources": [
-            {
-              "name": "Dezeen",
-              "url": "https://www.dezeen.com/2026/11/01/buoy-stools-the-new-raw/"
-            }
-          ],
-          "importance": 1,
-          "minutes": 2
-        }
-      ]
-    },
-    {
-      "id": "security",
-      "items": [
-        {
-          "title": "Chainalysis сообщила об утечке из-за «наступательных агентных техник»",
-          "summary": "Атака раскрыла имена, адреса почты и идентификаторы клиентов.",
-          "why": "Атаки с участием ИИ-агентов.",
-          "sources": [
-            {
-              "name": "BleepingComputer",
-              "url": "https://www.bleepingcomputer.com/news/security/chainalysis-discloses-data-breach-from-offensive-agentic-techniques/"
-            }
-          ],
-          "importance": 2,
-          "minutes": 3
-        },
-        {
-          "title": "Northflank: взлом привёл к злоупотреблению API-ключами ИИ",
-          "summary": "Платформа просит клиентов сменить все учётные данные.",
-          "why": "Нужно ротировать ключи.",
-          "sources": [
-            {
-              "name": "BleepingComputer",
-              "url": "https://www.bleepingcomputer.com/news/security/northflank-security-breach-leads-to-abuse-of-customers-ai-api-keys/"
-            }
-          ],
-          "importance": 2,
-          "minutes": 3
-        },
-        {
-          "title": "Опубликован эксплойт «SMS of Death» для Android",
-          "summary": "Уязвимость CVE-2026-58882 позволяет удалённо вывести из строя телефоны без патча.",
-          "why": "Обновите Android.",
-          "sources": [
-            {
-              "name": "BleepingComputer",
-              "url": "https://www.bleepingcomputer.com/news/security/new-android-sms-of-death-exploit-can-remotely-crash-unpatched-phones/"
-            }
-          ],
-          "importance": 2,
-          "minutes": 3
-        },
-        {
-          "title": "Alpine Linux перестроил GitLab после попытки RCE-атаки",
-          "summary": "Атака 20–21 октября, сброшены учётные данные.",
-          "why": "Атака на инфраструктуру открытого ПО.",
-          "sources": [
-            {
-              "name": "BleepingComputer",
-              "url": "https://www.bleepingcomputer.com/news/security/alpine-linux-rebuilds-gitlab-after-attempted-rce-attack/"
-            }
-          ],
-          "importance": 1,
-          "minutes": 2,
-          "minor": true
-        },
-        {
-          "title": "Reddit закроет контент за входом",
-          "summary": "Сайт станет сервисом для вошедших пользователей, чтобы бороться со скрейперами.",
-          "why": "Меняет доступ к контенту.",
-          "sources": [
-            {
-              "name": "BleepingComputer",
-              "url": "https://www.bleepingcomputer.com/news/security/reddit-to-lock-content-behind-logins-to-fight-scrapers/"
-            }
-          ],
-          "importance": 1,
-          "minutes": 2,
-          "minor": true
-        }
-      ]
-    },
-    {
-      "id": "curious",
-      "items": [
-        {
-          "title": "Хайди Клум пришла на Хэллоуин в костюме гигантской собственной руки",
-          "summary": "«Я посмотрела на руку и подумала, что смогу поместить в неё тело», — сказала Клум.",
-          "why": "Забавная история.",
-          "sources": [
-            {
-              "name": "Euronews",
-              "url": "https://www.euronews.com/2026/11/01/heidi-klums-2026-halloween-party-costume-a-giant-bloody-replica-of-her-own-hand"
-            }
-          ],
-          "importance": 1,
-          "minutes": 1
-        },
-        {
-          "title": "Покупатель Walmart получил два игровых ПК по цене в два раза ниже",
-          "summary": "Магазин выполнил ошибочную цену $1099 вместо $2299 за два CyberPowerPC.",
-          "why": "Курьёз.",
-          "sources": [
-            {
-              "name": "Tom's Hardware",
-              "url": "https://www.tomshardware.com/desktops/gaming-pcs/lucky-pc-buyer-gets-usd1-200-discount-on-9900x3d-gaming-pc-walmart-honors-usd1-099-shelf-price-on-usd2-299-unit"
-            }
-          ],
-          "importance": 1,
-          "minutes": 1
-        },
-        {
-          "title": "Носороги-близнецы отметили первый день рождения тортом",
-          "summary": "Маркус и Мо весили при рождении около 70 кг, теперь около 500 кг.",
-          "why": "Милая история.",
-          "sources": [
-            {
-              "name": "BBC",
-              "url": "https://www.bbc.co.uk/news/articles/cqrkypljk526o?at_medium=RSS&at_campaign=rss"
-            }
-          ],
-          "importance": 1,
-          "minutes": 1
-        },
-        {
-          "title": "Пассажиры вечного круиза сошли в Камбодже из-за цен на топливо",
-          "summary": "Судно внезапно прекратило рейсы, пассажиры высадились (NPR).",
-          "why": "Необычная история.",
-          "sources": [
-            {
-              "name": "NPR",
-              "url": "https://www.npr.org/2026/11/01/nx-s1-6022214/they-signed-up-for-a-lifetime-at-sea-on-an-endless-cruise-high-gas-prices-intervened"
-            }
-          ],
-          "importance": 1,
-          "minutes": 2
-        }
-      ]
+     "title": "Туристы, планировавшие походы с ИИ-чатботами, попадали в беду в горах",
+     "summary": "Трое 20-летних на горе Шаста спускались в темноте, отчасти полагаясь на Gemini; спасатели рассказывают и о других случаях. Эксперты советуют сверяться с официальными картами и гидами.",
+     "why": "Спасатели нескольких парков рассказали о туристах, которые опирались на советы чатботов.",
+     "sources": [
+      {
+       "name": "Wired",
+       "url": "https://www.wired.com/story/chatbots-are-leading-hikers-astray-with-dangerous-consequences/"
+      }
+     ],
+     "importance": 1,
+     "minutes": 3,
+     "minor": true,
+     "body": [
+      "Материал Wired, первоначально вышедший в High Country News, описывает случаи, когда туристы доверяли планирование чатботам. На горе Шаста (Калифорния) трое 20-летних, отчасти полагаясь на Gemini, не взяли достаточно еды и переоценили силы: на вершину они поднялись в 19:30 и спускались в темноте. Координатор спасателей Ник Мейерс (Nick Meyers, Forest Service) сказал, что они будто «выключили мозги».",
+      "Среди других случаев: женщина поставила палатку у знака «No Camping», сославшись на ИИ, а в Британской Колумбии вертолётный экипаж спас 16-летнего, планировавшего поход с Claude. Суперинтендант Гранд-Титон Чип Дженкинс сказал, что доля посетителей, использующих ИИ для информации о поездке, за год выросла с нуля до 26%. При этом число вызовов спасателей в Вайоминге в 2026 году (312) пока ниже, чем в 2025-м (466).",
+      "Эксперты называют риск «галлюцинаций» и склонность чатботов говорить уверенно и то, что хочет услышать пользователь. Мейерс советует сверяться с официальными картами и сайтами агентств и говорить с гидом или рейнджером."
+     ]
     }
-  ]
+   ]
+  },
+  {
+   "id": "health",
+   "items": [
+    {
+     "title": "FDA одобрило генную терапию синдрома Санфилиппо, исследования которой поддержали семьи пациентов",
+     "summary": "FDA в сентябре одобрило одноразовую генную терапию Fayuvi компании Ultragenyx при синдроме Санфилиппо — наследственной болезни, при которой дети теряют речь и способность ходить.",
+     "why": "Редкая детская болезнь получила терапию; препарат стоит почти $4 млн.",
+     "sources": [
+      {
+       "name": "NPR",
+       "url": "https://www.npr.org/2026/11/01/nx-s1-6014739/sanfilippo-gene-therapy-fayuvi"
+      }
+     ],
+     "importance": 2,
+     "minutes": 4,
+     "minor": false,
+     "body": [
+      "Регулятор США FDA в сентябре одобрило генную терапию Fayuvi, которую разработала Ultragenyx. Это одноразовая инфузия для пациентов с синдромом Санфилиппо: из-за неработающего гена организм не расщепляет гепарансульфат, и тот накапливается. Дети теряют речь и способность ходить, у них бывают судороги, и, по данным Cure Sanfilippo Foundation, обычно они не доживают до подросткового возраста.",
+      "Исследовательница Хайянь Фу из Nationwide Children's Hospital в Колумбусе работала над терапией с конца 1990-х. В 2009 году она собиралась прекратить работу из-за нехватки денег, но семьи пациентов попросили продолжить; восемь фондов финансировали исследование до первого испытания на людях.",
+      "Педиатр Кара О'Нилл и её муж основали Cure Sanfilippo Foundation. Их видео «Saving Eliza» в 2014 году помогло собрать на GoFundMe около двух миллионов долларов, и испытание началось в мае 2016 года. Первой пациенткой стала Элиза, которой тогда было 6 лет. Речь не вернулась, но она общается с помощью картинок и устройств, ходит в школу.",
+      "Ultragenyx приобрела права на терапию в 2022 году. Гендиректор Эмиль Каккис сказал, что терапия работает лучше всего при раннем начале: у нескольких детей, леченных примерно в шесть месяцев, результаты очень хорошие. Цена препарата почти $4 млн — по данным 46brooklyn, вторая по величине среди генных терапий.",
+      "Хайянь Фу назвала одобрение хорошей новостью со смешанными чувствами: «Это не должно было занять так много времени»."
+     ]
+    },
+    {
+     "title": "«Трёхродительское ЭКО» рекламируют женщинам старше 40 лет, хотя доказательств эффективности почти нет",
+     "summary": "Расследование STAT: митохондриальную замену (MRT) продают через зарубежные клиники женщинам 40–50 лет, хотя эффективность для них не доказана, а в США процедура фактически запрещена.",
+     "why": "Женщины платят десятки тысяч долларов за процедуру без доказанной пользы.",
+     "sources": [
+      {
+       "name": "STAT",
+       "url": "https://www.statnews.com/2026/11/02/three-parent-ivf-fertility-tourism-investigation-mrt-therapy/?utm_campaign=rss"
+      }
+     ],
+     "importance": 2,
+     "minutes": 7,
+     "minor": false,
+     "body": [
+      "Восьмимесячное расследование STAT описывает митохондриальную замену (MRT), известную как «трёхродительское ЭКО». Метод разработали, чтобы не передавать детям тяжёлые митохондриальные болезни, а сейчас его продают как средство от возрастного бесплодия. В США процедура незаконна, но компания International Fertility Group of North America (IFG) под Чикаго организует поездки в клиники Европы и других стран.",
+      "Голландка Венди в 46 лет заплатила IFG более $30 тыс.: контракт на процедуру стоил $20 тыс., препараты, донорские яйцеклетки и тесты оплачивались отдельно. Из 11 эмбрионов до переноса дошли два; один оказался генетически аномальным, другой не прижился.",
+      "По оценке STAT, за десятилетие сотни женщин, в основном 40–50 лет, ездили на процедуру в Восточную Европу, Мексику, на Багамы и Филиппины. Точное число рождений неизвестно. IFG заявляет о 34 детях по состоянию на февраль 2025 года, но не раскрыла успешность по возрастам.",
+      "По обзору STAT, включая неопубликованные исследования, MRT не помогает большинству женщин старше 35, потому что их бесплодие вызвано другими причинами. Ведущие учёные назвали маркетинг IFG и клиник вводящим в заблуждение; ни IFG, ни клиники не публиковали данных в рецензируемых журналах.",
+      "После запросов STAT IFG приостановила приём новых пациентов с MRT и удалила упоминания процедуры с сайта, назвав это «предупредительным решением о коммуникациях», а не выводом о точности утверждений. Компания заявила, что не является лицензированной клиникой и не обещает беременности.",
+      "Специалист по этике Хайди Мертес сказала: «Нет опубликованных исследований, показывающих, что это работает для женщин старше 40 лет». Некоторые учёные считают, что MRT может помочь, но её нужно проверять в контролируемых испытаниях; в США Конгресс запретил FDA рассматривать заявки на испытания с модификацией эмбрионов."
+     ]
+    },
+    {
+     "title": "В отделениях неотложной помощи Англии вводят систему раннего предупреждения для детей",
+     "summary": "NHS England сообщила, что национальная система Pews впервые будет использоваться в отделениях неотложной помощи по всей Англии уже этой зимой. Более 6 млн детей в год обращаются в такие отделения.",
+     "why": "Шкала оценки жизненных признаков для детей станет стандартом в неотложной помощи.",
+     "sources": [
+      {
+       "name": "The Guardian",
+       "url": "https://www.theguardian.com/society/2026/nov/02/nhs-early-warning-system-child-illness-england"
+      },
+      {
+       "name": "BBC",
+       "url": "https://www.bbc.co.uk/news/articles/cw1m42zdnn3go?at_medium=RSS&at_campaign=rss"
+      }
+     ],
+     "importance": 2,
+     "minutes": 4,
+     "minor": false,
+     "body": [
+      "NHS England сообщила, что национальная система раннего предупреждения для детей (Paediatric Early Warning System, Pews) будет использоваться в отделениях неотложной помощи (A&E) по всей Англии уже этой зимой. Guardian называет её крупнейшей в мире стандартизованной системой такого рода. В больничных палатах Pews уже применяется, более 90 больниц используют её в детских отделениях.",
+      "Система опирается на оценку давления, частоты сердечных сокращений, дыхания, уровня кислорода и сознания; высокий общий балл сигнализирует персоналу, что ребёнку нужно срочное внимание. Низкий балл не отменяет эскалации: тревога персонала, родителей или самого ребёнка сама запускает немедленную реакцию. Систему разработали с Королевским колледжем педиатрии и детского здоровья и Королевским колледжем медсестёр.",
+      "Профессор Линн Вулси из RCN отметила, что для работы системы нужны достаточно медсестёр, обучение и ресурсы. NHS England параллельно разрабатывает срочные стандарты лечения детей в A&E, включая прекращение «коридорной помощи».",
+      "BBC связывает запуск с обещанием министра здравоохранения Иви Купер прекратить «коридорную помощь» детям после смерти двухлетнего Финли Робертса в 2024 году; Купер извинилась перед родителями. NHS также расширит Martha's Rule — право семьи запросить срочный пересмотр состояния пациента — на все отделения неотложной помощи Англии."
+     ]
+    },
+    {
+     "title": "В Пенсильвании вспышка кори: 1398 случаев и пять смертей, внимание на общине амишей",
+     "summary": "По данным штата, в Пенсильвании зарегистрировано 1398 случаев кори; в округе Ланкастер работают выездные прививочные пункты. Спор о вспышке перешёл в политику; пока сообщает только одно издание (The Guardian).",
+     "why": "Позиции властей штата и федерального минздрава расходятся.",
+     "sources": [
+      {
+       "name": "The Guardian",
+       "url": "https://www.theguardian.com/us-news/2026/nov/02/pennsylvania-measles-outbreak-amish"
+      }
+     ],
+     "importance": 2,
+     "minutes": 6,
+     "minor": false,
+     "body": [
+      "По последнему подсчёту департамента здравоохранения Пенсильвании, в штате выявлено 1398 случаев кори. С 1 августа введено 150 тыс. доз вакцины MMR. Зарегистрировано пять смертей, связанных с корью: двух младенцев и трёх взрослых с хроническими заболеваниями. По данным CDC, по США в 2026 году подтверждено 4588 случаев и три смерти; пенсильванские смерти в федеральной статистике не отражены.",
+      "Внимание сосредоточено на округе Ланкастер, где живёт община амишей. По исследованию, менее трети амишей привиты от кори, краснухи и паротита. Историк Стивен Нолт отметил, что отказ от прививок здесь чаще семейная традиция, чем религиозный запрет, а точных данных об охвате нет.",
+      "Губернатор Джош Шапиро (демократ) организовал выездные прививочные пункты; штат направил в регион 300 сотрудников и сделал почти 6000 прививок. Министр здравоохранения США Роберт Ф. Кеннеди-младший заявил, что «люди Пенсильвании пострадали» из-за политизации вспышки администрацией Шапиро. Шапиро ответил, что CDC не признаёт смерти от кори, «потому что это не вписывается в их картину», и что Кеннеди подогревает скепсис к вакцинам.",
+      "Республиканец Ллойд Смакер сказал, что первые две смерти «на самом деле не были вызваны корью»; демократка Нэнси Маннион связала вспышку с позицией Кеннеди. Вспышка затронула и другие штаты: губернатор Нью-Йорка Кэти Хочул объявила чрезвычайную ситуацию в здравоохранении после более чем 100 случаев."
+     ]
+    },
+    {
+     "title": "NHS записала 29 больниц среди получающих пользу от Palantir, но многие её не используют",
+     "summary": "По ответам на запросы о свободе информации, часть трастов из списка NHS England сообщила, что платформа данных Palantir не запущена или не используется. Данные передала Guardian организация Medact; NHS England и Palantir с критикой не согласны.",
+     "why": "Контракт на £330 млн; депутаты призывают расторгнуть его в 2027 году.",
+     "sources": [
+      {
+       "name": "The Guardian",
+       "url": "https://www.theguardian.com/technology/2026/nov/02/palantir-unused-nhs-hospital-trusts"
+      }
+     ],
+     "importance": 2,
+     "minutes": 5,
+     "minor": false,
+     "body": [
+      "Guardian сообщает, что большинство из 29 трастов, которые NHS England называет получающими пользу от федеральной платформы данных (FDP) Palantir, в ответах на запросы FOI заявили, что система не запущена или ни одно приложение не используется. Запросы передала издание организация Medact, выступающая против контракта. University Hospitals of North Midlands, например, ответил, что FDP не запущена и внедрять её не планируется.",
+      "Контракт на £330 млн начался в 2024 году. NHS England сообщает, что 137 трастов работают с FDP и почти 140 отчитались о пользе, а в список входят и те, кто использует инструменты для аналитики и отчётности, а не для ухода за пациентами. Ранее NHS England признала, что не может доказать причинно-следственную связь между FDP и 117 539 дополнительными операциями за год.",
+      "Председатель парламентского комитета по науке и технологиям Чи Онвура призвала использовать условие о расторжении в 2027 году и провести конкурс для британского поставщика; комитет по здравоохранению тоже призывает отказаться от контракта.",
+      "Руководитель Palantir в Великобритании и Европе Луис Мосли сказал, что прекращение контракта означало бы «ставить политику выше пациентов». Компания приводит свои оценки: 117 000 дополнительных операций, снижение задержек выписки на 14,3%. Medact заявила, что NHS England использует «творческий учёт»."
+     ]
+    },
+    {
+     "title": "В Уэльсе не хватает рентгенологов, и у части онкопациентов состояние ухудшается в ожидании снимков",
+     "summary": "По данным Королевского колледжа радиологов, в NHS Wales не хватает 88 рентгенологов (28%). Колледж впервые зафиксировал ухудшение состояния пациентов во время ожидания обследований.",
+     "why": "На северо-западе Уэльса дефицит составляет 42%.",
+     "sources": [
+      {
+       "name": "BBC",
+       "url": "https://www.bbc.co.uk/news/articles/cmly0xle2rddo?at_medium=RSS&at_campaign=rss"
+      }
+     ],
+     "importance": 2,
+     "minutes": 3,
+     "minor": true,
+     "body": [
+      "Королевский колледж радиологов сообщил, что в NHS Wales не хватает 88 рентгенологов, то есть 28%; на севере и западе дефицит консультирующих рентгенологов 42%, на юге — 22%. Колледж впервые сообщил, что у некоторых пациентов состояние ухудшилось во время ожидания диагностики.",
+      "Онколог из Суонси Оуэн Николас сказал: «Ситуация не улучшается, и страдают пациенты». Совет здравоохранения Betsi Cadwaladr сообщил, что набор продолжается, а сроки отчётов с апреля сократились благодаря сторонней компании. Колледж указывает, что рост штата радиологов в Уэльсе в 2024 году составил 1,1% при среднем по Великобритании 5%."
+     ]
+    },
+    {
+     "title": "В Белфасте заработал робот da Vinci для сложных гинекологических операций",
+     "summary": "Первый на острове Ирландия гинекологический робот da Vinci работает в Белфастском городском госпитале; с мая он провёл 130 операций, в основном при сложном эндометриозе.",
+     "why": "Ожидание таких операций в Северной Ирландии в среднем около семи лет; робот куплен на пожертвования.",
+     "sources": [
+      {
+       "name": "BBC",
+       "url": "https://www.bbc.co.uk/news/articles/c98rz8v5rem0o?at_medium=RSS&at_campaign=rss"
+      }
+     ],
+     "importance": 1,
+     "minutes": 3,
+     "minor": true,
+     "body": [
+      "В Белфастском городском госпитале работает гинекологический робот da Vinci стоимостью £2,4 млн, оплаченный благотворительными пожертвованиями. С мая он провёл 130 операций, из них 105 — женщинам со сложным эндометриозом. Обучены четыре консультанта.",
+      "По данным BBC, ожидание сложной гинекологической операции в Северной Ирландии в среднем около семи лет. Хирург Ханс Нагар сказал, что раньше женщин со сложным эндометриозом обслуживали плохо, а робот позволяет делать сложные операции с участием разных специалистов. Министр здравоохранения Робби Батлер, по сообщению BBC, ожидался с объявлением £1,95 млн на услуги при эндометриозе."
+     ]
+    },
+    {
+     "title": "В Северном Уэльсе рассматривают закрытие срочных первичных центров в трёх больницах",
+     "summary": "Совет Betsi Cadwaladr проводит консультации о закрытии срочных первичных центров в Холихеде, Тремадоге и Бангоре к апрелю 2027 года; местные депутаты разных партий возражают.",
+     "why": "Причины — финансирование и набор персонала.",
+     "sources": [
+      {
+       "name": "The Guardian",
+       "url": "https://www.theguardian.com/uk-news/2026/nov/01/welsh-health-board-urgent-primary-care-centres-upcc-holyhead-tremadog-bangor-betsi-cadwaladr"
+      }
+     ],
+     "importance": 1,
+     "minutes": 2,
+     "minor": true,
+     "body": [
+      "Совет здравоохранения Betsi Cadwaladr, обслуживающий около четверти населения Уэльса, консультируется о закрытии срочных первичных центров (UPCC) в больницах Холихеда, Тремадога и Бангора к апрелю 2027 года, ссылаясь на финансирование и набор персонала. Центры укомплектованы врачами общей практики, продвинутыми медсёстрами и физиотерапевтами.",
+      "Местные депутаты разных партий предупредили совет о «тяжёлых последствиях». Совет находится в особом режиме из-за качества помощи с 2015 года. Решение пока не принято."
+     ]
+    },
+    {
+     "title": "Kymera готовит результаты испытания препарата от экземы — возможного конкурента Dupixent",
+     "summary": "Kymera Therapeutics планирует до конца года объявить данные средней стадии испытания KT-621 при экземе; аналитики Jefferies называют их одними из самых значимых в иммунологии в 2026 году.",
+     "why": "Dupixent — самый продаваемый препарат в иммунологии; результатов ждут инвесторы и врачи.",
+     "sources": [
+      {
+       "name": "STAT",
+       "url": "https://www.statnews.com/2026/11/02/kymera-therapeutics-trial-results-eczema-dupixent-rival/?utm_campaign=rss"
+      }
+     ],
+     "importance": 1,
+     "minutes": 2,
+     "minor": true,
+     "body": [
+      "Kymera Therapeutics планирует до конца года объявить данные испытания средней стадии своего основного препарата KT-621 при экземе. Dupixent от Sanofi и Regeneron — самый продаваемый препарат в иммунологии, его получают около 1,4 млн пациентов с экземой, астмой и ХОБЛ.",
+      "По прогнозу Visible Alpha, продажи KT-621 могут достичь почти $4 млрд к 2035 году. Результатов испытания пока нет."
+     ]
+    },
+    {
+     "title": "В США открыта запись на страховку ACA на 2027 год: новые проверки личности и ограничения для брокеров",
+     "summary": "С 1 ноября в большинстве штатов открыта запись на страховку ACA. Для покупателей через агентов на федеральной бирже введены дополнительные проверки, а на часть брокеров наложен мораторий. Пока сообщает только одно издание (NPR).",
+     "why": "Правила CMS касаются федеральной биржи (29 штатов); часть клиентов может не пройти проверку.",
+     "sources": [
+      {
+       "name": "NPR",
+       "url": "https://www.npr.org/2026/11/01/nx-s1-6023423/aca-open-enrollment-health-insurance"
+      }
+     ],
+     "importance": 2,
+     "minutes": 4,
+     "minor": true,
+     "body": [
+      "В большинстве штатов с 1 ноября открыта запись на страховку ACA на 2027 год. Число записавшихся, как ожидается, продолжит снижаться после истечения расширенных субсидий в конце 2025 года. Администрация Трампа объясняет падение борьбой с мошенничеством: в августе были отменены полисы 760 тыс. человек, подозреваемых в незаконной записи.",
+      "Новые правила CMS касаются записи через агентов на федеральной бирже (29 штатов): клиент должен подтвердить агента одноразовым кодом, а «группа повышенного риска» (новые заявители, смена штата или агента, платёж $30 в месяц и меньше) — подтвердить личность через стороннего проверяющего. CMS в сентябре ввела мораторий для брокеров, не зарегистрированных на бирже в 2026 году.",
+      "Брокер Джошуа Брукер опасается, что до каждого пятого покупателя потребуется дополнительная проверка и часть откажется от страховки; Стейси Погью из Georgetown считает, что проверки могут отсеять реальных людей без кредитной истории."
+     ]
+    },
+    {
+     "title": "Сенатор Крис Мерфи перенёс инсульт: как распознать признаки по системе BE FAST",
+     "summary": "Сенатор от Коннектикута Крис Мерфи перенёс инсульт; по словам его офиса, прогноз отличный. NPR напоминает признаки инсульта по аббревиатуре BE FAST.",
+     "why": "Быстрый вызов 911 повышает шансы на выживание и восстановление.",
+     "sources": [
+      {
+       "name": "NPR",
+       "url": "https://www.npr.org/2026/11/01/nx-s1-6025502/stroke-acronym-be-fast"
+      }
+     ],
+     "importance": 1,
+     "minutes": 2,
+     "minor": true,
+     "body": [
+      "Сенатор Крис Мерфи (53 года) перенёс инсульт в субботу; по словам его офиса, прогноз отличный. Первым признаком было онемение руки во время хоккейной игры сына, и он быстро обратился за помощью.",
+      "BE FAST: B — потеря равновесия; E — изменения зрения; F — асимметричная улыбка или опущение лица; A — слабость руки; S — трудности с речью; T — время звонить 911. По данным Американской кардиологической ассоциации, в 2023 году инсульт стал причиной более 162 тыс. смертей в США."
+     ]
+    },
+    {
+     "title": "В Брайтоне открыли пилотную клинику для женщин с тяжёлой менопаузой после лечения рака",
+     "summary": "University Hospitals Sussex открыла пилотную клинику для пациенток с осложнённой менопаузой, вызванной лечением рака; направить может хирург, медсестра, онколог или врач общей практики.",
+     "why": "Внезапная менопауза после лечения рака; клинику планируют расширить по Сассексу.",
+     "sources": [
+      {
+       "name": "BBC",
+       "url": "https://www.bbc.co.uk/news/articles/ck3r5z2d8zrwo?at_medium=RSS&at_campaign=rss"
+      }
+     ],
+     "importance": 1,
+     "minutes": 2,
+     "minor": true,
+     "body": [
+      "Рэйчел Боуман из Хоув в 46 лет начала лечение рака груди, и препарат вызвал резкую менопаузу: по её словам, после укола ингибитора яичников у неё было 20–30 приливов в день. Осложнённая менопауза включает приливы, боли в суставах, упадок настроения и трудно поддаётся лечению.",
+      "В Royal Sussex County Hospital открыли пилотную клинику в составе службы груди; руководитель, доктор Ренске Макфарлейн, сказала, что поддержка после лечения рака часто недостаточна. Есть планы развить службу по всему Сассексу."
+     ]
+    }
+   ]
+  },
+  {
+   "id": "science",
+   "items": [
+    {
+     "title": "Отчёт при поддержке ООН: часть ущерба криосфере необратима даже при возврате к 1,5°C",
+     "summary": "80 учёных по линии Международной инициативы по криосфере и ЮНЕП пишут, что таяние льда и снега во многом необратимо даже при возврате к 1,5°C. Пока сообщает только The Guardian.",
+     "why": "Ледники, ледяные щиты и вечная мерзлота влияют на уровень моря и водоснабжение людей.",
+     "sources": [
+      {
+       "name": "The Guardian",
+       "url": "https://www.theguardian.com/science/2026/nov/02/permanent-damage-crysophere-overshoots-15c-scientists-warn"
+      }
+     ],
+     "importance": 2,
+     "minutes": 4,
+     "minor": false,
+     "body": [
+      "Отчёт о криосфере подготовили 80 учёных по линии Международной климатической инициативы по криосфере (ICCI) и Программы ООН по окружающей среде (ЮНЕП); он вышел перед 31-й климатической конференцией COP в Турции. Планета нагрелась примерно на 1,3°C по сравнению с доиндустриальным временем, и авторы считают некоторое превышение порога 1,5°C неизбежным.",
+      "Идею, что превышение до 2–3°C можно держать под контролем, они называют «устойчивым мифом». По отчёту, превышение нужно сделать как можно короче и затем вернуть потепление ниже 1°C, желательно к 2150 году. При текущей политике пик температуры составит около 3°C: почти вся приповерхностная вечная мерзлота оттает, станет вероятным нарушение океанской циркуляции.",
+      "При потеплении около 2,8°C ледники Скалистых гор, Альп, Исландии и Скандинавии потеряют более 90% массы; при 1,5°C останется 20–35%. В Гиндукуше и Гималаях при текущей политике останется 41% льда, при 1,5°C — 83%. Ледяные щиты Гренландии и Антарктиды, по отчёту, тают примерно в шесть раз быстрее, чем в 1990-х, и продолжат терять лёд даже при кратком превышении.",
+      "Ведущий автор Джеймс Кирхэм (ICCI) упомянул ледово-каменный обвал на границе Непала и Китая в этом году, который унёс жизни тысяч людей, и сказал, что Швейцария за пять лет потеряла 20% ледникового льда."
+     ]
+    },
+    {
+     "title": "Таяние вечной мерзлоты породило новый тип крупных оползней",
+     "summary": "Исследователи описали оползень 2018 года в Северо-Западных территориях Канады как пример нового класса — «отрыва мерзлоты». Работа опубликована в Geophysical Research Letters. Сообщает только Science News.",
+     "why": "Такие обвалы могут сходить с большими объёмами замёрзшего грунта; пока неясно, медленно или катастрофически.",
+     "sources": [
+      {
+       "name": "Science News",
+       "url": "https://www.sciencenews.org/article/melting-permafrost-new-type-landslide"
+      }
+     ],
+     "importance": 2,
+     "minutes": 3,
+     "minor": false,
+     "body": [
+      "В 2018 году в Северо-Западных территориях Канады произошёл огромный оползень объёмом около 18 млн кубометров, который перегородил реку Редстоун. Сдвиг начался в грунте, который годами оставался замёрзшим. Анализ, опубликованный в Geophysical Research Letters, показывает новый класс оползней, которые авторы называют «отрывом мерзлоты».",
+      "Геолог Джозеф Янг изучил два крупнейших оползня региона (2018 и 2017 годов, 18 и 4,5 млн кубометров): оба начались вдоль поверхностей скольжения примерно в 20 метрах под землёй, у основания мерзлого слоя. Спутники показали, что грунт на этих участках десятилетиями сдвигался на метры в год.",
+      "По выводам работы, пожар и экстремально жаркое лето могут прогреть и ослабить поверхность мерзлоты; через трещины вода доходит до слоя под мерзлотой, оттаивает её снизу, и замёрзший слой отрывается и сползает. По словам Янга, более 150 схожих сдвигов, найденных по спутниковым снимкам, тоже могут относиться к этому типу.",
+      "Дмитрий Никольский из Университета Аляски, не участвовавший в работе, отметил, что крупные оползни в оттаивающих слоях обычно медленные, и сказал: «мы не знаем, как она будет двигаться — медленно или катастрофически»."
+     ]
+    },
+    {
+     "title": "Neuropixels: зонды, записывающие сотни нейронов сразу, меняют нейробиологию",
+     "summary": "Nature рассказывает о тонких кремниевых зондах Neuropixels, которые записывают активность сотен и даже десятков тысяч нейронов; их начали применять и в операциях на людях в Лондоне. Сообщает только Nature.",
+     "why": "Технология даёт на порядки больше записей отдельных клеток мозга, чем прежние инструменты.",
+     "sources": [
+      {
+       "name": "Nature",
+       "url": "https://www.nature.com/articles/d41586-026-03511-3"
+      }
+     ],
+     "importance": 2,
+     "minutes": 5,
+     "minor": false,
+     "body": [
+      "В лондонской операционной нейрохирург Ахмед Тома ставит шунт при нормотензивной гидроцефалии, а на короткое время пациентке вводят в мозг зонд длиной около сантиметра, тоньше волоса. Исследователь Михай Колло смотрит, как нейроны кодируют переходы между услышанными словами.",
+      "Neuropixels представили в 2017 году; разработали их Тим Харрис из Janelia и Барун Дутта из бельгийского центра Imec. В версии 1.0 на игле 960 записывающих участков, 384 считываются одновременно. Версия 2.0 имеет четыре иглы и 5120 участков. Imec продаёт их примерно за 1700–1800 долларов.",
+      "Около 1700 лабораторий используют Neuropixels более чем у двух десятков видов. Тирин Мур из Стэнфорда говорит, что раньше в хорошем эксперименте на приматах записывали около двух десятков нейронов, а теперь обычно не меньше 100. В исследовании 2025 года международная группа записала более 620 тысяч нейронов в 279 областях мозга у 139 мышей.",
+      "Нейрохирург Пьер Бурдийон сравнил разницу с переходом от одного микрофона на перекрёстке к микрофонам у каждого собеседника; у людей такие методы только начинают применять."
+     ]
+    },
+    {
+     "title": "Любопытство, возможно, влияет на устройство сложного мозга",
+     "summary": "Группа Франческо Поли (Кембридж) обучила искусственные нейросети с разной «любознательностью»: более любопытные сети лучше решали новые задачи и формировали структуры, похожие на мозг. Сообщает только New Scientist.",
+     "why": "Результаты получены на симуляциях и данных 275 младенцев; связь с реальным мозгом авторы считают гипотезой.",
+     "sources": [
+      {
+       "name": "New Scientist",
+       "url": "https://www.newscientist.com/article/2596932-curiosity-may-be-what-drives-our-brains-to-become-so-complex/?utm_campaign=RSS|NSNS&utm_content=home&utm_medium=RSS&utm_source=NSNS"
+      }
+     ],
+     "importance": 2,
+     "minutes": 4,
+     "minor": false,
+     "body": [
+      "Франческо Поли из Кембриджского университета предположил, что любопытство может влиять на то, как мозг устроен. Команда записала данные айтрекинга 275 младенцев 8–15 месяцев: когда скорость обучения падала ниже средней, малыши отводили взгляд и искали новое.",
+      "Затем исследователи создали нейросети с разной «любознательностью» и обучали на 20 задачах. Все сети хорошо справились с обучающими задачами, но любопытные заметно лучше показали себя на новых. При штрафе за длинные соединения только вместе с любопытством появились мозгоподобные черты: иерархическая модульная структура и плотность связей, которая сначала росла, а затем падала.",
+      "Алиреза Модиршаниши из Гёттингенского университета назвал вывод «очень неожиданным» и хочет проверить, разовьют ли сети без любопытства похожие черты при более долгом обучении; Поли считает, что дополнительное время ничего бы не изменило. Поли полагает, что результаты важны для образования и для создания ИИ."
+     ]
+    },
+    {
+     "title": "Иранские исследователи в США: заморозка визовых решений на фоне конфликта",
+     "summary": "Nature рассказывает о молодых учёных из Ирана в США: ограничения на въезд и заморозка рассмотрения заявок в 2025–2026 годах мешают им учиться и работать. Пока сообщает только Nature; позицию Госдепартамента издание привело.",
+     "why": "По данным Open Doors, в 2024–25 учебном году в США учились почти 12 тыс. иранских аспирантов.",
+     "sources": [
+      {
+       "name": "Nature",
+       "url": "https://www.nature.com/articles/d41586-026-03346-y"
+      }
+     ],
+     "importance": 2,
+     "minutes": 6,
+     "minor": false,
+     "body": [
+      "Карьерная редакция Nature поговорила с молодыми исследователями из Ирана, работающими в США; многие просили не называть имён из опасений за безопасность семей и карьеру. По данным Open Doors, в 2024–25 учебном году в США учились почти 12 тыс. иранских аспирантов.",
+      "В июне 2025 года администрация Трампа ввела запрет на въезд для граждан 12 стран, включая Иран; в декабре 2025 и январе 2026 года два меморандума расширили запрет на 39 стран и заморозили рассмотрение заявок, включая студенческие визы, грин-карты и разрешения на работу. По тексту, до июня федеральное правительство не одобряло и не отклоняло эти заявки.",
+      "Аспирант Нима поехал в Иран к больной матери в мае 2025 года и не смог вернуться; в августе его отчислили из-за ограничения академического отпуска. Выпускница Азин защитила PhD в декабре 2025 года, но не смогла работать из-за замороженного разрешения на работу, потеряла предложение и несколько месяцев жила без постоянного жилья.",
+      "В Госдепартаменте Nature сообщили, что меморандумы выпущены для защиты «национальной безопасности, общественной безопасности и национальных интересов», что «виза — это привилегия, а не право» и что заявки рассматриваются индивидуально. Социолог Кевин Харрис из Калифорнийского университета в Лос-Анджелесе связал политику с усилиями сократить иммиграцию."
+     ]
+    },
+    {
+     "title": "Корь возвращается: число случаев у детей растёт с 2020 года",
+     "summary": "По глобальному исследованию, описанному в Nature, с 2020 года число случаев кори у детей растёт; в 2023 году корью заболели почти 16 млн детей до пяти лет, 118 тыс. умерли.",
+     "why": "Вакцинация упала после нарушения программ здравоохранения пандемией COVID-19.",
+     "sources": [
+      {
+       "name": "Nature",
+       "url": "https://www.nature.com/articles/d41586-026-03387-3"
+      }
+     ],
+     "importance": 2,
+     "minutes": 1,
+     "minor": true,
+     "body": [
+      "Глобальное исследование заболеваемости корью, смертности и уровня вакцинации показало, что с 2020 года число случаев кори у детей растёт, обратив вспять многолетнее снижение. В 2023 году корью заболели почти 16 млн детей до пяти лет, 118 тыс. из них умерли.",
+      "Как описано в статье, уровень вакцинации упал после пандемии COVID-19, нарушившей программы общественного здравоохранения и их финансирование."
+     ]
+    },
+    {
+     "title": "В Британии готовят запрет свинцовой дроби с апреля 2029 года",
+     "summary": "BBC сообщает о готовящемся запрете продажи и использования свинцовой дроби в Англии, Уэльсе и Шотландии с апреля 2029 года; защитники природы приветствуют решение.",
+     "why": "Свинцовая дробь отравляет водоплавающих птиц.",
+     "sources": [
+      {
+       "name": "BBC",
+       "url": "https://www.bbc.co.uk/news/articles/cqly0r3kp1mlo?at_medium=RSS&at_campaign=rss"
+      }
+     ],
+     "importance": 1,
+     "minutes": 2,
+     "minor": true,
+     "body": [
+      "Биолог Сэйша Денч приветствовала новые законы о запрете продажи свинцовых боеприпасов; по тексту, они должны вступить в силу с апреля 2029 года. По её словам, в Великобритании от отравления свинцом могут ежегодно погибать до 100 тыс. водоплавающих птиц, а в Европе — около миллиона; птицы принимают дробь за пищу или гравий.",
+      "Управляющий оленьим хозяйством Шарифф Адамс перешёл на нетоксичные боеприпасы: по его словам, торговцы дичью всё чаще принимают только оленей, добытых без свинца."
+     ]
+    },
+    {
+     "title": "В Индонезии аспиранты жалуются на слабое научное руководство на фоне роста числа PhD",
+     "summary": "Nature: Индонезия хочет увеличить число докторов наук с 75 тыс. до 125 тыс. к 2045 году, а аспиранты говорят о слабом руководстве и неподобающем поведении.",
+     "why": "Затрагивает качество докторских программ и научную честность.",
+     "sources": [
+      {
+       "name": "Nature",
+       "url": "https://www.nature.com/articles/d41586-026-02465-w"
+      }
+     ],
+     "importance": 1,
+     "minutes": 3,
+     "minor": true,
+     "body": [
+      "Nature поговорил с 11 аспирантами в Индонезии; многие описывают формальное руководство, при котором руководитель и аспирант встречаются лишь чтобы подписать документы. Министр высшего образования Брайан Юлиарто называет молодёжь 16–30 лет «демографическим бонусом»; цель — увеличить число докторов с 75 тыс. до 125 тыс. к 2045 году. Сейчас в стране 272 доктора наук на миллион человек.",
+      "Из 4303 вузов страны только 226 считаются «высококвалифицированными». Министерство образования зафиксировало в этом году 874 случая неподобающего поведения, включая насилие и домогательства. Правила публикаций привели к проблемам: часть учёных попала в хищнические журналы или манипулировала цитированием; в феврале вышло постановление, по которому научная добросовестность учитывается при оценке преподавателей."
+     ]
+    },
+    {
+     "title": "В Северной Ирландии вандалы повредили бак с топливом: погибли 13 птиц в парке водоплавающих",
+     "summary": "Из повреждённого бака с отопительным топливом в пруд парка Broughshane вытек керосин: погибли 13 птиц, парк закрыт, полиция ищет свидетелей.",
+     "why": "Вандализм с топливными баками вредит дикой природе.",
+     "sources": [
+      {
+       "name": "BBC",
+       "url": "https://www.bbc.co.uk/news/articles/c64g14ene2epo?at_medium=RSS&at_campaign=rss"
+      }
+     ],
+     "importance": 1,
+     "minutes": 2,
+     "minor": true,
+     "body": [
+      "Агентство по охране окружающей среды Северной Ирландии узнало о происшествии 22 октября: волонтёр парка почувствовал запах керосина и увидел чёрных лебедей, покрытых нефтепродуктами. Парк, где живут 120 содержащихся птиц и дикие птицы, закрыт, пока из пруда удаляют топливо. Погибли 13 птиц, больше 20 отвезли на лечение. Полиция просит свидетелей сообщить информацию.",
+      "Председатель благотворительной организации Гэри Хэйворд назвал случившееся «кошмаром». Большинство птиц нельзя вернуть в пруд, пока он не будет полностью очищен."
+     ]
+    },
+    {
+     "title": "Короткошейного нарывника нашли в Уэльсе: личинки впервые за 60 лет",
+     "summary": "Личинки редкого короткошейного нарывника найдены на полигоне Castlemartin в Пембрукшире — впервые в Уэльсе за около 60 лет, указывая на то, что вид, по-видимому, размножается.",
+     "why": "Вид уязвим по Красному списку МСОП и зависит от одиночных пчёл.",
+     "sources": [
+      {
+       "name": "BBC",
+       "url": "https://www.bbc.co.uk/news/articles/cry8317pdp5yo?at_medium=RSS&at_campaign=rss"
+      }
+     ],
+     "importance": 1,
+     "minutes": 2,
+     "minor": true,
+     "body": [
+      "В прошлом году на полигоне Castlemartin нашли только мёртвых взрослых жуков, но в этом году после трёх лет поисков специалисты обнаружили личинок. По словам Natural Resources Wales, число и распределение личинок подтверждают, что нашли часть большой партии молодых жуков.",
+      "Вид считался исчезнувшим из Британии почти 60 лет, затем его вновь нашли в Девоне в 2006 году и в Шотландии в 2009-м. Личинки ждут, пока одиночная пчела унесёт их в гнездо, где питаются пыльцой. Castlemartin — единственное место в Уэльсе, где сейчас можно найти этот вид."
+     ]
+    }
+   ]
+  },
+  {
+   "id": "space",
+   "items": [
+    {
+     "title": "Греческий CubeSat ERMIS-3 установил оптическую связь с наземной станцией",
+     "summary": "Восьмиюнитовый CubeSat ERMIS-3 Афинского университета установил лазерную связь с оптической наземной станцией в Греции. По данным ESA, это первая оптическая связь Греции с аппаратом на низкой орбите. Пока сообщает только ESA.",
+     "why": "Проверка оптической связи для малых спутников: канал для больших объёмов данных.",
+     "sources": [
+      {
+       "name": "ESA",
+       "url": "https://www.esa.int/Applications/Connectivity_and_Secure_Communications/CubeSat_achieves_challenging_laser_link_to_ground"
+      }
+     ],
+     "importance": 2,
+     "minutes": 2,
+     "minor": false,
+     "body": [
+      "ESA сообщило, что восьмиюнитовый CubeSat ERMIS-3, разработанный Национальным и Каподистрийским университетом Афин, установил связь с оптической наземной станцией через несколько недель после ввода в эксплуатацию.",
+      "Станция HolOGS-1 создана Университетом Аристотеля в Салониках. На спутнике стоит оптический терминал ATLAS-1 литовской компании Astrolight, на станции — парный терминал. Оптическая связь использует узкий лазерный луч вместо радиоволн: высокая скорость передачи, но нужно точно наводить луч на движущийся спутник, а облака могут полностью блокировать связь. По тексту, главная задача миссии — наведение, захват и сопровождение цели — выполнена.",
+      "ERMIS-3 запущен 30 марта 2026 года вместе с ERMIS-1 и ERMIS-2 в рамках Национальной космической программы Греции, которую ESA реализует по поручению правительства. Исследователи назвали работу первой эксплуатацией лазерной линии на CubeSat; руководитель программы в ESA Фредерик Руэснель сказал, что это показывает способность Европы создавать инновации мирового уровня."
+     ]
+    },
+    {
+     "title": "Космический телескоп NASA Swift вскоре упадёт на Землю; место падения пока неизвестно",
+     "summary": "Обсерватория Swift неуправляемо входит в атмосферу после того, как спасательная миссия не смогла поднять её на более высокую орбиту. Точное время и место падения не определены. Пока сообщает только Space.com.",
+     "why": "Неуправляемое падение крупного научного аппарата; по словам экспертов, риск для людей мал.",
+     "sources": [
+      {
+       "name": "Space.com",
+       "url": "https://www.space.com/space-exploration/missions/nasas-swift-space-telescope-is-about-to-crash-to-earth-where-will-it-fall"
+      }
+     ],
+     "importance": 2,
+     "minutes": 3,
+     "minor": false,
+     "body": [
+      "Космическая обсерватория Neil Gehrels Swift, запущенная в ноябре 2004 года, должна упасть на Землю в ближайшие дни: роботизированная спасательная миссия не смогла поднять её на более высокую орбиту. Масса аппарата около 1500 кг. За два десятилетия Swift изучал гамма-всплески тремя телескопами.",
+      "20 октября NASA сообщило, что орбита снизилась примерно до 275 км, и аппарат не мог компенсировать торможение об атмосферу. Он перешёл в безопасный режим, а команда в Университете штата Пенсильвания отправила команду, фактически завершившую работу аппарата.",
+      "Время и место падения неизвестны: орбита проходит над полосой около 21 градуса от экватора — в основном над океаном, но также над Африкой, Южной и Юго-Восточной Азией и Латинской Америкой. Инженер Дин Сладен (Accu Components) ожидает, что большая часть аппарата расплавится, а уцелеть могут тяжёлые маховики и части телескопа.",
+      "Дарен Макнайт из LeoLabs считает, что обсерватория в основном разрушится и не представит угрозы людям. По тексту, детальной публичной оценки риска для Swift нет; требования NASA и ESA ограничивают риск гибели человека от обломков одной на 10 000."
+     ]
+    },
+    {
+     "title": "Starshield: что это за военная сеть SpaceX и чем она отличается от Starlink",
+     "summary": "Space.com объясняет, что такое Starshield, на фоне спора о работе терминалов в Украине: по словам Киева, 14–24 октября операторы дронов теряли связь. Позиции сторон по причинам расходятся. Пока сообщает только Space.com.",
+     "why": "Военная сеть SpaceX; о её управлении публично известно мало.",
+     "sources": [
+      {
+       "name": "Space.com",
+       "url": "https://www.space.com/space-exploration/satellites/what-is-starshield-a-look-at-spacexs-military-satellite-network"
+      }
+     ],
+     "importance": 2,
+     "minutes": 3,
+     "minor": false,
+     "body": [
+      "По данным Space.com, с 14 октября 2026 года терминалы Starshield перестали работать на скорости выше 160 км/ч; официальные лица Киева сказали, что из-за этого украинские операторы дронов не могли вести оборонные действия. По словам Зеленского, полная связь восстановлена 24 октября. Споры о том, кто и что сделал, продолжаются; ответа SpaceX в тексте нет.",
+      "Starlink — коммерческая сеть: по данным компании, около 11 000 спутников на высоте около 550 км, сервис в более чем 160 странах. Starshield — сеть для государственных и военных заказчиков, объявленная в декабре 2022 года. По словам Бледдина Боуэна из Даремского университета, её спутники используют те же платформы, что и Starlink, но несут больше оборудования и имеют более защищённые системы.",
+      "Спутники разведки Starshield запускаются для NRO; агентство заявило, что запустило более 200 спутников. Сеть Space Data Network Backbone строится по контракту Космических сил США на 2,29 млрд долларов, прототип должен быть готов к концу 2027 года. Вопрос о распределении полномочий между государством и SpaceX остаётся открытым; Маск заявлял, что условия Starlink запрещают применять сервис для наступательных ударов дронов."
+     ]
+    },
+    {
+     "title": "Как спутники и наземные датчики фиксируют болиды и помогают защите Земли",
+     "summary": "Болид 1 апреля 2026 года над Южной Атлантикой у Аргентины засекли датчики США и геостационарные спутники NOAA и Европы. Статья показывает, как сочетание данных восстанавливает траекторию и энергию падения. Пока сообщает только Space.com.",
+     "why": "Спутниковые, сейсмические и радарные данные вместе дают более полную картину падений метеоритов.",
+     "sources": [
+      {
+       "name": "Space.com",
+       "url": "https://www.space.com/stargazing/meteor-showers/planetary-defense-how-military-and-civil-satellites-are-watching-fireballs-to-help-keep-earth-safe-from-space-rocks"
+      }
+     ],
+     "importance": 1,
+     "minutes": 3,
+     "minor": false,
+     "body": [
+      "Space.com описывает болид 1 апреля 2026 года, взорвавшийся над Южной Атлантикой у Аргентины на высоте около 90,5 км. Его зафиксировали правительственные датчики США и геостационарные спутники NOAA GOES-E и европейский Meteosat Third Generation через приборы для регистрации молний.",
+      "Болид 24 апреля 2025 года над Аляской зафиксировали 37 сейсмических станций, 16 инфразвуковых датчиков, радары нашли упавшие метеориты. В базе CNEOS этот болид отсутствовал: его восстановили по гражданским и научным наблюдениям. Объект диаметром около 3,7 м, прошедший 20 мая 2023 года над Квинслендом, по энергии эквивалентен взрыву 7,1 килотонны.",
+      "Физик Элизабет Сайлбер (Sandia) сказала, что данные правительства США дают отправную точку, а гражданские системы подтверждают и уточняют её. Специалист NASA Роб Ландис предупредил, что страна может принять природное событие за превентивный удар, поэтому важно различать природные и искусственные явления."
+     ]
+    }
+   ]
+  },
+  {
+   "id": "politics",
+   "items": [
+    {
+     "title": "Иран допускает двухдневный план открытия Ормузского пролива при условии уступок США",
+     "summary": "МИД Ирана сообщил, что рассматривает двухдневный план восстановления безопасности в Ормузском проливе, если США выполнят его требования. Посредничает Катар. Трамп говорит, что не спешит с новыми ударами.",
+     "why": "От этого зависят возможные новые удары по Ирану после выборов в США и цены на нефть.",
+     "sources": [
+      {
+       "name": "The Hindu",
+       "url": "https://www.thehindu.com/news/international/iran-says-considering-two-day-plan-to-reopen-hormuz/article71656060.ece"
+      },
+      {
+       "name": "NPR",
+       "url": "https://www.npr.org/2026/11/01/nx-s1-6023237/gulf-leaders-meet-in-qatar-in-effort-to-stave-off-new-escalation-in-u-s-and-iran-war"
+      },
+      {
+       "name": "NYT",
+       "url": "https://www.nytimes.com/2026/11/02/world/middleeast/iran-deal-strait-of-hormuz.html"
+      }
+     ],
+     "importance": 2,
+     "minutes": 5,
+     "minor": false,
+     "body": [
+      "2 ноября представитель МИД Ирана Эсмаил Багаи сообщил, что Тегеран рассматривает двухдневный план открытия Ормузского пролива; ранее Иран предлагал срок в семь дней. По его словам, обмен сообщениями с США идёт через посредников, и «всё зависит» от того, примут ли США требования Ирана (The Hindu).",
+      "Требования Ирана: прекратить войну на всех фронтах, разморозить иранские активы, снять санкции с нефтяного сектора и отменить военно-морскую блокаду иранских портов. Министр иностранных дел Аббас Араги добавил, что Вашингтон должен признать согласованный Ираном и Оманом маршрут через пролив и сократить военное присутствие в регионе.",
+      "С начала войны 28 февраля Иран считает пролив своим и атакует суда, проходящие без разрешения, а США ввели блокаду портов. По данным NPR, Brent подорожала примерно на 60% по сравнению с довоенным уровнем. Посредником выступает Катар; Араги сказал, что окончательных выводов нет, но обсуждается двухдневный план: Иран прекращает атаки на суда, чтобы возобновились прямые переговоры.",
+      "Трамп заявил 31 октября, что «не в такой спешке», и добавил, что «одну-две площадки» можно уничтожить «за 10 минут»; в субботу он говорил, что нужно «позаботиться» в том числе о горе Пикакс. По данным NPR, верховный лидер Моджтаба Хаменеи приказал командирам отвечать на любую угрозу немедленно и «без географических ограничений». NPR также сообщает, что США и Израиль обсуждают возможные удары после выборов в Конгресс 3 ноября.",
+      "Китай, по данным The Hindu, призвал решать конфликт переговорами: Ван И сказал это замсекретаря СНБ Ирана Али Багери Кани в Пекине, а Си Цзиньпин заявил султану Омана, что Залив не должен быть полем соперничества великих держав. NYT в заголовке пишет о двухдневном открытии пролива в рамках сделки с США, тогда как The Hindu говорит об условии выполнения требований Ирана."
+     ]
+    },
+    {
+     "title": "В оккупированных Алешках во время перемирия эвакуировали несколько сотен мирных жителей",
+     "summary": "Перемирие с 27 октября до ночи на 2 ноября позволило вывезти жителей Алешек в Украину и Россию. Мелания Трамп говорит о почти 800 эвакуированных, российский омбудсмен — о «намного меньше 750», а стороны договорились не называть число.",
+     "why": "По BBC, первая с 2022 года совместная операция Киева и Москвы по спасению мирных жителей.",
+     "sources": [
+      {
+       "name": "BBC Русская служба",
+       "url": "https://www.bbc.com/russian/podcasts/p076qqzl/p0pkvdfh?at_medium=RSS&at_campaign=rss"
+      },
+      {
+       "name": "The Guardian",
+       "url": "https://www.theguardian.com/world/live/2026/nov/02/ukraine-russia-emergency-warning-systems-hack-zelenskyy-streeting-eu-latest-news-updates"
+      },
+      {
+       "name": "RFI на русском",
+       "url": "https://www.rfi.fr/ru/%D0%B2%D0%B8%D0%B4%D0%B5%D0%BE/20261102-%D1%8D%D0%B2%D0%B0%D0%BA%D1%83%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%BD%D1%8B%D0%B5-%D0%B6%D0%B8%D1%82%D0%B5%D0%BB%D0%B8-%D0%BE%D0%BA%D0%BA%D1%83%D0%BF%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%BD%D1%8B%D1%85-%D1%80%D1%84-%D0%B0%D0%BB%D0%B5%D1%88%D0%B5%D0%BA-%D0%BF%D1%80%D0%B8%D0%B1%D1%8B%D0%BB%D0%B8-%D0%B2-%D1%83%D0%BA%D1%80%D0%B0%D0%B8%D0%BD%D1%83"
+      }
+     ],
+     "importance": 2,
+     "minutes": 5,
+     "minor": false,
+     "body": [
+      "Алешки — город на оккупированном левом берегу Днепра в Херсонской области; до войны там жили около 24 тысяч человек, после разрушения Каховской ГЭС в 2023 году город почти затоплен, а в последние месяцы был в блокаде российских войск. Перемирие действовало с 27 октября и закончилось ночью на 2 ноября; The Guardian называет его крупнейшим с 2022 года локальным перемирием. Белый дом сообщил, что режим прекращения огня добилась Мелания Трамп.",
+      "Число эвакуированных названо по-разному: Мелания Трамп говорит о «почти 800», уполномоченная по правам человека России Яна Лантратова — о «намного меньше 750», украинский омбудсмен Дмитрий Лубинец сказал, что стороны договорились число не называть (RFI, BBC Русская служба).",
+      "По данным RFI, эвакуированных отвезли в Симферополь, затем самолётами в Гомель, а оттуда автобусами в Украину. Лубинец сказал, что никто не проходил фильтрацию и проверку телефонов; самому старшему эвакуированному 92 года.",
+      "Le Monde со ссылкой на анонимный украинский источник пишет, что переговоры четыре месяца вели военные разведки обеих сторон. Генштаб ВСУ заявил, что российские войска использовали паузу, чтобы укрепить позиции и подвезти боеприпасы; по кадрам Sky News, на которые ссылается The Guardian, в Алешки перебрасывали тяжёлую технику. Песков заявил, что других перемирий не планируется, а перегруппировка — «стандартная практика».",
+      "После окончания перемирия, по данным The Guardian, российский дрон попал в здание больницы в Херсоне; по словам военной администрации, никто не пострадал. Лубинец сказал, что подобный механизм можно повторить на других участках фронта."
+     ]
+    },
+    {
+     "title": "Накануне выборов в Конгресс США демократка Хейли Стивенс поддержала республиканца в Мичигане",
+     "summary": "Выборы 3 ноября решат, кто получит контроль над Палатой представителей и частью Сената. В Мичигане Хейли Стивенс, проигравшая праймериз Абдулу Эль-Сайеду, поддержала республиканца Майка Роджерса; партия осудила её решение.",
+     "why": "Итоги определят, кто контролирует Конгресс в последние два года второго срока Трампа.",
+     "sources": [
+      {
+       "name": "BBC Русская служба",
+       "url": "https://www.bbc.com/russian/articles/cmkgk62jy4rjo?at_medium=RSS&at_campaign=rss"
+      },
+      {
+       "name": "The Guardian",
+       "url": "https://www.theguardian.com/us-news/live/2026/nov/02/democrats-haley-stevens-mike-rogers-abdul-el-sayed-michigan-midterms-trump-rallies-latest-news-updates"
+      },
+      {
+       "name": "NPR",
+       "url": "https://www.npr.org/2026/11/02/g-s1-151215/up-first-newsletter-michigan-senate-iran-war-supreme-court-colorado-catholic-church"
+      }
+     ],
+     "importance": 2,
+     "minutes": 6,
+     "minor": false,
+     "body": [
+      "До выборов остался один день. В последние дни Трамп провёл митинги во Флориде, Айове и Канзасе и дистанционные мероприятия в Мичигане, Огайо и Пенсильвании. Выбирают все 435 мест Палаты представителей, 35 из 100 мест Сената и губернаторов в 36 штатах; сейчас в Палате у республиканцев 218 мест, у демократов 214. Модель Гарвардского университета, которую приводит BBC Русская служба, даёт демократам 96% шансов получить большинство в Палате и 76% в Сенате.",
+      "В Мичигане Хейли Стивенс, проигравшая праймериз Эль-Сайеду в августе, в воскресенье объявила о поддержке республиканца Майка Роджерса. В видео она сказала: «Мне нет места в кампании Абдула», а на CNN объяснила решение тем, что Эль-Сайед «становится всё злее». Причины связаны с выступлениями Эль-Сайеда вместе со стримером Хасаном Пайкером и его критикой Израиля. Эль-Сайед ответил: «В конце концов, я вообще не думаю о Хейли Стивенс».",
+      "Лидер демократов в Сенате Чак Шумер назвал поступок «отвратительным предательством», Нэнси Пелоси — «ужасным»; председатель штатной партии Курт Хертел заявил, что Стивенс больше не член партии. Её главный помощник и директор по коммуникациям ушли из команды. Трамп назвал поступок «храбрым».",
+      "Опросы показывают недовольство стоимостью жизни: по данным CBC и BBC Русской службы, инфляция в США поднялась до 3,7%, цены на бензин выросли из-за войны с Ираном. Если демократы получат большинство хотя бы в одной палате, они смогут противостоять действиям Трампа и проводить расследования администрации."
+     ]
+    }
+   ]
+  },
+  {
+   "id": "tech",
+   "items": [
+    {
+     "title": "Anthropic добавила в Claude Code запрет на воссоздание существующих игр",
+     "summary": "В системный промпт Claude Code для Opus 5.5 добавили правило не воссоздавать конкретные существующие игры, даже переименованные. Сотрудник Anthropic Addy Osmani подтвердил изменение; официального заявления компании пока нет.",
+     "why": "Пользователи жалуются на отказы в своих проектах и реверс-инжиниринге; официально о последнем не сказано.",
+     "sources": [
+      {
+       "name": "Tom's Hardware",
+       "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/anthropic-confirms-new-claude-code-limits-to-prevent-game-cloning-users-report-opus-5-5-is-also-actively-blocking-reverse-engineering-tasks"
+      },
+      {
+       "name": "Eurogamer",
+       "url": "https://www.eurogamer.net/anthropic-claude-generative-ai-game-clones-update"
+      }
+     ],
+     "importance": 2,
+     "minutes": 4,
+     "minor": false,
+     "body": [
+      "Текст правила, по скриншоту пользователя X, появился около 27 октября. По версии Eurogamer, Claude должен создавать «оригинальные игры, игры в жанре и игры по собственным идеям и ассетам пользователя», но не «воссоздавать конкретную существующую игру, даже если она переименована».",
+      "Addy Osmani подтвердил, что правило добавлено, потому что «использовать Claude для нарушения IP противоречит политике использования»; оригинальные игры создавать можно. Tom's Hardware пишет, что Anthropic продолжает подбирать формулировки; Eurogamer запросила комментарий Anthropic, ответа в тексте нет.",
+      "Eurogamer пишет, что пользователи на GitHub жалуются на блокировки при создании модулей и воссоздании коммерческой настольной игры для личного пользования. По наблюдениям Tom's Hardware, блокировка касается сочетания Claude Code и Opus 5.5, и её можно обойти другим способом вызова модели — это предположение издания.",
+      "Tom's Hardware со слов пользователей сообщает, что задачи реверс-инжиниринга, которые раньше выполнялись без проблем, начали блокироваться примерно с 31 октября; официально Anthropic об этом не говорила, и Eurogamer реверс-инжиниринг не упоминает."
+     ]
+    },
+    {
+     "title": "Полиция Западной Австралии: испытание распознавания лиц дало 122 ареста",
+     "summary": "За пять месяцев испытания камеры просканировали 1,38 млн лиц, что привело к 122 арестам и девяти ошибочным срабатываниям. Правозащитники оспаривают подсчёт ошибок. Пока сообщает только The Guardian.",
+     "why": "Массовое сканирование лиц в общественных местах; полиция проводит внутреннюю оценку.",
+     "sources": [
+      {
+       "name": "The Guardian",
+       "url": "https://www.theguardian.com/australia-news/2026/nov/02/wa-police-facial-recognition-technology-trial"
+      }
+     ],
+     "importance": 2,
+     "minutes": 3,
+     "minor": false,
+     "body": [
+      "Полиция сообщила, что за испытание, завершившееся в субботу, технология просканировала 1 380 882 лица на 100 выездах в 43 локациях. Результаты: 122 ареста, 146 контактов с зарегистрированными сексуальными преступниками и 10 проверок благополучия людей.",
+      "Полиция признала, что система «не идеальна», и подтвердила девять ошибочных срабатываний (0,00065%). Комиссар Кол Бланш сказал, что при каждом ложном срабатывании полицейские разговаривали с человеком, и никто не был арестован.",
+      "Билл Роулингс из Civil Liberties Australia сказал, что полиция «серьёзно приукрашивает», и предложил считать ошибки по числу осуждённых. Сара Шварц (Human Rights Law Centre) напомнила, что каждое ложное совпадение касается реального человека. Офис информационного комиссара штата предупредил о «коллективных рисках для приватности»; полиция заявляет, что лица, которых нет в списке, сразу удаляются."
+     ]
+    },
+    {
+     "title": "Неоклауды в долгах: акции облачных компаний для ИИ падают",
+     "summary": "Компании вроде CoreWeave и Nebius сдают ИИ-разработчикам вычислительные мощности и берут под них крупные кредиты: долг CoreWeave — $35,1 млрд. За последний месяц акции CoreWeave потеряли около четверти стоимости. Пока сообщает только BBC.",
+     "why": "Отрасль зависит от крупных ИИ-компаний; после прогноза Microsoft и Google о меньших расходах акции упали.",
+     "sources": [
+      {
+       "name": "BBC",
+       "url": "https://www.bbc.co.uk/news/articles/cje36degrgv5o?at_medium=RSS&at_campaign=rss"
+      }
+     ],
+     "importance": 1,
+     "minutes": 2,
+     "minor": false,
+     "body": [
+      "«Неоклауды» строят дата-центры с ИИ-чипами и сдают их Anthropic, OpenAI, Meta и другим. Обычно они берут кредиты под долгосрочные контракты с крупными клиентами и под закупленные чипы. На прошлой неделе Microsoft и Google прогнозировали меньшие расходы на ИИ, чем ждали аналитики, и акции нескольких неоклаудов упали; Microsoft отменила сделку с британской Nscale из-за проблем с энергоснабжением.",
+      "Gartner считает, что к 2030 году 80% неоклаудов прекратят самостоятельную работу, Forrester ожидает поглощения как минимум трёх. Илон Маск написал, что более 200 неоклаудов могут «умереть, как гуппи». Аналитики Yorkville Ives отмечают, что спрос на вычисления пока превышает предложение, а министр финансов США Скотт Бессент назвал неоклауды «небольшой частью» экосистемы."
+     ]
+    },
+    {
+     "title": "Вредонос VOLTA-AUTODOXER отправляет досье на жертву ИИ для оценки ценности",
+     "summary": "По данным Cisco Talos, инфостилер для Windows крадёт пароли, cookies и данные карт, затем просит через OpenRouter модель Claude оценить жертву; при отказе переключается на другие модели. Пока сообщает только Tom's Hardware.",
+     "why": "ИИ-модель выполняет работу аналитика при подготовке кражи.",
+     "sources": [
+      {
+       "name": "Tom's Hardware",
+       "url": "https://www.tomshardware.com/tech-industry/cyber-security/new-ai-driven-windows-malware-feeds-stolen-data-to-claude-to-rank-victims-assets-by-value-then-deletes-itself-payload-builds-custom-target-assessment-can-switch-models-if-one-refuses-or-skip-the-ai-step-entirely"
+      }
+     ],
+     "importance": 1,
+     "minutes": 3,
+     "minor": true,
+     "body": [
+      "По данным Cisco Talos, которые пересказывает Tom's Hardware, VOLTA-AUTODOXER собирает пароли браузеров, cookies, платёжные карты, токены Microsoft и Discord, SSH-конфиги и пароли Wi-Fi, затем формирует досье: геолокацию, работодателя, примерный год рождения и последние цифры карты.",
+      "Досье отправляется через OpenRouter модели Claude Opus 4.6 (по умолчанию) с запросом оценить жертву как цель. При отказе или слишком коротком ответе программа переходит к Kimi K2 и Gemini 2.5 Flash; без ключа OpenRouter досье отправляется в Telegram без ИИ-анализа. Издание считает вредонос шаблоном для перепродажи."
+     ]
+    },
+    {
+     "title": "Raspberry Pi 5 на 16 ГБ подорожала до $385 из-за дефицита памяти",
+     "summary": "После повышения на $80 версия Raspberry Pi 5 с 16 ГБ стоит $385 (при запуске — $120). Глава компании Эбен Аптон говорит, что повышения неизбежны из-за нехватки DRAM. Пока сообщает только The Verge.",
+     "why": "Дефицит памяти поднимает цены на электронику; компания обещает снизить цены, когда память подешевеет.",
+     "sources": [
+      {
+       "name": "The Verge",
+       "url": "https://www.theverge.com/tech/1024342/raspberry-pi-5-16gb-price-hike-ram"
+      }
+     ],
+     "importance": 1,
+     "minutes": 1,
+     "minor": true,
+     "body": [
+      "Raspberry Pi 5 с 16 ГБ теперь стоит $385, версии Compute Module 5 с 16 ГБ подорожали на $40 и стоят от $375 до $415. В прошлом месяце подорожала версия на 2 ГБ.",
+      "Эбен Аптон объяснил рост отсутствием «альтернативных поставок» 16-гигабайтной DRAM и сказал, что ситуация «сложная, но в конечном счёте временная»; компания планирует вернуть цены, когда память подешевеет."
+     ]
+    },
+    {
+     "title": "Hermantown (Миннесота) одобрил дата-центр Google, но проект оспаривают в суде",
+     "summary": "Совет города единогласно одобрил дата-центр Google на 200 акров. Google сократила проект до трёх зданий и отказалась от запроса на налоговые льготы до $80 млн; против решения поданы иски. Пока сообщает только Tom's Hardware.",
+     "why": "Проекту нужно около 500 МВт; жители возражают против шума, потребления воды и цен на недвижимость.",
+     "sources": [
+      {
+       "name": "Tom's Hardware",
+       "url": "https://www.tomshardware.com/tech-industry/data-centers/google-data-center-wins-approval-in-minnesota-after-protests-delay-council-vote-twice-200-acre-project-moves-forward-despite-opposition-from-local-residents-tech-giant-scales-down-project-and-drops-usd80-million-tax-break-request"
+      }
+     ],
+     "importance": 1,
+     "minutes": 2,
+     "minor": true,
+     "body": [
+      "Совет одобрил соглашение о развитии, специальное разрешение на использование участка и условия демонтажа, если проект бросят. Google сократила число зданий с четырёх до трёх и согласилась мониторить колодцы соседей. По словам издания, город будет получать около $3 млн налога на имущество в год.",
+      "Три иска оспаривают процедуру зонирования и требуют экологической оценки; нужно и одобрение Комиссии по коммунальным службам Миннесоты по энергопотреблению: проекту требуется около 500 МВт."
+     ]
+    }
+   ]
+  },
+  {
+   "id": "dev",
+   "items": [
+    {
+     "title": "Google и партнёры демонтировали ботнет XCPE из более чем 1,3 млн ТВ-приставок",
+     "summary": "Google и партнёры отключили бэкдор XCPE, включивший в ботнет более 1,3 млн телевизионных приставок. По оценке Google, его разработала и использовала ради заработка компания Videostrong Technology. Пока сообщает только LWN.",
+     "why": "Массовое заражение устройств, связанное с рекламным мошенничеством и резидентными прокси.",
+     "sources": [
+      {
+       "name": "LWN",
+       "url": "https://lwn.net/Articles/1104847/"
+      }
+     ],
+     "importance": 2,
+     "minutes": 2,
+     "minor": false,
+     "body": [
+      "На прошлой неделе Google и партнёры по отрасли демонтировали бэкдор XCPE, включивший в ботнет более 1,3 млн телевизионных приставок.",
+      "Google оценивает «с высокой степенью уверенности», что бэкдор намеренно разработала, развернула и использовала ради финансовой выгоды компания Videostrong Technology Co. — производитель Android-устройств. Это оценка Google; независимого подтверждения в тексте нет.",
+      "По описанию, Videostrong продавала доступ криминальным партнёрам, чьи вторичные модули занимались рекламным мошенничеством, тайно включали устройства в сети резидентных прокси и загружали дополнительное вредоносное ПО."
+     ]
+    },
+    {
+     "title": "Uber построила MCP-шлюз, через который ИИ-агенты находят и вызывают 800+ серверов и 5000+ инструментов",
+     "summary": "Uber создала MCP-шлюз, стандартизирующий обнаружение и вызов внутренних сервисов ИИ-агентами: более 800 MCP-серверов и 5000 инструментов. Пока сообщает только InfoQ.",
+     "why": "Пример организации доступа ИИ-агентов к внутренним API: реестр, авторизация, фильтрация персональных данных.",
+     "sources": [
+      {
+       "name": "InfoQ",
+       "url": "https://www.infoq.com/news/2026/11/uber-mcp-gateway-ai-agents/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global"
+      }
+     ],
+     "importance": 2,
+     "minutes": 5,
+     "minor": false,
+     "body": [
+      "По описанию InfoQ, раньше интеграции в Uber были разрозненными, инфраструктура дублировалась, подходы к безопасности отличались. Теперь платформа поддерживает более 800 MCP-серверов и 5000 инструментов.",
+      "Архитектура разделена на две части: MCP Registry хранит определения инструментов, схемы, владельцев и настройки включения, а Proxy Gateway переводит MCP-запросы в вызовы HTTP, gRPC или TChannel. Существующие API открываются как инструменты без изменения самих сервисов.",
+      "AutoCrawler автоматически находит инструменты в реестрах IDL и генерирует схемы; новые инструменты остаются выключенными, пока владельцы команды не включат их. Авторизация работает на уровне сервера и инструмента, шлюз умеет скрывать персональные данные в ответах.",
+      "Чтобы не загружать тысячи описаний в контекст агента, Omni MCP поддерживает поэтапное обнаружение, а Response Projection позволяет запрашивать только нужные поля. В LinkedIn подход сравнили с давно существующими API-шлюзами: Ajay Sharma из Microsoft отметил, что Azure API Gateways делают это давно."
+     ]
+    },
+    {
+     "title": "Вышел Linux 7.4-rc1 с очень большим окном слияния",
+     "summary": "Автор пре-патча сообщил, что 7.4-rc1 вышел и окно слияния закрыто: в нём 18 591 неслитный changeset от 2678 разработчиков, 625 из них впервые участвуют в развитии ядра. Пока сообщает только LWN.",
+     "why": "Автор прямо связывает большой объём с работой, запущенной ИИ.",
+     "sources": [
+      {
+       "name": "LWN",
+       "url": "https://lwn.net/Articles/1104654/"
+      }
+     ],
+     "importance": 2,
+     "minutes": 3,
+     "minor": false,
+     "body": [
+      "Автор пре-патча объявил о выпуске первого релиз-кандидата 7.4 и закрытии окна слияния, назвав его очень большим. В окно вошли 18 591 неслитный changeset — по тексту, почти столько же, сколько за весь рекордный цикл 7.3. Над 7.4 работали 2678 разработчиков, из них 625 впервые участвуют в ядре.",
+      "Автор связывает большой объём с работой, которую запускает ИИ («AI triggered work»), и говорит, что доволен тем, что поток пришёл в окне слияния, а не как дополнительные исправления на стадии стабилизации; такая модель, по его словам, «гораздо более здоровая»."
+     ]
+    },
+    {
+     "title": "Глава Amazon: мощности AWS по долгосрочным обязательствам почти распроданы до 2027 года",
+     "summary": "Энди Джесси заявил, что крупные обязательства по мощностям AWS почти распроданы до 2027 года, часть 2028-го тоже занята. Аналитик David Linthicum считает заявление преувеличенным. Пока сообщает только InfoQ.",
+     "why": "Оценки нехватки облачных мощностей расходятся у аналитиков и разработчиков.",
+     "sources": [
+      {
+       "name": "InfoQ",
+       "url": "https://www.infoq.com/news/2026/11/aws-capacity-sold-out/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global"
+      }
+     ],
+     "importance": 2,
+     "minutes": 5,
+     "minor": false,
+     "body": [
+      "Энди Джесси в видеоподкасте a16z сказал, что крупные обязательства по мощностям AWS почти распроданы до 2027 года, а часть 2028-го уже занята; мощности на 2026 год, по его словам, распроданы. Компания могла бы инвестировать заметно больше примерно $220 млрд капзатрат, запланированных на этот год. По тексту InfoQ, об этом сообщило Reuters 23 октября.",
+      "Аналитик David Linthicum считает, что сообщения преувеличивают ситуацию: он отличает заранее зарезервированные крупные блоки от того, что клиент может выделить в обычный день, и предполагает, что GPU для ИИ в консоли AWS всё ещё можно выделить. В обсуждении на Reddit разработчики пишут о проблемах с ёмкостью обычных EC2-инстансов, но это личные наблюдения.",
+      "Сумма в $220 млрд относится ко всем капзатратам, а не только к ИИ. InfoQ напоминает, что в январе AWS подняла тарифы Capacity Blocks for ML примерно на 15%."
+     ]
+    },
+    {
+     "title": "Shopify описала сканер Overexposed для открытых из интернета сервисов в GKE и Cloud Run",
+     "summary": "Shopify рассказала о внутреннем сканере Overexposed: он ищет Ingress в GKE и сервисы Cloud Run, доступные из интернета без аутентификации. После переделки на Cloud Asset Inventory неопределённых вердиктов по Ingress стало примерно на 80% меньше.",
+     "why": "Практика проверки реального состояния облака, а не только конфигов в репозитории.",
+     "sources": [
+      {
+       "name": "InfoQ",
+       "url": "https://www.infoq.com/news/2026/11/shopify-kubernetes-ingresses/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global"
+      }
+     ],
+     "importance": 1,
+     "minutes": 6,
+     "minor": false,
+     "body": [
+      "Первая версия сканера проверяла конфиги в репозитории инфраструктуры и давала ложные срабатывания и слепые зоны: аннотации прокси-аутентификации, правки admission-контроллеров и ресурсы, созданные другими репозиториями, не учитывались. Вывод авторов: репозиторий показывает намерение, кластер показывает, что применено.",
+      "Новая версия по расписанию запрашивает Cloud Asset Inventory: Ingress, принятые GKE, сервисы Cloud Run и балансировщики. Каждый кандидат получает один анонимный запрос, а вердикты включают exposed, expected, protected, not found, unreachable и inconclusive. Неясные доказательства остаются inconclusive, а не protected: например, 403 не считается доказательством защиты.",
+      "В одном июльском прогоне примерно три из четырёх результатов были inconclusive; команда группировала их по причинам и добавляла вердикты там, где доказательств достаточно. Сканер защищён от SSRF и не хранит тела ответов и учётные данные. Авторы советуют использовать инвентарь как основной источник, а анализ конфигов в CI — как ранний сигнал."
+     ]
+    },
+    {
+     "title": "Вышел Tor Browser 16.0 на базе Firefox ESR 153",
+     "summary": "Tor Browser 16.0 — первая стабильная версия на базе Firefox ESR 153: добавлена поддержка Linux на 64-битной Arm, переработаны настройки и появилась опция «generic window titles».",
+     "why": "Релиз прекращает поддержку 32-битного x86 Linux.",
+     "sources": [
+      {
+       "name": "LWN",
+       "url": "https://lwn.net/Articles/1104846/"
+      }
+     ],
+     "importance": 1,
+     "minutes": 1,
+     "minor": true,
+     "body": [
+      "Вышла версия Tor Browser 16.0 — первая стабильная на базе Firefox ESR 153. Среди изменений: поддержка Linux на 64-битной Arm, переработанные настройки и функция «generic window titles», которая, по тексту, не даёт другим приложениям следить за работой в браузере; Tor Browser для Android получил интерфейс в стиле Material Design 3.",
+      "Вслед за Firefox релиз прекращает поддержку 32-битного Linux на x86."
+     ]
+    },
+    {
+     "title": "AWS выпустила открытое приложение File Mover Express для больших файлов в S3",
+     "summary": "AWS выложила File Mover Express под лицензией Apache 2.0 для передачи больших файлов между компьютером и Amazon S3: macOS, Windows, Linux, параллельная передача, пауза и возобновление.",
+     "why": "Бесплатный инструмент для загрузки крупных файлов в S3 с проверкой целостности.",
+     "sources": [
+      {
+       "name": "InfoQ",
+       "url": "https://www.infoq.com/news/2026/11/aws-s3-file-transfer/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global"
+      }
+     ],
+     "importance": 1,
+     "minutes": 2,
+     "minor": true,
+     "body": [
+      "File Mover Express — открытое приложение для передачи больших файлов между локальными системами и Amazon S3. Ядро — демон, работающий независимо от сессии рабочего стола; управлять можно через GUI или CLI по зашифрованному подключению. Поддерживаются multipart-загрузка, повторы, пауза и возобновление, проверка целостности, S3 Transfer Acceleration, автозагрузка из папок и интеграция с ИИ-ассистентами через MCP.",
+      "Исходный код и сборки доступны на GitHub."
+     ]
+    },
+    {
+     "title": "Ядро Linux 7.2.y закрыто: последний релиз 7.2.15",
+     "summary": "Грег Кроа-Хартман выпустил ядро 7.2.15 — последнее в ветке 7.2.y; ветка закрыта раньше обычного, пользователям советуют перейти на 7.3.y.",
+     "why": "Тем, кто использует ядро 7.2, нужно обновиться до 7.3.y.",
+     "sources": [
+      {
+       "name": "LWN",
+       "url": "https://lwn.net/Articles/1104629/"
+      }
+     ],
+     "importance": 1,
+     "minutes": 1,
+     "minor": true,
+     "body": [
+      "Грег Кроа-Хартман сообщил о выпуске ядра 7.2.15 — последнего в ветке 7.2.y; дальше предлагается перейти на 7.3.y.",
+      "Он признал, что ветка закрыта раньше обычного: при нынешнем цикле релизов и количестве патчей cc: stable поддерживать восемь веток одновременно было бы тяжело."
+     ]
+    }
+   ]
+  },
+  {
+   "id": "games",
+   "items": [
+    {
+     "title": "Глава id Software: после сокращений в Xbox студия «в порядке»",
+     "summary": "По данным Eurogamer, при перестройке Xbox из id Software ушла примерно половина сотрудников (около 136 человек). Руководитель студии Марти Страттон заявил, что дела идут хорошо. Пока сообщает только Eurogamer.",
+     "why": "Одна из самых затронутых студий Microsoft; в Xbox сокращения ещё не закончились.",
+     "sources": [
+      {
+       "name": "Eurogamer",
+       "url": "https://www.eurogamer.net/id-software-doing-great-losing-half-the-studio"
+      }
+     ],
+     "importance": 2,
+     "minutes": 3,
+     "minor": false,
+     "body": [
+      "id Software, студия Doom и Quake, была одной из самых затронутых студий Microsoft при «перезагрузке» игрового бизнеса Xbox, объявленной главой Xbox Ашей Шарма; по данным Eurogamer, около 136 сотрудников лишились работы.",
+      "Руководитель студии Марти Страттон сказал (в пересказе Eurogamer со ссылкой на IGN): «Мы в отличной форме». Он признал, что около половины студии ушло, но подчеркнул, что компания заранее готовилась остаться жизнеспособной. id Software теперь работает с MachineGames «теснее, чем когда-либо»; следующий проект не назван.",
+      "Не все согласны: программист Крис Хейс, которого не уволили, писал, что делать ААА-игру вдвое меньшей командой «невозможно», а целые отделы исчезли. Страттон на эти слова прямо не ответил. По тексту, Xbox должна сократить в общей сложности 3200 рабочих мест в игровом подразделении Microsoft."
+     ]
+    },
+    {
+     "title": "Студия создателя Yakuza Тосихиро Нагоси закрыта после ухода NetEase",
+     "summary": "Nagoshi Studio ликвидирована решением акционеров от 31 октября. Её первая игра Gang of Dragon так и не вышла: издатель NetEase прекратил финансирование.",
+     "why": "По данным Bloomberg, на завершение проекта требовалось ещё около $44 млн.",
+     "sources": [
+      {
+       "name": "Polygon",
+       "url": "https://www.polygon.com/nagoshi-studio-shuts-down-yakuza-gang-of-dragon/"
+      },
+      {
+       "name": "GamesIndustry.biz",
+       "url": "https://www.gamesindustry.biz/gang-of-dragon-developer-nagoshi-studio-shutters-months-after-netease-cut-funding"
+      },
+      {
+       "name": "IGN",
+       "url": "https://www.ign.com/articles/yakuza-series-creator-toshiro-nagoshis-studio-has-officially-shut-down-before-releasing-a-game"
+      }
+     ],
+     "importance": 2,
+     "minutes": 3,
+     "minor": false,
+     "body": [
+      "Японский официальный вестник Kanpo сообщил о роспуске Nagoshi Studio, основанной в 2022 году Тосихиро Нагоси, создателем Yakuza, решением акционеров от 31 октября; первым об этом написал Gematsu. Студия работала над Gang of Dragon — криминальной драмой с Ма Дон-соком, трейлер которой показали на The Game Awards 2025.",
+      "В марте 2026 года NetEase подтвердила, что прекращает финансирование студии, причин не раскрыв. По данным Bloomberg, которые пересказывают Polygon и IGN, для завершения игры нужно было ещё не менее 7 млрд иен (около $44 млн). Студия пыталась найти новых инвесторов, но безуспешно.",
+      "По словам GamesIndustry.biz, NetEase сообщила, что студия «свободна продолжать самостоятельно», но расходы на сохранение ассетов или бренда должна покрыть сама. С 2024 года NetEase сокращает игровой портфель и закрыла несколько студий; IGN отмечает, что игра, показанная в декабре, возможно, так и не выйдет."
+     ]
+    },
+    {
+     "title": "Phantom Blade Zero продана тиражом более 4 млн копий за первые 72 часа",
+     "summary": "Студия S-Game сообщила, что за 72 часа после релиза 29 октября продажи Phantom Blade Zero превысили 4 млн копий; по данным SteamDB, пик одновременных игроков в Steam составил 833 921. Цифру пока называет только сама студия.",
+     "why": "Самый крупный запуск в Steam в этом году, по данным изданий.",
+     "sources": [
+      {
+       "name": "Eurogamer",
+       "url": "https://www.eurogamer.net/phantom-blade-zero-4-million-copies-steam-biggest-launch"
+      },
+      {
+       "name": "Polygon",
+       "url": "https://www.polygon.com/phantom-blade-zero-4-million-copies-opening-weekend/"
+      },
+      {
+       "name": "IGN",
+       "url": "https://www.ign.com/articles/phantom-blade-zero-sells-4-million-copies-in-72-hours"
+      }
+     ],
+     "importance": 2,
+     "minutes": 3,
+     "minor": false,
+     "body": [
+      "Пекинская студия S-Game объявила, что её дебютная игра Phantom Blade Zero — экшен в жанре wuxia с элементами souls-like — продана тиражом более 4 млн копий за первые 72 часа после релиза 29 октября. В эту цифру входят Steam, PS5 и китайский лаунчер Tencent WeGame; разбивки по платформам нет.",
+      "По данным SteamDB (через Eurogamer), на старте было больше 431 тысячи одновременных игроков, а пик выходных составил 833 921. До релиза аналитик Alinea Analytics Рис Эллиотт оценивал предрелизные продажи больше чем в 1 млн копий; почти две трети пришлись на Китай, Тайвань и Гонконг.",
+      "Рецензии в основном положительные: 88 баллов на Metacritic (Polygon), 9 из 10 у IGN; Eurogamer хвалит бой, но критикует сюжет и боссов. Black Myth: Wukong, по сообщениям, продала 10 млн копий за первые выходные, так что Phantom Blade Zero её пока не догнала. Все три издания повторяют объявление студии."
+     ]
+    },
+    {
+     "title": "Sony выпустила новое обновление PS5 с исправлениями безопасности перед выходом GTA 6",
+     "summary": "Прошивка 26.07-14.22.00 вышла 2 ноября; в описании только исправления безопасности системного ПО. Пока сообщает только IGN.",
+     "why": "Гонка Sony с homebrew-сообществом за взломом PS5 может коснуться защиты GTA 6.",
+     "sources": [
+      {
+       "name": "IGN",
+       "url": "https://www.ign.com/articles/sony-issues-yet-another-ps5-firmware-update-as-jailbreak-whac-a-mole-continues-ahead-of-gta-6-release"
+      }
+     ],
+     "importance": 2,
+     "minutes": 3,
+     "minor": false,
+     "body": [
+      "2 ноября Sony выпустила обновление прошивки PS5 весом 1,267 ГБ; в патч-ноутах сказано: «Мы внесли исправления безопасности в системное ПО». Предыдущая версия 14.20 вышла 21 октября.",
+      "В конце сентября homebrew-сообщество выпустило взлом для прошивок 7.00–13.60, и под угрозой оказались все PS5, не обновлённые за последнюю неделю. Позже выяснилось, что некоторым играм для загрузки обновлений нужна прошивка 14.00, и сообщество снова ищет обход. IGN пишет, что если взлом появится для прошивки, которая нужна GTA 6, игру могут пиратить на PS5.",
+      "По мнению части сообщества, GTA 6 потребует как минимум прошивку 14.20 — это предположения. IGN также рассказывает о хакере, который тайно сообщил Sony об уязвимости и получил вознаграждение $50 000; это вызвало скандал в homebrew-среде. Sony может выпустить ещё обновления безопасности до 19 ноября."
+     ]
+    },
+    {
+     "title": "В сети появилось видео, похожее на ремейк первой Persona; Atlus ничего не подтверждала",
+     "summary": "Почти две минуты кадров, похожих на ремейк Persona, появились через сабреддит GamingLeaksAndRumours. Atlus ремейк не анонсировала, видео проверить нельзя.",
+     "why": "Фанаты давно ждут ремейков первых Persona; пока это неподтверждённая утечка.",
+     "sources": [
+      {
+       "name": "PC Gamer",
+       "url": "https://www.pcgamer.com/games/rpg/footage-of-what-sure-looks-like-a-persona-1-remake-has-leaked/"
+      },
+      {
+       "name": "Eurogamer",
+       "url": "https://www.eurogamer.net/persona-1-remake-be-your-true-mind-leak"
+      }
+     ],
+     "importance": 1,
+     "minutes": 3,
+     "minor": false,
+     "body": [
+      "По данным Eurogamer, файл выложили на Gofile 31 октября; японское название файла переводится как «Megami Ibunroku Persona Remake», а предполагаемый подзаголовок, по версии фанатов, «Be Your True Mind». На кадрах исследование подземелий, бои и диалоги в стиле современных Persona.",
+      "Фанаты указали на детали, которые, по их мнению, подтверждают подлинность: отладочный текст Unreal Engine в углу экрана, новый ремикс темы Pandora и обращение к герою «Boy With Earring», как в Persona 2. PC Gamer считает подделку ИИ маловероятной, но подчёркивает, что кадры не проверены.",
+      "В августе продюсер серии Казухиса Вада сказал, что ремейки первых двух игр «определённо стоит сделать»; Atlus официально ремейк Persona 1 не анонсировала."
+     ]
+    },
+    {
+     "title": "Bloodborne за этот год продана тиражом более 251 тысячи копий, оценивает аналитик",
+     "summary": "Аналитик Alinea Analytics Рис Эллиотт сообщил, что за этот год продано больше 251 000 копий Bloodborne; общий тираж он оценивает в 10,4 млн.",
+     "why": "Эксклюзив PS4 без ремастера продолжает продаваться.",
+     "sources": [
+      {
+       "name": "Eurogamer",
+       "url": "https://www.eurogamer.net/bloodborne-251-000-sales-in-2016-ps4"
+      }
+     ],
+     "importance": 1,
+     "minutes": 2,
+     "minor": true,
+     "body": [
+      "Рис Эллиотт в посте на X оценил общий тираж Bloodborne в 10,4 млн копий и выручку около $317 млн. По его словам, в октябре через PlayStation Plus в игру сыграли больше полумиллиона человек. Это оценки аналитика, а не издателя.",
+      "Bloodborne осталась эксклюзивом PS4 без ремастера; на PS5 она работает через обратную совместимость."
+     ]
+    },
+    {
+     "title": "Call of Duty: Modern Warfare 4 на Switch 2 отстаёт по задержке ввода от PS5",
+     "summary": "Digital Foundry измерила задержку ввода в мультиплеере: 81 мс в док-станции, около 100 мс в портативном режиме и 49 мс на PS5.",
+     "why": "Игроки Switch 2 в мультиплеере могут оказаться в невыгодном положении.",
+     "sources": [
+      {
+       "name": "Eurogamer",
+       "url": "https://www.eurogamer.net/modern-warfare-4-switch-2-input-lag-digital-foundry"
+      }
+     ],
+     "importance": 1,
+     "minutes": 2,
+     "minor": true,
+     "body": [
+      "Digital Foundry сравнила версии MW4 для Switch 2 и PS5 с беспроводными контроллерами: на Switch 2 задержка 81 мс в док-станции и в среднем 100 мс (83–125 мс) в портативном режиме, на PS5 — 49 мс. Отзывчивость, по её словам, «просто не так хороша, как на других консолях».",
+      "В остальном порт, по словам Digital Foundry, неплох: в мультиплеере чаще 60 fps, кампания ограничена 30 fps. Это первая Call of Duty на Nintendo с 2013 года."
+     ]
+    },
+    {
+     "title": "Schell Games провела вторую волну увольнений в этом году",
+     "summary": "Студия, создавшая VR-игру I Expect You To Die, сообщила о сокращениях; число уволенных не раскрыто. Первые сокращения в истории компании были в августе.",
+     "why": "Сокращения в VR-студии, участвовавшей в создании VR-версии Among Us.",
+     "sources": [
+      {
+       "name": "GamesIndustry.biz",
+       "url": "https://www.gamesindustry.biz/among-us-vr-co-developer-schell-games-announces-second-round-of-layoffs-this-year"
+      }
+     ],
+     "importance": 1,
+     "minutes": 2,
+     "minor": true,
+     "body": [
+      "Schell Games сообщила в LinkedIn о новой волне сокращений, назвав её «очень болезненной»; затронуты инженеры, художники, дизайнеры, звук, маркетинг, IT, исследователи и QA. Студия из Питтсбурга основана в 2002 году, в августе она впервые в истории сократила сотрудников."
+     ]
+    },
+    {
+     "title": "Microsoft анонсировала DirectX-функции, которые могут сократить память трассировки лучей до 90%",
+     "summary": "Microsoft показала превью Clustered Geometry и Partitioned TLAS: в её тесте на Radeon RX 9070 память снизилась с 7,5 ГБ до 774 МБ, а частота кадров выросла с 1,2 до 79 fps.",
+     "why": "Это превью в специализированной среде; выигрыш получат не все игры.",
+     "sources": [
+      {
+       "name": "PC Gamer",
+       "url": "https://www.pcgamer.com/hardware/memory/ray-tracing-memory-usage-could-be-reduced-by-up-to-90-percent-thanks-to-most-significant-directx-update/"
+      }
+     ],
+     "importance": 1,
+     "minutes": 3,
+     "minor": true,
+     "body": [
+      "Microsoft готовит превью двух функций DirectX Raytracing и называет обновление «самым значительным с момента появления DXR в 2018 году». Clustered Geometry режет детальные модели на пакеты по 256 треугольников и меньше, а Partitioned TLAS делит сцену на регионы, чтобы обновлять только изменившиеся.",
+      "В тесте Microsoft на Radeon RX 9070 память для трассировки снизилась с 7,5 ГБ до 774 МБ, а частота кадров выросла с 1,2 до 79 fps. Microsoft предупреждает, что это специализированная среда. Функции пока доступны только через превью-заголовки Agility SDK; когда они дойдут до игроков, неизвестно."
+     ]
+    },
+    {
+     "title": "Отменённый прототип Valve F-Stop собрали из утечек, прохождения уже на YouTube",
+     "summary": "По данным Kotaku (в пересказе PC Gamer), отменённый прототип Valve F-Stop восстановлен из утечек; на YouTube появились полные прохождения.",
+     "why": "Забытый эксперимент Valve, элементы которого позже вошли в Portal 2.",
+     "sources": [
+      {
+       "name": "PC Gamer",
+       "url": "https://www.pcgamer.com/games/fps/valves-long-lost-prototype-portal-prequel-appears-online-after-nearly-20-years/"
+      }
+     ],
+     "importance": 1,
+     "minutes": 3,
+     "minor": true,
+     "body": [
+      "Как сообщил Kotaku, отменённая игра Valve F-Stop восстановлена из материалов разрозненных утечек: большая часть ассетов ушла в сеть в августе вместе с утечкой Steam, а исходный код и данные карт попали к участникам Discord-сообщества Valve Cut Content Team. Прямого доступа к сборке нет: играть можно только по приглашению в закрытом Discord.",
+      "F-Stop появилась в программе «Directed Design Experiments» после выхода Orange Box в 2007 году: камера захватывает предметы и переставляет их для решения головоломок. Тесты прошли прохладно, и игру отложили. Подлинность сборки в тексте не проверена."
+     ]
+    },
+    {
+     "title": "Dune: Awakening получит бесплатное дополнение Blood and Ice с ледяной картой 1 декабря",
+     "summary": "Дополнение Blood and Ice выйдет 1 декабря на PC, PS5 и Xbox и добавит карту Polar Sink; Funcom обещает около 35 часов нового прогресса.",
+     "why": "Дополнение бесплатное; с января 2027 года обещаны кросс-плей и перенос персонажей.",
+     "sources": [
+      {
+       "name": "Eurogamer",
+       "url": "https://www.eurogamer.net/dune-awakening-blood-and-ice-free-expansion"
+      }
+     ],
+     "importance": 1,
+     "minutes": 3,
+     "minor": true,
+     "body": [
+      "Funcom объявила, что бесплатное дополнение Blood and Ice для Dune: Awakening выйдет 1 декабря. На карте Polar Sink нужно не охлаждаться, а согреваться; она делится на тундру и ледяной колпак. Появится вкладка Events: сразу после выхода начнётся событие Water Crisis.",
+      "Funcom обещает офлайн-режим одиночной игры в этом месяце, с января 2027 года — перенос персонажей между серверами и кросс-плей. Eurogamer напоминает, что незадолго до этого Funcom объявила о реструктуризации и возможных сокращениях."
+     ]
+    },
+    {
+     "title": "Pikmin 4 для Switch 2 выйдет 12 ноября, демо появится 2 ноября",
+     "summary": "Nintendo подтвердила дату выхода Pikmin 4 Nintendo Switch 2 Edition — 12 ноября; в версии появится режим Dandori Academy с экзаменами на время. Демо доступно в eShop с 2 ноября.",
+     "why": "Прогресс из демо переносится в полную игру.",
+     "sources": [
+      {
+       "name": "Eurogamer",
+       "url": "https://www.eurogamer.net/pikmin-4-switch-2-edition-release-date-demo"
+      }
+     ],
+     "importance": 1,
+     "minutes": 2,
+     "minor": true,
+     "body": [
+      "Дату назвали во время трансляции Pikmin Day Direct 1 ноября. Режим Dandori Academy — экзамены на время; в версии для Switch 2 можно отдавать голосовые команды собаке-компаньону Оатчи. Владельцы версии для Switch могут купить апгрейд в eShop; прогресс демо переносится в полную игру."
+     ]
+    }
+   ]
+  },
+  {
+   "id": "fashion",
+   "items": [
+    {
+     "title": "Frasers Group довела долю в Hugo Boss примерно до 50%",
+     "summary": "Группа Frasers довела долю в немецком Hugo Boss примерно до 50,08%, по данным Vogue Business со ссылкой на биржевое уведомление. Ранее Hugo Boss отклонил предложение в €2 млрд. Пока сообщает только Vogue.",
+     "why": "Смена контроля над крупным немецким премиум-брендом; сделка идёт несколько месяцев.",
+     "sources": [
+      {
+       "name": "Vogue",
+       "url": "https://www.vogue.com/article/the-vogue-business-funding-tracker"
+      }
+     ],
+     "importance": 2,
+     "minutes": 3,
+     "minor": false,
+     "body": [
+      "Группа Frasers, которой владеет Майк Эшли, довела долю в Hugo Boss примерно до 50,08%: по данным Vogue Business, из биржевого уведомления следует, что компания докупила 198 666 акций на €7,63 млн. После этого, как пишет издание, Hugo Boss станет дочерней компанией Frasers.",
+      "В июне Frasers предложил €2 млрд (€38 за акцию); Hugo Boss счёл предложение «финансово неадекватным» и призвал акционеров его отклонить. В сентябре председателем совета Hugo Boss стал гендиректор Frasers Майкл Мюррей. Параллельно Frasers уменьшил долю в Burberry с 7,4% до 6%."
+     ]
+    },
+    {
+     "title": "Estée Lauder повысила прогноз на 2027 финансовый год после роста продаж",
+     "summary": "Estée Lauder за первый квартал 2027 финансового года получила продажи $3,7 млрд (рост 7% по WWD) и подняла прогноз органического роста до 4–5,5%. Парфюмерия выросла на 20%.",
+     "why": "Крупный бьюти-концерн показал ускорение роста.",
+     "sources": [
+      {
+       "name": "WWD",
+       "url": "https://wwd.com/beauty-industry-news/beauty-features/estee-lauder-raises-f2027-outlook-as-q1-sales-rise-1239395282/"
+      },
+      {
+       "name": "Vogue",
+       "url": "https://www.vogue.com/article/estee-lauder-companies-sales-climb-6-in-q1"
+      }
+     ],
+     "importance": 2,
+     "minutes": 3,
+     "minor": false,
+     "body": [
+      "По данным WWD, чистые продажи за квартал, завершившийся 30 сентября, выросли на 7% до $3,7 млрд при ожиданиях около $3,64 млрд; Vogue пишет о росте органических продаж на 6%. Скорректированная прибыль на акцию выросла до 72 центов против 32.",
+      "По категориям: парфюмерия +20%, уход за кожей +4%, макияж +1%, волосы без изменений. По регионам: Азиатско-Тихоокеанский регион +10%, Китай +9%, Америки +4%, Европа и Ближний Восток +4%.",
+      "Прогноз на год: рост органических продаж 4–5,5% вместо 3–5%, прибыль на акцию $3,20–3,45. Гендиректор Стефан де ла Фаверье сказал, что рост ускоряется, а программа Beauty Reimagined всё заметнее сказывается на бизнесе. Обе статьи пересказывают один квартальный отчёт."
+     ]
+    },
+    {
+     "title": "Kering открыла в Тоскане лабораторию водной устойчивости",
+     "summary": "Kering открыла первую Water Resilience Lab в бассейне Арно и планирует повторить подход в девяти других регионах. Цифры и оценки даны самой компанией. Пока сообщает только Vogue.",
+     "why": "Люксовый холдинг строит модель защиты поставщиков от наводнений и засухи.",
+     "sources": [
+      {
+       "name": "Vogue",
+       "url": "https://www.vogue.com/article/inside-kerings-first-water-resilience-lab-in-italy"
+      }
+     ],
+     "importance": 2,
+     "minutes": 4,
+     "minor": false,
+     "body": [
+      "Kering официально открыла первую Water Resilience Lab в бассейне Арно в Тоскане; Vogue Business получил предварительный показ. Компания заявляет, что дорожная карта может быть повторена в девяти других приоритетных регионах. Поводом стало наводнение: шторм Ciarán в 2023 году нанёс региону ущерб около €1,89 млрд, а у поставщика Kering, Beste Group из Прато, производство стояло три недели.",
+      "Стратегия Kering предусматривает статус «net water-positive» к 2050 году и измеримый положительный эффект в 10 приоритетных бассейнах к 2035 году. В проекте участвуют Conservation International, консалтинговая Etifor, Университет Флоренции и местные власти; LVMH и Burberry тоже присоединились.",
+      "По расчётам Kering, к 2030 году в Тоскане ожидается более 50 дней теплового стресса в год; удержание 48 млн кубометров воды, по оценке компании, снизит ущерб от наводнений. Marie-Claire Daveu сказала, что финансирование водной устойчивости пока в основном идёт от фондов: «Philanthropy will never be enough»."
+     ]
+    },
+    {
+     "title": "Style Capital получил контроль над брендом No. 21 Алессандро Делл'Аккуа",
+     "summary": "Миланский фонд Style Capital получил контроль над брендом No. 21; сумма сделки не раскрыта. Дизайнер остаётся креативным директором, а лицензиат Gilmar выходит из бизнеса. Пока сообщает только WWD.",
+     "why": "Смена владельца известного миланского бренда на фоне процедуры защиты от кредиторов у лицензиата.",
+     "sources": [
+      {
+       "name": "WWD",
+       "url": "https://wwd.com/business-news/mergers-acquisitions/style-capital-alessandro-dellacqua-no-21-investment-deal-control-1239395263/"
+      }
+     ],
+     "importance": 1,
+     "minutes": 2,
+     "minor": false,
+     "body": [
+      "Style Capital, в портфеле которого MSGM, Forte_Forte и Autry, взял контроль над брендом No. 21, основанным Алессандро Делл'Аккуа в 2010 году. Финансовые условия не раскрыты. Делл'Аккуа остаётся креативным директором.",
+      "Давний партнёр и лицензиат Gilmar выходит из бизнеса: незадолго до сделки он подал в суд Римини заявление о процедуре защиты от кредиторов, а реструктуризация предусматривает выход из лицензионного бизнеса. В 2015 году через Gilmar было куплено 30% бренда. No. 21 продаётся более чем в 250 магазинах и в сентябре пропустил Неделю моды в Милане."
+     ]
+    },
+    {
+     "title": "Большинство лондонских архитектурных студий не платят ассистентам London Living Wage, показал опрос",
+     "summary": "Опрос The Pay 100 по 127 британским фирмам: большинство лондонских студий не платят ассистентам Part I London Living Wage; группа просит RIBA ввести минимальные зарплаты.",
+     "why": "Цифры самоотчётные и усреднённые.",
+     "sources": [
+      {
+       "name": "Dezeen",
+       "url": "https://www.dezeen.com/2026/11/02/the-pay-100-architect-salaries-survey/"
+      }
+     ],
+     "importance": 1,
+     "minutes": 2,
+     "minor": true,
+     "body": [
+      "Пятый ежегодный опрос анонимной группы The Pay 100 охватил 127 британских фирм; издание подчёркивает, что цифры дают лишь приблизительную картину. Из 30 студий для ассистентов Part I 21 находится в Большом Лондоне. Только четыре платят выше London Living Wage (£32 136), который RIBA требует от своих офисов, а 12 из 30 платят меньше британского living wage (£29 328).",
+      "Группа направила открытое письмо RIBA: минимальные зарплаты для практик с чартером и передача опроса под управление RIBA; ответа ждут до 1 декабря."
+     ]
+    },
+    {
+     "title": "Опрос: импортёры и экспортёры США и Канады настроены пессимистично",
+     "summary": "Опрос Livingston International: только 34% американских и 28% канадских компаний считают, что USMCA даёт уверенность на пять лет; 77% американских фирм планируют приостановить инвестиции в цепочки поставок.",
+     "why": "Влияет на закупки одежды и обуви; это опрос, а не решение властей.",
+     "sources": [
+      {
+       "name": "WWD",
+       "url": "https://wwd.com/sourcing-journal/trade/us-canadian-importers-exporters-north-american-trade-livingston-international-1239394361/"
+      }
+     ],
+     "importance": 1,
+     "minutes": 2,
+     "minor": true,
+     "body": [
+      "По отчёту Livingston International, 77% американских и 67% канадских фирм планируют приостановить инвестиции в североамериканские цепочки поставок до ясности о будущем USMCA; почти две трети в обеих странах перекладывают рост издержек на потребителей. 84% американских и 91% канадских импортёров изучают новые места закупок, чаще в Азии."
+     ]
+    },
+    {
+     "title": "Фабрика John Smedley в Дербишире: традиции и поворот после убытков",
+     "summary": "По тексту Guardian, трикотажная фабрика John Smedley сохраняет производство в Британии; продажи в Японии упали, а в последний год в Великобритании снова выросли.",
+     "why": "Пример британского производства одежды на фоне сокращения отрасли.",
+     "sources": [
+      {
+       "name": "The Guardian",
+       "url": "https://www.theguardian.com/business/2026/nov/01/john-smedley-knitwear-brand-innovating-fashion-tradition-tough-market-manufacturing"
+      }
+     ],
+     "importance": 1,
+     "minutes": 3,
+     "minor": true,
+     "body": [
+      "Фабрика работает на одном месте с 1784 года, на ней 230 человек и выпускается около 4500 изделий в неделю. Продажи в год до 31 марта 2025 года упали на 5% до £16,8 млн, убыток до налогов £720 000; главная причина — падение иены. В 12 месяцев до марта 2026 года продажи в Великобритании впервые за пять лет выросли. Гендиректор Джесс Макгуайр-Дадли говорит, что рост издержек добавил к счетам £700 000."
+     ]
+    },
+    {
+     "title": "Aedas завершила новый пограничный комплекс Huanggang Port между Шэньчжэнем и Гонконгом",
+     "summary": "По описанию Dezeen, студия Aedas завершила девятиэтажный комплекс New Huanggang Port Development вместо порта 1989 года; ожидается до 200 тысяч пассажиров в день.",
+     "why": "Крупная транспортная инфраструктура на границе Гонконга и Шэньчжэня.",
+     "sources": [
+      {
+       "name": "Dezeen",
+       "url": "https://www.dezeen.com/2026/11/01/new-huanggang-port-development-aedas-shenzhen-hong-kong/"
+      }
+     ],
+     "importance": 1,
+     "minutes": 2,
+     "minor": true,
+     "body": [
+      "Здание на берегу реки Шэньчжэнь открылось в начале месяца и совмещает пограничный контроль, транспорт и 25 000 м² общественных пространств. Два этажа отведены под иммиграционные залы без барьеров; предусмотрена пересадка на четыре линии метро и железной дороги. Описание и цифры даны со слов студии."
+     ]
+    },
+    {
+     "title": "Lacaton & Vassal получили премию Le Prix Charlotte Perriand 2027",
+     "summary": "Французское бюро Lacaton & Vassal Architectes получит премию Le Prix Charlotte Perriand 2027 за работу с существующими зданиями; церемония состоится 16 января 2027 года.",
+     "why": "Признание за реконструкцию жилья и общественных зданий.",
+     "sources": [
+      {
+       "name": "Dezeen",
+       "url": "https://www.dezeen.com/2026/11/02/lacaton-vassal-le-prix-charlotte-perriand-2027/"
+      }
+     ],
+     "importance": 1,
+     "minutes": 2,
+     "minor": true,
+     "body": [
+      "Премию присудила ассоциация Créateurs Design Association & Awards за улучшение условий жизни при сохранении ресурсов и архитектурного наследия. Бюро известно проектами Palais de Tokyo, школы архитектуры в Нанте и реконструкцией Cité du Grand Parc в Бордо; Анн Лакатон и Жан-Филипп Вассаль — лауреаты Pritzker 2021. Церемония пройдёт в Shangri-La Paris."
+     ]
+    }
+   ]
+  },
+  {
+   "id": "security",
+   "items": [
+    {
+     "title": "Крупнейшая кража у криптобиржи: с Binance похищено около $6,3 млрд, ФБР называет КНДР",
+     "summary": "29 октября с горячих кошельков Binance украдено около $6,3 млрд в криптовалюте. ФБР возложило ответственность на северокорейскую группу TraderTraitor; Binance заявляет, что возместила около 95% и возобновила вывод средств.",
+     "why": "Самая крупная кража криптовалюты в истории; ФБР призвало блокировать связанные адреса.",
+     "sources": [
+      {
+       "name": "BBC Русская служба",
+       "url": "https://www.bbc.com/russian/articles/cmvg69wv15njo?at_medium=RSS&at_campaign=rss"
+      },
+      {
+       "name": "The Record",
+       "url": "https://therecord.media/fbi-blames-tradertraitor-for-binance-hack"
+      },
+      {
+       "name": "BleepingComputer",
+       "url": "https://www.bleepingcomputer.com/news/security/fbi-links-63-billion-binance-crypto-heist-to-north-korean-hackers/"
+      }
+     ],
+     "importance": 3,
+     "minutes": 6,
+     "minor": false,
+     "body": [
+      "29 октября злоумышленники вывели с горячих кошельков Binance около $6,3 млрд в криптовалюте на нескольких блокчейнах; по данным BleepingComputer, большая часть ушла примерно за 20 минут, а The Guardian называет это крупнейшей кражей в истории криптовалют. Суммы в источниках расходятся: $6,3 млрд (BBC, Guardian), $6,36 млрд (BleepingComputer), $6,43 млрд (Elliptic).",
+      "31 октября ФБР заявило, что за кражей стоит северокорейская группа TraderTraitor (также Lazarus Group). Агентство сообщило, что активы в основном переводят в Ethereum для отмывания через DeFi и мгновенные обменники, и опубликовало список адресов; банки и биржи призваны блокировать переводы с них. The Verge отмечает, что ФБР привело мало подробностей и доказательств.",
+      "Версия Binance менялась: сначала компания говорила о взломанном ноутбуке инженера DevOps, затем со-CEO Ричард Тэн заявил о «дополнительных точках взлома» и сложной атаке, которую «не совершил один человек», с механизмом самоуничтожения следов.",
+      "Вывод средств возобновлён поэтапно с 1 ноября: по данным Binance, чистый отток к 15:30 GMT составил около $3,6 млрд (Japan Times называет $4,7 млрд к утру понедельника). Binance заявляет, что возместила около 95% украденного из корпоративной казны и фондов защиты и обещает не перекладывать потери на пользователей; Binance.US не затронута.",
+      "По данным Elliptic, злоумышленники использовали около 12 000 кошельков в 11 блокчейнах и провели около 40 000 транзакций; около $2,85 млрд заморожено или изъято, а около $3,25 млрд эмитенты заморозить не могут. После новости биткоин упал почти на 5%, эфир почти на 6%, BNB почти на 10%. По данным Chainalysis, около 90% потерь от криптовзломов в 2026 году пришлось на КНДР."
+     ]
+    },
+    {
+     "title": "Температуру в холодильниках супермаркетов Европы подняли удалённо: второй случай за месяц",
+     "summary": "В ночь на 2 ноября в магазинах Бельгии, Швеции, Люксембурга, Нидерландов, Ирландии и Эстонии поднялась температура холодильных камер, местами до 50 °C. Ответственных не назвали.",
+     "why": "Порча продуктов в десятках магазинов; схема та же, что в атаке на Францию в октябре.",
+     "sources": [
+      {
+       "name": "BleepingComputer",
+       "url": "https://www.bleepingcomputer.com/news/security/hackers-disrupt-refrigeration-systems-at-european-supermarkets/"
+      },
+      {
+       "name": "BBC",
+       "url": "https://www.bbc.co.uk/news/articles/cq1kd1nee80eo?at_medium=RSS&at_campaign=rss"
+      },
+      {
+       "name": "The Record",
+       "url": "https://therecord.media/cyberattack-grocery-freezers-europe"
+      }
+     ],
+     "importance": 2,
+     "minutes": 5,
+     "minor": false,
+     "body": [
+      "По данным BleepingComputer, сбои зафиксированы более чем в 115 магазинах; BBC добавляет Финляндию. Сети подтвердили инциденты: Ahold Delhaize говорит о «нескольких десятках» магазинов, Carrefour — о 15 из 700 в Бельгии, Coop в Швеции — о семи из более чем 800, в Ирландии пострадали 13 магазинов SuperValu. В одном шведском магазине ICA температуру выставили на +50 °C без возможности изменить, продукты пришлось выбросить.",
+      "Поставщик оборудования Sabcobel, обслуживающий Delhaize, говорит, что атакующие использовали ту же уязвимость, что и во Франции в начале октября, активировав функцию оттайки. Глава компании Стефан Моэланс сказал, что одного обновления ПО недостаточно и нужны физические изменения в агрегатах.",
+      "Во Франции в октябре, по данным прокуратуры Парижа, атаке подверглись около 700 магазинов. Danfoss и Copeland/Dixell заявили, что затронутые устройства в основном сняты с производства и не получают обновлений безопасности.",
+      "Центр кибербезопасности Бельгии подтвердил, что знает об инциденте; прокуратура Бельгии открыла уголовное дело. Представитель центра сказал: «Не известно, кто стоит за этой атакой, и, возможно, установить это никогда не удастся». Никто не заявил об ответственности.",
+      "Еврокомиссар Кристоф Хансен назвал атаки «преднамеренной попыткой нарушить» поставки продовольствия в ЕС, добавив, что продовольственная безопасность сейчас не под угрозой. Оценки числа затронутых магазинов в разных изданиях расходятся."
+     ]
+    },
+    {
+     "title": "Взломаны приложения экстренных оповещений Украины и России: ложные ядерные тревоги",
+     "summary": "В воскресенье вечером украинское приложение «Воздушная тревога» разослало ложные предупреждения о радиации и ядерном ударе; затем власти России сообщили о взломе приложения МЧС. Кто стоит за атаками, неизвестно.",
+     "why": "Взлом официальных каналов оповещения во время войны; причастность групп не подтверждена.",
+     "sources": [
+      {
+       "name": "BBC Русская служба",
+       "url": "https://www.bbc.com/russian/articles/cmly0r052g53o?at_medium=RSS&at_campaign=rss"
+      },
+      {
+       "name": "The Record",
+       "url": "https://therecord.media/ukraine-hackers-russia-alert-system"
+      },
+      {
+       "name": "CBC",
+       "url": "https://www.cbc.ca/news/world/ukraine-russia-alert-cyberattacks-9.7405276?cmp=rss"
+      }
+     ],
+     "importance": 2,
+     "minutes": 4,
+     "minor": false,
+     "body": [
+      "Вечером 1 ноября пользователи украинского приложения Air Alert получили уведомления о высоком уровне радиации, химической угрозе и уличных боях в Киеве; одно сообщение на русском предупреждало об угрозе «Орешником». Сообщения содержали ссылку на Telegram-канал группы Hitcore Corp. Разработчик, Ajax Systems, отключил push-уведомления и приостановил сервис; в приложении около 6,6 млн пользователей.",
+      "Воздушные силы Украины заявили, что приложение «вероятно, подверглось вражескому вмешательству», а радиационной угрозы нет; по их словам, приложение отделено от военных систем. ГСЧС подтвердила, что общенациональная система оповещения работает штатно.",
+      "Затем в российском приложении МЧС появились поддельные предупреждения; министерство заявило о взломе, а основные каналы оповещения назвало работающими. Группа DC8044, называющая себя киевским хакерским сообществом, заявила, что получила доступ через API приложения МЧС (The Record).",
+      "О причастности Hitcore сообщил канал Mash со слов её представителей, но это не проверено. Эксперты, которых цитирует BBC, считают, что за такими атаками стоят хактивистские группы, которые могут быть связаны с Москвой или Киевом, но не управляются ими. Песков заявил, что российские госресурсы постоянно подвергаются кибератакам."
+     ]
+    },
+    {
+     "title": "Ivanti закрыла ещё две нулевые уязвимости в VPN-шлюзе Connect Secure",
+     "summary": "Ivanti выпустила исправления для двух уязвимостей Connect Secure, которые атакующие использовали вместе с ранее исправленным обходом аутентификации. Цепочка давала root-доступ даже на обновлённых устройствах; CISA включила новые уязвимости в каталог эксплуатируемых.",
+     "why": "Версии, выпущенные в октябре, не закрывают новые уязвимости: нужно обновиться повторно.",
+     "sources": [
+      {
+       "name": "BleepingComputer",
+       "url": "https://www.bleepingcomputer.com/news/security/ivanti-patches-two-more-connect-secure-zero-days-chained-in-attacks/"
+      },
+      {
+       "name": "SecurityWeek",
+       "url": "https://www.securityweek.com/ivanti-patches-two-more-zero-days-exploited-in-connect-secure-attack-chain/"
+      }
+     ],
+     "importance": 2,
+     "minutes": 4,
+     "minor": false,
+     "body": [
+      "Ivanti закрыла уязвимости CVE-2026-111357 (CVSS 8.8, повышение привилегий) и CVE-2026-118527 (CVSS 4.3, загрузка файлов в предсказуемое место), которые злоумышленники использовали вместе с обходом аутентификации CVE-2026-104935, исправленным в октябре. Исправления вышли в версиях 25.1.1.3 и 22.8R2.6; тем, кто установил 25.1.1.2 и 22.8R2.5, нужно обновиться повторно.",
+      "Цепочка позволяла неаутентифицированному злоумышленнику выполнить код с правами root на полностью обновлённом устройстве. Volexity, обнаружившая атаки, назвала действующую группу UTA0576 и считает её скорее криминальной, чем шпионской. Первые признаки эксплуатации Volexity относит к 3 октября, Defused — к 1 октября. Ivanti сообщает, что пострадало ограниченное число клиентов.",
+      "CISA дала федеральным агентствам срок до 2 и до 13 ноября для двух новых уязвимостей. Shadowserver отслеживает более 5000 доступных из интернета экземпляров ICS."
+     ]
+    },
+    {
+     "title": "Более 1000 серверов GitLab остаются без исправления критической уязвимости",
+     "summary": "Уязвимость CVE-2026-97229 в GitLab, позволяющая выполнить код без входа в систему, эксплуатируется. Shadowserver видит более 1000 уязвимых серверов; Alpine Linux пересобрала свой GitLab после попытки атаки. Пока сообщает только BleepingComputer.",
+     "why": "Критическая уязвимость в CI/CD; Alpine не может исключить взлом.",
+     "sources": [
+      {
+       "name": "BleepingComputer",
+       "url": "https://www.bleepingcomputer.com/news/security/over-1-000-gitlab-servers-vulnerable-to-code-execution-attacks/"
+      }
+     ],
+     "importance": 2,
+     "minutes": 4,
+     "minor": false,
+     "body": [
+      "CVE-2026-97229 — целочисленное переполнение в компиляторе регулярных выражений CI/CD GitLab; неаутентифицированный злоумышленник может выполнить код на сервере. Исправления вышли 12 октября в версиях 19.4.2, 19.3.5 и 19.2.8. CISA подтвердила эксплуатацию и добавила уязвимость в каталог KEV.",
+      "Alpine Linux сообщила, что 20–21 октября злоумышленники пытались эксплуатировать уязвимость в её инфраструктуре разработки; четыре попытки были частично успешными, ни одна не дошла до конца. Следов изменения коммитов, пакетов и релизов нет, но выполнение кода исключить нельзя, поэтому Alpine пересобрала GitLab с нуля и сбросила пароли. Подтверждённых случаев компрометации пользовательских данных нет."
+     ]
+    },
+    {
+     "title": "Synology предупредила об атаках вымогателя C3RB3R на NAS со старой версией DSM",
+     "summary": "Synology просит срочно обновить DSM: злоумышленники через уязвимость, закрытую в декабре 2024 года, шифруют данные на устройствах с устаревшими версиями и требуют выкуп.",
+     "why": "Рекомендуется закрыть веб-интерфейс управления от интернета.",
+     "sources": [
+      {
+       "name": "BleepingComputer",
+       "url": "https://www.bleepingcomputer.com/news/security/synology-warns-customers-of-ongoing-c3rb3r-ransomware-attacks/"
+      }
+     ],
+     "importance": 2,
+     "minutes": 3,
+     "minor": true,
+     "body": [
+      "Synology предупредила о росте атак программы-вымогателя C3RB3R на устройства с устаревшими версиями DSM. Файлы получают расширение .L0CK3D, выкуп составляет несколько тысяч долларов. Компания рекомендует обновить DSM, включить автообновления и закрыть доступ к веб-интерфейсу из интернета. Shadowserver видит более 380 тысяч доступных из интернета устройств Synology."
+     ]
+    },
+    {
+     "title": "В маркетплейсе Cursor подменили расширение Claude Code: внутри был обратный SSH-туннель",
+     "summary": "29 октября около 11 часов в маркетплейсе Cursor были доступны поддельные версии расширения Claude Code, пытавшиеся установить обратный SSH-туннель. Anthropic заявляет, что её официальные каналы не затронуты.",
+     "why": "Если 29 октября ставили это расширение в Cursor, проверьте компьютер.",
+     "sources": [
+      {
+       "name": "SecurityWeek",
+       "url": "https://www.securityweek.com/malicious-claude-code-extension-served-in-cursor-supply-chain-attack/"
+      }
+     ],
+     "importance": 2,
+     "minutes": 3,
+     "minor": true,
+     "body": [
+      "Поддельные версии 2.1.312 и 2.1.313 расширения anthropic.claude-code были доступны около 11 часов; по оценке Кевина Бомонта, их могли скачать примерно 5000 систем. Код собирал сведения о системе и пытался установить SSH-ключ и обратный туннель. Cursor сообщает, что включение SSH требует прав администратора, поэтому этот шаг на большинстве систем не сработал. Cursor удалила расширение, сменила ключи и советует проверить хосты: одного удаления расширения недостаточно. Anthropic заявила, что поддельные версии не публиковала."
+     ]
+    },
+    {
+     "title": "Chainalysis сообщила о взломе внутренних систем с утечкой данных клиентов",
+     "summary": "Chainalysis обнаружила внешнего злоумышленника, который с помощью агентных ИИ-техник получил доступ к её системам; компания говорит, что это не связано с кражей у Binance. Утекли имена, адреса почты и роли пользователей.",
+     "why": "Компания советует включить многофакторную аутентификацию.",
+     "sources": [
+      {
+       "name": "SecurityWeek",
+       "url": "https://www.securityweek.com/chainalysis-discloses-data-breach-following-ai-driven-cyberattack/"
+      }
+     ],
+     "importance": 1,
+     "minutes": 2,
+     "minor": true,
+     "body": [
+      "Chainalysis сообщила, что в этом месяце обнаружила злоумышленника, применявшего «наступательные агентные техники». По словам компании, содержимое расследований, транзакции и пароли не скомпрометированы, но получены user ID, полные имена, адреса почты и роли клиентов. Число затронутых людей не названо."
+     ]
+    },
+    {
+     "title": "Polymarket возвращает $3,9 млн трейдерам после атаки через стороннего поставщика",
+     "summary": "Polymarket выплачивает $3,9 млн после атаки 29 октября: вредоносный скрипт, загруженный с адреса DebugBear, переводил средства из открытых сессий. DebugBear сообщила о захвате DNS-записей через регистратора.",
+     "why": "Затронуты 726 кошельков.",
+     "sources": [
+      {
+       "name": "SecurityWeek",
+       "url": "https://www.securityweek.com/polymarket-returns-3-9-million-to-traders-as-debugbear-cites-dns-hijack/"
+      }
+     ],
+     "importance": 1,
+     "minutes": 3,
+     "minor": true,
+     "body": [
+      "29 октября Polymarket приостановила торговлю на международной платформе после сообщений о несанкционированных выводах. По данным Hudson Rock, вредоносный JavaScript загружался с адреса DebugBear и использовал разрешения открытой сессии. Polymarket сообщила, что затронуто 726 кошельков и почти всем уже возмещено; выплачивается $3,9 млн. DebugBear сообщила, что её DNS-записи были скомпрометированы через регистратора домена; признаков взлома внутренних систем она не нашла."
+     ]
+    },
+    {
+     "title": "Revolve: данные не менее 180 тысяч клиентов похищены при взломе в сентябре",
+     "summary": "Онлайн-магазин Revolve уведомляет не менее 180 тысяч человек, что у них украдены имена, адреса и данные карт, сохранённых в аккаунтах. Взлом произошёл 11 сентября.",
+     "why": "Бесплатного мониторинга кредитной истории компания не предлагает.",
+     "sources": [
+      {
+       "name": "SecurityWeek",
+       "url": "https://www.securityweek.com/revolve-data-breach-impacts-at-least-180000-people/"
+      }
+     ],
+     "importance": 1,
+     "minutes": 2,
+     "minor": true,
+     "body": [
+      "Злоумышленники получили доступ к отдельным системам Revolve, включая платформу магазина, 11 сентября. Похищены имена, адреса, номера платёжных карт и сроки их действия у клиентов, сохранявших карты в аккаунте. По уведомлениям в прокуратуры штатов письма получили не менее 179 259 человек. Компания сообщила, что работа магазина не прерывалась."
+     ]
+    },
+    {
+     "title": "Google Cloud вводит награду до $250 000 за полный контроль над облачной инфраструктурой",
+     "summary": "Программа Google Cloud VRP получила награду до $250 000 за уязвимости, дающие полный административный контроль над организацией или проектом Google Cloud.",
+     "why": "Крупнейшая награда программы; тестировать на реальных клиентах нельзя.",
+     "sources": [
+      {
+       "name": "SecurityWeek",
+       "url": "https://www.securityweek.com/google-introduces-250000-root-in-cloud-bug-bounty-reward/"
+      }
+     ],
+     "importance": 1,
+     "minutes": 2,
+     "minor": true,
+     "body": [
+      "Google расширила программу Cloud VRP: за исследования, дающие роль roles/owner или полный контроль IAM над любой организацией или проектом, теперь платят до $250 000. Выполнение кода в Borg и root-доступ в продакшене тоже оцениваются по этой награде, но при любом выполнении кода в Borg исследователь обязан немедленно прекратить тестирование."
+     ]
+    },
+    {
+     "title": "NVIDIA: в облачной платформе Brev могли раскрыться SSH-ключи клиентов",
+     "summary": "По уведомлению NVIDIA, с 4 по 20 октября на платформе Brev была несанкционированная активность, из-за которой могли раскрыться SSH-ключи. Ключи заменены; следов неправомерного использования компания не нашла.",
+     "why": "С SSH-ключом можно управлять виртуальной машиной клиента.",
+     "sources": [
+      {
+       "name": "Tom's Hardware",
+       "url": "https://www.tomshardware.com/tech-industry/cyber-security/nvidia-brev-security-breach-may-have-exposed-ssh-keys-used-to-access-customer-vms-investigation-finds-unauthorized-activity-spanning-16-days-but-no-evidence-of-misuse"
+      }
+     ],
+     "importance": 1,
+     "minutes": 2,
+     "minor": true,
+     "body": [
+      "NVIDIA уведомила клиентов об инциденте на платформе Brev; компания заменила SSH-ключи, но не объяснила, как злоумышленники получили доступ и затронуты ли данные клиентов. Аналитик RH-ISAC рекомендует проверить хосты, удалить неизвестные SSH-ключи и сменить учётные данные."
+     ]
+    },
+    {
+     "title": "Росстат подтвердил кибератаку; хакеры заявляют о 23 ТБ данных",
+     "summary": "Росстат признал скоординированные атаки на серверы 29–31 октября, но отрицает утечку десятков терабайт. Группы Belarusian CyberPartisans и Silent Crow заявляют о 23 ТБ данных; заявления не проверены.",
+     "why": "По словам хакеров, в данных есть сведения о военных потерях.",
+     "sources": [
+      {
+       "name": "Tom's Hardware",
+       "url": "https://www.tomshardware.com/tech-industry/cyber-security/hackers-claim-to-have-stolen-23tb-of-data-from-russian-statistics-body-including-ukraine-war-casualty-figures-russian-federal-state-statistics-service-admits-its-servers-were-hit-by-coordinated-cyberattacks"
+      }
+     ],
+     "importance": 1,
+     "minutes": 2,
+     "minor": true,
+     "body": [
+      "По данным Tom's Hardware со ссылкой на The Moscow Times, Росстат признал атаки 29–31 октября, но отрицает утечку десятков терабайт. Хакеры заявляют о 23 ТБ данных, включая сведения о военных потерях России; эти утверждения ничем не подтверждены. Сайт Росстата был изменён и недоступен."
+     ]
+    }
+   ]
+  },
+  {
+   "id": "curious",
+   "items": [
+    {
+     "title": "Инженер встроил процессор RISC-V в веса языковой модели, и она запускает Doom",
+     "summary": "Инженер Divyansh Agrawal встроил 32-битный процессор RISC-V в веса Qwen 3.5 4B без дообучения: модель считает точно, запускает код на C и MicroPython и даже Doom, правда очень медленно.",
+     "why": "Необычный технический эксперимент.",
+     "sources": [
+      {
+       "name": "Tom's Hardware",
+       "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/ai-engineer-successfully-compiles-a-32-bit-risc-v-cpu-in-qwen-3-5-4b-llm-inserted-directly-into-its-weights-built-in-cpu-can-run-processor-arithmetic-operations-code-and-of-course-doom"
+      }
+     ],
+     "importance": 1,
+     "minutes": 2,
+     "minor": false
+    },
+    {
+     "title": "Французская компания проведёт эксперимент: гипноз должен стереть из памяти классический фильм",
+     "summary": "Pathé вместе с гипнотистом Виктором Крэмером проводит эксперимент Pathé Rewind: 30 киноманов должны забыть фильм и посмотреть его как впервые. Показ состоится 9 ноября в Гааге.",
+     "why": "Фильм выберут из The Matrix, Se7en, La La Land и Interstellar.",
+     "sources": [
+      {
+       "name": "IGN",
+       "url": "https://www.ign.com/articles/french-film-company-hypnotize-people-classic-movies-for-first-time"
+      }
+     ],
+     "importance": 1,
+     "minutes": 2,
+     "minor": false
+    },
+    {
+     "title": "Если ввести «zelda» в Google, поиск перенесёт в версию 1998 года",
+     "summary": "Запрос «zelda» в Google показывает Master Sword; после клика экран переходит в версию Google 1998 года с синими ссылками. Ремейк Ocarina of Time выходит 5 ноября.",
+     "why": "Пасхалка к выходу ремейка.",
+     "sources": [
+      {
+       "name": "IGN",
+       "url": "https://www.ign.com/articles/zelda-ocarina-of-time-google-easter-egg"
+      }
+     ],
+     "importance": 1,
+     "minutes": 1,
+     "minor": false
+    },
+    {
+     "title": "Два детёныша носорога в Англии отпраздновали первый день рождения тортом",
+     "summary": "В Cotswold Wildlife Park детёныши белых носорогов Markus и Mo отметили день рождения тортом из гранул, моркови и салата; сейчас каждый весит около 500 кг.",
+     "why": "Милая история из зоопарка.",
+     "sources": [
+      {
+       "name": "BBC",
+       "url": "https://www.bbc.co.uk/news/articles/cqrkypljk526o?at_medium=RSS&at_campaign=rss"
+      }
+     ],
+     "importance": 1,
+     "minutes": 1,
+     "minor": false
+    },
+    {
+     "title": "Луна бывает разного цвета: подборка снимков из Италии",
+     "summary": "Астрофотограф десять лет снимал полную Луну в разных местах Италии: она выглядит то бурой, то красной, то синей. Цвет зависит от атмосферы и пыли; фиолетовый оттенок пока объяснить не удалось.",
+     "why": "Снимок дня NASA.",
+     "sources": [
+      {
+       "name": "NASA",
+       "url": "https://science.nasa.gov/image-article/apod-2026-november-1-colors-of-the-moon/"
+      }
+     ],
+     "importance": 1,
+     "minutes": 1,
+     "minor": false
+    }
+   ]
+  }
+ ]
 }
