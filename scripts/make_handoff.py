@@ -13,12 +13,23 @@ now = datetime.now(ZoneInfo("Europe/Warsaw"))
 today, yesterday = now.strftime("%Y-%m-%d"), (now - timedelta(days=1)).strftime("%Y-%m-%d")
 
 rp = (ROOT / "routine_prompt.md").read_text(encoding="utf-8")
-start = rp.index("2. ОТБОР И ПРАВИЛА")
-end = rp.index("5. ПРОВЕРКА")
-rules = rp[start:end].rstrip()
+def section(first, last):
+    """Кусок промпта от заголовка first до заголовка last (без него). Падает с понятным текстом, если раздела нет."""
+    for h in (first, last):
+        if h not in rp:
+            raise SystemExit(f"make_handoff: в routine_prompt.md нет раздела «{h}»; обновите якоря в scripts/make_handoff.py")
+    return rp[rp.index(first):rp.index(last)].rstrip()
+
+
+# для других ИИ: правила достоверности, правило про 🔥 и формат ответа; разбор субагентами относится только к облачной задаче
+rules = section("2. ПРАВИЛА ДОСТОВЕРНОСТИ", "3. ТЕМЫ")
+fire = rp[rp.index("- importance: 3 = "):rp.index("6. ЗАПИСЬ")].rstrip() if "- importance: 3 = " in rp else ""
+fmt = section("6. ЗАПИСЬ", "7. ПРОВЕРКА")
+rules = rules + "\n" + fire + "\n\n" + fmt
 rules = rules.replace("data/candidates.json", "блока ЗАГОЛОВКИ").replace("candidates.json", "блоке ЗАГОЛОВКИ")
-rules = re.sub(r"\n4\. ЗАПИСЬ\nЗапиши файл data/digest\.json \(UTF-8\) строго такой структуры:",
-               "\n4. ФОРМАТ ОТВЕТА\nВерни JSON строго такой структуры:", rules)
+rules = re.sub(r"6\. ЗАПИСЬ\nЗапиши файл data/digest\.json \(UTF-8\) строго такой структуры:",
+               "ФОРМАТ ОТВЕТА\nВерни JSON строго такой структуры:", rules)
+rules = rules.replace("(действуют для тебя и для всех субагентов)", "")
 
 c = json.loads((ROOT / "data/candidates.json").read_text(encoding="utf-8"))
 lines = []
@@ -35,7 +46,7 @@ out = f"""# Запрос для ИИ: составь ежедневный дай
 
 СЕГОДНЯ: {today}. ВЧЕРА: {yesterday}. Заголовки собраны: {c.get('generated_at')}.
 
-ТЕМЫ (ровно эти id): ai (Искусственный интеллект), health (Медицина и здоровье), science (Наука), space (Космос), politics (Политика и мир), tech (Технологии и железо), dev (Разработка и IT), games (Игры и индустрия), fashion (Мода и дизайн), security (Кибербезопасность), curious (Любопытное, всегда последняя). Бери 2-3 новости на тему (в politics до 4, в curious 3-4). Темы без новостей можно не включать. Поле "demo" не добавляй.
+ТЕМЫ (ровно эти id): ai (Искусственный интеллект), health (Медицина и здоровье), science (Наука), space (Космос), politics (Политика и мир), tech (Технологии и железо), dev (Разработка и IT), games (Игры и индустрия), fashion (Мода и дизайн), security (Кибербезопасность), curious (Любопытное, всегда последняя). В теме до 5 основных новостей и до 8 мелких (с "minor": true), в curious 3-5. Темы без новостей можно не включать. Поле "demo" не добавляй.
 
 {rules}
 
