@@ -1,0 +1,14 @@
+After hackers targeted refrigeration systems in supermarkets and food suppliers across Europe, the National Cyber Security Centre (NCSC) says it is aware of "a couple of instances where vulnerable technology had been exploited in the UK".
+The NCSC's chief executive Dr Richard Horne told the Today programme, on BBC Radio Four, that it had "worked through the night" to alert potentially affected organisations in the UK.
+He said it had alerted "handfuls" of bodies, and that it was aware of a "couple of impacts".
+It comes after supermarkets in countries including Ireland, Sweden, Estonia, and Belgium reported fridges being hiked in temperature on Monday.
+The events followed attacks targeting supermarkets and food suppliers across France in early October.
+Hundreds of stores were targeted by the overnight hack, which spoiled fresh and frozen food estimated to be worth millions of euros.
+Those attacks exploited vulnerabilities in some systems used to remotely control and manage cold refrigeration units that had been surfaced by cyber-security researchers months prior.
+Horne told the BBC on Tuesday that it was still "too early to say" who was behind the hacks.
+But he said it pointed to an urgent need for organisations and businesses to ensure the technology underpinning a whole range of applications we use and need daily was secure and up-to-date.
+"That technology base we rely on as a society has not been invested on to the extent it needs to be," Horne said, noting many firms had extended systems beyond their end of life, not upgraded them nor kept them in secure compartments disconnected from the internet.
+Such actions can create vulnerabilities that many cyber-security experts say amounts to low-hanging fruit for hackers, and can be easily exploited.
+But the UK's cyber chief said that they could be found and exploited more quickly and easily via "AI in the hands of our adversaries".
+"We do need all organisations to look at what they rely on, to invest in renewal," he said.
+"We intervene where we can. But, at the end of the day, it's your business. It's your charity. It's your life. You need to make the choice and choose wisely."

@@ -2,9 +2,9 @@ Taiwanese network-attached storage (NAS) appliance maker Synology warned custome
 The company urged users to enable automatic updates and upgrade the DiskStation Manager (DSM) software running on their NAS devices to the latest version to protect their data.
 "Synology has identified threat actors exploiting a vulnerability patched in December 2024 to target devices running outdated versions of DSM. These attacks aim to encrypt data and extort ransom," it said in a Thursday advisory.
 "Synology strongly urges all users running vulnerable versions to update DSM immediately to protect their systems. Synology also recommends enabling automatic updates to keep DSM up to date at all times."
-A Synology spokesperson was not immediately available when BleepingComputer reached out for more information on these C3RB3r ransomware attacks.
 While Synology has yet to share with information about patches released for vulnerabilities allowing attackers to execute arbitrary code (CVE-2024-10441), read files (CVE-2024-50629), and write files (CVE-2024-10445) on unpatched devices.
-Synology users are advised to immediately block access to the management web interface from the Internet and update their DSM software to block attackers' attempts to hack and encrypt their devices.
+When BleepingComputer reached out for more information on what security flaw is exploited in these C3RB3r ransomware attacks, a Synology spokesperson directed us to the same 2024 advisory.
+NAS owners are advised to immediately block access to the management web interface from the Internet and update their Synology DSM software to block attackers' attempts to hack and encrypt their devices.
 Synology rarely issues security advisories warning of attacks targeting its customers' devices, with the last such alert published in August 2019 following large-scale brute-force attacks that led to eCh0raix ransomware infections.
 Last week's advisory follows a massive wave of reports from Synology customers whose data was encrypted and who were prompted to buy "C3rb3r Decryptor" tool from a dark web portal for thousands of dollars.
 The first reports surfaced more than two weeks ago, with affected users saying the ransomware dropped a ransom note (read-me3.txt) and added a .L0CK3D extension to encrypted files.
@@ -14,6 +14,7 @@ The Cerber ransomware (also known as C3RB3R and CerberImposter), now deployed in
 Before disappearing at the end of 2019, the old Cerber ransomware operation accounted for more than 80% of all ransomware attacks and a quarter of all ransomware infections on enterprise endpoints.
 Starting in December 2021, when it was first spotted, C3RB3R was also deployed on Atlassian Confluence and GitLab servers as part of several attack waves exploiting remote code execution (CVE-2021-26084 and CVE-2021-22205) and authentication bypass (CVE-2023-22518) flaws.
 Internet threat watchdog Shadowserver now tracks over 380,000 Internet-exposed Synology NAS devices, but doesn't provide information on how many have already been secured against these attacks or are honeypots.
+Update November 03, 03:30 EST: Added Synology reply.
 Adaptive Security's AI agents analyze email intent, context, and behavior to uncover phishing, business email compromise, and invoice fraud.
 See what's getting through with a 14-day read-only scan of Microsoft 365 or Google Workspace, with no MX changes.
 Start your free email security scan.

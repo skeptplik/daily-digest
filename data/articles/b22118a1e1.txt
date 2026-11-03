@@ -1,0 +1,17 @@
+Polymarket pledges to give $3.9 million back to victims after site compromise
+Users of cryptocurrency-based prediction market Polymarket will be compensated after the site was hacked last week.
+In a post-mortem on the incident, Polymarket said it would give $3.9 million to those impacted by the theft — with $2.7 million used to cover the initial losses and another $1.2 million to cover losses related to the platform’s hours-long shutdown.
+“No claims or tickets needed: we identified eligible wallets from on-chain and trading data,” the company said.
+Polymarket did not respond to requests for comment about how many people were impacted by the attack.
+Anyone who thinks Polymarket’s calculations are wrong were urged to reach out. As of Saturday, 95% of the affected wallets were refunded in full.
+On October 29, the company suffered outages that were eventually attributed to a compromise involving DebugBear — a company that provides website performance services.
+Cybersecurity firm Hudson Rock previously said it found evidence pointing to what it called “wallet-draining code” that was designed by someone to discover accounts, select assets and transfer funds to a designated account.
+Polymarket — one of the largest prediction markets in the U.S. — confirmed that in the post-mortem. The company said an attacker replaced the performance-monitoring script loaded onto polymarket.com with another designed to steal from the site’s users.
+“For some people who had the site open during a small window … it used their active session to sell positions and move funds out of their wallet. The vendor has confirmed the compromise publicly,” Polymarket said.
+The New York-based company said it removed the vendor’s compromised script, paused trading, and reset all active login sessions.
+It redeployed the vendor’s script but added “additional integrity controls and continuous monitoring and verification” that included several more security measures.
+Polymarket added that it has contacted law enforcement about the incident and is conducting its own investigation into the threat actor.
+DebugBear released its own follow-up message saying it is continuing to investigate the incident but initial findings say it was compromised through its domain registrar.
+“We are currently unable to receive emails sent to our domain. Based on our initial investigation this attack targeted the website of a specific customer,” the company said. “We have not seen any indication of a compromise of our internal systems, though we will continue to investigate this.”
+Jonathan Greig
+is a Breaking News Reporter at Recorded Future News. Jonathan has worked across the globe as a journalist since 2014. Before moving back to New York City, he worked for news outlets in South Africa, Jordan and Cambodia. He previously covered cybersecurity at ZDNet and TechRepublic.

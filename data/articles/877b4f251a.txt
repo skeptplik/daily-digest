@@ -1,0 +1,24 @@
+TorchTPU is an open-source project developed by Google in collaboration with Meta that provides a native PyTorch backend for Google TPUs. It enables PyTorch workloads to execute on TPU hardware with minimal code modifications, supporting eager and compiled execution, distributed computing, and hardware-specific optimizations.
+Google began enabling PyTorch workloads to run on TPUs in 2020 through PyTorch/XLA, which leveraged JAX, XLA, and lazy tensors. According to Google, this approach had significant shortcomings:
+Crucially, PyTorch/XLA required intrusive source-code modifications to explicitly define compilable regions, suffered from severe compile-time latency, lacked support for PyTorch's native imperative (“eager”) execution mode, and lagged in supporting emerging distributed computing primitives within the PyTorch ecosystem.
+TorchTPU takes a fundamentally different approach, making eager execution a top priority, and enabling existing PyTorch workloads to run out with minor code modifications.
+Specifically, migrating from GPUs to TPUs involves replacing the cuda device with tpu and the nccl distributed backend with tpu_dist. Alternatively, developers can use the new torch.accelerator.current_accelerator API to identify the available accelerator, as shown in the following snippet.
+import torch
+import torch.distributed as dist
+def main():
+    device = torch.device("cuda") # -> device = torch.accelerator.current_accelerator
+    dist.init_process_group(backend="nccl") # -> dist.init_process_group()
+    rank = dist.get_rank()
+    word_size = dist.get_world_size()
+    ...
+    model = model.to(device)
+    ...
+TorchTPU support three eager execution modes: strict, debug, and DeferAndFuse. The latter is a new hybrid eager/compiled execution mode that Google claims "can be 50% or more faster than Strict Eager while reducing peak HBM memory".
+To test TorchTPU's ability to run existing PyTorch models with no modifications, Google built an integration pipeline to evaluate about 5,000 Hugging Face models across 500+ architectures in both eager and compiled modes on TPU hardware generations starting from v5e.
+We use a robust testing methodology grounded in corpus stratification and balanced architectural selection. Our approach relies on a two-tiered selection process designed to balance real-world adoption with broad architectural diversity, avoiding redundant testing of minor variations while ensuring real production weights are thoroughly evaluated.
+To validate TorchTPU's performance, Google ran a 30-billion parameter Muse Glimmer model implemented in standard PyTorch. On a single TPUv7 chip, inference throughput reached 25.7k token/s at 5120 sequence length and 22.4k token/s at 10,240 sequence length. For training, using four TPUv7 chips, throughput reached 5.6k token/s and 4.6k token/s at 5120 and 10,240 sequence length, respectively.
+Google also conducted experiments using Qwen3 MoE 235B for training workloads, scaling from 1,024 to 8,192 TPUv7 chips. For inference, Google reported competitive performance-per-dollar for large-scale MoE workloads using vLLM.
+Commenting on the announcement, Hacker News user tingkuanpei observed:
+Very interesting work. Google should have done this a long time ago. PyTorch's ecosystem is just so rich.
+Other users pointed out that beyond offering TPUs through GCP, Google sells them to "enterprise client for on premises deployments", which include Anthropic and in Meta following potentially in the future.
+TorchTPU is still at an early stage and therefore in continuous evolution. The project's roadmap include work on dynamic shapes, compilation performance, operator coverage, reinforcement learning, and quantization. For further details, make sure to read the original announcement, which provides a more comprehensive view of TorchTPU's architecture and scope.
