@@ -1,0 +1,29 @@
+The Australian government’s rush to pass the under-16s social media ban legislation in 2024 led to “ill-thought-out, over-broad legislation” that has since been narrowed after Reddit sued the government, lawyers for the social media company told the high court on Tuesday.
+Reddit, one of the top 10 websites visited in the world, has challenged the teen social media ban on the grounds it impinges the implied freedom of political communication for under-16s.
+In oral arguments before the high court on Tuesday, Reddit’s counsel, Perry Herzfeld SC, argued in the years leading up to the ban legislation, a 2021 parliamentary inquiry on social media had not recommended introducing a ban, with the eSafety commissioner warning the inquiry at the time it would be a “blunt force approach”.
+When the government announced the ban in 2024, Reddit argued the legislation was introduced and passed within a week, with only 24 hours of submissions allowed.
+“A process of this kind is likely to lead to ill-thought-out, over-broad legislation,” Herzfeld argued.
+After eSafety announced Reddit would be included in the ban, and Reddit did not accept it met the definition of a social media platform under the law, the company announced the high court challenge to the law in late 2025.
+In March this year, the communications minister, Anika Wells, introduced new rules as part of the legislation that defines additional requirements for social media companies to meet the definition including logged-in features, recommendation features or endless scroll.
+Herzfeld argued the ban does not address those factors specifically by a broad ban on under-16s accounts, and has argued it would be able to under different legislation – pointing to the digital duty of care legislation currently before the parliament.
+Outside the court, Wells told reporters she wasn’t the minister at the time the legislation passed, but said the government’s arguments in response would be made in court.
+Since the ban came into effect in December last year, more than 5 million user accounts the platforms understand belong to people aged under 16 across 10 platforms have been suspended or deactivated.
+The platforms currently covered by the ban include Snapchat, TikTok, YouTube, Facebook, Instagram, Reddit, Kick, X, Twitch and Threads.
+The case centres around whether the effect of the ban limiting political communications is justified by what the government has said is a “credible risk” of harms such as mental health issues, sleeping problems and eating disorder issues.
+Politically engaged teens
+Herzfeld told the court on Tuesday the ban prevents teenagers from actively engaging in political communications through subreddits such as r/Australia. While they can still view the content without an account, they can’t make their own posts, comment or upvote content, Reddit argued.
+Justice Jacqueline Gleeson expressed reservations when pointed to examples of high-profile teens being politically engaged in social media – such as 6News’ Leo Puglisi, who began his news site at the age of 11.
+Gleeson said the “vast majority of teens the vast majority of time” do not engage in politics while under 16.
+When asked whether teens were being limited in engaging in political communication on just those platforms covered by the ban, Herzfeld argued the platforms offer teens a much wider audience compared with “shouting on the street” or being interviewed in the media.
+Herzfeld said the Australian government had also cited a number of studies in its submissions outlining the “credible risks” of harm that the ban is aiming to address, but none of the studies cited had mentioned Reddit. He conceded Reddit was not arguing the parliament had to wait for scientific consensus on the link between the harmful design features of social media and the harms.
+At the end of its argument on Tuesday, Reddit outlined a number of alternatives the government could have pursued, including the digital duty of care bill currently before the parliament, as well as laws prohibiting push notifications, or limiting the time children can spend on the platform, or requiring child accounts to only be allowed with parental control.
+Maximising engagement
+Government barrister Joanna Davidson SC, told the court the design features outlined in the rules, which she said are designed to maximise engagement on the platforms, are “broadly shared” across all 10 platforms, including Reddit.
+Those features include autoplay video, recommendation systems, notifications by default and surfacing the most popular content.
+Davidson said the platforms encourage users to stay to maximise user engagement and bring in more revenue. Those features can have a “compounding” risk of harm when working together.
+When people keep returning to social media for fear of missing out, it can lead to issues such as a lack of sleep, or an increased likelihood of depression, she said.
+Children are more vulnerable to the risks due to their cognitive stage of development, Davidson said.
+The government will continue to make its argument on Wednesday.
+The Digital Freedom Project, led by New South Wales Libertarian MP John Ruddick, adopted Reddit’s arguments against the law, and only sought to be heard on the issue of whether as a group advocating for its members it had standing to bring the case.
+The court heard the group had “at least one” member aged between 13 and 15 who was affected by the ban.
+Ruddick was joined outside the court this morning by the original plaintiff for the case – 16-year-old Noah Jones – and his mother, Renee, as well as One Nation senator Malcolm Roberts. Jones and fellow teen Macey Nyland withdrew as plaintiffs in the case due to the legal cost risk if the case went against them.

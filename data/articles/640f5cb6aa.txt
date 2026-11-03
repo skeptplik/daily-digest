@@ -1,0 +1,25 @@
+Better-than-expected results from Apple for the last quarter of the company’s fiscal year 2026 were overshadowed by rising memory chip costs and a forecast for slower services growth.
+Apple Inc. posted stronger-than-expected revenue in the three months to 26 September 2026, boosted by record September-quarter iPhone sales.
+However, shares fell around 3% in after-hours trading on Monday as investors weighed the strong results against pressure on profit margins.
+Revenue rose 12% to $114.5 billion (€102.1bn) from $102.5 billion (€91.4bn).
+The Cupertino, California-based company earned $30.71 billion (€27.4bn), or $2.10 per share, in the July-September period. That's up 12% from $27.47 billion (€24.5bn), or $1.85 per share, in the same period a year earlier.
+Analysts, on average, were expecting earnings of $1.99 per share on revenue of $113.4 billion (€101.1bn), according to a poll by FactSet. Both figures beat those estimates.
+However, part of the profit improvement came from tariff refunds, which added $0.05 (€0.04) per share to earnings and lifted the company’s gross margin by about one percentage point to 47.9%.
+The quarter included only the first days of sales of the premium iPhone 18 Pro models. Apple’s new foldable phone, the iPhone Duo, started selling in the current quarter, so its sales were not included in these results.
+iPhone revenue rose 17.5% to $57.6 billion (€51.4bn), while Mac sales increased almost 24%. iPad revenue fell 10.4%, while wearables, home and accessories fell 7.9%.
+It’s Apple’s first earnings report since CEO John Ternus took the helm on 1 September, succeeding Tim Cook.
+Ternus highlighted a recovery in Greater China, where revenue rose 21% in the quarter and 28% over the full fiscal year. He said iPhone and Mac sales drove the quarterly growth.
+However, Investing.com senior analyst Jesse Cohen said in a note quoted by MarketWatch that revenue from China, wearables and home devices all came in lower than analysts were expecting.
+A stronger sales outlook, but thinner margins
+On the earnings call, Apple said it expects revenue to increase by between 7% and 10% from a year earlier in the December quarter. The company said this would make it its biggest quarter for revenue.
+But services growth is expected to slow to 8–9%, from 9.8% in the September quarter, when revenue reached a record $31.6 billion (€28.2bn). Apple pointed to pressure from third-party licensing and currency movements.
+Apple expects rising memory costs and spending on the rollout of Siri AI to push its gross margin down to between 45% and 46% in the December quarter, below the 46.3% analysts had forecast. Higher memory chip costs account for most of the pressure.
+However, the company expects revenue to grow by 7% to 10% in the quarter, above the 6.1% analysts had expected.
+Apple has already raised prices on several products this year. It is also trying to limit the impact of higher memory costs by using stock bought at lower prices and reducing spending on other components.
+Apple’s AI spending in focus
+Long criticised for falling behind in AI, Apple is working with partners to improve its services while keeping its own capital spending relatively low.
+This relatively cautious approach to AI infrastructure spending has helped protect its cash flow, according to eMarketer analyst Jacob Bourne.
+He said partnerships with companies such as Alphabet could help Apple improve its AI capabilities without taking on the same financial risks as its peers.
+In September, the iPhone maker confirmed that the models powering its new Siri were built with Google, following a multi-year agreement announced in January**.**
+Apple’s capital spending fell 29% to $9bn (€8bn) over the full fiscal year, although research and development spending rose 32% to $45.8bn (€40.8bn). The company does not disclose how much of either goes towards AI.
+By comparison, Microsoft, Alphabet, Amazon and Meta are expected to spend more than $700bn (€624bn) on capital investment this year, much of it on AI infrastructure, according to analyst estimates.

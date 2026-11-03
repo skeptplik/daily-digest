@@ -12,3 +12,5 @@ There were 18,591 non-merge changesets brought in during this merge window
 the entire (record-setting) 7.3 development cycle.  So far, 2,678
 developers have contributed to 7.4; 625 of them are first-time kernel
 contributors.  Subscribers can find more details in the KSDB 7.4 page.
+The LWN site is currently under high scraper load, so comment display has been suppressed for anonymous users. If you are a human, you may read the comments by clicking the button below:
+Note: you can avoid this step in the future by logging into your LWN account.

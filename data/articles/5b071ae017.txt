@@ -18,3 +18,5 @@ Much of that memory storage runs through data centres which have seen a huge boo
 As demand for memory has grown, storage prices have gone up for tech companies like Apple.
 Cook had earlier this year referred to the sudden increase in data centre costs that Apple was seeing as a "thousand year flood."
 It has led to the company raising prices on essentially all of its hardware products by around 20%.
+Sunil Krishnan from Aviva Investors told the BBC's Today programme that Apple posted "a reasonably solid set of results" with a "pretty good performance" from its iPhone business.
+While there were concerns over the company's guidance on profit margins and the cost of memory chips, Krishnan added that in the broader context, "margins well north of 45% for a very well-established company, I think, are pretty impressive".

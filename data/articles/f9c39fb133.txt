@@ -1,0 +1,29 @@
+More than 100 stores in several European countries saw their fridges and freezers heat up overnight from Sunday to Monday, and several retailers have blamed a cyberattack. The incidents closely resemble the attacks that disrupted European supermarkets three weeks ago.
+The affected businesses, ranging from major chains to small butcher shops, are in Belgium, Estonia, Ireland, Luxembourg, the Netherlands and Sweden. Some units were set as high as 50°C (122°F), and problems have also been reported in Finland, Italy and Portugal.
+Nobody has taken responsibility for the attacks. Investigators have not established whether the two waves are connected.
+The first wave hit France overnight from October 11 to 12. Around 700 supermarkets had their refrigeration units forced into defrost mode, including Intermarché, Carrefour, Coopérative U and Monoprix stores. Food was spoiled, and the attacks reportedly caused fires.
+CERT-FR, the incident response team of France’s cybersecurity agency ANSSI, initially linked the compromises to Danfoss AK-SM and AK-SC series controllers. A day later, it expanded its alert to cover Copeland and Dixell XWEB systems. Danfoss said most of the hacked units were legacy products it no longer updated.
+Exposed Danfoss, Copeland controllers hijacked in new attacks
+The technique appears to be the same. Stephan Moelans, CEO of Belgian refrigeration firm Sabcobel, told the Belga news agency that the attackers forced the units’ evaporators into defrost mode, as happened in France.
+According to Moelans, a software update is not enough to fully resolve the weakness, and the affected equipment also needs to be physically modified.
+Dutch broadcaster NOS reported that, as far as is known, the targeted devices were made by Danfoss and Copeland. An Estonian refrigeration supplier said the units attacked there were older Danfoss models.
+Danfoss said that on October 13 it had told its customers to cut their systems’ internet connections and to reconnect only through a secure network. “Most stores took action at that time, but a small number did not,” a company spokesperson told NOS.
+Security researcher Kevin Beaumont said people he spoke with had confirmed that every freezer hit on Monday had a management interface reachable from the internet. According to Beaumont, many of the devices are end-of-life and have no available patch.
+Officials have not publicly explained how the attackers got in.
+Deception security firm Lupovis told SecurityWeek that, between October 20 and 30, it saw suspicious activity aimed at its Danfoss AK-SM refrigeration controller sensors, including sensors in some of the affected regions. Most of the login attempts relied on factory-default credentials that Danfoss documents publicly, while others appeared to be trying to fingerprint specific Danfoss controller components.
+“The activity peaked on 26 October, and importantly, we had not observed this behaviour on these sensors before 20 October. All authentication attempts were rejected by our sensors,” said Lupovis CEO Xavier Bellekens, adding that the timing is noteworthy.
+Censys has found just over 1,000 Danfoss StoreView interfaces reachable online worldwide. “France continues to lead Danfoss StoreView exposures globally, followed by Belgium and the US,” the internet intelligence firm said.
+The number of exposed StoreView instances in France has fallen sharply, from 1,825 before the October attacks to 220 at the time of Censys’ latest analysis.
+By matching firmware build dates, Censys estimates that 41% of the French instances still online run a patched version. It counted 138 exposed instances in Belgium, 51 in the Netherlands and 50 in Sweden, of which 68%, 37% and 58%, respectively, appear to be patched.
+Only a handful of exposed instances were seen in Luxembourg, Ireland and Estonia. Censys did not indicate whether any patched devices were among those compromised on Monday.
+Belgium among hardest hit
+Belgium appears to have taken the biggest hit. Delhaize said an IT incident disrupted refrigeration at several dozen of its stores, Carrefour counted 15 affected locations out of more than 700, and Colruyt said five franchised Spar shops were attacked.
+An IKEA store in Mons was hit as well, and the Belgian federal prosecutor’s office has opened an investigation.
+In Luxembourg, four Delhaize outlets were affected. In Ireland, SuperValu pulled chilled and frozen products from 13 stores where one specific refrigeration model was impacted.
+Swedish grocer ICA confirmed that a limited number of its stores were impacted, while Coop reported problems at a handful of locations. An ICA store manager said they had to throw out significant amounts of food.
+In the Netherlands, Danfoss said the systems of at least 17 businesses were hit, mainly butcher shops and small grocers.
+Finnish retailer Kesko said a few of its smaller stores had temperature disruptions. In Italy, the operator of several Coop-branded supermarkets in Sicily alerted the national cybersecurity agency, and in Portugal, the Mosqueteiros group confirmed incidents at seven Intermarché stores.
+EU agriculture commissioner Christophe Hansen called the attacks a deliberate bid to disrupt the food supply chain and erode consumer trust. “The repeated occurrence of these cyberattacks is deeply concerning,” he said.
+Hansen said the bloc’s food security is not under threat for now, but he acknowledged the food that had to be thrown away and the harm to businesses.
+Related: Long-Hidden Flaws Patched in EPICS Research Facility Control Software
+Related: Industrial Vendors Check Products for PHP2Shell Vulnerabilities

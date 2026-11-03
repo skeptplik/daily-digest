@@ -1,4 +1,29 @@
-What the latest on mRNA vaccines means for cancerOne patient in a small trial is experiencing the fantasy results so far with an mRNA pancreatic cancer vaccine. She shows no evidence of the cancer that was supposed to kill her years ago.
+What the latest on mRNA vaccines means for cancer
 One patient in a small trial is experiencing the fantasy results so far with an mRNA pancreatic cancer vaccine. She shows no evidence of the cancer that was supposed to kill her years ago.
-NPR does not offer or accept money for coverage or interviews.
-Anyone who makes such an offer or request is not an NPR employee and does not represent NPR.
+AILSA CHANG, HOST:
+It's been a big year for cancer vaccines using mRNA. Drug makers Merck and Moderna just released results from the first major successful trial of mRNA vaccines for skin cancer, which showed big reductions in recurrence and death. NPR health correspondent Yuki Noguchi visited another mRNA vaccine lab and reports on why interest is running high.
+YUKI NOGUCHI, BYLINE: Donna Gustafson is living a cancer patient's fantasy. She sits dressed in a slim black dress, sharing glances with Ed, the husband she married 50 years ago. The 72-year-old retired accountant shows zero evidence of the pancreatic cancer that was supposed to kill her years ago.
+DONNA GUSTAFSON: I have had 100% quality of life. I am back to where I was prior.
+ED: She's better than that.
+NOGUCHI: I was just going to say, is she sassier?
+ED: She's sassier, and she is in the best shape of her life. There's no question about that.
+NOGUCHI: Seven years ago, Gustafson became the world's first recipient of an mRNA vaccine designed to treat pancreatic cancer. Gustafson's was a personalized version, designed using samples of her tumor, aiming to reprogram her immune cells, training them essentially to recognize distinctive mutant proteins on cancerous cells and kill them. A combination of technologies using mRNA, genomics and AI helped create these vaccines, which are also being tested on lung, kidney, bladder and brain cancers. But researchers don't yet understand why some trials have failed while others show eye-popping results in the form of people like Gustafson. Gustafson says she wasn't scared to be first testing this concept against pancreatic cancer.
+GUSTAFSON: It was a no-brainer. I knew that statistically, the odds of my survival were low, and I was very happy to be offered some type of hope.
+NOGUCHI: She was part of a small clinical trial on 16 patients. She received nine doses of the vaccine in all, along with surgery and chemotherapy. The vaccine worked on eight patients, seven of whom are still alive. What's more, she says, the shots felt nothing like chemotherapy.
+GUSTAFSON: I had no symptoms, no side effects to the point where I was actually worried that maybe it was not helping.
+NOGUCHI: But it was, very swiftly. Surgeon and scientist Vinod Balachandran ran the trial at Memorial Sloan Kettering Cancer Center. In the lab, Balachandran points to a computer screen of green lines tracking reproduction of immune cells.
+VINOD BALACHANDRAN: This is - Donna, this is your response.
+(LAUGHTER)
+NOGUCHI: Balachandran notes the spike in the lines.
+BALACHANDRAN: Ten thousand fold expansion.
+NOGUCHI: The lines shoot up, then remain high and flat, reflecting how Gustafson's immune system mass produced cancer-attacking cells that sustained years beyond her last shot.
+BALACHANDRAN: This tells us that that response lasts.
+NOGUCHI: It was that strength and durability of response, Balachandran tells me, that for him blew open the possibility of mRNA vaccines.
+BALACHANDRAN: Well, if you can generate such a strong immune response in the most toughest of cancers, could this similarly develop cancer vaccines for a broad array of human cancers?
+NOGUCHI: The technology is now at an inflection point with patients, doctors, researchers and investors. The National Cancer Institute is working on a partnership with private companies to fast-track research and development of more mRNA cancer vaccines. Balachandran and Sloan Kettering are part of that, with plans to expand manufacture of personalized vaccines for patients on site next year. Donna and Ed Gustafson say they still feel overwhelmingly lucky.
+GUSTAFSON: I saw two more grandchildren be born and grow, many birthdays, holidays and Christmases with my family.
+ED: We've done so many things. We've actually done much more than we probably would have done, you know...
+GUSTAFSON: If we did not have this experience.
+ED: Like, honestly, we just live every day for the day now.
+NOGUCHI: Yuki Noguchi, NPR News, New York.
+Copyright © 2026 NPR. All rights reserved. Visit our website terms of use and permissions pages at www.npr.org for further information.

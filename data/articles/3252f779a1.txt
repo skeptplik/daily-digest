@@ -1,0 +1,37 @@
+The UK government's ambition of achieving net zero carbon emissions by 2050 could be undermined by its new deal on AI data centres, according to BBC research.
+During Wednesday's Budget speech, Chancellor John Healey said data centres would be allowed to build onsite power generation while they wait for a grid connection.
+BBC File on 4 Investigates has discovered that four planned "hyperscale" data centres - including three in the south of England - are already considering using gas-fired power to meet their electricity needs, creating more CO2 than the cities of Manchester, Liverpool and Southampton combined.
+Labour MP Toby Perkins, who chairs the Environmental Audit Select Committee, said a substantial increase in the use of natural gas "can't be the future".
+"Government absolutely shouldn't be in the business of just saying anyone who wants to bring it here, can do whatever you like to power it, because that is not acceptable," he said.
+The government said data centres were "essential to Britain's economy" and that its new Data Centre Covenant set clear expectations for developers to pay a fair share of the costs they impose on the energy system and deliver benefits for local communities.
+Data centres are warehouses full of powerful computer servers used to run a vast range of digital services, including streaming, banking and public services and have been part of the British landscape for more than two decades.
+But a new generation of data centres due to come on stream in the next few years will operate on a much larger scale to cope with the growing computing demand needed for increasingly sophisticated artificial intelligence technology.
+They will consume considerably more energy than their predecessors at a time when the National Grid is already struggling to meet demand.
+Ofgem, the energy market regulator, says data centre developers are seeking connections totalling 72 gigawatts. The peak electricity demand across the whole country last year was 45 gigawatts.
+Such is the demand for access to the already under-strain national electricity grid, some data centre developers have been told they could be waiting up to 10 years for the system to be upgraded to provide them with a connection.
+Nathan McWhinnie, head of market intelligence and oversight at Ofgem, said: "In a lot of places, the grid is at capacity. I think sometimes it's easy to forget the scale of the demand of these connections. These projects are sometimes the size of cities."
+In last week's Budget, the chancellor announced a British Data Centre Covenant, requiring operators to invest in local communities, create jobs and protect water supplies in return for priority grid connections.
+But he also said that where grid connections were unavailable, developers would be permitted to generate their own power on-site.
+BBC File on 4 Investigates has discovered that four data centres are already looking at using gas-fired power stations to meet their electricity needs.
+If continuously running at full capacity, our calculations show they would require 1.3 gigawatts of power and could produce an estimated 4.1 million tonnes of carbon emissions a year. This could be more than the cities of Manchester, Liverpool and Southampton combined.
+Oliver Hayes, head of campaigns at environmental charity Global Action Plan, said: "If we're powering by gas that means local communities are going to have huge gas turbines on their doorstep, and they are going to be generating a huge amount of local air pollution and a huge amount of noise and they will be using a huge amount of water from the local water supply."
+The developments already considering on-site gas vary in scale.
+At Acre Slough, west of London, developers say they could use gas engines with a generating capacity of up to 49.5 megawatts while waiting for a National Grid connection, something they expect could take at least 10 years.
+At Wapsey's Wood, next to the M40 in Buckinghamshire, a proposed 200-megawatt gas power station could operate until sufficient grid capacity becomes available, currently not expected until 2040.
+"It would be a disaster for us environmentally," said Buckinghamshire independent councillor Ed Gemmell, who also leads the Climate Party.
+"If allowed, it sets a precedent that we could be getting gas-fired power stations all over the country and that would make it extremely difficult for us to hit any of our environmental and net zero targets."
+Is it time to press pause on AI data centres?
+An increasing number of large AI data centres are waiting in the UK energy supply queue - but will meeting that demand derail the road to net zero?
+3 November
+Quest Park has proposed building a data centre on the site of a quarry pit next to the planned Universal theme park in Bedfordshire. It would have a power load - the total amount of electrical power drawn at any given time - of 1 gigawatt, the equivalent to 200,000â250,000 average UK homes.
+David Kohler, director of Quest Park, has previously told the BBC the company's energy mix was still a "work in progress" and that incorporating renewable power was "sensible" but had to be "feasible".
+He said creating 1 gigawatt of solar electricity would require an area equivalent to 15% of Bedfordshire, and that wind power was "intermittent and expensive".
+He said the company was considering alternative technologies that did not rely on gas combustion.
+In Cardiff, a data centre developer is also seeking permission to build a temporary energy centre that has turbines with a maximum generating capacity of 49.9 megawatts.
+Planning documents say it could operate for up to five years if the site cannot secure an electricity grid connection quickly enough. Developer Curtis Hall has described the turbine plan as a "worst-case scenario".
+All four projects say they intend to connect to the national grid when it can meet their electricity needs, reducing their reliance on fossil fuels.
+The government said its priority was connecting data centres to the grid so they could benefit from the UK's rapidly decarbonising power sector.
+It said any behind-the-meter power generation would be tightly controlled, time-limited and allowed only for exceptionally strategic projects where sufficient capacity could not be secured by other means.
+A government spokesperson added: "Data centres are essential to Britain's economy, supporting everything from online banking to NHS services.
+"Pausing development would send jobs, investment and data overseas and leave us more reliant on other countries for critical digital infrastructure. That's why we're backing their growth while making sure it's done responsibly.
+"Our new Data Centre Covenant sets clear expectations for developers to minimise water use, pay their fair share of energy costs and deliver benefits for local communities."
