@@ -1,0 +1,32 @@
+Supermarkets across Europe have been hit by a suspected cyber-attack affecting their fridges and freezers, and raising concern about the vulnerabilities of internet-connected hardware from industrial machinery to humble domestic appliances.
+Smart devices which are connected to the internet can include fridges, central heating, and even washing machines.
+And while that makes them easier to control remotely, in theory, any device which goes online can potentially be exploited by malicious actors.
+However, that doesn't mean hackers can easily take control of it, and big brands generally go to great lengths to make sure their tech is secure.
+Exploits have been found before in some devices. In 2015, researchers demonstrated how a vulnerability in a Samsung smart fridge could allow them to intercept internet traffic.
+But there's no evidence domestic appliances are being targeted in the cyber-attacks which targeted supermarkets in November.
+Ciaran Martin, former chief executive of the UK's National Cyber Security Centre (NCSC) says manufacturers needed to do more to make connected devices secure.
+"There's a lot more that we need to demand of big tech to give us safer devices and products in the first place," he said.
+He advised consumers to keep devices updated and enable multi-factor authentication wherever possible.
+"I know it's a pain, but it only takes a few seconds," he said.
+Since April 2024, UK law has required manufacturers of certain consumer smart devices to meet minimum cyber security standards, including requirements around passwords and security updates.
+The NCSC said it was working with international partners and industry to understand the supermarket incidents, but it was unaware of any impact on the UK.
+However, researchers from UK Cyber Defence have identified more than 800 refrigeration and building-control interfaces associated with British retailers that can be accessed over the public internet.
+That doesn't necessarily mean they can be hacked, but it could leave them exposed to attackers exploiting weak passwords or software vulnerabilities.
+The government has already held talks with senior food retailers about cyber resilience, following earlier attacks on supermarkets.
+Helen Dickinson, chief executive of the British Retail Consortium, has said cyber incidents are a major concern for retailers, with businesses working alongside the NCSC to share intelligence and strengthen their defences.
+It would not be the first time that hacks have raised concern about impact on food supply.
+When UK supermarkets M&S and the Co-op were targeted by ransomware hackers in May 2025, the retailers struggled to stock some shop shelves with fresh deliveries.
+Customers across the UK complained of empty shelves in the days following the attack.
+Tom Hegel, a researcher at cyber-security firm SentinelOne, said retailers must be clearer about responsibility.
+"The question retailers need to answer is who owns the security of that equipment, not just who repairs it," he said.
+He said internet connectivity can make everyday technology more convenient, but security needed to keep pace.
+"Once an attacker can operate those controls, legitimate functions such as defrosting become tools for disruption," he said.
+"Changing a setting can destroy physical stock, not just interrupt a computer system."
+Could cars, power plants and water supplies be vulnerable?
+Outside of the home, connected tech is used to remotely manage industrial machinery and vehicles.
+Cyber security expert Ken Munro pointed to a 2015 demonstration in which researchers remotely hacked a Jeep through its internet-connected entertainment system, prompting improvements in vehicle security.
+"Fortunately, the vehicle industry woke up to this and fixed the problem," he said.
+Mobile connections are also widely used to monitor equipment in power plants and water networks, allowing engineers to manage systems remotely.
+Munro said UK utilities were generally good at securing these connections, but standards varied around the world.
+His biggest concern was smaller, poorly funded utility companies which may still be relying on older, vulnerable equipment.
+Without proper protections, "any factory or equipment" connected to the internet - ranging from carmakers to electricity or transport infrastructure - could face similar risks, said Olivier Daloy, a cybersecurity expert at Zscaler.

@@ -1,0 +1,7 @@
+The New York Times sued Brave, the 11-year-old, privacy-focused browser company, on Monday, alleging it scraped the outlet’s copyrighted content and unlawfully distributed it to customers the suit names as Anthropic, Perplexity, Mistral, xAI, and Cohere.
+Separately on Monday, the Daily News, the Chicago Tribune, and the Orlando Sentinel filed a similar lawsuit. Both were brought in federal court in Manhattan.
+The New York Times, which has also sued OpenAI and Perplexity over similar claims, likens Brave to a “supplier, dealer, and distributor of stolen copyrighted content” for AI companies.
+“In this way, Brave acts both like a burglar that misappropriates the content of publishers, and an AI ‘fence’ that sells stolen content to third parties,” the suit reads. It says Brave built an index of more than 30 billion web pages using an unidentified crawler, leaving publishers unable to block it.
+The suit also targets a Brave browser feature that bypasses paywalls and the company’s practice of blocking publishers’ ads while selling its own.
+Founded in 2015, Brave has raised roughly $250 million to date, according to private-market trackers. The Times seeks an injunction and damages.
+Brave did not immediately respond to a request for comment.
