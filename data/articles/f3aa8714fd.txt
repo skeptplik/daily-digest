@@ -6,5 +6,3 @@ Shutting the Door on the XCPE Botnet (Threat Intelligence)
 	gain by Videostrong Technology Co., an Android Original Equipment
 	Manufacturer (OEM) and Original Device Manufacturer (ODM).
 Videostrong monetized the backdoor by selling access to criminal affiliates and loading those affiliates' malware modules onto infected devices. These secondary modules were conducting ad-fraud; silently enrolling infected devices into residential proxy networks; and loading additional malware onto XCPE-compromised devices.
-The LWN site is currently under high scraper load, so comment display has been suppressed for anonymous users. If you are a human, you may read the comments by clicking the button below:
-Note: you can avoid this step in the future by logging into your LWN account.

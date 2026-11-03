@@ -11,8 +11,12 @@ The TraderTraitor unit, which is also known as the Lazarus Group, was blamed for
 Pyongyang has systematically built its cyber operations, recruiting promising students from universities and sending them to hacker units overseen by North Korea's intelligence agency, research groups like the S Rajaratnam School of International Studies think tank have said.
 The country has consistently denied such claims.
 Kim Yo Jong said "it is the consistent policy stand of the DPRK government to resolutely oppose all sorts of malicious acts in cyberspace".
-The BBC has contacted Binance for comment. Since the hack, the crypto giant has largely focused its public statements on the technical nature of the breach and its response to protect users.
+Binance did not respond to the BBC's queries about North Korea's alleged involvement in the hack.
+Since the incident, the crypto giant has largely focused its public statements on the technical nature of the breach and its response to protect users.
+The company's spokesperson said that a net $4.72bn has been withdrawn from the exchange since transactions resumed on Sunday.
+The net outflow represents a "relatively limited portion" of Binance's total assets, which stand at approximately $157bn, the spokesperson told the BBC on Tuesday.
+That figure reflects the impact of the hack, subsequent withdrawals and market price changes.
+"Withdrawal levels are stabilising to what we would consider normal and expected on-chain activity," she added.
 The company said last week that initial checks indicated that an engineer's laptop had been compromised, enabling an attacker to make unauthorised withdrawals.
 Trading in major cryptocurrencies on Binance has since resumed after the exchange worked with issuers to freeze assets impacted by the hack.
-A net $5.27bn has been withdrawn from the exchange since transactions resumed on Sunday, according to data posted on Tuesday by Binance. It also said the level of transactions has now stabilised.
 The company has repeatedly said it would cover all of the losses linked to the attack and that it has so far covered around 95% of the assets stolen in the breach.
