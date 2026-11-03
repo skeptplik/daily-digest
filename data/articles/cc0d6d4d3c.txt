@@ -1,0 +1,100 @@
+EU food commissioner says fridge hacks aimed at 'disrupting food supply'
+This latest wave of cyberattacks targeting supermarkets across Europe is “a deliberate attempt to disrupt” the EU’s food supply, says Christophe Hansen, the European Commissioner for Agriculture and Food.
+He added it was also aimed at undermining the public’s confidence, and while “food security is not currently at risk, ... the food waste and impact on businesses are real.”
+Reuters has a quick snap that an EU spokesperson has said it will continue to work with member states over the fridge and freezer cyber-attacks reported earlier.
+The spokesperson insisted the EU had several tools in place to deal with such incidents, but that it showed that cyber-attacks can disrupt the daily lives of citizens.
+Three men accused of causing a deadly explosion in the heart of Athens’ tourist district by allegedly stealing copper piping from the local gas supply network were appearing in court Monday for a preliminary hearing, AP reports.
+The September blast killed six people when it caused the collapse of a two-story residential building in the Greek capital’s historic Plaka district, near the ancient Acropolis. The three suspects allegedly removed piping from the building’s gas supply network to sell the copper as scrap, and face charges including arson, manslaughter with possible intent, causing a deadly explosion and causing dangerous bodily harm.
+Back to the political crisis in Belgium for a moment where earlier this morning prime minister Bart De Wever tendered his resignation to King Philippe. A statement said Philippe was “withholding his decision” for now.
+The Brussels Times reports that “De Wever will visit Philippe again on Friday, when the king will make a final decision on his resignation.”
+De Wever’s move came after the five-party coalition he leads could not agree on a budget. If his resignation is accepted, then either another party might be invited to attempt to form a coalition based on the existing parliamentary balance, or new elections may be held.
+Irish and Estonian supermarkets also targeted in freezer cyber-hacks
+SuperValu, Ireland’s third-largest supermarket chain, says it’s also had some of its freezer temperatures in-store tampered with, in this second wave of suspected cyber hackings of supermarkets across Europe.
+SuperValu said a cyber incident had taken place at 13 of its 233 stores – and that it’s also been forced to throw out chilled and frozen products that have spoiled.
+In Estonia, a manufacturer of the affected fridge technology said one its clients had been affected, and the cyber-hackers had gotten into a computer controlling the refrigeration levels and turned the temperature up to 50C. The Selver chain said one of its stores was affected.
+As we’ve been reporting, supermarkets across Sweden, Belgium and Luxembourg all experienced this temperature- control meddling overnight.
+In Belgium, affected chains include Spar, Carrefour, Delhaize, Intermarche, and in Sweden, ICA, Coop and Axfood.
+Carrefour said 15 of its stores in Belgium had been affected by the hack. The chain was targeted in a mass cyber attack in France last month.
+“It’s a cyberattack, there is no other reason,” Carrefour Belgium spokesman Mich Vergauwen told AFP news agency, but noting the “impact is very limited”.
+He said 15 stores among 700 in total were affected but not every refrigerator was impacted.
+Russia resumes attacks, with fortified positions, after Oleshky ceasefire
+Luke Harding
+The fake nuclear threats to Ukraine came as Russia resumed its attacks on the southern city of Kherson, just hours after the end of a ceasefire during which hundreds of people were evacuated from the nearby Kremlin-controlled town of Oleshky.
+Kherson’s military administration said a Russian drone hit a hospital at 7.40am. Video footage showed wrecked rooms, with windows blown out, doors broken, and debris on the street. Nobody was hurt, officials said.
+There is evidence that the Russian army used the six-day ceasefire to strengthen its positions in Oleskhy and to rotate in new troops. Bodies of dead civilians were also removed from a hospital morgue.
+Footage shared with Sky News showed Russian soldiers deploying heavy military equipment and delivering ammunition. They carried large bags into burned out houses and buildings and disappeared into basements, the broadcaster reported.
+Armoured vehicles were spotted moving around Oleshky’s streets. The occupied city is 3 miles from Kherson, on the opposite bank of the Dnipro River. Before last week’s truce, resupply was difficult because of the threat from Ukrainian kamikaze drones.
+According to the commander of Ukraine’s 34th Separate Marine Brigade, Dmitry Pulinets, Russian soldiers were previously unable to drive in the city, “neither during the day, nor at night, nor in bad weather”.
+“Now they have this opportunity. And for the last few days this movement has been happening constantly,” he told Sky News.
+The ceasefire expired at 11pm on Sunday. Both sides hailed the local pause in the fighting – the most significant since 2022 – as a success. Ukraine’s ombudsman, Dmytro Lubinets, who visited Oleshky to coordinate the mission, said it could be repeated on other parts of the frontline.
+However, Vladimir Putin’s spokesperson Dmitry Peskov said on Monday there were no plans for another truce elsewhere. He said it was “standard practice” for army units to regroup in “such circumstances” and added that he assumed Ukraine’s armed forces had “done the same”.
+'I was briefly terrified'- Kyiv residents on fake nuclear warning
+Luke Harding
+My colleague, Luke Harding in Kyiv, has also filed this dispatch from the Ukrainian capital where residents received those fake alerts last night, saying they were at risk of an imminent nuclear strike.
+Many residents ignored the alerts, which began shortly before 11pm local time, assuming that the app had been compromised.
+Others were scared. “I was briefly terrified,” one woman, Nina, said. “I lay on my bed and wondered what was coming.”
+The app reported a high possibility of nuclear radiation late on Sunday. It also wrongly warned of a chemical threat to the Ukrainian capital and street-to-street fighting. The messages were written in English with spelling mistakes, as well as in Ukrainian.
+A message written in Russian also claimed Ukraine was about to be hit by Oreshnik missiles, which can carry nuclear warheads. The Kremlin has used the ballistic weapon three times before, hitting the Kyiv region, and the cities of Dnipro and Lviv.
+It was unclear on Monday who might have carried out the cyber-raid, or why. Russian officials claimed hackers had also sent fake emergency alerts there after gaining access to the app of the ministry for emergencies, based in Moscow.
+One of their posts mentioned the hacking group Hitcore. Mash, a Russian Telegram channel with links to the security services, said it had spoken to representatives of Hitcore and that they had claimed responsibility for the attack. The report could not be verified.
+My colleague, Jon Henley, is covering this latest wave of supermarket fridge cyber-attacks.
+He notes that in the France attacks last month, hackers had remotely overridden the settings on thousands of freezers, fridges and chiller cabinets, pushing them from as low as -27C to well over 50C.
+Stores had to discard vast quantities of fresh meat, dairy and frozen products, with many suffering losses ranging from tens of thousands of euros to more than €130,000 (£109,000). Two stores in Alsace reported a combined loss of €270,000.
+The Intermarché, Coopérative U, Carrefour, Leclerc and Monoprix chains were among those affected.
+Most supermarket cold aisles are connected to the internet to allow remote maintenance and alerts for system failures.
+In the French attack, the hackers pirated controllers mostly supplied by the Danish company Danfoss. They disabled alarm systems before adjusting the thermostats or extending the defrost programme by hours.
+More supermarket fridge hacks reported in Sweden, Belgium and Luxembourg
+Another hacking threat has appeared to resurface again: Supermarket operators across Sweden, Belgium and Luxembourg are reporting that the temperatures in their freezers were raised overnight, leading to huge quantities of spoiled food and other damage.
+We saw this sort of attack affect French supermarkets en masse last month – where the fridges and freezers in hundreds of supermarchés were hacked and had their internal temperatures raised.
+That led to in-store fires and a loss for supermarkets like Carrefour estimated to be in the hundreds of millions.
+This morning, Ahold Delhaize, the Dutch multinational company which operates the Delhaize chain in Belgium and Luxembourg said dozens of its stores had been hit be an “IT incident’. Last month it had also reported hacks in its Albert Heijn stores in the Netherlands. It also operates supermarket chains in Greece( Alfa-Beta Vasilopoulos), Romania (Mega Image) and Serbia (Maxi).
+Colruyt, which operates Spar stores in Belgium has also said five shops had their fridge systems attacked.
+Swedish supermarkets ICA and Coop have also reported incidents. ICA said the freezer temperature at one store had been set to 50C, similar to the France hacks.
+Russian emergency ministry app hacked hours after Ukraine attack
+In Russia, authorities said this morning that hackers had gained access to the Emergency Ministry’s mobile app and sent out “fake information”.
+The Emergency Ministry said it had to take the app offline temporarily but reassured residents that the wider alert system – SMS texts, broadcasts, street sirens and loudspeakers – was still in operation.
+The Russian ministry didn’t say who was to blame for the attack. But Ukrainian media reported claims from Ukrainian cyber group Atesh that they were responsible for sending messages, which also contained nuclear threats.
+One of the messages reportedly told residents, there was “a risk of getting lively” and warned them to “stock up urgently on food for three weeks and hide”.
+Belgian king 'considering' PM's resignation offer, criticises budget stall
+An update in now on the Belgian PM, who’s just left the royal palace where he had a 90minute meeting with the king to offer his resignation.
+The palace says that the King is “considering his decision and will consult with the party leaders of the various coalition partners starting tomorrow.”
+Prime Minister Bart De Wever had offered his resignation to the king this morning after failing to pass a budget and coalition party talks breaking down last night.
+The king admonished the lack of accord between politicians in the current environment of “great geopolitical uncertainty”. His statement reads:
+The king regrets that no agreement has been reached on a credible budget aligned with current challenges.
+In a context of great geopolitical uncertainty and significant economic challenges, the country cannot afford a prolonged political crisis.
+'Disinformation as much a part of war as bombs and bullets'
+Frances Mao
+Back to the cyber warfare we saw last night in the app hacking in Ukraine, and then Russia.
+As I noted earlier, this was direct attack on a core channel of communications between Ukrainian authorities and citizens; this app is embedded in everyday life in a war zone.
+And while the full impact of the hack is still unclear – how many Ukrainians were deceived and believed the warnings for example - residents nonetheless have described how alarming it was getting a message on their phone warning of potential nuclear warfare.
+Cyber-warfare expert Don Smith, from IT security firm Sophos, says these sorts of attacks are aimed at grounding down people’s mental toughness.
+Disinformation is as much a part of war as bombs and bullets. Targeted information attacks could aim to impact the mental resilience of the people of Ukraine.
+Their resilience is a key part of their ability to defend against the Russian military.
+However he noted the ameaturish nature of this attack. One of the message sent out, in Russian, was almost jokey and casual in tone, reading: “Hi! There will be a nuclear alert across Ukraine. Don’t worry, it’s Oreshnik flying”, a reference to Russia’s hypersonic missiles which can pretzel and outpace most interceptors.
+Usually the best information warfare is not obvious or explicit, where this very clearly is. It could indicate desperation from Russia.
+Belgian PM meeting with King to tender resignation
+Belgium’s prime minister Bart De Wever is handing in his resignation this morning following failed attempts to pass a budget, local media are reporting.
+De Wever has been trying to get budget cuts through, and failed in late-night coalition talks yesterday to secure a compromise.
+He arrived at the Royal Palace in Brussels this morning to meet with King Philippe, Belgian media say.
+However they report he may be instructed to try and secure a deal again, by a certain deadline.
+In Kyiv, residents received a succession of unusual alerts late on Sunday night over the period of roughly an hour.
+Typically, people can receive several alerts a day warning of incoming Russian drones or missiles; locals after four years of living in a warzone are used to their phones going off, often followed by sirens in the street.
+But these messages warned of radically different threats- a nuclear radiation warning, a chemical attack and even an incident of street fighting in Kyiv.
+One of the messages was also transmitted in Russian, a clear tell that something was potentially off.
+The messages sent out were:
+22:47: “Radiation threat. Radiation threat declared in Kyiv.”
+22:48: “Hi! There will be a nuclear alert across Ukraine. Don’t worry, it’s Oreshnik flying” [This message was written in Russia]
+22:49: “Chemical threat. There is a threat of a chemical attack on Kyiv. Don’t go outside.”
+22:49: “Street fighting threat. Street fighting is taking place in Kyiv. Don’t go outside.”
+23:53: An all clear is sent out
+Ukrainian authorities within the hour had publicised messages on Telegram saying they believed the app system had been compromised.
+The air raid alert channel said “unauthorised parties” had interfered with the system, which had been temporarily taken off line. It urged users to not click on links in “suspicious notifications”.
+The Air Force wrote on Telegram: “The Air Alarm application has probably been subjected to hostile interference. There is no radiation threat! Stay calm and follow our updates on our channel.”
+Good morning and welcome to our live coverage of key events in Europe.
+Ukraine and Russia have reported corresponding cyber-hacks on their app warning systems overnight.
+These are the mobile apps which send alerts and air-raid warnings, alerting citizens to when missiles and drones are incoming (and thus advising residents to seek shelter or go down to a bunker).
+This appears to be the first breach of the app, on such a scale, during the war so far; directly immobilising one of the most important channels of communication authorities have to help advise citizens.
+In the Ukraine hack, the app started spewing out alarming fake messages late on Sunday night – warning residents of a nuclear radiation threat in the capital Kyiv, a chemical attack, street fighting and also incoming Oreshnik hypersonic missiles, which Ukraine lacks interceptors for.
+Ukraine’s Air Force issued clarification within the hour on Telegram, urging people to remain calm and disregard the messages, one of which was written in Russian.
+Some hours later, Russian authorities said its warning app had been hacked and had to be taken offline. A Ukrainian hacker group has claimed to have sent fake alerts warning of nuclear warheads to users inside Russia.
+Amid the cyber warfare overnight, both sides also carried out strikes, targeting energy sites like oil refineries. Strikes have been reported in Zaporizhzhia and Odesa.

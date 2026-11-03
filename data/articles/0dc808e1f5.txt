@@ -1,5 +1,0 @@
-Thank you for visiting nature.com. You are using a browser version with limited support for CSS. To obtain
-the best experience, we recommend you use a more up to date browser (or turn off compatibility mode in
-Internet Explorer). In the meantime, to ensure continued support, we are displaying the site without styles
-and JavaScript.
-Marc Schmitt argues that the danger of artificial intelligence lies in passive use, and that universities should teach students to argue with AI models and assess how well they do so (see M. Schmitt Nature657, 575; 2026). One measurement is missing. Assessing how a student spars while the model is present captures performance with the partner in the ring, not what the student can do once the partner leaves. The two can diverge: in a randomized trial involving secondary-school mathematics students, unrestricted chatbot access raised practice scores, but lowered performance on a subsequent exam taken without it (H. Bastani etal. Proc. Natl Acad. Sci. USA122, e2422633122; 2025). An evaluation that stopped at the assisted session would have called that tutor a success.

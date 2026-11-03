@@ -1,0 +1,3 @@
+More companies in Japan have been taking out cybersecurity insurance policies in the wake of several high-profile data breaches, including last week’s attack on GMO Internet Group, with such cases highlighting just how big a financial risk such hacks pose to businesses.
+Cybersecurity insurance normally covers compensation for costs arising from data breaches such as hacking, internally caused cyber leaks and, in some cases, IT security assessments to prevent similar data compromises from happening in the future.
+It also covers costs for conducting digital forensic analysis to identify cyberattackers and where vulnerabilities lie in a company’s IT systems, as well as the loss of business opportunities caused by data leaks.

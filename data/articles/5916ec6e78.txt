@@ -1,0 +1,31 @@
+Ukraine and Russia have both said air alert apps were hacked on Sunday night after fake messages warning of attacks, including nuclear, were sent to users.
+Ukraine's widely used app sent red-level air raid warnings across the country, with additional warnings of radiation, chemical attacks, and street fighting sent to some residents in areas including Kyiv.
+A few hours later, Russian authorities said a similar app was hacked after fake alerts, some of which contained foul language, were triggered.
+It was unclear who was behind the cyberattacks or whether the two incidents were connected.
+Many Ukrainian citizens are used to receiving almost nightly alerts warning of incoming Russian missile and drone attacks. Some told the BBC that, four and a half years into the war, they have disabled the app altogether.
+After Sunday night's hack, the country's air force urged people to consult other official channels.
+In a post on Telegram, the air force said: "The Air Alarm application has probably been subjected to hostile interference. There is no radiation threat! Stay calm and follow our updates on our [Telegram] channel."
+The government said it had temporarily disabled the app for maintenance, saying it had "apparently been compromised".
+Some of the fake warnings were written in Russian, which would have alerted many users to the fact they were not legitimate.
+But Olena, a Kyiv resident, told BBC Radio 4's Today programme she had been alarmed, saying: "The first thought was 'oh my god, I'm not prepared for this'.
+"I'm prepared for blackouts, for a cut in central heating and water supply, but not for nuclear attack."
+Olena says her husband then received alerts for "street fighting attacks in Kyiv" and another alert, written in Russian.
+"After that I understood that somebody had attacked the app, because all notifications we get in Ukrainian."
+In Russia, the government said one of its air raid alert apps had also been targeted by "a massive cyberattack", which sent "fake information to the public".
+A purported screenshot of a fake alert was shared on Telegram by Atesh, a partisan Ukrainian group operating inside Russian-held territory.
+It warned some users that "nuclear warheads mounted on P1-Suns [a Ukrainian attack drone] had been launched at all regions of Russia".
+The alert, which included profanities, opened with a message telling residents there was a "risk of [things] getting lively" and told them to "stock up urgently on food for three weeks and hide".
+On Monday morning there was no sense the messages had caused widespread panic in Russia and the incident did not feature prominently on media outlets.
+Asked about the breach, Kremlin spokesman Dmitry Peskov did not address it specifically but said all Russian government internet resources were "one way or another... under constant cyberattacks", including the presidential site, which is targeted "round the clock".
+He said the proliferation of AI technology was contributing to an increase in cyberattacks.
+Russia's emergencies ministry said on Monday that the app's "full functionality will be restored by the end of the day" and the hack had not impacted the wider alert system.
+While both Russia and Ukraine are widely believed to carry out cyberattacks against one another, the informal language used in the hoax alerts on Sunday pointed to so-called hacktivist groups, which could be aligned to Moscow or Kyiv but are not formally directed by either government.
+Those responsible for the hack on Russia's system have likely had the capability to launch such an attack for some time but decided to hold off until Ukraine's alert app was compromised, cyber experts told the BBC.
+Oleksander Merezhko, chair of the foreign affairs committee in the Ukrainian parliament, said the attack did not cause panic or extreme reactions.
+Merezhko told the BBC that Ukrainians, especially in Kyiv, were used to "practically non-stop alerts", adding "this message was in Russian language which immediately aroused suspicions".
+He continued: "It's a very unpleasant fact but it is part of cyber war and people in Ukraine understand that. It is possible and we are quite prepared for such possibilities."
+Herbert Lin, a senior research scholar for cyber policy and security at Stanford University, told BBC World Service's Newsday programme: "I think it's the first time [a hack of this kind] happened to an official Ukrainian information app, but I suspect it won't be the last."
+The alerts in Ukraine were sent minutes before the end of a localised ceasefire in Ukraine's frontline Kherson region, which was implemented last Tuesday. It had been brokered in part by US First Lady Melania Trump to allow civilians to evacuate the Russian-occupied city of Oleshky.
+Fighting continued elsewhere while the Kherson ceasefire was in place. In the city of Dnipro alone, 15 people were killed in an attack on a train platform on Thursday.
+Russia launched a full-scale invasion of Ukraine in February 2022.
+Additional reporting by Jamie Whitehead and Helen Davidson

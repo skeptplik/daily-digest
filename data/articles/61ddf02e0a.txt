@@ -1,0 +1,4 @@
+Supermarket refrigeration systems have been hit by a suspected cyberattack across several European countries, leaving fridges and freezers running at dangerously high temperatures.
+Stores in Belgium, Sweden, the Netherlands, Estonia, Luxembourg and Ireland have reported problems, with hundreds of thousands of euros worth of food potentially affected.
+The incident appears to have taken place overnight between Sunday and Monday. In Belgium, dozens of stores from chains including Delhaize, Carrefour and Intermarché were reportedly affected, alongside an IKEA store near Mons.
+Belgium's Centre for Cybersecurity confirmed it was aware of an incident targeting supermarket refrigeration systems but did not provide further details.

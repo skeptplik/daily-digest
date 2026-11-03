@@ -1,0 +1,14 @@
+Polymarket says it is returning $3.9 million to traders following last week’s supply chain attack. Website performance monitoring firm DebugBear, meanwhile, has disclosed that its DNS records were compromised.
+On October 29, the prediction market halted trading on its international platform after users reported unauthorized withdrawals. Hudson Rock researchers linked the activity to malicious JavaScript served from a DebugBear address that Polymarket’s site loaded.
+The script targeted logged-in traders. It checked their portfolios, and then either dumped positions or shifted assets to a wallet chosen by the attacker. The code read credential-related data stored in the browser, but Hudson Rock saw no evidence of it sending passwords, seed phrases or private keys back to the attacker. Instead, it piggybacked on the trading permissions of the open session.
+In an October 30 update, Polymarket said 726 wallets were affected. At that point, all but 37 had been made whole, and the rest were being paid once their details were checked.
+Polymarket is also covering traders hurt by the trading halt or whose positions were sold or transferred by the malicious script, paying out $1.19 million across roughly 5,500 wallets. Together with the roughly $2.7 million stolen directly, that brings the payout to $3.9 million.
+“The attack came through a compromised 3rd party provider which we removed within the hour. We are in active investigation with law enforcement & will share a postmortem,” Polymarket said.
+DebugBear, whose real user monitoring (RUM) script lets websites measure page load performance for visitors, initially told customers to remove the embed code and has now shared its initial findings.
+“Our DNS server records were compromised through our domain registrar. We are currently unable to receive emails sent to our domain,” the company said.
+According to DebugBear, the attackers appear to have gone after one customer’s website specifically, though it stressed that this is a preliminary finding. It did not name the customer, and Polymarket has not named the compromised provider.
+DebugBear has not explained how the attackers obtained access at the registrar level, and its investigation is ongoing. The company said it found no indication that its internal systems were compromised.
+Polymarket faced a similar incident in June, when it said a third-party vendor compromise resulted in a malicious script being injected into its frontend. The theft was reported at around $3 million.
+Related: FBI Flags Over 600 Addresses Tied to North Korea’s Binance Heist
+Related: Cisco SD-WAN Zero-Day Exploitation Tied to Volt Typhoon’s ‘Silent Train’ Network
+Related: PHP2Shell Attacks Root Palo Alto Firewalls but Fail Against WordPress
