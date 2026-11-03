@@ -338,6 +338,7 @@ def norm_sources(it, trusted, primary):
 
 
 HOT_MIN_OUTLETS = 3   # столько независимых изданий нужно событию для 🔥
+HOT_SURE_OUTLETS = 4  # при таком охвате 🔥 ставится независимо от оценки ИИ
 HOT_MAX = 5           # не больше стольких 🔥 за день
 TOPIC_WEIGHT = {"politics": 1.5}   # мировые события при отборе 🔥 весят больше узких тем
 
@@ -433,7 +434,9 @@ def main():
     # из них не больше HOT_MAX с самым большим охватом. ИИ может лишь снять 🔥.
     pool = [i for t in topics for i in t["items"] if not i["minor"]]
     tw = {id(i): TOPIC_WEIGHT.get(t["id"], 1) for t in topics for i in t["items"]}
-    cand_hot = sorted((i for i in pool if i["indep"] >= HOT_MIN_OUTLETS and i["llm"] >= 2),
+    # при охвате HOT_SURE_OUTLETS+ изданий оценка ИИ не нужна: событие, о котором написали столько
+    # независимых изданий, значимо само по себе (оценка ИИ шумит и иногда занижает самое крупное)
+    cand_hot = sorted((i for i in pool if i["indep"] >= HOT_MIN_OUTLETS and (i["llm"] >= 2 or i["indep"] >= HOT_SURE_OUTLETS)),
                       key=lambda i: (-i["indep"] * tw[id(i)], -i["llm"]))
     hot_ids = {id(i) for i in cand_hot[:HOT_MAX]}
     for i in pool:
