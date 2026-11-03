@@ -58,6 +58,9 @@
 14. Пуш в `main` без изменения `data/digest.json` рассылку не запускает (`publish.yml` срабатывает только по этому файлу). Тестовый воркфлоу на ветке, сохраняющий результат коммитом, делает `git push origin HEAD:<ветка>` без `git pull --rebase`.
 15. 🔥 и порядок новостей считает `scripts/render.py` по охвату (издания в группах `candidates.json`, порог 3, потолок 5); ИИ ставит только importance 1–2. `routine_prompt.md` читает сама задача из репозитория при каждом запуске.
 16. `RemoteTrigger update` с большим телом (~14 КБ) обрывается: держите промпт в репозитории, а в самой задаче только короткий запуск. Правки Python через heredoc с `` дают символ backspace: используйте Edit.
+17. `scripts/split_topics.py` режет `data/candidates.json` на файлы по темам в `/tmp/topics`: его запускает сама облачная задача (шаг 1 и пункт 4а `routine_prompt.md`), субагенты читают свой файл, а не весь сырьевой. При сбое скрипта субагенты читают целый `candidates.json`. Пути и формат менять только вместе с `routine_prompt.md`.
+18. После теста на подменённом сырье возвращайте `candidates.json` ТОЙ версии, по которой собран `digest.json` (не последней: поздние Collect её заменяют), иначе `validate.py` в Publish падает. Повторная публикация возможна только коммитом, меняющим `data/digest.json`.
+19. `git push` без входа в GitHub (Credential Manager) молча не проходит: после пуша сверяйте `git ls-remote origin main` и `git rev-parse HEAD`. Python на ПК не в PATH сессии: `C:\Users\Professional\AppData\Local\Programs\Python\Python315\python.exe`.
 
 ## Локальная проверка (Python 3.12, `pip install -r requirements.txt`)
 ```
