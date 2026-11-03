@@ -304,7 +304,7 @@ function closeStory(fromPop){
   if(sv.hidden)return;sv.hidden=true;sv.innerHTML='';document.body.style.overflow='';
   if(!fromPop){try{if(history.state&&history.state.s)history.back()}catch(e){}}
 }
-window.addEventListener('popstate',function(){if(rd&&!rd.hidden)return;closeStory(true)});
+window.addEventListener('popstate',function(){if(rd&&!rd.hidden)return;if(history.state&&history.state.s)return;closeStory(true)});
 function next(){var g=ST.groups[ST.gi];
   if(ST.ii<g.items.length-1)ST.ii++;else if(ST.gi<ST.groups.length-1){ST.gi++;ST.ii=0}else return closeStory();
   render()}
@@ -318,7 +318,7 @@ function zone(el,fn){var t0=0;
 function render(){
   var u=U(),g=ST.groups[ST.gi],it=g.items[ST.ii],t=it.t||g,isHot=g.id==='hot';mark(g.id);
   var title=L(it,'title'),sum=L(it,'summary'),why=L(it,'why');
-  var v=verify(it),dur=Math.min(15,6+(title.length+sum.length)/45).toFixed(1);
+  var v=verify(it),dur=Math.min(28,8+(title.length+sum.length+why.length)/20).toFixed(1);
   var gtitle=isHot?u.top:tn(g);
   sv.classList.remove('paused');sv.style.cssText='--a:'+t.a+';--b:'+t.b;
   sv.innerHTML='<div class="bg" style="'+bgs(it)+'">'+(it.img?'':'<span class="em">'+t.emoji+'</span>')+'</div>'+
@@ -353,14 +353,15 @@ function openReader(it,t){
    '<div class="rd-meta">'+u.rdSrc+': '+names+' · '+it.minutes+' '+u.min+'</div>'+
    '<div class="rd-body">'+body+'</div></div>';
   rd.hidden=false;rd.scrollTop=0;
+  sv.classList.add('paused');/* пока читаем статью, история под ней не листается */
   try{history.pushState({r:1},'')}catch(e){}
   rd.querySelector('.rd-x').onclick=function(){closeReader()};
 }
 function closeReader(fromPop){
-  if(rd.hidden)return;rd.hidden=true;rd.innerHTML='';
+  if(rd.hidden)return;rd.hidden=true;rd.innerHTML='';sv.classList.remove('paused');
   if(!fromPop){try{if(history.state&&history.state.r)history.back()}catch(e){}}
 }
-window.addEventListener('popstate',function(){if(!rd.hidden)closeReader(true)});
+window.addEventListener('popstate',function(){if(!rd.hidden&&!(history.state&&history.state.r))closeReader(true)});
 document.addEventListener('keydown',function(e){
   if(!rd.hidden){if(e.key==='Escape')closeReader();return}
   if(sv.hidden)return;
