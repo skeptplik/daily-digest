@@ -22,6 +22,8 @@
 | `routine_prompt.md` | Промпт облачной задачи. Задача читает его из репозитория при каждом запуске (в claude.ai лежит только короткий запуск; полная прежняя копия: `~/.claude/backups/prompt-v4.json`) |
 | `.github/workflows/` | `collect.yml`, `publish.yml`, `check.yml` |
 | `scripts/validate.py` | Проверка `digest.json` перед публикацией (формат, темы, ссылки есть в candidates). Запускается в `publish.yml` |
+| `scripts/assemble.py` | Сборка `data/digest.json` из `/tmp/parts/<тема>.json`: обзор без рассказов, `--drop`, `--curious`, `--out`; запускает облачная задача |
+| `scripts/check_part.py` | Проверка файла темы субагентом (лимиты, абзацы, ссылки из файла темы, число мелких) |
 | `scripts/make_handoff.py` | Готовит `handoff/PROMPT-FOR-OTHER-AI.md`: запрос для ChatGPT/любой модели из `routine_prompt.md` + сегодняшние заголовки |
 | `handoff/` | Файл-запрос для других ИИ, обновляется каждую ночь в `collect.yml` |
 | `data/engine.json` | Какой движок сейчас пишет дайджест (claude или codex), читается `check.py` |
@@ -59,7 +61,9 @@
 16. `RemoteTrigger update` с большим телом (~14 КБ) обрывается: держите промпт в репозитории, а в самой задаче только короткий запуск. Правки Python через heredoc с `` дают символ backspace: используйте Edit.
 17. `scripts/split_topics.py` режет `data/candidates.json` на файлы по темам в `/tmp/topics`: его запускает сама облачная задача (шаг 1 и пункт 4а `routine_prompt.md`), субагенты читают свой файл, а не весь сырьевой. При сбое скрипта субагенты читают целый `candidates.json`. Пути и формат менять только вместе с `routine_prompt.md`.
 18. После теста на подменённом сырье возвращайте `candidates.json` ТОЙ версии, по которой собран `digest.json` (не последней: поздние Collect её заменяют), иначе `validate.py` в Publish падает. Повторная публикация возможна только коммитом, меняющим `data/digest.json`.
-19. `git push` без входа в GitHub (Credential Manager) молча не проходит: после пуша сверяйте `git ls-remote origin main` и `git rev-parse HEAD`. Python на ПК не в PATH сессии: `C:\Users\Professional\AppData\Local\Programs\Python\Python315\python.exe`.
+19. `git push` без входа в GitHub (Credential Manager) молча не проходит: после пуша сверяйте `git ls-remote origin main` и `git rev-parse HEAD`. Python на ПК не в PATH сессии: `C:\Users\Professional\AppData\Local\Programs\Python\Python315\python.exe`.
+20. Облачная задача собирает итог через `scripts/assemble.py`, субагенты проверяют свой файл `scripts/check_part.py`; формат частей (`items`, `curious_candidates` с `body`) и ключ `rows` в `/tmp/topics/<id>.json` менять только вместе с `routine_prompt.md`.
+21. Журнал облачной задачи читается из сессии: `RemoteTrigger` `list_runs` и `get_run_log` (последние 200 событий, старые через `cursor`).
 
 ## Локальная проверка (Python 3.12, `pip install -r requirements.txt`)
 ```
