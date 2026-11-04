@@ -1,0 +1,8 @@
+Tokyo’s Metropolitan Police Department plans to introduce a new system that can reconstruct traffic accidents using artificial intelligence, it was learned Wednesday.
+The system will combine AI with 3D spatial data from accident sites and footage from nearby security cameras, reducing the need for lengthy on-site inspections, which require traffic restrictions and often cause congestion and economic losses.
+The MPD plans to test the new system from June 2027 and launch full-scale operations in January 2028. Related expenses have been included in the police department’s budget request for the next fiscal year.
+Currently, fatal accidents and hit-and-run incidents are investigated through on-site inspections, in which vehicles are positioned as they were at the time of the crash and measurements are taken to produce reports and diagrams.
+Such inspections sometimes require traffic restrictions lasting two to three hours, resulting in congestion. In some cases, more than 20 personnel are mobilized, including traffic controllers.
+According to the MPD, the new system will utilize an existing mobile mapping system in which camera-equipped vehicles capture surroundings to generate 3D spatial data.
+The system will allow investigators to extract necessary information, such as vehicle speed, distance, and positional relationships, on a screen.
+It will also enable simulations from multiple perspectives, including overhead views of collisions and the viewpoints of drivers and pedestrians, making it easier to prepare investigative reports and diagrams.

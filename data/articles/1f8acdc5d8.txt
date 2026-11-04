@@ -1,0 +1,15 @@
+Meta has paid roughly $1.2 million in bug bounties for its Muse AI agent, including $300,000 for a pre-launch flaw that exposed data on internal test systems.
+Muse is a personal AI agent that acts on a user’s behalf across their email, calendar, messaging and other accounts. Each user’s agent gets its own virtual machine.
+The bug bounty program ran privately from April and went public at the agent’s September 8 launch, Meta’s David Singleton said in a blog post. Of the more than 630 reports received, 64 were valid.
+The $300,000 reward was handed out four months before launch, while Muse was at an early internal testing stage. The researcher demonstrated access to conversations and tokens on pre-release VMs used by Meta staff to test the product.
+“An authentication check treated a header added by a local HTTPS proxy as proof that a request came from a trusted source. During a system migration, the environment gained a second proxy layer. That meant requests from outside could carry the trusted header too,” Singleton explained.
+Meta took the service offline, fixed the bug and stopped treating the local machine as trusted.
+A $90,000 bounty was paid for a report involving a malicious web page that, when Muse was asked to summarize it, mimicked status messages from the agent’s browsing tool. “It got the agent to execute some actions which should have been caught,” Singleton noted.
+Meta has since added detection signals and changed how Muse treats tool output that looks suspicious. It says that, in testing, its classifiers now catch the attack and 100 variants.
+Another $90,000 went to a report showing that specific formatting could slip one-time passcodes past Muse’s email redaction filters. Meta described it as one piece of an end-to-end attack.
+A $50,000 reward went to an Android app flaw that let a malicious app pass a link to a privileged web view. “The link handler recognized a shared-page path without validating its host and loaded it,” Singleton wrote, allowing an attacker’s page to grab the web view’s credentials.
+A $1,000 bounty covered a Mac app flaw that let an attacker with access to the computer hijack the auto-update feature to execute code with the app’s permissions.
+Meta pays up to $300,000 per valid report, which it claims is several times more than the top rewards advertised by other leading AI developers. Prompt injection attacks affecting a single user can earn up to $130,000, while a fleetwide compromise can earn as much as $250,000.
+Related: Google Introduces $250,000 Root-in-Cloud Bug Bounty Reward
+Related: Google Partially Reverses Chrome Bug Bounty Cuts
+Related: Microsoft Bug Bounty Program: $20 Million Paid to 500 Researchers

@@ -9,25 +9,3 @@ Get Tom's Hardware's best news and in-depth reviews, straight to your inbox.
 Moving forward, Microsoft says it has plans to make memory compression even smarter and more efficient. Windows features and apps will share common parts, such as Search and Widgets using one web Engine, for instance. WinUI 3 apps like File Explorer and Notepad will be designed to use less memory and open faster, and Microsoft is working with PC makers and silicon manufacturers to reduce how much memory a PC needs to hold in reserve to support its hardware, making more space for Windows.
 Follow Tom's Hardware on Google News, or add us as a preferred source, to get our latest news, analysis, & reviews in your feeds.
 Stephen is Tom's Hardware's News Editor with almost a decade of industry experience covering technology, having worked at TechRadar, iMore, and even Apple over the years. He has covered the world of consumer tech from nearly every angle, including supply chain rumors, patents, and litigation, and more. When he's not at work, he loves reading about history and playing video games.
-- 
-dimar said:Can the RAM be upgraded on these laptops? If not, it's just ewaste.I picked up an Alder Lake-U laptop with 8 GB of soldered DDR4, but an empty SODIMM slot. Easy and cheap upgrade to 40 GB.
-That's becoming harder and harder to find over time. Reply
-- 
-usertests said:Is this the source? It's old if so, but I don't see the 40% claim:
-https://blogs.windows.com/windowsexperience/2026/10/15/whats-new-in-windows-11-everyday-experiences-reimagined/I had to search around to find it:
-https://blogs.windows.com/windowsexperience/2026/11/03/raising-the-bar-for-8-gb-windows-11-pcs-whats-improved-and-how-to-get-it/ Reply
-- 
-logainofhades said:Remove all the useless bloat, and 8gb would run just fine.Windows is malware. They are not going to stop spying and delivering advertisements.
-The bloat stays. That's how the OS is paid for now. Click the ads. Everybody wanted a free OS and Mic.....
-Hey! That widget is 40% off!!!!! I just saw it in the ad! Reply
-- 
-Can Windows use VRAM as extra storage? If there is a PC with 8GB of RAM and 8GB of VRAM (on the gpu), maybe it will be faster to store and read excess data on the VRAM instead of the SSD, especially if the non volatile storage is SATA SSD or HDD. It will be kind of 16GB RAM PC, for non gaming uses.Reply
-- 
-FunSurfer said:Can Windows use VRAM as extra storage? If there is a PC with 8GB of RAM and 8GB of VRAM (on the gpu), maybe it will be faster to store and read excess data on the VRAM instead of the SSD, especially if the non volatile storage is SATA SSD or HDD. It will be kind of 16GB RAM PC, for non gaming uses.It's not a common setup, and it's not what needs to be done. Microsoft has the ability to make this OS use less than 2 GB. They just need to want it. Reply
-- 
-Microsoft should just extend support for windows 10 until 2029, as it handles lower RAM config far better.
-For my PC running windows 10 with a small number of startup items (mainly the logitech stuff for my G700 and G510s, soundblaster Z driver software, AMD radeon software, PIA, MSI afterburner, and displaycal profile loader, it still managed to not wreak too much havoc on the RAM at startup with 64GB (slightly above the minimum requirements for windows 10).
-While windows 10 and windows 11 can scale their RAM usage down in heavily constrained system, e.g., it will drop to 2.7GB on a 4GB system, but it will be extremely sluggish. Windows performs at its best when it can load everything that it needs in RAM when it comes to the core system files (excluding cached usage which windows can freely dump instantly at a moments notice).
-With 8GB, windows 10 will use about 1.5GB of RAM (after you remove the Copilot bloat as well as office 365 and OneDrive junk).
-Since windows can do an in-place upgrade, if they extend support to 2029, they could just have companies ship the 8GB systems with windows 10, especially since even if their claims are true, it still puts windows 11 at a massively higher resource utilization than windows 10. After that, with the DRAM price fixing stops, people can then upgrade their RAM before moving to windows 11.
-https://i.imgur.com/VbFrc4j.jpeg Reply
