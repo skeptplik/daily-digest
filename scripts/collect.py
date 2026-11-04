@@ -82,7 +82,7 @@ def parse_feed(xml_bytes: bytes):
     for node in root.iter():
         if local(node.tag) not in ("item", "entry"):
             continue
-        row = {"title": "", "link": "", "date": None, "summary": "", "image": ""}
+        row = {"title": "", "link": "", "date": None, "summary": "", "image": "", "feed_html": ""}
         media, thumb, enclosure, inline = "", "", "", ""
         for ch in node:
             name = local(ch.tag)
@@ -95,6 +95,8 @@ def parse_feed(xml_bytes: bytes):
             elif name in ("description", "summary", "encoded", "content") and not ch.tag.startswith(MEDIA_NS):
                 if not row["summary"]:
                     row["summary"] = clean(ch.text or "", 240)
+                if name in ("encoded", "content") and len(ch.text or "") > len(row["feed_html"]):
+                    row["feed_html"] = ch.text or ""  # полный текст из ленты: запасной путь, если страница закрыта (403)
                 if not inline:
                     m = IMG_RE.search(html.unescape(ch.text or ""))
                     inline = abs_img(m.group(1)) if m else ""
@@ -250,6 +252,28 @@ def get_page(url):
     return None, why
 
 
+def save_feed_text(row):
+    """Текст статьи из самой RSS-ленты (content:encoded), когда сайт отдаёт 403. True, если сохранён."""
+    raw = row.get("feed_html") or ""
+    if len(raw) < 600:
+        return False
+    try:
+        import trafilatura
+        text = trafilatura.extract("<html><body>" + raw + "</body></html>", include_comments=False,
+                                   include_tables=False, favor_precision=True) or ""
+    except Exception:
+        text = ""
+    if not text:
+        text = html.unescape(re.sub(r"<[^>]+>", chr(10), raw))
+    text = strip_junk(text)
+    if len(text) < 400:
+        return False
+    if len(text) > ARTICLE_CHARS:
+        text = text[:ARTICLE_CHARS].rsplit(chr(10), 1)[0]
+    (ARTICLES_DIR / f"{row['id']}.txt").write_text(text, encoding="utf-8")
+    return True
+
+
 def fetch_text(row):
     """Скачивает статью, вытаскивает основной текст и (если в RSS не было) картинку.
     Возвращает True, если текст сохранён."""
@@ -257,6 +281,9 @@ def fetch_text(row):
     paywalled = any(host == d or host.endswith("." + d) for d in PAYWALLED)
     page, why = get_page(row["link"])
     if page is None:
+        if not paywalled and save_feed_text(row):
+            note_fail(row["outlet"], why + ", взят текст из ленты")
+            return True
         note_fail(row["outlet"], why)
         return False
     if not row.get("image"):
@@ -306,7 +333,7 @@ def main() -> int:
                         continue
                     rows.append({"outlet": f["outlet"], "title": it["title"], "link": it["link"],
                                  "published": it["date"].strftime("%Y-%m-%d %H:%M"), "summary": it["summary"],
-                                 "image": it["image"]})
+                                 "image": it["image"], "feed_html": it["feed_html"]})
                 rows.sort(key=lambda x: x["published"], reverse=True)
                 per_outlet.append(rows)
                 ok += 1
@@ -338,6 +365,8 @@ def main() -> int:
     print(f"Тексты статей: сохранено {sum(got)} из {len(rows_all)}; с картинкой {sum(bool(r.get('image')) for r in rows_all)}")
     for o, d in sorted(FAIL_REASONS.items()):
         print(f"  без текста {o}: {d}")
+    for r in rows_all:
+        r.pop("feed_html", None)
     groups = group_rows(rows_all)
     by_id = {r["id"]: r for r in rows_all}
     for g in sorted(groups, key=lambda g: g["id"]):
