@@ -1,7 +1,11 @@
-After hackers targeted refrigeration systems in supermarkets and food suppliers across Europe, the National Cyber Security Centre (NCSC) says it is aware of "a couple of instances where vulnerable technology had been exploited in the UK".
+Businesses in the UK's food supply chain have been impacted by the cyber-attack which hit supermarket fridges and freezers across Europe on Monday.
+The National Cyber Security Centre (NCSC) says it is aware of "a couple of instances where vulnerable technology had been exploited in the UK."
 The NCSC's chief executive Dr Richard Horne told the Today programme, on BBC Radio Four, that it had "worked through the night" to alert potentially affected organisations in the UK.
-He said it had alerted "handfuls" of bodies, and that it was aware of a "couple of impacts".
-It comes after supermarkets in countries including Ireland, Sweden, Estonia, and Belgium reported fridges being hiked in temperature on Monday.
+The British Association of Independent Meat Suppliers (AIMS) told the BBC some of its more than 300 members had unexpectedly become what it called "collateral" as part of the hacks.
+Two members saw their fridges begin to defrost, AIMS said, while another saw their cold units rise up to 100C (212F) in temperature.
+AIMS spokesman Tony Goodger said the affected devices were empty at the time so no produce was lost - but urged businesses to be vigilant.
+The incident "must act as a reminder to all in the food industry at whatever point in the supply chain they are that their businesses may be seen by some as targets," he said.
+On Monday, supermarkets in countries including Ireland, Sweden, Estonia, and Belgium reported fridges and freezers being hiked in temperature.
 The events followed attacks targeting supermarkets and food suppliers across France in early October.
 Hundreds of stores were targeted by the overnight hack, which spoiled fresh and frozen food estimated to be worth millions of euros.
 Those attacks exploited vulnerabilities in some systems used to remotely control and manage cold refrigeration units that had been surfaced by cyber-security researchers months prior.
@@ -12,3 +16,18 @@ Such actions can create vulnerabilities that many cyber-security experts say amo
 But the UK's cyber chief said that they could be found and exploited more quickly and easily via "AI in the hands of our adversaries".
 "We do need all organisations to look at what they rely on, to invest in renewal," he said.
 "We intervene where we can. But, at the end of the day, it's your business. It's your charity. It's your life. You need to make the choice and choose wisely."
+Thrown away food
+Around 40 Delhaize supermarkets in Belgium and Luxembourg were affected in Monday's cyber incident, while a smaller number of shops were hit in Sweden, Ireland, the Netherlands, Estonia and Finland.
+Sabcobel, a Belgian company that manufactures some of the affected refrigerators, said the units' evaporators were switched to defrost mode, causing them to warm up.
+The same method was thought to have been used in last month's incident that hit hundreds of French supermarkets.
+As with that incident, many of the retailers affected on Monday said they had no choice but to throw away spoiled food - some saying this amounted to hundreds of thousands of euro in lost produce.
+Mathieu Tilman, who runs a Delhaize supermarket in Belgium, told the BBC he found it "truly distressing".
+"There's so many people starving, people who don't have enough to eat. How can we end up throwing away so much food?"
+"In moments like these, you just feel like quitting your job."
+So far, there have been little to no signs of any such impact in the UK.
+But the BBC has approached major UK supermarkets for comment and asked what action, if any, they are taking to safeguard against any similar hacks attempts.
+"Retailers invest heavily in their cybersecurity and are currently working with the NCSC to ensure their fridges and freezers are secure as possible against potential attacks," said Graham Wynn, assistant director of regulatory affairs at the British Retail Consortium.
+Asda, Lidl, M&S, Sainsbury's and Tesco are among the retail trade association's members.
+Paul Chichester, director of operations at the NCSC, said at the launch of its annual report on Tuesday it was continuing to work with and monitor UK organisations affected.
+"At the moment, the impact is minimal," he added.
+"We're working with organisations identifying existing vulnerabilities in the UK and trying to get those closed before somebody exploits them."

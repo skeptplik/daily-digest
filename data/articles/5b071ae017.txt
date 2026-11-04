@@ -1,22 +1,27 @@
-The new head of Apple says the company is working to get its new foldable iPhones available to more people after the $1,999 smartphone quickly sold out when it was released just over a week ago.
-John Ternus, who in September took over the role as Apple's chief executive from Tim Cook, said on Monday that he was "thrilled" at the early reaction to the iPhone Duo.
-While the costly phone, which sells for Â£1,999 in the UK, immediately sold out, some buyers have seen their screens crack.
-The phones are still in high demand and Sabhi Kahn, Apple's new chief operating officer, said the technology giant did not know when more Duos would be available.
-"At this time, it's really hard to predict when supply and demand will be in balance," Kahn said during a call with financial analysts to discuss Apple's latest financial results.
-Apple executives did not mention during the call any issues with the iPhone Duo. But last week, the company said it would replace any phones that were impacted by an issue that caused a "small number" of the new phones to crack along the inside fold.
-Nevertheless, Apple said on Monday that over the last year it sold more iPhones globally than it ever has before.
-During the three months to 26 September, which did not include sales of the iPhone Duo that went on sale toward the end of October, Apple saw iPhone sales rise 17% to $57bn.
-Apple has boasted throughout the year that iPhone sales have been surging, despite the company's warnings that crucial components for the device, along with Mac computers and iPads, were constrained to the point of weighing down sales.
-Sales of Mac computers also grew during the quarter by 27%, hitting $10.7bn, another record for Apple.
-Overall sales at the company rose by 15% for the year, to $479bn.
-However, sales for both the iPad and Apple's wearable products, including its headphones and Watch fell by 10% and 7%, respectively.
-Kahn noted during the call that most Apple devices are still seeing supply constraints driven in part by difficulty in getting enough microprocessors with "advanced nodes."
-Those components are essentially computer chip technology that allows Apple's devices to operate more quickly, most of which Apple has manufactured through TSMC, which is based in Taiwan.
-Khan said that such supply constraints are expected to continue into next year, particularly impacting iPads and Macs. The situation has been made worse by what the company has repeatedly insisted is "unexpected demand" for its products.
-Ternus noted, too, that Apple is still seeing "unprecedented" cost increases for memory, or the ability of Apple devices to store data like apps, photos, and text messages.
-Much of that memory storage runs through data centres which have seen a huge boom in demand for space as artificial intelligence (AI) chatbots and platforms, including those developed by OpenAI and Anthropic, have become popular.
-As demand for memory has grown, storage prices have gone up for tech companies like Apple.
-Cook had earlier this year referred to the sudden increase in data centre costs that Apple was seeing as a "thousand year flood."
-It has led to the company raising prices on essentially all of its hardware products by around 20%.
+Apple has said it does not know when it will get more of its new foldable iPhones back in stock as the company heads towards the key Christmas trading period.
+The iPhone Duo sold out just over a week after its launch, despite being Apple's most expensive smartphone at a cost of nearly $2,000.
+The company warned of "constraints" in sourcing key components and admitted it was "really hard to predict when supply and demand will be in balance".
+Meanwhile, Apple's new chief executive John Ternus said the firm was seeing an "unprecedented" price rise in memory costs, including chips, as the artificial intelligence (AI) industry continues to invest billions of dollars in building data centres.
+Ternus launched the Duo after he took over from previous boss Tim Cook in September.
+It is the smartphone's first major design change in almost 20 years but some buyers have reported problems with the Duo's screen.
+Last week, the company said it would replace any handsets that were affected by an issue that caused a "small number" to crack along the inside fold.
+As it released its latest financial figures on Monday, Apple's executives did not mention any problems with the iPhone Duo.
+Ternus said he was "thrilled" by the early reaction to the foldable phone. Chief operating officer Sabih Khan said the company was working hard to get the Duo "into the hands of our customers as quickly as possible".
+Apple's results for the three months to 26 September did not include sales of the Duo, which was released at the end of October.
+Nevertheless, Apple said it had sold more iPhones globally over the last year than ever before.
+iPhone revenue for the quarter rose 17% to $57bn (Â£42bn).
+Sales of Mac computers also grew over the three months by 27% to a record $10.7bn.
+Overall, Apple's sales between July and September rose from $102bn to $114bn. Pre-tax profit also increased, from $32.8bn to $36.1bn.
+However, sales for both the iPad and Apple's wearable products, including its headphones and watch, fell by 10% and 7%, respectively.
+Khan said that most Apple devices were still experiencing supply constraints driven in part by difficulty in getting enough microprocessors with advanced nodes.
+Those components are essentially computer chip technology that allow Apple devices to operate more quickly, most of which it has manufactured through TSMC, which is based in Taiwan.
+Khan said the problem was expected to continue into next year, particularly impacting iPads and Macs.
+The situation has been made worse by what the company has repeatedly insisted is "unexpected demand" for its products.
+Ternus noted, too, that Apple is still seeing "unprecedented" cost increases for memory, or the ability of devices to store data like apps, photos and text messages.
+Much memory storage runs through data centres, which have experienced a boom in demand for space as AI chatbots and platforms - including those developed by the likes of OpenAI and Anthropic - have become popular.
+Storage prices have gone up for tech companies like Apple.
+Earlier this year, Cook referred to a sudden increase in data centre costs as a "thousand year flood".
+Apple has lifted prices on nearly all of its hardware products by around 20%.
 Sunil Krishnan from Aviva Investors told the BBC's Today programme that Apple posted "a reasonably solid set of results" with a "pretty good performance" from its iPhone business.
 While there were concerns over the company's guidance on profit margins and the cost of memory chips, Krishnan added that in the broader context, "margins well north of 45% for a very well-established company, I think, are pretty impressive".
+However, Apple's share price fell by 1.8% in after-hours trading.

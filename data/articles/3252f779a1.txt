@@ -9,7 +9,7 @@ But a new generation of data centres due to come on stream in the next few years
 They will consume considerably more energy than their predecessors at a time when the National Grid is already struggling to meet demand.
 Ofgem, the energy market regulator, says data centre developers are seeking connections totalling 72 gigawatts. The peak electricity demand across the whole country last year was 45 gigawatts.
 Such is the demand for access to the already under-strain national electricity grid, some data centre developers have been told they could be waiting up to 10 years for the system to be upgraded to provide them with a connection.
-Nathan McWhinnie, head of market intelligence and oversight at Ofgem, said: "In a lot of places, the grid is at capacity. I think sometimes it's easy to forget the scale of the demand of these connections. These projects are sometimes the size of cities."
+Nathan MacWhinnie, head of market intelligence and oversight at Ofgem, said: "In a lot of places, the grid is at capacity. I think sometimes it's easy to forget the scale of the demand of these connections. These projects are sometimes the size of cities."
 In last week's Budget, the chancellor announced a British Data Centre Covenant, requiring operators to invest in local communities, create jobs and protect water supplies in return for priority grid connections.
 But he also said that where grid connections were unavailable, developers would be permitted to generate their own power on-site.
 BBC File on 4 Investigates has discovered that four data centres are already looking at using gas-fired power stations to meet their electricity needs.

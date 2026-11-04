@@ -1,9 +1,0 @@
-One of the most useful gadgets in my kitchen is now a screen that never asks me for anything.
-I recently bought a $48 DIY display kit from Seeed Studio (yes, that’s three E’s), developed in collaboration with TRMNL, that lets me display whatever I want, using whichever software ecosystem I prefer.
-I previously built something similar by modding a Lenovo ThinkSmart View, which was selling for around $30 on eBay during a liquidation. The Lenovo device was only ever intended for business-to-business video, but it does a decent job of running a fork of LineageOS. Unfortunately, its limited RAM makes it sluggish. So when I came across the TRMNL kit and its e-paper display, I was sold.
-I’d have an always-on display that shows me the information I want, with no subscription required. And since the screen populates automatically, I would never have to wrestle with a slow interface.
-The Seeed Studio kit and TRMNL ecosystem aren’t trying to compete with products like the recently announced Apple HomeView, a $299 home hub designed to get the whole family interacting with it. If anything, the TRMNL kit is the HomeView’s antithesis. It’s designed to be entirely passive: The e-paper display stays on, cycling through potentially useful information on your desk or in your kitchen, from calendars and weather to news and all sorts of ideas thought up by its community members.
-Here’s how it works.
-Choosing a path
-TRMNL, the platform company, was founded by indie hardware enthusiast Ryan Kulp in 2023. Its first e-paper device launched via crowdfunding in 2024.
-Seeed Studio provides the hardware. The established Shenzhen open hardware company is best known for its XIAO microcontroller boards.

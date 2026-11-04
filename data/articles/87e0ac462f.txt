@@ -1,7 +1,7 @@
 Designer Neri Oxman has created a fabric dyeing concept where a bacterial solution is sprayed onto a 3D-knitted silk textile and left to grow a living culture producing faded indigo and pink pigments.
 The project, called Vigils, was developed by the designer’s studio, Oxman, for designers, artists and collaborators to “create new forms of material and aesthetic expression”.
 Tussah silk thread within the fabric is coated with “bacterially sensitive chemicals”, which act as “a bioreactor” once mixed with the spray.
-The fabric then sits for 24 hours, during which the solution and chemicals begin to interact and eventually produce a living bacterial culture. This organism, “numbering in the billions of cells”, spreads across the fabric, leaving amino acids in its wake, which colour the textile.
+The fabric then sits for 24 hours, during which the solution and chemicals begin to interact and eventually produce a living bacterial culture. This organism, “numbering in the billions of cells”, spreads across the fabric and converts amino acids into the pigments Indigo and Melanin.
 For the process, the Oxman lab created a spray solution containing the BL21 strain of Escherichia coli (E. coli), a strain commonly used in biotechnology and synthetic biology research, and sprayed it onto a silk fabric.
 Its growth pattern is directed by “where and how densely the designer directed the culture to grow” via the spray, according to the team.
 The fabric is then washed and dried, removing the bacteria, but the pigment remains.

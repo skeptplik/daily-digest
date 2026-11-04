@@ -1,0 +1,29 @@
+Cryptocurrency exchange Binance says North Korean hackers used a fake job interview to trick an employee into installing malware that ultimately let them compromise the company's wallet infrastructure and steal about $6.34 billion in digital assets.
+This new information was shared in an incident report published today, which details how the attackers used social engineering, malicious software, and compromised internal systems to carry out the October 29 crypto theft.
+As previously reported by BleepingComputer, the FBI attributed the attack to North Korean state-sponsored hackers known as TraderTraitor, also tracked as Lazarus Group, Jade Sleet, and APT38.
+Binance says the attack began in September when a software engineer was contacted through a legitimate job-hunting platform by someone impersonating a Project Director at a fictitious company.
+The employee's profile referenced his experience at Binance, making him a valuable target for attackers looking to breach the cryptocurrency exchange.
+The fake recruiter scheduled two interviews for the employee, first with someone posing as a human resources representative, then with another individual claiming to be the company's CEO.
+During the first interview, the fake HR representative held a live video call and shared a social media account with personal photos and videos to build trust.
+The second interview took place through a popular social chat application where the employee was instructed to download a coding assignment from an online code repository.
+According to Binance, the repository contained malicious code that, when executed, compromised the employee's device with previously unseen custom malware that antivirus software did not detect.
+"The malware employed sophisticated obfuscation and evasion techniques, including replacing a legitimate development tool component with a malicious version to execute commands and establish communication with an attacker-controlled external server," explained Binance.
+"The 0-day malware was not detected by the endpoint security protection tools at the time. The attacker also took steps to conceal the malicious activity and remove traces of the compromise, making detection and subsequent investigation more challenging."
+Binance explained that the malicious script created a replacement executable named pyenv_ in the macOS Homebrew installation directory.
+The script then deleted the legitimate pyenv executable, renamed the malicious file to pyenv, modified its symbolic link, and used it to spawn a Z shell (zsh) process.
+The malicious replacement allowed the attackers to execute commands received from an attacker-controlled server.
+By October 20, the attackers had used the compromised engineer's computer and an internal AI tool to compromise two additional employees working on Binance's wallet infrastructure, obtaining credentials and a container deployment token.
+On October 29, the hackers used the stolen credentials to deploy a malicious script and gain unauthorized access to Binance's wallet signing service, allowing them to transfer billions of dollars in cryptocurrency across multiple blockchains.
+The attackers also abused Ethereum's EIP-7702 authorization mechanism, allowing them to continue stealing cryptocurrency even after the exchange suspended withdrawals.
+Binance says it has since rebuilt affected systems, replaced compromised devices, and revoked stolen credentials.
+As of November 3, approximately $2.85 billion in stolen assets had been frozen or intercepted, while 98% of impacted token assets had been replenished as of October 31.
+Binance says it is continuing to investigate the breach and has brought in independent security firms to review its findings.
+Malicious job interviews
+Fake job interviews that lead to malware installs are a common tactic in North Korean hacking campaigns known as Contagious Interview and Operation Dream Job. These campaigns use fake job offers and interviews to trick developers and cryptocurrency employees into installing malware.
+In June 2025, cybersecurity firm Socket reported that a Contagious Interview campaign impersonated recruiters on LinkedIn and sent developers coding assignments containing malicious npm packages.
+As part of these attacks, the hackers distributed 35 malicious npm packages that installed malware, allowing them to steal browser credentials, cryptocurrency wallet data, and other information from infected computers.
+North Korean Lazarus hackers have also used similar tactics in Operation Dream Job, distributing malware disguised as employment documents to people working in software development and DeFi companies.
+While Binance has not linked the employee compromise to either specific campaign, the use of a fake recruiter, multiple interviews, and a malicious coding assignment closely mirrors these previously documented North Korean tactics.
+Adaptive Security's AI agents analyze email intent, context, and behavior to uncover phishing, business email compromise, and invoice fraud.
+See what's getting through with a 14-day read-only scan of Microsoft 365 or Google Workspace, with no MX changes.
+Start your free email security scan.
