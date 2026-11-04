@@ -1,0 +1,3 @@
+Tencent unveils Hy4 as open-weight AI race with DeepSeek, Z.ai, Alibaba heats up
+Tech giant says the new model introduces visual reasoning and powers a comprehensive update to its workplace AI tool WorkBuddy
+Released on Wednesday, the large language model (LLM) introduced visual understanding for the first time. Hy4 could process images, analyse complex charts and conduct visual mathematical reasoning, according to the Shenzhen-based company.

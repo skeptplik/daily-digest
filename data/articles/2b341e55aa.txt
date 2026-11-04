@@ -1,5 +1,0 @@
-Baidu’s new AI simulator gives robotaxis a crash course in rare road hazards
-Baidu is using an AI-driven simulator to train its Apollo robotaxis to deal with hazards such as reckless cyclists running red lights
-For autonomous vehicles, the hardest lessons to learn are the ones that can test the skills of even the most experienced human drivers: an errant cyclist darting through a red light, or an animal bolting into oncoming traffic from behind a corner.
-The Chinese tech giant Baidu has developed a new AI-driven simulator to prepare its Apollo robotaxis for just such rare but high-stakes road hazards, as the firm looks to gain an edge in the fast-growing self-driving taxi market.
-The system, Apollo World, can build complete virtual journeys from scratch, allowing the company to prepare vehicles for scenarios that are difficult to capture safely in real-world testing, according to executives.
