@@ -13,9 +13,6 @@ publish.yml (триггер: push с изменением data/digest.json, ли
    notify: scripts/notify.py -> одно сообщение в Telegram (с ссылкой)
         |
 check.yml 06:15 UTC: проверка свежести; при сбое сообщение в Telegram
-        |
-Windows Task Scheduler «DailyDigest» 06:30 и при входе: local/Get-Digest.ps1
-   скачивает страницу по ссылке Pages в C:\Digests\digest-DATE.html, чистит старше 30 дней, открывает новый
 ```
 
 ## Расписание
@@ -24,7 +21,6 @@ Windows Task Scheduler «DailyDigest» 06:30 и при входе: local/Get-Dig
 | collect | 03:00 | 04:00 | `.github/workflows/collect.yml` |
 | задача Claude | 05:12 (cron `CRON_TZ=Europe/Warsaw 12 6 * * *`) | 06:12 | claude.ai/code/routines |
 | check | 06:15 | 07:15 | `.github/workflows/check.yml` |
-| Windows | локально 06:30 + вход в систему | 06:30 | планировщик Windows, `Install-Task.ps1 -Time 06:30` |
 Актуальность: Actions на GitHub могут задерживаться на 10-30 минут. Летом (UTC+2) всё кроме задачи Claude сдвинется на час позже по часам Варшавы; задача Claude остаётся 06:12 по Варшаве.
 
 ## Данные

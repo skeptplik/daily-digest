@@ -56,7 +56,6 @@ git push origin main
 | Интеграция GitHub ↔ Claude (приложение с правом записи) | claude.ai → настройки/коннекторы + страница приложения на GitHub |
 | Секреты Telegram | GitHub → Settings → Secrets and variables → Actions |
 | GitHub Pages (Source: GitHub Actions) | GitHub → Settings → Pages |
-| Задача Windows `DailyDigest` | планировщик ПК; скрипт лежит в `C:\Digests`, переустанавливать при переносе проекта не нужно |
 | Telegram-бот | BotFather (токен хранит владелец) |
 
 ## 7. Безопасность

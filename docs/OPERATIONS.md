@@ -18,13 +18,8 @@
 - Ручные запуски: Actions → нужный workflow → Run workflow: `Collect news` (обновить заголовки), `Publish digest` (пересобрать и разослать текущий `digest.json`, придёт сообщение в Telegram), `Check digest` (проверка).
 - Ветка `claude/push-test` — мусор от теста, можно удалить.
 
-## Windows (Poco и ПК)
-- Задача планировщика: `DailyDigest`, ежедневно 06:30 и при входе в систему (`StartWhenAvailable`: если ПК был выключен, запустится после включения).
-- Установка: PowerShell в папке `local`: `powershell -ExecutionPolicy Bypass -File .\Install-Task.ps1 -Owner skeptplik -Time 06:30`.
-- ВАЖНО (исправление прежнего совета): `Install-Task.ps1` копирует `Get-Digest.ps1` в `C:\Digests`, и планировщик запускает копию оттуда. Папка `local` из репозитория после установки не нужна, а `C:\Digests\Get-Digest.ps1` удалять нельзя. При переносе проекта задачу переустанавливать не нужно.
-- Проверка: `Get-ScheduledTask -TaskName DailyDigest | Get-ScheduledTaskInfo`, ручной запуск `Start-ScheduledTask -TaskName DailyDigest`, журнал `C:\Digests\log.txt`.
-- Чтобы страница открывалась в Chrome: сделать Chrome браузером по умолчанию.
-- Файлы старше 30 дней удаляются сами (`-KeepDays 30`).
+## Windows
+- Скачивание дайджеста на ПК (задача DailyDigest, local/, папка C:\Digests) убрано 4 ноября 2026 по решению владельца; дайджест читается только на телефоне.
 
 ## Telegram
 - Бот владельца (токен у владельца в BotFather), `TELEGRAM_CHAT_ID` — личный числовой ID.
