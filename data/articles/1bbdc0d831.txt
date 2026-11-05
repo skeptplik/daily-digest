@@ -1,0 +1,6 @@
+Earlier this year, Patrick Woodard had to have a talk with one of the hundreds of clinicians that work at Monument Health, where he is chief information officer. The South Dakota and Wyoming-based health system had decided to block access to OpenEvidence, the popular free artificial intelligence tool, and Woodard had gotten a few objections.
+One of them, Woodard recounted, was from a super user. This doctor was storing more than a hundred patient records inside OpenEvidence, and feeding them to the artificial intelligence tool for help making medical decisions. That would have to end, Woodard told him.
+In the last year, free chatbots built to answer clinician questions — including OpenEvidence, Doximity Ask, and ChatGPT for Clinicians — have grown in popularity. Hundreds of thousands of doctors use the tools, in part, because they claim to be compliant with the federal health data privacy law HIPAA, allowing users to share a patient’s protected health information directly with the AI after signing an agreement. That assurance is meant to address one potential risk of the technology, while making it more valuable day-to-day.
+This article is exclusive to STAT+ subscribers
+Unlock this article — and get additional analysis of the technologies disrupting health care — by subscribing to STAT+.
+Already have an account? Log in
