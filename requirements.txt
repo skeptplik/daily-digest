@@ -1,3 +1,4 @@
 jinja2
 pillow
 requests
+trafilatura  # нужен collect.py (в collect.yml ставится отдельно)

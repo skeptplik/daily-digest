@@ -140,9 +140,9 @@ def skeleton(w):
     w = re.sub(r"[cq]", "k", w)
     w = re.sub(r"[jy]", "i", w)
     w = w.translate(str.maketrans("zgdb", "sktp"))
-    w = re.sub(r"(.)+", r"", w)
+    w = re.sub(r"(.)\1+", r"\1", w)
     out = w[:1] + re.sub(r"[aeiou]", "", w[1:])
-    return re.sub(r"(.)+", r"", out)[:5]
+    return re.sub(r"(.)\1+", r"\1", out)[:5]
 
 
 def is_ru(row):
@@ -301,6 +301,9 @@ def fetch_text(row):
         return False
     text = strip_junk(text)
     if len(text) < 400:  # слишком коротко: скорее всего заглушка или пейволл
+        if save_feed_text(row):  # в RSS мог быть полный текст (content:encoded)
+            note_fail(row["outlet"], "текст страницы короче 400 знаков, взят текст из ленты")
+            return True
         note_fail(row["outlet"], "текст короче 400 знаков")
         return False
     if len(text) > ARTICLE_CHARS:

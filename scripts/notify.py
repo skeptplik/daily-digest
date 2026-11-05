@@ -13,8 +13,8 @@ chat = os.environ.get("TELEGRAM_CHAT_ID", "").strip()
 page_url = os.environ.get("PAGE_URL", "").strip()
 
 if not token or not chat:
-    print("::warning::Секреты TELEGRAM_BOT_TOKEN / TELEGRAM_CHAT_ID не заданы, отправка пропущена.")
-    sys.exit(0)
+    print("::error::Секреты TELEGRAM_BOT_TOKEN / TELEGRAM_CHAT_ID не заданы, сообщение НЕ отправлено.")
+    sys.exit(1)
 
 meta = json.loads(Path("out/meta.json").read_text(encoding="utf-8"))
 data = json.loads(Path("data/digest.json").read_text(encoding="utf-8"))

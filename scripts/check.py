@@ -13,6 +13,7 @@ ROOT = Path(__file__).resolve().parent.parent
 today = datetime.now(ZoneInfo("Europe/Warsaw")).strftime("%Y-%m-%d")
 
 problems = []
+site_unknown = None  # сайт не удалось проверить (сеть/таймаут)
 try:
     digest = json.loads((ROOT / "data/digest.json").read_text(encoding="utf-8"))
     if digest.get("demo"):
@@ -35,7 +36,8 @@ if not problems:
             problems.append(f"файл дайджеста обновлён, но сайт показывает {m.group(1)}: "
                             "откройте Actions → Publish digest, возможно сборка упала на проверке данных")
     except Exception as e:
-        print("warn: сайт не проверен:", type(e).__name__)
+        site_unknown = type(e).__name__
+        print("warn: сайт не проверен:", site_unknown)
 
 cand = None
 try:
@@ -52,16 +54,23 @@ except Exception:
     if problems:
         problems.append("файл заголовков data/candidates.json не прочитался")
 
-if not problems:
+if not problems and not site_unknown:
     print("Дайджест на месте:", today)
     sys.exit(0)
 
-text = "⚠️ Дайджест на сегодня не собран.\n\n" + "\n".join(f"• {p}" for p in problems)
+if problems:
+    text = "⚠️ Дайджест на сегодня не собран.\n\n" + "\n".join(f"• {p}" for p in problems)
+else:  # файл свежий, но страницу проверить не удалось: молчать нельзя, но и объявлять сбой рано
+    text = ("⚠️ Файл дайджеста за сегодня есть, но сайт проверить не удалось (" + site_unknown + "). "
+            "Откройте страницу дайджеста и убедитесь, что там сегодняшняя дата; если нет, "
+            "проверьте GitHub → Actions → Publish digest.")
 try:
     engine = json.loads((ROOT / "data/engine.json").read_text(encoding="utf-8")).get("engine", "claude")
 except Exception:
     engine = "claude"
-if engine == "codex":
+if not problems:
+    pass  # сайт не проверен: перезапускать задачу не нужно (будет дубль в Telegram)
+elif engine == "codex":
     text += "\n\nАктивный движок: Codex. Что сделать: откройте автоматизацию дайджеста в Codex и запустите её вручную."
 else:
     text += "\n\nАктивный движок: Claude. Что сделать: claude.ai/code/routines → «Утренний дайджест» → Run now."

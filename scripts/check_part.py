@@ -25,6 +25,8 @@ if tf.exists():
     t = json.loads(tf.read_text(encoding="utf-8"))
     rows = t.get("rows") if isinstance(t, dict) else t
     links = {r["link"] for r in rows or []}
+else:
+    warn.append("файла темы нет: ссылки sources не сверены с сырьём")
 items = d.get("items") or []
 minor = sum(1 for i in items if i.get("minor"))
 main = len(items) - minor
@@ -36,15 +38,26 @@ for n, i in enumerate(items):
             err.append(f"{name}: нет {k}")
         elif len(v) > lim:
             err.append(f"{name}: {k} {len(v)} > {lim}")
-    if i.get("importance") not in (1, 2):
+    imp = i.get("importance")
+    if isinstance(imp, bool) or imp not in (1, 2):
         err.append(f"{name}: importance должен быть 1 или 2")
+    if not isinstance(i.get("minor", False), bool):
+        err.append(f"{name}: minor должен быть true/false, а не {i.get('minor')!r}")
+    mn = i.get("minutes")
+    if isinstance(mn, bool) or not isinstance(mn, int) or not 1 <= mn <= 10:
+        err.append(f"{name}: minutes должен быть целым 1-10")
     srcs = i.get("sources") or []
     if not 1 <= len(srcs) <= 3:
         err.append(f"{name}: источников {len(srcs)} (нужно 1-3)")
     for s in srcs:
-        if links and s.get("url") not in links:
+        if not isinstance(s, dict) or not str(s.get("url", "")).startswith("http"):
+            err.append(f"{name}: некорректный источник {s!r}"[:120])
+        elif links and s.get("url") not in links:
             err.append(f"{name}: ссылка не из файла темы: {s.get('url')}")
     body = i.get("body") or []
+    if body and (not isinstance(body, list) or not all(isinstance(x, str) and x.strip() for x in body)):
+        err.append(f"{name}: body должен быть списком непустых строк")
+        body = []
     if body:
         lo, hi = (2, 5) if i.get("minor") else (5, 12)
         if not lo <= len(body) <= hi:
@@ -56,8 +69,18 @@ if minor > 8:
 if minor < 4:
     warn.append(f"мелких {minor} < 4: добери подходящие из файла темы или объясни в skipped")
 for c in d.get("curious_candidates") or []:
+    cn = f"curious «{str(c.get('title', ''))[:40]}»"
     if not c.get("title") or not c.get("sources"):
         err.append("curious_candidates: нет title или sources")
+        continue
+    for s in c.get("sources") or []:
+        if not isinstance(s, dict) or not str(s.get("url", "")).startswith("http"):
+            err.append(f"{cn}: некорректный источник")
+        elif links and s.get("url") not in links:
+            err.append(f"{cn}: ссылка не из файла темы: {s.get('url')}")
+    cb = c.get("body") or []
+    if cb and (not isinstance(cb, list) or not all(isinstance(x, str) and x.strip() for x in cb)):
+        err.append(f"{cn}: body должен быть списком непустых строк")
 for e in err:
     print("ОШИБКА:", e)
 for w in warn:

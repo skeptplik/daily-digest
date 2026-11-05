@@ -18,9 +18,9 @@
 - Если таких инструментов нет (обычный Claude Code в VS Code): дайте владельцу точные клики и ждите подтверждений:
   1. claude.ai/code/routines → найти «Утренний дайджест». Если есть: включить расписание. Если нет: «New routine».
   2. Параметры (как в `docs/OPERATIONS.md`): модель **Sonnet 5.5** выбрать явно (не Default), репозиторий `skeptplik/daily-digest`, режим подтверждений **Авто** (действия без запросов), включить **Allow unrestricted branch pushes**, расписание ежедневно **06:12** часовой пояс **Europe/Warsaw**.
-  3. Промпт: целиком текст файла `routine_prompt.md` из репозитория (на GitHub: файл → Raw → копировать). Перед ним добавьте строку: «РЕПОЗИТОРИЙ: skeptplik/daily-digest (ветка main). Если локальной копии нет, клонируй: git clone --depth 1 https://github.com/skeptplik/daily-digest /home/claude/daily-digest и работай в ней.». Внутри промпта не должно быть WebSearch/WebFetch: задача работает без человека.
+  3. Промпт задачи: короткий запуск вида «Репозиторий skeptplik/daily-digest (ветка main). Если локальной копии нет, клонируй: git clone --depth 1 https://github.com/skeptplik/daily-digest /home/claude/daily-digest. Прочитай routine_prompt.md в корне репозитория и выполни его целиком». Полный промпт задача читает из файла при каждом запуске (AGENTS.md, правило 6); копировать его в claude.ai не нужно. В `routine_prompt.md` не должно быть WebSearch/WebFetch: задача работает без человека.
 
-Промпт в задаче должен совпадать с `routine_prompt.md`. Если вы создавали задачу заново, ID изменится: обновите его в `data/engine.json` и `docs/OPERATIONS.md`.
+Если вы создавали задачу заново, ID изменится: обновите его в `data/engine.json` и `docs/OPERATIONS.md`.
 
 ### Шаг 4. Зафиксировать
 В `data/engine.json`: `"engine": "claude"`, `"since"` на сегодняшнюю дату, актуальный `claude_routine_id`. Добавьте строку в `docs/STATUS.md`. Закоммитьте («Движок дайджеста: Claude») и запушьте.

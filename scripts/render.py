@@ -360,8 +360,9 @@ def load_reach(trusted, primary):
             outlet = match_domain(host, trusted) or match_domain(host, primary) or host_n
             outlet = OUTLET_ALIASES.get(outlet, outlet)
             # живые ленты («… live», «as it happened») охватывают много событий сразу: к группе их не привязываем
-            if not re.search(r"\blive\b|as it happened|/live/", f"{r.get('title','')} {link}", re.I):
-                link_group[link] = g
+            if re.search(r"\blive\b|as it happened|/live/", f"{r.get('title','')} {link}", re.I):
+                continue  # live-лента не считается ни ссылкой группы, ни охватом
+            link_group[link] = g
             group_outlets.setdefault(g, set()).add(outlet)
     return link_group, group_outlets
 

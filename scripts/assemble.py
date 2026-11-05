@@ -36,7 +36,10 @@ def load(parts: Path, tid: str):
 def clean_item(it: dict) -> dict:
     out = {k: v for k, v in it.items() if k not in SERVICE}
     out.setdefault("importance", 1)
-    out["importance"] = min(int(out["importance"]), 2)  # 3 ставит render.py
+    try:
+        out["importance"] = max(1, min(int(out["importance"]), 2))  # 3 ставит render.py
+    except (TypeError, ValueError):
+        out["importance"] = 1
     out.setdefault("minor", False)
     return out
 
@@ -85,12 +88,18 @@ def main() -> int:
     if not (a.date and a.news_date and a.headline):
         print("!! для сборки нужны --date, --news-date, --headline")
         return 2
+    missing = [t for t in TOPICS if t not in data]
+    if missing:  # нет файла темы: не публиковать урезанный дайджест молча
+        print("!! нет файлов/валидного JSON для тем: " + ", ".join(missing) +
+              ". Сделай эти темы сам (или запиши {\"topic\": \"<id>\", \"items\": [], \"skipped\": \"почему пусто\"}, если материала правда нет) и повтори сборку")
+        return 2
     topics = []
     for tid in TOPICS:
-        if tid not in data:
-            continue
         items = [clean_item(i) for n, i in enumerate(data[tid].get("items") or []) if (tid, str(n)) not in drop]
         items.sort(key=lambda i: bool(i.get("minor")))  # основные первыми; порядок внутри сохраняется
+        if not items:  # тема без материала (файл с пустым items): в итог не идёт
+            print(f"внимание: тема {tid} пуста, пропущена ({str(data[tid].get('skipped') or 'без объяснения')[:120]})")
+            continue
         topics.append({"id": tid, "items": items})
     pick = [int(x) for x in a.curious.split(",") if x.strip()]
     if pick:
@@ -110,6 +119,22 @@ def main() -> int:
     Path(a.out).write_text(json.dumps(out, ensure_ascii=False, indent=2), encoding="utf-8")
     total = sum(len(t["items"]) for t in topics)
     print(f"== записано {a.out}: тем {len(topics)}, новостей {total}")
+    # метрики расхода: считает скрипт, а не модель (токены задаче не видны)
+    body_chars = lambda i: sum(len(p) for p in (i.get("body") or []) if isinstance(p, str))
+    dropped = [i for tid in TOPICS if tid in data for n, i in enumerate(data[tid].get("items") or []) if (tid, str(n)) in drop]
+    metrics = {
+        "items": total,
+        "main": sum(1 for t in topics for i in t["items"] if not i.get("minor")),
+        "minor": sum(1 for t in topics for i in t["items"] if i.get("minor")),
+        "body_chars": sum(body_chars(i) for t in topics for i in t["items"]),
+        "dropped_items": len(dropped),
+        "dropped_body_chars": sum(body_chars(i) for i in dropped),
+        "curious_written": len(cur_all),
+        "curious_selected": len(pick),
+        "curious_unused_body_chars": sum(body_chars(c) for n, c in enumerate(cur_all) if n not in pick),
+        "missing_topics": [t for t in TOPICS if t not in data],
+    }
+    print("METRICS " + json.dumps(metrics, ensure_ascii=False))
     return 0
 
 
