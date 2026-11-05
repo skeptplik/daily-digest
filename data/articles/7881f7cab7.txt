@@ -1,0 +1,16 @@
+Ukrainian news outlet Kyiv Independent hit by suspected Russian cyberattack
+A suspected Russian cyberattack disrupted the website of The Kyiv Independent, one of Ukraine’s leading English-language news outlets, the publication said Wednesday.
+The hackers gained access to the outlet’s website management system and a service used to distribute newsletters, allowing them to publish false messages and send emails to subscribers in Russian and English.
+One of the malicious emails falsely claimed that Ukrainian President Volodymyr Zelensky had launched a nuclear warhead at Kyiv as a “proof of friendship” following a meeting with Russian President Vladimir Putin. The message, written in Russian, urged recipients to seek shelter and included the username of an anonymous Telegram channel.
+Other emails included fabricated claims about a physical attack on Zelensky. The hackers also posted messages on the publication’s website, which staff quickly removed.
+The Kyiv Independent attributed the attack to suspected Russian actors based on the content of the messages, although it did not provide technical evidence linking the breach to Moscow.
+“Attacks like these are part of the war we cover every day — an attempt to sow confusion and erode trust,” said Editor-in-Chief Olga Rudenko.
+This is the first time the publication has faced an attack of this kind, Rudenko said.
+The Kyiv Independent, founded in November 2021, has become a prominent source of English-language reporting on Russia’s full-scale invasion of Ukraine. The outlet said it attracted nearly 3 million monthly readers in 2025, most of them outside Ukraine, and has more than 35,000 paying members who help finance its operations. The Kyiv Independent also operates an investigative unit that documents alleged Russian war crimes.
+The publication said its members’ and donors’ banking information was not compromised because payments are processed through secure third-party services.
+Its staff are working with cybersecurity specialists to investigate the breach, identify vulnerabilities and prevent further intrusions, according to chief operating officer Zakhar Protsiuk.
+“This attack won’t stop us from doing our work,” Protsiuk said.
+The incident comes just days after hackers compromised Ukraine’s widely used air raid alert app, sending fabricated warnings about nuclear and chemical threats and street fighting.
+One of the fake alerts warned of a possible strike involving Russia’s nuclear-capable Oreshnik ballistic missile and directed users to a Telegram channel associated with a previously unknown hacking group calling itself Hitcore Corp. There is no confirmed connection between the two incidents.
+Daryna Antoniuk
+is a reporter for Recorded Future News based in Ukraine. She writes about cybersecurity startups, cyberattacks in Eastern Europe and the state of the cyberwar between Ukraine and Russia. She previously was a tech reporter for Forbes Ukraine. Her work has also been published at Sifted, The Kyiv Independent and The Kyiv Post.

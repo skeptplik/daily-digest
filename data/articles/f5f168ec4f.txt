@@ -1,0 +1,20 @@
+Sponsored
+In partnership withCyberhaven
+A sales representative asks an AI agent for customer pricing, and the agent pulls data from multiple sources: restricted pricing systems, internal communications, and archived quotes. The output looks accurate to the agent, so a second agent uses the data to draft the proposal for the sales rep. No human checks either handoff. When it’s discovered that the proposal includes unapproved, confidential, and sensitive information, no one can trace where the problematic data entered the workflow or how it spread across systems, files, and agents.
+This scenario illustrates why AI governance needs to evolve, rapidly and dynamically. As more enterprises begin to use agentic AI in daily workflows, they’re realizing that they must manage more than static files; they must manage moving and fragmented data that is continuously ingested, copied, summarized, transformed, reused, and redistributed in new forms. In short, AI security isn’t a tool problem; it’s a data visibility problem.
+Consequently, traditional security approaches built solely around applications, systems, networks, or endpoints are no longer sufficient. Securing agentic AI at scale requires understanding how data moves. Teams, therefore, need to establish data lineage in order to effectively manage governance, accountability, and trust across human, agentic, and hybrid workflows.
+This content was produced by Insights, MIT Technology Review’s custom content arm, not its editorial staff. It was researched and written by humans, with any AI tools that may have been used limited to production processes under human oversight.
+Deep Dive
+Artificial intelligence
+Don’t be fooled—LLMs don’t reason
+Ten years after AlphaGo’s match against Go champion Lee Sedol, today’s AI still isn’t tapping into the machinery that made that win possible.
+“We were looking at it wrong”: The explosive claim that’s upended the AI world
+An exclusive interview with Nick Cammarata, the researcher whose 26,000-word viral blog post has AI safety folks celebrating.
+Don’t be fooled by this summer of AI hype
+Breathless claims about AGI and new capabilities fall apart pretty quickly under scrutiny.
+The US spent billions on border surveillance. Why can’t it catch people before they die?
+Surveillance towers, increasingly powered by AI, promised faster responses to crossings. Our investigation of deaths near the towers found they are failing to deliver.
+Stay connected
+Get the latest updates from
+MIT Technology Review
+Discover special offers, top stories, upcoming events, and more.

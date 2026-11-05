@@ -1,7 +1,0 @@
-In a new post today, Valve acknowledged that it’s seen “a significant increase in submissions for store and page review in recent months” and says it’s “running a little behind” by taking “up to 12 business days” for reviews instead of the typical 3-5 days.
-Valve is making changes to deal with a ‘significant increase’ in Steam game submissions
-Valve admits that it’s now taking ‘up to 12 business days’ to review games.
-Indie developers have recently expressed frustrations over lengthy approval times for Steam games, even causing some games to miss planned launch dates. Valve says that “much” of the delay is having to re-review games, so it’s making some changes to the release checklist for developers to hopefully “cut down on re-reviews for basic functional issues.”
-The changes include requiring developers to run games through Steam for at least five minutes. “Believe it or not, sometimes we review builds that have not ever been played through Steam,” Valve says. “This means that even if a game runs smoothly when a dev launches their executable directly, they might have missed basic steps that would impact a user installing and playing via Steam.”
-Other requirements include making sure that achievements are ready and confirming any required common redistributables, like DirectX or Visual C++, that Steam may need to install.
-Valve also says more improvements are in the works for the build review process.

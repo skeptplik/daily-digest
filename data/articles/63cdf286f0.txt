@@ -1,0 +1,14 @@
+SonicWall warned customers of two security flaws affecting end-of-life Global Management System (GMS) systems that will not be patched.
+Global Management System (GMS) helps IT admins deploy and manage thousands of SonicWall security appliances from a single interface, but SonicWall has officially replaced it with the Network Security Manager (NSM) management platform.
+systems running SonicWall GMS 9.5.2 and earlier.
+The first GMS flaw disclosed this week is tracked as CVE-2026-109593, and it enables unauthenticated attackers with network access to vulnerable instances (running GMS 9.5.2 and earlier versions) to steal sensitive information by reading internal files.
+also urged customers to upgrade to NMS, as it will not release security patches because the vulnerable systems have now reached end of life.
+"The affected product has reached End-of-Life (EOL). As a result, no remediation or security update will be released for these vulnerabilities," SonicWall warned on Tuesday.
+"Organizations using the product should be aware of the associated security risks and are strongly encouraged to upgrade to the SonicWall Network Security Manager (NSM)."
+Attackers often target SonicWall vulnerabilities in the wild and have exploited multiple ones in zero-day attacks since the start of the year.
+In February, SonicWall asked customers to patch two SMA1000 zero-days (CVE-2026-15409 and CVE-2026-15410) and two more (CVE-2026-15409 and CVE-2026-15410) in July. It also patched three other SMA1000 flaws exploited as zero-days in September (CVE-2026-83548 and CVE-2026-83549) and October (CVE-2026-102255).
+Over the last four years, the US Cybersecurity and Infrastructure Security Agency (CISA) added 19 SonicWall vulnerabilities to its list of actively exploited flaws, 13 of them also abused by ransomware gangs.
+SonicWall serves more than 500,000 customers (including small and medium-sized businesses, large enterprises, and government agencies) in more than 215 countries and territories through a network of over 17,000 partners.
+Adaptive Security's AI agents analyze email intent, context, and behavior to uncover phishing, business email compromise, and invoice fraud.
+See what's getting through with a 14-day read-only scan of Microsoft 365 or Google Workspace, with no MX changes.
+Start your free email security scan.

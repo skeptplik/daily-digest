@@ -1,0 +1,12 @@
+Two Canadian men face federal prosecution in New York after allegedly orchestrating a multi-year cyber incursion campaign that hijacked computing resources across American universities to secretly mine cryptocurrency.
+A federal grand jury indicted Ryan James Roach, 35, of Saskatchewan, and Mathiew James Stubbings, 41, of Ontario, on charges of conspiracy to obtain information and cause damage to protected computers, obtaining information from a protected computer, and intentional computer damage.
+Roach was extradited from Canada on October 28, while extradition proceedings against Stubbings remain underway before Canadian courts.
+According to the indictment, the intrusions spanned from June 2016 through December 2019, compromising systems at academic institutions in New York, Massachusetts, North Carolina, and Tennessee.
+The two allegedly set up multi-country virtual private server infrastructure using fraudulent identities to manage the campaign. “These servers transmitted malware and mining software to victim computers and stored stolen login credentials,” the DOJ explained.
+The threat actors specifically singled out campuses maintaining supercomputers, using previously compromised machines as pivot points to conceal their origins.
+Canadian court filings revealed that the hijacked university hardware was repurposed to mine a cryptocurrency called Electroneum.
+“Once inside a network, Roach and Stubbings used sophisticated techniques and tools to conduct reconnaissance and expand their access within the network,” prosecutors stated.
+If convicted, the offenses carry a maximum statutory penalty of 10 years in prison and a $250,000 fine on each count.
+Related: FBI Flags Over 600 Addresses Tied to North Korea’s Binance Heist
+Related: Syrian Hacker Gets Prison Time in US After Over a Decade on the Run
+Related: Bulletproof Host Virtualine Loses Its Domain to FBI Seizure

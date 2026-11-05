@@ -1,0 +1,14 @@
+Thousands of Telstra users have reported phantom missed-call notifications on their mobile devices with some messages arriving days after the actual phone calls.
+The company acknowledged an issue with its MessageBank service on Wednesday but said the issue had been fixed. Telstra was investigating the cause, which was linked to a technical issue.
+The company said the error was not the result of an outside influence or hack.
+“We identified an issue with our MessageBank service yesterday, which was fixed last night,” a Telstra spokesperson said in a statement.
+“Some customers may have noticed several delayed missed call and voicemail notifications arriving at once, some dating back to several days.
+“We’re sorry for the confusion this may have caused. There was no impact to triple zero calls, voice calls or mobile data.”
+Telstra’s Facebook page received more than 3,000 comments from confused users.
+“I got a missed call on my work mobile this afternoon from my personal mobile which was locked in my cupholder while driving and listening to an audio book via bluetooth,” LisaMaree Collier wrote.
+“No call on the call log of the private phone. So confused as I’ve not called myself in months (last time I misplace the phone).”
+Another customer, Steven Alexandrou, said: “My dad was right next to me and my phone said he called me. I was wondering what was going on.”
+A Telstra user named Simone Lou said the explanation seemed to be “why my boss called me after hours thinking I’d called him when I hadn’t 😑”.
+Phil Richards also lamented the news: “Damn, I thought I was just really popular all of a sudden.”
+Telstra has 26m mobile services on its network.
+The company had a major nationwide outage in July that affected millions of customers, took some train services offline and prevented shops from using Eftpos machines. It blamed a “software defect” at the time, with CEO Vicki Brady saying Telstra would take the steps needed to prevent such an outage from happening again.

@@ -1,0 +1,21 @@
+The federal government is “sleepwalking its way into another robodebt” scandal amid a lack of transparency and legislation around the use of algorithms and AI in decisions, the chief executive of the independent thinktank the Centre for Public Integrity said.
+Dr Catherine Williams launched the centre’s “Computer Says No” report on Thursday, which examines the use of automated decision-making (ADM) tools by the government and calls for urgent reform.
+The centre is concerned Australians may not know whether ADM has been used in decisions affecting them.
+Among eight recommendations, the report calls for a mandatory audit and public register of all ADM use, and an independent oversight body with powers to monitor, audit and investigate the government over it.
+Williams said the report was developed amid the centre’s increasing concern about the use of an algorithm as part of the government’s integrated assessment tool (IAT), which is used to assess the level of home support older Australians are entitled to.
+The IAT has been found to be routinely under-assessing people’s needs and entitlements, with aged care assessors banned by the government from overriding incorrect algorithmic decisions.
+“We have been watching the evidence emerge in relation to the aged care algorithm tool, and becoming increasingly concerned about what is clearly the lack of an appropriate and robust framework to govern use of ADM by the government,” Williams said.
+“It feels as though we are sleepwalking into another robodebt scenario, and that’s why we’ve decided to put this work forward now, in the hope also that it can help inform any framework that the government does propose in relation to ADM.”
+The attorney general’s department has been developing an ADM framework, with public consultation ending in January 2025.
+The attorney general, Michelle Rowland, did not respond to questions about when a draft framework might be complete and made public but said the government “is committed to ensuring the safe and responsible use of ADM to deliver timely and efficient services for the Australian community”.
+The framework will implement recommendations from the royal commission into robodebt, she said.
+A report from the commonwealth ombudsman, published in October, found transparency recommendations from the robodebt royal commission had been ignored by the government in developing and rolling out the IAT.
+Rowland did not respond to questions about whether any ADM framework would be retrospective but said it “will be designed to improve accuracy and consistency of administrative decisions, embed robust safeguards, including transparency obligations, and ensure that ADM is used lawfully, responsibly, and with appropriate human oversight”.
+The framework will also lift productivity and help deliver faster, more reliable services, she said.
+In September the independent MP Kate Chaney introduced a private member’s bill to establish the first legislated, mandatory framework for ADM use by the government.
+She said the attorney general department’s consultation process for an ADM framework “finished almost two years ago”.
+“I have met with the attorney general about it and they say ‘we’re working on it’. I think it’s really important that we keep the pressure up so that it doesn’t get dropped because it’s too hard.”
+Chaney said government departments were making decisions about ADM use with little consistency or transparency.
+“The government wants to find cost savings in the public service and automating decision-making can be a way of achieving those savings,” she said.
+“But I think trust in the government is low. There does need to be transparency about when decisions are automated, and when it’s not appropriate for those to be automated, for people to be able to get a clear understanding of why the decision was made and to be really clear about what the pathways are to review that decision.
+“This is what people expect of government.”

@@ -1,0 +1,26 @@
+mSeven Software is warning current and former mSecure password manager customers to change passwords, reset two-factor authentication, and remove passkeys following a cyberattack in which a hacker reportedly stole an encrypted customer database..
+In a security notification sent to customers on November 3 and shared with BleepingComputer, the company said it recently discovered suspicious activity involving its mSecure password management application.
+"mSeven Software (“mSeven”) recently learned of suspicious activity associated with the mSecure password management application," reads the mSecure security notification.
+"In response, mSeven quickly launched an investigation, took steps to mitigate the issue, and engaged external cybersecurity experts to assist. You are receiving this email because you are a current or former mSecure customer."
+The notice did not provide any details as to what systems were compromised, whether customer data was stolen, and how many users were impacted.
+However, the company urged all current and former customers to immediately protect confidential information stored in the password manager.
+"This may include changing passwords, resetting or re-enrolling two-factor authentication methods, or removing existing passkeys," continued the security notice.
+mSecure is a password manager that allows users to store passwords, passkeys, financial information, and other sensitive data in encrypted vaults that can be synchronized across devices.
+According to mSeven's security documentation, mSecure uses AES-256 encryption and a zero-knowledge architecture that encrypts data locally on users' devices before transmitting it to the company's servers. The company says it cannot access customers' decrypted vault contents.
+These security protections have led to confusion among customers about why they are being advised to change all their stored passwords and authentication if their data was encrypted before being uploaded to the company's servers.
+Encrypted password database reportedly stolen
+While the original notification had few details, customers have shared responses reportedly received from mSeven's support team indicating that a hacker stole an encrypted database from mSecure Cloud.
+In one support forum post, a customer shared a response stating that the stolen database contained information belonging to current and former mSecure users.
+According to the response, mSeven discovered the theft and subsequently notified customers.
+The response also stated that the company had no evidence that the attacker accessed the confidential information stored within the encrypted database.
+"Please note, this issue only pertains to users that were synching with the mSecure Cloud," reads the response shared by the customer.
+The company also reportedly said it had implemented additional security measures and had no evidence that the mSecure application was currently unsafe to use.
+Other customers reported receiving similar explanations, including confirmation that the incident was limited to users who synchronized their password databases through mSecure Cloud.
+However, customers have expressed frustration over the company's lack of transparency about the breach and the potential risks to their stored credentials, particularly as mSeven has not publicly explained how the breach occurred.
+While mSeven reportedly has no evidence that attackers accessed the encrypted information, stolen password vaults can still pose significant risks if attackers can crack weak master passwords through offline attacks.
+This was shown in the 2022 LastPass breach, when attackers stole backups containing encrypted password vaults.
+Researchers later linked the breach to cryptocurrency thefts in which attackers are believed to have cracked weak master passwords to access stored credentials, private keys, and recovery phrases.
+BleepingComputer contacted mSeven Software with questions about the incident, the stolen database, and the potential impact on customers, but has not yet received a response.
+Adaptive Security's AI agents analyze email intent, context, and behavior to uncover phishing, business email compromise, and invoice fraud.
+See what's getting through with a 14-day read-only scan of Microsoft 365 or Google Workspace, with no MX changes.
+Start your free email security scan.

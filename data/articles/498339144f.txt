@@ -1,0 +1,17 @@
+Abstract
+Metal-to-ligand charge transfer (MLCT) is a fundamental photoinduced process that underpins a broad range of energy- or electron-transfer events1,2. In the absence of productive substrate engagement, the MLCT excited state typically relaxes to the ground state via photophysical deactivation, reflecting its largely reversible character3,4. Here we report a class of isolable copper–heteroaryl sulfone complexes that, upon visible light irradiation, undergo an irreversible MLCT-driven fragmentation through C–S bond cleavage within the coordinated sulfone ligand, generating carbon-centered radicals. Spectroscopic and computational studies support the formation of MLCT-derived excited states and a low-barrier pathway for C–S bond cleavage. This reactivity is largely independent of the reduction potentials of the corresponding free sulfones, enabling the generation of fluoroalkyl and non-fluorinated tertiary, secondary, and primary (even methyl) alkyl radicals. We demonstrate the utility of this platform in copper-catalyzed C–H fluoroalkylation of arenes and terminal alkynes. Leveraging these MLCT-generated trifluoromethyl radicals to initiate halogen-atom transfer (XAT) from perfluorocyclobutyl iodide (I-FCB), we also achieve radical perfluorocyclobutylation–iodination of alkenes, addressing a longstanding challenge in the incorporation of perfluorocyclobutyl motifs.
+Access options
+Access Nature and 54 other Nature Portfolio journals
+Get Nature+, our best-value online-access subscription
+Receive 51 print issues and online access
+Rent or buy this article
+Prices vary by article type
+Prices may be subject to local taxes which are calculated during checkout
+Supplementary information
+This Supplementary Information file contains the following sections: 1. General information; 2. Synthesis of alkyl sulfones; 3. General procedures; 4. Analytical data of substrates; 5. Optimization of reaction conditions; 6. Analytical data of products; 7. Synthetic applications; 8. Mechanistic studies; 9. NMR spectra; and 10. References.
+About this article
+Cite this article
+Wei, Z., Li, X., Xiao, L. et al. Carbon radical generation by irreversible metal-to-ligand charge transfer. Nature (2026). https://doi.org/10.1038/s41586-026-11368-9
+- Received:
+- Accepted:
+- DOI: https://doi.org/10.1038/s41586-026-11368-9

@@ -1,0 +1,12 @@
+GUWAHATI
+An almost real-time satellite-based assessment of the impact of the glacial lake outburst flood (GLOF) in Bhutan’s Gasa district on October 29 has revealed a 73% reduction in the surface area of Sintaphu Tsho, the affected Himalayan glacial lake.
+The assessment by Suhora Technologies, a Noida-based geospatial intelligence company, also shows a 24.4% reduction in the surface area of a supraglacial lake adjoining Sintaphu Tsho. A supraglacial lake is a temporary body of meltwater that collects in surface depressions on a glacier or ice sheet.
+The assessment indicates that Sintaphu Tsho, at about 14,700 feet above mean sea level, experienced the most significant water loss during the outburst, while the supraglacial lake, despite its post-GLOF reduction, remains substantially larger than its 2016 extent.
+The geospatial intelligence firm conducted a decade-long assessment of the lake system using late-October satellite imagery from 2016 to 2026. The analysis highlighted contrasting trends in the two lakes before the GLOF event.
+Sintaphu Tsho remained stable over the 10 years, gaining 3.4% in surface area from 23.33 ha in 2016 to 24.13 ha in 2026. The gain peaked on October 28, the day before the outburst.
+After the GLOF, its surface area fell to 6.54 ha, down 73%, which is less than a third of its size at any point in the previous ten years.
+The supraglacial lake grew steadily from 5.74 ha to 16.51 ha during the decade studied. The increase was 188%, nearly three times its 2016 size.
+This lake added about 1.1 ha of surface area every year, with no year of shrinkage. After the GLOF, it fell to 12.47 ha, down 24% but more than twice its 2016 size.
+“The findings highlight the importance of continuous monitoring of glacial lake systems and the role of satellite-based Earth observation in understanding changes across vulnerable Himalayan terrain, Krishanu Acharya, the co-founder of Suhora Technologies, said.
+“Timely access to such insights can support better awareness of evolving environmental risks and strengthen monitoring and preparedness across the region. We are transforming satellite observations into actionable geospatial intelligence for disaster risk monitoring and management,” he said.
+Sintaphu Tsho is nestled below Wakila Mountain in the Lungo area of Laya Gewog (administrative block). The October 29 GLOF from this lake destroyed facilities at Gasa Tshachu, a popular natural hot spring along the banks of the Mo Chhu River, and also triggered flash flood warnings for parts of West Bengal and Assam.

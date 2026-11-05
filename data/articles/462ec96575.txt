@@ -1,0 +1,14 @@
+French bank confirms cyber heist, hackers suspected to have stolen an estimated $133 million
+A major French banking firm confirmed it experienced a “sophisticated attack” following reports that hackers stole an estimated $133 million from the firm.
+Crédit Mutuel Arkéa said in a press notice that the attackers were able to make transfers using the bank’s own account after compromising an unnamed supplier. The statement stressed customer accounts were not accessed and that the incident would not impact customers’ assets.
+Details about the incident were first reported on Monday by ZachXBT, a pseudonymous American blockchain investigator who subsequently named Arkéa as the alleged victim and said the attack had run over several days. ZachXBT estimated the size of the theft at more than $133 million, based on withdrawals from cryptocurrency exchange accounts and transactions intending to launder the assets.
+In its statement Wednesday evening, Arkéa declined to confirm the estimated loss figure but said it could “validate the order of magnitude.” It said: “As soon as the attack was detected, the necessary measures were taken under existing crisis procedures. The incident is now under control.”
+The bank disputed local reports in French media alleging the attackers had gained access through Fortuneo, its online banking subsidiary, and used it to make the initial transfers.
+Arkéa said the attackers had “gone through the platform of one of our service providers” to obtain direct access to the banking group itself. It described the hack as “sophisticated” and not the result of human error, without providing additional details.
+“The attackers used Crédit Mutuel Arkéa’s own account to carry out transactions to other banking institutions, which then potentially allowed them to convert this money into cryptocurrency via specialised platforms,” according to the statement.
+Some of the converted assets have been frozen, according to the bank, which added it was working to recover the rest.
+It said the ultimate loss wasn’t established but stressed the sum was “absolutely not of a nature” to threaten its solvency or financial health. According to its most recent annual report, Arkéa’s total assets are above £237 billion.
+“Our security systems made it possible to identify the suspicious activity very quickly and to take the necessary measures to contain the attack,” stated the bank.
+It added that its teams were “working with the relevant judicial and police authorities to determine precisely the origin of the attack and its modus operandi.”
+Alexander Martin
+is the UK Editor for Recorded Future News. He was previously a technology reporter for Sky News and a fellow at the European Cyber Conflict Research Initiative, now Virtual Routes. He can be reached securely using Signal on: AlexanderMartin.79

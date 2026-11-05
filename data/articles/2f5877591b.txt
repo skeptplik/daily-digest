@@ -1,0 +1,21 @@
+AI-related cyberattacks are surging, with hackers stealing AI access keys to monetize them and using AI tools to speed up their intrusions.
+Over the past month, at least a dozen AI developer platforms were hit, with the most recent incidents involving CommandCode, Northflank, Trigger.dev, Chainstack, and WorkOS.
+Across all incidents, the hackers appear to have been hunting for AI access tokens they could monetize, relying on AI agents to speed up and streamline their attacks.
+While part of the same industry-wide trend, the attacks do not appear to be related, and initial access varies from compromised credentials to third-party dependencies and vulnerability exploitation.
+The attackers hit Andromeda, Brev (NVIDIA), CommandCode, Fireworks AI, Lightning AI, Northflank, OpenCode, Railway, Trigger.dev, Warp, and Zeabur, mainly looking for stored customer secrets.
+“Intruders are reaching AI provider credentials through the intermediary layer of hosting platforms, evaluation services, and developer consoles, and recent gateway compromises show the same interest in these secrets. Because that layer holds credentials on behalf of many downstream customers, a single intrusion can expose keys for many inference accounts at once,” Cloud Security Alliance pointed out.
+Per Wiz’s analysis of the incidents, the surge is caused by the rise of LLM-jacking and LLM broker infrastructure, which make the stolen AI access tokens easily monetizable and will likely attract more threat actors to credential theft.
+The cybersecurity outfit notes that this demand is also driven by distillation (training a cheaper model on the outputs of a more advanced one), “notably alleged against Chinese AI labs”.
+Wiz says it has observed hackers abusing enterprise credentials compromised in these attacks, including two cases that “shared an identical first unauthorized activity, which happened within 30 minutes of the reported credential access within the vendor breach.”
+The company observed multiple threat actors using the same compromised keys, which “suggests a robust market for this type of credential”.
+Artex used to automate attacks
+This week, blockchain infrastructure and Web3 services provider Chainstack and API platform for building enterprise applications WorkOS disclosed cyberattacks that relied on the open source AI penetration testing framework Artex for automation.
+Multiple companies have linked attacks attributed to the Chinese APT Storm-0940 to the use of Artex, including a recent campaign targeting ConnectWise customers.
+Chainstack was hit on October 26, and the attackers accessed a development environment and parts of the company’s production environment through a third-party component.
+“The attacker accessed a database containing customer account information. Information that may have been exposed includes organization names, account holder names, the email addresses of your organization’s members on Chainstack, and password hashes,” the company said this week.
+Node credentials might have been exposed as well, as the attackers had access to systems storing them, and Chainstack prompted customers to rotate those credentials.
+On October 30, WorkOS says, the hackers compromised an internal application used by its sales team and accessed business contact details and summaries of customer communications.
+The information includes names, email addresses, phone numbers, job titles, company affiliations, customer account histories, sales details, customer-relationship information, customer communications, and information about customers’ use of WorkOS products.
+Related: Cisco Open Sources Quarry to Catch AI Agent Attacks Hidden in Harmless Steps
+Related: Mythos 5 Ignored Real-World Harm in July Attack
+Related: ‘Context Bombs’ Cut AI Attack Success by Misleading Agents With Fake Targets

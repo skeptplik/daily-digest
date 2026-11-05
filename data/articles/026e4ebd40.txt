@@ -1,0 +1,6 @@
+ChatGPT can now create GIFs using a prompt or a photo uploaded to the AI chatbot. The update, which is rolling out alongside OpenAI’s new Images 2.6 model, allows you to adjust the GIF’s animation speed, edit individual frames, and share it with others.
+ChatGPT will now make you animated GIFs
+You can use ChatGPT to edit a GIF’s animation speed and individual frames.
+Before this change, ChatGPT couldn’t natively generate GIFs in a single step. An example shared by the company shows how ChatGPT can generate a GIF in response to the prompt, “can you make a gif of a cat dancing?” while also providing you with the option to change the playback speed and view it frame by frame.
+Along with support for GIF-making, the Images 2.6 update also enables faster image generation in ChatGPT, OpenAI says. The company says users now generate over 4 billion images per week across ChatGPT and its API, a jump from the 3 billion per week it reported in September.
+Images 2.6 is rolling out to all ChatGPT and Codex users across web, desktop, and mobile apps. OpenAI is also launching GPT-Image-2.6 Flare and Sunburst in its API for faster and higher-quality image generation.

@@ -1,0 +1,20 @@
+Indian IT security company OpsShield on Monday fell victim to a cyberattack that resulted in malicious versions of cPGuard being served to its customers.
+OpsShield specializes in server protection and web security software, and cPGuard is its most notable product, designed for Linux web hosting servers.
+According to the company’s incident notice, the attackers used compromised credentials to access its update distribution infrastructure (CDN) and distribute a malicious script via cPGuard’s update channel.
+cPGuard versions 5.88.12–5.88.19 contained the malicious code. The supply chain attack was discovered within 12 hours and the fake updates were distributed for roughly 70 minutes.
+The attackers first targeted the company’s billing and licensing server. They registered a customer account and ordered a free cPGuard trial to study its communication with the licensing system, then started sending crafted requests to the portal.
+After obtaining command execution on the billing and licensing server, the hackers started collecting data and then uploaded a fake cPGuard update using a stolen access key, the company explains in an updated report.
+The update was executed as root on the servers that polled OpsShield’s update infrastructure during the compromise window. At the same time, the attackers copied three of the company’s cloud servers.
+The malicious script in the updates was designed to collect data and upload it to OpsShield’s licensing server under a compromised account. According to the company, the hackers retrieved 32 collected files from the data uploaded by the script, each from a different customer server.
+Additionally, the script deployed a hidden root shell and certain files in the temp folder of customers’ servers.
+OpsShield estimates that 2,950 servers executed the fake cPGuard updates, and that the attackers copied approximately 7,900 client account records containing names, company, addresses, emails, and hashed passwords.
+All password hashes, root SSH keys, and MySQL root passwords, as well as shell history on the infected customer servers, should be considered compromised and rotated.
+“If cPGuard was not online during that window, your server did not receive the fake update. You should still reset your billing portal password,” OpsShield says.
+The company says it evicted the attackers from all servers they may have touched, reset secrets on its account, removed the attacker’s SSH key and cloned assets from its cloud account, and replaced all SSH keys and passwords across its servers.
+Additionally, it started reissuing all cPGuard license private/public keys because the attackers compromised them, reset all billing portal login sessions and rotated associated API keys, and is rebuilding its billing, licensing, and internal management servers.
+OpsShield also released cPGuard updates (version 5.88.25 and later) that remove the hidden root shell and the additional files left behind by the script, and published indicators of compromise (IoCs).
+“Attacks like this one are getting faster and cheaper to run. Our answer is to harden our own update and signing process first, and then to put what we learned here straight back into cPGuard for you,” the company notes.
+Related: Malicious Claude Code Extension Served in Cursor Supply Chain Attack
+Related: LiteLLM Compromised in Fresh Supply Chain Attack
+Related: Frontline Education Data Breach Impacts Over 1.3 Million
+Related: Over 100 European Stores Hit as Supermarket Fridge Attacks Return
