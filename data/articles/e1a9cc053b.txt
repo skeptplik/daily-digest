@@ -7,3 +7,9 @@ Having a(nother) useful task for the system NPU to do is a welcome development, 
 Follow Tom's Hardware on Google News, or add us as a preferred source, to get our latest news, analysis, & reviews in your feeds.
 Get Tom's Hardware's best news and in-depth reviews, straight to your inbox.
 Mark Tyson is a news editor at Tom's Hardware. He enjoys covering the full breadth of PC tech; from business and semiconductor design to products approaching the edge of reason.
+- 
+I like the idea of finding alternative uses for NPUs.
+I generally prefer to see GPUs become better & more efficient at inferencing and then perhaps NPUs can go away. NPUs have an edge in low-power inferencing of smaller models, and that's important for phones and tablets. So, I think they'll probably stick around, in those devices.
+BTW, another thing it seems like NPUs could be useful for is running DLSS-type image scaling models. That's most useful when the GPU is heavily occupied, so it'd provide a real benefit to offload it from having to do image scaling, as well. Reply
+- 
+usertests said:Nova Lake-S NPU6 should increase by around 50% to 74 TOPS. We might be able to brute force our way into making this viable.If you have to rely on brute force, that means it won't be efficient. Which means it's not going to make a lot of practical sense. Reply

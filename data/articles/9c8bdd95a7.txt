@@ -26,6 +26,7 @@ The message confirms that this is not an official announcement from the game's p
 BleepingComputer has contacted Level Infinite for comment on MotherSphere's findings, but has not received a response by publication.
 Potentially affected players should run a full system scan using updated antivirus software.
 Those who find they were compromised should reinstall Windows, and change passwords and other sensitive credentials from a clean device.
+Update 5/11 - Nikke has released an update with instructions on how to check computers for compromise.
 Adaptive Security's AI agents analyze email intent, context, and behavior to uncover phishing, business email compromise, and invoice fraud.
 See what's getting through with a 14-day read-only scan of Microsoft 365 or Google Workspace, with no MX changes.
 Start your free email security scan.

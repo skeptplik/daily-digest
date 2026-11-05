@@ -21,3 +21,10 @@ KitsuneKas said:What demand? Aside from the major players like Anthropic, OpenAI
 There's already more infrastructure than there is demand. Companies are reporting that they're buying more hardware than they actually need to meet their demands, just to keep it out of the hands of their competitors.
 At this point the demand is essentially self-sustaining. RAM is scarce because everyone is buying RAM because RAM is scarce because...You realize that demand doesn't need a reason right?
 It's being bought at a rate higher than it can be produced which means demand outstrips supply. Reply
+- 
+thestryker said:You realize that demand doesn't need a reason right?
+It's being bought at a rate higher than it can be produced which means demand outstrips supply.And that demand can evaporate suddenly, after some kind of black swan event.
+AI investors forced to navigate the blue wave AI's Building Boom Meets A Blue Wave. 'Neocloud' Stocks Fall. Reply
+- 
+Sooooo....demand for AI means more data centers, which creates demand for memory, yet consumers wanting to use the AI cant because they lack the memory in their own computers to utilize the AI.
+Eventually something will have to give. Reply

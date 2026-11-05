@@ -1,3 +1,0 @@
-Fedora Linux 45 released
-Fedora Linux 45 has been released. This includes all editions: Fedora Workstation, Fedora KDE Plasma Desktop, Fedora Server, Fedora Cloud, Fedora CoreOS, and Fedora IoT, as well as the Atomic Desktops and Spins.
-This release adds support for installation on Stratis storage using Anaconda or Kickstart installs, retires unmaintained VPN plugins for NetworkManager, and updates Fedora's desktop environments, developer toolchains, and system packages. See the Fedora wiki ChangeSet page for a list of major changes.

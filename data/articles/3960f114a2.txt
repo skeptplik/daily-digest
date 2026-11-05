@@ -4,6 +4,13 @@ But while WoW Forever promises to be a huge launch and a return to form for many
 But I'm going to be in the trenches, trying to get in myself and keeping an eye on the community to find all the cool stuff people are talking about, and gathering all of that here. So, whether you're stuck at work while the servers go up, or you're inevitably frustrated by the servers buckling under the weight of millions of MMO fans, stay tuned for all the fun. Live updates are below.
 World of Warcraft Forever Live Blog
 All times are in EST
+12:45am: After such a successful launch, Blizzard posted about the servers that WoW Forever is running on. And, well, hopefully Sam Altman isn't watching, because apparently the WoWF servers are running on 251,136GB of RAM.
+*Slaps Roof of WoW: Forever*
+This baby is running on:
+3,924 Virtual Machines
+251,136 GB of Memory
+70,480 CPU Cores https://t.co/P9PdRBzke7
+— World of Warcraft (@Warcraft) November 5, 2026
 8:15 pm: Even a couple hours in, it seems like World of Warcraft Forever is the smoothest Blizzard launch in years. Even after the pain that the servers felt when name reservations went live last week, everything seems pretty buttoned up. I'm seeing fewer and fewer people having problems getting into the game, and the issues now seem limited to folks getting frustrated at faction limits and the sheer amount of people competing for mobs.
 I'm going to keep my eyes open for anything else going on, but for most people, you should be able to just log in and get lost in Azeroth. And, that's honestly the highest praise I could give to a massive live game launch like this.
 7:43 pm: I'm finally on the way to Brill, and as soon as I got past the gate, I rounded a corner, and got blown away by some incredible lighting. Blizzard really did knock the graphics upgrades out of the park with WoW Forever. If you have powerful enough hardware, trust me, max the game out, at least for a little bit.
