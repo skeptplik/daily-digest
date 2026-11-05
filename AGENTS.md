@@ -65,6 +65,8 @@
 20. Облачная задача собирает итог через `scripts/assemble.py`, субагенты проверяют свой файл `scripts/check_part.py`; формат частей (`items`, `curious_candidates` с `body`) и ключ `rows` в `/tmp/topics/<id>.json` менять только вместе с `routine_prompt.md`.
 21. Журнал облачной задачи читается из сессии: `RemoteTrigger` `list_runs` и `get_run_log` (последние 200 событий, старые через `cursor`).
 
+22. Облачная задача: `assemble.py` удаляет служебные поля частей (`note`, `independent`, `skipped`), поэтому оговорки «одно издание» и противоречия источников пишутся в `summary` или `body`. `assemble.py --out` завершается кодом 2, если нет файла темы; тема без материала записывается как `{"items": [], "skipped": "..."}`; в конце печатается строка `METRICS` (число новостей, объём `body`, снятые дубли, неиспользованные `curious`).
+23. Перед работой `git fetch` и `git pull --rebase`: Collect коммитит данные в `main`, локальный `main` отстаёт. `AGENTS.md` хранится с CRLF: правка Python `read_text`/`write_text` превращает файл в LF и даёт diff на весь файл; править инструментом Edit или побайтово.
 ## Локальная проверка (Python 3.12, `pip install -r requirements.txt`)
 ```
 python -m py_compile scripts/*.py
