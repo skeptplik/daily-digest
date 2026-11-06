@@ -5,7 +5,7 @@ The poll for AP and a consortium of news organisations found 56% of surveyed vot
 The hostile sentiment was considerably stronger among those who said they voted Democrat at this election.
 This follows other recent Pew Research polling, external which suggested about half of Americans think data centres are "mostly bad" for the environment, home energy costs and quality of life, a big deterioration in favourability since January.
 The congressional voter poll results certainly suggest a remarkable degree of salience for a subject which likely would not have been on most Americans' radar five years ago.
-However, it is some way behind several key issues people considered "crucial or major factors" in their vote, including government corruption (90%) and the cost of living (89%).
+However, it is some way behind several key issues people considered a "crucial or major factor" in their vote, including government corruption (90%) and the cost of living (89%).
 Did the AI backlash affect Senate races?
 Three of the Senate seats flipped by the Democrats have significantly more data centres, external, Texas (595), Ohio (258) and Iowa (117), than the median of 55 across all 50 states.
 And Texas alone has 31 ongoing data centre construction projects, the most of any state, external.
@@ -31,4 +31,4 @@ She said "projects already permitted or under construction will largely proceed"
 Analysts from the consultancy Oxford Economics have said there are also strong economic incentives for politicians to avoid policies that would severely disrupt data centre construction, pointing to tax revenue and construction jobs they bring.
 Deepak Surana of the Futurum Group, a technology research firm, said he expected there would ultimately be "a negotiation, not a moratorium" from Texas state leaders on data centres to ensure no negative impact on residents' energy and water bills.
 OpenAI, which has a data centre in Texas and under-construction projects in Ohio, pledged to ensure it fully paid for its own electricity on Thursday, external - one day after the midterm results.
-Additional reporting by Nicholas Barrett
+Additional reporting by Nicholas Barrett, Rob England and Christine Jeavans

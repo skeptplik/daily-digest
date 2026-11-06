@@ -1,0 +1,5 @@
+China’s AI chipmakers report first profits, but will the trend continue?
+Sky-high memory costs and other supply-chain difficulties lead major investment banks to pare margin forecasts
+China’s pure-play artificial intelligence chipmakers crossed an important milestone in the third quarter as several firms swung into profit, but severe supply chain hurdles and soaring memory costs cloud their long-term growth prospects.
+Domestic graphics processing unit (GPU) developers including Moore Threads, MetaX and Iluvatar CoreX are racing to fill the market void left by Nvidia, whose high-end processors face strict US export controls.
+These home-grown firms are competing fiercely to win over domestic enterprise clients and penetrate major cloud service providers (CSPs).
