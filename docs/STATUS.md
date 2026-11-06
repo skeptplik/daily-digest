@@ -35,6 +35,6 @@
 
 ## Файлы, к которым вернуться
 - `routine_prompt.md` (якоря для `make_handoff.py`: «2. ПРАВИЛА ДОСТОВЕРНОСТИ», «3. ТЕМЫ», «- importance: 3 = », «6. ЗАПИСЬ», «7. ПРОВЕРКА»), `scripts/assemble.py`, `scripts/check_part.py`, `scripts/split_topics.py`, `scripts/collect.py`, `scripts/render.py`, `scripts/check.py`, `templates/digest.html`.
-- `Digest-audit/audit/REPORT.md`, `RUN-FACTS-2026-11-05.md`, `AUDIT-PROMPT.md` (копия проекта рядом, без `.git`).
+- `~/.claude/backups/audit-copy-reports-2026-11-06/` (REPORT.md, RUN-FACTS, AUDIT-PROMPT; копия проекта Digest-audit удалена 6 ноября).
 - `docs/DECISIONS.md`; резервы: `~/.claude/backups/audit-2026-11-05`, `routine_prompt-before-assemble-2026-11-04.md`, `prompt-v4.json`.
 - Python на ПК: `C:\Users\Professional\AppData\Local\Programs\Python\Python315\python.exe`.

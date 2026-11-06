@@ -201,6 +201,33 @@ def prep_image(raw):
         return None, 0
 
 
+def externalize_images(payload):
+    """Копия payload, где data-URI картинок заменены относительными ссылками img/<хеш>.<ext>; файлы пишутся в site/img."""
+    import copy
+    import hashlib
+    import shutil
+    img_dir = SITE / "img"
+    shutil.rmtree(img_dir, ignore_errors=True)
+    img_dir.mkdir(parents=True, exist_ok=True)
+    pat = re.compile(r"^data:image/([a-z]+);base64,(.+)$", re.S)
+
+    def save(uri):
+        m = pat.match(uri) if isinstance(uri, str) else None
+        if not m:
+            return uri
+        raw = base64.b64decode(m.group(2))
+        name = hashlib.sha1(raw).hexdigest()[:16] + "." + ("jpg" if m.group(1) == "jpeg" else m.group(1))
+        (img_dir / name).write_bytes(raw)
+        return "img/" + name
+
+    out = copy.deepcopy(payload)
+    for t in out["topics"]:
+        for it in t["items"]:
+            it["img"] = save(it.get("img"))
+            it["photos"] = [save(p) for p in it.get("photos") or []]
+    return out
+
+
 def to_data_uri(raw):
     return prep_image(raw)[0]
 
@@ -523,9 +550,16 @@ def main():
         target.write_text(html, encoding="utf-8")
         print(f"Предпросмотр: {target} ({len(all_items)} новостей, {len(topics)} тем)")
         return 0
-    (SITE / "index.html").write_text(html, encoding="utf-8")
-    (SITE / ".nojekyll").write_text("", encoding="utf-8")
     (OUT / f"digest-{date_iso}.html").write_text(html, encoding="utf-8")
+    # сайт: картинки отдельными файлами site/img (страница ~1 МБ вместо ~8 МБ), архив в out/ остаётся самодостаточным
+    site_payload = externalize_images(payload)
+    html_site = env.get_template("digest.html").render(
+        data=site_payload, date_iso=date_iso, date_human=day_h, weekday=weekday, news_day=news_day_h,
+        headline=payload["headline"], demo=demo, total=len(all_items), ntopics=len(topics),
+        generated=payload["generated"],
+    )
+    (SITE / "index.html").write_text(html_site, encoding="utf-8")
+    (SITE / ".nojekyll").write_text("", encoding="utf-8")
     (OUT / "meta.json").write_text(json.dumps({
         "date": date_iso, "news_day": news_day_h, "headline": payload["headline"],
         "demo": demo, "file": f"digest-{date_iso}.html",
@@ -536,7 +570,7 @@ def main():
     langs = [lg for lg in ("en", "de") if any(lg in i["i18n"] for i in all_items)]
     print("Языки перевода:", ", ".join(langs) if langs else "только русский")
     with_img = sum(1 for i in all_items if i["img"])
-    print(f"OK: {len(all_items)} новостей, {len(topics)} тем, картинок: {with_img}, размер: {len(html) // 1024} КБ")
+    print(f"OK: {len(all_items)} новостей, {len(topics)} тем, картинок: {with_img}, размер страницы: {len(html_site) // 1024} КБ, архив: {len(html) // 1024} КБ")
 
 
 if __name__ == "__main__":
