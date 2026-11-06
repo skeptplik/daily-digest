@@ -9,3 +9,6 @@ If you've ever looked in the /etc/passwd or /etc/shadow files, you may have noti
 Get Tom's Hardware's best news and in-depth reviews, straight to your inbox.
 Follow Tom's Hardware on Google News, or add us as a preferred source, to get our latest news, analysis, & reviews in your feeds.
 Bruno Ferreira is a contributing writer for Tom's Hardware. He has decades of experience with PC hardware and assorted sundries, alongside a career as a developer. He's obsessed with detail and has a tendency to ramble on the topics he loves. When not doing that, he's usually playing games, or at live music shows and festivals.
+- 
+my main concern with this is all of the server infrastructure out there that not only runs primarily on linux but have SSH enabled.
+this has the potential be a cataclysmic issue and no one seems willing to fix it, just argue over who's fault it is. Reply
