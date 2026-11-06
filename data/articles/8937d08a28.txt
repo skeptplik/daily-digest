@@ -1,5 +1,0 @@
-Thank you for visiting nature.com. You are using a browser version with limited support for CSS. To obtain
-the best experience, we recommend you use a more up to date browser (or turn off compatibility mode in
-Internet Explorer). In the meantime, to ensure continued support, we are displaying the site without styles
-and JavaScript.
-Artificial intelligence has been tremendously useful in science, but, most of the time, it is used for computational work, such as analysing data, making predictions and scouring literature. Carrying out ‘wet laboratory’ experiments — which involve handling liquids, biological material and chemicals — is another matter. An AI system might design a promising biologically active molecule in minutes, but testing it can take weeks or months and requires extensive human effort. In a paper published in Nature, Wu etal.1 introduce AutoDNA, a lab in which AI agents plan and conduct molecular-biology experiments involving DNA, with relatively little human intervention. The work shows how AI systems can begin to close the gap between proposing an experiment and doing it.

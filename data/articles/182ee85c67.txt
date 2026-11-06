@@ -1,6 +1,0 @@
-X is introducing a new version of its web app that it says is much faster than before, and it’s now rolling out the updated app “one country at a time” for signed-in users.
-X says its updated web app is way faster
-X is moving signed-in users to its new web app one country at a time, but it’s already using the rewrite for X’s logged-out web experience.
-“Open a profile on X.com over a slow connection,” principal engineer Yagiz Nizipli said in a blog post about the changes. “On the old web app, you’d stare at the X logo for more than 22 seconds before the first post appeared. On the new one, it shows up in 2.7.” The post also goes into technical detail about how the updated app “replaces the three servers we used to run for people, search crawlers, and link previews with one.”
-Security researcher Jane Manchun Wong posted that she had access to the updated app, and said it “feels snappy, loads fast and many parts are polished.”
-The new app is already available for the logged-out version of X.com and for the pages that are crawled by search engines, Nizipli said.

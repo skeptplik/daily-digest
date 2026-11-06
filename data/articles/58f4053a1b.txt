@@ -1,0 +1,23 @@
+Truffle Security has launched the Secrets Revocation Program, a free initiative that helps API key issuers revoke 1.4 million publicly exposed secrets that remain valid.
+Since 2022, the company has discovered secrets embedded in public repositories, packages, container images, datasets, and applications.
+Earlier this year, Truffle Security reported that it had found 543,000 valid credentials leaked in public GitHub repositories.
+In a separate investigation, the company identified more than 431,000 AWS secrets across code repositories, Git histories, datasets, Docker images, registries, and CI logs.
+These secrets are typically exposed by mistake during the development process, by committing credentials to a public repository, including them in published Docker images or packages, or leaving them in configuration files uploaded with an app or dataset.
+Truffle Security says that the problem is that the owners of these secrets are not responsive to researchers’ notifications about leaked data.
+“Telling developers their keys leaked doesn’t get them turned off: 81% of the keys we reported last year still worked six months later,” the company explained.
+As a result, exposed secrets pose unnecessary security risks that can extend beyond the affected companies to their customers and downstream application users.
+The researchers note that the rise of AI coding tools has only worsened the situation, increasing secrets exposure even more.
+“Since January 2025 we’ve found 2,655 working keys in AI coding tools’ config files like that one,” the researchers said, noting that this was a non-existent problem the year before.
+AI is also increasing the impact of exposure on the offensive side, as shown by OpenAI’s July incident, where AI agents used exposed Hugging Face tokens to steal data from the platform.
+Revoking exposed keys
+Truffle’s new program, which uses the TruffleHog tool to check for the validity of leaked keys, aims to coordinate the revocation of exposed secrets with the entities that issued them.
+Truffle says it can either use a revocation endpoint provided by those entities, or supply them with the verified keys through a webhook and revoke them within 14 days.
+This way, even when owners are unresponsive, the keys can be invalidated.
+Sixteen issuers have already joined the program, including Hugging Face, Notion, Vercel, Resend, RubyGems, and Twilio.
+Truffle says the unilateral revocation approach can be very effective, as demonstrated by Google when it began disabling exposed Google Cloud service-account keys by default on June 16, 2024.
+When Google relied only on notifying key owners, Truffle Security found that many customers failed to respond, leaving 72% of the exposed secrets active. By automatically disabling leaked keys, the figure was reduced to 11%.
+Although eliminating all valid exposed keys is impossible because customers can opt out of automatic revocation, the measure proved to be effective.
+Companies that issue API keys can join Truffle Security's Secrets Revocation Program to automatically protect their customers.
+Adaptive Security's AI agents analyze email intent, context, and behavior to uncover phishing, business email compromise, and invoice fraud.
+See what's getting through with a 14-day read-only scan of Microsoft 365 or Google Workspace, with no MX changes.
+Start your free email security scan.

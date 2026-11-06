@@ -1,0 +1,17 @@
+Abstract
+The Intergovernmental Panel on Climate Change recommended 1.5°C carbon reduction target, requiring powerful enforcement from major economies. China, the largest CO2 emitter, is facing severe difficulties for both variable renewable accommodation and decarbonization of hard-to-abate sectors. Hydrogen, as a critical green energy carrier bridging renewable to end-users, faces significant obstacles in real-world deployment such as costly transportation, storage and fuel-cell adoption. Affordable and coordinated hydrogen deployment plan to accelerate the carbon-neutral transition remains ambiguous. Here, we present cost-effective carbon-neutral transition pathways for entire energy economy of China emphasizing the significant role of hydrogen and derivatives as green energy carriers, considering high-resolution renewable deployments, hourly power system operations in 29 provincial regions, over 46,000 rail/road/marine/pipeline transfer routing of hydrogen derivatives, process-level fuel adoption strategies in all end-use sectors. Results show that incorporating hydrogen and derivatives can reduce the overall transition cost by $ 10.7 trillion compared with renewable and electrification pathways, achieving negative carbon abatement costs ($-6.15/ton), eliminating external oil import expenses, equivalent to over 50% of China trade surplus (2023 level)1, significantly boosting employment and economic growth. Hydrogen derivative based transition pathway offers a vital direction for affordable and secure decarbonization for China and beyond under volatile international energy markets.
+Access options
+Access Nature and 54 other Nature Portfolio journals
+Get Nature+, our best-value online-access subscription
+Receive 51 print issues and online access
+Rent or buy this article
+Prices vary by article type
+Prices may be subject to local taxes which are calculated during checkout
+Supplementary information
+Supplementary methods, equations and discussion documenting the HeD-MISSION framework. The file includes 52 figures and 160 tables covering model architecture, scenario settings, data sources, variables and constraints, technology parameters, sectoral formulations, validation benchmarks, cost and emissions accounting, sensitivity analyses, and resource and implementation considerations.
+About this article
+Cite this article
+Chen, X., Guo, X., Yang, X. et al. Hydrogen Derivatives Enable Cost-Effective Carbon Neutrality in China. Nature (2026). https://doi.org/10.1038/s41586-026-11351-4
+- Received:
+- Accepted:
+- DOI: https://doi.org/10.1038/s41586-026-11351-4

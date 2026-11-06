@@ -1,0 +1,35 @@
+Organizations have invested heavily in securing employee logins. Multi-factor authentication (MFA), conditional access policies and other identity controls make it harder for attackers to gain unauthorized access. But these protections can be undermined if the process for recovering access isn't held to the same standard.
+When an employee needs to regain access to their account, it’s often the service desk that provides the password reset or account recovery. Yet identity verification commonly still relies on knowledge-based questions, such as an employee's manager's name or department.
+This creates a gap in identity security where a weaker route into an account can bypass stronger login security. And as social engineering attacks become more convincing, that gap is becoming increasingly dangerous.
+Why Knowledge-Based Verification Can No Longer Be Trusted
+Attackers can gather a surprising amount of information before making a call. LinkedIn profiles, company websites, social media and leaked data can reveal everything from job titles and colleagues to office locations and personal details.
+Armed with this information, an attacker can answer verification questions correctly and appear to be a legitimate employee.
+This becomes particularly dangerous when passing these checks is enough to authorize a password reset or recover an account. An attacker could gain access to that account without ever needing to compromise the employee's original credentials.
+The risks of knowledge-based authentication are well established. NIST's digital identity guidelines no longer recognize security questions as an acceptable authentication method. Against the threat landscape in 2026, knowing information about someone is not proof of their identity.
+Verizon’s Data Breach Investigation Report found stolen credentials are involved in 44.7% of breaches. 
+Effortlessly secure Active Directory with compliant password policies, blocking 4+ billion compromised passwords, boosting security, and slashing support hassles!
+AI and Social Engineering Make the Gap More Dangerous
+Cybercriminal groups such as Scattered Spider have made the service desk a preferred target. Rather than trying to bypass MFA directly, attackers impersonate employees and convince service desk agents to reset passwords or register new MFA devices. A convincing phone call can be enough to gain access to an account.
+Generative AI is making these attacks harder to detect and easier to scale. Attackers can use AI to create believable stories, generate natural-sounding conversations and even impersonate employees' voices. This makes it increasingly difficult for service desk agents to distinguish legitimate callers from attackers.
+A 2025 Gartner survey found that 62% of organizations had experienced a deepfake attack involving social engineering or automated processes in the previous year.
+Meanwhile, Verizon's 2026 DBIR found that social engineering through texts and voice calls had a 40% higher success rate than traditional email phishing.
+Service desk agents can no longer rely on how convincing someone sounds. Identity verification needs to be based on secure, consistent checks rather than an agent's ability to recognize an impersonation attempt.
+It's Not Just a Security Problem
+Access recovery also comes at a cost. Account lockouts create service desk tickets which interrupt employees' work and put pressure on overworked IT teams. When someone loses access outside office hours, even a routine reset can mean hours of downtime.
+There is a monetary cost as well; a single help desk password reset costs around $70. Multiply that by hundreds or thousands of requests, and the expense quickly adds up.
+Secure self-service recovery can help employees regain access without contacting the service desk, while streamlined identity verification helps agents handle requests that still need support. With the right processes in place, organizations can reduce the workload without weakening security.
+Closing the Gap: What Secure Service Desk Verification Looks Like
+It’s unrealistic to expect service desk agents to become experts at spotting AI-enabled social engineering attempts. Training is still crucial, and agents should feel confident in refusing requests or escalating when something doesn’t sound right.
+Alongside that, they need a reliable way to verify identities before making sensitive account changes. Verification should be a required step, not a judgment call based on how convincing someone sounds.
+Solutions like Specops Secure Service Desk help organizations put this into practice through a straightforward four-step process:
+- An employee contacts the service desk: An employee, ‘John Doe’, calls because he can't access his account. The agent starts a recovery request through Specops Secure Service Desk.
+- The agent locates the account: Using John's details, the agent finds his account and initiates the verification process.
+- Identity verification takes place: Specops Secure Service Desk supports a range of verification methods, including email, SMS, and third-party authenticators like Duo, so organizations can choose an appropriate method for the request whether the caller has access to a smartphone or not.
+- The agent proceeds once verification succeeds: Only after John has successfully verified his identity can the agent carry out the requested action, such as resetting his password.
+The goal is to make secure identity verification a consistent part of service desk workflows, without adding unnecessary friction for agents or employees.
+Make Account Recovery as Secure as Login
+Strong login security means little if attackers can bypass it with a convincing call to the service desk. Password resets and account recovery need verification that's just as robust as the authentication controls they protect.
+By replacing knowledge-based questions with consistent, secure verification, organizations can reduce the risk of impersonation without making life harder for employees or service desk agents.
+Want to see how it works? Take the interactive walkthrough of Specops Secure Service Desk to see how service desk agents can securely verify identities before carrying out sensitive account changes.
+If you’re interested in seeing how Specops can support your identity security strategy, contact us today.
+Sponsored and written by Specops Software.

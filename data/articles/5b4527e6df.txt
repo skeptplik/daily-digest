@@ -1,3 +1,7 @@
+This is a human-written story voiced by AI. Got feedback?
+Take our survey .
+(See our AI policy
+here .)
 Computational physicist Giulia Menichetti is looking for “dark matter” in our food. In addition to known macronutrients, vitamins and minerals, the things we eat contain a whole world of natural chemicals we have no idea about. And those chemicals may affect our health.
 “They have the ability to interact, to bind to human proteins, to modulate our microbiome,” says Menichetti of Harvard Medical School. “We want to leverage this to talk more and more about the role of food and nutrition in human health.”
 Menichetti leads Foodome, a project to map our food’s full chemical complexity. Her team uses AI to mine scientific papers for every chemical compound that has ever been linked to a food. She singles out ones that haven’t been tracked by epidemiological studies — the “nutritional dark matter.” So far, her team has cataloged about 140,000 molecules.

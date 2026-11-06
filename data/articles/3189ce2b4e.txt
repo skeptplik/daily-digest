@@ -1,0 +1,14 @@
+Queens Public Library says ransomware attack disrupted Wi-Fi, on-site computers
+The Queens Public Library in New York City said a ransomware gang has encrypted its systems and shut down many of its digital services.
+The library system, which has 66 branches serving the borough’s 2.3 million residents, published multiple alerts on Wednesday confirming that the disruption was caused by a ransomware attack.
+In a statement on social media, the library said on-site computers, check-out and return machines, WiFi access, digital media services and its mobile app are all down due to the attack.
+“All QPL locations remain open as scheduled; however, certain virtual and in-person programs may be impacted,” they said. “We are working closely with law enforcement and cybersecurity experts to address this situation, and we will keep you informed.”
+The library system initially warned of outages on Wednesday afternoon before confirming the ransomware attack hours later.
+New York City officials did not respond to requests for comment. Queens Public Library is one of the largest library systems in the country, offering free access to more than 5 million books in 50 languages.
+It operates dozens of learning centers in public housing complexes across the borough as well as several mobile libraries.
+No ransomware gang has taken credit for the attack as of Thursday evening. Ransomware gangs previously caused significant damage to dozens of public libraries around the world, including Seattle Public Library as well as several city and county library systems.
+The cybercriminal gangs use the demand for e-books and critical services as a wedge to make organizations pay.
+In 2023, ransomware gangs destroyed the systems of The British Library, the national library of the United Kingdom. The Toronto Public Library spent months recovering from a ransomware attack in 2023 that they called a “crime scene.”
+Library systems also carry significant amounts of data on local populations. A ransomware attack on Washington State’s Pierce County Library System last year exposed the information of more than 340,000 people.
+Jonathan Greig
+is a Breaking News Reporter at Recorded Future News. Jonathan has worked across the globe as a journalist since 2014. Before moving back to New York City, he worked for news outlets in South Africa, Jordan and Cambodia. He previously covered cybersecurity at ZDNet and TechRepublic.
