@@ -61,12 +61,15 @@
 16. `RemoteTrigger update` с большим телом (~14 КБ) обрывается: держите промпт в репозитории, а в самой задаче только короткий запуск. Правки Python через heredoc с `` дают символ backspace: используйте Edit.
 17. `scripts/split_topics.py` режет `data/candidates.json` на файлы по темам в `/tmp/topics`: его запускает сама облачная задача (шаг 1 и пункт 4а `routine_prompt.md`), субагенты читают свой файл, а не весь сырьевой. При сбое скрипта субагенты читают целый `candidates.json`. Пути и формат менять только вместе с `routine_prompt.md`.
 18. После теста на подменённом сырье возвращайте `candidates.json` ТОЙ версии, по которой собран `digest.json` (не последней: поздние Collect её заменяют), иначе `validate.py` в Publish падает. Повторная публикация возможна только коммитом, меняющим `data/digest.json`.
-19. `git push` без входа в GitHub (Credential Manager) молча не проходит: после пуша сверяйте `git ls-remote origin main` и `git rev-parse HEAD`. Python на ПК не в PATH сессии: `C:\Users\Professional\AppData\Local\Programs\Python\Python315\python.exe`.
+19. `git push` без входа в GitHub (Credential Manager) молча не проходит: после пуша сверяйте `git ls-remote origin main` и `git rev-parse HEAD`. Python на ПК не в PATH сессии: `C:\Users\Professional\AppData\Local\Programs\Python\Python315\python.exe`.
 20. Облачная задача собирает итог через `scripts/assemble.py`, субагенты проверяют свой файл `scripts/check_part.py`; формат частей (`items`, `curious_candidates` с `body`) и ключ `rows` в `/tmp/topics/<id>.json` менять только вместе с `routine_prompt.md`.
 21. Журнал облачной задачи читается из сессии: `RemoteTrigger` `list_runs` и `get_run_log` (последние 200 событий, старые через `cursor`).
 
 22. Облачная задача: `assemble.py` удаляет служебные поля частей (`note`, `independent`, `skipped`), поэтому оговорки «одно издание» и противоречия источников пишутся в `summary` или `body`. `assemble.py --out` завершается кодом 2, если нет файла темы; тема без материала записывается как `{"items": [], "skipped": "..."}`; в конце печатается строка `METRICS` (число новостей, объём `body`, снятые дубли, неиспользованные `curious`).
 23. Перед работой `git fetch` и `git pull --rebase`: Collect коммитит данные в `main`, локальный `main` отстаёт. `AGENTS.md` хранится с CRLF: правка Python `read_text`/`write_text` превращает файл в LF и даёт diff на весь файл; править инструментом Edit или побайтово.
+24. Страница: `render.py` кладёт картинки в `site/img/<хеш>.<ext>`, в `site/index.html` относительные ссылки (≈1 МБ); `out/digest-DATE.html` остаётся с data-URI. Шаблон и `externalize_images` менять только вместе.
+25. Группы: `collect.py` `group_rows` режет разреженные группы (`split_chain`, плотность <0.5, от 5 строк) и не берёт подборки и обзоры (`NOGROUP_RE`). Менять только с проверкой на сохранённом сырье (`git show <коммит>:data/candidates.json`).
+26. Статус GitHub без входа: публичный API `api.github.com/repos/skeptplik/daily-digest/actions/runs` и `/runs/<id>/jobs` (успех Publish и шага Telegram); `gh` на ПК нет. Регулярки в `.py` править только инструментом Edit (`\b` через `sed`/heredoc ломается).
 ## Локальная проверка (Python 3.12, `pip install -r requirements.txt`)
 ```
 python -m py_compile scripts/*.py
