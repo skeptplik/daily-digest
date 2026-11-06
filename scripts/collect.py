@@ -157,12 +157,54 @@ def tokens_x(row):
     return keys | {"#" + n.replace(",", ".") for n in re.findall(r"\d+(?:[.,]\d+)?", text) if len(n) >= 2}
 
 
+# подборки, скидки, обзоры, гайды: похожи друг на друга словами, но не об одном событии
+NOGROUP_RE = re.compile(r"(?<![a-z])(best|deals?|reviews?|reviewed|guides?|walkthroughs?|how to|gifts?|black friday|tested|\d+% off|\$\d+ off)(?![a-z])|from \$\d+", re.I)
+
+
+def split_chain(members, edges, min_density=0.5, big=5):
+    """Цепочка «A~B, B~C, C~D» склеивает разные события в одну группу. Настоящая группа об одном событии плотная
+    (почти все заголовки похожи друг на друга), поэтому у большой разреженной группы убираем самые слабо
+    связанные строки, пока плотность не станет достаточной; убранные группируются заново между собой."""
+    if len(members) < big:
+        return [members]
+    cur = set(members)
+    removed = []
+
+    def degree(i, within):
+        return sum(1 for j in within if (min(i, j), max(i, j)) in edges)
+
+    while len(cur) >= big:
+        e = sum(degree(i, cur) for i in cur) / 2
+        if e / (len(cur) * (len(cur) - 1) / 2) >= min_density:
+            break
+        worst = min(cur, key=lambda i: (degree(i, cur), -i))
+        cur.discard(worst)
+        removed.append(worst)
+    out = [sorted(cur)]
+    if removed:
+        # убранные строки: связные куски среди них (по тем же рёбрам), каждый кусок снова проверяем
+        rest, seen = set(removed), set()
+        for start in sorted(rest):
+            if start in seen:
+                continue
+            comp, stack = set(), [start]
+            while stack:
+                x = stack.pop()
+                if x in comp:
+                    continue
+                comp.add(x)
+                stack.extend(j for j in rest if j not in comp and (min(x, j), max(x, j)) in edges)
+            seen |= comp
+            out.extend(split_chain(sorted(comp), edges, min_density, big))
+    return out
+
+
 def group_rows(rows, min_score=0.25):
     """Группирует заголовки об одном событии (разные издания, один язык) по редким общим словам.
     Возвращает список групп: [{"id", "outlets", "ids"}] только из 2+ изданий."""
     from math import log
-    toks = [tokens(r) for r in rows]
-    toks_x = [tokens_x(r) for r in rows]
+    toks = [set() if NOGROUP_RE.search(r["title"]) else tokens(r) for r in rows]  # подборки и обзоры в группы не берём
+    toks_x = [set() if NOGROUP_RE.search(r["title"]) else tokens_x(r) for r in rows]
     df, df_x = {}, {}
     for t in toks:
         for w in t:
@@ -174,6 +216,7 @@ def group_rows(rows, min_score=0.25):
     idf = {w: log(n / c) for w, c in df.items()}
     idf_x = {w: log(n / c) for w, c in df_x.items()}
     parent = list(range(n))
+    edges = set()
 
     def find(x):
         while parent[x] != x:
@@ -195,9 +238,13 @@ def group_rows(rows, min_score=0.25):
             # у пар на разных языках общих слов мало, поэтому доля ниже, а общих ключей нужно больше
             if w_common / w_min >= (0.15 if cross else min_score) and w_common >= (6 if cross else 3.5):
                 parent[find(i)] = find(j)
-    buckets = {}
+                edges.add((i, j))
+    comps = {}
     for i in range(n):
-        buckets.setdefault(find(i), []).append(i)
+        comps.setdefault(find(i), []).append(i)
+    buckets = {}
+    for k, members in enumerate(c for comp in comps.values() for c in split_chain(comp, edges)):
+        buckets[k] = members
     groups = []
     for members in buckets.values():
         outlets = sorted({rows[i]["outlet"] for i in members})
