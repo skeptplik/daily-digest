@@ -378,8 +378,13 @@ LIVE_RE = re.compile(r"(?<!now )\blive(?: updates| blog| results)?:|(?<!watch it
 
 def load_reach(trusted, primary):
     """link -> group, group -> множество изданий из candidates.json (настоящий охват события)
-    и множество ссылок-подборок (рассылки, бюллетени, live-ленты), которые охватом не считаются."""
+    и множество ссылок-подборок (рассылки, бюллетени, live-ленты), которые охватом не считаются.
+    Ссылка ведёт к группе, только если в группе есть ещё строка на том же языке: русско-английские
+    склейки самые ненадёжные (7 ноября русская статья BBC об инвесторах ИИ попала в группу про Cybertruck,
+    и «Акции ИИ упали» получили охват 5 вместо 3). Группа, где язык представлен хотя бы двумя строками, остаётся."""
     link_group, group_outlets, multi = {}, {}, set()
+    langs = {}  # group -> [строк на английском и др., строк на русском]
+    link_ru = {}
     try:
         cand = json.loads((ROOT / "data" / "candidates.json").read_text(encoding="utf-8"))
     except Exception:
@@ -401,6 +406,12 @@ def load_reach(trusted, primary):
             outlet = OUTLET_ALIASES.get(outlet, outlet)
             link_group[link] = g
             group_outlets.setdefault(g, set()).add(outlet)
+            ru = bool(re.search("[а-яё]", r.get("title", "").lower()))
+            link_ru[link] = ru
+            langs.setdefault(g, [0, 0])[ru] += 1
+    for link, g in list(link_group.items()):
+        if langs[g][link_ru[link]] < 2:  # единственная строка своего языка в группе: склейка через язык
+            del link_group[link]
     return link_group, group_outlets, multi
 
 
@@ -429,6 +440,9 @@ def main():
             # охват: все издания, писавшие об этом событии (по группе из candidates.json)
             # подборка или live-лента в sources подтверждением не считается (но одна такая ссылка = одно издание)
             reach = {x["outlet"] for x in sources if x["kind"] == "trusted" and x["url"] not in multi}
+            # группы источников складываются: русская и английская группы одного события часто раздельны
+            # (7 ноября угрозы минирования: g32 по-русски + g5 по-английски = 6 изданий). Ошибочные
+            # межъязыковые склейки отсекает load_reach.
             for x in sources:
                 reach |= group_outlets.get(link_group.get(x["url"]), set())
             indep = max(len(reach), min(indep, 1))
