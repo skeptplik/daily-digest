@@ -139,6 +139,12 @@ def main() -> int:
             cur.append(c)
         topics.append({"id": "curious", "items": cur})
     out = {"date": a.date, "news_date": a.news_date, "headline": a.headline, "topics": topics}
+    try:  # по какому сырью собран дайджест: validate.py в Publish сверяет ссылки только с ним (гонка с Collect)
+        cand = json.loads((Path(__file__).resolve().parent.parent / "data" / "candidates.json").read_text(encoding="utf-8"))
+        if cand.get("generated_at"):
+            out["candidates_generated_at"] = cand["generated_at"]
+    except Exception:
+        pass
     Path(a.out).write_text(json.dumps(out, ensure_ascii=False, indent=2), encoding="utf-8")
     total = sum(len(t["items"]) for t in topics)
     print(f"== записано {a.out}: тем {len(topics)}, новостей {total}")
