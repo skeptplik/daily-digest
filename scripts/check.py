@@ -75,6 +75,30 @@ elif engine == "codex":
 else:
     text += "\n\nАктивный движок: Claude. Что сделать: claude.ai/code/routines → «Утренний дайджест» → Run now."
 print(text)
+
+
+def alerted_earlier_today() -> bool:
+    """Запасной запуск по расписанию молчит, если более ранний запуск Check сегодня уже упал (значит, сообщил).
+    Нужен GITHUB_TOKEN с правом actions: read (check.yml). Ручной запуск (workflow_dispatch) всегда шлёт."""
+    tok, repo = os.environ.get("GITHUB_TOKEN", ""), os.environ.get("GITHUB_REPOSITORY", "")
+    if not tok or not repo or os.environ.get("GITHUB_EVENT_NAME") != "schedule":
+        return False
+    try:
+        utc_day = datetime.now(ZoneInfo("UTC")).strftime("%Y-%m-%d")
+        r = requests.get(f"https://api.github.com/repos/{repo}/actions/workflows/check.yml/runs",
+                         params={"created": f">={utc_day}", "event": "schedule", "per_page": 20},
+                         headers={"Authorization": f"Bearer {tok}", "Accept": "application/vnd.github+json"},
+                         timeout=20)
+        runs = r.json().get("workflow_runs", []) if r.ok else []
+    except Exception:
+        return False  # не узнали — лучше дубль, чем тишина
+    me = os.environ.get("GITHUB_RUN_ID", "")
+    return any(str(x.get("id")) != me and x.get("conclusion") == "failure" for x in runs)
+
+
+if alerted_earlier_today():
+    print("Более ранний запуск Check сегодня уже сообщил о проблеме: повторное сообщение не отправляю")
+    sys.exit(1)
 token = os.environ.get("TELEGRAM_BOT_TOKEN", "").strip()
 chat = os.environ.get("TELEGRAM_CHAT_ID", "").strip()
 if not token or not chat:

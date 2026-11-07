@@ -1,0 +1,36 @@
+name: Run status
+
+# ЧЕРНОВИК (пункт Е.б аудита). Облачная задача при сбое (сырьё устарело, сборка не удалась) не пишет дайджест,
+# а пушит data/run_status.json со status "failed" и причиной. Этот workflow сразу шлёт сообщение в Telegram,
+# не дожидаясь Check digest (его cron опаздывает на часы).
+# Почему не запустится рассылка дайджеста: publish.yml срабатывает только на изменение data/digest.json.
+# Почему нет петли: этот workflow ничего не коммитит; Collect коммитит только data/articles, candidates.json, handoff.
+on:
+  push:
+    branches: [main]
+    paths: ["data/run_status.json"]
+
+permissions:
+  contents: read
+
+concurrency:
+  group: run-status
+  cancel-in-progress: false
+
+jobs:
+  alert:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - run: pip install requests
+
+      - name: Alert to Telegram
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+        run: python scripts/alert.py --status data/run_status.json

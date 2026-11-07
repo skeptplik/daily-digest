@@ -81,3 +81,40 @@ jobs:
           TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
           PAGE_URL: ${{ needs.deploy.outputs.page_url }}
         run: python scripts/notify.py
+
+      # НЕОБЯЗАТЕЛЬНО (healthchecks.io, «сторож»): если в GitHub Secrets есть HC_PING_URL, сообщаем об успехе.
+      # Без секрета шаг ничего не делает. Чтобы включить: раскомментировать (см. docs/AUDIT-NOTES.md, пункт Е.в).
+      # - name: Ping healthchecks.io
+      #   env:
+      #     HC_PING_URL: ${{ secrets.HC_PING_URL }}
+      #   run: '[ -z "$HC_PING_URL" ] || curl -fsS -m 10 --retry 5 -o /dev/null "$HC_PING_URL" || true'
+
+  # сбой проверки, сборки, публикации или рассылки: одно короткое сообщение в Telegram сразу,
+  # а не через 1-8 часов от Check digest (cron GitHub опаздывает). Отмена (cancel-in-progress) не считается сбоем.
+  alert:
+    needs: [build, deploy, notify]
+    if: failure()
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - run: pip install requests
+
+      - name: Alert to Telegram
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+          RESULTS: "проверка и сборка ${{ needs.build.result }}, публикация ${{ needs.deploy.result }}, рассылка ${{ needs.notify.result }}"
+          RUN_URL: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}
+        run: |
+          python scripts/alert.py "⚠️ Дайджест не дошёл: упала публикация ($RESULTS). Журнал: $RUN_URL"
+
+      # НЕОБЯЗАТЕЛЬНО: сообщить healthchecks.io о сбое (адрес пинга + /fail); без секрета ничего не делает.
+      # - name: Ping healthchecks.io (fail)
+      #   env:
+      #     HC_PING_URL: ${{ secrets.HC_PING_URL }}
+      #   run: '[ -z "$HC_PING_URL" ] || curl -fsS -m 10 --retry 5 -o /dev/null "$HC_PING_URL/fail" || true'

@@ -38,12 +38,6 @@ link = f"{page_url.rstrip('/')}/?d={meta['date']}-{datetime.now(timezone.utc).st
 text += f"\nВсего новостей: {total}. Все темы, фото и источники внутри:\n🔗 {link}"
 text = text[:4000]
 
-try:
-    r = requests.post(f"https://api.telegram.org/bot{token}/sendMessage",
-                      data={"chat_id": chat, "text": text, "disable_web_page_preview": "false"},
-                      timeout=30)
-    print("sendMessage:", r.status_code, r.json().get("description", "ok"))
-    sys.exit(0 if r.ok else 1)
-except Exception as e:  # не печатаем детали запроса, чтобы не светить токен
-    print("::error::Ошибка отправки в Telegram:", type(e).__name__)
-    sys.exit(1)
+from alert import send  # до 3 попыток при сетевой ошибке/429/5xx; токен не печатается
+
+sys.exit(0 if send(text, preview=True) else 1)  # код 1 -> job notify красный -> publish.yml шлёт сигнал о сбое
