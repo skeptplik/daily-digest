@@ -55,7 +55,7 @@ def main() -> int:
     ap.add_argument("--out")
     a = ap.parse_args()
     parts = Path(a.parts)
-    drop = {tuple(x.split(":")) for x in a.drop.split(",") if x.strip()}
+    drop = {tuple(x.strip().split(":", 1)) for x in a.drop.split(",") if x.strip()}
     data, cur_all = {}, []
     for tid in TOPICS:
         d = load(parts, tid)
@@ -65,6 +65,22 @@ def main() -> int:
         data[tid] = d
         for c in d.get("curious_candidates") or []:
             cur_all.append(c)
+
+    # неверный номер в --drop/--curious раньше молча ничего не делал (дубль оставался, история не бралась)
+    bad = []
+    for x in sorted(drop):
+        tid, n = x if len(x) == 2 else (x[0], "")
+        if tid not in data or not n.isdigit() or int(n) >= len(data[tid].get("items") or []):
+            bad.append(f"--drop {':'.join(x)}")
+    pick_raw = [x.strip() for x in a.curious.split(",") if x.strip()]
+    for x in pick_raw:
+        if not x.isdigit() or int(x) >= len(cur_all):
+            bad.append(f"--curious {x} (есть 0-{len(cur_all) - 1})")
+    if len(set(pick_raw)) != len(pick_raw):
+        bad.append("--curious: номер повторяется")
+    if bad:
+        print("!! неверные номера: " + "; ".join(bad) + ". Номера из обзора: тема:номер с нуля. Исправь и повтори")
+        return 2
 
     print("== ОБЗОР (номер с нуля; M = мелкая; п = абзацев рассказа)")
     for tid, d in data.items():
@@ -93,15 +109,22 @@ def main() -> int:
         print("!! нет файлов/валидного JSON для тем: " + ", ".join(missing) +
               ". Сделай эти темы сам (или запиши {\"topic\": \"<id>\", \"items\": [], \"skipped\": \"почему пусто\"}, если материала правда нет) и повтори сборку")
         return 2
-    topics = []
+    topics, thin = [], []
     for tid in TOPICS:
-        items = [clean_item(i) for n, i in enumerate(data[tid].get("items") or []) if (tid, str(n)) not in drop]
+        all_items = data[tid].get("items") or []
+        items = [clean_item(i) for n, i in enumerate(all_items) if (tid, str(n)) not in drop]
+        before = sum(1 for i in all_items if i.get("minor"))
+        after = sum(1 for i in items if i.get("minor"))
+        if after < MIN_MINOR and after < before:  # тему обеднил именно --drop
+            thin.append(tid)
+            print(f"внимание: после --drop в теме {tid} мелких {after} (было {before}, нужно от {MIN_MINOR}): "
+                  "если в /tmp/topics/<тема>.json есть подходящие заголовки, добери мелкие и собери заново, иначе назови причину в отчёте")
         items.sort(key=lambda i: bool(i.get("minor")))  # основные первыми; порядок внутри сохраняется
         if not items:  # тема без материала (файл с пустым items): в итог не идёт
             print(f"внимание: тема {tid} пуста, пропущена ({str(data[tid].get('skipped') or 'без объяснения')[:120]})")
             continue
         topics.append({"id": tid, "items": items})
-    pick = [int(x) for x in a.curious.split(",") if x.strip()]
+    pick = [int(x) for x in pick_raw]
     if pick:
         cur = []
         for n in pick:
@@ -133,6 +156,7 @@ def main() -> int:
         "curious_selected": len(pick),
         "curious_unused_body_chars": sum(body_chars(c) for n, c in enumerate(cur_all) if n not in pick),
         "missing_topics": [t for t in TOPICS if t not in data],
+        "thin_after_drop": thin,
     }
     print("METRICS " + json.dumps(metrics, ensure_ascii=False))
     return 0
