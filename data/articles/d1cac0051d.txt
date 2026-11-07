@@ -1,3 +1,0 @@
-Prime Minister Sanae Takaichi’s government unveiled a package of emergency measures Friday to address Japan’s cybersecurity crisis, ranging from establishing a team of top-gun specialists later this month to cooperating with artificial intelligence companies to counter threats.
-Japan has faced a barrage of high-profile cyberattacks this year that have been attributed to the rise of AI and security system vulnerabilities exacerbated by poor cyber hygiene.
-In addition to the team of specialists, who will focus on penetration testing and strengthening security measures, a separate expert team — a mix of government officials and the private sector — will be dispatched to support companies dealing with an attack.

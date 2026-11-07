@@ -11,3 +11,5 @@ Admin said:Brightspeed has over 130 facilities located across the U.S., with Nvi
 Nvidia wants to repurpose over 130 old telco buildings as tiny data centers, report claims : Read moreI think THIS is the first time any location information AT ALL is given. It's not listed in the article anywhere, and readers of a site that shares news should NOT have to go elsewhere in order to find out even what country is being discussed. I haven't heard of Brightspeed before and only seeing it in the first comment that introduces the article here did I happen to notice something about the USA.
 Something this simple and basic should not require research elsewhere.
 Mindstab Thrull Reply
+- 
+But there is some minimum human staff you need in case of this and that, so a cluster of small sites within twenty miles of each other so they can share staff, maybe, and many jobs are physical so you can't do it remote, at least you can't without robots.Reply
