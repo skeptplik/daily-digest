@@ -79,3 +79,74 @@
   3. Раскомментирует в `publish.yml` шаг «Ping healthchecks.io» в job `notify` (после рассылки) и, по желанию, «Ping healthchecks.io (fail)» в job `alert`. Без секрета шаги ничего не делают (`[ -z "$HC_PING_URL" ] || curl … || true`, сбой пинга не роняет job).
   Польза: «сторож» сработает и тогда, когда Publish не запускался совсем (задача не стартовала), и не зависит от cron GitHub.
 - `check.yml`: `concurrency: check` (основной и запасной запуски по очереди) и защита от дубля: запасной запуск по расписанию не шлёт сообщение, если более ранний запуск Check сегодня уже завершился с ошибкой (то есть сообщил); нужен `actions: read` и `GITHUB_TOKEN` (добавлены). Ручной запуск шлёт всегда; если GitHub API не ответил — шлёт (лучше дубль, чем тишина).
+
+## Что сделано
+А show_item.py и шаг 5; Б признак roundup (collect, render, validate, check_part, make_handoff, промпт); В охват 🔥 без межъязыковых одиночных склеек и узкая регулярка live; Г assemble (коды и предупреждения), validate (возраст сырья, лимиты, без hot>7); Д(i) пометка `prev` и правило в шаге 4в, Д(ii) 1 кандидат curious на тему, Д(iii) только группа на всех копиях ссылки; Е черновики: job `alert` в Publish, `alert.py` с повторами, `run-status.yml` и абзац «СБОЙ» в промпте, Check без дублей, healthchecks в комментариях; Ж `candidates_generated_at` и мягкое предупреждение в Publish. `routine_prompt.md`: 27 880 → 29 720 байт (+1,8 КБ; одна фраза в шаге 5 сокращена). Якоря `make_handoff.py` целы.
+
+## Что НЕ сделано и почему
+- Д(iii) тема-хозяин группы: по замеру 7–9 новостей в день оказались бы в неподходящей теме или под запретом (Binance → tech, «Акции ИИ» → politics, Hubble → science), выгода не доказана (какие дубли снимались, не видно). Подробно в разделе Д.
+- Д(iii) удаление повторной ссылки из второй темы: увело бы 4 использованные новости 7 ноября из tech.
+- Запрет «не писать по строкам topic_of_row»: таких новостей 0–1 в день, обе к месту.
+- Ж через историю git (`fetch-depth: 0`): сложнее и рискованнее, чем нужно; выбрано предупреждение.
+- Е(в) healthchecks: по заданию только описание и закомментированные шаги.
+- Живое ничего не включено: ветка `audit-fixes` в копии, пушей нет. `docs/STATUS.md` и `docs/DECISIONS.md` не обновлялись (это делает `/handoff` после решения владельца).
+
+## Как проверить (точные команды)
+Стенд регрессии лежит вне репозитория, в `scratchpad/harness` рядом с копией (`run.py`, `diff.py`, `roundup_test.py`, `rules.py`, `owners.py`, `regroup.py`; сырьё 2–7 ноября в `raw/`).
+```
+R="C:/Users/PROFES~1/AppData/Local/Temp/claude/482916691cc8f446/eac193e2-8421-442d-a0d6-af634625999c/scratchpad/Digest-opus"
+H="C:/Users/PROFES~1/AppData/Local/Temp/claude/482916691cc8f446/eac193e2-8421-442d-a0d6-af634625999c/scratchpad/harness"
+PY=/c/Users/Professional/AppData/Local/Programs/Python/Python315/python.exe; export PYTHONIOENCODING=utf-8
+cd "$R" && $PY -m py_compile scripts/*.py                     # 1. всё компилируется
+cd "$H" && $PY run.py "$R" before && $PY run.py "$R" after     # 2. validate+render на 4-7 ноября: скрипты main и ветки
+$PY diff.py before after                                       #    разница 🔥 и охвата
+REGROUP=1 $PY run.py "$R" before && REGROUP=1 $PY run.py "$R" after && $PY diff.py before-regroup after-regroup
+                                                               # 3. то же, сырьё пересобрано своим collect.py (roundup, группы)
+$PY roundup_test.py                                            # 4. срабатывания регулярки roundup на сырье 2-7 ноября
+$PY rules.py work/after                                        # 5. три правила охвата (основные новости, охват от 3)
+$PY owners.py                                                  # 6. замер Д(iii): группы в 2+ темах, новости не в теме-хозяине
+```
+`run.py`: дайджест и `candidates.json` из git (`git show`), «сейчас» для `validate.py` = время коммита дайджеста (`VALIDATE_NOW`), страница с `NO_NETWORK=1 PLACEHOLDER_IMAGES=1`; итоги в `H/result-*.json`, рабочие папки в `H/work/`.
+
+Отдельные проверки:
+- show_item (`H/show`: части, нарезанные из дайджеста 7 ноября, сырьё и тексты `5168e6d`): `cd "$H/show" && $PY scripts/show_item.py --parts parts --top 6`; `... --parts parts politics:0 --chars 600`; `... --parts parts zz:1` → код 2 и список допустимых номеров.
+- assemble: `cd "$H/show" && $PY "$R/scripts/assemble.py" --parts parts --drop ai:99,zz:1 --curious 0,7,0` → код 2 со списком ошибок; `$PY "$R/scripts/assemble.py" --parts parts --drop tech:3 --curious 0,1,2 --date 2026-11-07 --news-date 2026-11-06 --headline x --out x.json` → «внимание: после --drop в теме tech мелких 2», в METRICS `"thin_after_drop": ["tech"]`, в `x.json` есть `candidates_generated_at`.
+- validate, гонка (`H/z`: дайджест собран assemble по сырью 01:17): `cd "$H/z" && cp "$H/raw/5168e6d.json" data/candidates.json && $PY scripts/validate.py` → 0 ошибок; `cp "$H/raw/e289c1b.json" data/candidates.json && $PY scripts/validate.py` → 1 предупреждение «дайджест собран по сырью 01:17, а в репозитории 07:16», код 0. Старый `validate.py` (main) на дайджесте 7 ноября с сырьём `e289c1b` → 19 ошибок, код 1 (Publish упал бы).
+- validate, возраст (`H/work/after/fc2c59e`): сырьё с `generated_at` «2026-11-06 21:47 UTC» и `VALIDATE_NOW=2026-11-07T05:18:00+00:00` → ссылки сверены; `VALIDATE_NOW=2026-11-08T05:18:00+00:00` → предупреждение «старше 30 часов».
+- split_topics: `cd "$H/split2/new" && $PY scripts/split_topics.py o` → «прошлый дайджест 2026-11-06: строк с prev=true 52»; если `data/digest.json` заменить сегодняшним (date = сегодня) — пометок 0.
+- check_part: `$PY "$R/scripts/check_part.py" fashion "$H/show/parts" "$H/split2/new/o"` → предупреждения про roundup у #1, #4, #8, код 0.
+- alert: `TELEGRAM_BOT_TOKEN= $PY "$R/scripts/alert.py" --status <файл со status failed>` печатает текст и «секреты не заданы», код 1; `status: ok` → «сообщать не о чем», код 0.
+- YAML всех воркфлоу читается `yaml.safe_load`; у publish джобы `build, deploy, notify, alert`.
+- make_handoff на копии с новым сырьём: без ошибки якорей, у строк-подборок `"roundup": true`.
+
+## Ожидаемые результаты до и после
+| день | новостей | ошибок validate (main → ветка) | 🔥 main | 🔥 ветка |
+|---|---|---|---|---|
+| 4 ноя | 115 → 115 | 0 → 0 | 5 | 5, те же |
+| 5 ноя | 120 → 120 | 0 → 0 | 5 | 5, те же |
+| 6 ноя | 115 → 115 | 0 → 0 | 5 | 5, те же |
+| 7 ноя | 116 → 116 | 0 → 0 | 5 | 5: вместо «Акции ИИ-компаний упали» (охват 5→3) — «Выборы в Израиле не дали большинства» (охват 3) |
+
+С пересобранным сырьём (REGROUP=1) validate ветки даёт 3–6 предупреждений в день про источники-roundup (старые дайджесты собраны до правила), ошибок 0, 🔥 как в таблице. Изменения охвата перечислены в разделах Б и В.
+
+## Риски и что требует пробного запуска облачной задачи
+- Промпт изменён в шагах 1, 2, 4в, 4е, 5, 8. Нужен пробный запуск (временная задача, порядок «Осторожно» из `CLAUDE.md`). По журналу проверить: (1) субагенты пропускают кластеры, где все строки `prev`, и пишут продолжения; (2) в `curious_candidates` по 1 истории, в итоге 3–5; (3) оркестратор зовёт `show_item.py --top 6` и сверяет 4 рассказа; (4) `assemble.py` пишет `candidates_generated_at`, и его никто не удаляет «по структуре шага 6»; (5) METRICS: `curious_written` ≤10, `body_chars` ниже на долю повторов.
+- `run-status.yml` и job `alert` проверяются только на GitHub. Пуш `data/run_status.json` в main шлёт настоящее сообщение владельцу: сначала с его «да».
+- `check.py` с `GITHUB_TOKEN`: запрос к API GitHub на ПК не проверен; при ошибке API ведёт себя как раньше (шлёт).
+- Повтор отправки в `notify.py`: редкий дубль сообщения, если Telegram принял, а ответ потерялся.
+- Поле `roundup` появится после первого Collect с новым `collect.py`; до того render работает по узкой `LIVE_RE`, а validate/check_part молчат про подборки.
+- `prev`: при повторном запуске в тот же день пометок нет (по дате дайджеста), повтор пишет всё, как раньше.
+
+## Изменённые файлы (смысл diff)
+- `routine_prompt.md`: шаг 1 — при старом сырье «СБОЙ» вместо тишины; раздел 2 — правило roundup; 4в — правило prev; 4е — 1 curious-кандидат; 5 — show_item, коды assemble, поле candidates_generated_at, короче фраза про контекст; 8 — абзац «СБОЙ».
+- `scripts/show_item.py` (новый): запись и тексты статей, `--top`.
+- `scripts/collect.py`: `ROUNDUP_*_RE`, `is_roundup`, `finalize_rows` (roundup, группы, группа на всех копиях ссылки); подборки не идут в группы.
+- `scripts/render.py`: `LIVE_RE` вместо `\blive\b`; `load_reach` отдаёт множество подборок и отсекает межъязыковые одиночные склейки; подборки не считаются подтверждением.
+- `scripts/validate.py`: сверка ссылок по `candidates_generated_at` или по возрасту ≤30 ч (`VALIDATE_NOW` для тестов); лимиты 110/280/120 как предупреждения; предупреждение о roundup; вместо «hot > 7» предупреждение об importance 3.
+- `scripts/assemble.py`: проверка номеров `--drop`/`--curious` (код 2), «внимание: после --drop…», `thin_after_drop` в METRICS, поле `candidates_generated_at`.
+- `scripts/check_part.py`: предупреждение о roundup-источнике.
+- `scripts/split_topics.py`: пометка `prev` по прошлому дайджесту, `prev_digest_date` в meta, строка в сводке.
+- `scripts/make_handoff.py`: метка `"roundup": true` для других ИИ.
+- `scripts/alert.py` (новый); `scripts/notify.py` (отправка через `alert.send` с повторами); `scripts/check.py` (без дубля от запасного запуска).
+- `.github/workflows/publish.yml` (job `alert`, закомментированные пинги healthchecks), `check.yml` (concurrency, `actions: read`, `GITHUB_TOKEN`), `run-status.yml` (новый).
+- `AGENTS.md`: строки карты (show_item, alert, run_status) и дополнение правила 20 про новые поля.
