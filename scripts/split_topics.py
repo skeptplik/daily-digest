@@ -11,12 +11,15 @@ has_text, group остаются как есть); убрано только п�
 Только стандартная библиотека. Данные в data/ не меняются.
 """
 import json
+import os
 import sys
+from datetime import datetime, timezone
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
 SRC = ROOT / "data" / "candidates.json"
 OUT = Path(sys.argv[1]) if len(sys.argv) > 1 else Path("/tmp/topics")
+PREV = Path(os.environ.get("PREV_DIGEST") or ROOT / "data" / "digest.json")  # прошлый дайджест (см. prev_links)
 DROP = {"image"}
 
 
@@ -27,12 +30,39 @@ def slim(row, own_topic=None):
     return r
 
 
+def prev_links():
+    """Ссылки прошлого дайджеста. Задача запускается до записи нового, поэтому data/digest.json в клоне —
+    это последний опубликованный (обычно вчерашний) дайджест; git-история не нужна (клон бывает --depth 1).
+    Если файл уже сегодняшний (повторный запуск в тот же день) или демо, пометок нет: иначе задача
+    отбросила бы собственные новости."""
+    try:
+        d = json.loads(PREV.read_text(encoding="utf-8"))
+    except Exception:
+        return None, set()
+    try:
+        from zoneinfo import ZoneInfo
+        today = datetime.now(ZoneInfo("Europe/Warsaw")).strftime("%Y-%m-%d")
+    except Exception:
+        today = datetime.now(timezone.utc).strftime("%Y-%m-%d")
+    if d.get("demo") or not d.get("date") or d["date"] >= today:
+        return None, set()
+    return d["date"], {s.get("url") for t in d.get("topics", []) for i in t.get("items", [])
+                       for s in i.get("sources") or [] if isinstance(s, dict)}
+
+
 def main():
     data = json.loads(SRC.read_text(encoding="utf-8"))
     topics = data.get("topics", {})
     OUT.mkdir(parents=True, exist_ok=True)
     for old in OUT.glob("*.json"):
         old.unlink()
+    prev_date, prev = prev_links()
+    marked = 0
+    for rows in topics.values():
+        for r in rows:
+            if r.get("link") in prev:  # ссылка уже была источником в прошлом дайджесте
+                r["prev"] = True
+                marked += 1
 
     by_group = {}
     for tid, rows in topics.items():
@@ -56,6 +86,7 @@ def main():
             "generated_at": data.get("generated_at"),
             "rows_own": len(rows),
             "rows_from_other_topics": len(extra),
+            "prev_digest_date": prev_date,
             "groups": [g for g in data.get("groups", []) if g.get("id") in groups],
         }
         lines = ['{"meta": ' + json.dumps(meta, ensure_ascii=False) + ',']
@@ -68,6 +99,7 @@ def main():
 
     print(f"split_topics: generated_at={data.get('generated_at')} feeds_ok={data.get('feeds_ok')} "
           f"feeds_failed={len(data.get('feeds_failed') or [])} rows={total_rows} has_text={with_text}")
+    print(f"  прошлый дайджест {prev_date or 'не найден или сегодняшний'}: строк с prev=true {marked}")
     for tid, rows in topics.items():
         size = (OUT / f"{tid}.json").stat().st_size // 1024
         print(f"  {tid}: {len(rows)} строк, файл {size} КБ")

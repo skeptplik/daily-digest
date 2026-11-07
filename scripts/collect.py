@@ -269,6 +269,25 @@ def group_rows(rows, min_score=0.25):
     return groups
 
 
+def finalize_rows(topics):
+    """Пометки roundup, группы событий и поле group на строках (строки с id уже есть). Возвращает groups.
+    Одна ссылка может стоять в двух темах (ленты Wired/The Verge есть и в ai, и в tech): группа ставится
+    на все копии, а не только на последнюю (раньше копия в ai оставалась без группы)."""
+    rows_all = [r for v in topics.values() for r in v]
+    for r in rows_all:
+        if is_roundup(r):
+            r["roundup"] = True
+    groups = group_rows(rows_all)
+    by_id = {}
+    for r in rows_all:
+        by_id.setdefault(r["id"], []).append(r)
+    for g in sorted(groups, key=lambda g: g["id"]):
+        for i in g["ids"]:
+            for r in by_id[i]:
+                r["group"] = g["id"]
+    return groups
+
+
 # служебные строки страниц, которые trafilatura иногда оставляет в тексте
 JUNK_RE = re.compile(
     r"^(-\s*)?published(\s*[-:].*)?$|^updated\s*[-:].*$|^you must confirm your public display name|^please logout and then login|"
@@ -419,8 +438,6 @@ def main() -> int:
     rows_all = [r for v in topics.values() for r in v]
     for r in rows_all:
         r["id"] = article_id(r["link"])
-        if is_roundup(r):
-            r["roundup"] = True
     ARTICLES_DIR.mkdir(exist_ok=True)
     for old in ARTICLES_DIR.glob("*.txt"):  # вчерашние тексты не копим
         old.unlink()
@@ -433,11 +450,7 @@ def main() -> int:
         print(f"  без текста {o}: {d}")
     for r in rows_all:
         r.pop("feed_html", None)
-    groups = group_rows(rows_all)
-    by_id = {r["id"]: r for r in rows_all}
-    for g in sorted(groups, key=lambda g: g["id"]):
-        for i in g["ids"]:
-            by_id[i]["group"] = g["id"]
+    groups = finalize_rows(topics)
     print(f"События с 2+ изданиями: {len(groups)}")
 
     total = sum(len(v) for v in topics.values())
