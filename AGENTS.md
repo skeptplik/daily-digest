@@ -73,6 +73,8 @@
 24. Страница: `render.py` кладёт картинки в `site/img/<хеш>.<ext>`, в `site/index.html` относительные ссылки (≈1 МБ); `out/digest-DATE.html` остаётся с data-URI. Шаблон и `externalize_images` менять только вместе.
 25. Группы: `collect.py` `group_rows` режет разреженные группы (`split_chain`, плотность <0.5, от 5 строк) и не берёт подборки и обзоры (`NOGROUP_RE`). Менять только с проверкой на сохранённом сырье (`git show <коммит>:data/candidates.json`).
 26. Статус GitHub без входа: публичный API `api.github.com/repos/skeptplik/daily-digest/actions/runs` и `/runs/<id>/jobs` (успех Publish и шага Telegram); `gh` на ПК нет. Регулярки в `.py` править только инструментом Edit (`\b` через `sed`/heredoc ломается).
+27. cron GitHub систематически опаздывает на 3,5–8 ч (21:47→~01:17, 01:23→~07:16, 03:07→~09:56 UTC, Check 06:13→12:53), сменой минуты не лечится; дайджест держится на одном запуске 21:47. Сообщение о сбое от Check приходит только днём (подробности в `docs/DECISIONS.md`).
+28. Регрессия validate/render на старых дайджестах: брать дайджест и `<коммит>^:data/candidates.json`, задавать `VALIDATE_NOW=<ISO UTC>` (иначе сырьё «старше 30 ч» и ссылки не сверяются). `show_item.py` локально: `--parts <папка>` или `--digest`. Пуш `data/run_status.json` шлёт настоящее сообщение владельцу.
 ## Локальная проверка (Python 3.12, `pip install -r requirements.txt`)
 ```
 python -m py_compile scripts/*.py

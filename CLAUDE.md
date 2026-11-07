@@ -13,3 +13,4 @@
 - Чужие системы: GitHub Actions/Pages, Telegram Bot API, облачные задачи Claude; сеть из песочницы недоступна, сетевые части подтверждаются только логом запуска.
 - Подсказки для роутинга: `.claude/skills/pickup/routing.md`.
 - Живая задача «Утренний дайджест» правится через `RemoteTrigger`, а `job_config` он заменяет целиком: без полного `session_context` (модель, `sources`, `allowed_tools`, `disallowed_tools`) задача теряет репозиторий и инструменты. Только с копией задачи, пробой на временной задаче и «да» владельца; подробности в `docs/DECISIONS.md`.
+- Пуш `data/run_status.json` запускает `run-status.yml` и шлёт настоящее сообщение в Telegram; шаг `alert` в `publish.yml` и `run-status.yml` проверяются только живым запуском, по плану и с «да».
