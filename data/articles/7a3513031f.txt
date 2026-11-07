@@ -1,0 +1,77 @@
+Explore This Section
+Earth
+Earth Observer
+Editor’s Corner
+Feature Articles
+Meeting Summaries
+News
+Science in the News
+In Memoriam
+Announcements
+Archives
+Supercomputing 2026
+Join NASA in the Exhibit Hall (Booth #4038) for presentations by NASA experts. Full Tech Demo schedule below.
+TUESDAY, 
+NOVEMBER
+17
+10:00 AM
+Type-safe Templates in Fortran 2028
+Tom Clune
+10:30 AM
+Type-safe Templates in Fortran 2028
+Tom Clune
+11:00 AM 
+Type-safe Templates in Fortran 2028
+Tom Clune
+1:00PM 
+Mixing and Matching and Multiple Versions, Oh My!
+Brad Richardson
+1:30 PM
+Mixing and Matching and Multiple Versions, Oh My!
+Brad Richardson
+2:00 PM
+Mixing and Matching and Multiple Versions, Oh My!
+Brad Richardson
+4:00 PM
+Porting NAS Parallel Benchmarks to use OpenMP Target Offload
+Jeff Becker
+4:30 PM
+Porting NAS Parallel Benchmarks to use OpenMP Target Offload
+Jeff Becker
+5:00 PM
+Porting NAS Parallel Benchmarks to use OpenMP Target Offload
+Jeff Becker
+WEDNESDAY, 
+NOVEMBER
+18
+1:00PM 
+High resolution hydrology simulations and agentic SI Interfaces for mapping water availability and extremes
+Sujay Kumar
+1:30 PM
+High resolution hydrology simulations and agentic SI Interfaces for mapping water availability and extremes
+Sujay Kumar
+2:00 PM
+High resolution hydrology simulations and agentic SI Interfaces for mapping water availability and extremes
+Sujay Kumar
+4:00 PM
+Modular Supercomputing Data Centers at NASA
+Chris Tanner
+4:30 PM
+Modular Supercomputing Data Centers at NASA
+Chris Tanner
+5:00 PM
+Modular Supercomputing Data Centers at NASA
+Chris Tanner
+THUR
+SDAY, 
+NOVEMBER
+19
+10:00AM 
+Subsurface to Stellar: HPC Enablement with Open OnDemand and ColdFront at bp and NASA
+Jeff Triplett
+10:30 AM
+Subsurface to Stellar: HPC Enablement with Open OnDemand and ColdFront at bp and NASA
+Jeff Triplett
+11:00 AM
+Subsurface to Stellar: HPC Enablement with Open OnDemand and ColdFront at bp and NASA
+Jeff Triplett

@@ -1,0 +1,19 @@
+Thank you for visiting nature.com. You are using a browser version with limited support for CSS. To obtain
+the best experience, we recommend you use a more up to date browser (or turn off compatibility mode in
+Internet Explorer). In the meantime, to ensure continued support, we are displaying the site without styles
+and JavaScript.
+These AI agents design your perfect robot-powered lab — and run it for you
+A team of artificial-intelligence agents simulates a laboratory of robots and instruments to ensure that the physical workspace functions smoothly and then directs that workspace’s operations.
+Laboratory robots are tireless and uncomplaining, but they have narrow skill sets, limited mobility and an inability to get out of each other’s way. Now, a system of artificial-intelligence agents promises to help lab robots do their best work.
+In this process, a scientist describes their research programme and lab set-up to the agents, which then create step-by-step experimental protocols for the lab’s robots. The agents also generate a virtual version of the lab and test the protocols there. They can then direct the robots in the real lab to perform the research.
+The agents can even design an entire lab from scratch, using a virtual one to work out the ideal placement for instruments and robots.
+The system is described in a preprint posted in October to arXiv1. It has not been peer reviewed.
+In a test, the agents wrote more than 200 commands directing a robotic arm to move between and interact with instruments in an existing lab space. The agent simulated the steps in the virtual lab to ensure that it all worked smoothly, then directed the real-life arm to carry out procedures to measure the optical properties of nanocrystals.
+The concept is “very cool” and could drastically reduce the effort required to set up automated labs, says Evan Collins, a bioengineer at the Massachusetts Institute of Technology in Cambridge. But integrating the cameras and sensors that the agents need to direct experiments effectively could require more resources than does setting up a lab manually, he says.
+Collision avoidance
+The simulations would make it easy to plan robotic movements that avoid collisions between robots and other objects in the lab, says Collins.
+This could ease the process of getting labs up and running, given that setting up an automated lab is often a time-consuming process of trial and error followed by extensive testing and troubleshooting. Because the agents conduct all the planning and testing in a simulated environment, there is no need for researchers to “babysit the system” after it’s built, says Yuchi (Allan) Zhao, a roboticist at the University of Toronto in Canada and co-author of the preprint.
+Enjoying our latest content?
+Log in or create an account to continue
+Access the most recent journalism from Nature's award-winning team
+Explore the latest features & opinion covering groundbreaking research

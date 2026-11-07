@@ -1,8 +1,0 @@
-Airbnb plans to roll out an AI agent in the first half of 2027 that will help users plan and book travel, the company said in its Q3 2026 earnings shareholder letter released today.
-Airbnb is working on an AI travel agent
-The travel company is planning an “AI-native” trip-planning experience that’s set to roll out next year.
-“Today’s AI agents are good at simple, routine tasks, like making a restaurant reservation or scheduling an appointment,” Airbnb said. “But planning a trip on Airbnb is different.” The company argued that its experience matching hosts and guests, its current role in being part of reservations already, and a “new interface” built “specifically for travel” gives it an edge.
-Here’s how Airbnb says that new interface will work:
-We don’t think a traditional chatbot is the right way to plan a trip. We’re developing a custom-designed, AI-native experience that builds the interface around your question. Rather than a chat window, our agent draws on a library of hundreds of travel-specific interface elements—maps, photos, comparisons, calendars, itineraries—and composes them in real time to match what you’re looking for. Our agent will help guests explore options, make decisions with the people they’re traveling with, and take action directly in Airbnb.
-Airbnb co-founder and CEO Brian Chesky has said before that the company plans to launch an agent in 2027, telling the Skift Global Forum that it would have an interface that’s “much richer than a chatbot.”
-In its shareholder letter, Airbnb also said that AI is “the best thing to ever happen to Airbnb” and has changed how it develops products and operates.

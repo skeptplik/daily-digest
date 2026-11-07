@@ -1,0 +1,32 @@
+Many people are not big fans of game publisher EA right now for good reason, but for those who remember a better time in the 1990s, there’s a little good news. Twenty-five classic games from that EA era have been lightly remastered and updated, then placed for sale on Steam and GOG, including several Wing Commander games and nearly the entire Ultima series.
+Below is the full list of remastered or re-released games:
+- Road Rash: 30th Anniversary Edition
+- Wing Commander: 35th Anniversary Edition
+- Wing Commander II: Vengeance of the Kilrathi: 35th Anniversary Edition
+- Wing Commander III: Heart of the Tiger: 30th Anniversary Edition
+- Wing Commander IV: The Price of Freedom: 30th Anniversary Edition
+- Wing Commander Prophecy: 30th Anniversary Edition
+- Privateer 2: The Darkening: 30th Anniversary Edition
+- Wing Commander: Privateer
+- Wing Commander: Academy
+- Wing Commander: Armada
+- Strike Commander
+- Theme Hospital
+- Crusader: No Remorse
+- Crusader: No Regret
+- Ultima I: The First Age of Darkness
+- Ultima II: The Revenge of the Enchantress
+- Ultima III: Exodus
+- Ultima IV: Quest of the Avatar
+- Ultima V: Warriors of Destiny
+- Ultima VI: The False Prophet
+- Ultima VII: The Complete Edition
+- Ultima VIII: Gold Edition
+- Ultima IX: Ascension
+- Ultima Underworld I
+- Ultima Underworld II
+The story behind seven remasters
+In a lengthy blog post published this week, Jim Vessella, a senior producer at EA, described the efforts that went into remastering Wing Commander I-IV and Prophecy, Privateer 2, and Road Rash.
+It’s a long, detailed story that’s worth reading yourself, but here’s a top-level summary. After working on the mostly widely acclaimed Command & Conquer: Remastered Collection in 2019, Vessella writes that he learned about and visited a room at EA’s Redwood Shores campus that contained a large archive of poorly labeled or sorted physical media from ages past.
+In his free time, and with the help of others, he began cataloging this archive and discovered, among other things, that it contained virtually the entirety of the original masters of Wing Commander III and Wing Commander IV‘s full-motion-video cutscenes.
+The story that ensues involves building a small team of contractors, poring through the footage 17 hours a day on swing shifts to label and digitize it, and then coordinating with several key community members—particularly Matt Wells, who has made community enhancement patches for some of the Wing Commander games—to put together remasters of those games.

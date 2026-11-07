@@ -1,33 +1,30 @@
-Trillions of dollars have been wiped off the stock value of major tech firms in the US, Europe and Asia after the US midterm elections sparked concerns of a slowdown in artificial intelligence (AI) development.
-In the US, the tech-heavy Nasdaq share index fell 5.5% on Thursday, losing an estimated $2.5tn (Â£1.9tn) in market value, while other key US stock indexes also saw big losses.
-Investors appear worried about tougher regulation of AI, after Democrat candidates expressed their opposition to the data centres that are needed to power the technology.
-The share falls comes on top of broader concerns about whether the huge amounts being spent on AI will pay off.
-The sell-off in US stocks on Thursday meant the so-called magnificent seven tech companies, including Apple, Nvidia and Tesla, shed a trillion dollars in value in a single trading day.
-Nvidia shares slid more than 9% and other chipmakers also suffered, with AMD and Micron both dropping by more than 17%.
+Global stock markets have tumbled after investors sold tech shares on fears that the US midterm elections would slow the development of artificial intelligence (AI).
+The sell-off, which started in the US and then spread to Asia and Europe, has seen trillions of dollars wiped off the stock value of major tech firms.
+In the US, the tech-heavy Nasdaq share index sank 5.5% on Thursday. Asian markets also saw hefty falls on Friday and European markets opened lower.
+Investors are worried about tougher regulation of AI, after Democrat candidates opposed the data centres needed by the technology. The share falls also come on top of concerns about whether the huge amounts being spent on AI will pay off.
+The sell-off in US stocks meant the so-called magnificent seven tech companies, including Apple, Nvidia and Tesla, shed a trillion dollars in value in a single trading day, with Nvidia shares sliding more than 9%.
 Shares in Elon Musk's companies SpaceX and Tesla also plunged, falling 8% and nearly 11% respectively and shaving more than $300bn off the firms' market value.
-Musk had spent nearly $450m backing Republican campaigns, including at least $45m in support of Ken Paxton for the Texas senate seat, but Texas was turned blue in the Democratic tsunami on Tuesday night.
-Tech stocks in Europe were also hit, with shares in chipmaker Infineon down by more than 8.5% while tech equipment manufacturer ASML dropped 6.5%.
-The sell-off spread into Asia on Friday. The Nikkei share index in Japan closed down 6% as shares in memory chip makers Kioxia and Tokyo Electron saw big falls.
-In South Korea, chipmaker SK Hynix fell more than 10% and Samsung was down 6.4%. The Kospi share index ended the day down 6%.
-The falls mark a "continuation of worries" over the level of spending on AI infrastructure, said MarketWatch chips analyst Britney Nguyen.
+Musk had spent nearly $450m backing Republican campaigns, including at least $45m in support of Ken Paxton for the Texas senate seat, but Texas turned blue in the Democratic tsunami on Tuesday.
+The sharp fall in the Nasdaq meant it lost an estimated $2.5tn (Â£1.9tn) in market value. The index is now in what market watchers call correction territory, which is where an index or company value falls at least 10% below its recent high.
+However, the huge gains seen by tech stocks in recent times - driven by the enthusiasm for AI - mean that even after Thursday's fall, the Nasdaq is still higher than it was a year ago, and up about 4.6% from where it was at the start of this year.
+The US sell-off spread into Asia on Friday. The Nikkei share index in Japan closed down 6% as shares in memory chip makers Kioxia and Tokyo Electron saw big falls.
+In South Korea, the Kospi index plunged more than 8% at one point, triggering a so-called circuit breaker, a mechanism that temporarily halts trading to curb panic selling.
+The Kospi eventually closed down 6%, with shares in chipmaker SK Hynix falling more than 10%.
+European markets fell on Friday, although the declines were not as severe as the indexes contain fewer tech stocks. The UK's FTSE 100 index fell nearly 2% while Germany's Dax index was down 2.4%.
+Dan Coatsworth, head of markets at AJ Bell, said investors were worried about the huge amounts of money being spent on AI with "no clear idea of when, or whether, there will be payback".
+"The midterm election result muddied the waters as the Democrats now have more influence and could slow down the pace of data centre roll-outs and look at new ways to regulate the sector," he added.
+"The AI story has all been about speed, and now there is a danger of it moving to a lower gear, and some of the wheels falling off."
 Pressure on data centres
 Democrats in races across the US campaigned to slow the growth of data centres and AI, and there were dozens of measures on ballots around the country aimed at restricting the development of the hubs crucial for powering the technology.
-They won both the US Senate and House of Representatives in Tuesday's midterms, taking control of Congress for the rest of President Donald Trump's presidency.
-Texas' Democratic governor-elect Gina Hinojosa campaigned heavily against data centres, pledging a moratorium on new construction in the sector.
-In a social media post, Trump blamed the slide on his political opponents.
-"The Stock Market suffered one of the Worst Days in History based on the results of the Election," he said.
-"Remember, it wasn't Republicans, it was Dumocrats. Do not fear, however, we will soon, one way or the other, be BIGGER AND STRONGER THAN EVER BEFORE. MAKE AMERICA GREAT AGAIN!"
-Later on Thursday night he appeared to take aim at voters too.
-"The Stock Market crashed today because the Dumocrats had a big Tuesday â So sad to see, you only have yourselves to blame!" he wrote on Truth Social.
-Some Democrats have argued that AI has grown too big without any safeguards or oversight and have promised, with their new power in Congress, to change that.
+They won both the US Senate and House of Representatives in the midterms, taking control of Congress for the rest of President Donald Trump's presidency.
 "Americans don't want Big Tech oligarchs wrecking the environment, gutting jobs and threatening humanity's future. NATIONAL DATA CENTER MORATORIUM NOW," Democrat Senator Bernie Sanders said in a post on X on Thursday.
-Susannah Streeter, chief investment strategist at Wealth Club, said the steep sell-off in US stocks had sent shockwaves into other markets.
-"Fresh panic over the AI trade has hit Wall Street hard," she said.
-"Fears that the vast sums poured into AI infrastructure may not deliver the returns investors have been banking on are now colliding with the prospect of a sharp slowdown in data centre construction.
+Trump blamed the stock slide on his political opponents.
+"The Stock Market suffered one of the Worst Days in History based on the results of the Election," he said in a social media post on Thursday.
+"Remember, it wasn't Republicans, it was Dumocrats."
+He also appeared to take aim at voters too.
+"The Stock Market crashed today because the Dumocrats had a big Tuesday â So sad to see, you only have yourselves to blame!" he wrote on Truth Social.
+On Friday, Trump restated his support for the AI sector, saying only "foolish leadership" would "say no to the riches they bring".
 Some tech leaders have said they were caught off guard by the backlash against data centres in the midterms.
 OpenAI president and co-founder Greg Brockman said he believed everyone had been surprised by the reaction to data centres, and more work needed to be done to ensure communities were on board.
-"A lot of our shift over the course of this year has really been to realise that from San Francisco trying to build infrastructure in Texas, Georgia, and other places, you can't just tweet and say: 'This is going to be good.' You need to be in those communities," Brockman said at the WSJ Tech conference in Napa, California on Wednesday evening.
-Meta's president Dina Powell McCormick said that the industry needed to put more effort into selling AI as a good idea.
-"I think we need to double and triple down on telling the story," she told the WSJ conference.
-Alongside the immediate impacts of the US mid-term elections, some investors have also become concerned that AI shares could be in a bubble that is due a correction.
+"A lot of our shift over the course of this year has really been to realise that from San Francisco trying to build infrastructure in Texas, Georgia, and other places, you can't just tweet and say: 'This is going to be good.' You need to be in those communities," Brockman said at the WSJ Tech conference in Napa, California.
 With additional reporting from Lily Jamali

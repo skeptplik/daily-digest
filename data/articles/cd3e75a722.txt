@@ -1,20 +1,22 @@
-European stock markets have fallen sharply as a rout in US tech stocks spread across the Atlantic, after the Democrats’ midterms victory sparked fears of a slowdown in the AI industry.
-A sell-off on Wall Street on Thursday was followed by sharp falls in Asian stocks markets on Friday morning. The investor sentiment then reached London, with the FTSE 100 index, which tracks blue-chip shares listed in London, down 1.5%, or 166 points, at the start of trading to 10,615.
-The pharmaceuticals company AstraZeneca opened down 2.8%, the biggest faller on the FTSE 100. Other big fallers included IAG, the owner of British Airways and Iberia, which fell 1.5%, after it missed profit forecasts in a trading update, and the miners Antofagasta and Anglo American.
-Germany’s Dax index opened down 1.5%, France’s Cac 40 has dropped by 1.2% and Spain’s Ibex is down 1.1%.
+European and Asian stock markets fell sharply on Friday after the Democrats’ decisive victory in the midterms triggered a rout in US tech stocks a day earlier.
+A sell-off on Wall Street on Thursday was followed by sharp falls in Asian stock markets on Friday. The investor sentiment then reached London, where the market was, at one stage, poised for its worst day since March.
+The FTSE 100 index, which tracks blue-chip shares listed in London, was down as much as 254 points, or 2.35%, at 10,528 points during a wave of selling in morning trading. But by the close of the day it had clawed back some of its losses to be down 1%, helped by a rise in US stocks when Wall Street reopened.
+Germany’s Dax index fell by 2%, France’s Cac 40 dropped by 0.8% and Spain’s Ibex lost 0.6%.
 Susannah Streeter, the chief investment strategist at Wealth Club, said: “The tech sell-off has intensified, with the pain of the brutal sell-off on Wall Street carried straight through to Asia and knocking sentiment in Europe.
 “Big worries are colliding – the build-out of datacentres looks set to slow, which risks shredding the spending spree underpinning the boom, right at the time that investors have become super nervous about returns on this massive investment.”
-On Thursday the Nasdaq share index had its worst day in 19 months after slumping 5.5%.
-Chip stocks led the slump, with the memory maker SanDisk tumbling by 22% and the hard drive maker Western Digital falling by 17%. Wall Street’s “fear index”, the Vix, jumped by 61% to its highest levels since the early weeks of the Iran war, in a sign of rising market volatility.
-The heavy falls continued in Asia on Friday, with Japan’s Nikkei 225 index sinking 6% and South Korea’s Kospi index tumbling more than 8%.
-“It’s actually a bit of a disaster,” said Christopher Forbes, the head of Asia and Middle East at CMC Markets. “[Clients] were long index, long stocks, and they all got carried out. All night, all day – we had client margin calls, client complaints … because it’s a very emotional thing, right? People are wedded to their positions and views on a stock or outcome, and you’re telling them: ‘Look, you’ve just lost money.’”
-Chris Beauchamp, the chief market analyst at the investing and trading platform IG, said: “Yesterday’s brutal session marked a dramatic turnaround from Wednesday, but with AI fears still prominent there is a risk that there is much more selling to come.
+However, there were signs of easing jitters on Wall Street on Friday, where tech stocks rose, lifting the S&P 500 share index by 0.3% and the tech-heavy Nasdaq closed up 1% – which only recovered a portion of their previous day’s losses.
+That followed a stronger-than-expected employment report that showed the US economy added 165,000 new jobs in October, pulling the unemployment rate down to 4.1%.
+On Thursday, the Nasdaq share index had its worst day in 19 months after slumping 5.5%.
+Chip stocks led the slump on Thursday, with the memory maker SanDisk tumbling by 22% and the hard drive maker Western Digital falling by 17%. Wall Street’s “fear index”, the Vix, jumped by more than 60% to its highest levels since the early weeks of the Iran war, in a sign of rising market volatility.
+The heavy falls continued in Asia on Friday, with Japan’s Nikkei 225 index sinking 6% and South Korea’s Kospi index tumbling more than 6.5%.
+“It’s actually a bit of a disaster,” said Christopher Forbes, the head of Asia and Middle East at CMC Markets.
+“[Clients] were long index, long stocks, and they all got carried out. All night, all day – we had client margin calls, client complaints … because it’s a very emotional thing, right? People are wedded to their positions and views on a stock or outcome, and you’re telling them: ‘Look, you’ve just lost money.’”
+Chris Beauchamp, the chief market analyst at the investing and trading platform IG, said: “Yesterday’s [Thursday’s] brutal session marked a dramatic turnaround from Wednesday, but with AI fears still prominent there is a risk that there is much more selling to come.
 “Investors remain on watch for a potential resumption of the Iran conflict, and are nervously watching the oil price after its slump earlier in the week. All in all it remains a very febrile atmosphere.”
-However, despite the sharp losses suffered on global stock markets around the world, most indices are still up for the year.
-The Nasdaq Composite index remains up 4.6% since the start of January – even though it is more than 10% below its peak.
-The FTSE 100 has gained almost 6.9% in 2026 – but it is now more than 300 points below the record high set in July.
-Mohit Kumar, an economist at the investment bank Jefferies, said that while he does not expect a quick rebound from Thursday’s losses in the US, he also does not believe it marks the “start of the unwind of the AI trade”.
+However, despite the sharp losses suffered on global stock markets around the world, most indices are still up for the year. The Nasdaq Composite index remains up 6.35% since the start of January – even though it is more than 10% below its peak.
+The FTSE 100 has gained almost 7.5% in 2026 – but it is now more than 300 points below the record high set in July.
+Mohit Kumar, an economist at the investment bank Jefferies, said that while he did not expect a quick rebound from Thursday’s losses in the US, he also did not believe it marked the “start of the unwind of the AI trade”.
 He said: “AI investment has been a key driver of US growth and we do not see the Democrats as giving up on this growth engine. Datacentres and AI infrastructure also create jobs and Democrats would be reluctant to let those jobs move on to other states or outside the country.”
-Stock market tremors have also hit the London Metal Exchange, with copper set for its biggest weekly fall since March.
-Benchmark three-month copper, a key metal used in the semiconductor, electronics and automotive industry, has dropped 0.61%, leaving it poised for a 2.79% fall this week.
+Stock market tremors have also hit the London Metal Exchange, with copper poised for its biggest weekly fall since March.
+Benchmark three-month copper, a key metal used in the semiconductor, electronics and automotive industry, has dropped 0.61%, leaving it positioned for a 2.79% fall this week.
 Craig Lang, a principal analyst at the consultancy CRU, said the price of copper was increasingly influenced by the AI market and “sentiment towards datacentre expansion”.

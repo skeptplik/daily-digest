@@ -1,3 +1,0 @@
-You’re reading the web edition of STAT’s Health Tech newsletter, our guide to how technology is transforming the life sciences. Sign up to get it delivered in your inbox every Tuesday and Thursday.
-Good morning health tech readers!
-Below, what the shifting political winds mean for some health AI policy questions on deck for next year. Plus: How hospitals are thinking about whether to embrace LLM-based tools like OpenEvidence that have conquered their clinical workforces.

@@ -1,0 +1,37 @@
+In April 2026, BleepingComputer reported that Canadian authorities arrested three men for operating an “SMS blaster,” a device that pretends to be a cell tower to send phishing texts to nearby phones.
+It’s a close cousin of the IMSI catcher, the fake-tower device used for surveillance. Both work by tricking phones into connecting to the strongest signal and sharing information before anything is authenticated.
+One of the main things a fake tower can collect this way is your IMSI, the identifier tied to your SIM, but it’s far from the only thing your phone gives away.
+What information does your phone actually broadcast?
+Your phone has several radios that connect to different kinds of signals and share different information.
+The Wi-Fi and Bluetooth radios share hardware addresses, which modern phones randomize or rotate to reduce tracking.
+The cellular radio reveals two identifiers that typically never change: the IMSI, which is tied to your SIM card, and the IMEI, which is tied to your device.
+IMSI vs IMEI
+The IMSI (International Mobile Subscriber Identity) is a unique number assigned by your mobile carrier when you sign up for your service. It lives on your SIM card, and is used by the network to look you up and authenticate you. For the most part, your IMSI never changes.
+The IMEI (International Mobile Equipment Identity) is a unique number tied to your physical phone. Unlike the IMSI, the network doesn’t authenticate it, so it names a device without proving anything.
+How well each is protected depends on the cellular generation in use. The standards come from 3GPP, the industry body that writes mobile network specifications. Newer generations protect identifiers better, but phones fall back to older ones, which is where fake towers come in.
+How your IMSI can be leaked
+- IMSI catchers/fake base stations: In 4G, a phone will send its IMSI in plaintext to a tower that hasn’t proven who it is, which is what an IMSI catcher exploits. 5G’s SUCI encryption is meant to close that gap, but because 5G coverage isn’t universal, an IMSI catcher can still downgrade your device to 4G or below.
+- Paging attacks: An idle phone saves battery by sleeping and waking only at set moments, called paging occasions, to check for incoming calls, texts, or notifications. In 4G, that slot is calculated from the IMSI with a publicly documented formula, so while the IMSI never changes, neither does the slot. (5G calculates it from a temporary ID instead.)
+In a 2019 paper, researchers showed how to exploit this.
+An attacker who knows your phone number can trigger “silent calls” (calls cut off before your phone rings), texts, or app notifications, and uses a nearby radio receiver to watch which slot sees activity.
+After about eight tries on average, the pattern confirms you’re in that area, with no fake tower needed. It worked against all the US carriers tested.
+This paging attack is a stepping stone to a more serious one: using a fake tower, an attacker can link your phone number directly to your IMSI. Some carriers, when normal pages to a phone’s temporary ID fail, fall back to broadcasting the raw IMSI in paging messages. Knowing your paging slot, an attacker can trigger that fallback.
+A fake tower hijacks your paging channel to block the network’s pages, and a single silent call then makes the carrier send your IMSI over the air where the attacker captures it. The researchers validated this against one major US carrier.
+Once an attacker has your IMSI, they can track your location or intercept your calls and texts through signaling attacks, which we covered in an earlier article.
+What about the IMEI?
+Think of an IMSI catcher as a license plate reader for phones: the IMSI is the plate, which follows your SIM, and the IMEI is the VIN, which stays with the device. In 4G and 5G, a basic fake tower gets the plate but not the VIN, because a phone sends its IMEI only after authenticating with the network.
+An attacker generally has to downgrade the phone to an older network first, or use authentication data obtained earlier through SS7 or Diameter attacks, which themselves start with an IMSI. The IMSI rather than the IMEI is used to route a call or look up your location through signaling.
+However, if your mobile carrier itself is compromised, whoever has access would be able to track you by your IMEI.
+Cape is America's privacy-first mobile carrier providing unlimited talk, text, and 4G/5G data, built from the ground up with privacy and security at its core.
+Most carriers track everything: where you go, who you call, what you do. Cape collects the minimum amount of information required to provide you with service, deletes call and text metadata after 24 hours, rotates your network ID to prevent tracking, defends against SIM- and network-based attacks, and more.
+Privacy shouldn't cost more. Switch today and get $29 off for life.
+Learn More
+Why rotating the IMSI helps
+Cape’s Identifier Rotation changes your IMSI every 24 hours, or on demand, cycling through seven IMSIs a week drawn from a shared pool that’s constantly reassigned among customers, so each IMSI carries a tangled history of many people’s activity.
+Here’s what that does:
+- Harvested IMSIs go stale. Signaling attacks start by harvesting a target’s IMSI, which on a typical carrier stays useful for years. A rotated one stops pointing at you within a day. An attacker can still ask for your current IMSI in real time, which is why rotation is layered on top of Cape’s signaling protections.
+- The paging fingerprint moves. In 4G, a new IMSI means a new paging slot, so any pattern an attacker builds no longer matches.
+- IMSI catchers lose the thread. A catcher can still grab today’s IMSI, but it can’t match it to yesterday’s, so it can’t build a history of you or confirm you’re nearby using an IMSI it learned earlier. Cape plus GrapheneOS adds LTE-only mode, which blocks downgrades.
+For most people, the tracking that matters is the long-term kind built on a stable identifier, which is what rotation breaks.
+Switch to a carrier that rotates your identifiers. Learn more about Cape →
+Sponsored and written by Cape.

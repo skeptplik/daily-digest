@@ -1,0 +1,16 @@
+Certificate authority DigiCert reports data breach involving business customer info
+Internet security firm DigiCert reported a data breach involving an internal business system that was left exposed and eventually accessed by someone outside of the company.
+The Utah-based company did not respond to requests for comment but posted a lengthy post-mortem on Mozilla's Bugzilla platform explaining the situation.
+DigiCert, which is a certificate authority and offers other corporate security services, said the incident began in February 2025 when an internal business system was moved out of a VPN-restricted network, making it accessible externally. Certificates typically help to verify the security of web servers.
+“Beginning on 2026-06-21, DigiCert determined that the business system was externally accessible when that was not intended, and that an unassigned account had been created,” the company said, adding that the issue was fixed by July 2.
+On October 19, DigiCert confirmed that the database was accessed starting on June 27 and that it was a “reportable event.” The accessed data included customer names, business email addresses, phone numbers as well as documents like driver’s licenses, passports or utility bills and other info.
+The report does not say how many customers were impacted.
+A spokesperson for the company declined to say whether the attackers have contacted DigiCert, telling Recorded Future News that they are “focused on providing our customers with information relevant to them about the incident.”
+“To our knowledge, there is no evidence of misuse of the information involved. We have reported the incident to law enforcement and will continue to support the investigation as needed,” the spokesperson said.
+The company noted that the threat actors who accessed the database could not issue certificates or take other actions. Their certificate authority services were not affected and customer login credentials were not taken.
+The report notes that the incident was reportable due to rules issued by Mozilla, Google Chrome, Microsoft and Apple.
+DigiCert said the incident was not detected earlier because the system migration “was treated as an infrastructure change rather than a security change which would have triggered more detailed review and sign off.”
+“The business system had insufficient alerting for new account creation through the externally-accessible endpoint or request volume from its internal endpoints,” the company said.
+The issue caused alarm on social media as several people shared breach notification emails they received from DigiCert. Multiple posts expressed concern about the ability of threat actors to tie personal documents like IDs and passports to specific certificates.
+Jonathan Greig
+is a Breaking News Reporter at Recorded Future News. Jonathan has worked across the globe as a journalist since 2014. Before moving back to New York City, he worked for news outlets in South Africa, Jordan and Cambodia. He previously covered cybersecurity at ZDNet and TechRepublic.

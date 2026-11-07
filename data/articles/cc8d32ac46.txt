@@ -1,0 +1,16 @@
+Security researchers have discovered multiple computers on the White House network that are used as residential proxy exit nodes.
+According to Layer3 Intel, six IP addresses on AS2650, the network reserved for the Executive Office of the President, were used by 28 residential proxy services between October 5 and November 3.
+“Our residential proxy enumeration pipeline exited through the White House network 236 separate times,” Layer3 Intel says.
+These exits, the security firm says, can be used by anyone signing up to a public residential proxy service to send requests through them.
+Most of the observed activity happens in the evening, between 5 p.m. and midnight, Eastern Time, and almost none in the early morning.
+“That pattern suggests a person rather than a public guest Wi-Fi network: someone regularly on the White House network late into the evening, whose device is infected with a proxy SDK,” Layer3 Intel notes.
+According to cybersecurity startup Synthient, which specializes in identifying residential proxies, VPNs, and bot infrastructure, the traffic comes from Windows 11 machines running the InfaticaSDK.
+Based in Singapore, Infatica is a web-data intelligence and proxy service provider that claims to provide access to more than 45 million ethically sourced residential, mobile, and datacenter IP addresses worldwide.
+Infatica’s founder Vladimir Fomenko also owns web hosting and IT infrastructure provider King Servers, which hosted “six of the eight internet addresses” that Russian state-sponsored hackers used in the 2016 US election attacks, investigative journalist Brian Krebs reports.
+Per Layer3 Intel’s report, residential proxies have reached every corner of the world, even some of the most isolated places, such as the South Atlantic territory Saint Helena, Ascension and Tristan da Cunha.
+“We recorded 413 addresses and more than 32,000 observations there, split between Starlink and the island’s local internet provider, Sure Saint Helena,” the company says.
+Residential proxy exits were also observed in Antarctica, the Chagos Islands, the Falklands, Norfolk Island, Pitcairn, South Georgia, Svalbard, and Tokelau.
+Related: AI-Linked Breaches Mount as WorkOS, Northflank, Trigger.dev Disclose Hacks
+Related: AI Agents Got Root on Linux via 948 Kernel Flaws in OpenAI Research
+Related: Bank Phishing Sites Show Fake ‘Suspended’ Pages to Evade Takedowns
+Related: CISO Conversations: Ryan Davis – The Unknown Is Where Security Meets Reality
