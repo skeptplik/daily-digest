@@ -24,6 +24,9 @@
 | `scripts/validate.py` | Проверка `digest.json` перед публикацией (формат, темы, ссылки есть в candidates). Запускается в `publish.yml` |
 | `scripts/assemble.py` | Сборка `data/digest.json` из `/tmp/parts/<тема>.json`: обзор без рассказов, `--drop`, `--curious`, `--out`; запускает облачная задача |
 | `scripts/check_part.py` | Проверка файла темы субагентом (лимиты, абзацы, ссылки из файла темы, число мелких) |
+| `scripts/show_item.py` | Запись дайджеста и тексты её статей для сверки рассказа (`<тема>:<номер>`, `--top N`); шаг 5 промпта |
+| `scripts/alert.py` | Сообщение о сбое в Telegram с повторами (Publish `alert`, `run-status.yml`, `notify.py`) |
+| `data/run_status.json` | Пишет облачная задача только при сбое (шаг 8 «СБОЙ»); пуш запускает `run-status.yml`, рассылку дайджеста не запускает |
 | `scripts/make_handoff.py` | Готовит `handoff/PROMPT-FOR-OTHER-AI.md`: запрос для ChatGPT/любой модели из `routine_prompt.md` + сегодняшние заголовки |
 | `handoff/` | Файл-запрос для других ИИ, обновляется каждую ночь в `collect.yml` |
 | `data/engine.json` | Какой движок сейчас пишет дайджест (claude или codex), читается `check.py` |
@@ -62,7 +65,7 @@
 17. `scripts/split_topics.py` режет `data/candidates.json` на файлы по темам в `/tmp/topics`: его запускает сама облачная задача (шаг 1 и пункт 4а `routine_prompt.md`), субагенты читают свой файл, а не весь сырьевой. При сбое скрипта субагенты читают целый `candidates.json`. Пути и формат менять только вместе с `routine_prompt.md`.
 18. После теста на подменённом сырье возвращайте `candidates.json` ТОЙ версии, по которой собран `digest.json` (не последней: поздние Collect её заменяют), иначе `validate.py` в Publish падает. Повторная публикация возможна только коммитом, меняющим `data/digest.json`.
 19. `git push` без входа в GitHub (Credential Manager) молча не проходит: после пуша сверяйте `git ls-remote origin main` и `git rev-parse HEAD`. Python на ПК не в PATH сессии: `C:\Users\Professional\AppData\Local\Programs\Python\Python315\python.exe`.
-20. Облачная задача собирает итог через `scripts/assemble.py`, субагенты проверяют свой файл `scripts/check_part.py`; формат частей (`items`, `curious_candidates` с `body`) и ключ `rows` в `/tmp/topics/<id>.json` менять только вместе с `routine_prompt.md`.
+20. Облачная задача собирает итог через `scripts/assemble.py`, субагенты проверяют свой файл `scripts/check_part.py`; формат частей (`items`, `curious_candidates` с `body`) и ключ `rows` в `/tmp/topics/<id>.json` менять только вместе с `routine_prompt.md`. Поля строк: `roundup` (рассылка/подборка/live-лента, ставит `collect.py`), `prev` (ссылка была в прошлом дайджесте, ставит `split_topics.py` по `data/digest.json` в клоне); `assemble.py` пишет в дайджест `candidates_generated_at`, по нему `validate.py` в Publish решает, сверять ли ссылки (см. `docs/AUDIT-NOTES.md`).
 21. Журнал облачной задачи читается из сессии: `RemoteTrigger` `list_runs` и `get_run_log` (последние 200 событий, старые через `cursor`).
 
 22. Облачная задача: `assemble.py` удаляет служебные поля частей (`note`, `independent`, `skipped`), поэтому оговорки «одно издание» и противоречия источников пишутся в `summary` или `body`. `assemble.py --out` завершается кодом 2, если нет файла темы; тема без материала записывается как `{"items": [], "skipped": "..."}`; в конце печатается строка `METRICS` (число новостей, объём `body`, снятые дубли, неиспользованные `curious`).
