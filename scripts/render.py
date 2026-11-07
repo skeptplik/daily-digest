@@ -370,28 +370,38 @@ HOT_MAX = 5           # не больше стольких 🔥 за день
 TOPIC_WEIGHT = {"politics": 1.5}   # мировые события при отборе 🔥 весят больше узких тем
 
 
+# live-ленты в старом сырье без поля roundup (новое сырьё помечает их и рассылки в collect.py).
+# Раньше было \blive\b: выкидывало обычные статьи вроде «Brand That Can Live Beyond Her».
+LIVE_RE = re.compile(r"(?<!now )\blive(?: updates| blog| results)?:|(?<!watch it )\blive(?: updates| blog)?\s*$|"
+                     r"\blive (?:blog|updates)\b|as it happened|/live/|/live-\d|/liveblog/|live-updates|/\d{8}-live-", re.I)
+
+
 def load_reach(trusted, primary):
-    """link -> group и group -> множество изданий из candidates.json: настоящий охват события."""
-    link_group, group_outlets = {}, {}
+    """link -> group, group -> множество изданий из candidates.json (настоящий охват события)
+    и множество ссылок-подборок (рассылки, бюллетени, live-ленты), которые охватом не считаются."""
+    link_group, group_outlets, multi = {}, {}, set()
     try:
         cand = json.loads((ROOT / "data" / "candidates.json").read_text(encoding="utf-8"))
     except Exception:
-        return link_group, group_outlets
+        return link_group, group_outlets, multi
     for rows in (cand.get("topics") or {}).values():
         for r in rows:
             g, link = r.get("group"), r.get("link")
-            if g is None or not link:
+            if not link:
+                continue
+            # подборки и live-ленты охватывают много событий сразу: к группе их не привязываем
+            if r.get("roundup") or LIVE_RE.search(f"{r.get('title','')} {link}"):
+                multi.add(link)
+                continue
+            if g is None:
                 continue
             host = urlparse(link).hostname or ""
             host_n = host[4:] if host.startswith("www.") else host
             outlet = match_domain(host, trusted) or match_domain(host, primary) or host_n
             outlet = OUTLET_ALIASES.get(outlet, outlet)
-            # живые ленты («… live», «as it happened») охватывают много событий сразу: к группе их не привязываем
-            if re.search(r"\blive\b|as it happened|/live/", f"{r.get('title','')} {link}", re.I):
-                continue  # live-лента не считается ни ссылкой группы, ни охватом
             link_group[link] = g
             group_outlets.setdefault(g, set()).add(outlet)
-    return link_group, group_outlets
+    return link_group, group_outlets, multi
 
 
 def main():
@@ -405,7 +415,7 @@ def main():
     day_h, weekday = human_date(date_iso)
     news_day_h, _ = human_date(news_iso)
 
-    link_group, group_outlets = load_reach(trusted, primary)
+    link_group, group_outlets, multi = load_reach(trusted, primary)
     topics = []
     for t in raw.get("topics", []):
         tid = t.get("id")
@@ -417,10 +427,11 @@ def main():
             if not title_i or not sources:
                 continue
             # охват: все издания, писавшие об этом событии (по группе из candidates.json)
-            reach = {x["outlet"] for x in sources if x["kind"] == "trusted"}
+            # подборка или live-лента в sources подтверждением не считается (но одна такая ссылка = одно издание)
+            reach = {x["outlet"] for x in sources if x["kind"] == "trusted" and x["url"] not in multi}
             for x in sources:
                 reach |= group_outlets.get(link_group.get(x["url"]), set())
-            indep = max(indep, len(reach))
+            indep = max(len(reach), min(indep, 1))
             try:
                 imp = max(1, min(3, int(it.get("importance", 1))))
             except Exception:

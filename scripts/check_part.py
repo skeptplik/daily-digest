@@ -19,12 +19,13 @@ try:
 except Exception as e:
     print(f"ОШИБКА: {tid}.json не читается ({type(e).__name__}: {e})")
     sys.exit(1)
-links = set()
+links, roundup = set(), set()
 tf = topics / f"{tid}.json"
 if tf.exists():
     t = json.loads(tf.read_text(encoding="utf-8"))
     rows = t.get("rows") if isinstance(t, dict) else t
     links = {r["link"] for r in rows or []}
+    roundup = {r["link"] for r in rows or [] if r.get("roundup")}
 else:
     warn.append("файла темы нет: ссылки sources не сверены с сырьём")
 items = d.get("items") or []
@@ -54,6 +55,8 @@ for n, i in enumerate(items):
             err.append(f"{name}: некорректный источник {s!r}"[:120])
         elif links and s.get("url") not in links:
             err.append(f"{name}: ссылка не из файла темы: {s.get('url')}")
+        elif s.get("url") in roundup:
+            warn.append(f"{name}: источник roundup (подборка/рассылка): если есть отдельная статья о событии, поставь её")
     body = i.get("body") or []
     if body and (not isinstance(body, list) or not all(isinstance(x, str) and x.strip() for x in body)):
         err.append(f"{name}: body должен быть списком непустых строк")

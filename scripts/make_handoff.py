@@ -37,7 +37,8 @@ for tid, rows in c["topics"].items():
     lines.append(f"\n## тема: {tid}")
     for r in rows:
         summ = f" | {r['summary']}" if r.get("summary") else ""
-        lines.append(f"- [{r['outlet']}] {r['title']}{summ} | {r['link']} | {r['published']} UTC")
+        mark = ' "roundup": true |' if r.get("roundup") else ""  # подборка/рассылка, см. правила
+        lines.append(f"- [{r['outlet']}]{mark} {r['title']}{summ} | {r['link']} | {r['published']} UTC")
 
 out = f"""# Запрос для ИИ: составь ежедневный дайджест
 

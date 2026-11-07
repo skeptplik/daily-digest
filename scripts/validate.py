@@ -31,9 +31,10 @@ if not isinstance(d.get("topics"), list) or not d["topics"]:
     errors.append("topics пуст или не список")
     d["topics"] = []
 
-known = set()
+known, roundup = set(), set()
 try:
     c = json.loads((ROOT / "data/candidates.json").read_text(encoding="utf-8"))
+    roundup = {r["link"] for rows in c.get("topics", {}).values() for r in rows if r.get("roundup")}
     if c.get("generated_at", "")[:10] == d.get("date"):
         known = {r["link"] for rows in c.get("topics", {}).values() for r in rows}
     else:  # заголовки уже обновились после этого дайджеста: сверять ссылки нечем
@@ -88,6 +89,8 @@ for t in d["topics"]:
                 errors.append(f"{where}: некорректная ссылка в sources")
             elif known and u not in known and not d.get("demo"):
                 errors.append(f"{where}: ссылки нет в candidates.json (возможно, выдумана): {u[:90]}")
+            elif u in roundup:
+                warns.append(f"{where}: источник — подборка/рассылка/live-лента (roundup), лучше отдельная статья: {u[:90]}")
 if hot > 7:
     warns.append(f"importance=3 у {hot} новостей (в промпте не больше 7)")
 if total == 0:

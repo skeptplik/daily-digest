@@ -159,6 +159,19 @@ def tokens_x(row):
 
 # подборки, скидки, обзоры, гайды: похожи друг на друга словами, но не об одном событии
 NOGROUP_RE = re.compile(r"(?<![a-z])(best|deals?|reviews?|reviewed|guides?|walkthroughs?|how to|gifts?|black friday|tested|\d+% off|\$\d+ off)(?![a-z])|from \$\d+", re.I)
+# статьи о нескольких событиях сразу: рассылки, подборки новостей, бюллетени, live-ленты.
+# Такая строка получает "roundup": true, в группы не идёт (иначе склеивает разные события и завышает охват),
+# render.py не считает её подтверждением. Проверено на сырье 2-7 ноября: 61 строка из 2612, ложных нет.
+ROUNDUP_TITLE_RE = re.compile(
+    r"^must read:|\b(?:mon|tues|wednes|thurs|fri|satur|sun)day briefing\b|\b(?:morning|evening) (?:briefing|report)\b"
+    r"|news bulletin|^europe today:|\bround-?up\b|^in other news:|pharmalittle|^what in the world$|^up first\b"
+    r"|(?<!now )\blive(?: updates| blog| results)?:|(?<!watch it )\blive(?: updates| blog)?\s*$|\blive (?:blog|updates)\b"
+    r"|as it happened|^главное (?:за|к)\b|^коротко:|^итоги (?:дня|недели)", re.I)
+ROUNDUP_LINK_RE = re.compile(r"newsletter|/live/|/live-\d|/liveblog/|live-updates|/\d{8}-live-|-live-blog", re.I)
+
+
+def is_roundup(row) -> bool:
+    return bool(ROUNDUP_TITLE_RE.search(row.get("title", "")) or ROUNDUP_LINK_RE.search(row.get("link", "")))
 
 
 def split_chain(members, edges, min_density=0.5, big=5):
@@ -203,8 +216,9 @@ def group_rows(rows, min_score=0.25):
     """Группирует заголовки об одном событии (разные издания, один язык) по редким общим словам.
     Возвращает список групп: [{"id", "outlets", "ids"}] только из 2+ изданий."""
     from math import log
-    toks = [set() if NOGROUP_RE.search(r["title"]) else tokens(r) for r in rows]  # подборки и обзоры в группы не берём
-    toks_x = [set() if NOGROUP_RE.search(r["title"]) else tokens_x(r) for r in rows]
+    skip = [bool(NOGROUP_RE.search(r["title"]) or r.get("roundup") or is_roundup(r)) for r in rows]
+    toks = [set() if s else tokens(r) for s, r in zip(skip, rows)]  # подборки, обзоры, рассылки в группы не берём
+    toks_x = [set() if s else tokens_x(r) for s, r in zip(skip, rows)]
     df, df_x = {}, {}
     for t in toks:
         for w in t:
@@ -405,6 +419,8 @@ def main() -> int:
     rows_all = [r for v in topics.values() for r in v]
     for r in rows_all:
         r["id"] = article_id(r["link"])
+        if is_roundup(r):
+            r["roundup"] = True
     ARTICLES_DIR.mkdir(exist_ok=True)
     for old in ARTICLES_DIR.glob("*.txt"):  # вчерашние тексты не копим
         old.unlink()
