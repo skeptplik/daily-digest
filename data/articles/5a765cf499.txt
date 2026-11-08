@@ -1,0 +1,42 @@
+Fraudulent reward portals and fake gift card giveaways are surging globally, tricking users into deceptive verification loops and paid subscriptions.
+These scams lure victims with a simple pitch: click an ad featuring a celebrity endorsement, claim a free gift card from a well-known brand, and complete a quick "human verification" step to unlock the reward.
+Read the full report here: https://www.ctm360.com/reports/gift-card-scams
+Behind the polished branding, fake progress bars, and convincing promotional messages, however, no actual gift cards are provided.
+Instead, these campaigns operate as large-scale affiliate monetization schemes designed to collect personal information, generate application installs, and enroll unsuspecting users in recurring mobile subscriptions.
+1,000+ Incidents Exploiting Trusted Brands
+Based on activity observed by CTM360, analysts identified more than 1,000 incidents linked to this recurring campaign.
+Threat actors exploit consumer familiarity with established brands, frequently impersonating major retailers and consumer platforms such as PlayStation, Sephora, SHEIN, Walmart, and Amazon.
+To increase credibility and attract potential victims, the campaigns rely heavily on social media distribution through:
+- Sponsored social media ads
+- Viral posts promoting "giveaways"
+- Fabricated endorsements from high-profile celebrities and influencers (such as MrBeast or Alix Earle)
+Because the underlying infrastructure is highly modular, threat actors can swap out the impersonated brand, celebrity lure, and domain name without rebuilding the core scam engine.
+How the Campaign Works: The Fake Generation Trap
+CTM360 maps this activity using a structured fraud lifecycle, highlighting how victims are systematically pushed through a psychological progression of curiosity, trust, and urgency.
+Once a user clicks a malicious ad, they are redirected to a fraudulent reward portal.
+To appear credible, these websites display:
+- Cloned brand logos and colors
+- Fake participant numbers and live countdown timers
+- Fabricated testimonials from "recent winners"
+After a victim selects a gift card value, the site runs a scripted, visual progress animation simulating the generation of the card on the back end.
+The portal then displays a partially masked code (e.g., XXXX-XXXX-7F3A-XXXX) to convince the user that the reward is real and ready to claim.
+Before the full code is revealed, the victim is presented with a deceptive "Security Check" or "Human Verification" gate.
+Discover how threat actors use brand impersonation and fake rewards to exploit users.
+Get insights into attacker infrastructure and learn to defend your organization with CTM360's Digital Risk Protection.
+Download Now
+The Endless Verification Loop and Monetization
+The "human verification" step is a deceptive pivot into what CTM360 identifies as "Trap 10." Rather than performing a legitimate security check, the verification process redirects victims to third-party activities designed to generate revenue for the operators.
+Victims are pushed into an endless loop of:
+- Completing surveys, quizzes, and promotional offers.
+- Installing unwanted third-party applications or browser extensions.
+- Subscribing to paid mobile services through localized carrier-billing mechanisms
+If a user completes a task, they are not given the gift card. The site simply reports the step as "incomplete" and pushes the victim to another offer. In all flows tested by CTM360, no reward was ever delivered.
+Technical Observations: Affiliate Hand-Offs
+Unlike traditional phishing that steals user credentials, this campaign operates on a volume-and-conversion model.
+CTM360 observed that lure pages redirect victims through affiliate tracking URLs (e.g., passing parameters like offer_id and aff_id). This tracking token links the victim's registration directly to the threat actor's affiliate network account.
+When a victim completes a mobile number submission and PIN/OTP verification for a subscription, the threat actor earns a commission.
+Risks to Users and Organizations
+For the victim, the fallout goes beyond wasted time. Consequences include personal information exposure, unexpected mobile billing charges, and an influx of spam.
+For organizations, this represents a severe abuse of brand reputation. The campaign highlights a broader trend: attackers are operating at scale, weaponizing brand trust as a mechanism to drive lucrative affiliate conversions.
+Detect Cyber Threats 24/7 with CTM360: Monitor, analyze, and promptly mitigate risks across your external digital landscape with the CTM360.
+Sponsored and written by CTM360.

@@ -1,0 +1,55 @@
+Canada
+The age of AI warfare has dawned. Is Canada ready?
+Russia has reportedly already used autonomous drones to deadly effect in Ukraine
+The drone looks like a small fighter jet. Artificial Intelligence is flying it, and it's firing a missile. A human approved the shot, but AI carried it out.
+That's not science fiction. It may be the future of modern warfare.
+In July, American defence company Anduril's YFQ-44A drone, known as Fury, fired an air-to-air tactical missile at a simulated target in California's Mojave Desert. In October, a pilot in an F-22 fighter jet was able to get the drone to carry out simulated combat tasks.
+It's the latest step in the global race for autonomous weapons as armies try to gain a tactical edge.
+With governments increasingly integrating AI into military software and hardware, Canada faces a question: should it join the autonomous arms race and start investing more in AI-enhanced weapons despite legal and ethical concerns?
+'AI in a platform that is deadly'
+YFQ-44A is a collaborative combat aircraft (CCA), designed to fly alongside manned fighter jets. It's meant to extend the jet's reach, while reducing risk to the pilot. The drone would use AI to carry out many fighter jet tasks, including firing weapons on command and eventually engaging in close aerial combat.
+"You're getting artificial intelligence in a platform that is deadly," said Yvan Blondin, who commanded the Royal Canadian Air Force from 2012 to 2015.
+- Ottawa drone makers tool up for increased defence budget
+- As Canadian defence spending ramps up, London firms excited about opportunities
+Blondin believes these drones will become integral to modern militaries by the 2030s.
+The U.S. has two prototypes, including Fury. Australia has a Boeing-built CCA — and they're working on an underwater version built by Anduril. The U.K. is spending five billion pounds to boost drones and autonomous systems in their military.
+Western armies say humans will stay in control and responsible for weapons using lethal force: it's part of NATO's policy on responsible use of AI.
+Canadian officials told CBC that warfare must stay a fundamentally human endeavour, and said that no machine, weapons systems or algorithmic code can be held responsible for complying with International Humanitarian Law. But Blondin says other adversaries may not wait.
+If one country uses autonomous AI in a conflict, Blondin wonders how other countries would respond — would they raise their ethical standards, or drop them entirely?
+"In times of war, would China bother with the step of having a human in the loop?" he asked.
+Canada's role
+In a statement sent to CBC News, the Department of National Defence said the Royal Canadian Air Force is examining how these systems could be useful for Canada, but that no decision has been made about plans to procure CCAs.
+The Canadian Armed Forces supports the development of autonomous functionality, the statement said, on the condition that it would be "operated within a responsible chain of human command and control and commits to uphold the reliable and lawful use of such weapon systems."
+- Military commander vows fast action on AI and robots, sees 'untapped potential' for Canada
+- In Canada's drone-killing 'Sandbox,' companies compete for a $1M prize
+Canada has no collaborative combat aircraft, but Dominion Dynamics CEO Eliot Pence wants to change that.
+His defence technology company is building Scout, a CCA that would fly ahead of a crewed fighter, three or four drones per jet, beyond the radar's edge — and be able to strike by firing a weapon, like a missile.
+Dominion Dynamics CEO Eliot Pence stands in front of a subscale model of Scout, a collaborative combat aircraft that the Canadian defence technology company is building. Scout would fly ahead of a crewed fighter beyond the edge of its radar and be able to strike by firing a weapon, like a missile. (Nicolas Legault/CBC)
+Pence, who previously worked at Anduril, says the need for CCA is about sovereignty, especially over the Arctic, which makes up about 40 per cent of Canada. The country doesn't have the fighter jets to cover all that territory, Pence argues, noting that leaves a gap in Canada's ability to carry out intelligence, surveillance and reconnaissance — a gap Dominion is trying to fill.
+"The best, most efficient and technologically advanced way of doing that is by pairing those jets with autonomous systems."
+Dominion stands to benefit if Ottawa buys in.
+Pence says he's raised about a third of the $500 million needed to build the prototype, and though Ottawa has bought into Dominion's simulation platform, there's no government contract for a prototype.
+"We don't care. We're going to build it anyway."
+Building in boundaries
+Pence says Dominion wants a human to remain the last decision maker for the drone, and is building that boundary into the decision-making of its AI models.
+But they have yet to figure out what, specifically, all those safeguards would be, says Benoit Breault, senior vice-president for aerospace engineering at Dominion.
+Some boundaries are straightforward, Breault says — for example, any use of force will require human approval.
+Benoit Breault, senior vice-president for aerospace engineering at Dominion, is working on safeguards to make sure a human is the last decision maker for the drone they want to build. (Nicolas Legault/CBC)
+Other boundaries may seem less critical at first blush, but can become unexpectedly dangerous. For instance, if engineers want the drone to return home, can AI decide what route to take?
+"You don't want to return to base straight into dangerous environments or contested airspace," Breault said.
+He's also thinking about how to avoid overwhelming the pilot. Too much information from three or four drones could make it difficult for the pilot to maintain control of CCAs.
+But right now, Breault acknowledges development of the human-machine interface is still "embryonic."
+He says they're still trying to determine answers to important questions like, "How exactly are we going to provide information to the fighter jet pilots? How exactly are the decision recommendations going to be displayed."
+Adequate human control
+These details are central to ethical concerns about autonomous weapons systems, says Craig Martin, a former Canadian navy officer and an expert in armed conflict laws who teaches at Washburn University in Topeka, Kan.
+"This is the million dollar question," he said. "What is the extent and the nature of the human control that's being exercised over that weapon system?"
+Martin is worried about automation bias — where humans put too much trust in the machine, especially if, for instance, they have just seconds to respond. Martin says AI systems can also fail if they're used in environments where they weren't trained. For instance, a system trained for use in Afghanistan could make mistakes if it's used in Ukraine.
+Such errors, he says, "can actually compound in sort of exponential feedback loops that result in biases that can possibly lead to the killing of civilians."
+This month, diplomats will meet in Geneva to see if countries want to enter into negotiations about rules governing the use of autonomous weapons. Craig Martin, a former Canadian navy officer and an expert in armed conflict laws, wants Canada to lead that conversation. (Andrew Lee/CBC)
+UN Secretary-General António Guterres wants a legally binding treaty on autonomous weapons by the end of 2026.
+Guterres renewed that call in August, a month after a Russian drone, acting with no human operator, killed three civilians in Ukraine, the New York Times reported. The drone was reportedly a cheap, expendable weapon that picked its own target. It was in a different category from CCAs, but both that type of drone and CCAs are autonomous enough that they are able to make some of their own decisions.
+Martin is calling for changes to international law that would ban fully autonomous weapons and restrict semi-autonomous weapons. This month, diplomats will meet in Geneva to see if countries want to enter into negotiations about rules governing the use of these weapons — and Martin wants Canada to lead that conversation.
+Canada voted yes to a 2025 UN resolution calling on countries to lay the groundwork for possible negotiations on a treaty governing the use of lethal autonomous weapons systems.
+DND officials say Canada will continue to participate in international talks about these weapons. It's also ramping up defence spending, having committed to NATO's target of spending five per cent of GDP on defence by 2035.
+Whether or not Canada buys in to autonomous weapons, Blondin, the former RCAF commander, says they're coming.
+"This is a discussion we need to have as a society."

@@ -1,0 +1,8 @@
+An Estonian newspaper recently revealed that a British soldier disobeyed a direct order to remove the SIM card from his cellphone before being deployed to a part of Estonia, approximately 90 miles west of the Russian border.
+As a result of his refusal to engage in this element of operational security (opsec), the soldier, Daniel Barton-Kennedy, had his phone hacked, and nude photos of himself were stolen and used as blackmail against him.
+Eventually, Barton-Kennedy was court-martialed for disobeying a lawful command, pled guilty, was reduced in rank, and ordered to serve 10 months in detention.
+According to a 21-page British appeals court document shared with Ars Technica by Eesti Ekspress, the Estonian newspaper that first reported on this saga, the story begins in January 2026.
+At the time, Barton-Kennedy was a corporal, with over seven years of service, serving in the 1st Battalion of the Duke of Lancaster Regiment of the British Army.
+His unit was deployed to participate in “Exercise Eastern Warrior” in Tapa, Estonia, roughly halfway between Tallinn, the capital city, and the Estonia-Russia border.
+While in the United Kingdom, on January 7, Barton-Kennedy, along with other members of his unit, were briefed on their orders and given specific instructions to “remove SIM cards and switch off location settings and to use a trusted virtual private network on all personal electronic devices.”
+Once the unit arrived in Estonia, days later, they were given further briefings and reminders of this policy. Despite this, Barton-Kennedy ignored the instruction.
