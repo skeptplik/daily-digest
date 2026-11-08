@@ -106,7 +106,7 @@ def is_public(url):
         return False
 
 
-def fetch(url, max_bytes, timeout=8, referer=None):
+def fetch(url, max_bytes, timeout=8, referer=None, prefix_ok=False):
     """Скачивает url, вручную проходя редиректы и проверяя каждый адрес."""
     for _ in range(4):
         if not is_public(url):
@@ -131,6 +131,8 @@ def fetch(url, max_bytes, timeout=8, referer=None):
             data = b""
         headers = r.headers
         r.close()
+        if prefix_ok:
+            data = data[:max_bytes]   # для страницы нужно только начало (<head> с og:image)
         if not data or len(data) > max_bytes:
             return None
         return headers, data, url
@@ -157,7 +159,7 @@ class OgParser(HTMLParser):
 
 
 def og_image(page_url):
-    res = fetch(page_url, 400_000)
+    res = fetch(page_url, 400_000, prefix_ok=True)
     if not res:
         return None
     _, data, final_url = res
@@ -243,7 +245,8 @@ def load_rss_images():
         for rows in c.get("topics", {}).values():
             for r in rows:
                 if r.get("image"):
-                    RSS_IMAGES[r["link"]] = r["image"]
+                    # BBC отдаёт в RSS значок 240 px; та же картинка шириной 800 доступна по тому же пути
+                    RSS_IMAGES[r["link"]] = re.sub(r"(ichef\.bbci\.co\.uk/ace/standard/)\d+/", r"\g<1>800/", r["image"])
     except Exception:
         pass
 
