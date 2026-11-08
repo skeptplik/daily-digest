@@ -7,7 +7,7 @@ To strengthen the cargo lander network needed to support the Moon Base, NASA sel
 - Blue Origin
 - Firefly Aerospace
 - Intuitive Machines
-- iSpace US
+- ispace-U.S.
 - Lockheed Martin Space
 - Northrop Grumman Space Systems
 - SpaceX
