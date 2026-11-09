@@ -1,0 +1,51 @@
+Nvidia CEO Jensen Huang is facing questions over allegations that a Chinese businesswoman with whom he had a romantic relationship was gathering intelligence for Beijing.
+Huang – who cofounded Nvidia, the world’s second-most valuable company after Apple, more than three decades ago – admitted on Sunday to being unfaithful to his wife, but the company said it has no reason to believe United States national security or confidential information has been compromised.
+Nevertheless, Nvidia’s board announced an independent investigation into whether the 63-year-old Taiwan-US dual national had been targeted by a foreign intelligence operation after media reports linking him to Alice Huang, a former executive at a Singapore-based data centre company.
+“The Board prioritizes US national and economic security, which is paramount to the interests of NVIDIA and its shareholders,” it said in a statement, adding that Jensen Huang fully backs the review.
+After the revelations, Nvidia – whose market capitalisation of $4.5 trillion is higher than the gross domestic product (GDP) of Japan, the world’s fourth-largest economy – saw its stock price tumble by more than 4 percent in trading overnight into Monday.
+The controversy erupted as Washington seeks to prevent China from obtaining advanced American semiconductors, including Nvidia’s most powerful artificial intelligence chips, as the US and China fiercely compete for AI supremacy.
+So what do we know about the affair, and how will this impact US-China relations and the race for AI dominance?
+What do we know about the affair?
+The allegations first emerged in a New York Times investigation late last month, which reported that US intelligence officials believed Alice Huang had been recruited by Beijing to gather information about Nvidia’s chief executive and potentially influence the company’s chip sales to China.
+However, the precise nature of the information she allegedly obtained, whether any sensitive material was passed to Beijing and how much Jensen Huang knew about the alleged operation remain unclear. Jensen Huang and Alice Huang are not related despite sharing a last name.
+The two were reportedly seen together at industry events, including a dinner hosted by Jensen Huang in Taipei during the Computex technology exhibition in 2025.
+On Sunday, the Nvidia chief acknowledged his infidelity in a staff memo.
+“I was unfaithful to my wife. My actions hurt her and our children. There is no excuse for what I did. I am deeply sorry,” he said.
+However, in late October, Jensen Huang had told Bloomberg News that his interactions with Alice Huang were related to her company, Megaspeed, describing them as “completely normal and not unusual”.
+Who is Alice Huang?
+Also known as Huang Le, Alice Huang is a Chinese citizen and former senior executive at Megaspeed International, which provides computing infrastructure used to operate and train AI systems.
+According to The New York Times, Megaspeed had become one of Nvidia’s largest buyers, purchasing about $4.8bn in equipment from the US firm.
+A profile of Alice Huang found in a Chinese investment database listed previous employment at HSBC and Chinese television broadcasters CCTV and Hunan TV, according to the AFP news agency, which said it could not independently verify those details.
+Alice Huang has not publicly responded to the espionage allegations, and her whereabouts are currently unknown.
+How has the company reacted?
+Nvidia has launched an independent investigation overseen by a committee of directors and external legal counsel to determine whether its president and CEO was targeted by foreign intelligence.
+The company said it had no reason to believe national security or its proprietary information had been compromised while expressing confidence in Jensen Huang’s leadership.
+“The Board has confidence in Jensen and his leadership team and will provide further updates as appropriate,” it said, adding that Jensen Huang has pledged to cooperate with the investigation and continue leading the company.
+However, the allegations have unsettled investors.
+“It deals a blow to the cult of Huang that has taken over the chip world in recent years,” Chris Beauchamp, chief market analyst at Britain’s IG Group, a leading derivatives trading firm, told Al Jazeera, while adding that it was too early to determine whether this moment might prove a “major turning point” for Nvidia and Jensen Huang.
+“If this turns into a broader congressional investigation, then the shares are likely to come under pressure,” Beauchamp added. “As we learned from the financial crisis [in 2008 and 2009], once you go looking for skeletons in a cupboard, you usually find them.”
+Jensen Huang’s daughter, Madison, who also works at Nvidia, cancelled a planned visit to South Korea for an Nvidia AI event amid the controversy.
+What action has the US government taken?
+US authorities have been investigating Megaspeed since 2024 over suspicions that the company helped China obtain advanced Nvidia chips in violation of US export restrictions.
+However, no criminal charges against Jensen Huang or Alice Huang have been reported. The controversy has prompted bipartisan pressure in Washington.
+Republican lawmakers on Wednesday called on Jensen Huang to testify before Congress on November 18, arguing that the allegations raise serious questions about China’s potential access to sensitive US technology.
+“It is vital that Congress determines the extent to which US national security has been placed at risk,” Republican Congressmen John Moolenaar, Brian Mast and Rick Crawford said in a statement.
+Democratic Senator Elizabeth Warren has also demanded answers from Nvidia and called for stronger legislation to prevent advanced US technology from reaching China.
+“NVIDIA’s Jensen Huang and NVIDIA’s board owe Congress answers. And we need to pass bipartisan legislation we have ready to stop advanced American technology from going to China,” she said in a statement.
+President Donald Trump, meanwhile, has defended Jensen Huang, describing him as an “honourable guy”.
+Asked whether he should have acted after reportedly receiving an intelligence briefing about the allegations, Trump said, “No, I don’t think so.”
+Meanwhile, Chinese Ministry of Foreign Affairs spokesperson Guo Jiakun on Monday said the “so-called Chinese spy narrative” was unsubstantiated. “It is nothing but smears against China,” Guo added.
+Jensen Huang, who is seen as a close adviser to Trump on the AI trade, has repeatedly pushed to loosen chip sales restrictions to China.
+Can this impact the China-US relationship and the race for AI dominance?
+The scandal threatens to intensify tensions between Washington and Beijing over access to the powerful semiconductors needed to develop advanced AI systems. Semiconductors are needed to run nearly all electronics from smartphones to cars and military equipment.
+Nvidia is a central player in that competition, supplying chips used by major US technology companies to train and operate AI models. It was until October 30 the most valuable company in the world.
+“AI is now a technology that is really shaping national economies and GDPs, and safeguarding becomes even more serious. So protecting not only confidential secrets but also advancements for geopolitical reasons becomes even more important,” Fazl Barez, a senior researcher at the University of Oxford specialising in AI safety and governance, told Al Jazeera.
+Washington has restricted exports of its most advanced processors to China over national security concerns. Nvidia’s top-of-the-line Blackwell GPU chips are banned for export to China.
+The US has also clarified that restrictions apply to Chinese-owned companies operating outside China amid concerns that overseas subsidiaries could provide a route around export controls.
+However, in December, Trump said Nvidia could sell its H200 chip to China, marking a major easing of US export restrictions. The H200, while not Nvidia’s top chip, is roughly six times more powerful than the model previously approved for sale to China, the H20.
+The allegations surrounding Megaspeed could, therefore, increase pressure on Washington to scrutinise Nvidia’s overseas customers and tighten controls on chip shipments.
+“Huang has been fairly explicit in his desire to let Nvidia sell to China. That now comes under threat,” Beauchamp said. “We are likely to see the US look to limit exports of the most complex chips, which of course will drive China harder to produce its own versions.”
+So far, the US is putting far more private money into AI. In 2025, US private investment in the industry reached $285.9bn, compared with $12.4bn in China, according to Stanford University’s AI Index.
+However, Chinese companies have continued developing competitive AI systems despite restrictions on advanced US chips.
+In January, the release of the Chinese AI start-up DeepSeek‘s AI model made headlines after it was built using only a fraction of the money its competitors had spent on their own AI models. Share prices of US tech companies plummeted.
+China has advantages in other areas of the AI supply chain, most notably in the production of critical rare earth minerals used in advanced technology. It also generates more than twice as much electricity as the US, giving it access to the vast amounts of relatively cheap power needed to operate AI data centres.

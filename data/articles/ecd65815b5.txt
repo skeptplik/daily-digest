@@ -1,5 +1,5 @@
 Nvidia has announced that it is opening an investigation into CEO Jensen Huang and his relationship with Megaspeed executive Alice Huang, who was reportedly recruited by China’s Ministry of State Security to spy on the company. A statement posted by the board of directors reads:
-Nvidia is investigating Jensen Huang’s relationship with a Chinese spy
+Nvidia is investigating Jensen Huang’s relationship with an alleged Chinese spy
 Following reports that Nvidia’s CEO had a ‘close relationship’ with an AI exec the company is opening an investigation.
 The NVIDIA Board is initiating an independent investigation in light of recent reporting that founder and CEO Jensen Huang has been the target of a foreign intelligence effort. A committee of independent directors, assisted by outside independent counsel, will oversee the investigation.
 The Board prioritizes U.S. national and economic security, which is paramount to the interests of NVIDIA and its shareholders. While the Board has no reason to believe that either national security or NVIDIA secrets were compromised, the Board’s inquiry will examine all available information. Jensen fully supports the review and has committed to cooperating with it.

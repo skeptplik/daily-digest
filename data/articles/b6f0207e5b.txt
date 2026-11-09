@@ -25,3 +25,7 @@ The lousy thing is that GPU prices seem to have reached the stratosphere. Are GP
 There was a window when buying DDR5 was a good idea, but that window has closed for now.
 80251 said:The lousy thing is that GPU prices seem to have reached the stratosphere. Are GPU prices now worse than they were during the cryptocurrency GPUpocalypse?GPU prices were bad, but they've gone into overdrive following the 5090 disappearing, with the 5080 not far behind.
 I think the 9070 XT was $800 not even 2 months ago, and now it's hanging around $950-1035 on Newegg. Reply
+- 
+Games designers will now learn they can not write garbage code and think technology will save them. You would have thought the coin mining price increases to video cards would have given them a clue. Can they make a profit only from customers who can afford a now $10,000 video card with $2000 worth of memory.
+With video cards they try to fool customers that their cheaper video card using frame gen is just as good as a 5090. With main memory it not so easy especially with the cost of SSD also increasing.
+I think a large part of this is going to have to be the game engine code designers. Every in very large game studios only a tiny number of people have the ability to optimise the code. For a lot of game coders the game engine languages are kinda AI version 1. Reply

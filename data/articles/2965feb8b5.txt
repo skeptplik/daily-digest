@@ -2,7 +2,6 @@ Jensen Huang is one of the technology industry's most high-profile figures.
 He rose to prominence as the business he leads - artificial intelligence (AI) chip giant Nvidia - became one of the world's most valuable companies.
 As the face of the AI boom, Huang also became close to Donald Trump as the president pushed for the US to keep its dominance of the technology over China.
 The 63-year-old who was once lauded as the "Taylor Swift of tech" and referred to as "Daddy Huang" in Taiwan is now mired in scandal after an affair with a suspected Chinese spy.
-Who is Jensen Huang?
 Born in Taiwan in 1963, Huang was nine years old when his family moved to the West Coast of the US.
 He graduated as an electrical engineer from Oregon State University, and then with a master's degree in the same field from Stanford University.
 Huang then worked at US chip firm AMD before co-founding Nvidia.
@@ -18,11 +17,10 @@ Since 2022 the US has used various export controls to keep the top tech out of C
 But it means companies like Nvidia have been largely locked out of the world's most lucrative market, with Jensen Huang once saying that Nvidia's share of the Chinese market had gone from around 95% to effectively zero. In recent years Huang has engaged in a flurry of shuttle diplomacy, dashing between Washington and Beijing, hoping to find a US-approved way back in, and shaping US policy on China along the way.
 Sunday's revelations may explain why Huang has failed to bring home the biggest prize of all to Nvidia: the Trump administration's blessing to sell all but its most advanced chips to China.
 Quarter after quarter of late, Nvidia has been locked out of that lucrative market. Despite his ostensible closeness to Trump, Huang has not managed to wrest this concession from the administration.
-What is Nvidia?
 Huang founded Nvidia with fellow electrical engineers Chris Malachowsky and Curtis Priem in 1993.
 The company was originally known for chips that process graphics, particularly for computer games.
 Eventually it changed focus to AI, a field it now dominates.
-"In 2012 these machine learning neural net researchers started to use it for that purpose and Jensen immediately recongnised that this was going to be a massive industry and the future of computing. He began to pour enormous amounts of resources into building what was essentially the AI hardware market," says Witt.
+"In 2012 these machine learning neural net researchers started to use it for that purpose and Jensen immediately recognised that this was going to be a massive industry and the future of computing. He began to pour enormous amounts of resources into building what was essentially the AI hardware market," says Witt.
 "Today when we think of that, we think of these giant data centres - none of that existed. There were no customers for the stuff he was building. In fact his first customer was Open AI at the time they had 30 people - he actually gave it to them, he donated it to them."
 Nvidia is now worth some $4.5 trillion, making it one of the most valuable companies ever.
 "The first real neural net of modern times on an Nvidia network was Alex Krizhevsky's Alexnet and they trained that on two Nvidia cards in Alex's bedroom. Now we do the same thing but we do it with 200,000 - 300,000 cards and instead of doing it in a bedroom we do it in a giant barn full of computers called a data centre," adds Witt.

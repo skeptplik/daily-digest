@@ -1,0 +1,34 @@
+Nvidia chief executive Jensen Huang's admission to an affair with a woman whom US intelligence officials believe was working as a spy for China could have profound implications for the $5 trillion (€4.47 trillion) company.
+The Financial Times first reported on Huang's affair with Alice H., an executive at Megaspeed, a Singapore-based customer of Nvidia, which has been suspected of trying to circumvent export controls to get advanced Nvidia chips into China.
+The newspaper reported that the US government and its intelligence community believes she was recruited as a spy by China's Ministry of State Security intelligence agency.
+US government officials drafted a memo about the allegations shortly before US President Donald Trump traveled to Beijing for a summit with Xi Jinping in May.
+What has Nvidia and the US government said?
+Huang's relationship with the alleged Chinese spy has exposed him and the company to criticism that it may have allowed China to obtain valuable trade secrets as Beijing tries to gain an edge in the race to develop advanced AI models.
+Nvidia is initiating an investigation led by independent board members and an external law firm. It said in a statement that Huang "has been the target of a foreign intelligence effort."
+"The board prioritizes US national and economic security, which is paramount to the interests of Nvidia and its shareholders," the company said. "While the board has no reason to believe that either national security or Nvidia secrets were compromised, the board's inquiry will examine all available information."
+The company's shares fell in early trading on Monday.
+While US intelligence officials have not commented publicly on the claims, Trump — with whom Jensen Huang has a close relationship — has backed the Nvidia boss.
+"He's an honorable guy," said Trump. "I have not spoken to him about it. I just know he's a fine person, but you never know what is going on. I hope everything's fine."
+Why it matters for Nvidia
+Tim Culpan, an Asia tech reporter who has covered Nvidia and Huang closely for years, told DW that while Nvidia's fundamental strengths as a company remain in place, Huang is hugely personally damaged by the story.
+"They're still going to make great chips and they're going to sell them to millions of customers around the world who want the best AI chips in the world," he said.
+"His opinion is going to carry a lot less weight now. And that, in the long term, will flow through to Nvidia and Nvidia's own corporate interests. So it won't be immediate. It's really a fact that he doesn't have the sway or the power that he might have had one week ago simply through this."
+Richard Windsor, a tech analyst and the founder of research company Radio Free Mobile, says the news could be very serious for Nvidia given how much the company has revolved around Jensen Huang for decades.
+"This problem is particularly acute because Jensen Huang is very hands-on, meaning that the key decisions that led to its success were ultimately taken by him and because there is no obvious successor," he said.
+"I suspect we are about to find out just how much the market thinks that the company is dependent on its iconic founder and CEO."
+The tangled China-Nvidia web
+Nvidia and Huang's attitude towards China and potential Chinese customers has been a bone of contention with US intelligence officials — despite Huang's close relationship with Trump.
+Huang has repeatedly lobbied Trump to ease restrictions on the sale of Nvidia chips to China. A 2025 export control deal heavily curbed their sales, but Trump subsequently permitted the export of older H200 Nvidia chips to China in return for the US government receiving a cut of the sales.
+However, that deal has been complicated and bogged down by Washington's strict export-licence review. Beijing has also initiated import controls, despite strong demand from Chinese companies. China lacks access to the most advanced AI-capable chips. Beijing wants to develop its own alternatives but has struggled to catch up.
+Huang has argued that Chinese dependence on Nvidia's chips would prevent rivals such as Huawei from catching up and boosting China's ambitions to dominate AI supply chains.
+However, that argument has been dismissed by many US intelligence officials, who fear that unlimited Chinese access to the most advanced Nvidia chips would boost their domestic AI sector, lead to their AI models catching up with the leading US models and could be used in Chinese military applications.
+The US-China rivalry has become a central theme in the global AI story, with both countries seeking to gain an upper hand in the technology. Leading US AI executives such as Anthropic's Dario Amodei have argued that US AI companies can't afford to take a prolonged pause to allow safety standards in AI to catch up, to prevent Chinese firms from gaining an advantage.
+What China hopes to gain
+Washington's central fear over Huang's affair is that it could have led to Beijing obtaining vital trade secrets or other key information about how Nvidia makes its most advanced chips.
+Richard Windsor thinks Huang will survive the "severe test" due to his importance to the company. He also casts doubt on the extent to which Beijing and its leading tech firms have learned from Nvidia's chips, pointing to China's own chip ambitions and commitment to have its firms buy its own semiconductors.
+"I am far from convinced that Chinese AI has materially benefited from technology or illicit chip imports that it gained from Nvidia," he said.
+The news comes at a particularly challenging moment for Nvidia, which has benefited massively from the AI boom, thanks to its position as the leading maker of cutting-edge semiconductors needed for AI applications.
+Its valuation has soared dramatically in recent years as companies rushed to buy its chips, becoming the world's first $5 trillion company in October 2025.
+However, doubts over the sustainability of the $9 trillion capital expenditure AI boom have sparked a major sell-off in stocks related to the boom in recent weeks. The Democrats' sweeping victories in the US midterms have added to the doubts, given the strength of voter opposition to data center construction in the US.
+Edited by Nik Martin
+Editor's note: DW follows the German press code, which stresses the importance of protecting the privacy of suspects, victims and those who are associated with a criminal case, and urges the media to refrain from publishing their full identities in most cases.

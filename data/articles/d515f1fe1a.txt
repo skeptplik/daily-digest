@@ -1,4 +1,0 @@
-Can DeepSeek challenge OpenAI, Anthropic in AI agents as Harness adoption takes off?
-Hangzhou-based start-up ramps up efforts to monetise its powerful foundation models as AI agent platform gains traction
-Users of Harness through the company’s official application programming interface were consuming around 92 trillion tokens a day as of November 4, the Hangzhou-based start-up said. That is equivalent to about 1.1 billion tokens consumed per second.
-A “harness” is the software infrastructure that turns a large language model into an AI agent that can autonomously execute tasks on behalf of users, rather than simply respond to prompts.
