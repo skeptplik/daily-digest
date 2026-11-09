@@ -1,0 +1,5 @@
+Code in the iOS 27.3 beta suggests that Apple could add support for chatbots to its smart home hub. There’s a flag listed for a “Conversational Apps” category. While there are no details about what apps would fall under that heading, it seems reasonable that AI chatbots like ChatGPT and Claude could be added to HomeView. According to pdfu on X, that new beta also adds support for bidirectional audio routing and session management, but says it’s “still not fully wired up.”
+Chatbots might be coming to Apple’s HomeView
+Code in iOS 27.3 has a flag for ‘Conversational Apps.’
+Apple has also added anti-spoofing protection that will require a user to authenticate themselves with an iPhone after three failed attempts. It will also have a lockout system with increasingly longer wait times, starting at one hour for the second lockout, and climbing to eight for the fourth.
+Neither feature has been officially announced by Apple, and there’s no word on when they might become available.

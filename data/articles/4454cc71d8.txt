@@ -1,0 +1,36 @@
+Amsterdam police have arrested 150 to 200 protesters at a Microsoft data center site on suspicion of trespassing. According to a Facebook post by the authorities [machine translated], tools designed for breaking into the site were seized from the protesters, who were then allowed on their way to protest peacefully. However, it appears that some members of the group decided to enter the construction site “with violence” anyway, forcing the police to intervene and leading to their arrest. There were also some allegedly stolen items from the construction site found among the belongings of some of the protesters, plus damage and vandalism done to the data center site.
+This protest is a continuation of the action that started last Friday, where protesters breached the Microsoft data center, which was being owned by Pure Data Centers. It is also the first of many organized by the “Stop Dirty Data Centers” coalition across Europe, with actions planned for Amsterdam, Dublin, Warsaw, Denmark, and several other cities across the continent. The Dutch publication NOS [machine translated] identified the exact group at the site today as Fossielvrij, who are against the use of fossil fuels in data centers such as the jet engines that Elon Musk installed at xAI’s Mississippi data center.
+“Gas prices are going through the roof, and new houses are being postponed because of the overcrowded power grid. Yet tech billionaires like Elon Musk and Jeff Bezos are building energy-guzzling, hideous data centers,” the group said on its website. “We can take back the power of Big Tech by pressing the pause button now. Give us the opportunity to democratically decide what we do and do not use AI for, so that it is not at the expense of our living environment and everything that makes our lives beautiful. Then we look at how many more data centers are needed.”
+The protest comes amid the AI data center build-out, which has been facing increased opposition across the United States. A Google data center site in Finland is also in trouble after it cleared out around 1,300 acres worth of forest and trees without an environmental impact assessment, displacing wildlife, and leading to a criminal probe on Tuike Finland Oy, the Google subsidiary in charge of the site.
+Fossielvrij’s action was supposed to be peaceful, but it appears that another group joined the demonstration and broke through the fences around the site, leading to the police confrontation. The suspects were arrested for domestic violence and then taken to a cell complex, where it will be decided if they will be detained longer. The police also said that “All suspects will be heard afterward.”
+Follow Tom's Hardware on Google News, or add us as a preferred source, to get our latest news, analysis, & reviews in your feeds.
+Get Tom's Hardware's best news and in-depth reviews, straight to your inbox.
+Jowi Morales is a tech enthusiast with years of experience working in the industry. He’s been writing with several tech publications since 2021, where he’s been interested in tech hardware and consumer electronics.
+- 
+Europe sent their own prices through the roof when they tried to move away from fossil fuels. Not wise. Yes you can expand use of renewables but not enough to replace and if you try you'll suffer. This is now playing out...and they blame data centers for using fossil fuels? 90% of everything is running on fossil fuels and has for decades. I didn't believe this until I saw the Tucker podcast and went to fact-check the guest only to find out he was right...Reply
+- 
+alrighty_then said:Europe sent their own prices through the roof when they tried to move away from fossil fuels. Not wise. Yes you can expand use of renewables but not enough to replace and if you try you'll suffer. This is now playing out...and they blame data centers for using fossil fuels? 90% of everything is running on fossil fuels and has for decades. I didn't believe this until I saw the Tucker podcast and went to fact-check the guest only to find out he was right...This does appear to be the case.
+Furthermore, so called "green" items, like solar panels and EVs, require an immense amount of "non green" energy to create.
+It's really just a "feel good". Reply
+- 
+SomeoneElse23 said:Furthermore, so called "green" items, like solar panels and EVs, require an immense amount of "non green" energy to create.
+It's really just a "feel good".They take more energy to create but then they give back several folds in the coming years.
+People are not worried about driving large cars to work every day, taking flights for tourism purpose(which burns a lot of energy) just to have 2 days worth of fun, but are more worried about energy spent on creating items that give back a lot more energy in the long run. Reply
+- 
+SomeoneElse23 said:This does appear to be the case.
+Furthermore, so called "green" items, like solar panels and EVs, require an immense amount of "non green" energy to create.
+It's really just a "feel good".No, it's not the case. Just look at Australia, or Spain. Both are enjoying lower power prices due to high renewable energy.
+Australia installed a ton of batteries, displacing expensive gas even at times when solar/wind aren't active; and Spain would benefit if they did the same (Catalonia is already starting to install Sodium-based stationary batteries, so Spain is moving in the right direction).
+Heck, even China is lowering petroleum imports due to going electric on everything they can. Yes, they still use a ton of coal, but definitely not as high as if they hadn't installed tons of solar, wind, and hydro power.
+Hopefully the AI bubble pops sooner than later. Reply
+- 
+JayGau said:I really hope commenters on this thread are Russian bots or something like that because if they are real people the world is really going to the rubbish dump, and fast.Do you have what it takes to stop the AI Singularity? Or are you all talk, no bite? Reply
+- 
+usertests said:Do you have what it takes to stop the AI Singularity? Or are you all talk, no bite?Okay, John Conner!
+: D
+You can't fault anyone for remaining within the law and I think violence has serious potential to undermine the cause. Reply
+- 
+alrighty_then said:Europe sent their own prices through the roof when they tried to move away from fossil fuels.Well, they did have cheap energy prices, but let's just say an unreliable supplier.
+The strategic decision that really undermined their energy prices was the turn away from nuclear power, which happened mainly after the Fukushima meltdown (but let's also not forget Chernobyl, which was in Europe's back yard).
+As for costs, renewables are generally a lower-cost energy source than fossil fuels, but the main problem is insufficient supply. Offshore wind doesn't really have the same kind of intermittency problems as solar, but takes a long time to build out.
+In the US, it seems the levelized cost of oil-fired power plants (and these are more efficient than on-site generators) is $150 / MWh, whereas off-shore wind is only $72 – $114 / MWh. In Europe, where oil is even more expensive, offshore wind will have an even bigger cost advantage. Reply
