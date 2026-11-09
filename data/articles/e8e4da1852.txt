@@ -8,3 +8,6 @@ The expected operating conditions put each Optane module at 12W or 15W, regardle
 Get Tom's Hardware's best news and in-depth reviews, straight to your inbox.
 The performance numbers given are pre-tuning — this means without tuning thread counts or NUMA affinity — so there is room for improvement, and one commenter also asked about using Memory Mode with DRAM caching for the most-used experts. The builder plans to add GPUs and to also load parts of the model into DRAM as a faster tier alongside the Optane, with “more benchmarks to come.”
 Follow Tom’s Hardware on Google News, or add us as a preferred source, to get our latest news, analysis, & reviews in your feeds.
+- 
+I've been wrestling with the idea of trying something like this on a much smaller scale for a while now. After seeing this I'm leaning towards using old Tesla M60's instead.
+Optane was such a missed opportunity for Intel! If only they would have supported it with drivers and software they'd be raking it in like memory makers are right now. Reply
