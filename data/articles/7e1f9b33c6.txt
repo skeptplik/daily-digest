@@ -1,0 +1,18 @@
+Google has released emergency security updates to patch a new Chrome vulnerability exploited in zero-day attacks, the eighth such flaw since the start of the year.
+"Google is aware that an exploit for CVE-2026-125350 exists in the wild," the company said in a Monday security advisory.
+As Google explained, this flaw stems from a Use-After-Free (UAF) weakness in the XML component of the Google Chrome web browser, which occurs when the browser's XML parser processes data, deletes an object from the computer's memory, but fails to clear the pointer referencing that object.
+Attackers can exploit this high-severity memory corruption vulnerability when the browser later tries to use or read that "freed" memory space to manipulate the memory layout and execute malicious code.
+While Google has found evidence of attackers exploiting this zero-day bug in the wild, it has not shared additional details about these incidents.
+"Access to bug details and links may be kept restricted until a majority of users are updated with a fix. We will also retain restrictions if the bug exists in a third party library that other projects similarly depend on, but haven't yet fixed," it noted.
+Google has now fixed the zero-day for users in the Stable Desktop channel, with new versions rolling out to Windows, macOS (157.0.8103.50/.51), and Linux users (157.0.8103.50). Although Google says the security update could take days or weeks to reach all Chrome users, it was available immediately when BleepingComputer checked for updates today.
+If you don't want to update the web browser manually, you can also let Chrome check for updates on its own, as it will automatically install them after the next launch.
+Since the start of the year, Google has addressed seven other actively exploited zero-day vulnerabilities:
+- An iterator invalidation bug (CVE-2026-2441) in CSSFontFeatureValuesMap (Chrome's implementation of CSS font feature values), which Google addressed in mid-February.
+- Two other Chrome zero-day bugs exploited in attacks were patched in March: an out-of-bounds write weakness in the Skia 2D graphics library (CVE-2026-3909), and an inappropriate implementation vulnerability in the V8 JavaScript and WebAssembly engine (CVE-2026-3910).
+- A use-after-free weakness in Dawn (CVE-2026-5281), the underlying cross-platform implementation of the WebGPU standard used by the Chromium project, which Google patched in April.
+- An out-of-bounds read and write vulnerability in Chrome's V8 JavaScript engine (CVE-2026-11645), exploited in the wild and patched in June.
+- And out-of-bounds write (CVE-2026-87491) and type confusion (CVE-2026-85046) flaws in the V8 JavaScript engine, fixed in September.
+Google fixed eight more zero-days exploited in attacks in 2025, many of them reported by the company's Threat Analysis Group (TAG), which tracks zero-day exploits used in spyware attacks.
+Adaptive Security's AI agents analyze email intent, context, and behavior to uncover phishing, business email compromise, and invoice fraud.
+See what's getting through with a 14-day read-only scan of Microsoft 365 or Google Workspace, with no MX changes.
+Start your free email security scan.

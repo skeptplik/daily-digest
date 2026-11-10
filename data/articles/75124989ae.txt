@@ -1,0 +1,13 @@
+Nintendo has just pushed out a new update to all Switch and Switch 2 consoles, bringing the firmware on both up to version 23.5.0. The headline change with the new update is support and compatibility for an upcoming update that will allow members of a Nintendo Account family group to gift games to one another.
+The feature itself is expected to go live on 17th November, 2026. "Just in time for the holidays, a new feature will let family group members gift digital games to other members of their group," says a post on a dedicated blog on the Nintendo site. "You will be able to gift digital products that you purchase through Nintendo eShop on your device to family group members. This includes eligible games as well as DLC and upgrade packs. As a reminder, anyone with a Nintendo Account can easily set up a family group and add members (up to 8 total)."
+The publisher notes, however, that "some products may not be eligible for digital gifting" and that "supervised accounts are not able to send digital gifts". Additionally, "the number of digital gift purchases allowed in a given period is limited".
+"This feature is a great way to celebrate a special occasion with your kids. Happy gifting!" concludes Nintendo. Just in time for the holidays, how thoughtful. It's worth noting that a previous iteration of this support was included back on the Nintendo Wii, but that was much more robust than this - back then, the publisher allowed users to send WiiWare or Virtual Console games to anyone on their Wii Friend list via the Wii Shop Channel, rather than just those limited to their immediate group. This functionality was lost in 2019, alongside the closure of the Wii Shop Channel.
+The patch also came with some other updates, you can see those listed below.
+- Added the ability to configure accessibility settings during first-time setup.
+- Information on these accessibility settings can be found in Nintendo Switch 2 first-time setup.
+- Added support for an upcoming feature to allow gifting of Nintendo eShop products to a Nintendo Account family group member.
+- This gifting feature will be available after a Nintendo eShop update, scheduled for November 17, 2026.
+- The following updates have been made in Accessibility in System Settings:
+- Added Portuguese (Portugal) to “Text to Speech” languages.
+- Added Portuguese (Portugal) to the GameChat “Convert Text to Speech” languages.
+- General adjustments and fixes were made to improve the user experience

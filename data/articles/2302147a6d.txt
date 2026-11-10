@@ -73,3 +73,8 @@ Bottom Line
 The Acer Predator Helios Neo 16S AI delivers on most of its thin-and-light gaming promise. Its RTX 5070 Ti provides solid gaming performance on its beautiful 240 Hz OLED display, and it follows up with a comfortable keyboard and touchpad, useful port selection, and solid upgradeability.
 The trouble is that its portability is undermined by its below average battery life, an ironic shortcoming for a thin-and-light laptop. Audible gaming fans and lackluster speakers are further compromises, but the limited unplugged runtime is the one that those seeking a more portable package ought to be most concerned about.
 But if you’re after a relatively slim gaming laptop to take between places where you can plug in, the Helios Neo 16S AI is an otherwise appealing package.
+- 
+Great screen.
+It's a mystery to me though why Acer would ruin this laptop by putting a numeric keypad on it and thus completely wrecking your ability to touch type using the enter key for calibration.
+In my experience having number keys to the side of the enter key makes it virtually impossible to not mistype since they mean the whole keyboard gets misaligned relative to the screen compared with 90 pct. of all laptop keyboards.
+Apple does not put numeric keypads on the 16 inch version of their laptops probably for the same reason. Reply

@@ -1,0 +1,17 @@
+The Cybersecurity and Infrastructure Security Agency (CISA) on Monday warned that threat actors have been exploiting fresh IBM Aspera Faspex and SignalWire FreeSwitch vulnerabilities in attacks.
+The Faspex flaw, tracked as CVE-2026-123218 (CVSS score of 9.8), is an authorization bypass that can be exploited via crafted messages. Successful exploitation could allow authenticated users to gain full administrative privileges.
+IBM patched the security defect on Friday in Aspera Faspex version 5.0.19 PL1, urging customers to update their deployments as soon as possible.
+Tracked as CVE-2026-116779 (CVSS score of 9.8), the SignalWire FreeSwitch bug is described as a code injection issue leading to sensitive information disclosure, arbitrary call control, and command execution.
+The root cause of the weakness is a function that splits the ‘To’ user of an inbound SIP MESSAGE when encountering a plus (+) sign, while treating the left side as a chat protocol selector.
+Because the chat layer allows an inbound SIP MESSAGE to select the chat proto that handles it, a peer can deliver a message that controls the API command the server would run. The commands run with the privileges of the FreeSwitch process.
+“Inbound chat is enabled on the stock internal and external profiles, and any authenticated profile account is sufficient; stock directory users without password material can also remove that barrier in affected configurations,” reads a NIST advisory.
+SignalWire FreeSwitch version 1.11.3 was released with patches for the vulnerability.
+On Monday, CISA added both security defects to its Known Exploited Vulnerabilities (KEV) catalog, urging federal agencies to patch them within three days, as mandated by BOD 26-04.
+SignalWire’s advisory, published October 28, notes that exploitation of the flaw ‘has been observed in the wild,’ but provides no details on the attacks. IBM’s advisory makes no mention of exploitation, and no details on the attacks appear to be public.
+CISA also warned organizations of the in-the-wild exploitation of a critical authentication bypass in GPUStack and the recently patched SSHole flaw.
+Tracked as CVE-2026-102895 (CVSS score of 9.8), the GPUStack bug could allow remote, unauthenticated attackers to gain full administrative access to vulnerable servers. It was flagged as exploited at the end of July.
+SSHole, tracked as CVE-2026-123158 and affecting certain Linux distributions, is a high-severity authentication issue that could allow remote attackers to access accounts such as root. Its exploitation started over the weekend, days after patches were released.
+Related: Chrome Update Patches Exploited XML Zero-Day, Eighth This Year
+Related: Plex2Shell Exploited Against QNAP NAS Users
+Related: SonicWall Patches Exploited SonicOS Vulnerability That Weakens VPN Logins
+Related: Cisco, WatchGuard Release Patches; SonicWall Won’t Fix GMS Flaws

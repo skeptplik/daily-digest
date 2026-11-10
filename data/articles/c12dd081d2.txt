@@ -1,0 +1,31 @@
+A gunman killed six people in a shooting spree in Krakow's Old Town on Saturday, before being shot and detained by police. The gunman, who is also suspected of killing three family members before the attack, later died in hospital.
+On Monday, Poland's national prosecutor's office announced a formal investigation.
+Nevertheless, much is still unknown about the details of the crime, leaving social media users to fill the information vacuum with fake images of the attacker and alleged screenshots of his online profile. DW Fact Check breaks down the developing story.
+Are these genuine images of the attacker?
+Claim: A viral picture has been circulating on social media claiming to be the real image of the suspected attacker.
+DW Fact Check: Fake
+In the post, the image is posted with the caption, "[…] The perpetrator of the attack in Krakow is a 25-year-old Polish citizen, Polish police have reported. The death toll has reached six. (…)".
+But the unusual sharpness of this picture raises doubt of its authenticity. It is difficult to imagine capturing such a clear image in a chaotic situation.
+DW checked the image using two different AI detectors. Hive Moderation identified it as 99.5% AI-generated, while Google's SynthID Detector confirmed that it contains a SynthID watermark, indicating that it was generated or edited using Google's AI technology.
+In our research we found several versions of the suspect image circulating online, most looking very similar. We also found a number of images and videos showing the attack.
+Although DW cannot independently verify the footage, it shares similarities in terms of the people and background with some original images published by picture agencies.
+It appears the AI-generated images may have been created using this footage as a reference. Some of the posts sharing these images have also been labeled as AI-generated.
+One important thing to understand is that AI cannot sharpen a blurry image with correct details or recover details that are not visible in an original photograph. It can generate plausible details based on the surrounding visual information, but these are essentially guesses, not exact reproductions of what was actually there.
+More about this and how users used sharpening AI tools here.
+Did the shooter sympathize with Ukraine?
+Claim: "Michal Oksinski, the terrorist from Krakow who also killed his parents and sister, had a Telegram account with the Ukrainian flag. On November 3, he wrote 'Thanks, Dad, for the gun', posting this photo of himself wearing the Ukrainian flag insignia," an X user wrote in a post viewed more than 700,000 times.
+DW Fact Check: Fake
+This Telegram channel is almost certainly inauthentic. The account allegedly posted a photo on November 3, showing the attacker holding a gun, standing in front of a television and a Ukrainian insignia on the wall.
+Another post on November 4 simply reads, "11/7/2026", the date of the attack. Both of these posts were edited on November 8, after the suspect had been apprehended.
+DW verified on the Telegram app by hovering over the posts to show the edit history. The channel's photo, a Ukrainian flag, was also edited after the attack took place.
+This is a common disinformation tactic — fake accounts will edit old posts and pictures in the days after a breaking news event to give the appearance that they've predicted or announced the event in advance.
+Further proof: in Poland, the date is written first, not the month. And the photo of the alleged attacker itself is almost certainly AI-generated. HIVE Moderation said it was 99.9% likely to be created with AI.
+Does the attacker have links to a group that operated in Ukraine?
+Claim: "#BREAKING: The attacker in Poland had a full arsenal in this trunk! He also has forward observation group patches, an American military company active in Ukraine," reads an X post viewed nearly 100,000 times. The attached photo of the supposed "arsenal" in the trunk has been shared by several other accounts.
+DW Fact Check: False
+The attached photo claims to show the attacker's car with a trunk full of guns, ammunition, a helmet and a military vest.
+The vest in the trunk of the car features a symbol supposedly connected to the Forward Observations Group, an American tactical training lifestyle brand that has traveled to and operated in Ukraine.
+The patch, however, is the Old Roger flag, a symbol commonly used in military circles. The Forward Observations Group logo is a variationof this symbol, featuring a horned skeleton holding a gun, not an hourglass.
+This is also not the attacker's car from the scene of the crime. This license plate is registered with the Krakow police, indicating they likely collected evidence from the crime scene and moved it to this car.
+Little details like these can help separate fact from fiction, especially in a rapidly evolving story like the Krakow shooting.
+Daniel Ebertz contributed to this article.
