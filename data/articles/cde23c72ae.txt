@@ -1,0 +1,15 @@
+Australia will make it mandatory for artificial intelligence companies to immediately report when their AI models go rogue and to open their models for evaluation, the government said.
+Prime Minister Anthony Albanese said on Tuesday the government had accepted all recommendations from a rapid review into the breach, which “include mandatory AI company reporting when it comes to misaligned behaviour or cyber-incidents, and consideration of reforming criminal law in cases of serious misconduct”.
+“Australia is the first mover in this space, and we want to make sure that we continue to work so that we can reap the potential benefits from AI,” he said.
+The decision comes after OpenAI-powered models hacked into an Australian government health data system in June, slipping past its digital defences and accessing files without authorisation.
+Top AI firms have recently raised the alarm regarding the risk of humans losing control of their systems, calling for AI development to slow down to a pace that allows it to be safely regulated.
+Earlier this year, Anthropic’s safety research scientist Evan Hubinger went so far as to say he believes there is a greater than 10 percent chance that AI could “kill all humans” within a decade.
+Rapid incident notifications
+The new Australian AI regulator will oversee security controls throughout the development and deployment of AI systems, identify and manage serious risks, and conduct independent evaluations of AI models.
+The AI standards would also mandate rapid notification to the government of incidents such as “misaligned behaviour” conflicting with developers’ intentions.
+Australian government documents define frontier AI as the most sophisticated models at the cutting edge of current technological capability.
+Albanese told OpenAI chief executive Sam Altman that the US company took too long to inform the government of the incident. OpenAI apologised for the breach and its slow response.
+Inquiry recommends law changes
+A government inquiry into the June breach made several recommendations, including that the government consider changing the law.
+The proposed AI regulator would follow Australia’s appointment of an eSafety Commissioner in 2015. The office describes itself as the world’s first government agency dedicated to keeping people safer online.
+Since December last year, the commissioner has been enforcing a world-first ban on Australian children younger than 16 holding accounts on popular social media platforms.

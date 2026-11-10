@@ -1,0 +1,13 @@
+Australia will introduce mandatory safeguards for artificial intelligence companies, including compulsory reporting of security breaches and independent oversight of AI systems, Prime Minister Anthony Albanese said on Tuesday.
+The decision comes after an incident in which an OpenAI agent gained unauthorised access to a government medical statistics portal while researching public medical spending.
+What Albanese said
+Albanese said his center-left Labor government had accepted all the review's recommendations, which include requiring AI companies to report misaligned behavior and cyber incidents. The government will also consider reforms to criminal law to address cases of serious misconduct.
+The government plans to establish an AI safety regulator to oversee security controls during the development and deployment of AI systems, identify serious risks and conduct independent evaluations of models.
+"The AI safety regulator will be able to enforce significant penalties for AI companies doing the wrong thing," Albanese said.
+"The law needs to get ahead of, and in some cases, make sure that it catches up with what is a very fast-changing world," he told reporters.
+“When it comes to the generational opportunity that artificial intelligence offers Australia, I’ve been very clear: our task is to make sure we shape AI rather than AI shape us,” Albanese told reporters.
+"Australia is the first mover in this space and we want to make sure that we continue to work so that we can reap the potential benefits from AI," said Albanese.
+AI breach stirred tension between Australia and US tech companies
+OpenAI has said it learned of the breach in August and that the incident was unintentional. Its review found no evidence that the AI agent had accessed patient records.
+Canberra declined to exempt ChatGPTmaker OpenAI and rival Anthropic from copyright laws for model training which would require them instead to negotiate licensing agreements with Australian rights holders.
+Both companies told an Australian parliamentary committee last month that they would welcome mandatory reporting requirements for data breaches involving their AI agents.

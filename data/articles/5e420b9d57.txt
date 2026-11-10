@@ -1,0 +1,20 @@
+Industrial design firm Studio Aslak Siimes and Finnish startup CurifyLabs have created a pharmaceutical compounding system, designed to improve the process of creating patient-specific medicine.
+The PharmaPrinter Aurum was born from the realisation that almost 30 per cent – nearly a third – of all medication requires personalisation rather than being mass-manufactured, according to studio founder Aslak Siimes.
+This compounding, when you combine different ingredients to make tailored medication, is usually done by pharmacists using traditional methods such as a pestle and mortar.
+CurifyLabs and Studio Aslak Siimes wanted to create a machine to automate part of this process and enable pharmacists to achieve “system-guaranteed” dosage consistency while eliminating friction in the process.
+“To put it simply, the main concept behind Aurum was to reduce the possibility of human error from the compounding workflow and empower the pharmacists to bring high-quality compounded medication to their patients with ease,” Siimes told Dezeen.
+The Aurum design is part of a wider ecosystem of products from CurifyLabs, a health tech company that Studio Aslak Siimes has worked together with for two years.
+The machine comes in after a doctor’s prescription arrives and a compounding pharmacist picks the accurate recipe for the prescription, known as a blueprint.
+“[The] active pharmaceutical ingredient (API) and excipient base are carefully weighed, mixed and put into a syringe, which is then installed to Aurum’s heating jacket and inserted into the machine,” Siimes said.
+“We have a patented syringe plunger attachment called gripper, where you simply squeeze a lever and move the gripper against the syringe plunger manually and then release it. It attaches tightly and works as the movement to control the dispensing from the syringe.”
+Blisters for the medication, which are also designed by the studio, are then placed on top of the scale in a dedicated blister holder.
+“The scale handles weight-based quality control,” Siimes explained. “Then you start the print, and it dispenses fully accurate compounded medication in exact dosage quantity and weight.”
+“The print is fast, and a few moments later the ready blisters are removed, sealed and labelled with dosage-specific labelling, and then it is ready for distribution to the patients,” he continued.
+“I guess in short: put medication into syringe, put syringe into Aurum, press play and you have ready meds.”
+The machine also has interchangeable modules to let pharmacists create different dosage forms, including tablets, films, suppositories and troches within one system.
+Siimes believes that his design is the “only fully working semi-automated compounding ecosystem in the world”, and the product is already on the market and used by compounding pharmacies and hospitals around Europe and North America.
+“The technology is already present in 30 states in the USA, and the reception has been highly positive,” Siimes said.
+“From the client base, we hear that we are truly making a difference, and can help them to deliver better products to patients with a system that really works and is easy to operate,” he continued.
+“It has been such a lovely thing to notice that all the hard work put into it really translates into positive outcomes.”
+Other healthcare products recently covered on Dezeen include a wearable patch that detects heat exposure and a meter for at-home hormone level readings.
+Photography by CurifyLabs

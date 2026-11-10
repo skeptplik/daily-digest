@@ -1,9 +1,9 @@
 Shareholders sued chipmaker Nvidia and its chief executive, Jensen Huang, on Monday, accusing them of concealing his alleged relationship with a suspected Chinese intelligence asset.
 The proposed class action adds to investigations into whether Huang was targeted by foreign intelligence, raising questions about the security of sensitive information at the world's most valuable chipmaker.
 What does the lawsuit allege?
-The complaint, filed in federal court in San Jose, California, alleges that Nvidia and Huang misled investors about his relationship with Alice Huang, a former executive at Singapore-based Megaspeed who is not related to him.
+The complaint, filed in federal court in San Jose, California, alleges that Nvidia and Huang misled investors about his relationship with Alice H., a former executive at Singapore-based Megaspeed.
 Shareholders say the defendants failed to disclose national security concerns that threatened Nvidia's reputation and business prospects. They are seeking unspecified damages.
-The New York Times reported last month on the alleged relationship and said US authorities had concluded that Alice Huang was a Chinese intelligence asset.
+The New York Times reported last month on the alleged relationship and said US authorities had concluded that Alice H. was a Chinese intelligence asset.
 What have Nvidia and Huang said?
 Nvidia announced an independent investigation Sunday into reports that Huang had been the "target of a foreign intelligence effort."
 Huang acknowledged being unfaithful to his wife in an open letter, but did not identify the woman.
