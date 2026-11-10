@@ -1,0 +1,16 @@
+Binance, the world's largest crypto exchange, has denied claims of a new security breach made by a threat actor using the 'ShinyHunters' handle on a newly emerged underground cybercrime forum.
+This follows the threat actor, believed to impersonate the ShinyHunters extortion gang, putting up for sale what they claimed were records of 335 million Binance users.
+The allegedly stolen information includes Know Your Customer (KYC) documents, internal infrastructure information, users' account passwords, crypto wallet private keys, transaction history, emails, and phone numbers.
+The threat actor also asked for $900,000 for the data, adding that Binance has only "two options left: pay or leak."
+However, a Binance spokesperson told BleepingComputer that the company found no evidence of a breach and said that this is likely a scam.
+"We have found no evidence that Binance systems, customer KYC data, account credentials, wallet private keys, or internal infrastructure information were compromised in connection with this listing," the Binance spokesperson said.
+"Similar past listings have often involved infostealer malware data collected from users' own devices rather than a breach of Binance systems."
+Binance also shared some aspects of the breach claim that are inconsistent with how the crypto exchange stores user data. BleepingComputer was told that Binance doesn't hold private keys for users' external wallets, doesn't store user passwords in plaintext, and no longer operates in some of the jurisdictions the threat actor referenced in their cybercrime forum entry.
+Other forum users expressed skepticism regarding the threat actor's claims, questioning whether the data they were selling was legitimate and asking: "If you hold the private keys to all the wallets, what would be the justification for selling this?"
+While Binance denied these breach claims, it advises customers never to share passwords, 2FA codes, seed phrases, or private keys, and to stay wary of phishing attempts.
+This comes after Binance confirmed last week that North Korean hackers tricked an employee into installing malware during a fake job interview, allowing them to steal about $6.34 billion in cryptocurrency after compromising the company's wallet infrastructure.
+The FBI has attributed the breach to the TraderTraitor North Korean state-backed hacking group, also tracked as Lazarus Group, Jade Sleet, and APT38.
+TraderTraitor was previously linked to other major crypto theft incidents, including the theft of $1.5 billion in the February 2025 Bybit hack.
+Adaptive Security's AI agents analyze email intent, context, and behavior to uncover phishing, business email compromise, and invoice fraud.
+See what's getting through with a 14-day read-only scan of Microsoft 365 or Google Workspace, with no MX changes.
+Start your free email security scan.

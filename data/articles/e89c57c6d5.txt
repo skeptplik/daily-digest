@@ -1,0 +1,29 @@
+France has linked October cyberattacks that disrupted refrigeration systems at more than 700 supermarkets and other retail locations to Iranian state-backed hackers, saying the attacks caused food losses and sparked at least 15 fires.
+In a statement issued Monday, France's Ministry for Europe and Foreign Affairs blamed the attacks on Shahid Kaveh, a cyber-offensive unit affiliated with the electronic and cyber center of Iran's Islamic Revolutionary Guard Corps (IRGC).
+"France condemns in the strongest possible terms the unacceptable cyberattacks carried out on its territory by the Islamic Republic of Iran against its interests," reads the statement.
+The attacks occurred overnight on October 11–12, when hackers compromised industrial refrigeration controllers and remotely changed defrost settings to high temperatures, disrupting systems used to preserve food.
+As BleepingComputer reported, the attacks affected an estimated 250 to 350 French supermarkets, forcing stores to discard fresh and frozen products.
+French authorities have now revealed that approximately 700 retail locations were targeted, with the cyberattacks causing at least 15 fires.
+A technical report published by France's CERT-FR says Casino, Leclerc, Coopérative U, Metro, Carrefour, and Intermarché, along with smaller butcher shops, a slaughterhouse, and cooperative food-processing facilities, were affected by the attacks.
+French authorities say the attacks caused tens of millions of euros in food losses and significant material damage.
+French investigators also detected attacks against Schneider Electric industrial equipment at small hydroelectric installations during the same period, which they linked to the same campaign.
+These incidents reportedly had moderate effects on the targeted equipment.
+The October attacks were followed by a second wave of refrigeration system attacks reported in November, affecting more than 115 stores across six European countries.
+France's national blood service also reported a similar incident that altered temperature and defrost settings at three facilities used to store blood products.
+Last week, the FBI and CISA warned of ongoing cyberattacks targeting industrial refrigeration and cold-chain monitoring systems worldwide.
+The French government says it will summon Iran's ambassador to condemn the attacks and propose new European Union sanctions against Iranian individuals and organizations involved in malicious cyber operations.
+However, France has attributed only the October attacks against French supermarkets to Iranian hackers, not the later attacks.
+Iran's Shahid Kaveh blamed for attacks
+France's Cyber Crisis Coordination Center (C4), which includes the country's cybersecurity agency ANSSI, military cyber command, and intelligence agencies, attributed the attacks to the Iranian Shahid Kaveh IRGC unit.
+According to CERT-FR, Shahid Kaveh operates through several online hacktivist identities, including CyberAveng3rs, Soldiers of Solomon, Mr. Soul, and Cyber Isnaad Front.
+"The cyberattack targeting refrigeration controllers was relayed on the propaganda outlet CyberbanNews, associated with the Shahid Kaveh unit, as early as October 13, 2026," the C4 says.
+French investigators linked the refrigeration attacks to Shahid Kaveh through the following observations:
+- The attacker's infrastructure was also used to conduct reconnaissance against Schneider Electric industrial systems, using techniques previously associated with the Iranian unit.
+- The attackers used the FOFA internet-connected device search platform, which CERT-FR says the group commonly uses in its operations.
+- CyberbanNews, which France says is linked to Shahid Kaveh, publicized the refrigeration attacks on October 13.
+- Investigators discovered traces of Farsi-language used in the attacker's infrastructure.
+CERT-FR says Shahid Kaveh claimed responsibility for a large-scale sabotage campaign targeting Israeli and U.S. interests in March and April 2026, including attacks on Israeli refrigeration equipment and other industrial control systems.
+In April 2026, the unit was observed conducting large-scale reconnaissance of Schneider Electric industrial control systems, including systems in France.
+Adaptive Security's AI agents analyze email intent, context, and behavior to uncover phishing, business email compromise, and invoice fraud.
+See what's getting through with a 14-day read-only scan of Microsoft 365 or Google Workspace, with no MX changes.
+Start your free email security scan.

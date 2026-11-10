@@ -1,0 +1,25 @@
+Vanderbilt University warns it is responding to a cyberattack claimed by the BYOD ransomware gang, which claims to have encrypted the university's databases and stolen sensitive student, employee, and research data.
+The university confirmed the incident Monday, warning that university devices, systems, and cloud-based services may be affected.
+"We are currently responding to an active cybersecurity incident that may impact university devices, systems, and cloud-based services. Our Information Technology team is actively investigating and working to contain the situation," Vanderbilt said in a statement on X.
+As part of its response, the university told students, faculty, and staff to shut down university devices, disconnect from university Wi-Fi, and watch for suspicious activity.
+The university warned that signs of compromise may include unexpected pop-ups or security notifications, unusual changes to files or permissions in cloud storage platforms, missing or modified files, unfamiliar applications, and unexpected authentication requests.
+Those who notice suspicious activity were instructed not to investigate or troubleshoot the issue themselves, but instead immediately shut down their devices and contact the university's IT service desk.
+Vanderbilt has not publicly disclosed the nature of the attack or confirmed whether any data was stolen.
+BleepingComputer contacted Vanderbilt University with questions about the attack, including whether systems were encrypted, what data may have been stolen, and whether the incident has been contained.
+If you have any information regarding this incident or other undisclosed attacks, you can contact us confidentially via Signal at 646-961-3731 or at tips@bleepingcomputer.com.
+BYOD ransomware claims attack
+On Monday, the BYOD ransomware group claimed responsibility for the attack on its data leak site, alleging that it had encrypted Vanderbilt's databases and stolen sensitive information belonging to students and employees.
+"If you could not tell already, your databases are locked, We have your entire estate and research data. Over 1 Million SSNs, Full Names, Email addresses, Phone Numbers, Student & Employee Records, Full takeover of your DC, whatever was on your network, we possess," reads the BYOD data leak site.
+BleepingComputer has since received a photograph of an alleged computer screen showing icons associated with Vanderbilt University and displaying a BYOD ransom note named "README_BYOD_31.txt".
+The ransom note includes a link to the BYOD data leak site and contact information for the SESSION encrypted messaging platform to negotiate with the ransomware gang. BleepingComputer can confirm that the link in the ransom note is the site operated by BYOD.
+"Oh no, you have been compromised by BYOD :<," reads the ransom note.
+"We have all of your data including your backups, your entire network is compromised."
+"Yes, this affects your student and employee data the most, every single SSN is archived, full names, email addresses, phone numbers, work addresses, roles, birthdays, quite literally everything."
+The note also threatens to release stolen data and cause further disruption if the university does not negotiate with the attackers.
+A video shared on YouTube and with BleepingComputer also shows how infected devices are playing audio warning that the network has been compromised by "BYOD".
+While the ransom note and video indicate BYOD is behind the attack, Vanderbilt has not officially confirmed the group's involvement or whether devices were encrypted.
+BYOD is a relatively new ransomware gang that launched in 2026 and currently lists 5 other organizations on its data leak site.
+Last month, the ransomware gang claimed responsibility for an attack on the University of New Mexico Health Sciences Center in a cyberattack that caused system outages and disrupted patient care and academic activities.
+Adaptive Security's AI agents analyze email intent, context, and behavior to uncover phishing, business email compromise, and invoice fraud.
+See what's getting through with a 14-day read-only scan of Microsoft 365 or Google Workspace, with no MX changes.
+Start your free email security scan.

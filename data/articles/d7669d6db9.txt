@@ -1,0 +1,24 @@
+Hackers are actively exploiting the "SSHole" vulnerability (CVE-2026-123158) in OpenSSH to execute commands, steal credentials, and establish persistent access.
+Multiple cybersecurity firms have confirmed the attacks, reporting that exploitation attempts began on November 5, the day a proof-of-concept exploit became available, with successful exploitation recorded the following day.
+Disclosed by security researcher Ozgun Kultekin last week, SSHole allows bypassing authentication in OpenSSH running on certain musl-based Linux systems, including the lightweight Alpine distribution used in cloud and virtual environments.
+The flaw lets attackers log in to accounts with a password hash is set to an asterisk (*) to prevent password logins.
+An oversized password causes musl’s password-hashing function to return * on error, which OpenSSH mistakenly treats as a match for the account’s stored value.
+Kultekin explained that exploitation requires specific authentication settings, does not affect accounts with valid password hashes, and can lead to root access where the compromised account has passwordless administrative privileges.
+OpenSSH maintainers fixed the vulnerability in version 10.6p2 released on November 5, while exploit code became available roughly four hours later.
+Finnish security company Defused said over the weekend that it had observed "a small amount of actors" trying to exploit SSHole, although the activity was not widespread.
+Threat intelligence company GreyNoise recorded the first successful exploitation of SSHole in the wild on November 7 at 00:46 UTC, approximately 40 hours after the fix.
+The researchers logged 16 successful exploitation chains targeting networks protected by GreyNoise from six source IP addresses linked to post-exploitation activity. The company says that these attacks are not representative of the broader activity involving SSHole.
+In the attacks that GreyNoise observed, the threat actor ran system and container reconnaissance, initiated queries to cloud metadata services, attempted to read password hashes and root SSH keys, and tried to modify SSH ‘authorized_keys’ files to gain persistent access.
+One attacker gained root privileges and installed TAC Agent, a Python command-and-control agent. However, the implant couldn’t reach its command-and-control (C2) server at ‘tac.vpnla[.]org,’ and never received a task.
+Analysis of the TAC Agent payload shows that the implant supports shell command execution, extensive system reconnaissance, file upload/download operations, and can update itself.
+The agent has no built-in persistence, so the attackers attempt to secure it by configuring a startup service.
+GreyNoise notes that the implant’s comments, logs, and errors were in Chinese, which may be used in conjunction with other evidence to determine the attacker’s origin.
+A finding that suggests possible automated operation is a missing tool check that returns feedback which could help an automated planner revise commands as needed for the attack to proceed.
+Overall, GreyNoise has recorded 27.5 million port-22 scans and 20.1 million attempted SSH sessions, though these aren’t confirmed SSHole attacks.
+Sensors from network security company Previdian also confirmed successful SSHole exploitation, with telemetry data showing 20 attempts from 13 attacker IP addresses in nine countries.
+Offensive security firm watchTower said on November 6 that it observed SSHole being exploited in attacks associated with botnets and cryptomining activity.
+System administrators should update OpenSSH as soon as possible, or disable SSH password authentication on systems affected by SSHole.
+It is also recommended to check for unexpected successful password logins to accounts whose /etc/shadow password field is *, unauthorized SSH keys, and TAC Agent files or startup services.
+Adaptive Security's AI agents analyze email intent, context, and behavior to uncover phishing, business email compromise, and invoice fraud.
+See what's getting through with a 14-day read-only scan of Microsoft 365 or Google Workspace, with no MX changes.
+Start your free email security scan.

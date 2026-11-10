@@ -1,0 +1,28 @@
+York University in Toronto has confirmed that a threat actor breached its systems and accessed personal information submitted through online forms.
+The unauthorized access was discovered on October 25 and affected forms submitted on 14 university websites between 2007 and 2026.
+York University is a major university based in Toronto, Canada, with more than 55,700 students across 200 undergraduate and graduate degree programs, and an administrative staff of 7,000.
+“York was recently subject to a cybersecurity incident involving an unauthorized actor accessing limited online forms used by University departments,” the university stated on Friday.
+“While York acted quickly to contain the incident following discovery, we regret to confirm the theft of personal information from some departmental forms.”
+The announcement lists the exposed data in detail, by category. Across the affected forms, the attacker accessed the following:
+- Email address
+- Phone number
+- Date of birth
+- York identification number
+- Government ID information
+- Third-party contact information
+- Health information
+- Academic history
+- Employment history
+- Financial status
+- Criminal background
+- Demographic details
+- Photos and other images
+The exact data types exposed vary by person, and most stolen records contained basic contact information and York ID numbers, the university said.
+Exposing contact information alongside other sensitive data significantly increases the risk of phishing and social engineering attacks for affected individuals.
+The announcement says the website forms are now secure and safe to use. York University said it will directly notify individuals whose government ID or financial account information was exposed and offer two years of credit monitoring and identity theft protection coverage.
+Individuals who did not receive a notification may contact the university directly to learn what specific types of data were exposed in their case.
+At this time, the educational institution has not specified how many individuals have been impacted by the cybersecurity incident.
+No details have been provided about the perpetrators. At the time of writing, BleepingComputer did not find any ransomware group claiming the attack.
+Adaptive Security's AI agents analyze email intent, context, and behavior to uncover phishing, business email compromise, and invoice fraud.
+See what's getting through with a 14-day read-only scan of Microsoft 365 or Google Workspace, with no MX changes.
+Start your free email security scan.

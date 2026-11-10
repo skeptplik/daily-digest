@@ -1,0 +1,3 @@
+OpenIndiana 2026.10 released
+Version 2026.10 of the OpenIndiana operating system has been released. OpenIndiana is based on Illumos, which in turn was based on OpenSolaris after Oracle discontinued it.
+Notable changes in this release include UEFI framebuffer support for the live image, updates to many applications and development tools, as well as the inclusion of new applications such as TeX Live 2026, the Foliate ebook reader, and more.

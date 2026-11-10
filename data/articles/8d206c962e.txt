@@ -1,0 +1,36 @@
+N-able has taken its hosted N-central environments offline and urged on-premises customers to shut down their servers after a security researcher publicly disclosed more than 30 alleged zero-day vulnerabilities, including exploits that could let attackers take over vulnerable systems.
+Security researcher Sean Bales disclosed the vulnerabilities late Sunday, November 8, and published a GitHub repository called Able2Shell containing proof-of-concept exploits for the flaws.
+N-central is a remote monitoring and management (RMM) platform used by managed service providers (MSPs) and IT teams to monitor, manage, and secure customer devices and networks remotely.
+The researcher says the vulnerabilities were tested against N-central Appliance 2026.4.0.31, a pre-release version of the software, and believes most, if not all, flaws also affect earlier versions.
+Bales also confirmed to BleepingComputer that the discovery of the vulnerabilities was AI-assisted.
+The disclosed vulnerabilities include authentication bypasses, credential disclosure, arbitrary file writes, directory traversal, cross-site scripting (XSS), XML external entity (XXE) injection, and remote code execution (RCE) flaws.
+One of the most critical exploit chains abuses an unauthenticated XXE vulnerability in N-central's service-import functionality to steal a trusted local session, reset an account password, and execute commands on the server as the nable user.
+The same exploit can also create an enabled Default Administrator account with attacker-controlled credentials, providing rogue administrative access to the N-central management interface.
+Bales shared a video demonstration of this exploit, showing terminal output reporting successful administrator account creation, login authentication, access to protected administrative functionality, and remote command execution as the nable user.
+Other disclosed exploits include a stored XSS that can execute commands as root when an administrator views malicious patch metadata, and a privilege-escalation flaw that allows code running under the nable account to execute commands as root.
+Bales confirmed to BleepingComputer that the unauthenticated XXE-to-RCE exploit was the most critical of the disclosed vulnerabilities.
+N-able takes servers offline worldwide
+After the disclosure, N-able announced a critical security incident and took its hosted N-central environments offline across the Americas, Europe, and Asia-Pacific regions.
+While BleepingComputer has not independently verified all the reported vulnerabilities, N-able confirmed it is developing a hotfix to address the security issues, lending credence to the researcher's claims that at least some of the flaws are legitimate zero-days.
+"N-able is actively responding to non-responsible communication of critical vulnerabilities in N-central late Sunday night, November 8, found by an independent researcher," N-able told BleepingComputer.
+"As a precautionary measure, we took our Hosted N-central environment offline today, November 9, and provided guidance to customers operating on-premises N-central servers to temporarily take their servers offline until further notice."
+"Our Security, Engineering, and Operations teams are actively working to implement the necessary remediation. At this time, we have not observed active exploitation of these vulnerabilities. Protecting our customers and their environments remains our highest priority, and we will provide additional updates as they become available."
+In a subsequent status update, N-able said it was continuing to develop and validate a hotfix and had found no evidence of active exploitation or unauthorized data access.
+While the N-central classic environment is unavailable, N-able said Ecoverse services accessed through N-able Login remain operational.
+N-able has not provided an estimate of when N-central will come back online but says it plans to publish updates every four hours, or sooner if new information becomes available.
+Researcher claims previous vulnerability reports ignored
+Bales told BleepingComputer that he deliberately released the N-central vulnerabilities without notifying N-able beforehand because the company allegedly failed to address vulnerabilities he had previously reported in a different N-able product.
+According to Bales, he disclosed two unrelated remote code execution vulnerabilities and a privilege-escalation flaw approximately five to six months ago, but those vulnerabilities remain unpatched.
+"I disclosed 2 unrelated RCEs for a different N-able product, along with a priv esc vulnerability 5 or 6 months ago. These have yet to be patched. I did not disclose any of the 0-days I posted last night," Bales told BleepingComputer.
+He also claims to have sent follow-up emails over the past four to six weeks without a response.
+Bales says his previous experience with N-able's vulnerability disclosure process and that "they don't take disclosure seriously" led him to publish the N-central zero-day exploits.
+However, he said these exploits target a different N-able product than the ones he previously disclosed.
+The researcher also claimed that he received no payment through N-able's bug bounty platform for his earlier reports.
+Bales confirmed that N-able executives, including the company's CEO and CTO, contacted him following the disclosure and asked him to remove the GitHub repository and work with the company.
+"They did not threaten me or anything though. Only asked to take down the repo, work with them, etc."
+BleepingComputer asked N-able about Bales' allegations concerning the previously disclosed vulnerabilities, their patching status, and the alleged lack of responses to his follow-up emails.
+However, the company did not address those questions, providing only the statement concerning the N-central security incident and the precautionary shutdown.
+The previously reported vulnerabilities are not included in the publicly released Able2Shell repository and allegedly remain unpatched.
+Adaptive Security's AI agents analyze email intent, context, and behavior to uncover phishing, business email compromise, and invoice fraud.
+See what's getting through with a 14-day read-only scan of Microsoft 365 or Google Workspace, with no MX changes.
+Start your free email security scan.

@@ -1,0 +1,26 @@
+TCL CSOT (the subsidiary of TCL that manufactures OLEDs and other panels) says its new inkjet-printed OLED factory has "entered the equipment move-in phase" (via TechPowerUp) after the project "progressed at a rapid pace". In other words, it's started filling up its production facility with the equipment to produce inkjet OLEDs. Production, the company says, is targeted for about this time next year.
+What's the big deal, you ask? It all comes down to that phrase, "inkjet-printed". Inkjet printing (IJP) should be a much more cost-effective way of making OLED panels, which means it should ultimately deliver OLED gaming monitors that are cheaper than traditionally manufactured ones.
+Which is saying something, considering how much traditionally manufactured OLEDs have dropped in price over the past year—you can currently pick up a 240 Hz OLED monitor for just $269 at Walmart, for instance. Having OLEDs even cheaper than this will be a whirlwind of fresh air in the current very expensive PC hardware market.
+IJP should give us such cheaper panels because the way it makes OLEDs doesn't involve as much wastage. Normally, you have some OLED materials moving through a mask, and some of them are lost. With IJP, however, the materials are printed directly onto the substrate, meaning there shouldn't be any lost materials. Thus, more efficient and cost-effective production.
+We'd already heard from third-party sources that this production facility would be producing such cheap OLEDs before long. But that source predicted a start to production in 2028, and TCL is here saying it's targeted for even sooner, in the fourth quarter of 2027.
+Whether it ends up being 2027 or 2028, I'm still here for it. We can do with all the good news we can get for PC gaming prices, given the ongoing global memory shortage. Monitors and peripherals seem to be where it's at, and you certainly won't hear me complaining about cheaper, punchy, low-latency displays. Roll on 2027.
+1. Best overall / 4K: 
+MSI MPG 322UR X24
+2. Best budget 4K: 
+Asus ROG Strix XG27UCG
+3. Best budget OLED
+Alienware AW2726DM
+4. Best 1440p: 
+MSI MPG 271QRX
+5. Best budget 1440p: 
+KTC H27T22C-3
+6. Best 1080p: 
+AOC Gaming C27G4ZXE
+7. Best Ultrawide: 
+Gigabyte MO34WQC2
+8. Best budget ultrawide: 
+Koorui 34E6UC
+9. Best competitive 
+KTC 25M1
+The PC Gamer Circuit Breaker newsletter breaks down the latest PC gaming tech, and finds you the best deals on the best products
+Jacob got his hands on a gaming PC for the first time when he was about 12 years old. He swiftly realised the local PC repair store had ripped him off with his build and vowed never to let another soul build his rig again. With this vow, Jacob the hardware junkie was born. Since then, Jacob's led a double-life as part-hardware geek, part-philosophy nerd, first working as a Hardware Writer for PCGamesN in 2020, then working towards a PhD in Philosophy for a few years while freelancing on the side for sites such as TechRadar, Pocket-lint, and yours truly, PC Gamer. Eventually, he gave up the ruthless mercenary life to join the world's #1 PC Gaming site full-time. It's definitely not an ego thing, he assures us.

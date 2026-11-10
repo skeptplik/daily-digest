@@ -1,0 +1,11 @@
+Kernel prepatch 7.4-rc2
+a
+big -rc2 to go with the largest ever -rc1
+"). Much of the size was made up of some automated Coccinelle updates that were spread out all over the tree; once those are factored out, the rest looks fairly normal:
+When masking that noise out from the diffstat, the shape of it changes
+- not spread out over thousands of files any more. But it does not
+look unusual: a third is drivers (gpu, networking and sound account
+for most of it, but there's a bit of everything), another third is
+networking and bpf, and the final third is "the rest" (mostly
+filesystems, mm, arch updates).
+And yes, much of this was driven by various AI fixes. I think I'll stop repeating that, and we can just take it for granted. But this time around Alexei [Starovoitov] claims that on the bpf side at least the fixes are now coming in faster than the new reports, and that sounds lovely if true.

@@ -1,0 +1,38 @@
+By Yair Kuznitsov, Co-Founder & CEO, Anecdotes
+The question in GRC is no longer whether your job is safe. It is whether your skillset is. AI agents are already doing the control testing, the evidence collection, and the framework mapping that used to fill a manager's week, and they get better at it every quarter.
+None of that is a knock on the people who built real careers doing that work well. The work is simply moving to the agents, and the value is moving to a different skillset, faster than anyone handed out a plan for it.
+The professionals who come out ahead will be the ones who retrain early, and the rest are left against the wall, not because they stood still, but because no one told them what to run toward.
+This is what GRC Agentification actually means. Not AI assisting a human who still does the work, but AI agents doing the work while the human moves up a level to direct and govern them.
+It is a far bigger shift than "adopt AI" makes it sound, and the guidance most professionals get stops right at the slogan. So here is the part nobody is spelling out: the three skills that separate the managers whose roles get automated away from the managers who start running the agents.
+All three are learnable, and the time to start is now: context, agent governance, and communication.
+Skill One: Learn Data, or the Agent Works Blind and Takes You With It.
+An agent is only as good as the data you feed it. Feed it screenshots, stale exports, and a spreadsheet someone rebuilt at midnight, and it will produce confident, well-formatted nonsense faster than any human ever could, and it will do it in your name.
+The manager who cannot tell good data from convenient data is the one who gets blindsided by an agent's output in front of the board. That is why data literacy is now the first GRC skill, not an IT problem you can hand off.
+The enterprise platforms that actually hold up, Anecdotes among them, are built data-first for exactly this reason: the data engine comes before the agents, because agents without trustworthy data are just fast mistakes.
+You build this by tracing one control's evidence back to where it is truly born, past the screenshot, down to the API or the configuration that produced it. Learn the language of the people who own that data: pipelines, structured data, integrations, data quality, data operations.
+Get to where you can look at any feed and say whether it is trustworthy or merely available, and defend the answer in a room full of skeptics.
+You will not become a data engineer. You will become the person nobody can fool with a pretty dashboard.
+AI is already changing how GRC teams work. From identifying control gaps to automating evidence collection and taking action, see how Anecdotes brings AI agents into everyday GRC operations.
+Less manual work, more time to focus on what matters.
+See Agentic GRC in Action
+Skill Two: Stop Collecting Evidence. Start implementing credible data pipelines
+The old job was gathering. The new job is governing. Someone has to set each agent up, hand it objectives and hard boundaries, and decide whether it is actually good at its job, because an unmanaged agent is not a productivity win, it is unsupervised risk running at machine speed.
+This is the cleanest line between the managers whose roles get automated and the managers who do the automating.
+One does the task. The other runs the workforce that does the task, and answers for every call it makes.
+Treat every agent like a direct report you will be judged on. Before it touches production, write down what good looks like in numbers: the business outcome it owns, the efficiency it adds, the cost it takes out, the accuracy bar it has to clear, and the escalation rate, how often it is allowed to kick a decision back to you.
+Then watch those KPIs like a manager, not a spectator. An agent that quietly drifts, escalates everything, or hits its accuracy target by doing less is telling you something.
+Reading that scoreboard and retuning against it is GRC engineering, whatever your title still says.
+Skill Three: If You Can't See What the Agents Do, You Don't Govern Them. You Hope.
+Humans and agents now work the same controls, and agents increasingly hand work to each other with no human in between. Let that happen in a black box and you have not built an agentic program, you have built a liability you cannot explain.
+Communication stops being a soft skill and becomes the control surface of the whole operation: the only thing standing between you and an automated decision you cannot account for.
+Build this by insisting every agent interaction lands somewhere a human can see it. Learn to write instructions so precise an agent cannot reasonably misread them, more runbook than email.
+Demand that every handoff between agents leaves a visible, time-stamped trail, because an action you can trace is an action you can review, and an action you can review is one you can reverse.
+The managers who can write for agents and read back what the agents did to each other are the ones still in the room when something breaks, and able to fix it.
+Nobody is going to hand out the new job description, and the pace is not going to wait for one. The agents are not slowing down and the budget pressure is not letting up, so the only real protection is to become harder to automate than the work you used to do. Context, agent governance, communication.
+You can start on all three this quarter with the program you already run.
+The GRC manager is not being replaced by AI. They are being replaced by the GRC manager who learned to use it. So start reskilling now, while the choice is still yours to make.
+Your title will not decide this. Your skillset will.
+Learn more about agentic GRC with Anecdotes at anecdotes.ai.
+About the author
+Yair is a CEO on a mission to remove the frustration that typically accompanies enterprise GRC. Yair served as the head of the R&D department of the IDF’s elite 8200 unit. After leaving the military, he led the Innovation Group at Intsight, where he successfully brought new products into a highly competitive market. In 2020, Yair co-founded Anecdotes to revolutionize enterprise GRC. His vision for a data and agentic AI powered GRC ecosystem has completely transformed the way many of the world's top organizations manage their programs today.
+Sponsored and written by Anecdotes.

@@ -1,0 +1,36 @@
+Business
+Could Nvidia survive without its ultra-powerful CEO, Jensen Huang?
+Analysts say change at the top would be a big shakeup, but company would go on
+Jensen Huang, the leather-jacket-wearing and autograph-signing co-founder and CEO of Nvidia, has made himself a seemingly inseparable part of the AI chipmaker.
+But now that an investigation is underway into whether Huang was the target of a foreign intelligence effort, that tight control at the company's helm is creating worries about whether he could actually be replaced, if such a move were deemed necessary.
+The investigation comes after the New York Times reported late last week that Huang had a close romantic relationship with Alice Huang, a Chinese tech executive who is accused of spying on behalf of China. It's unclear when he met the executive of Singapore-based cloud computing company Megaspeed, but the two were photographed together in 2024.
+Nvidia's board said Sunday it had no reason to believe that state or company secrets were compromised, but was undertaking an independent investigation in light of the reports. U.S. House Republican committee leaders have also called on Jensen Huang to sit for a briefing on his relationship with the woman.
+In a message to his staff, Huang admitted to having an affair and apologized to his family and colleagues for breaking their trust.
+"I am fully committed to Nvidia and will work to earn back your confidence," he wrote.
+Huang will stay on as CEO while the investigation takes place. But if the board were to oust him, or if he changed course and stepped down, tech analysts like Dan Ives say finding someone to take his place would be nearly impossible.
+"In my opinion, Jensen is a one of one," said Ives, partner and senior managing director at Yorkville Ives & Co., a New York-based modern merchant bank. "Nvidia is here because of Jensen."
+'The king of tech'
+Nvidia began as a graphics card maker in 1993 until company leaders — Huang in particular — realized that its graphics processor units could power more than just games. The company pivoted to making chips for supercomputers in the early 2010s, betting on an artificial intelligence boom that wouldn't come for many years.
+An early partnership with OpenAI led to a long-term relationship with the ChatGPT creator, which still relies on Nvidia's chips to power its technology today. Amazon, Meta, Google and virtually every other company building AI tools rely on the chipmaker's hardware to power their systems.
+Worth about $4.5 trillion US today, Nvidia is the second most valuable company in the world, and invaluable to the AI ecosystem as a whole, according to Ives.
+- Nvidia probes whether CEO Jensen Huang targeted by foreign intelligence as he admits affair
+- Can AI be regulated? Why experts say government intervention is needed — but could be tricky
+From his place atop the massive company, Huang became something of a rock star, routinely signing fan autographs at public appearances. One of his signature leather jackets sold for more than $1 million at an auction earlier this year.
+"He's gotten to the point where he's sort of like the king of tech. Everybody listens to what Jensen has to say," said Bob O'Donnell, president and chief analyst at Technalysis Research.
+Outside of his own company, Huang has also championed the AI buildout, financially backing companies like cloud computing company CoreWeave and Anthropic, maker of the Claude chatbot. He has also dismissed fears about an AI bubble and challenged apocalyptic warnings about the technology's existential threat to humanity, and has forged a close relationship with U.S. President Donald Trump.
+Ives says the loss of Huang's advocacy would be a major hit to the industry if he had to step away.
+Meanwhile, within the company, Huang created an unusually flat chain of command, with many employees reporting directly to him rather than to high-level executives. On a podcast earlier this year, Huang said as many as 60 people reported to him directly.
+The company's site lists only a handful of high-ranking executives aside from Huang.
+Two of Huang's children are also on staff at the company — his son Spencer is director of product for robotics, while his daughter Madison is senior director of product marketing.
+No clear successor
+With Huang having held control at Nvidia for so long, analysts say there is no clear successor.
+"There's no one person or two people or three people that could replace Jensen. And that's a scary thing for investors, given this … black-eye moment that we're seeing," Ives said.
+If Huang were forced to step down, Ives worries Nvidia would never fully recover from the loss of his leadership, given his integral role in the company's growth.
+But others say with a firm as big as Nvidia, there are others who could take on the top job.
+"You don't create a company that large by yourself, right? It's just not possible. There's a huge team of very strong, smart, capable people," O'Donnell said.
+While he agrees that Huang's loss would be massive, he says the company's technology roadmap — used to plan the next few years — is already laid out, making any potential successor's job easier.
+O'Donnell expects Nvidia is on track to keep its leadership position among chipmakers for now, and doesn't expect a shakeup at the top would change that.
+Furthermore, with the board saying it has confidence in Huang, O'Donnell says he doesn't expect those members would try to oust him.
+Still, if Huang does stay on as CEO, his grip on the company likely won't be so tight going forward, O'Donnell says, as other high-ranking executives are likely to take centre stage as spokespeople and dealmakers at least some of the time.
+"It's hard to replace an iconic figure who just lights up a room," he said. But "if the board is smart, and I'm sure they are, they recognize they're going to have to address this so people can regain confidence in the company."
+With files from Reuters

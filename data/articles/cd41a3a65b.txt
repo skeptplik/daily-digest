@@ -1,0 +1,13 @@
+Data breach at hearing aid giant Amplifon impacts thousands
+International healthcare company Amplifon said thousands of its U.S. customers had their Social Security numbers and medical information stolen during a cyberattack in February.
+The Milan, Italy, company pairs patients in need of hearing aids and auditory assistance with device providers and services.
+Amplifon began notifying state regulators of a data breach last week, telling Texas officials that 85,804 people were impacted by the security incident in addition to 1,027 people in Vermont. The company also filed breach notices in California.
+In a breach notice on its U.S. website, Amplifon said it initially discovered suspicious activity on February 11, with an investigation later revealing the hackers had access to company files between January 18 and February 8.
+The stolen data includes names, driver’s licenses, state IDs, medical information, health insurance data and financial information.
+No hacking group has taken credit for the incident as of Monday.
+Several class action law firms said the total number of victims is 1,332,826, but Amplifon did not respond to requests for confirmation.
+Amplifon was founded in 1950 for World War II veterans suffering from hearing loss and expanded to the U.S., Asia and Africa — now covering more than 28 countries across five continents. The company works with patients to find the right hearing devices and offer tests as well as other hearing-related healthcare services.
+The healthcare industry, particularly companies producing wearable devices, has faced an unprecedented level of attack in 2026 by cybercriminals. Medical device maker iRhythm said last month that 8,179,772 people were impacted by a cyberattack on their systems.
+Medical device makers like Medtronic, Boston Scientific, Stryker, UFP, Masimo, Surmodics, Artivion and Zoll have dealt with cybersecurity incidents that exposed the sensitive medical data of millions and caused supply chain issues.
+Jonathan Greig
+is a Breaking News Reporter at Recorded Future News. Jonathan has worked across the globe as a journalist since 2014. Before moving back to New York City, he worked for news outlets in South Africa, Jordan and Cambodia. He previously covered cybersecurity at ZDNet and TechRepublic.
