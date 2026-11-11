@@ -27,7 +27,8 @@
     {"outlet": "NASA", "url": "https://www.nasa.gov/feed/"},
     {"outlet": "Space.com", "url": "https://www.space.com/feeds/all"},
     {"outlet": "ESA", "url": "https://www.esa.int/rssfeed/Our_Activities/Space_News"},
-    {"outlet": "The Guardian", "url": "https://www.theguardian.com/science/space/rss"}
+    {"outlet": "The Guardian", "url": "https://www.theguardian.com/science/space/rss"},
+    {"outlet": "JPL", "url": "https://www.jpl.nasa.gov/feeds/news"}
   ],
   "politics": [
     {"outlet": "BBC", "url": "https://feeds.bbci.co.uk/news/world/rss.xml"},
@@ -45,7 +46,10 @@
     {"outlet": "Al Jazeera", "url": "https://www.aljazeera.com/xml/rss/all.xml"},
     {"outlet": "The Hindu", "url": "https://www.thehindu.com/news/international/feeder/default.rss"},
     {"outlet": "SCMP", "url": "https://www.scmp.com/rss/91/feed"},
-    {"outlet": "Japan Times", "url": "https://www.japantimes.co.jp/feed/"}
+    {"outlet": "Japan Times", "url": "https://www.japantimes.co.jp/feed/"},
+    {"outlet": "Meduza", "url": "https://meduza.io/rss/all"},
+    {"outlet": "Новая газета Европа", "url": "https://novayagazeta.eu/feed/rss"},
+    {"outlet": "The Moscow Times", "url": "https://www.themoscowtimes.com/rss/news"}
   ],
   "tech": [
     {"outlet": "The Verge", "url": "https://www.theverge.com/rss/index.xml"},
@@ -59,7 +63,10 @@
     {"outlet": "InfoQ", "url": "https://feed.infoq.com/"},
     {"outlet": "LWN", "url": "https://lwn.net/headlines/rss"},
     {"outlet": "GitHub Blog", "url": "https://github.blog/feed/"},
-    {"outlet": "IEEE Spectrum", "url": "https://spectrum.ieee.org/feeds/feed.rss"}
+    {"outlet": "IEEE Spectrum", "url": "https://spectrum.ieee.org/feeds/feed.rss"},
+    {"outlet": "Microsoft DevBlogs", "url": "https://devblogs.microsoft.com/feed/"},
+    {"outlet": "Rust Blog", "url": "https://blog.rust-lang.org/feed.xml"},
+    {"outlet": "Go Blog", "url": "https://go.dev/blog/feed.atom"}
   ],
   "games": [
     {"outlet": "IGN", "url": "https://feeds.ign.com/ign/all"},
@@ -83,6 +90,8 @@
     {"outlet": "The Record", "url": "https://therecord.media/feed"},
     {"outlet": "SecurityWeek", "url": "https://feeds.feedburner.com/securityweek"},
     {"outlet": "Schneier", "url": "https://www.schneier.com/feed/atom/"},
-    {"outlet": "CISA", "url": "https://www.cisa.gov/cybersecurity-advisories/all.xml"}
+    {"outlet": "CISA", "url": "https://www.cisa.gov/cybersecurity-advisories/all.xml"},
+    {"outlet": "Dark Reading", "url": "https://www.darkreading.com/rss.xml"},
+    {"outlet": "Help Net Security", "url": "https://www.helpnetsecurity.com/feed/"}
   ]
 }

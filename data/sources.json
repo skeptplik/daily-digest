@@ -3,7 +3,7 @@
   "trusted": {
     "world_news_agencies_and_broadcasters": [
       "reuters.com", "apnews.com", "afp.com", "bbc.com", "bbc.co.uk", "dw.com", "france24.com", "rfi.fr",
-      "npr.org", "pbs.org", "euronews.com", "swissinfo.ch", "abc.net.au", "cbc.ca", "aljazeera.com", "thehindu.com", "scmp.com", "japantimes.co.jp"
+      "npr.org", "pbs.org", "euronews.com", "swissinfo.ch", "abc.net.au", "cbc.ca", "aljazeera.com", "thehindu.com", "scmp.com", "japantimes.co.jp", "meduza.io", "novayagazeta.eu", "themoscowtimes.com"
     ],
     "major_dailies_across_the_spectrum": [
       "theguardian.com", "nytimes.com", "washingtonpost.com", "wsj.com", "ft.com", "economist.com", "bloomberg.com"
@@ -15,7 +15,7 @@
     ],
     "ai_tech_dev": [
       "arstechnica.com", "theverge.com", "wired.com", "technologyreview.com", "spectrum.ieee.org",
-      "techcrunch.com", "tomshardware.com", "anandtech.com", "infoq.com", "lwn.net"
+      "techcrunch.com", "tomshardware.com", "anandtech.com", "infoq.com", "lwn.net", "rust-lang.org", "go.dev"
     ],
     "games": [
       "ign.com", "eurogamer.net", "gamespot.com", "pcgamer.com", "polygon.com", "gamesindustry.biz"
@@ -24,7 +24,7 @@
       "fashionista.com", "harpersbazaar.com", "vogue.com", "voguebusiness.com", "wwd.com", "dezeen.com"
     ],
     "security": [
-      "krebsonsecurity.com", "bleepingcomputer.com", "schneier.com", "cisa.gov", "therecord.media", "securityweek.com"
+      "krebsonsecurity.com", "bleepingcomputer.com", "schneier.com", "cisa.gov", "therecord.media", "securityweek.com", "darkreading.com", "helpnetsecurity.com"
     ]
   },
   "primary": [
