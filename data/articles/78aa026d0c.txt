@@ -1,13 +1,13 @@
 Nvidia and its chief executive, Jensen Huang, have been accused of misleading shareholders in a lawsuit over the Chinese spying scandal engulfing the $4.3tn (£3.2tn) company.
 The legal action came as Donald Trump said the FBI was investigating Huang’s affair with an alleged Chinese spy.
 According to a complaint filed in federal court in California, Nvidia and Huang misled shareholders in connection with the executive’s alleged affair with Alice Huang, a former executive of Singapore-based Megaspeed, who is not related to him.
-The shareholders claim both parties did not disclose that the matter raised national security concerns that threatened the chipmakers’s reputation and business prospects.
+The lawsuit claims both parties did not disclose that the matter raised national security concerns that threatened the chipmaker’s reputation and business prospects.
 The New York Times reported on the alleged relationship last month, and said US authorities had concluded Alice Huang was a Chinese intelligence asset.
 Nvidia described its executive’s interaction with Alice Huang as “not unusual or unexpected” in a comment submitted to the New York Times last month, adding that “meetings with customers are part of a CEO’s job; Jensen talks with thousands of customer executives every year”.
 On Sunday, Huang admitted he had been “unfaithful” to his wife, without identifying the person involved in the affair.
 The lawsuit claims the NYT statement was “materially false and misleading at the time it was made because Jensen Huang had an affair with Alice Huang.”
 It also accused the company of making false and misleading statements about its relationship with Megaspeed, which has reportedly been investigated over suspicions that it may have been diverting Nvidia chips to China in contravention of US export restrictions.
-Hunag said in an interview published on 30 October that “we’ve studied all their [Megaspeed] deployments of our GPUs and counted every one”. He added: “And I think the US government also has as well.”
+Huang said in an interview published on 30 October that “we’ve studied all their [Megaspeed] deployments of our GPUs and counted every one”. He added: “And I think the US government also has as well.”
 In a statement last year Megaspeed said it has acted “fully in compliance with all applicable laws, including US export control regulations”.
 Nvidia announced on Sunday it was conducting an independent investigation into reports that Huang was the “target of a foreign intelligence effort”. Shares in the company fell on Monday, closing down 4.3%, reducing Nvidia’s market value by approximately $190bn. The lawsuit was filed five minutes after the US stock market closed.
 Nvidia and Megaspeed did not immediately respond to a request for comment on the lawsuit.
@@ -19,3 +19,5 @@ Trump said on Monday that the FBI is investigating Huang’s affair but said he 
 “I did speak to him today just to see if he’s feeling all right, how you’re doing,” Trump said. “He said he had absolutely no idea that the person in question was a spy.”
 Huang said in an open letter posted on Nvidia’s website: “I support the investigation and will cooperate fully. I love our country and our company. I am committed to protecting Nvidia and supporting America’s national security,”
 Reuters contributed to this report
+On Monday 30 November, join Dan Milmo, Prof Dame Wendy Hall and Stuart J Russel as they discuss the warnings surrounding artificial intelligence and how we can separate fact from speculation. Livestreamed only.
+Book tickets here or at guardian.live

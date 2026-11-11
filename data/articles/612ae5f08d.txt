@@ -1,0 +1,18 @@
+Microsoft’s Patch Tuesday surpasses 1,000 bugs for second month in a row
+More than 1,000 vulnerabilities were disclosed by Microsoft in the latest Patch Tuesday release as federal cybersecurity officials ordered civilian agencies to patch exploited bugs from Google, Barracuda and Cisco.
+Among the 1,093 bugs disclosed on Tuesday, Microsoft said one is being exploited in the wild: CVE-2026-124194. The company said it has a severity score of 6.5 and impacts Microsoft Outlook.
+The Cybersecurity and Infrastructure Security Agency (CISA) added the vulnerability to its Known Exploited Vulnerabilities catalog and gave federal agencies until the end of the month to patch it.
+Microsoft said the bug was discovered by Benoît Sevens using Anthropic’s Claude, writing that an attacker “could send a specially crafted message file and convince a user to open it in an affected version of Microsoft Outlook.”
+“Opening the file could cause Outlook to connect to an attacker-controlled network location without displaying the usual external-content warning, potentially disclosing authentication information that could be used to impersonate the user,” the company said.
+Satnam Narang, senior staff research engineer at Tenable, said an attack using the vulnerability may allow someone to sign in as the exploited user.
+Several experts said CVE-2026-124194 was the only exploited bug outlined in Microsoft’s Patch Tuesday release but there were 63 vulnerabilities rated critical. Narang noted that Tuesday’s release brings Microsoft to more than 5,160 vulnerabilities disclosed this year, which would far surpass any previous year.
+Last month, more than 1,400 vulnerabilities were disclosed by Microsoft after about 900 in September.
+In addition to Microsoft’s disclosures, Google, Cisco, Adobe, Barracuda, Ivanti and several other companies released patches for dozens of bugs, several of which were spotlighted by CISA as being exploited.
+CISA gave federal agencies until Friday to patch CVE-2026-116606 and CVE-2026-111560 — two bugs affecting Barracuda's email security product. They also ordered all federal agencies to investigate potential compromises related to both vulnerabilities.
+Response to N-able vulnerabilities
+A researcher also uncovered more than 30 serious vulnerabilities in N-Central, a popular remote management tool that IT teams use to monitor and run networks remotely.
+The company behind it, N-able, took all hosted N-central environments offline and ordered customers to turn off their servers.
+“As expected, we are observing scanning activity associated with the published proof-of-concept code. At this time, we have no evidence that any customer environment has been successfully exploited,” the company said on Tuesday.
+“During this time, customers will be unable to access their Hosted N-central classic environment, and associated services may be unavailable.”
+Jonathan Greig
+is a Breaking News Reporter at Recorded Future News. Jonathan has worked across the globe as a journalist since 2014. Before moving back to New York City, he worked for news outlets in South Africa, Jordan and Cambodia. He previously covered cybersecurity at ZDNet and TechRepublic.

@@ -1,0 +1,19 @@
+Robotics startup OKA has released a lamp-shaped artificial intelligence robot designed to offer companionship by greeting people, dancing to music and playing nature sounds.
+Mori by OKA (One Kind Artificat) is 26.4 centimetres tall, with a cloth-covered base and an illuminated, dome-shaped head that lifts to reveal cartoonish eyes that blink and swivel.
+According to OKA, Mori “resembles a contemporary table lamp” and was designed to “help people feel calmer, more at ease, and more connected to the world around them”.
+“We wanted Mori to feel like a familiar object in the home rather than an unfamiliar machine,” OKA told Dezeen. “Many robots look technical, mechanical, or overly human, while a lamp is something people already live with comfortably.”
+The robot exists in two modes: a lamp setting, when it’s compact and at rest, and a responsive setting, when the head is lifted and tilted.
+Powered by the start-up’s proprietary AI system, the robot’s responses include playing audio informed by rain and other nature sounds, changing the colour of its lamp top and performing nonverbal communication through multi-axis neck and body movement.
+Users tap the top of Mori’s head and it “retracts its face and becomes a quiet lamp”. As another part of its calming offerings, grabbing its base triggers a breathing exercise.
+It also makes small sounds as part of these interactions.
+“Mori’s soft silhouette and tactile materials let it blend into domestic interiors,” said OKA. “Its warmth, brightness, and subtle changes can suggest comfort, curiosity, or calm, which lets Mori express itself through illumination, sound, and movement instead of screens or conversation.”
+According to the company, Mori will remember occupants, routines, and interaction history and adjust its behaviour accordingly, such as using “judgment to decide when to proactively engage or remain quiet”.
+The AI model is based on the concept of Attentive Intelligence, built upon research by OKA co-founder Weizhe Chen. Attentive Intelligence is an emerging framework within AI, wherein a model is proactive versus reactive to prompts.
+“It reads the room before responding and weighs whether to join in, so sometimes a small nod is enough and sometimes it stays quiet,” said OKA.
+“Its responses are shaped by VIBE (Vitality, Interaction, Bonding, Emotion), an inner state that drifts with time and experience, so the same greeting can come out lively one day and gentle the next.”
+Mori comes in a variety of soft colourways and is rechargeable with a 2.5-hour battery life. However, OKA suggests keeping it plugged in. 
+OKA was founded in 2024 in Cambridge, Massachusetts, by entrepreneur and designer Hua Wang and robotics researcher Weizhe Che. The company is focused on creating robotic projects that “integrate seamlessly into human life rather than forcing human life to adapt to technology”.
+OKA plans to release five major “artifacts” or products in its lifetime, according to the team. The Mori robot is the first.
+Mori joins a growing number of home robots released recently with “embodied AI” – or the act of inserting an AI model into a robotic body.
+Other home robots include the Droxel “droid butler” and Neo, a humanoid robot dressed in a cloth bodysuit.
+Photography courtesy of OKA

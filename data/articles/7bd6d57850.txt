@@ -1,0 +1,49 @@
+Elijah Newren is a Staff Software Engineer at GitHub. He is the designer and implementer of merge-ort, Git's default merge strategy since 2.34, author of git-filter-repo—the history rewriting tool the Git project officially recommends—and a driving force behind sparse-checkout.
+Today, the Git project is releasing new versions to address six security vulnerabilities. These include arbitrary code execution when recursively cloning a malicious repository, writes to unintended files, and memory corruption when processing merges or binary patches.
+The fixes are included in Git 2.56.1, with backports to Git 2.55.1, 2.54.1, 2.53.1, 2.52.1, 2.51.3, and 2.50.2. We recommend updating to Git 2.56.1 or the patched release for your maintenance series, and updating any applications that bundle Git.
+Vulnerabilities in Git
+CVE-2026-111760: Code execution during recursive clones
+Git checks paths before writing files into a working tree, including rejecting paths that would overwrite its own repository metadata. However, an integer truncation in Git’s index handling can cause an extremely long path to pass validation under one name and then be written using a shorter name.
+An attacker can use this discrepancy to replace a submodule’s .git file with a symbolic link pointing to a directory containing malicious configuration or hooks. When Git subsequently uses that directory, it can execute attacker-controlled code during a recursive clone.
+The fix rejects extremely long index entry paths before their lengths can be truncated.
+[Advisory]
+CVE-2026-113408: Path traversal through a server’s advertised HEAD
+When cloning an empty repository using Git protocol v2, the server can advertise a HEAD symref pointing to an unborn branch (one that has no commits yet). Git did not validate the symref’s target before storing it locally.
+A malicious server can supply a name containing path-traversal components. With the files reference backend, a later operation that updates the branch can write outside the intended reference directory.
+Git now validates the advertised target before accepting it. The release also validates other reference names and symbolic-reference targets received through protocol v2.
+[Advisory]
+CVE-2026-114467: Stack corruption when removing signatures
+When stripping GPG signatures from a message, Git assumed there would be at most two signatures. A specially crafted message containing more than two signatures can cause Git to write past the end of a fixed-size stack array.
+This can be triggered by merging a tag containing more than two signatures, causing memory corruption and a potential denial of service. Hosting services that perform these merges on behalf of users can also be affected.
+The fix removes the fixed-size array and handles messages with any number of signatures.
+[Advisory]
+CVE-2026-114469: Out-of-bounds reads when applying binary patches
+Git rejects patches larger than approximately 1 GiB because its patch application code cannot safely handle larger inputs. However, this check only considered the size of the patch as supplied.
+Binary patches are compressed and encoded, so a relatively small patch can expand beyond that limit. A crafted patch can bypass the input-size check and cause an out-of-bounds read, crashing Git.
+Git now also checks the declared uncompressed size before processing a binary patch.
+[Advisory]
+CVE-2026-105437: Heap corruption during large merges
+Git’s merge machinery calculates how much memory it needs for a merge result before writing the output. That calculation can overflow when the result is very large, including when many conflicts are combined with a large conflict-marker-size attribute.
+The overflow can cause Git to allocate a buffer that is too small, then write outside it, corrupting heap memory. This affects applications and hosting services that use Git to merge untrusted content, as well as local merges.
+The fix uses size-appropriate types and checked arithmetic, rejecting merges whose output size cannot be represented safely.
+[Advisory]
+CVE-2026-114466: Filesystem access through fast-import streams
+git fast-import reads a stream of commands to build a repository. Some commands can access files outside the repository, so Git already restricts them when they appear in an untrusted input stream.
+Three additional features lacked that protection. The rewrite-submodules-from and rewrite-submodules-to features can read arbitrary files, potentially exposing their contents through error messages. The export-pack-edges option can create files or append data to existing files.
+These features are now rejected when supplied through the input stream unless the caller explicitly enables --allow-unsafe-features. Only enable that option when you trust the program generating the stream.
+[Advisory]
+Additional hardening
+Alongside these fixes, the release adds overflow checks to related index entry allocations during checkout and tree processing. These checks complement the path-length limits above, preventing allocation sizes from being truncated or overflowing before Git copies a path into memory.
+Protecting GitHub users
+- We have deployed fixes for these vulnerabilities across github.com, GitHub Enterprise Cloud, and GitHub Enterprise Cloud with data residency.
+- Updates for GitHub Enterprise Server are available in versions 3.19.15, 3.20.11, 3.21.9, and 3.22.4. We recommend that administrators upgrade as soon as possible.
+- We are coordinating releases of GitHub Desktop and the GitHub Copilot app that include patched versions of Git.
+- GitHub Codespaces and GitHub Actions will also receive patched versions of Git.
+Update Git
+Updating is the most effective way to protect against these vulnerabilities. Install a patched version from your operating system or Git distributor, and update applications that include their own copy of Git. Administrators should also update Git installations used by automation and services that process repositories on behalf of users.
+If you cannot update immediately, clone only from trusted servers and avoid recursive clones of untrusted repositories. Avoid merging untrusted content or tags, or processing binary patches or fast-import streams from untrusted sources. These precautions do not replace installing the fixes.
+Tags:
+Written by
+Related posts
+GitHub now highlights ACCESSIBILITY.md files and helps maintainers document accessibility goals, known barriers, supported environments, contributor expectations, and reporting processes.
+GitHub’s annual month-long game jam is back for its 14th year! This November, make a game inspired by the theme SHIFT. Change gears, swap perspectives, bend reality, or just press a certain key.

@@ -1,4 +1,4 @@
-Otter.ai, the AI-powered note-taking tool, announced Tuesday that it’s expanding its multilingual capabilities, including a new multilingual transcription feature that can follow conversations as speakers switch between languages during the same meeting.
+Otter.ai, the AI-powered notetaking tool, announced Tuesday that it’s expanding its multilingual capabilities, including a new multilingual transcription feature that can follow conversations as speakers switch between languages during the same meeting.
 The company is also adding support for 27 languages, its largest language expansion to date. Once the rollout is complete, Otter will support 31 languages in total, making the platform more accessible to international teams.
 The upcoming feature will automatically detect language changes and continue transcribing without requiring users to adjust settings. For example, a call could move from English to Korean to Portuguese, with Otter following the conversation throughout.
 The update aims to address a common challenge for global teams, where language differences can make meetings and collaboration more difficult.

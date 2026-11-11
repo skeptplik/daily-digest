@@ -1,0 +1,20 @@
+Cloud hosting provider Railway says hackers exploited vulnerabilities in its infrastructure to steal customer authentication secrets and generate approximately $740,000 in fraudulent AI usage, potentially exposing credentials for up to 100,000 workspaces.
+The company disclosed the incident on October 22, warning customers to rotate their secrets after detecting unauthorized access to systems storing environment variables.
+In a new incident report published today, Railway confirms that attackers gained access to its internal source code and the decrypted customer environment variables for at most 1.85% of its workspaces, or approximately 100,000.
+The company says this figure represents the maximum number of potentially impacted workspaces, rather than the confirmed number whose secrets were stolen.
+The attack began on October 20, when hackers exploited a previously unknown vulnerability in Railway's build infrastructure to escape filesystem isolation and obtain an internal credential.
+The attackers used the credential to access stored build histories and retrieve a copy of Railway's internal source code, which they then analyzed to identify additional ways to compromise the platform.
+The attackers then exploited a second vulnerability involving an improperly configured trust relationship to gain further access to Railway's infrastructure and obtain credentials used to decrypt customer environment variables.
+Railway says the attack became a roughly 26-hour battle between its engineers and threat actors using AI-powered agents to identify and exploit vulnerabilities across its infrastructure. At the same time, defenders worked to secure the systems.
+"This was not a single breach followed by a single fix. The attacker probed many potential routes, in parallel, with Railway similarly hardening the routes in parallel," Railway said.
+"The escalating situation became a contest of agent speed, with Railway defending against abliterated models and a harness similar to ARTEX, according to Wiz."
+Railway says its investigation found that the attackers specifically searched for AI provider credentials, although some queries also targeted cloud, database, and payment service credentials.
+The stolen credentials were subsequently used to generate approximately $740,000 in unauthorized AI usage, with Railway working with affected providers to reimburse customers. The company says it will cover charges that providers decline to refund.
+The breach also exposed linked-account tokens belonging to 1,852 users, including GitHub OAuth tokens and AI agent keys. Railway says it reset those tokens and notified affected users.
+Railway believes the attackers were focused on stealing AI credentials for resale or use in AI model distillation, linking the incident to a recent wave of attacks against AI developer platforms that security firm Wiz has dubbed "Black October."
+This campaign has targeted numerous AI development platforms during the past month, including Northflank, OpenCode, Warp, and Lightning AI.
+The company says the attackers were fully removed from its systems on October 21 and that all exploited vulnerabilities have since been remediated.
+Railway also found no evidence that the hackers downloaded customer Git repositories or accessed customer databases.
+Adaptive Security's AI agents analyze email intent, context, and behavior to uncover phishing, business email compromise, and invoice fraud.
+See what's getting through with a 14-day read-only scan of Microsoft 365 or Google Workspace, with no MX changes.
+Start your free email security scan.

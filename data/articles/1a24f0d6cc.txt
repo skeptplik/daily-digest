@@ -1,0 +1,7 @@
+To display this content from YouTube, you must enable advertisement tracking and audience measurement.
+One of your browser extensions seems to be blocking the video player from loading. To watch this content, you may need to disable it on this site.
+Video contentVideo
+Asymmetric cyberwarfare: 'States increasingly use cyberattacks in support of their other objectives'
+Issued on:
+Share
+Erin Ogunkeye is pleased to welcome Rafe Pilling, Director of Threat Intelligence in the Sophos Counter Threat Unit (CTU). How can a minor cyber intrusion disrupt food supplies, expose the weaknesses of industrial infrastructure and become an instrument of geopolitical confrontation? The cyberattacks targeting supermarket refrigeration systems in France offer a revealing illustration of how digital vulnerabilities can translate into tangible economic disruption and potentially broader threats to society. As Pilling explains, “With a small amount of effort from the adversary side, they can create a large impact, in this case destroying food and producing empty shelves or empty refrigeration units in stores.” This asymmetry lies at the heart of contemporary cyber conflict, in which modest technical interventions can produce disproportionate economic and operational consequences

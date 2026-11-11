@@ -1,0 +1,17 @@
+A threat actor used the compromised IAM credentials for an AWS account associated with big-data platform Qubole to steal data from over a dozen organizations, cybersecurity researchers discovered.
+The credentials allowed the attackers to assume IAM roles organizations had set up for Qubole’s AWS account and access their AWS environments.
+Cross-account IAM roles are normal for SaaS platforms that operate within customers’ AWS environments. During onboarding, customers create a role for Qubole, and the vendor’s AWS account can assume the role when needed, typically via an External ID.
+The leaked Qubole credentials allowed the threat actor to assume this role and pull data from the AWS environments of over a dozen companies.
+“The doors the attacker used were old ones. Qubole roles were still in place long after companies had stopped using Qubole, and those roles could read nearly all of the data the attacker went after,” cybersecurity firm Sentra notes.
+The roles stayed dormant until the campaign kicked off on October 14. They were used until October 26 to enumerate resources, collect secrets and configurations, and access data.
+The attacks came from a rented OVH server and the Mullvad VPN, and none of the observed activity originated from Qubole’s network, Sentra says.
+“The threat actor used role session names that followed a consistent format of the prefix quiam-, followed by a suffix describing the actions taken. This includes session names such as quiam-enum and quiam-scope-full,” Wiz, which analyzed the campaign alongside Sentra, says.
+Following enumeration, the attackers harvested secrets from common AWS storage locations, then used TruffleHog to test the credentials. Next, the threat actor exfiltrated data from the victims’ S3 buckets.
+“The threat actor appears to have been opportunistic. Rather than looking for specific data, it read from whatever buckets each role could reach, in some cases downloading entire buckets in a single session,” Wiz says.
+The cybersecurity firm also identified an ISO file designed to be remotely booted on victim machines to harvest data, but has no evidence of its deployment.
+“Wiz has not identified any ties between this campaign and other publicly reported activity. The targeting and data theft appear opportunistic and do not match typical state-backed priorities; however, we don’t have any direct insight into the motivation of the threat actor or how they may use the stolen data,” the company says.
+Wiz also discovered a separate campaign involving Qubole integrations, active between October 8 and October 11, in which customer-owned AWS access keys were tested against victim environments, and in some cases used for compromise.
+Related: Malicious cPGuard Updates Served in OpsShield Supply Chain Attack
+Related: Malicious Claude Code Extension Served in Cursor Supply Chain Attack
+Related: LiteLLM Compromised in Fresh Supply Chain Attack
+Related: AOMEI Backupper Compromised in Short-Burst Supply Chain Campaign
