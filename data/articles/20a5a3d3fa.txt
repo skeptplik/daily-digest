@@ -1,0 +1,12 @@
+In compliance with local laws, Steam rolled out age verification in Australia two months ago. Controversially, it was based on whether you owned a credit card, which many Australians do not. Overnight, Australians stopped being able to see games that are rated R18+ in the Steam store, like Doom, if they didn't have a credit card linked to their account.
+Just as suddenly, Steam support has now updated how age verification works for Australians. Adding a credit card to your account still works, but additionally: "Steam will automatically consider your account age verified if it is at least nine years old and has had a consistent email address or billing information."
+If you've moved house in the last nine years and let Steam know about it then your billing information won't have been consistent, so I sure hope you haven't changed both your email and physical address in that time.
+Valve notes that it is aware this solution still isn't ideal for everyone: "We understand that not all Australians will be able to verify their age using our existing options. We are looking into other ways to comply with Australia's age verification rules while also limiting the data we collect and store from users."
+Other storefronts provide alternative options like ID scans and face scans via digital age assurer Yoti. The Microsoft Store also takes your email account into consideration, via VerifyMy, the same assurer YouTube uses.
+Steam sale dates: When's the next event?
+Epic Store free games: What's free right now?
+Free PC games: The best freebies you can grab
+2026 games: This year's upcoming releases
+Free Steam games: No purchase necessary
+Keep up to date with the most important stories and the best deals, as picked by the PC Gamer team.
+Jody's first computer was a Commodore 64, so he remembers having to use a code wheel to play Pool of Radiance. A former music journalist who interviewed everyone from Giorgio Moroder to Trent Reznor, Jody also co-hosted Australia's first radio show about videogames, Zed Games. He's written for Rock Paper Shotgun, The Big Issue, GamesRadar, Zam, Glixel, Five Out of Ten Magazine, and Playboy.com, whose cheques with the bunny logo made for fun conversations at the bank. Jody's first article for PC Gamer was about the audio of Alien Isolation, published in 2015. Jody edited PC Gamer Indie from 2017 to 2018, and he eventually lived up to his promise to play every Warhammer videogame.

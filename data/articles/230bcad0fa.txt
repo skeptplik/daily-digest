@@ -14,6 +14,7 @@ The company warned potentially impacted customers that the compromised informati
 The announcement emphasizes that Nitori will never ask customers for their password, credit card number, or PIN by email or in phone conversations.
 Nitori has informed Japan’s Personal Information Protection Commission, the police, and other relevant authorities, and has promised to notify affected customers directly by email or post.
 BleepingComputer has contacted Nitori with questions about the incident, and we will update this post when we get a reply.
+Update 11/11 - A Nitori spokesperson told BleepingComputer that they are currently investigating the cause, including whether ransomware was involved, and cooperate with external cybersecurity experts. The company has not yet determined the number of customers impacted.
 Adaptive Security's AI agents analyze email intent, context, and behavior to uncover phishing, business email compromise, and invoice fraud.
 See what's getting through with a 14-day read-only scan of Microsoft 365 or Google Workspace, with no MX changes.
 Start your free email security scan.

@@ -9,7 +9,7 @@ US officials believed that Alice Huang had been recruited to spy by China's top 
 Alice Huang, who is of no relation to Jensen Huang, was a top executive at Singapore-based data centre firm Megaspeed between March and November 2023. The firm had been suspected of helping divert Nvidia chips to China, a concern that Nvidia maintains was investigated and debunked.
 However, Megaspeed is under investigation by the Singapore government regarding previous allegations that the company was circumventing US sanctions on the export of Nvidia's high-end chips. The BBC has contacted Megaspeed for comment.
 The company told the New York Times last month its current leadership took the allegations seriously and had appointed external legal advisers to conduct an internal investigation.
-Surveillance reportedly revealed communications between Alice Huang and an American citizen, who was subsequently identified as Jensen Huang through a process known as "unmasking".
+Surveillance reportedly revealed communications between Alice Huang and an American citizen, who was subsequently identified as Jensen Huang.
 It remains unclear what, if any, intelligence Alice Huang â who is also known as Huang Le â allegedly gathered and passed to Beijing. She did not respond to the paper's request for comment.
 When the BBC asked Nvidia if the company was aware of intelligence concerns, the company said it was not.
 "We trust that if we were the target of a genuine threat, the US government would have notified us," an Nvidia spokesperson told the BBC.
@@ -28,7 +28,7 @@ Huang has engaged in shuttle diplomacy between Washington and Beijing, hoping to
 Sunday's revelations may explain why Jensen Huang has failed to bring home the biggest prize of all to Nvidia: the Trump administration's blessing to sell all but its most advanced chips to China.
 Who is Jensen Huang?
 Born in Taiwan in 1963, Jensen Huang was nine years old when his family moved to the West Coast of the US. He graduated as an electrical engineer from Oregon State University, and then with a master's degree in the same field from Stanford University.
-Jensen Huang then worked at US chip firm AMD before co-founding Nvidia. Known as "Daddy Huang" in Taiwan and once lauded as the "Taylor Swift of tech", he has a reputation as a workaholic and perfectionist with incredibly high standards for his staff.
+Jensen Huang then worked at US chip firm AMD before co-founding Nvidia. Known as "Daddy Huang" in Taiwan and once lauded as the "Taylor Swift of tech", he has a reputation as a workaholic with incredibly high standards for his staff.
 He has an estimated fortune of $155bn (Â£115bn), according to the Bloomberg Billionaires Index.
 "Jensen Huang is a tech visionary of the likes of Steve Jobs," Stephen Witt, the author of Thinking Machine, a biography on the Jensen Huang, told the BBC, adding that he was responsible for creating AI hardware as we know it today.
 The Nvidia co-founder has a famously close relationship with Trump. At the recent AI summit at the White House, where 42 tech executives were present, the president was flanked by Elon Musk and Jensen Huang.
@@ -45,10 +45,10 @@ What is Nvidia and how important is it?
 Founded by Jensen Huang and fellow electrical engineers Chris Malachowsky and Curtis Priem in 1993, the company was originally known for chips that process graphics, particularly for computer games.
 Eventually it changed focus to AI, a field it now dominates.
 Jensen Huang rescued Nvidia from bankruptcy on more than one occasion, and took risks on AI a long time before the rest of the world did, effectively building the infrastructure from scratch.
-"Today when we think of that, we think of these giant data centres - none of that existed. There were no customers for the stuff he was building. In fact his first customer was Open AI at the time they had 30 people - he actually gave it to them, he donated it to them," Witt told the BBC.
-Every notable tech company building AI tools and infrastructure, including Amazon, Meta, Google, and Microsoft, now use Nvidia chips.
+Huang bet on AI at a time when "there were no customers for the stuff he was building", Witt told the BBC.
+Every notable tech company building AI tools and infrastructure like Amazon, Google and Microsoft now use Nvidia chips.
 Currently worth about $4tn, Nvidia is one of the most valuable companies in the world.
-For now, the firm's board appears to have little appetite for removing Jensen Huang, saying in a statement on Sunday that they have "confidence in Jensen and his leadership team".
+For now, the firm's board appears unlikely to remove Jensen Huang, saying on Sunday they have "confidence in Jensen and his leadership team".
 Sources tell the BBC his removal is unlikely because there is so much money at stake.
 There is no public succession plan for the 63-year-old. He has often said he hopes to continue in the role for decades, and Bloomberg reports he has created an informal leadership structure around him unlike a traditional company's hierarchy.
 His children, Spencer and Madison, and son-in-law Nico Caprez work at Nvidia in senior roles.

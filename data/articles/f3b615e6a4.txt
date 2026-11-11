@@ -1,0 +1,7 @@
+A Japanese research team has identified a cell-surface receptor protein that binds to the rubella virus and allows it to enter human airways and placental cells.
+According to the team of the Japan Institute for Health Security, Tohoku University and other institutions, the protein, Nectin-4, typically helps cells adhere to one another. It is also recognized as a receptor for the measles virus.
+Although vaccines for rubella are widely available, identifying the main receptor for the rubella virus will hopefully aid the development of antiviral drugs and infection prevention methods.
+Rubella spreads through respiratory droplets or direct contact, with primary symptoms including fever, rash and swollen lymph nodes.
+If the virus is transmitted from an infected pregnant woman to her unborn child, it can lead to congenital rubella syndrome, resulting in hearing loss, cataracts and heart diseases in affected children.
+The team identified the protein by narrowing down its list of candidate receptors through genetic manipulation using a rubella pseudovirus and human cultured cells. Nectin-4 was confirmed in human respiratory epithelial cells and fetal-side placental cells.
+The team’s findings were published in an online edition of British science journal Nature.
