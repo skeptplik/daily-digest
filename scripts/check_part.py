@@ -4,7 +4,7 @@
 Печатает короткий список ошибок или «OK ...». Субагенту не нужно писать свои проверки и скрипты сборки:
 достаточно записать JSON одной командой записи и запустить этот скрипт.
 Проверяет: JSON, лимиты длины (title 110, summary 280, why 120), число абзацев (основные 5-12, мелкие 2-5, если есть body),
-ссылки sources есть в /tmp/topics/<id>.json, importance 1-2, число мелких (4-8) и основных (до 5).
+ссылки sources есть в /tmp/topics/<id>.json, importance 1-2, число мелких (ровно 4, если материала хватает; больше 4 ошибка) и основных (до 5).
 """
 import json
 import sys
@@ -67,8 +67,8 @@ for n, i in enumerate(items):
             warn.append(f"{name}: абзацев {len(body)} (ожидалось {lo}-{hi})")
 if main > 5:
     err.append(f"основных {main} > 5")
-if minor > 8:
-    err.append(f"мелких {minor} > 8")
+if minor > 4:  # решение владельца: не больше 4 мелких на тему (routine_prompt.md, assemble.py, validate.py)
+    err.append(f"мелких {minor} > 4: оставь 4 самых интересных, остальные убери")
 if minor < 4:
     warn.append(f"мелких {minor} < 4: добери подходящие из файла темы или объясни в skipped")
 for c in d.get("curious_candidates") or []:

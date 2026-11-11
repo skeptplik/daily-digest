@@ -19,7 +19,8 @@ from pathlib import Path
 
 TOPICS = ["ai", "health", "science", "space", "politics", "tech", "dev", "games", "fashion", "security"]
 SERVICE = {"independent", "note", "skipped", "demo"}
-MIN_MINOR = 4  # правило routine_prompt.md: в теме не меньше 4 мелких, если материала хватает
+MIN_MINOR = 4  # правило routine_prompt.md: 4 мелких, если материала хватает (только пометка, добора субагентом нет)
+MAX_MINOR = 4  # и не больше 4 (решение владельца 11 ноября); лишние мелкие сборка отбрасывает с конца
 
 
 def load(parts: Path, tid: str):
@@ -86,7 +87,8 @@ def main() -> int:
     for tid, d in data.items():
         items = d.get("items") or []
         minor = sum(1 for n, i in enumerate(items) if i.get("minor") and (tid, str(n)) not in drop)
-        flag = "  <-- МЕНЬШЕ 4 МЕЛКИХ" if minor < MIN_MINOR else ""
+        flag = ("  <-- МЕНЬШЕ 4 МЕЛКИХ" if minor < MIN_MINOR else
+                f"  <-- БОЛЬШЕ {MAX_MINOR} МЕЛКИХ: при сборке останутся первые {MAX_MINOR}" if minor > MAX_MINOR else "")
         print(f"[{tid}] (с учётом --drop) мелких {minor}{flag}")
         for n, i in enumerate(items):
             srcs = len(i.get("sources") or [])
@@ -109,7 +111,7 @@ def main() -> int:
         print("!! нет файлов/валидного JSON для тем: " + ", ".join(missing) +
               ". Сделай эти темы сам (или запиши {\"topic\": \"<id>\", \"items\": [], \"skipped\": \"почему пусто\"}, если материала правда нет) и повтори сборку")
         return 2
-    topics, thin = [], []
+    topics, thin, trimmed = [], [], {}
     for tid in TOPICS:
         all_items = data[tid].get("items") or []
         items = [clean_item(i) for n, i in enumerate(all_items) if (tid, str(n)) not in drop]
@@ -118,7 +120,14 @@ def main() -> int:
         if after < MIN_MINOR and after < before:  # тему обеднил именно --drop
             thin.append(tid)
             print(f"внимание: после --drop в теме {tid} мелких {after} (было {before}, нужно от {MIN_MINOR}): "
-                  "если в /tmp/topics/<тема>.json есть подходящие заголовки, добери мелкие и собери заново, иначе назови причину в отчёте")
+                  "если в обзоре у темы есть мелкие, которые --drop убрал не как дубль, верни их и собери заново; "
+                  "отдельный добор субагентом не нужен, назови тему в отчёте")
+        if after > MAX_MINOR:  # потолок мелких: оставляем первые MAX_MINOR в порядке субагента
+            extra = [i for i in items if i.get("minor")][MAX_MINOR:]
+            items = [i for i in items if not any(i is x for x in extra)]
+            trimmed[tid] = len(extra)
+            print(f"внимание: в теме {tid} мелких {after}, оставлены первые {MAX_MINOR}, убрано {len(extra)}: "
+                  + "; ".join(str(x.get('title', ''))[:50] for x in extra))
         items.sort(key=lambda i: bool(i.get("minor")))  # основные первыми; порядок внутри сохраняется
         if not items:  # тема без материала (файл с пустым items): в итог не идёт
             print(f"внимание: тема {tid} пуста, пропущена ({str(data[tid].get('skipped') or 'без объяснения')[:120]})")
@@ -164,6 +173,8 @@ def main() -> int:
         "missing_topics": [t for t in TOPICS if t not in data],
         "thin_after_drop": thin,
     }
+    if trimmed:  # мелкие сверх MAX_MINOR: субагент написал лишнее (расход впустую)
+        metrics["trimmed_minor"] = trimmed
     print("METRICS " + json.dumps(metrics, ensure_ascii=False))
     return 0
 

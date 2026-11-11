@@ -369,8 +369,8 @@ def norm_sources(it, trusted, primary):
 
 HOT_MIN_OUTLETS = 3   # столько независимых изданий нужно событию для 🔥
 HOT_SURE_OUTLETS = 4  # при таком охвате 🔥 ставится независимо от оценки ИИ
-HOT_MAX = 5           # не больше стольких 🔥 за день
-TOPIC_WEIGHT = {"politics": 1.5}   # мировые события при отборе 🔥 весят больше узких тем
+HOT_MAX = 10          # общий потолок 🔥 за день (по одной на тему, тем 10)
+HOT_PER_TOPIC = 1     # 🔥 = главное ВНУТРИ темы: не больше одного на тему
 
 
 # live-ленты в старом сырье без поля roundup (новое сырьё помечает их и рассылки в collect.py).
@@ -446,8 +446,9 @@ def main():
             # группы источников складываются: русская и английская группы одного события часто раздельны
             # (7 ноября угрозы минирования: g32 по-русски + g5 по-английски = 6 изданий). Ошибочные
             # межъязыковые склейки отсекает load_reach.
-            for x in sources:
-                reach |= group_outlets.get(link_group.get(x["url"]), set())
+            groups = {link_group[x["url"]] for x in sources if x["url"] in link_group}
+            for g in groups:
+                reach |= group_outlets.get(g, set())
             indep = max(len(reach), min(indep, 1))
             try:
                 imp = max(1, min(3, int(it.get("importance", 1))))
@@ -481,20 +482,38 @@ def main():
                 "img": None,
                 "photos": [],
                 "_topic": topic,
+                "_groups": groups,
+                "_pos": len(topic["items"]),  # место, которое дал субагент темы
             })
         if topic["items"]:
             topics.append(topic)
     order = list(TOPICS)
     # важность считает скрипт по охвату: 🔥 только событию, о котором писали
     # HOT_MIN_OUTLETS+ независимых изданий и которое ИИ не счёл мелочью (llm >= 2);
-    # из них не больше HOT_MAX с самым большим охватом. ИИ может лишь снять 🔥.
+    # из них в каждой теме один (HOT_PER_TOPIC): сначала с оценкой ИИ 2, среди них с большим охватом;
+    # общий потолок HOT_MAX. Решение владельца 11 ноября: «главное» считается внутри темы.
     pool = [i for t in topics for i in t["items"] if not i["minor"]]
-    tw = {id(i): TOPIC_WEIGHT.get(t["id"], 1) for t in topics for i in t["items"]}
     # при охвате HOT_SURE_OUTLETS+ изданий оценка ИИ не нужна: событие, о котором написали столько
     # независимых изданий, значимо само по себе (оценка ИИ шумит и иногда занижает самое крупное)
-    cand_hot = sorted((i for i in pool if i["indep"] >= HOT_MIN_OUTLETS and (i["llm"] >= 2 or i["indep"] >= HOT_SURE_OUTLETS)),
-                      key=lambda i: (-i["indep"] * tw[id(i)], -i["llm"]))
-    hot_ids = {id(i) for i in cand_hot[:HOT_MAX]}
+    # «Любопытное» в отбор 🔥 не идёт: там курьёзы с importance 1 (9 ноября шутка Трампа с охватом 5 была претендентом)
+    cand_hot = sorted((i for i in pool if i["_topic"]["id"] != "curious"
+                       and i["indep"] >= HOT_MIN_OUTLETS and (i["llm"] >= 2 or i["indep"] >= HOT_SURE_OUTLETS)),
+                      # охват только допускает к 🔥, а выбирает субагент темы: сначала его оценка 2, затем его порядок.
+                      # Внутренняя политика США получает от него 1 и место ниже (routine_prompt.md, раздел 3) и не
+                      # забирает 🔥 у России/Украины только потому, что о ней пишут все (11 ноября Хегсет 6 > Абу-Даби 5)
+                      key=lambda i: (i["llm"] < 2, i["_pos"]))
+    # одно событие (группа candidates.json) = один 🔥: иначе несколько новостей одной группы с одинаковым
+    # охватом занимают весь потолок (5 ноября все 5 🔥 из одной группы выборов в США, охват 25)
+    hot_ids, hot_groups, per_topic = set(), set(), {}
+    for i in cand_hot:
+        if len(hot_ids) >= HOT_MAX:
+            break
+        tid = i["_topic"]["id"]
+        if i["_groups"] & hot_groups or per_topic.get(tid, 0) >= HOT_PER_TOPIC:
+            continue
+        hot_ids.add(id(i))
+        hot_groups |= i["_groups"]
+        per_topic[tid] = per_topic.get(tid, 0) + 1
     for i in pool:
         if id(i) in hot_ids:
             i["importance"] = 3
@@ -506,16 +525,16 @@ def main():
         for i in t["items"]:
             if i["minor"]:
                 i["importance"] = min(i["importance"], 2) if i["indep"] >= 2 else 1
-    # внутри темы: сначала основные, выше те, у кого важнее и больше охват
+    # внутри темы порядок субагента (он ранжирует по значимости для темы), основные перед мелкими;
+    # ни охват, ни 🔥 его не меняют: охват выше у политики США и общих событий
     for t in topics:
-        t["items"].sort(key=lambda i: (i["minor"], -i["importance"], -i["indep"], -i["llm"]))
+        t["items"].sort(key=lambda i: i["minor"])
 
-    # темы: чем важнее новости, тем выше тема; «Любопытное» всегда последняя;
-    # при равенстве работает привычный порядок тем
+    # темы: постоянный порядок (ai, health, science, ...), «Любопытное» последняя;
+    # раньше тема с 🔥 шла выше, и «Политика» стояла первой 8 дней из 8
     def topic_rank(t):
-        imps = [i["importance"] for i in t["items"]]
         pos = order.index(t["id"]) if t["id"] in order else 99
-        return (t["id"] == "curious", -max(imps), -sum(imps), pos)
+        return (t["id"] == "curious", pos)
 
     topics.sort(key=topic_rank)
     all_items = [it for t in topics for it in t["items"]]
@@ -550,6 +569,8 @@ def main():
 
     for it in all_items:
         it.pop("_topic", None)
+        it.pop("_groups", None)
+        it.pop("_pos", None)
         it.pop("image", None)
         it.pop("_cover_url", None)
 

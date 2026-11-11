@@ -96,8 +96,8 @@ for t in d["topics"]:
     minor_n = len(items) - main_n
     if main_n > 5:  # в check_part.py это ошибка (субагент исправит), здесь только предупреждение
         warns.append(f"тема {tid}: {main_n} основных новостей (в промпте не больше 5)")
-    if minor_n > 8:
-        warns.append(f"тема {tid}: {minor_n} мелких плиток (в промпте не больше 8)")
+    if minor_n > 4:  # предупреждение, не ошибка: лишние мелкие не повод срывать публикацию
+        warns.append(f"тема {tid}: {minor_n} мелких плиток (в промпте не больше 4)")
     for n, it in enumerate(items, 1):
         where = f"{tid}#{n}"
         total += 1
