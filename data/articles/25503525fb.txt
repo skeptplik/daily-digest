@@ -1,0 +1,18 @@
+Dagster: Open-source cloud-native data pipeline orchestrator
+Dagster is an open source orchestrator for data pipelines. It decides what runs, in what order, and when. It also tracks how the tables, datasets, machine learning models, and reports it manages connect to the data they came from.
+When a source table goes bad, the tables built from it carry the problem forward. Dagster’s lineage graph shows which ones sit downstream, and that list is the starting point for fixing a broken dashboard or model.
+You describe the data, Dagster runs it
+In Dagster, each piece of data is an asset, defined as a Python function with the @dg.asset decorator. The function’s parameters name the assets it depends on. Dagster reads those dependencies, builds the graph, and draws it in a web UI. The project’s own example chains three assets: country population figures, a model of how continents are changing, and a set of continent statistics built from both.
+Installation takes one command:
+uv add dagster dagster-webserver dagster-dg-cli
+Dagster supports Python 3.9 through 3.14. The project also keeps a library of integrations for common data tools, dbt among them.
+Checks that can block a run
+Asset checks are data quality tests written in code next to the asset they cover. A check might confirm that a column holds no null values. Teams that already write dbt tests can load them into Dagster as asset checks. The UI lists every check on an asset and shows whether it passed, failed, or hasn’t run yet.
+You can also mark a check as blocking. If a blocking check fails, Dagster holds back materialization of the assets downstream, so a broken table doesn’t get used to build the next one. Schedules and sensors can run assets and their checks automatically.
+Backfills, one run or many
+Partitions split an asset into slices, such as one per day. When slices are missing or need rebuilding, Dagster runs a backfill. By default, a backfill launches one run per partition. Ask for 100 days of history and you get 100 runs.
+A backfill policy can fold that into a single run over the whole range, such as one Snowflake query. Dagster still records each partition as filled. The policy only applies to backfills launched from the asset graph or an asset page. Backfills started from a job page ignore it.
+Dagster is available for free on GitHub.
+Must read:
+- 20 open-source cybersecurity tools to keep your team ready for anything
+- GitHub CISO on security strategy and collaborating with the open-source community

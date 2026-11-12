@@ -1,5 +1,3 @@
-Nvidia board reportedly meeting to decide CEO Jensen Huang’s future as chip giant’s share price plunges – follow live
-Huang’s potential departure would leave a leadership vacuum at the roughly $4tn chipmaker he co-founded, with Nvidia’s shares sliding about 8% in after-hours trading
 Jensen Huang's future rests in the balance as Nvidia board reportedly meet
 Nvidia’s board is meeting to decide whether to oust CEO Jensen Huang, a source familiar with the matter told the Reuters news agency, as the world’s dominant supplier of AI processors grapples with reports of two extramarital affairs involving its longtime leader.
 The reports mark a sharp escalation in a controversy that began with revelations about Huang’s relationship with Alice Huang, a woman US intelligence has said was involved in facilitating shipments of Nvidia chips to Chinese firms.
@@ -7,32 +5,67 @@ In a memo to employees on Sunday, Huang acknowledged being unfaithful to his wif
 Huang, 63, has no obvious successor and owns about 3.6% of Nvidia’s stock. He also has dozens of direct reports, underscoring the tight control he maintains over the company.
 The company’s shares slid about 8% in after-hours trading after the Wall Street Journal first reported that Nvidia was preparing to oust Huang. Including Wednesday’s after-hours selloff, Nvidia has lost about $600bn in stock market value this week since the board announced its investigation into his relationship with a Chinese businesswoman.
 Earlier in the day, the New York Times reported that Huang had also had an extramarital affair with a company executive who reported to him.
-Reports that Nvidia’s board is weighing Jensen Huang’s future at the company mark a dramatic escalation in events that began last week, when it was revealed that the CEO had been engaged in an affair with an alleged Chinese spy who was involved in facilitating shipments of Nvidia chips to Chinese firms.
-The chip mogul is alleged to have had a relationship with Alice Huang, a businesswoman that US intelligence services suspect of spying for the Chinese government.
-US intelligence agencies believe Alice Huang, acting on behalf of Beijing, pushed Jensen Huang to lobby Trump for relaxed export controls on Nvidia’s sales in China, which he has done multiple times publicly. Nvidia said in a statement that neither trade secrets nor US national security had been compromised.
-The affair and alleged intelligence operation involving Huang could have far reaching implications for Nvidia and the tech industry, which are already enduring a period of high market volatility. Huang’s leadership of Nvidia, which is deeply financially intertwined with other leading tech companies like OpenAI, has long been viewed as crucial to the company’s success and stability.
-Huang’s defenders framed his affair as a personal lapse in judgment rather than evidence of treachery against the US, which has imposed strict limits on what chips Nvidia can sell to China.
-Huang, who has been married to his wife, Lori, since 1985, admitted in an email to employees on Sunday that he had an affair and that he would cooperate with an internal investigation. Nvidia’s board of directors put out a statement the same day that the company was launching a probe regarding reports that Huang was the target of a foreign intelligence effort.
-The probe is being overseen by independent directors with outside legal counsel. At the time it was announced, the board expressed confidence in Huang.
-Donald Trump has said he had not discussed the allegations with Huang but voiced support for the Nvidia chief, calling him “an honourable guy” who had “done an amazing job for our country.”
-Nvidia share price plunges 8% in after-hours trade
-Nvidia’s shares plunged in after-hours trading on news that its board may oust longtime CEO Jensen Huang, with the chipmaker losing about $600bn in stock market value this week since the board announced its investigation into his relationship with a Chinese businesswoman.
-Shares in Nvidia slid more than 8% after close of trade.
-Strategists said investors were still digesting the implications of the midterm elections, which resulted in Democrats taking control of Congress, but also now, the news surrounding Nvidia.
-Jensen Huang “was the one who led the marvelous rise of Nvidia,” said Bruce Zaro, managing director at Granite Wealth Management in Plymouth, Massachusetts. “I guess the question would be, can someone step up if Jensen has to resign or is forced out?“
-“It looks bad from every single angle,” said Jake Dollarhide, chief executive officer at Longbow Asset Management in Tulsa, Oklahoma.
-“I believe the board won’t oust him until they have an all-star, a known entity in the tech sector, to replace him,” said Jake Dollarhide, chief executive officer at Longbow Asset Management in Tulsa, Oklahoma.
-At the end of the day, let’s not forget that the Nvidia chip is the centrepiece of the AI story.“
-Analysts have suggested that with no obvious successor, the Nvidia board has a difficult decision to make on whether to remove Jensen Huang as CEO.
-“Huang being removed immediately could be challenging for Nvidia since it does not have a succession plan in place,” Gil Luria, head of technology research at DA Davidson, said.
-Huang’s potential departure would leave a leadership vacuum at the roughly $4tn chipmaker he co-founded and built over more than three decades to become the top supplier of AI chips at the center of the global artificial-intelligence boom and US-China technology rivalry.
-Investors and analysts said while demand for Nvidia’s chips would be unlikely to drop in the near term, the broader universe of companies backed by the company might suffer.
-“Nvidia is also at the centre of the circular financing which is providing capital to the investment boom,” said Nick Ferres, chief investment officer at Vantage Point Asset Management in Singapore.
-They are financing their customers. In these types of booms or bubbles, sometimes all it takes is a slowdown to shift it into the bust phase.”
-Jensen Huang's future rests in the balance as Nvidia board reportedly meet
-Nvidia’s board is meeting to decide whether to oust CEO Jensen Huang, a source familiar with the matter told the Reuters news agency, as the world’s dominant supplier of AI processors grapples with reports of two extramarital affairs involving its longtime leader.
-The reports mark a sharp escalation in a controversy that began with revelations about Huang’s relationship with Alice Huang, a woman US intelligence has said was involved in facilitating shipments of Nvidia chips to Chinese firms.
-In a memo to employees on Sunday, Huang acknowledged being unfaithful to his wife and took “full responsibility,” but gave no details about the relationship.
-Huang, 63, has no obvious successor and owns about 3.6% of Nvidia’s stock. He also has dozens of direct reports, underscoring the tight control he maintains over the company.
-The company’s shares slid about 8% in after-hours trading after the Wall Street Journal first reported that Nvidia was preparing to oust Huang. Including Wednesday’s after-hours selloff, Nvidia has lost about $600bn in stock market value this week since the board announced its investigation into his relationship with a Chinese businesswoman.
-Earlier in the day, the New York Times reported that Huang had also had an extramarital affair with a company executive who reported to him.
+Nvidia shares have fallen nearly 6% in Frankfurt, after reports that its board has met to decide whether to oust its longtime chief executiveJensen Huang.
+However, European shares hit a record high, lifted by strong financial results from companies for the third quarter, and the recent sharp drop in energy prices. Germany’s Dax also reached a new all-time high, climbing more than 1% in early trading.
+While Brent crude is up slightly today at $93.27 a barrel, 0.55% higher on the day, it’s well off the highs seen in recent weeks above $100 a barrel.
+The Stoxx 600 index rose 0.3% to hit a fresh all-time high, beating its previous record set in August.
+In London, the FTSE 100 index is 28 points ahead at 10,863, up 0.26%.
+Who could potentially replace Jensen Huang if Nvidia ousts him?
+Jonathan Yerushalmy
+Jensen Huang has led Nvidia since it was founded in 1993, but with the CEO now unexpectedly on the backfoot, and with no known successor in the wings, the field is wide open should the board decide to oust Huang.
+Agence France-Presse has looked at some of the names being suggested most frequently as Huang’s potential successor.
+Internal hire
+With more than 40,000 employees, Nvidia could opt to go with an in-house pick to take the helm, including one of Huang’s dozens of direct reports.
+Tech publications frequently cited Nvidia’s chief financial officer Colette Kress as an easy choice. Another longtime Nvidia executive is Ian Buck, who oversees the company’s datacentre clients.
+Business magazine Inc. also lists Nvidia’s vice-president of applied deep learning research, Bryan Catanzano, as a possible pick.
+A family affair
+Huang could also try to position a member of his own family as his replacement. His daughter Madison Huang is currently the senior director of product marketing at Nvidia and is among the names most suggested by analysts.
+His son Spencer Huang could also be a potential successor. He currently works at Nvidia as the director of product management in the company’s robotics division.
+Huang’s cousin, Lisa Su, could also be a viable candidate for selection; she is the longtime CEO of semiconductor giant AMD.
+Tech CEO swap
+Su is not the only tech chief being bandied around as a possible replacement for Huang.
+Rene Haas, CEO of UK chip design firm Arm, is another candidate being suggested by the tech press.
+Speculation runs wide in Silicon Valley: former Apple CEO Tim Cook – who stepped down from leading the tech company in August after 15 years at the helm – is another person insiders say could be tapped.
+Nvidia shares plunge nearly 9% in pre-market trading, reverberating across Asian markets
+Global stocks are in decline, as a near-9% plunge in Nvidia shares in extended trading sent waves across Asian markets, on news that its board may oust longtime CEO Jensen Huang.
+Nvidia shares fell as much as 8.8% in pre-market trading in New York, wiping another $360bn off the company’s value. That takes losses this week to $640bn, a 14% decline.
+Asian stock markets are a sea of red. Japan’s Nikkei is down 0.7%, Hong Kong’s Hang Seng lost 1.3% and South Korea’s Kospi fell nearly 0.6%, while Taiwan’s benchmark index tumbled 2.6%.
+In China, the Shenzhen Composite slid 1.6% and the CSI 300 dropped 0.87%.
+Charu Chanana, chief investment strategist at Saxo Bank in Singapore, said:
+Nvidia sits at the centre of an increasingly interconnected AI ecosystem. Its turmoil comes when financing, hyperscaler capex, valuations and returns on AI investment were already under scrutiny.
+Nvidia’s board reportedly met late Wednesday to decide whether to oust Huang, after he admitted to an affair with suspected Chinese spy Alice Huang. Beijing has rejected the spying allegations.
+Jake Dollarhide, chief executive at Longbow Asset Management in Tulsa, Oklahoma, told Reuters:
+It looks bad from every single angle. I believe the board won’t oust him until they have an all-star, a known entity in the tech sector, to replace him.
+At the end of the day, let’s not forget that the Nvidia chip is the centrepiece of the AI story.
+It’s not yet clear who might replace Huang as CEO. In the meantime, Chinese domestic GPU makers surged on Thursday amid expectations that Nvidia’s troubles could help local chip suppliers win greater market share.
+Chinese AI firms are reportedly rushing to secure Nvidia chip capacity, fearing that the US could cut them off in the wake of the scandal.
+A Chinese university with close ties to the country’s defence bodies recently bought advanced AI chips made by Nvidia, procurement notices show, despite stringent US controls.
+Agence France-Presse reported that Northwestern Polytechnical University in the city of Xi’an purchased two Nvidia H200 chips from Shaanxi Bosuan Network Technology – not Nvidia directly – for $131,200), according to a procurement notice dated 21 October.
+H200 chips are subject to US export controls that limit direct shipments to China and apply certain restrictions on their resale globally.
+The spotlight is already on Nvidia’s relationship with China this week after the news of Jensen Huang’s extramarital affair with a woman accused of spying for Beijing.
+China and the United States are locked in a fierce competition for supremacy in the AI field, and Nvidia’s market-leading products have become a major point of contention.
+SpaceX and Tesla CEO Elon Musk has said that it would “be an honour” to hire Jensen Huang, in a response to a poster making the suggestion on X.
+Musk has been among the more prominent supporters of the embattled Nvidia CEO, after it was revealed he was facing an internal investigation over a romantic relationship with an alleged Chinese spy.
+On Wednesday he indicated that he agreed with a suggestion from AI investor Gavin Baker that Nvidia’s board should “wait for the results of the investigation before ousting Jensen.”
+More now on the call from two Democratic Senators for the Trump administration to preserve all documents tied to Nvidia’s chip exports to China.
+As first reported by the Wall Street Journal, Elizabeth Warren and Chris Coons wrote in a letter to commerce secretary Howard Lutnick, secretary of state Marco Rubio and White House chief of staff Stephen Miller:
+This incident raises significant concerns about the federal government’s ability to effectively enforce our export controls and protect our national security.”
+Questions also remain regarding whether or not prudent defensive counter-intelligence action was taken or national security recommendations were overruled.”
+Warren and Coons also requested a congressional briefing on the national security risks posed by the suspected intelligence operation.
+Nvidia CEO Jensen Huang has been one of the poster boys for the AI revolution, because his company’s chips are essential for the technology. But the $4tn company had more humble beginnings.
+Huang was born in Taiwan and then spent some time in Thailand because his father moved the family there for work. His parents then sent him to live with an uncle in the US when he was 9, along with his older brother. Huang’s parents later came to the US and the family reunited in Oregon, where he attended high school, graduating early after skipping two grades.
+At Oregon State University, Huang studied electrical engineering in a class that had about 250 students, only three of whom were women, including his future wife, Lori, who was on his lab team.
+The couple went on to work as chip designers in Silicon Valley, with Huang earning his graduate degree from Stanford University in 1992.
+Nvidia got its start when three engineers – Huang, Chris Malachowsky and Curtis Priem – gathered in 1993 at a Denny’s diner in San Jose, California, in what is now the heart of Silicon Valley.
+Huang worked at a Denny’s restaurant when he was young and has spoken about how working there helped him overcome his shyness and to learn the value of hard work. On his LinkedIn profile he lists only two work experiences – as Nvidia’s founder and CEO, and as a dishwasher, busboy and waiter at Denny’s.
+At that first meeting, the three men discussed building a computer chip that would make graphics for video games faster and more realistic. That conversation, and ones that followed, led to the founding of Nvidia.
+Nvidia’s specialised graphics processing units (GPUs) were designed to rapidly process computer graphics for video games, but are now also widely used to power the booming spread of artificial intelligence systems.
+Huang is now one of the world’s wealthiest people, with a personal fortune that Forbes estimates at more than $150bn.
+Alice Huang – the woman accused of spying for Beijing during an affair with Jensen Huang – visited Taiwan a total of eight times in 2024 and 2025, a Taiwanese government minister said Thursday.
+Chiu Chui-cheng, the Mainland Affairs Council (MAC) minister, made the remarks in parliament in response to lawmakers’ questions about a New York Times report that the US had advised Taiwan as early as 2024 to monitor her movements.
+Taiwan, a dominant player in the global semiconductor industry, sits at the centre of strategic competition between the US and China, which claims the self-ruled island as part of its territory.
+Huang has admitted to having an extramarital affair, reportedly with Alice Huang, a former executive at Singapore-based Megaspeed who US officials believe was working for Chinese intelligence. Beijing has rejected the spying allegations.
+Alice Huang, who is also known as Huang Le, used a Hong Kong passport to enter Taiwan “under a standard business visitor status” and there were “no special flags” about her at the time, Chiu said.
+“At least we at the Mainland Affairs Council did not receive any relevant information,” Chiu said.
+If we had, we definitely would have stepped up our entry screening and border flow management. If we had any of the kind of critical intelligence … we would have definitely flagged her for heightened review,” Chiu said.
+The government has said Taiwan’s security agencies are investigating the incident.

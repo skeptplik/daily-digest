@@ -13,6 +13,8 @@ The AntiFox findings follow recent attacks involving ARTEX AI, another agentic p
 CrowdStrike also linked ARTEX to a cyberespionage campaign in which the Chinese hacking group Vapor Panda targeted more than 200 organizations across 14 countries.
 For now, AntiFox remains available on GitHub, where it has been updated to version 2.0, which improves how the tool documents and reports findings.
 Its publishers prohibit using the tool against live systems, in real-world penetration tests or security exercises, or for destructive or illegal activity, but they do not describe any technical controls that enforce those restrictions.
+Update 12/11 - An Amazon spokesperson sent BleepingComputer the following statement about the above:
+"AWS services were not compromised and operated as designed. The research describes threat actors using credentials taken from customers’ compromised applications to access their AWS accounts. As always, we recommend all customers follow security, identity, and compliance best practices, including granting least-privilege permissions, requiring IMDSv2 on EC2 instances, keeping long-term access keys out of application configurations, and turning on Amazon GuardDuty. Customers who suspect unauthorized activity in their accounts should follow guidance for remediating potentially compromised credentials or contact AWS Support." - Amazon spokesperson
 Adaptive Security's AI agents analyze email intent, context, and behavior to uncover phishing, business email compromise, and invoice fraud.
 See what's getting through with a 14-day read-only scan of Microsoft 365 or Google Workspace, with no MX changes.
 Start your free email security scan.
