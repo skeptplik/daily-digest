@@ -1,0 +1,22 @@
+AWS Emulator: Open-source tool for testing AWS apps locally, built by autonomous AI agents
+Amazon Web Services has released AWS Emulator, a free tool that simulates AWS services on a developer’s laptop, a development server or in a continuous integration (CI) pipeline. The company says autonomous AI agents wrote the tool entirely, with no code written or reviewed by its engineers. There is no additional service fee, users pay for AWS resources when they deploy applications on AWS.
+How three teams of AI agents build AWS Emulator
+Three teams of AI agents build and improve AWS Emulator, each with a specific role. AWS says agents perform better when given specific, well-defined tasks.
+“The emulator was written entirely by autonomous agents. Our team hasn’t written or reviewed any of the code. We could do this because the guardrails we’ve put in place gave the agents space to work independently and us the trust that they don’t color outside these lines,” Matthew Goldberg, a senior principal engineer at AWS, explained.
+A graphic showing how teams of AI agents work together to run tests and solve issues. (Source: AWS)
+The first team creates tests from publicly available AWS API specifications and verifies them against real AWS services. The tests cover actions such as creating a message queue, sending and receiving a message, and deleting the queue. The growing collection contains tens of thousands of tests that can be replayed without contacting AWS again.
+The second team runs those tests against the emulator to identify differences between its behavior and that of AWS. It reports failures and groups problems that appear to share an underlying cause.
+The third team fixes the reported issues, with each agent responsible for one problem. Before a change enters the main codebase, it must pass build checks and reviews by other agents for coding standards, security and fidelity. Changes that fail any of these checks go back for revision.
+AWS says hundreds of agents work on the code simultaneously, fixing thousands of issues each day. The checks help maintain code quality as the agents make changes.
+Local testing, CI and AI-assisted prototyping
+There are four ways to get started with AWS Emulator. Through an AI coding agent, a Linux package, Docker or embedded mode. Each has its own prerequisites. The Linux package runs as a local process, while Docker supports Windows, macOS and Linux. Embedded mode runs the emulator inside a Rust test process.
+Developers can use the emulator to test how their code interacts with AWS services, including calls across services, on their own machines. They can run integration tests in a CI pipeline without an AWS account or resources, or prototype applications locally with AI coding agents before deploying them on AWS.
+Limitations, telemetry and source code
+AWS Emulator is not intended for production workloads. It does not evaluate AWS Identity and Access Management (IAM) or resource-based policies as AWS does, so it should not be used to test security.
+The documentation advises using one region and one account for all requests to an emulator instance because it does not keep resources separate by region or account. Its fidelity varies by service and feature. AWS checks behavior against AWS in US West (Oregon), except for global services, which it checks in US East (N. Virginia).
+All emulated resources are stored in memory and disappear when the emulator stops. AWS has not tested the tool for long-running use or load testing.
+By default, the emulator sends anonymous usage and error data to AWS, though users can disable this reporting. It does not send requests, responses or resource data to AWS.
+The source code and fidelity tests are available on GitHub. AWS has released the emulator under the CC0 public-domain dedication. The code repository contains every issue filed by the agents, organized into fixed and unresolved folders. AWS says it publishes per-service fidelity scores with each release.
+Must read:
+- 20 open-source cybersecurity tools to keep your team ready for anything
+- GitHub CISO on security strategy and collaborating with the open-source community

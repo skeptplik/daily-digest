@@ -1,0 +1,16 @@
+A threat actor has compromised hundreds of endpoints across dozens of ConnectWise ScreenConnect customers in a fresh campaign, cybersecurity outfit Huntress reports.
+The attacks were observed on November 11, when the hackers abused their unauthorized access to cloud-hosted ScreenConnect panels to run commands on managed endpoints.
+According to Huntress, the campaign compromised at least 6 MSPs and 288 hosts across 48 organizations. The attackers hit all 288 compromised hosts within 90 minutes.
+The attackers’ commands deployed rogue ScreenConnect clients and a malware toolkit called SCKit that provides persistent backdoor access, intercepts session cookies, and can self-replicate.
+Initially deployed via ScreenConnect panels, it waits for a technician to connect to the compromised endpoint to infect their workstation. Next, attempts to compromise other sessions the technician has access to and spread itself to other panels.
+“However, not all functionality has been observed during observed incidents; some functionality has been discovered through analyzing the payloads,” Huntress says.
+As part of the attacks, the hackers exploited a vulnerability in RMM+, a third-party extension for managing ScreenConnect sessions that uses a shared access key to bypass ScreenConnect’s authentication mechanism.
+The hackers likely exploited a bug in the extension’s versions 1.0.31 and 1.0.32, where the access key defaults to blank if not configured, thus allowing an attacker to bypass authentication with an empty value.
+“Our analysis suggests that most RMM+ installations we encountered were legitimate, usually added for a project and left in place. But versions 1.0.31 and 1.0.32 contained a serious authentication flaw: if an administrator had never configured the extension’s access key, RMM+ would accept a blank one,” Huntress says.
+The cybersecurity firm says its investigation determined that commands reached endpoints within minutes. However, there was no corresponding login activity, and the reviewed logs were linked to RMM+ instead.
+In response, ConnectWise disabled five extensions from the RMM+ family across approximately 400 ScreenConnect environments, including Labtech Plus, RMM Plus, RMM+, RMM Plus Password Link, and RMM+ Password Link.
+“Their presence alone does not establish compromise. These extensions provide an API capable of executing remote commands. Access to that API is protected by a passphrase configured by the partner during setup,” ConnectWise notes.
+Both Huntress and ConnectWise have released indicators of compromise (IoCs) associated with the campaign and recommend that organizations disable the extensions in their on-premises ScreenConnect deployments.
+Related: Hackers Target N-central Zero-Days as N-able Rushes Patches
+Related: Over a Dozen Organizations Hit in Qubole Supply Chain Attack
+Related: Critical Xen Orchestra Flaws Exploited in Attacks
