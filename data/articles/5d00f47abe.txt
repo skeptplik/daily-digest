@@ -1,0 +1,5 @@
+Zellij 0.46 released
+Version 0.46 of the Zellij terminal workspace has been released.
+This release includes a major addition in Zellij: Zellij is now also a desktop terminal. To run it: zellij terminal. It works on linux, mac and windows.
+Nothing changes for the normal multiplexer - Zellij can still run inside another terminal. Both sessions are the same and can be shared.
+Additional features in this release include a GUI settings screen, session previews, and right-click menu. See this walkthrough for more on the 0.46 release.

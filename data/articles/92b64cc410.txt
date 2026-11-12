@@ -1,6 +1,0 @@
-SpaceX announced a new version of its all-in-one satellite internet terminal that integrates a dish, Wi-Fi router, and now a battery into a single device about the size of a laptop. According to some users on X who shared screenshots of invitations to order Starlink Mini 2, the dish is priced at $999, which includes a full year of Roam Unlimited service that SpaceX values at $2,100.
-Starlink Mini 2 adds a swappable battery
-The all-in-one satellite dish can now operate for over four hours without an external power source.
-The Starlink Mini 2 will run for up to 4.5 hours on a full charge, SpaceX claims, but that can be expanded by hot-swapping in additional batteries that will be sold separately, or by connecting the dish to a 60W power source over USB-C.
-Despite the addition of an integrated battery, the Starlink Mini 2 dish is thinner than the original Mini. SpaceX has managed to slim it down to 23.1mm thick, while the previous version of the Mini was 38.5mm. The Starlink Mini 2 is slightly heavier at around 3.5 pounds as a result of the added battery weight, but carries forward an IP67 dust- and waterproof rating so it’s still safe to use outdoors.
-Preorders are now open “by invitation for select US customers,” according to the Starlink website, but “coming soon” to more customers and countries.

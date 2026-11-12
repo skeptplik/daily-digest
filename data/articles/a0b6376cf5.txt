@@ -1,0 +1,18 @@
+SpaceX signed a €60 million deal with German mechanical engineering company Singulus Technologies for the strategic supply of solar cells, giving the German company a massive price jump.
+Elon Musk signed a major order on Wednesday with a medium-sized German tech company, Singulus Technologies, to supply solar cells for his new line of satellites, Starmind.
+The €60 million major order is the first of many, according to a statement from SpaceX founder Elon Musk on X.
+Following the deal, the company's stock temporarily spiked by 65% to 80%, which valued the firm at around €73 million. A groundbreaking rise as the company's annual revenue in 2025 was only €48.3 million.
+As part of a strategic partnership, further facilities and production lines are planned to be created for a solar power production capacity of 100 gigawatts, the equivalent of the annual production of ten large nuclear reactors.
+'Next-generation solar cell technology'
+The company, based in Kahl am Main in Bavaria, manufactures "heterojunction solar cells" that are particularly suitable for space applications, according to Business Insider.
+"The strategic partnership with SpaceX allows us to further industrialise these capabilities at a meaningful scale and solidify our position as a leading Western provider of next-generation solar cell technology," Lars Lieberwirth, Member of the Executive Board of SINGULUS, said in a statement.
+"The combination of their process expertise and our long-term commitment creates a durable option for scaling solar production," said Mike Nicolls, SpaceX’s Senior Vice President of Starlink.
+Singulus develops and assembles machines used in the "Photovoltaics, Semiconductor, Medical Technology, Packaging, Glass and Automotive, as well as Battery and Hydrogen markets."
+'Sentient sun' project
+The order will supply the solar cells for the SpaceX Starmind satellites manufacturing site in Texas in early 2027.
+The Starmind project aims to produce satellites that will serve as AI data centres in space, a way to create a "sentient sun", as Musk said.
+Equipped with huge power-generating solar wings that will measure 75 meters long, the Starmind satellite constellation is intended to compute AI data in space and send it to Earth via laser, acting as a large computer.
+"By directly harnessing near-constant solar power with little operating or maintenance costs, these satellites will achieve transformative cost and energy efficiency while significantly reducing the environmental impact associated with terrestrial data centres," Elon Musk said in a filing at the Federal Communications Commission.
+Even though Musk's claim to launch 1 million satellites to orbit Earth as part of this new project is unlikely, satellite operators often request approval for a higher number to buy design flexibility.
+As of today, only 15,000 satellites exist, and Musk's Starlink constellation accounts for 9,500 of them.
+While the technology hasn't proven itself, Google has similar plans to use satellites as computing units for AI calculations, harnessing the sun to power them.

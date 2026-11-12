@@ -1,0 +1,20 @@
+Thank you for visiting nature.com. You are using a browser version with limited support for CSS. To obtain
+the best experience, we recommend you use a more up to date browser (or turn off compatibility mode in
+Internet Explorer). In the meantime, to ensure continued support, we are displaying the site without styles
+and JavaScript.
+In 2024, researchers found a new driver of inflammatory bowel disease (IBD): it was a gene called ETS2 that is overactive in immune cells due to a DNA variant that predisposes people to the condition. This variant had previously confounded researchers because it lies in a ‘gene desert’ nowhere near protein-coding sequences.
+That discovery had involved gene-editing and other sophisticated molecular biology techniques and identified potential new IBD treatments. Now, researchers at Google DeepMind in London have replicated aspects of the finding using an AI model, and they have done this without lifting a pipette. Their model is called AlphaGenome 2.
+“They’ve managed to figure out the answer in 30 minutes, and it took us a year and a half of experiments,” says James Lee, an immunologist and geneticist at the Francis Crick Institute in London who led the 2024 study. “It’s reassuring from our perspective.”
+The AlphaGenome 2 model, which was announced today, is an update to an AI tool that predicts the molecular effects of ‘non-coding’ DNA sequences, such as on the expression of other genes. These sequences comprise 98% of the human genome, but they are among the hardest to decipher. The latest model makes these predictions in hundreds of different mouse and human cell types.
+Two months ago, Google DeepMind released the AlphaGenome Atlas: these were predictions for every possible single-letter DNA change to the human genome – a total of 9 billion different variants.
+These and other predictions were made with a tool called AlphaGenome 1 and came with a major caveat: they did not specify the precise kind of cell – be it antibody-making B cells or pancreatic beta-cells – in which a variant was likely to act. “Having something that cannot predict cell type specificity is a bit of a problem, which is why it hasn’t been hugely useful for us,” says Lee.
+But researchers know that many non-coding DNA sequences – including the variant that Lee’s team mapped, which is part of a sequence called a gene enhancer – tend to be active in specific types of cells.
+“If you want to understand variants associated with genetic diseases, then you have to ask yourself what are the cell types that are affected,” says Žiga Avsec, a Google DeepMind researcher who leads the AlphaGenome team.
+100 million cells
+To develop an AI model that could decipher variant effects in diverse cells, Avsec’s team trained AlphaGenome 2 on gene activity and other measurements made in more than 100 million individual cells, across 68 tissues. AlphaGenome 1, by contrast, was fed data collected in ‘bulk’ samples of heterogeneous cells.
+The result is a richer, more fine-grained representation of the differences between cells, says Adam Gayoso, a Google DeepMind scientist and co-author of a preprint describing the model on the company’s website.
+The model also isn’t limited to making predictions in the 637 types of human and 311 mouse cells it was trained with. Researchers can provide the model with new single-cell gene activity data – such as cells in a disease state – and generate gene variant predictions. This could help researchers more quickly identify variants underlying disease, says Gayoso.
+Enjoying our latest content?
+Log in or create an account to continue
+Access the most recent journalism from Nature's award-winning team
+Explore the latest features & opinion covering groundbreaking research

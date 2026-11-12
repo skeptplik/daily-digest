@@ -1,0 +1,32 @@
+United States lawmakers are pushing for answers from Nvidia CEO Jensen Huang amid growing concerns over whether an affair he had compromised national security.
+Huang, 63, has admitted to having extramarital relations during his time leading Nvidia, a major US tech firm. Media reports indicate the woman involved was Alice Huang, a former executive at Singapore-based tech company Megaspeed who is accused of working for Chinese intelligence.
+As the scandal continues to grip Washington, Republican leaders of three committees in the House of Representatives have asked Huang to appear at a closed-door briefing to testify about the relationship.
+House Foreign Affairs Committee Chair Brian Mast said he was prepared to subpoena Huang if he did not respond by the end of Wednesday.
+According to The New York Times, US intelligence officials believe Alice Huang was recruited by Chinese intelligence to gather information about the Nvidia CEO and influence him to push for looser restrictions on chip sales to China.
+In a statement on Sunday, Jensen Huang apologised to his family and Nvidia employees about the affair.
+His company also launched an independent investigation, saying it had no reason to believe that “either national security or NVIDIA secrets were compromised”. Still, by Wednesday, media reports emerged that Nvidia was preparing to part ways with Huang over the controversy.
+US President Donald Trump confirmed on Monday that the Federal Bureau of Investigation was looking into the matter, but he has stood by Huang, calling him an “honourable guy”.
+But the pressure on Huang intensified on Tuesday when Republican Senator Kevin Cramer called for him to resign.
+“The potential for extortion is so tremendous that something as sensitive as Nvidia chips, I just think he’s got to go,” Cramer said in an interview with Politico.
+But Huang, who co-founded Nvidia more than 30 years ago, has shown no signs of heeding that call.
+Despite the company’s assurances, experts say the affair raises concerns about what information Alice Huang may have been privy to and what role the relationship may have played in the Nvidia CEO’s decisions.
+What are the national security concerns surrounding Nvidia?
+Nvidia’s advanced chips, which power much of today’s artificial intelligence, have put the company at the centre of the race for tech dominance between China and the US.
+Since 2022, Washington has restricted sales of some of the most advanced chips to China over concerns that they could be used by the country’s military or intelligence agencies.
+According to US intelligence officials cited by The New York Times, Alice Huang was tasked with getting Jensen Huang to lobby for looser restrictions on chip exports.
+The Nvidia CEO had already been pushing for an easing of the rules, arguing that China’s domestic chip industry would get stronger without better access to US products.
+But some experts say it is worth looking at how Alice Huang may have influenced decisions Nvidia made specifically about her former employer Megaspeed, which bought more than $4.8bn worth of Nvidia chips over the span of about two years.
+Megaspeed has also been investigated over allegations that it helped Chinese companies get access to restricted chips. Megaspeed denies the allegation.
+Ryan Fedasiuk, a fellow at the Foundation for American Innovation who studies Chinese technology and intelligence activities, pointed to reports from Bloomberg and The New York Times that Nvidia contacted the US Commerce Department about its investigation into Megaspeed.
+He also noted that, in disclosures to the government, Nvidia appeared to vastly undercount the value of the chips it sold to the company.
+“The question at hand is whether Nvidia took specific actions with respect to Megaspeed that it might not otherwise have done,” Fedasiuk told Al Jazeera, “possibly as a result of the personal relationship between the two executives.”
+What sensitive information could have been a risk?
+There are also questions about what sensitive information Alice Huang may have had access to through her relationship with Jensen Huang.
+In an analysis published by the Council on Foreign Relations, a think tank, senior fellow Jessica Brandt pointed to information about how Nvidia designs its China-specific chips.
+“Information about its conversations with policymakers could be helpful for anticipating where those controls and other policies are headed,” she said. “Understanding where it disagrees with government could expose fault lines to exploit. And that’s before we get into anything touching R&D [research and development].”
+Fedasiuk raised similar concerns about what Alice Huang could have learned about Nvidia’s internal operations and plans for future products, as well as its customer base, which includes American and foreign tech companies.
+He also pointed to Jensen Huang’s close ties to Trump and other senior White House officials.
+“I have to wonder what kind of information about those people and about those relationships may have inadvertently made its way to Ms Huang or to Chinese intelligence,” he said.
+So far, however, there is no publicly available evidence that Alice Huang got access to sensitive information from Nvidia or influenced Jensen Huang’s decisions. US intelligence also has not made public any evidence that Alice Huang was working for Chinese intelligence.
+China has flatly denied the allegations of espionage.
+“The claim of so-called ‘Chinese spies’ is completely groundless and is nothing but a smear campaign against China,” said Foreign Ministry spokesperson Guo Jiakun on Monday.

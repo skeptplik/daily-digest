@@ -1,0 +1,3 @@
+The 2026 Nature Spotlight: Energy is based on the Nature Index database, covering research articles published between 2021 and 2025.
+To track research outputs that are relevant to the topic of affordable and clean energy, or, more specifically, the seventh United Nations’ Sustainable Development Goal (SDG), the SDG classifier available in the Dimensions database was used. The Dimensions database is published by Digital Science, which is part of Holtzbrinck, the majority shareholder of Nature’s publisher, Springer Nature.
+The table shows the leading institutions in energy research, ranked by total article Share between 2021 and 2025.

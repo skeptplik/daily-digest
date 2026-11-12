@@ -1,0 +1,49 @@
+For years, eBPF (extended Berkeley Packet Filter) has been one of the most celebrated technologies in the Linux kernel. It lets developers run sandboxed programs inside the kernel without writing kernel modules, while powering everything from network monitoring to security tooling.
+Linux is extremely popular in production servers and giants like Google, Cloudflare, and Meta rely on it daily.
+The same eBPF capabilities that are attractive for defenders, however, can be a powerful weapon in the hands of attackers. Flare’s research found underground forum posts sharing eBPF rootkit code and step-by-step tutorials.
+One Russian-language post described how to build an implant with process hiding and packet-triggered activation, and included screenshots the author presented as demonstrations.
+What Makes eBPF Dangerous?
+Traditional Linux rootkits typically rely on loadable kernel modules (LKMs) to hook system calls and hide malicious activity. These are well-understood by defenders, and most EDR solutions watch for suspicious module loads. eBPF, however, behaves in a different way.
+An eBPF malware can hook into kernel functions, observe system calls, or inspect and modify network traffic using the same kernel-supported bpf() interface as legitimate tools like Cilium.
+Its programs run without loading a kernel module, so a routine lsmod check can miss them. The challenge for defenders is determining who loaded the program and what it does.
+eBPF rootkits are moving from conference talks to underground forum tutorials, and by the time one loads on a host, it’s built to evade your usual checks.
+Flare monitors forums, marketplaces, and paste sites in real time, so your team sees new tooling, exploits, and chatter early enough to track eBPF threats.
+Free 2-Week Trial
+From Classic BPF Backdoors to eBPF Rootkits
+The first major wake-up call came in 2022 when PwC and Elastic Security Labs documented BPFDoor, a passive Linux backdoor attributed to a Chinese threat actor tracked as Red Menshen. The BPFDoor sample Elastic analyzed used a classic BPF socket filter to recognize specially crafted TCP, UDP, or ICMP packets.
+Once triggered, it could open a reverse shell or redirect traffic to the implant. PwC discovered the malware in 2021, and public reporting in 2022 described activity targeting organizations in the Middle East and Asia.
+Around the same time, Intezer and BlackBerry jointly disclosed Symbiote, a different flavor of Linux malware that weaponizes BPF for stealth. Rather than running as a standalone process, Symbiote uses the dynamic linker to preload a malicious shared library into affected processes.
+The library intercepts calls to setsockopt() that attach classic BPF filters via SO_ATTACH_FILTER and prepends its own filter instructions to conceal selected traffic from packet capture.
+Public research had already demonstrated offensive uses of eBPF. In 2021, researchers presented ebpfkit at Black Hat USA and DEF CON. TripleCross combines syscall hooks with XDP and traffic control programs to support library injection, execution hijacking, concealment, and command and control.
+Boopkit uses getdents64 hooks to hide directory entries. An already installed implant can be triggered remotely in two documented ways, one involving a malformed TCP SYN and the other using ordinary TCP connections.
+Lastly, in October 2025, Synacktiv reported LinkPro after investigating a compromise that began with an exposed Jenkins server. LinkPro used eBPF programs to hide activity on the host and activate the backdoor when it received a specially crafted packet.
+Underground Adoption: From Research to Weaponization
+Security researchers and state-sponsored threat actors have explored how eBPF can be used to build rootkits. Flare’s recent research found underground forum posts sharing code and step-by-step tutorials, showing that these techniques now circulate beyond academic papers and security conferences.
+On the Russian-language Duty Free forum, a user published a tutorial on building an eBPF rootkit and cited BPFDoor and Symbiote as influences.
+The guide includes source code and screenshots that the author presents as demonstrations. It describes how to activate the implant with a TCP SYN packet with a specific window size, hide processes by hooking getdents64, and encrypt command-and-control traffic with AES-256-GCM.
+The guide also describes using XDP to inspect incoming plaintext HTTP traffic and drop packets that match a list of 43 IP addresses the author associates with antivirus vendors.
+Flare also identified 10 related Pastebin posts containing XDP packet-processing code and timing thresholds expressed in microseconds.
+eBPF Beyond Rootkits
+Flare also found exploit code circulating across multiple platforms. The most frequently reposted exploit (at least six platforms) in the dataset targeted CVE-2017-16995, a 2017 Linux BPF verifier flaw involving incorrect sign extension.
+Alongside the older eBPF exploits, researchers discovered some fresh exploits.
+One example is an unverified Linux local privilege escalation PoC targeting kTLS and eBPF sockmaps. The proof-of-concept attempts to corrupt the page cache for /etc/passwd and inject an account with UID 0. Its claim of compatibility with all kernels from 4.18 onward is incorrect.
+Upstream Linux 4.18 lacks a BPF helper the code calls. Successful privilege escalation on Ubuntu 22.04 or 24.04 has not been verified.
+In one exploit sample we reviewed, the author credited Claude in a source code comment with generating the BPF instructions.
+Why Detection Is So Hard
+The fundamental challenge is that eBPF-based threats operate through a legitimate kernel interface.
+Unlike a rogue kernel module, an eBPF program passes through the kernel’s built-in verifier and a malicious program that passes verification looks, to the kernel, like any other approved program.
+Detection today focuses on monitoring bpf() syscalls, tracking loaded programs via bpftool, and watching for suspicious attachment points on sensitive syscalls like getdents64 and execve.
+But these are reactive measures, and attackers have the advantage of operating through the kernel’s own sanctioned mechanisms.
+What Defenders Should Do
+Organizations running Linux infrastructure should take eBPF threats seriously:
+- Audit loaded eBPF programs regularly with bpftool prog list. Know what’s supposed to be there.
+- Restrict eBPF access via kernel.unprivileged_bpf_disabled=1 and limit CAP_BPF / CAP_NET_ADMIN.
+- Monitor for magic packets — several eBPF backdoors activate via specific TCP flags or window sizes.
+- Patch aggressively — BPF verifier bugs are a recurring vulnerability class, and weaponized exploits appear fast.
+- Watch for unexpected XDP programs on network interfaces.
+- Gather fresh threat intelligence – stay up to date on new attack vectors, tools and techniques which may help you tailor new detections and enforcement to block eBPF- based malware.
+The Bottom Line
+eBPF rootkits represent a genuine evolution in Linux threats as their implants can evade checks focused on loaded kernel modules. LinkPro went further by trying to hide its eBPF programs from bpftool prog list.
+Investigators could still see associated BPF maps and links, illustrating why defenders should compare multiple sources of host telemetry.
+Flare found underground posts sharing source code and instructions for hiding processes and activating an implant with a crafted packet. Synacktiv documented both techniques in its investigation of LinkPro, giving defenders a concrete example of how they can appear in an intrusion.
+Sponsored and written by Flare.

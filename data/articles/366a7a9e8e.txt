@@ -9,6 +9,6 @@ As a result of this multi-layer approach, our todo cleaner has been able to remo
 The investigators conclude that tools such as presubmit analyzers, codebase scanners, and automated agents can help mitigate "agent distraction" and thus improve the effectiveness of AI coding agents.
 Commenting on the finding, X user Tulasiram noted that "this is a useful reminder that comments are context too". Ryan White emphasized:
 This is just junior dev behavior at machine speed. Leave a misleading comment and someone chases it for a day. Except now it happens 40 times an hour and you're paying for the tokens.
-On LinkedId, user Awais Raza expressed optimism about the potential to mitigate agent distraction:
+On LinkedIn, user Awais Raza expressed optimism about the potential to mitigate agent distraction:
 The 95%+ human acceptance of the todo cleaner is telling: it shows cleanup can be automated without losing human judgment.
 Finally, Muhammad Zohaib extended this perspective, pointing out that "the same probably applies to websites: outdated pages and conflicting info make it harder for AI systems to pick the right answer."

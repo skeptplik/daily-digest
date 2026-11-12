@@ -1,0 +1,13 @@
+Cloud application recovery startup Dreeze announced on Tuesday that it raised $33 million in a seed funding round as it emerged from stealth mode with a platform built to bring back whole cloud applications instead of only the data behind them.
+The round was led by Norwest and Bessemer Venture Partners, with Claltech also investing.
+Dreeze, whose staff is split between Israel and the United States, said the money will go toward product development, bigger sales and marketing teams, and getting its platform into more enterprises.
+The company was formed in 2025 by Avi Raichel and brothers Ziv and Oded Kedem. The three previously worked together at Zerto, which HPE acquired, and Kashya.
+Dreeze’s argument is that getting data back after an incident is not the same as getting an application running again. A cyberattack or a mistake by an AI agent can leave an organization with its data intact but without the configurations, secrets, infrastructure and connections the application needs.
+Its platform, named Application Revival, scans the customer’s cloud environment on an ongoing basis, works out which resources and dependencies belong to which application, and generates a recovery plan from the live environment. Backups of data and configurations are stored with those recovery plans in an immutable, isolated vault under the customer’s control.
+In a recovery scenario, Application Revival automatically reconstructs the application as a whole. Customers can also run recovery tests in an isolated account, with no impact on production.
+“Companies have spent years getting better at backing up data, but getting the data back doesn’t mean the business is back,” said Ziv Kedem, the company’s CEO. “With cyber threats increasing and AI introducing new risks, enterprises need to assume that critical applications will go down.”
+“We started Dreeze because recovery needs to go further. Our goal is to make Application Revival the new standard, so companies know they have a proven path to bring their applications back when something goes wrong,” he added.
+The AWS version of the platform is generally available. Support for Microsoft Azure is in early access, with general availability expected in early 2027.
+Related: Agentic Data Security Firm Sentra Raises $150 Million
+Related: WhiteMatter Raises $20 Million in Series A Funding
+Related: Brava Security Emerges From Stealth With $15 Million in Funding

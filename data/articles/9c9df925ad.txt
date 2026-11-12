@@ -1,0 +1,18 @@
+Attackers are using Alibaba Cloud to host self-managed instances of AntiFox, an open-source agentic penetration testing platform, to target web services and AWS environments.
+The infrastructure hosting AntiFox was used for various malicious activities, including vulnerability exploitation, webshell deployment, credential validation, configuration discovery, and AWS secret harvesting.
+Initially created as a fork of ARTEX 0.1.1, AntiFox has a Chinese-language interface and lets users deploy AI agents and automate common penetration-testing tasks, such as mapping exposed services and probing target endpoints for vulnerabilities.
+Security researchers at Arctic Wolf observed malicious AntiFox-linked infrastructure hosted on Alibaba Cloud using valid AWS identities, including IAM users and, in some cases, assumed EC2 roles, to make authenticated requests to Amazon Web Services APIs.
+“In several recently observed intrusions, Alibaba Cloud systems hosting AntiFox interfaces were associated with confirmed malicious actions against internet-facing web services and associated AWS environments,” Arctic Wolf says.
+One case highlighted in the report involved deploying an ASPX webshell on an internet-exposed IIS server, executing OS commands, accessing application settings and database connection strings, and copying configuration and log files to a web-accessible directory.
+The attacker also used valid IAM credentials and EC2 roles to probe Amazon Web Services (AWS) endpoints. In one intrusion, they cycled through multiple identities and made hundreds of API requests in about 30 minutes, the researchers note.
+Although most of these attempts were blocked, the attacker was successful in some cases and obtained production secrets.
+In a separate incident, the attackers used a valid AWS identity to read, copy, and delete S3 objects.
+Arctic Wolf's report includes hunting guidance and recommendations for defenders that include correlating IIS webshell activity with unusual AWS access and reviewing successful API calls within bursts of denials.
+The researchers also recommend revoking affected AWS sessions and keys and rotating credentials exposed through application files.
+The AntiFox findings follow recent attacks involving ARTEX AI, another agentic penetration-testing framework developed in China that went closed-source after it was used in attacks on South Korean banks.
+CrowdStrike also linked ARTEX to a cyberespionage campaign in which the Chinese hacking group Vapor Panda targeted more than 200 organizations across 14 countries.
+For now, AntiFox remains available on GitHub, where it has been updated to version 2.0, which improves how the tool documents and reports findings.
+Its publishers prohibit using the tool against live systems, in real-world penetration tests or security exercises, or for destructive or illegal activity, but they do not describe any technical controls that enforce those restrictions.
+Adaptive Security's AI agents analyze email intent, context, and behavior to uncover phishing, business email compromise, and invoice fraud.
+See what's getting through with a 14-day read-only scan of Microsoft 365 or Google Workspace, with no MX changes.
+Start your free email security scan.
