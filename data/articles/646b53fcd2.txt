@@ -1,0 +1,14 @@
+Stenberg: 30 years of Internet transfers with curl
+Daniel Stenberg reflects
+on the 30th anniversary of the curl project.
+	libcurl runs in an estimated thirty billion installations today. It
+	is a rough estimate since the majority of all libcurl users never
+	tell us they use it, but we need to find it mentioned in their
+	credit screens, open source license windows or their manuals. A
+	super popular app might use libcurl today and not tomorrow, or vice
+	versa, which can make the numbers shift by several billions
+	overnight. In reality of course, once the pulse raise has calmed
+	down and your ego is content, these numbers do not matter. In our
+	corner of the world, things don't change notably when we go from a
+	thousand installs to billions. We still work with similar people,
+	in similar ways, with similar challenges.

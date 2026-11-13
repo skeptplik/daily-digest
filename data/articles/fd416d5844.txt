@@ -1,0 +1,25 @@
+Microsoft is investigating a widespread outage affecting multiple Microsoft 365 services, including Outlook, Microsoft Teams, and Copilot, as users report connectivity problems worldwide.
+BleepingComputer has received numerous reports from users experiencing problems accessing Microsoft's services, including complaints that Outlook is down.
+According to Downdetector, which tracks user-submitted outage reports, complaints surged Thursday afternoon across numerous Microsoft services, including Outlook, Microsoft 365, Teams, Copilot, Azure, OneDrive, and the Microsoft Store.
+In a Microsoft 365 admin center advisory tracked as MO1550821, Microsoft confirmed that customers may be unable to connect to multiple services, including Exchange Online, Microsoft Teams, SharePoint Online, Microsoft 365 Copilot, and Microsoft Defender XDR.
+The company says the Microsoft 365 incident began Thursday at 1:26 PM ET, although it began investigating reports of Exchange Online mailbox connectivity problems in the Americas earlier in the day.
+Microsoft initially attributed the disruption to elevated infrastructure load across multiple regions, but has determined that the problem was caused by servers unexpectedly becoming unavailable.
+"We determined the elevated load isn't driven by an increase in traffic, but by a number of servers being unexpectedly unavailable; straining the remaining infrastructure. We're working to safely return them to service," Microsoft said in an update on X.
+The company says it has paused all deployments, redistributed connection traffic across its worldwide infrastructure, and is moving additional traffic away from affected systems to reduce load.
+Microsoft is also restarting affected servers to restore capacity and return services to normal operation.
+While the company initially reported Exchange Online connectivity problems in the Americas, it later confirmed that users in any region could be affected.
+The outage follows a separate Microsoft Teams incident earlier Thursday that caused an outage for users in North and South America.
+That earlier incident, tracked as TM1550488, lasted from 9:45 AM to 10:53 AM ET and caused delays or failures when sending messages, errors creating or updating conversations, and problems retrieving chat messages.
+Microsoft attributed the earlier Teams disruption to resource contention within its infrastructure, which led to elevated resource utilization and prevented the service from processing messaging requests normally.
+The company says the earlier Teams incident has been fully resolved.
+Microsoft has not indicated whether the two incidents are related, and the ongoing Microsoft 365 outage has not yet been resolved.
+BleepingComputer contacted Microsoft with questions about the outage and will update our story if we receive a response.
+Update 11/12/26 6:57 PM ET: Microsoft says it is seeing limited recovery from the widespread Microsoft 365 outage after successfully returning some affected servers to service.
+The company previously said its recovery efforts had not provided the expected relief and that it discovered a core process on affected servers was becoming overwhelmed, resulting in a loss of capacity.
+Microsoft also said it was investigating whether reverting a small number of recent configuration updates could accelerate recovery.
+"We're returning a portion of affected servers to the service, and they remain stable so far. We're also shifting traffic to alternate routes wherever possible and observing limited recovery," Microsoft said in its latest update on X.
+The company says it has streamlined the process of restoring the remaining affected servers and warned that users may experience a gradual recovery as their applications reconnect.
+Microsoft has not yet confirmed when services will be fully restored.
+Adaptive Security's AI agents analyze email intent, context, and behavior to uncover phishing, business email compromise, and invoice fraud.
+See what's getting through with a 14-day read-only scan of Microsoft 365 or Google Workspace, with no MX changes.
+Start your free email security scan.

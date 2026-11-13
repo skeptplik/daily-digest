@@ -1,0 +1,25 @@
+Thank you for visiting nature.com. You are using a browser version with limited support for CSS. To obtain
+the best experience, we recommend you use a more up to date browser (or turn off compatibility mode in
+Internet Explorer). In the meantime, to ensure continued support, we are displaying the site without styles
+and JavaScript.
+Massive atlas of brain region linked to a host of diseases is the most detailed yet
+A global team profiled nearly 26 million brain cells from the basal ganglia to build a cross-species reference database that will help to understand conditions from Parkinson’s disease to addiction.
+The basal ganglia are groups of cells that sit deep in the brain and process motor, cognitive, mood and decision-making information. They are linked to neurodegenerative and psychiatric conditions from Parkinson’s and Huntington’s disease to schizophrenia, bipolar disorder and addiction.
+Now, researchers have published the world’s most-detailed atlas of basal ganglia so far, comprising 25.5 million brain cells from humans, macaques and marmosets. The work is described in a collection of 26 papers published in Cell, Cell Reports, Cell Reports Methods, Cell Systems, Cell Genomics and Neuron. The research includes understudied neurons1, provides insights about how some brain cells change with age2 and suggests which might be linked to diseases3.
+The atlas, a collaboration between hundreds of scientists in nine countries, is part of the BRAIN Initiative Cell Atlas Network (BICAN) — a US$500-million project launched in 2022 by the US National Institutes of Health aimed at creating reference maps of mammalian brains.
+“It’s a massive dictionary that we needed in the field,” says Ana Muñoz-Manchado, a neuroscientist at the University of Cádiz in Spain, who studies the basal ganglia in neurodegenerative disorders.
+Cross-species comparison
+The basal ganglia atlas contains 21 million cells from the brains of six humans, three million cells from three rhesus and cynomolgus macaques, and 1.5 million cells from two marmosets4. The researchers also used data from previously published maps of the whole mouse brain5,6.
+By comparing the basal ganglia between the primate species, the researchers identified 61 cell types in humans, macaques and marmosets that have been conserved over 76 million years3.
+The team analysed brain tissue samples from different developmental stages across the lifespan of the species. The latest work combines information about these cells in unprecedented detail, from measurements of their gene expression and DNA modifications that control gene regulation to recordings of their electrical activity, as well as how DNA is folded inside their nuclei.
+The researchers also mapped where each cell is located in the brain and designed a common framework to characterize and annotate the cells. It is “essentially a scaffold on which we can now fairly readily complete the rest of the brain”, explains Michael Hawrylycz, a bioinformatician at the Allen Institute for Brain Science in Seattle, Washington, who took part in the project.
+Molecular boundaries
+One study examined 1.1 million cells in the basal ganglia’s largest structure — known as the striatum — from 19 deceased human donors7. Unlike many other brain areas, the striatum has no neat anatomical boundaries. The researchers identified six zones in the human and macaque striatum with distinct molecular signatures, each containing distinct populations of neurons and glial cells.
+“The cells in these zones all look the same under the microscope, but have very strong transcriptional differences and are strikingly consistent from person to person,” said co-author Evan Macosko, a neurobiologist at the Broad Institute of Harvard and MIT in Cambridge, Massachusetts, in a press release from the institute.
+Macosko and his colleagues also found that gene expression patterns that distinguished each zone from the other became increasingly similar with age, particularly in brain regions affected by Huntington’s and Parkinson’s disease.
+Different brains
+Another study analysed nearly four million cells in the striatum and prefrontal cortex from 178 deceased adult donors between the ages of 27 and over 902. The researchers found that the cellular make-up of the two brain regions varied between people, particularly for non-neuronal cells known as glial cells. This underscores the need for brain cell atlases to account for these individual differences.
+Enjoying our latest content?
+Log in or create an account to continue
+Access the most recent journalism from Nature's award-winning team
+Explore the latest features & opinion covering groundbreaking research

@@ -1,0 +1,7 @@
+Software giant Microsoft on Thursday said it was working to fix widespread outages of its Microsoft 365 suite of apps — including Outlook and Teams — in the United States after more than 100,000 users reported disruptions, according to downdetector.com, an outage-tracking website.
+The outage, which blocked users from accessing their e-mail and other services, also impacted Microsoft 365 connectors used by the companies OpenAI and Anthropic, which said tools were not working as expected.
+Downtracker said it had recorded outages to about 130,000 Outlook users just after 1 p.m. EST (1800 GMT), though the site noted the problem seemed to ease a bit later. Some customers reported having trouble sending and receiving e-mail; others said the program was entirely inaccessible.
+Outages of the Teams workplace messaging app were also reported, as well as other Microsoft 365 services such as the AI assistant Copilot.
+Microsoft took to the social media platform X to announce that it was aware that users were "experiencing issues accessing Exchange Online mailboxes through multiple connection methods in the Americas," noting that part of its infrastructure was "experiencing elevated load" that was "likely contributing to connectivity errors."
+"We are aggressively pursuing all pathways to reduce impact," it added.
+Earlier on Thursday, the company said it had "successfully restored" access to Teams after North American users reported disruptions.

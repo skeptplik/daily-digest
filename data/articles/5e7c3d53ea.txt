@@ -1,0 +1,43 @@
+Hackers are actively exploiting a newly disclosed N-able N-central zero-day vulnerability dubbed "4EverAble2Shell" to compromise servers and deploy cryptocurrency miners, with researchers reporting at least 21 affected systems, including 19 running the company's latest security update.
+The attacks follow security researcher Sean Bales' release of two new zero-day exploits today, dubbed 4EverAble2Shell and Agent2Shell, which he says allow attackers to gain root-level access to N-central appliances and SYSTEM-level access to Windows systems.
+N-central is a remote monitoring and management (RMM) platform used by managed service providers (MSPs) and IT teams to monitor, manage, and secure customer devices and networks remotely.
+The new vulnerabilities were disclosed on November 12, just two days after N-able released emergency security updates to address critical N-central zero-day vulnerabilities that Bales had publicly disclosed earlier this week.
+Bales published proof-of-concept exploits for both the 4EverAble2Shell and Agent2Shell vulnerabilities, saying they were tested against N-central Appliance 2026.4.1.26 HF2, the security update N-able released on November 10.
+The 4EverAble2Shell exploit allows unauthenticated attackers to execute commands as root on vulnerable N-central servers. However, the researcher says exploitation requires the platform's Legacy API functionality to be enabled.
+The attack combines an Apache Axis vulnerability, tracked as CVE-2026-90436, with a separate N-central privilege escalation weakness to gain root-level access.
+The second exploit, Agent2Shell, targets N-central's agent functionality and is claimed to allow attackers to execute commands with SYSTEM privileges on Windows devices.
+The disclosures came after N-able took its hosted N-central environments offline earlier this week and urged on-premises customers to shut down their servers after Bales published more than 30 alleged zero-day vulnerabilities.
+Bales has criticized N-able's handling of the vulnerability disclosures and the company's slow response to patching responsibly disclosed flaws.
+"It's much much easier for me to just release the research I have and the vendor can decide what they want to do with it, what they do and don't want to fix, etc. :)," Bales told BleepingComputer.
+Bales said N-able has not patched two unrelated RCE vulnerabilities in a different N-able product that he previously disclosed to the company in July.
+In a November 12 security advisory, N-able said it was implementing additional protections in response to the new disclosures, including restricting certain N-central features and integrations while it develops further fixes.
+"We are restricting certain N-central features and integrations," N-able said.
+"These measures may affect some functionality, but we believe taking additional precautions while remediation is completed is the right action to protect our partners and their customers."
+The company says it has disabled the Intune integration as a precaution and is urging on-premises customers to ensure Legacy API access is disabled, which is already the default.
+The protections have already been applied to hosted environments, but customers are also advised to continue upgrading their Agents and Probes under the previous Hotfix 2 guidance.
+In its advisory, N-able said it had seen no signs of compromise using the new flaws, although security researchers have since reported successful exploitation of the vulnerability against production N-central servers.
+Hackers already exploiting 4EverAble2Shell
+Cybersecurity company Previdian told BleepingComputer that attackers began probing for the 4EverAble2Shell vulnerability on November 12, shortly after the public release of the proof-of-concept exploit.
+The company first observed suspicious requests targeting its N-central honeypot at approximately 08:30 UTC, using the same Java class referenced in the publicly released exploit.
+While the initial requests were limited to probing for vulnerable servers, Previdian later confirmed that attackers were attempting to execute the complete exploit chain against its honeypot server.
+The attacks initially exploit Apache Axis CVE-2026-90436 to execute commands as the 'nable' service account, then exploit a separate N-central privilege escalation vulnerability to obtain root privileges.
+This attack chain matches the POC Bales released on GitHub.
+According to Previdian, the privilege escalation stage abuses N-central's privileged setLDFileOwner helper and a symbolic link to make a normally root-owned script writable.
+The attacker then modifies the script and invokes N-central's serverControl functionality to execute commands as root, while attempting to restore the modified files afterward.
+The payload attempted to download and execute an additional shell script from an attacker-controlled server at 157.20.241[.]16, while sending diagnostic information and command output back to the same IP address.
+Previdian is tracking the N-central privilege escalation flaw as VULN-2026-0009 and has added it to its own Known Exploited Vulnerabilities (KEV) catalog.
+Cybersecurity company Huntback also reports that attackers have already successfully compromised at least 21 production N-central servers using Bales' publicly released exploit chain.
+Huntback saw the same attacker IP address as Previdian probing its N-central honeypots at approximately 08:30 UTC on November 12, with the first attempts to execute the complete exploit chain beginning at 09:16 UTC.
+The attacks seen by Huntback exploited the 4EverAble2Shell exploit chain to download a shell script that installed an XMRig Monero cryptocurrency miner.
+The miner was configured to use about half of the available CPU cores, likely to make the mining harder to detect.
+Huntback identified other compromised systems through the attacker's cryptocurrency mining pool statistics, where infected systems were assigned identifiers beginning with nc_ followed by the server's IP address.
+At 12:50 UTC on November 12, the researchers found 21 active miners using this naming convention, all of which had submitted mining shares within the previous five minutes.
+The researchers then checked the associated IP addresses and confirmed that all 21 hosted N-central installations, including 19 running version 2026.4.1.26, the latest Hotfix 2 release issued on November 10.
+The compromised servers were located across multiple countries, including the United States, Canada, South Africa, the United Kingdom, Germany, France, and Sweden.
+While the attacks observed so far have been primarily used for cryptojacking, attackers could use compromised N-central infrastructure for additional malicious activity targeting managed customer environments.
+Organizations running N-central should ensure that Legacy APIs are disabled and investigate suspicious requests to /dms/services/ServerUI, especially those referencing jline.internal.TerminalLineSettings.
+Huntback also recommends checking for unexpected xvd.service systemd services, cryptocurrency mining processes, and files created under /tmp/.xvd or /var/tmp/.xvd.
+Because the 4EverAble2Shell attack grants full root access to exploited servers, organizations that detect these IOCs should treat the breach as a full compromise of the server.
+Adaptive Security's AI agents analyze email intent, context, and behavior to uncover phishing, business email compromise, and invoice fraud.
+See what's getting through with a 14-day read-only scan of Microsoft 365 or Google Workspace, with no MX changes.
+Start your free email security scan.

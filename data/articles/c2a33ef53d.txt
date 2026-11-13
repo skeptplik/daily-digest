@@ -1,0 +1,11 @@
+Google smart glasses privacy features cover wearers and the people around them
+Google has built its Gemini-powered intelligent eyewear to stop taking photos and video when someone covers or tampers with the outward-facing recording light. Shahram Izadi, Google’s VP and GM of XR, laid out that safeguard along with face redaction, limits on data handling, and app restrictions.
+Bystanders told Google during years of research that they worried about being filmed without their knowledge, and that a sign of recording would help them most. Wearers face a different exposure, because glasses that see what they see also capture menus, street signs, and the faces of strangers.
+What the light does
+The LED turns on when the wearer takes a photo or video for the gallery. Sensors are designed to detect a covered or tampered light and block capture. Google Shopping and Ads policies ban promoting products that disable or hide recording lights on smart glasses.
+What happens when you ask Gemini
+When the wearer asks Gemini about the scene, the glasses are designed to redact bystanders’ faces before Gemini processes the image. Google keeps those camera visuals out of the user’s Gemini History and out of AI training and ad targeting. Data is encrypted on the glasses and in transit to the phone or cloud, and directional microphones point Gemini at the wearer’s voice by default.
+Designed to, for now
+The tamper detection, the face redaction, and the voice focus are design intentions. Private AI Compute, Google’s hardened environment for processing data, has not reached the glasses yet. Test the first three before you allow the glasses into a room with sensitive material on display.
+Enforcement runs through the terms of service
+Before using the glasses, wearers must agree not to record people without permission, not to record in sensitive places, and not to cover the light. Google may disable the glasses of anyone who breaks those terms, and setup requires an 18+ Google Account. Google Play bans apps from changing how the light behaves and from using the camera for social live-streaming or real-time facial identification.

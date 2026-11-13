@@ -1,0 +1,27 @@
+Jensen Huang's resignation as Nvidia CEO, the risk of an AI bubble and soaring US debt were in focus on a packed last day of the Web Summit in Lisbon, as speakers on a panel moderated by Euronews warned that public debt markets could trigger the next financial crisis.
+Jensen Huang's sudden exit as CEO of chipmaker Nvidia, the risk of an AI bubble and mounting US debt took the main stage on Thursday, a packed final day of the Web Summit in Lisbon, one of Europe's largest tech conferences.
+Speakers on a panel moderated by Euronews warned that public debt markets could set off the next financial crisis.
+The panel featured Adam Kobeissi, founder and editor-in-chief of The Kobeissi Letter, a capital markets publication with millions of followers, and economist James Galbraith, a professor at the University of Texas at Austin.
+It was one of many sessions squeezed into Thursday after Wednesday's programme was called off on the advice of the Portuguese government, which had declared a state of emergency ahead of Storm Charles.
+Ultimately, the storm did not hit Lisbon, which only saw heavy rain and minor flooding.
+Huang's exit is "a net negative for investors"
+Huang stepped down on Thursday after revelations of two extramarital affairs.
+US intelligence reportedly suspects one of the women was spying for China, claims Beijing rejects. Chief financial officer Colette Kress is now interim CEO while the board searches for a permanent successor.
+Nvidia stock dropped roughly 15% at the open on Thursday but has since pared losses and is down a little over 5% on the day to around $164 per share, at the time of writing.
+Since the all-time high price of $243 per share it hit on Monday 5 October, it is down over 30%.
+Kobeissi said Huang should not have resigned and that his departure "will be a net negative for investors" over the next couple of years, though he remained bullish on Nvidia overall.
+He also did not expect Huang's exit to affect next week's stock market debut of Anthropic, the AI firm behind the Claude models, which is seeking a valuation of as much as $1.4 trillion (€1.25tn).
+Nvidia is among seven tech companies that have agreed to buy Anthropic shares at the offer price.
+AI, China, US debt and midterm elections
+Professor Galbraith said there was a good possibility that Chinese technology would eventually undercut Nvidia's, which would raise questions about the hundreds of billions that Microsoft, Alphabet, Amazon, Meta and other hyperscalers are currently pouring into AI infrastructure.
+He framed the global economy as a contest between two systems.
+The US makes it easy to raise private money quickly but is slower to set policy and take decisions, he explained, while China can centralise research, technological development and deployment, and intervene more directly in its economy.
+For those reasons, Galbraith said he "would tentatively bet on China" to win the AI race, and perhaps to become the world's largest economy over the next few decades.
+Beyond the AI boom, the panel pointed to public debt markets as a major concern.
+Kobeissi warned that one in five dollars spent by the US government goes towards paying interest on the debt, "not even to pay down the debt". US Treasury data shows Washington spent $1.1 trillion (€988bn) on net interest in the fiscal year to September, or 19% of its revenue.
+"US debt to GDP ratio is at World War II levels and there has not been a technical recession since the COVID-19 pandemic," Kobeissi said, adding that "the debt market has been screaming that it will be in a higher for longer environment in the foreseeable future," meaning interest rates are set to stay high.
+"On the current path the US is on, there is a 100% chance of bankruptcy," he warned, adding that central banks cannot bring down interest rates in the current environment.
+Still, "we are not in an imminent 2008 situation but the trends 10 or 20 years out are very concerning," Kobeissi said, although he remains "a huge bull" on the US, citing its resilient economy and accelerating innovation.
+Professor Galbraith recalled how, during the COVID-19 pandemic, US President Donald Trump and a Democratic-controlled House agreed on relief to rescue the markets, but warned that the same cohesion might be lacking now.
+In last week's US midterm elections, Democrats won 255 House seats to the Republicans' 169, according to AP's count as of the time of writing. Several US states are still tabulating ballots and Democrats can still flip the Alaska Senate seat and multiple of the 16 uncalled House seats.
+When asked to make a prediction, Professor Galbraith stated that "the nature of financial crises is that we cannot foresee them," though he saw concerning signs.

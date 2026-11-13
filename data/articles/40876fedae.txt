@@ -1,4 +1,3 @@
+This is the web edition of STAT’s AI Prognosis newsletter, our guide to artificial intelligence in health care and medicine. Sign up to get it delivered in your inbox every Wednesday.
 Let me know if, especially after reading the below item on what recent heart drug failures mean for AI in drug discovery, you have questions about AI in pharma. I’ll be interviewing executives from Novartis and Johnson & Johnson on stage next week at the HLTH conference.
 And if you have questions for Epic, come on down to the STAT stage takeover at HLTH a week from today, where I’ll be talking to Aneesh Chopra, Brendan Keeler, and Epic executives Antonia Papajani and Seth Howard.
-Less is more?
-In today’s clinical AI landscape, every platform is making a land grab: Epic, traditionally a system of record, now wants to display clinical recommendations. Abridge, which started as an ambient scribe, wants your patient’s insurance information. OpenEvidence, which originally answered clinical questions, wants you to enter patient records and visits so it can give you personalized recommendations.

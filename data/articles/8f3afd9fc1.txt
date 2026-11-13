@@ -1,0 +1,6 @@
+In the version of the article initially published, in the source data for Extended Data Fig. 10d, the data listed for mouse #19277 (column O) were inadvertently duplicated from the mouse #19278 column (column Y). Extended Data Fig. 10d and its source data have now been corrected in the HTML and PDF versions of the article. The original and corrected panels are shown below in Fig. 1.
+About this article
+Cite this article
+Li, B., Zhong, MC., Galindo, C.C. et al. Author Correction: SLAMF6 as a drug-targetable suppressor of T cell immunity against cancer. Nature (2026). https://doi.org/10.1038/s41586-026-11409-3
+- Version of record:
+- DOI: https://doi.org/10.1038/s41586-026-11409-3

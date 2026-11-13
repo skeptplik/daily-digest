@@ -1,0 +1,6 @@
+The Humble Bundle storefront for buying games and other software recently got a new look, but on the settings page, it no longer offers a way to add or update two-factor verification methods, as reported by Kotaku. PC Gamer also points out that there are Humble Bundle support pages discussing two-factor verification, and the writer for the publication said that they had set up two-factor verification on the old version of the site.
+Humble Bundle redesign removes two-factor verification from settings
+A new look for the Humble Bundle storefront is missing an important security feature that was previously there.
+However, it does appear that, at least as of now, there is some form of two-factor verification. When I tried logging into my Humble Bundle account while writing this article, I was prompted to check my email for an access code before I could access my account. While logged in, I was able to update my password, but I didn’t have to enter my old password to be able to do so.
+For what it’s worth, my passwords app also shows that I set up a rotating two-factor code for Humble Bundle at some point. I was not asked to input that at any part of my login process today.
+Humble Bundle owner IGN Entertainment and IGN parent company Ziff Davis didn’t immediately reply to a request for comment.

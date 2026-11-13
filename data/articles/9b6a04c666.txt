@@ -1,9 +1,0 @@
-Apple’s online community forum will close on November 20.
-On Tuesday night, Apple posted a message to the Apple Support Community announcing the forum’s closure:
-The Apple Support Community will permanently close on November 20, 2026. Starting today, the site will no longer accept new posts and is available in a read-only state.
-You can continue to find trusted guidance and support on the official Apple Support site.
-We want to thank the community members who have contributed their time and expertise to help others with their Apple products.
-For 28 years, the forum has provided Apple users with a way to get quick technical advice about their products. That advice usually came from fellow users, though Apple employees occasionally chimed in. As with any community forum, the helpfulness and accuracy of the advice varied.
-Apple reportedly told MacRumors that it is shutting down the forum after evaluating its support strategy and customer needs.
-The Apple Support Community dates to 1998, when the online forum was known as Apple Tech Exchange. Two years later, Apple renamed the community forum to Apple Discussions. In 2011, Apple revamped the forum, adding dedicated communities for specific devices and the ability to track responses to posted questions, while renaming it Apple Support Communities. By 2022, the forum was called Apple Support Community, as MacRumors noted this week.
-Based on yesterday’s announcement, it seems Apple now prefers that its customers rely on official Apple employees for technical support. The forum may also have become less popular as rival forums grow, including Reddit and the technical support communities on the MacRumors and AppleInsider forums.

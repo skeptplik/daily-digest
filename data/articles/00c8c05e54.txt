@@ -1,0 +1,13 @@
+Microsoft has confirmed that Windows updates released since the October 2026 Patch Tuesday are causing SQL Server performance and stability issues.
+As detailed in a Windows release health dashboard update on Wednesday, this is caused by server queries that leave connections open after the queries complete. These connections accumulate instead of closing, degrading server performance over time.
+"This issue affects SQL Server linked server queries that use OLE DB providers to connect to external databases. Oracle and PostgreSQL connections are among those known to be affected," Microsoft explained.
+"In affected environments, administrators might observe an increasing number of open connections to external databases, even when the associated SQL Server linked server queries are no longer running."
+It also added that admins may be able to manually close connections left open due to this bug or restart the SQL service to temporarily address stability and performance issues, but this can also kill active queries and may not fully address the issue, as it will resurface again after some time.
+Microsoft says the issues impact both client (Windows 10 and Windows 11) and server (Windows Server 2012 and later) systems and will be fixed with an out-of-band Windows update to be released over the next few days.
+While it works to resolve the bug, Microsoft said IT administrators can reach out to Microsoft Support for Business for a mitigation that can address the issue until a fix is available.
+In September, Microsoft also shared a temporary workaround for SQL Server crashes on some Windows Server 2025 due to recent memory management changes.
+The bug affects SQL Server when the Lock Pages in Memory (LPIM) Windows policy is enabled and may cause SQL Server crash dumps, SQL Server services to stop or restart unexpectedly, failures during database maintenance operations, memory corruption errors, and access violation exceptions (with 0xC0000005 error codes).
+Yesterday, the company also confirmed reports that the November 2026 security updates are failing to deploy on Windows 11 systems where the October preview update has been installed, with affected users seeing 0x80070306, 0x800f0989, or 0x800f0993 error codes.
+Adaptive Security's AI agents analyze email intent, context, and behavior to uncover phishing, business email compromise, and invoice fraud.
+See what's getting through with a 14-day read-only scan of Microsoft 365 or Google Workspace, with no MX changes.
+Start your free email security scan.

@@ -1,0 +1,21 @@
+The open source community just lost one of its strongest advocates.
+Nvidia CEO Jensen Huang resigned Thursday after he admitted to an affair with an alleged Chinese spy, raising concerns about U.S. national security and the motives behind the executive’s support for softer chip export controls on China.
+Huang has been a staunch supporter of open source AI, framing the ecosystem as good for safety, innovation, diffusion, and sovereignty. And as frontier AI labs increasingly move to reduce their reliance on Nvidia and build their own chips, supporting open source is also a good way for the company to diversify its customer base by selling chips to nation-states, enterprises, and any organization that wants to own its own models.
+Still, Huang’s resignation raises questions about whether Nvidia will carry on his legacy by continuing to support the open model community.
+Huang’s departure also comes as Nvidia has yet to finalize a deal to acquire open source platform Hugging Face for $13 billion. Hugging Face CEO Clem Delangue said in a post on X that the company would continue to fight for open source, whatever happens next.
+Nvidia also agreed to pay $6 billion for a non-exclusive license for open AI coding startup Poolside’s technology.
+Within Nvidia, Huang pushed for the development of the Nemotron family of open-weight AI models built for long-running agentic AI systems and reasoning workloads — potential competitors to closed frontier models. One company insider told TechCrunch that they don’t expect a change in leadership to have an impact on Nemotron development.
+Huang also backed companies that would make American open models more competitive, investing in startups like Reflection AI and Thinking Machines Lab.
+Huang’s influence extended beyond Nvidia’s investments and product roadmap. He also emerged as one of the most prominent voices pushing back against Washington’s efforts to restrict the open AI ecosystem.
+Earlier this year, Huang wrote an open letter signed by 25 companies, including Microsoft, Meta, IBM, and Palantir, urging the U.S. government not to over-restrict open-weight AI models, many of which come from China.
+The impetus for that letter was Washington’s debate over how the U.S. should respond to allegations that Chinese AI labs are stealing intellectual property from American counterparts like Anthropic and OpenAI, both of which have reportedly appealed directly to Washington on the matter, urging stronger protections.
+That combination of Huang’s personal visibility and Nvidia’s market power made him the strongest counterweight to arguments from closed-model providers like Anthropic and OpenAI, which have advocated for greater restrictions on advanced AI models due to safety reasons.
+Without Huang, the concern among open source community members is that whoever takes over will be more cautious. Nvidia has named CFO Colette Kress as interim CEO. It’s not clear how Kress will approach the Hugging Face deal or support for the open model ecosystem, but founder-driven priorities tend to get a downgrade when leadership changes.
+Huang’s exit could also strengthen the arguments of those in Washington who are arguing for tougher restrictions on Chinese AI companies, particularly as the scandal surrounding his relationship with Alice Huang, the Megaspeed executive and alleged spy, puts renewed scrutiny on his efforts to loosen chip export controls.
+Restrictions on open-weight models from China could kneecap competition for American companies, the most powerful of which have kept their models closed.
+Still, supporting open source isn’t simply a passion project Huang pursued out of idealism. It’s increasingly central to Nvidia’s business strategy.
+As some of Nvidia’s biggest customers, including Google and OpenAI, develop their own chips, Nvidia has an incentive to cultivate a much broader ecosystem of AI developers and customers.
+More players training, fine-tuning, and running models mean more GPUs sold, and less dependence on a handful of frontier labs.
+Huang may be gone, but Nvidia still needs an open AI ecosystem. The question now is whether that commitment can survive without the man who made it a priority.
+TechCrunch has reached out to Nvidia for comment.
+This article has been updated with information from an Nvidia employee.

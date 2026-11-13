@@ -1,0 +1,18 @@
+Thank you for visiting nature.com. You are using a browser version with limited support for CSS. To obtain
+the best experience, we recommend you use a more up to date browser (or turn off compatibility mode in
+Internet Explorer). In the meantime, to ensure continued support, we are displaying the site without styles
+and JavaScript.
+A pioneering therapy that edits genes inside a recipient’s body continues to be effective four years after treatment, according to data released by its developer, Intellia Therapeutics.
+The therapy, named lonvoguran ziclumeran (lonvo-z), was designed to treat one form of a genetic disorder that causes episodes of painful and potentially dangerous swelling in the throat and other parts of the body. Lonvo-z deploys the CRISPR-Cas9 gene-editing system to disable the gene that produces prekallikrein, a protein made in the liver that promotes blood-vessel leakage.
+Intellia, headquartered in Cambridge, Massachusetts, has applied for approval of lonvo-z to the US Food and Drug Administration (FDA), which is expected to issue a decision by 10 March. If approved, the therapy will become the world’s first CRISPR medicine to be delivered directly inside the body, or in vivo, John Leonard, Intellia’s chief executive, told investors on 12 November. Currently, the only CRISPR therapy approved by the FDA is performed on cells that have first been removed from the body and are subsequently re-infused.
+For people with the condition, hereditary angioedema, the gene-editing approach could offer relief from a lifetime of juggling medications to prevent and treat swelling attacks, says Jonathan Bernstein, a hereditary angioedema specialist at the University of Cincinnati in Ohio and an investigator on a lonvo-z trial. “It’s very reassuring,” he says of the four-year data. “That’s what you’re supposed to see.”
+Inside job
+The only approved CRISPR therapy is Casgevy, a treatment for two genetic blood disorders, sickle cell anemia and ß-thalassemia. To create a dose of Casgevy, physicians first remove blood stem cells from the recipient, then send them off for gene editing. The edited cells are infused back into the recipient.
+The therapy must be made anew for each person, adding time, cost, and complexity. The recipient also has to undergo harsh chemotherapy treatment to make room for the edited cells.
+In vivo gene-editing approaches aim to sidestep these concerns by editing genes directly in the body. Lonvo-z, for example, consists of fatty particles that encase mRNA encoding CRISPR-Cas9 components. The particles are infused into the blood and taken up by the liver, where prekallikrein is produced. The procedure takes one day.
+In vivo gene editing can introduce other safety concerns, however. The therapy affords no opportunity to screen out cells with unwanted edits at other locations in the genome, or in other organs. Recipients might also have harmful immune responses to the treatment.
+Last year, the FDA placed a clinical hold on two other in vivo studies sponsored by Intellia after a participant — an older man with other health conditions — developed liver damage and died after receiving a CRISPR treatment. The FDA lifted the hold this year after requiring added safety measures.
+Enjoying our latest content?
+Log in or create an account to continue
+Access the most recent journalism from Nature's award-winning team
+Explore the latest features & opinion covering groundbreaking research

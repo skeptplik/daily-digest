@@ -1,0 +1,49 @@
+Andrea is a Senior Developer Advocate at GitHub with over a decade of experience in developer tools. She combines technical depth with a mission to make advanced technologies more accessible. After transitioning from Army service and construction management to software development, she brings a unique perspective to bridging complex engineering concepts with practical implementation. She lives in Florida with her Welsh partner, two sons, and two dogs, where she continues to drive innovation and support open source through GitHub's global initiatives. Find her online @acolombiadev.
+How many times this week did you re-explain the same task to an agent? How many times did you ask your colleague with deep institutional knowledge how to solve a specific problem? That context shouldn’t be lost in a chat or locked in one person’s head. Agent skills let you capture repeatable instructions so you and your agents can reuse them. The skill you write for yourself tonight can later become part of a team’s pipeline.
+An agent skill is a versioned directory centered on a SKILL.md file that describes when and how to do a repeatable task. You can share those instructions across agents, but the environment still needs to provide the tools, credentials, and permissions to carry them out. A skill can describe how to query a database, for example, but it doesn’t grant access to that database.
+I covered this topic live with Shishir Tewari, Senior Manager, Data Engineering at Procore, during GitHub Universe 2026. Our session was titled “Build once, run on any agent: a practical guide to agent skills”.
+Define one job and when it applies
+A skill works best when it has a clear job, input, and output. For example, let’s say you’re building an agent that checks AI-generated changes against the original request. If the same agent assesses its own work, its explanation might influence the review. With Proof Agent, we use a separate verifier to examine the changes and provide evidence for its findings. The skill’s frontmatter names the task and describes its purpose:
+---
+name: proof-agent
+description: Adversarial verification of AI-generated work. Spawns an independent verifier to check for false claims, broken code, and security issues.
+---
+At the center is a simple rule: self-verification is not verification.
+The When to Verify section in Proof Agent’s SKILL.md says when to invoke the skill. The remaining instructions explain what the verifier reviews and what evidence to include in its findings.
+Coordinate multiple skills for a larger workflow
+When the judgment that makes a data pipeline correct lives in four different people’s heads, those four people are the roadmap. Each change to the pipeline depends on their availability and knowledge of the data. Data Forge is an example of how to capture parts of that judgment in skills that work together.
+In the support-desk pipeline example, we start with a request for metrics that count incidents created and resolved. Before building the pipeline, the forge-init skill discovers details such as source tables and naming conventions, then writes them to a resolved manifest. The other skills read that manifest for the project context they need.
+The forge-builder skill then coordinates the work from the issue through to a pull request. It uses forge-dbx to query the data platform and forge-lint to apply the team’s standards as it designs and builds the pipeline. A person reviews the proposed decisions along the way, and the resulting pull request contains the pipeline code, schema changes, and tests.
+Each skill has a defined responsibility, and they share project context instead of rediscovering it independently. When a step changes, you can change one skill and leave the rest alone.
+Skills fit bounded, repeatable work that benefits from reusable judgment, such as a checklist, release, migration, or metric pipeline. If a workflow needs a stable interface, shared state, an audit trail, long-running control, or permissions enforced outside the model, an application is a better fit.
+Keep project configuration out of the skill
+We don’t want to hardcode every project’s names, database, or conventions into the skills. In the Data Forge support-desk example, a manifest describes the project, metric store, and platform so the skills can use the right project details without baking them into their instructions:
+project:
+  name: "support-desk"
+  store_name: "support_metric_store"
+platform:
+  engine: "duckdb"
+  pipeline_framework: "spark_python"
+  duckdb_dir: "warehouse"
+With the discovered details in the resolved manifest, the other skills don’t have to make their own assumptions about the project.
+Keep discovered project details separate from team standards. The forge-init initialization skill can inspect existing schemas and code patterns; the forge-lint skill supplies the rules to follow before code is generated. A pattern found in a repository isn’t automatically a rule to preserve, so make discovered details reviewable and let people confirm or change them where business judgment is needed. To check portability, ask: could another team use these skills with its own manifest without rewriting them?
+Share execution paths between skills
+The forge-dbx skill gives the other Data Forge skills one way to access the data platform. It reads the manifest and selects a Databricks or DuckDB adapter, so each skill doesn’t need its own connection and query logic.
+The manifest can choose DuckDB for the local support-desk demo, but it can’t install the DuckDB CLI or grant database access. Those remain setup responsibilities for the environment and its user. The manifest picks the engine; the host provides the access.
+Put checks and approval points in the workflow
+The Data Forge support-desk workflow has seven phases, with a human checkpoint at each one. The workflow overview shows how the skills fit together. Before a phase proceeds, the workflow checks that the previous phase is complete; before schema changes run, it asks for approval.
+The Proof Agent example applies the same principle to code review. A GitHub Actions workflow gives the verifier the original request and code changes, but not the coding agent’s own assessment. The verifier returns PASS, FAIL, or PARTIAL and must cite evidence in the changed files. The GitHub Action does a static review of the diff; it doesn’t execute code or run tests. In the demo workflow, we set block-on-fail: false so findings were advisory. By default, a FAIL fails the check, which blocks the merge if the check is required. The aim is to keep test results and merge requirements in your repository’s CI checks and rules.
+Package for each agent client, then verify its setup
+Supporting multiple clients can mean keeping several copies of the same instructions in sync. In the Data Forge example, we keep skills/*/SKILL.md as the source and use a packaging script to generate client-specific files: .claude-plugin/plugin.json for Claude Code, .cursor-plugin/plugin.json for Cursor, and .github/agents/*.agent.md for GitHub Copilot. The script also includes a check mode for CI:
+node scripts/package.mjs --check
+Clients can differ in their available models, tools, credentials, and permissions. After installing a skill, check that the client recognizes it for the intended task, loads its references, can use the required tools, and returns the evidence the skill calls for.
+Three practices for building agent skills
+- Put business context in one file. Keep project-specific names, schemas, and conventions in a manifest, and have each skill read it instead of duplicating those facts. This gives the team one visible place to update configuration.
+- Give related skills one consistent way to use the platform. Have related skills use the same path to run queries, jobs, and schema changes instead of each defining its own commands and connection logic. This makes the workflow’s access easier to understand and its behavior easier to check in each client.
+- Use instructions to guide the work, and checks to verify it. A skill can tell an agent which standards to follow and when to ask for approval. Add human review at decisions that need context or judgment, and use tests and CI checks to catch issues before a change moves forward. If a check must block a merge or deployment, configure that requirement in your repository’s rules.
+Start with the task you’re tired of explaining. Write down what it needs, where it stops, and what a reviewer sees. Then try it with another agent and improve it as you learn what works.
+Tags:
+Written by
+Related posts
+Writing code got faster. The work around it didn’t. See how you can plan, write code, review changes, and investigate production issues with GitHub Copilot, and what work still needs your judgment.
+Three Java Champions share how they use GitHub Copilot to solve problems, accelerate development, and keep humans responsible for the results.

@@ -1,0 +1,39 @@
+Author: Gene Moody, Field CTO at Action1
+Endpoint management platforms have become essential in modern IT operations and enterprise security. They allow administrators to deploy patches, install software, execute scripts, enforce configurations, and remotely manage thousands of devices from a centralized system.
+Without these types of systems, maintaining consistent security across large environments would be extremely difficult and labor-intensive.
+However, the administrative authority that makes these platforms valuable also makes them very attractive targets for attackers. An endpoint management platform already has established and approved communication channels, elevated permissions, and trusted relationships with the devices it manages.
+Any attacker who gains control of that infrastructure will be able to use those existing capabilities to distribute malware, execute malicious commands, disable security controls, or disrupt operations across an entire organization. All with the same level of authority as the real admin.
+The same capabilities that allow an administrator to secure thousands of endpoints can allow an attacker to compromise them.
+When trusted management infrastructure is compromised
+Recent incidents demonstrate how compromised remote management infrastructure can extend attacks across compromised environments.
+In 2026, Huntress documented attackers abusing compromised BeyondTrust Bomgar remote support infrastructure to deploy ransomware and access downstream organizations. In 2025, ransomware operators compromised an MSP's SimpleHelp platform, using its existing management capabilities to access protected systems, steal information, and deploy ransomware.
+Similarly, in 2024, attackers exploited ConnectWise ScreenConnect vulnerabilities, with investigators documenting Play ransomware deployment through a compromised MSP instance. And who will forget the 2024 incident abusing Microsoft Intune to remotely wipe hundreds of thousands of corporate devices at Stryker!
+In each of these cases, attackers exploited the administrative reach of infrastructure already trusted by the organization. The incidents warn us why protecting systems against the management platforms’ misuse is essential, and why independently verifying sensitive endpoint operations can help limit the consequences of a successful compromise.
+These attacks against centralized management and software distribution systems often lead to compromise well beyond the initially compromised infrastructure.
+For cloud-hosted platforms, the security of the provider's hosting environment, management services, and software delivery mechanisms becomes particularly important. A compromise there may affect multiple environments simultaneously.
+Why traditional security controls have limitations
+Multi-factor authentication, role-based access controls, privileged access management, and activity monitoring are bare minimum safeguards. They help restrict administrative access, limit permissions, and identify suspicious behavior.
+However, these protections primarily operate within the management platform's security boundaries.
+An attacker exploiting a vulnerability in the underlying system, compromising a privileged service, or hijacking an authenticated administrative session may be granted the ability to issue commands that endpoints recognize as legitimate. Because they are impersonating a user, and the restriction is BY user.
+Even with strong authentication and carefully configured permissions, the endpoint may have no independent way to determine whether a sensitive instruction was explicitly approved by a legitimate administrator.
+This security implication is: high-risk endpoint operations should have authorization that remains verifiable independently of the management platform delivering them!
+Adding owner-controlled authorization
+Cryptographically verified authorization, independent of anything the platform stores or directly handles, provides the platform a way to establish that independent security boundary.
+Under this approach, sensitive endpoint operations require authorization signed using a private cryptographic key controlled only by the legitimate admin. The endpoint independently verifies the signature before executing the protected instruction.
+The management platform can continue coordinating and delivering administrative operations, while the authority to approve protected actions remains separately controlled.
+An attacker who compromises the management infrastructure cannot simply create valid authorizations without obtaining the owner’s signing key or compromising the verification process.
+Action1 implements this approach through Endpoint Takeover Prevention (ETP).
+ETP uses customer-controlled cryptographic authorization to protect high-risk operations, including script execution, software deployment, automations, and remote sessions.
+Because the private authorization key is maintained independently of Action1's cloud infrastructure, a compromise of the management platform alone does not provide the ability to authorize these protected actions.
+Action1's Endpoint Takeover Prevention (ETP) protects high-risk endpoint actions with customer-controlled cryptographic authorization, even if the management platform is compromised.
+Take control of endpoint security with Action1. Your first 200 endpoints are free forever.
+Start Now
+Of course, the effectiveness of this protection depends on secure key management, endpoint integrity, and appropriate configuration of protected operations, but that becomes customer responsibility by becoming customer privilege. It is protected by a key they, and only they control.
+Securing an essential part of enterprise IT
+Endpoint management platforms will continue to be essential parts of modern infrastructure by maintaining secure and operationally manageable environments. But they now demand particularly strong safeguards against compromise and abuse. We have new threat metrics, we need new defense metrics,
+Organizations should re-evaluate how these platforms are secured, how suspicious activity is monitored, and which protections remain effective if management infrastructure is compromised. Practice failure, so when it happens you can understand it, and contain it more effectively.
+Customer-controlled cryptographic authorization adds a crucial layer by ensuring that sensitive endpoint operations require independently verifiable approval.
+Protect your endpoints from management platform compromise with Action1 Endpoint Takeover Prevention (ETP). Keep sensitive operations under your control with customer-owned cryptographic authorization, even if the management platform is compromised.
+The goal is to preserve the administrative power organizations depend on while keeping the authority to approve its most sensitive uses under the owner’s control.
+Try it free and see how autonomous patch management can transform your team’s efficiency and provide better security.
+Sponsored and written by Action1.

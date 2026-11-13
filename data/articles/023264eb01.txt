@@ -1,0 +1,13 @@
+European authorities take down SteaIC malware servers for second time this year
+European police dismantled more than 100 servers used by the StealC password-stealing malware this week, marking the second such takedown after an initial crackdown in June.
+German authorities on Thursday said investigators traced the rebuilt network to the Virtualine bulletproof hosting provider, seized by the FBI in October, with the assistance of police in Frankfurt and the Dutch National High Tech Crime Unit.
+Europol said a wider international operation this week saw law enforcement agencies and private sector partners disrupt 235 servers and 257 domains used by StealC alongside the Gootloader and CastleRAT malware.
+Investigators uncovered copies of around 6.4 million stolen login credentials from more than 40,000 victims obtained by this malware. People have been encouraged to visit politie.nl/checkyourhack and haveibeenpwned.com to see if they were impacted, and to find out what to do if they were.
+No arrests, cryptocurrency seizures or criminal charges accompanied the action.
+The authorities and Microsoft previously announced in June they dismantled hundreds of servers and domains linked to StealC and other malware tools. At the time, investigators restricted access to €41 million ($47 million) in cryptocurrency.
+Police from nine countries, including Germany, the Netherlands, Britain and the United States, took part in the latest operation, which aims to target the most significant tools used by cybercriminals globally.
+Carsten Meywirth, the head of the cybercrime department at Germany’s Federal Criminal Police Office, said the move marked the agency’s “long-term strategy and a high-speed approach” to tackling cybercrime.
+“Even technically skilled and well-organized cybercriminals must expect coordinated international investigations,” said Meywirth.
+“We have once again demonstrated that, together with our international partners and private cybersecurity companies, we can neutralize even seemingly untouchable malware. Anyone who rebuilds their infrastructure after police action leaves new leads that we will pursue.”
+Alexander Martin
+is the UK Editor for Recorded Future News. He was previously a technology reporter for Sky News and a fellow at the European Cyber Conflict Research Initiative, now Virtual Routes. He can be reached securely using Signal on: AlexanderMartin.79

@@ -15,6 +15,8 @@ However, the precise mechanism allowing malware to spread from an infected endpo
 ConnectWise disables third-party extensions
 In a security advisory published Wednesday night, ConnectWise confirmed unauthorized access to ScreenConnect partner accounts and the installation of unauthorized remote-access software in customer environments.
 As part of its investigation, the company discovered five independent third-party extensions that may be associated with the attacks and disabled them across approximately 400 partner environments as a precaution.
+"We are aware of reports of malicious activity affecting a limited number of ScreenConnect partners and are actively investigating," ConnectWise told BleepingComputer.
+"While the initial access method remains unconfirmed, our initial assessment suggests the activity may involve a threat actor’s abuse of independent third-party extensions installed in partner environments. We have disabled the identified extensions where we can take action as a precaution and are advising on-premises partners to disable them immediately. The presence of these extensions alone does not establish compromise."
 ScreenConnect extensions are installed through its built-in Extensions marketplace via the ScreenConnect administration interface.
 The extensions are:
 - Labtech Plus

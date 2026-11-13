@@ -1,0 +1,21 @@
+Microsoft is struggling to fix a major global outage of its service that is reportedly affecting tens of thousands of users.
+Services including Teams, Outlook and Microsoft's artificial intelligence software Copilot have been affected by "connectivity problems".
+"We're aggressively pursuing all pathways to reduce impact," the company wrote on X.
+Reports of problems with Outlook peaked globally at nearly 140,000 around 18:00 GMT on Thursday, according to monitoring website Downdetector.
+The BBC understands there is no indication the outage was caused by a cyber-attack.
+The disruption affects programs that are part of Microsoft 365 - a popular online service among businesses that allows them to use workplace tools like Outlook, Teams and OneDrive.
+For international organisations, this platform is essential for connecting and collaborating with colleagues around the world.
+Among the issues, users may be unable to view certain files or details on their calendar apps, Microsoft said.
+Its AI platform, Copilot, may also be unable to work properly.
+Messaging and online meetings were largely functional, the firm added.
+Microsoft said on X that the outage was caused by a number of servers "being unexpectedly unavailable", straining its remaining systems.
+The company is working to address the issues with its services, said a Microsoft spokesperson.
+"We appreciate our customers' patience while we work to restore services as soon as possible."
+The company later warned that some services that had been restored "can become unresponsive again", adding that customers "in any region" could be affected.
+Users around the world including the US, Japan and Singapore have reported facing disruptions.
+AI companies feel the impact
+The outage has hit other companies, including AI giants Anthropic and OpenAI, which work with Microsoft's systems.
+ChatGPT-maker OpenAI said it was investigating an issue affecting its connections to Microsoft's services, which has caused some tools to not work as expected.
+Microsoft last month reported an outage of its Azure cloud platform that affected the tech giant's suite of productivity tools and companies worldwide.
+Electric truck maker Workhorse Group, which was expected to report third-quarter results on 12 November, rescheduled it to 16 November, citing business disruptions caused by the global Microsoft outage.
+Additional reporting by Osmond Chia
