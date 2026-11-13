@@ -1,0 +1,37 @@
+Governments, doctor surgeries and even rival AI firms have been caught up, and the episode is sharpening questions about Europe's reliance on a handful of US tech giants.
+A failure in part of Microsoft’s server infrastructure has cut people off from Outlook email, Teams and other everyday office tools for more than a day, with problems reported in 74 countries and territories.
+The disruption began on Thursday afternoon European time and was still not fully fixed on Friday morning. Microsoft says there is no sign of a cyber attack, but it has yet to name a root cause.
+Here is what we know so far.
+What has happened since Thursday?
+Euronews reported how the outage first hit Outlook, Teams and Copilot on Thursday evening. Since then, the picture has got worse rather than better.
+Microsoft's fixes have not solved the issue. Servers it brought back overnight crashed again once traffic returned, and the company admitted its changes were "not taking as expected". By Friday morning, it reported only "marginal success".
+Reports to Downdetector, a website that tracks outages using reports from the public, registered nearly 140,000 issues on Outlook alone.
+The list of affected services has also grown. Microsoft's incident notice now includes SharePoint Online, used for sharing documents, and the security tool Defender XDR. The task-management apps Planner and To Do have also been reported down.
+How many people have been affected?
+The true number is unknown. Downdetector only counts people who file a report, so its figures are a signal of scale rather than a headcount. Microsoft says more than 430 million people use its 365 apps.
+A map published by Downdetector showed users affected across the Americas and in parts of Europe, Asia and Africa. The knock-on effects reached well beyond missed emails:
+Healthcare: several GP practices in the UK told patients to phone with urgent queries rather than use email or online forms.
+Government: the Singaporean government and Australia's intelligence agency said they had been affected.
+Tech firms: OpenAI and Anthropic reported problems with the tools that link their AI services to Microsoft 365.
+Business: one US company, the electric vehicle maker Workhorse, postponed its earnings call to Monday.
+Paul Spain, of the New Zealand-based advisory firm Gorilla Technology, said many companies had effectively "lost a business day".
+What went wrong?
+Microsoft has not yet named a root cause, and its explanation has shifted over the course of the outage.
+It first blamed "elevated load", meaning servers were under far more strain than usual. It later clarified that this was not caused by a surge in users. Instead, a large number of servers had become "unexpectedly unavailable", pushing their work onto the machines that remained.
+Attention then turned to the automated "health checks" Microsoft uses to decide whether a server is fit to handle traffic. The company said it was testing a configuration change to fix a problem that was causing servers to fail those checks and drop out of service.
+Mahmoud Elkhodr, a senior lecturer in information and communication technologies at CQUniversity in Australia, offered one explanation in The Conversation. Health checks are meant to pull faulty servers out of action, he wrote. If the checking system itself goes wrong, it can switch off healthy servers and overload the rest.
+Elkhodr stressed that this is only an inference from Microsoft's public updates.
+Was it a cyber attack, and is my data at risk?
+There is no evidence of a hack. Microsoft said it was not aware of any "malicious activity", and executive vice-president Charles Lamanna said the outage did not appear to be a cyber attack. No group has claimed responsibility.
+Elkhodr noted that the most common online attack used to knock services offline, known as distributed denial of service, works by flooding a system with outside traffic. That does not match up with Microsoft's statement that traffic had not increased.
+That has not stopped speculation. Smitarani Tripathy, a social media analyst at the data firm GlobalData, said rumours of hacking spread on X because Microsoft offered no confirmed cause or timeline for a fix.
+On the evidence so far, this is a problem of access, not of theft. An outage stops people reaching their emails and files; it does not in itself mean anyone else has seen them. Nothing Microsoft has said suggests customer data has been exposed or lost.
+There are still indirect risks:
+Weaker defences: Defender XDR, which organisations use to spot threats, was among the affected services, which could make security monitoring harder while it is down.
+Scams: fraudsters often use major outages to send fake "support" emails or messages. Users should be wary of any message asking them to log in or reset a password, and check Microsoft's official status page instead.
+Lost messages: some emails may arrive late. Users should check that anything important sent during the outage has been received.
+What does it mean for Europe?
+This is not a one-off. In January, Outlook, Teams and other Microsoft 365 services went down for hours. In August, a faulty code update disrupted Outlook and Exchange Online for several days.
+The outage also coincides with European governments and businesses debating how far they should depend on a few US cloud providers. When one of them fails, thousands of services built on top of it can fail too, including those run by other companies.
+Elkhodr argued that organisations should plan for digital outages the way they prepare for natural disasters. That means having backup systems and testing them regularly, not just writing plans that are never used. For individuals, he suggested keeping essentials such as contacts available offline.
+Microsoft has promised continued updates through its service status page. Until it publishes a full review, the key questions of why so many servers failed at once, and how to stop it happening again, remain unanswered.

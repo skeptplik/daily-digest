@@ -1,0 +1,13 @@
+Microsoft has confirmed that this month's Patch Tuesday security updates are causing Windows activation and licensing failures with 0x80041008 error codes.
+According to a Wednesday service alert seen by BleepingComputer, this known issue affects organizations that automate Windows activation and licensing processes or use the Software Licensing Management Tool (SLMGR) command-line tool.
+"Affected devices might encounter error 0x80041008, Invalid parameter (SWbemObjectEx), when running commands to activate Windows, configure Key Management Service (KMS), or manage product keys," Microsoft said.
+"Devices that are being configured to use KMS activation might encounter errors when attempting to initiate their activation. KMS-activated devices typically remain activated for up to 180 days following successful activation."
+The activation failures occur after executing the 'slmgr.vbs /skms-domain <domain>' and 'slmgr.vbs /ipk <key>' commands on client (Windows 10 21H2/22H2 and Windows 11 23H2) and server (Windows Server 2019/2022/2025) devices.
+However, Microsoft added that customers with the KMS client key installed in their image and who don't use SLMGR for licensing management are unaffected.
+"Devices that are already activated remain activated. Customers whose devices already have the appropriate KMS client key and KMS configuration, and who do not need to run the affected Slmgr.vbs commands, are not expected to be affected," the company noted.
+While a fix will be available over the coming days, Microsoft advised affected organizations that need immediate mitigation to reach out to Microsoft Support for business.
+In January, Microsoft addressed another known issue that was causing Windows license migration failures during upgrades because affected devices couldn't register with the Windows Activation server for digital licenses.
+This week, it also confirmed that the November 2026 Windows 11 security updates fail to install on systems with the October 2026 preview update and that Windows updates released since the October Patch Tuesday are triggering SQL Server performance and stability issues.
+Adaptive Security's AI agents analyze email intent, context, and behavior to uncover phishing, business email compromise, and invoice fraud.
+See what's getting through with a 14-day read-only scan of Microsoft 365 or Google Workspace, with no MX changes.
+Start your free email security scan.

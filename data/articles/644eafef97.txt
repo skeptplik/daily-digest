@@ -1,7 +1,0 @@
-In Memoriam: Tim Peters 1952–2026
-	It's hard to overestimate Tim's influence on Python. He's probably
-	best known for writing the Zen of Python (PEP 20), but to me he
-	was a mentor and language co-designer long before that.
-Tim found Python not long after its initial release. His first deed was to convince me that Python should support mixed arithmetic between int and float, because most users would expect them to work that way. And he never stopped contributing.
-The LWN site is currently under high scraper load, so comment display has been suppressed for anonymous users. If you are a human, you may read the comments by clicking the button below:
-Note: you can avoid this step in the future by logging into your LWN account.

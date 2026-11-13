@@ -1,0 +1,56 @@
+Across Europe, millions of Microsoft customers will have woken up to the news that the company is strugging to get its services back online.
+The disruption, which began around 6pm GMT on Thursday, has disrupted key Microsoft services such as Outlook, Teams and Copilot. Initially mainly affecting US users, it has gone on to cause disruption across the Asia-Pacific region.
+Microsoft has suggested the outage may have been caused by issues with the settings applied to servers responsible for keeping Microsoft 365 up and running. It says it doesn’t believe it is suffering a cyber attack.
+And it became clear that the problem was pretty serious when the company admitted that the fix was “not taking as expected”.
+The outage hit government agencies in Australia, Japan and the United States, as well as companies including two massive AI companies – OpenAI and Anthropic.
+The UK’s top financial regulators, Bank of England and Financial Conduct Authority, have both been hit by the Outlook outage, my colleague Kalyeena Makortoff.
+A BankofEngland spokesperson said:
+“We are aware of the Microsoft issues affecting their services globally. All critical operations at the Bank are running normally.”
+It’s understood that BankofEngland staffers are having to divert any email to Teams chats (though of course that doesn’t necessarily help with external communications).
+The FCA said they were aware of the global outage and were keeping an eye out how it was affecting City firms more widely, given Microsoft is one of the firms under its supervision (as a provider of critical services to the financial sector).
+Both the FCA and BankofEngland were handed powers in July to start directly overseeing the local arms of Google Cloud and three other Silicon Valley rivals - Amazon Web Services, Oracle and Microsoft – after being designated as critical third parties by the UK government, as their services become a crucial part of increasingly digital banking services.
+Cheltenham has urged racegoers to arrive early today as a worldwide Microsoft outage could cause issues with digital tickets.
+Cheltenham is hosting racing today, and sounds to be concerned that customers who have purchased digital tickets might not be able to access them.
+In a statement released on social media, Cheltenham says:
+“We’re aware that there is currently an issue with Microsoft platforms. If you have purchased a ticket using an account associated with Microsoft and are yet to download your e-ticket, please arrive at the racecourse in plenty of time and our team on course will be able to assist.
+“Tickets are still available to purchase on the gate today. We’re looking forward to welcoming you to our opening day of the November meeting.”
+Microsoft now says its recovery efforts are appear to be delivering some ‘incremental improvement’ – but its services are still not back to normal.
+The latest Currentstatus report says:
+Recovery actions are ongoing and have progressed in phases across affected Microsoft 365 infrastructure. Global telemetry and customer reports show incremental improvement in several workloads; however, service health remains variable and capacity has not yet fully returned to baseline.
+The GMB union are reporting that ambulance services are affected too.
+Rachel Harrison, GMB national secretary, said:
+“The Microsoft data outage is having a serious impact across ambulance and NHS trusts.
+“Those who work in 111 and 999 services are unable to refer patient details in the normal way which is creating a massive backlog and has the potential for chaos.
+“Luckily emergency and life threatening call outs appear to be unaffected.”
+It appears that the NHS’s clinical and operational systems are all working, despite the Microsoft outage disrupting the health service’s email systems.
+That’s according to SirCiaránDevane, chief executive of the NHSAlliance, who says (via the Press Association):
+“The Microsoft outage is affecting some NHS services, notably access to email, but it appears that all clinical and operational systems are working effectively.
+“NHS leaders and their teams are working hard to minimise disruption, maintain essential services and support staff and patients who may be affected.
+“Their priority is, as always, to ensure patient safety and continuity of care.
+“NHS organisations have workarounds in place when email is unavailable, so contingencies are in place to manage situations like this.”
+European stock market operator Euronext has advised listed companies on Friday morning to use the telephone to communicate corporate information after an outage in Microsoft’s Outlook email service.
+“Euronext Corporate Actions and Listing teams are currently experiencing an email communication disruption and are unable to receive emails,” the company, which runs exchanges in Paris, Brussels, Lisbon, Amsterdam, Oslo, Athens and Milan, said in a corporate filing (via Reuters).
+The UK’s InsolvencyServicereports problems with its email too:
+We are currently experiencing problems sending and receiving emails due to the worldwide Microsoft outage. Our Adjudicator Office service is also impacted.
+UK healthcare system seeing 'widespread' and 'serious' disruption
+Andrew Gregory
+NHS sources said the healthcare system in the UK was experiencing “widespread” and “serious” disruption, with staff reporting being unable to access email and IT systems they use to deliver healthcare, our health editor Andrew Gregory reports.
+Some NHS organisations took to social media to apologise, and urged patients not to email and use the telephone to contact them instead (see earlier blogpost).
+Pharmacy sources told the Guardian they were also unable to access email, and said the Microsoft outage was affecting their ability to communicate with some GP surgeries about prescriptions. This was having a “significant” impact on patient waiting times for medicines, they said.
+A NationalPharmacyAssociation spokesperson said:
+“We are aware of the disruption impacting pharmacies today, including access to NHS email systems, due to national issues with Microsoft. This affects a pharmacy’s ability to communicate with GP practices and some patients.
+“Please bear with your pharmacy teams today, where waits may be longer than normal and there may be delays to some prescriptions.”
+Microsoft’s share price is down 2.6% in pre-market trading, as traders digest the impact of this serious, ongoing outage to its services.
+Amish Patel, head of equity research at wealth manager Raymond James, has a good take:
+“Microsoft’s latest outage highlights both the strength and vulnerability of its position in enterprise technology. Its products are so deeply embedded in how businesses operate that even a relatively short disruption can have widespread consequences.
+“From an investment perspective, the direct financial impact is likely to be negligible. The more interesting question is whether repeated outages begin to change how businesses think about their dependence on a single technology provider. For now, Microsoft’s scale, entrenched customer relationships and high switching costs remain formidable competitive advantages.
+“The irony is that the same market dominance that makes Microsoft such an attractive business also magnifies the consequences when things go wrong.”
+Microsoft: We're seeing 'early signs of stabilization'
+Just in: Microsoft reports it is making progress in its ongoing fight to get its services online.
+But the company’s services are still not back to normal.
+In an (delayed) update to its ‘current status’ message, Microsoft says:
+Recovery efforts are ongoing across impacted infrastructure. We are seeing early signs of stabilization, but service capacity has not yet returned to normal levels and health remains variable as traffic is carefully reintroduced.
+Our primary mitigation path continues to focus on service stability and controlled recovery. Engineering teams are cycling affected infrastructure through traffic drain, restart, remediation, and staged return-to-service while monitoring closely. We are also evaluating additional mitigation options to improve recovery speed and consistency. Network and traffic-management actions remain in progress, and we continue to prioritize backlog and queue health to preserve delayed mail during recovery.
+Microsoft adds that it is extending the “email timeout window” to 48 hours to help protect delayed messages while service recovery continues.
+It adds:
+At this time, we are not aware of any malicious activity causing this incident. We will continue to treat this with urgency until full mitigation, and we will share a full Post-Incident Report with root cause and defense-in-depth actions after recovery is complete.

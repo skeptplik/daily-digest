@@ -1,0 +1,36 @@
+GPs, police and pharmacies are among UK services affected by a global outage on some Microsoft platforms.
+Some GP surgeries have urged patients not to submit messages via their website while the problem remains, while several large police forces are urging members of the public to call if they want to make a report. MPs are also affected.
+Microsoft has said the problem was caused by a higher-than-usual stress on its servers but that systems were now showing "early signs of stabilisation" as work continued on a fix.
+Major airports and UK intelligence services have been unaffected by the outage, while a minister said officials were assessing the extent of the impact on government services.
+Sir CiarÃ¡n Devane, chief executive of the NHS Alliance, which represents the healcare system in England, Wales and Northern Ireland, said the outage was affecting some NHS services including emails.
+"But it appears that all clinical and operational systems are working effectively," he added. Contingencies were in place "to manage situations like this" and teams were working to maintain essential services and minimise disruption.
+Practices in Hampshire and Shropshire have told patients to phone them or come into the surgery if they have an urgent need.
+A spokesperson for the National Pharmacy Association said the outage was affecting pharmacies' ability to communicate with GP practices and some patients, so "waits may be longer than normal and there may be delays to some prescriptions".
+Metropolitan Police, Greater Manchester Police and North Yorkshire Police have all issued statements saying online forms may be affected by the outage. They have urged people to call 101 with time-critical but non-emergency reports.
+South Wales Police and Dyfed-Powys Police have also reported similar issues and are asking people to call if they need to get in touch. Police Scotland said there may be delays responding to forms submitted in the past 24 hours.
+The London Ambulance Service's critical platforms do not use Microsoft so are unaffected by the outage.
+The GMB union's national secretary Rachel Harrison said the outage was having a "serious impact" across ambulance and NHS trusts.
+"Those who work in 111 and 999 services are unable to refer patient details in the normal way which is creating a massive backlog and has the potential for chaos," she said, though "emergency and life threatening call outs appear to be unaffected".
+Heathrow, Manchester and Stansted airports are operating as usual.
+Defence minister Luke Pollard told BBC Breakfast that the government was "assessing the impact" of the outage on its systems and would issue a statement once this was completed.
+A government spokesperson said it was "working closely" with Microsoft to assess "any impact on government services" by the company's outage.
+It is understood that UK intelligence operations have been unaffected. While some elements of the security services use Microsoft tools, they have a separate system for secret operations.
+MPs are unable to access their parliamentary accounts, however. A spokesperson said alternative arrangements were in place to allow the day's business to go ahead.
+Some teachers have reported being unable to access their calendars, emails and files on cloud servers, while parents in several parts of Scotland being told to call to report absences rather than using email.
+Northern Ireland's Education Authority said its schools were unable to access email accounts.
+Royal Mail also said some of its online services were unavailable and that email notifications about deliveries may be delayed or unset, but that post was still being collected and delivered as normal.
+Throttled traffic 'just like on a motorway'
+Microsoft and cyber-security experts have ruled out a cyber-attack being the cause of the outage, which has affected Outlook, Teams and Copilot.
+The tech firm said a large number of its servers had become "unexpectedly available", meaning traffic was sent to the servers that remained online, putting them under strain.
+"Just like on a motorway, when you block one lane, you have to put all of the excess traffic through just, say, one or two lanes," Jake Moore, a cyber-security adviser at ESET, explained.
+"Everything goes and backs up. It slows down, and that's what we're seeing here."
+He told BBC Radio 4's Today programme that this incident should "hammer home" the need for contingency communication networks that are "independent of others".
+"Unfortunately, we just put so much emphasis on just a few providers - so when one big one like this goes down, the knock-on effects are just huge."
+His sentiment was echoed by Nicky Choo, who said his cyber-security firm Mimecast used Microsoft tools but had built-in alternatives to prevent disruption.
+Moore added that "good old-fashioned phone lines" seemed to be "the strongest form of communication, especially today".
+'Huge disruption' or 'absolute bliss'?
+Caroline Wade, who runs her own PR agency in Kent, told the BBC that the outage had caused "huge disruption" to her work, including one client with an exhibition launch and another running a large public art project in central London.
+"You feel that this is something that you can rely upon - it's quite incredible that it's not been sorted yet," she said.
+But others were initially glad to hear about the Friday 13th outage - especially as it has occurred just before the weekend.
+Martin told the BBC that waking up to no new emails was "absolute bliss" until he realised "today is a crucial day to conclude a business deal".
+Meanwhile, one Radio 1 listener described it as "equivalent to an adult snow day".

@@ -1,0 +1,15 @@
+Authorities arrested 354 suspects in a joint international operation targeting vendors and buyers on the Archetyp, Nemesis, Tor2Door, Bohemia, and Kingdom dark web marketplaces.
+Codenamed 'Operation TorNado,' this law enforcement action ran from May 2025 to October 2026 and involved agencies from 14 countries.
+"Additionally, law enforcement targeted vendors and buyers active on forums, single-vendor shops, and encrypted messaging services. National authorities conducted independent investigations with Europol's support, including cross-checks via SIENA and forensic analysis," Europol said.
+"The operation highlighted the evolving resilience of dark web marketplaces, which continue to adapt despite takedowns."
+They seized over €60 million ($66 million) in cash and cryptocurrency, 950 kilograms of illicit drugs (including amphetamines, cocaine, ketamine, psilocybin mushrooms, MDMA, and cannabis), and 57 firearms in Europe.
+Law enforcement authorities also seized more than 4.8 metric tonnes of illicit drugs, 152 firearms, and over €150 million ($166 million) in the United States.
+"Following the takedown of multiple darknet marketplaces and vendor targets in the previous JCODE operation, U.S. and international law enforcement agencies obtained intelligence to identify Dark Web drug traffickers, resulting in a series of complementary, but separate, law enforcement investigations," the US Department of Justice added.
+"By leveraging complementary partnerships and surging resources across the U.S. government and Europol, Operation TorNado significantly disrupted the online opioid trade and sends a strong message that criminals operating on the Dark Web are not beyond the reach of law enforcement."
+Operation TorNado follows several similar actions over the last six years, including DisrupTor in 2020 (which led to 179 arrests) and Dark Huntor in 2021 (in which 150 more high-volume darknet vendors were apprehended).
+In April 2022, US authorities and German police also took down Hydra, the world's largest dark web marketplace at the time, with more than 19,000 seller accounts that were serving over 17 million customers worldwide.
+One year later, in 2023, Operation SpecTor led to the arrest of 288 other suspects who allegedly sold illicit drugs on dark web markets and the seizure of €50.8 million ($55.9 million) in cash and cryptocurrency.
+More recently, in May 2025, law enforcement also announced the arrest of another 270 dark web vendors and buyers from ten countries as part of Operation RapTor.
+Adaptive Security's AI agents analyze email intent, context, and behavior to uncover phishing, business email compromise, and invoice fraud.
+See what's getting through with a 14-day read-only scan of Microsoft 365 or Google Workspace, with no MX changes.
+Start your free email security scan.

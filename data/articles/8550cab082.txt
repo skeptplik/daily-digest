@@ -4,5 +4,3 @@ The idea is to keep MATE behaving as closely as possible to how it does on X11, 
 Window management, metacity, workspaces, tiling, XWayland, clipboard and clipman support, multiple monitors, display scaling, hotplugging, screenshots, screen sharing, and session management are all working.
 I've also added desktop effects: fade, zoom, zap, spin, squeemize, magic lamp, desktop cube, expo, and wobbly windows.
 Söke is looking for people to test Polo, particularly on multi-monitor setups, and report back with problems.
-The LWN site is currently under high scraper load, so comment display has been suppressed for anonymous users. If you are a human, you may read the comments by clicking the button below:
-Note: you can avoid this step in the future by logging into your LWN account.

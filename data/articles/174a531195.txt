@@ -1,0 +1,56 @@
+Microsoft says it has had only “marginal success” in restoring its most widely used workplace services, more than 12 hours after a global outage knocked out Outlook and disrupted Teams and Copilot for users in 74 countries.
+In a statement on its service health page early on Friday, the company said it was monitoring activity across regions to assess server status and find ways to improve capacity. “This includes reviewing server performance and confirming that developed patches have been applied and working as intended after infrastructure reboots are completed,” it said.
+Here is what we know about the outage, what caused it and when services might return.
+What happened?
+Problems with Microsoft products began at about 16:00 GMT on Thursday, when users began reporting that they could not access Outlook, its email platform. Within about an hour, the outage tracker Downdetector had logged reports from 74 countries and territories.
+Microsoft first said it was investigating problems in the Americas, but later confirmed that users in any region could be affected. It said the affected infrastructure was experiencing elevated load across multiple regions, which was likely contributing to the connectivity errors.
+The company later said a number of servers had become unexpectedly unavailable, and that the elevated load had not been caused by an increase in traffic.
+The disruption dragged on through the US working day and into the night. By Friday morning in Europe, it had still not been resolved, and servers Microsoft had restored were failing again.
+“I don’t think it’s unprecedented. I mean, the scale is impressive,” Rupert Goodwins, a technology analyst and journalist, told Al Jazeera “It’s very embarrassing for Microsoft and really, really annoying for the rest of us.”
+How many people are affected?
+Microsoft has not confirmed the number of users who have been affected.
+Data from Downdetector, through which users can report problems with online services, gives a partial picture, however.
+At about 07:00 GMT on Friday, it had received at least 43,000 reports of problems with Outlook from users in 72 countries. The true number is likely far higher, since the figure only counts people who visit the site to report an issue.
+“There’s about 430 million people who use Microsoft services,” said Walter Pasquarelli, an affiliate researcher at the Bennett School of Public Policy at the University of Cambridge and an AI specialist. “What we do know so far is that this is first and foremost a communication risk.”
+Government systems in Singapore and Japan have been disrupted, as have communications at the Supreme Court of the Philippines. In Australia, the country’s spy agency and federal police were among the organisations hit.
+Which Microsoft services have been affected?
+Outlook has been hit hardest. Users have reported being unable to open their mailboxes via the web, the app or through mobile devices, and many emails which do go through have arrived late.
+Other services have been partly disrupted. The disruption has spread beyond Microsoft’s own products, hitting integrations which other companies, including the AI firms OpenAI and Anthropic, rely on.
+“For the most part, we don’t really think about it too much, a little bit like our health, that we kind of take these tools for granted until they’re suddenly down or they’re not there,” Pasquarelli said.
+What caused the Microsoft outage? Was it a cyberattack?
+Microsoft has not published a root cause but said the outage was not the result of a cyberattack.
+On Friday, it was rolling back a network change, but did not say if that change was to blame for the problems.
+“We will continue to share more information as soon as we have it, and for now I can confirm that there is no indication this is the result of malicious or cyber activity,” Charles Lamanna, Microsoft’s executive vice president of Copilot, Agents and Platform, said in a post on X late on Thursday.
+Australia’s Home Affairs Minister Tony Burke said Microsoft had also told him it did not believe it was dealing with a cyberattack. “They believe they are dealing in some ways similar to what we saw with respect to CrowdStrike where there is an update that has gone awry,” Burke told a news conference in Sydney.
+Goodwins said elevated load usually comes from one of two places. “Either there’s an external attack and some aggressor is trying to put lots and lots of artificial loads on the system to break it,” he said. “Microsoft says that hasn’t happened, and I believe them because there are ways to mitigate that.”
+The other common cause, he said, is a faulty update to internal systems. “The update gets sent out over the administration network to all these servers, but there’s a mistake, and instead of it fixing things, it makes them reset or stop being able to talk to each other,” he said.
+Pasquarelli said the evidence so far points to a technical failure. “It could literally be like a cable that basically damaged some of the infrastructure. It could be a sign of basically incompetence. It could be a mistake on some of their automated systems,” he said. “So far I do not see any evidence that points to an extremely high amount of computational power or traffic that is caused by AI systems.”
+Goodwins said Microsoft’s focus on AI may have played an indirect role. “Microsoft has been completely focused on AI, and I imagine that the stuff like email and Teams, they’re just seen as forgotten revenue source. They won’t have got the investment and thought and management mind space they should have done,” he said.
+“It does also show that for all Microsoft’s AI, it hasn’t got any AI that can help fix the networks,” he said.
+Why are Microsoft’s efforts to fix it not working?
+Microsoft has posted a series of updates on X about the progress it is making to restore service. Late on Thursday, it reported only limited recovery as it tried to route users’ traffic away from affected servers, and later said the changes it had applied were not taking effect as expected.
+“Some of these servers basically started failing some automated health checks, and then the traffic would go to some of the other servers, and they would then get overloaded,” Pasquarelli said.
+“Think of it a bit like a highway where you have four lanes, and now all of a sudden you have two lanes. That means that there’s a lot more traffic, and because there’s traffic, then the entire thing shuts down,” he said.
+Goodwins said servers knocked offline usually attempt to reconnect so they can synchronise their files again. “As things come back up, they’re immediately swamped by the traffic from all the other servers desperate to talk to them. So it all falls down again,” he said.
+“When the traffic accident’s cleared, there’s gridlock. There’s a huge backlog of traffic, and the roads can’t cope with it,” he said.
+Goodwins also said many experienced engineers have left Microsoft. “It’s not so much that there aren’t enough human eyes, but all the experienced people, the people who built the stuff up, have left,” he said. “There’s been a draining of corporate memory of how these systems are built up and how they work.”
+When will Outlook, Teams and Copilot be restored?
+Microsoft has not given a timeline for full recovery. It has said that as capacity returns, users may see service come back gradually as their apps reconnect, rather than all at once.
+“It’s fairly early on in the story. We don’t know all the facts,” Goodwins said. “It’s been going for a long time, and Microsoft’s been quite open in the fact the fixes aren’t really working yet.”
+What can users do while Microsoft services are down?
+There is little users can do themselves, as the problem lies with Microsoft’s servers rather than their own devices. The desktop version of Outlook may still show emails already downloaded, while Teams chats and calls have largely continued working.
+Goodwins said the short-term impact of such outages tends to be limited. “You can’t log on to your email for a bit. Well, that happens all the time because your broadband’s down or your local computers stop working,” he said. “It comes back up and you grumble a bit and get back on with life.”
+Pasquarelli said organisations should plan for such disruptions. “What is the minimum viable service or the minimum viable product that we need to keep up if there’s a global outage?” he said.
+How does this compare with previous outages?
+This is not Microsoft’s first major outage this year. In January, Microsoft 365 went down across North America for almost 10 hours. The company blamed that on heavy service load combined with reduced capacity during maintenance.
+In late August, thousands of Outlook users worldwide were locked out of their mailboxes.
+Other tech companies have suffered similar failures. In October 2025, an Amazon Web Services outage took down a large number of websites and apps.
+In July 2024, a faulty software update from the cybersecurity firm CrowdStrike crashed computers around the world, cancelling flights, disrupting hospitals and causing billions of dollars in losses.
+What could this mean for Microsoft?
+The outage comes as Europe pushes for greater technological sovereignty, aiming to run its own servers and depend less on foreign providers. Lacking tech giants of its own, the continent relies heavily on US firms for digital services.
+That push has gained momentum during US President Donald Trump’s second term, as he has imposed tariffs on Europe and threatened to take over Greenland, a Danish territory.
+Earlier this year, French Prime Minister Sebastien Lecornu said government officials would stop using Zoom and other US-owned video conferencing tools in favour of French software, partly to reduce “dependencies on non-European actors”.
+“With the whole thing about digital sovereignty, meaning that you can’t trust that your data is secure if it’s being served by an American company because of changes to US legislation, certainly in Europe, there have been big pushes to find alternatives to Microsoft, and this sort of thing will only increase the pressure,” Goodwins said.
+He added that Microsoft has relied on “intensive inertia”. “People feel they have to stick with Microsoft because the pain of transitioning somewhere else is too great. But at some point, that pain threshold changes,” he said.
+Goodwins said he did not expect an immediate impact on Microsoft’s revenue, because customers are tied into licensing contracts. “I think in the long term it probably will, but in the short term, and it’s quarter-by-quarter business here, it won’t,” he said.
+Pasquarelli said he could envisage a short dip in Microsoft’s shares, but that its dominance of office software would be hard to replicate. “I don’t think that there’s any firm, at least not in Europe, that because of this outage could provide a credible and solid alternative,” he said. He added that organisations are more likely to “focus more on their digital resilience instead of building something of their own”.

@@ -1,0 +1,16 @@
+Security researcher Abdelhamid Naceri, known online as Nightmare Eclipse, this week dropped another zero-day exploit targeting Windows systems.
+Dubbed SignDrop, the exploit allows a local user to elevate their privileges to System by abusing flawed logic in the Windows Common Log File System (CLFS).
+CLFS parses complex log files in kernel mode and has long been an attractive target for threat actors. Last year, Microsoft introduced CLFS logfile authentication to mitigate exploitation, which relies on authentication codes to check file integrity.
+SignDrop, Naceri says, exploits a vulnerability in how clfs.sys handles the creation of the authentication file ‘.cnpf’ during the creation of a log file.
+The code responsible for creating/opening both container and log files will always open the container if the original log file is opened. If the container is empty, CLFS attempts to sign it regardless of whether the signature file exists.
+A standard user can create a log file and specify a path to an associated container in it, and then coerce Windows Defender to open the file in the context of the antimalware engine by calling the signature update RPC interface.
+This leads Defender to use the file path specified in the container to open the associated log file. If absent, a signature file is then created with System privileges.
+SecurityWeek has not tested SignDrop, but understands that the proof-of-concept (PoC) code abuses the mechanism to create a signature file at an attacker-controlled location and then reopens the file to place a payload in it, resulting in the spawning of a System shell.
+According to the security researcher, SignDrop has been tested on Windows 11 26H2, Windows 11 26H2 Experimental, and Windows Server 2025 Experimental, and should work on 80% of the world’s Windows installations.
+“You’re generally vulnerable if your Windows installation is older than 90 days,” Naceri says.
+According to cybersecurity services provider Cyderes, which successfully compiled and tested the PoC exploit, there is no evidence that the zero-day has been exploited in the wild.
+SecurityWeek has emailed Microsoft for a statement on SignDrop and will update this article if the company responds.
+Related: PHP2Shell Exploited in Destructive Check Point Gateway Attacks
+Related: Hackers Exploit New N-central Zero-Day Hours After PoC Publication
+Related: Apache Patches Critical HTTP Server RCE Found by Anthropic, Google
+Related: Chrome, Firefox Updates Patch Over 180 Vulnerabilities

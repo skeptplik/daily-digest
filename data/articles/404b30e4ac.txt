@@ -1,0 +1,13 @@
+OpenAI’s Daybreak brings AI agents to security testing and vulnerability fixes
+OpenAI is bringing AI agents into more of the software security process with Daybreak, pairing web application penetration testing with tools that investigate vulnerabilities and develop fixes. The two offerings, Red Team and Defense Factory, connect the work of finding security weaknesses with patching and retesting them.
+Red Team tests applications and verifies fixes
+Daybreak Red Team, offered through an early-access program, uses coordinated agents to examine application source code and context, investigate potential attack paths and confirm vulnerabilities. It can validate findings from code scanners, bug bounty submissions and vulnerability disclosure reports, giving security teams evidence to help prioritize repairs.
+Validate reported vulnerabilities (Source: OpenAI)
+Once a patch is ready, Red Team can test whether it blocks the exploit. Assessments run within defined boundaries, using isolated environments and Guardian review to control which applications and endpoints agents can reach, according to OpenAI.
+Defense Factory investigates vulnerabilities and prepares patches
+Defense Factory handles the remediation side. Agents investigate findings from existing security tools or Red Team, trace vulnerabilities through the code and prepare proposed fixes. Engineers review and test patches before merging them, while Codex lets teams examine evidence, supply additional context and refine changes.
+Put your existing security tools to work on fixes (Source: OpenAI)
+Teams with access can install and enable the Daybreak Defense Factory (Preview) plugin in ChatGPT and connect a GitHub repository. Cloud scans run in Codex cloud, and each person starting a scan needs a personal GitHub connection. Scans can cover an entire repository’s default branch or selected folders and files.
+Choose how to scan a repository (Source: OpenAI)
+Teams can monitor new commits on the default branch, schedule recurring scans of that branch and enable security reviews of pull requests before changes merge. The desktop app also supports scans of local checkouts and uncommitted changes, with an optional Deep scan mode that makes multiple passes and uses additional time and tokens.
+Download: The IT leader’s guide to AI code sprawl
