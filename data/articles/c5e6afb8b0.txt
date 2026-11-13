@@ -1,0 +1,17 @@
+Digital sovereignty leaves enterprises chasing their own audit trails
+94% of surveyed enterprises experienced at least one digital sovereignty challenge in the past three years, according to IBM’s Digital Sovereignty Index. Of those affected, 91% were required to demonstrate that they retained control during their most challenging event, and 81% had to provide formal evidence to regulators, auditors, customers or internal stakeholders.
+The report defines digital sovereignty as an organization’s ability to retain control and provide credible evidence of that control across critical AI, technology, operations and data. Across these four pillars, it assesses six dimensions: responsibility, trace, constraint, intervention, exit and legitimacy.
+Accountability and exit capabilities need testing
+Across the six dimensions, an average of 82% of respondents were very or extremely confident they could provide evidence of control. The index placed 26% of enterprises in its highest maturity tier, Leading Digital Sovereignty.
+Ability of organizations to demonstrate evidence (Source: IBM)
+Manual evidence collection was a barrier for 56% of respondents. Fragmented records, dependence on third parties for information, and legacy systems or inconsistent standards were each cited by 53%.
+“When a business issue turns into a sovereignty risk, boards need to show real control: how they can adapt, change strategy or critical provider – where freedom to act lies. The choices they make today matter, and the stakes are high. Getting this right can help them minimize shocks, keep their options open and stay competitive,” said Jonathan Adashek, IBM Senior Vice President and Chief Global Affairs Officer.
+Responsibility had the largest gap between confidence and evidence across all four pillars.
+During their most challenging sovereignty incident, 33% of enterprises reported being able to demonstrate exit fully and credibly, without significant follow-up. This includes the ability to replace a provider, model or system while maintaining business continuity.
+AI tests enterprise sovereignty
+AI-related issues affected 44% of respondents, including incorrect outputs, explainability problems, model or provider failures and governance concerns.
+Formal audit or regulatory events affected 38%, significant provider changes 35%, and data-access or transfer issues 33%. Government restrictions were reported by 30%. AI received the lowest score for evidence of control.
+“Organisations need to be able to demonstrate where their data comes from, how it can be used, and what controls are in place,” said Debbie Lawrence, Group Head Of Data Strategy and Management at LSEG.
+AI-dependent business processes require records showing what systems did, which data they used, who authorized their actions and who remained accountable. IBM recommends keeping this evidence current and accessible as systems and dependencies change.
+Restrictions imposed by an external authority or provider can also affect access to an AI model, and an enterprise may need an alternative model or provider with different performance or behavior.
+Continuous testing or testing through regular governance and assurance processes was reported by 63% of enterprises in the highest tier and 9% in the lowest tier. Enterprises in the highest tier reported fewer barriers to producing evidence. They were also more likely to resolve their most challenging sovereignty incident without material disruption.

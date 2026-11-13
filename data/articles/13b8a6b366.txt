@@ -1,0 +1,15 @@
+A bookshelf slots in below the cantilevered seat of Kino, a 3D-printed chair developed by Barcelona-based designer Pablo Castillo.
+Castillo designed Kino for Decibel, an American company that specialises in 3D-printed furniture and installations. It is shortlisted for seating design of the year in the upcoming Dezeen Awards.
+The designer’s aim was to create a recognisable chair silhouette, while also responding to the specificities of the 3D printing process.
+The chair is essentially a monobloc, with a single component forming the T-shaped seat, two legs, the shelf and a curved backrest.
+Its entire form is printed from PLA, the most common bioplastic, although the material is reinforced with cellulose plant fibres. This increases its strength, enabling the cantilevered seat.
+Decibal also offers an outdoor version printed from recycled PETG, a thermoplastic polyester.
+“I wanted the substantial thickness of the plastic and the way it builds a product layer by layer to translate into features that give the chair its character,” Castillo told Dezeen.
+“Following this line of thought allowed me to move beyond mere dimensions and general ergonomic considerations,” the designer said.
+“The cantilevered seat, the under-seat storage, and specific details such as the T-junctions naturally emerged.”
+The seat’s T-shape was created by cantilevers both forwards and backwards. This makes the chair less rigid than a typical 3D-printed chair, improving comfort.
+“By reinforcing the lower part of the seat with a corrugated structure integrated directly into the 3D print, we achieved a chair that offers a slightly broader range of motion than a traditional design,” Castillo said.
+“It seamlessly accommodates highly reclined, relaxed postures, as well as more active positions when the user leans forward.”
+Kino joins Decibel’s Editions collection, which also includes chairs by designers including Charles Birshaw, Karim Rashid and Deniz Aktay.
+The New Jersey-based brand launched this collection with an exhibition at the Alcova show in Milan in 2025, when it was live-printing chairs in the former SNIA factory in Varedo.
+The chairs are produced using a Caracol robotic 3D printer, which allows geometries that wouldn’t be possible with injection moulding.

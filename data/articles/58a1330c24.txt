@@ -1,7 +1,0 @@
-Thousands of Microsoft users reported trouble accessing their email and connecting to work apps after a widespread outage hit Outlook and other services on Thursday.
-Reports of problems with Outlook, the company’s email client, climbed to about 130,000 on the outage tracking site Downdetector shortly after 1pm Eastern Time (18:00 GMT), with some users saying emails weren’t being sent or received, while others couldn’t open their inboxes.
-By just before 3pm (20:00 GMT), that figure had fallen to about 77,000.
-Users also reported having trouble accessing Microsoft’s workplace messaging app Teams and its AI assistant Copilot, along with other Microsoft 365 services. The company said the issues could impact users in any region.
-Microsoft said on X that servers were unavailable and failing automatic health checks, putting pressure on those still operating. It said it was testing a configuration change to redistribute traffic that was elevated on parts of its infrastructure and restarting affected services to bring them back online.
-“We’re working to safely return them to service,” the company said.
-Microsoft did not state when it expected services to be fully restored.

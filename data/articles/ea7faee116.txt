@@ -1,14 +1,18 @@
-Jensen Huang has abruptly quit as chief executive of AI chipmaking giant Nvidia after revelations of alleged extramarital affairs, in a stunning fall from grace that sent shockwaves from Silicon Valley to Capitol Hill.
-Nvidia is now under scrutiny from US lawmakers in Washington DC demanding Huang answer questions over whether one of his alleged relationships was with a Chinese spy.
-One of the world's most valuable companies as a result of the AI boom, Nvidia has lost $550bn (Â£415bn) in stock market value in just five days as the scandal dominated headlines.
-Nvidia's interim CEO, Colette Kress, called an emergency meeting of her executive team to discuss the company's future.
-His alleged conduct not only potentially crossed professional boundaries, but has made Nvidia the target of questions from US politicians who have expressed concern about national security risks.
+Former Nvidia CEO Jensen Huang has been summoned to testify next month before a Senate committee about his alleged affair with a woman suspected of being a Chinese spy.
+Huang abruptly quit on Thursday as head of one of the world's most valuable companies after revelations of alleged extramarital affairs, in a stunning fall from grace that sent shockwaves through Silicon Valley.
+Commerce Secretary Howard Lutnick, who is under scrutiny over exports of sensitive Nvidia AI chips to China, has also been summoned to appear before the Senate Banking Committee in December.
+Nvidia has lost $550bn (Â£415bn) in stock market value in just five days as the scandal dominated headlines.
+Senator Tim Scott sent letters on Thursday to Huang and Lutnick requesting their testimony in front of the Senate Banking Committee.
+"Recent reports raise serious concerns about our national security and the protection of sensitive US technology," the South Carolina Republican posted on X.
+"The American people deserve answers," he added.
+Scott asked Huang to appear voluntarily on 3 December, but also warned the panel could issue a subpoena to compel his testimony.
+Three House of Representatives committees - on intelligence and foreign affairs and a panel on China - have also sent a letter to Huang summoning him for a closed-door interview on 1 December.
+Lutnick is under scrutiny because unnamed officials in President Donald Trump's administration have been briefing US media that the commerce secretary stalled efforts to tighten export restrictions on advanced AI chips to China.
+A commerce department spokesperson told US media that Lutnick had "proactively" agreed to appear before the Senate Banking Committee.
 Huang, who has been Nvidia's public face since 1993, admitted on Sunday to having been "unfaithful" to his wife after reports he had an affair with a suspected Chinese spy, Alice Huang.
 On Wednesday, he was reported to have had a second relationship, this time with an Nvidia executive.
 Alice Huang (no relation) worked as an executive at the Singaporean firm Megaspeed. She has been suspected of being an intelligence asset for China, according to the New York Times. China has rejected that allegation as a smear.
-And US Attorney General Todd Blanche said on Thursday the Department of Justice had not yet drawn any conclusions about whether Alice Huang was engaged in espionage for Beijing.
-Senators Elizabeth Warren and Chris Coons, along with other Democrats on the House Foreign Affairs Committee, publicly demanded that Huang brief Congress on the matter.
-If he refuses to appear voluntarily before any committee that calls him, he could be subpoenaed, one Senate staff member told the BBC.
+US Attorney General Todd Blanche said on Thursday the Department of Justice had not yet drawn any conclusions about whether Alice Huang was engaged in espionage for Beijing.
 Nvidia officials have repeatedly declined to comment since Wednesday. A personal representative of Huang also declined to comment on Thursday.
 According to US media, Huang's alleged second affair was with a long-time Nvidia executive, Kimberly Powell, who reported directly to him within the company.
 Sources have told the BBC that Nvidia employees had noticed the pair were unusually close.
@@ -23,11 +27,6 @@ Initially those chips were designed for computer gaming.
 But as AI technology evolved in the last four years into chatbots and large language models, companies building AI tools suddenly required huge numbers of the Nvidia computer chips that could process large amounts of data.
 Nvidia is now hunting a permanent replacement for Huang. Chief Financial Officer Colette Kress was named on Thursday as interim CEO.
 Several tech insiders that the BBC spoke with this week noted that Huang's downfall has been a major topic of conversation in San Francisco Bay area circles, an area filled with tech employees, industry executives and billionaires.
-He is far from the first tech titan to become embroiled in revelations of infidelity.
-Bill Gates of Microsoft and Jeff Bezos of Amazon had affairs exposed in the last decade. Both men are now divorced from their wives.
 Huang has been married to Lori Huang for 40 years. Both of their children are also executives at Nvidia.
 Nvidia's stock fall this week is the most significant five-day drop the company has seen since going public 27 years ago.
 Its market value rose by more than 470% in the past five years, peaking just a few weeks ago. It is now down by 31% against a backdrop of wider uncertainty in the tech sector.
-Because of Nvidia's size and success in recent years, such a drop can have a direct impact on the savings accounts of ordinary Americans.
-Nvidia's value makes up about 7% of the S&P 500 index. That index is offered as a popular index fund in US retirement savings accounts.
-Those account balances rise and fall with the changes of the stock market.

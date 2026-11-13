@@ -1,0 +1,22 @@
+“Solar is the fuel, the battery is the power plant. The whole system only becomes cheaper if these work in harmony with one another.”
+Europe could save 40 per cent on electricity costs thanks to solar and batteries – but only if the complimentary technologies are deployed correctly.
+Solar has rapidly become a leader in clean energy, helping the world transition away from polluting fossil fuels and cushioning households from volatile oil and gas price spikes.
+According to the Solar Power Europe association, harnessing sunlight for energy has saved the EU €43.7 billion in avoided gas imports since the beginning of the 2026 US-led war on Iran.
+But solar’s rapid expansion has shone a light on the urgent need for battery energy storage systems, to help prevent clean energy from being wasted when generation outstrips demand.
+A new report launched during the UN COP31 climate summit has revealed just how much this combination can shape total electricity costs in Europe.
+Will Europe’s solar and battery boom pay off?
+The report, from the Schneider Electric Research Institute (SERI), modelled 40,500 scenarios across different combinations of solar, battery and grid costs to identify whether the rise of distributed energy resources (DERs) will ultimately raise or lower electricity costs overall.
+DERs are small-scale, decentralised energy technologies like rooftop solar, battery storage systems, EVs and smart appliances.
+It found that, when DER deployment is coordinated with electrification, the overall cost of running the electricity system could be cut by as much as 40 per cent by the 2030s as these technologies scale up.
+These savings could translate into an additional 0.8 per cent of GDP to the global economy by 2030.
+Electrification (replacing technologies that burn fossil fuels with electric alternatives) has become a flashpoint discussion at COP31, following Türkiye’s 35-by-35 pledge.
+The co-host nation wants to raise the global share of energy demand met by electricity to 35 per cent, up from around 23 per cent today, by 2035 – as announced back in June.
+A new study published yesterday (12 November), found that an electrified world would waste 61 per cent less energy while delivering the same services. This is partly because much of the energy produced by burning fossil fuels escapes as waste heat, making it far less efficient.
+But critics say, unless sourcing electricity from clean power is specified in the final text, the pledge could allow governments to count expanded gas-fired generation as progress towards electrification targets – a move they warn would “seriously undermine climate goals”.
+Europe urged to ‘accelerate’ electrification
+But adding more batteries to Europe’s grid could help the continent electrify by taking advantage of surplus solar power.
+In fact, the report found that battery deployment was one of the most significant variables affecting total system costs by reducing pressure during peak periods.
+Get the balance wrong, and SERI warns that a mismatch of battery durations across asset types can push total system costs to as much as 35 per cent above the current benchmark.
+As Laurent Bataille, SERI's EVP of Europe Operations, says: “Solar is the fuel, the battery is the power plant.
+“Ultimately, batteries are making solar much more interesting. But the whole system only becomes cheaper if these work in harmony with one another. That also means building the electricity demand to use them, not just focusing on adding supply.”
+Bataille argues that the priority now must be “accelerating electrified demand” and enabling more flexible energy use to “flatten the load curve and free up capacity”.

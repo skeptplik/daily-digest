@@ -1,0 +1,15 @@
+Suspected North Korean IT workers reached onboarding at companies with open data
+Material Security followed suspected North Korean fake IT workers through the hiring pipelines of organizations it monitors and counted 27 personas that reached onboarding over one year. At one company where a persona got that far in the past month, about 277,000 files containing Social Security numbers were shared company-wide or by public link.
+The personas are fabricated job seekers, complete with résumés and faces, applying for remote engineering roles. Over the year, 2,429 of them made contact, 1,100 reached an interview or later, and 27 reached onboarding, meaning offer letters, background checks, equipment requests, or first-day IT setup. That is roughly one in 90, a small share, but any of the 27 who received credentials walked in trusted, provisioned, and hostile from day one.
+The same face at many companies
+The researchers saw 41% of personas at more than one organization. Fifteen appeared at ten or more, and one appeared at 19. Of the 27 that reached onboarding, 18 were in process elsewhere at the same time, and one was finishing onboarding paperwork at one company while chasing jobs at seven others.
+What the new accounts could reach
+In the past 30 days, 232 suspected personas contacted 99 organizations. At 42 of them, at least one moved on to an interview or offer, and at four, a persona reached onboarding. Material inventoried the sensitive files at those four.
+The first held about 15 million source-code files and 130,000 files with bank or routing numbers, shared with almost no one beyond their owners. The second held around 400,000 files with Social Security numbers and 345,000 with bank or routing numbers, and 68% of the Social Security files and 71% of the bank files were open to any account in the company or to anyone with a link. A new hire there would have needed nothing more than a login. The third had about 14 million source-code files, roughly 1,900 of them readable by anyone with the URL. The fourth, the smallest, held about 1.5 million source-code files plus files with private cryptographic keys, and 21% of its financial files and 17% of its credit-card files were shared beyond their owners.
+What employers should do
+Material recommends pairing hiring controls with access controls, since a North Korean hire who gets through holds valid credentials.
+- Flag personas early. Connect recruiting and onboarding signals with threat intelligence, so you can stop a fake identity before it gets credentials.
+- Check identities closely. Background checks are a chance to catch a fabricated persona. Follow up on anything that doesn’t line up.
+- Triage by stage. A watchlist hit during onboarding is more urgent than one at first contact. Confirm the identity and the evidence, then check whether an account or equipment has already been issued.
+- Keep investigating after onboarding. If an account exists, review its permissions, app grants, and activity.
+- Map access before you need it. Know which files, messages, credentials, and connected apps each role can reach, so responders know where to look first.

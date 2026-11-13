@@ -1,0 +1,21 @@
+Threat actors started exploiting a new zero-day vulnerability in N-able N-central hours after a disgruntled security researcher released it publicly.
+Dubbed 4EverAble2Shell, the security defect could allow unauthenticated attackers to gain remote code execution (RCE) with root privileges on N-central servers running the latest patches.
+The zero-day was dropped on GitHub by security researcher Sean Bales two days after N-able rolled out fixes for several other unpatched flaws he released publicly over the weekend.
+4EverAble2Shell, Bales says, chains an exploit for a recent Apache Axis vulnerability (CVE-2026-90436, CVSS score: 9.8) with an exploit for an unspecified security hole in N-central deployments that have Legacy API enabled.
+The exploit chain targets the Axis bug to achieve RCE, and then attempts to elevate privileges to root and run a shell script.
+According to Bales, the exploit chain works against N-central servers that have been updated this week to 2026.4 HF2 (build number 2026.4.1.26), which contains fixes for the previously released Able2Shell zero-days.
+N-able reacted immediately to the new zero-days and restricted certain N-central features and integrations, including Legacy API and Intune integration.
+“Through our ongoing investigation today, we have identified additional indicators of compromise (IoCs) and are working closely with those specific customers to assess and mitigate any potential risks,” N-able said on November 13.
+On November 12, Bales published proof-of-concept (PoC) exploit code for 4EverAble2Shell and Agent2Shell, a set of roughly a dozen zero-day flaws that could allow attackers to execute commands on managed Windows agents with System privileges.
+4EverAble2Shell exploited within hours
+Threat actors started using the 4EverAble2Shell PoC in attacks hours after it landed, early-warning threat intelligence platform Previdian (formerly KEVIntel) said.
+“New N-able zero-days are out, and WatchTowr Intel is already seeing probes for ‘4EverAble2Shell’, which affects builds with the Legacy API enabled,” preemptive attack surface management firm WatchTowr warned.
+Lupovis and Huntback observed attackers successfully compromising N-central servers roughly 5 hours after the PoC publication. They deployed an XMRig miner with systemd or cron persistence.
+“Each victim’s miner is named after its IP address,” Lupovis told SecurityWeek, explaining that the attacker’s wallet showed 21 rigs linked to compromised N-central servers in the US (9), South Africa (4), Canada (4), the UK, Germany, France and Sweden.
+“Our decoys never execute anything, so none of the listed rigs are ours. Every one is a real server that ran the chain to root,” Lupovis said.
+In a technical write-up, Huntback notes that 19 of the victims had applied the latest patches from N-able.
+“The miner is the only payload we have seen, but the escalation hands the operator root on a host that manages your customers’ endpoints. Treat a hit as a full compromise, not a cleanup job. Applying Hotfix 2 is not enough on its own,” Huntaback says.
+Related: Apache Patches Critical HTTP Server RCE Found by Anthropic, Google
+Related: Chrome, Firefox Updates Patch Over 180 Vulnerabilities
+Related: Critical Red Hat Quay Vulnerability Could Expose Private Container Images
+Related: Critical Xen Orchestra Flaws Exploited in Attacks
