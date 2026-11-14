@@ -1,0 +1,11 @@
+354 dark web vendors and buyers arrested in Operation TorNado
+Europol and police in 14 countries arrested 354 dark web vendors and buyers in Operation TorNado, which ran from May 2025 to October 2026. Investigators went after people who had traded on five marketplaces that were already offline: Archetyp, Bohemia, Nemesis, Kingdom and Tor2Door.
+Seized money (Source: Europol)
+The people who used those markets were still exposed after the sites went dark. Police also went after vendors and buyers on forums, single-vendor shops and encrypted messaging services, and carried out hundreds of house searches.
+The US made the most arrests
+The United States made 132 of the arrests. The UK followed with 59, then Hungary with 45 and Germany with 41. Finland made one arrest and conducted 159 interrogations.
+US authorities seized more than 4.8 metric tonnes of drugs, 152 firearms and over €150 million in cash and cryptocurrency. In Europe, police seized 950 kilograms of drugs, 57 firearms, more than one million prescription tablets and over €60 million in cash and crypto. The US drug haul is about five times the size of Europe’s.
+Europol traced the money
+Europol sent staff to Czechia and Slovenia during the operation. It also coordinated the national cases so investigators didn’t end up chasing the same suspects twice. Its blockchain analysts traced the illegal transactions.
+New markets keep appearing
+TorNado follows earlier Europol operations, including RapTor in 2025, SpecTor in 2023, Dark Huntor in 2021 and DisrupTor in 2020. Europol’s 2026 Internet Organised Crime Threat Assessment names the replacement of shut-down markets as a current trend, with criminals moving fast to new platforms. The same assessment says marketplaces are splitting into platforms that each focus on one kind of crime.

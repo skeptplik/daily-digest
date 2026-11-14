@@ -1,0 +1,19 @@
+German defense technology company Quantum Systems confirmed that it detected an incident in late October that was part of an active cyberattack by "hostile actors."
+The company responded quickly, working with relevant authorities to resolve the issue swiftly and ensure its unmanned systems could safely resume operations.
+Quantum Systems is a German defense technology company that builds reconnaissance and interceptor drones, along with other unmanned systems and the software that controls them.
+Its drones are in service with Germany’s military, and in October Germany announced funding to build tens of thousands of Quantum Systems interceptor drones in Ukraine for Ukrainian forces.
+Quantum Systems believes it was targeted because of its recent announcement of support for Ukraine and says it is working closely with state authorities to investigate the attack.
+“The European defense industry has been facing persistent cyberattacks for years,” Quantum Systems stated without making a specific attribution.
+“Companies at the forefront of supporting Ukraine are being targeted precisely because our work is critically relevant to customers’ security.”
+Update server compromised
+According to reports from Der Spiegel and the Financial Times, citing internal sources, the compromise occurred via a malicious QBase update file.
+QBase is Quantum Systems’ ground-control and mission-planning software, so the point of the compromise was the vendor’s update distribution server.
+Der Spiegel identified the Vector reconnaissance drone, known as Falke in German military service, as one of the aircraft whose missions are planned with QBase.
+The German outlet reports that the unscheduled update delivered to customers raised alarms within Quantum Systems, but it is unclear how many actually installed it.
+Additional reports claim that the German armed forces grounded Quantum Systems drones as a precaution, excluding the company's systems from a recent military exercise.
+The response reportedly involves the military counterintelligence (MAD), the domestic intelligence service (BfV), and the federal cybersecurity agency (BSI).
+In July, another drone manufacturer, the Australian CubePilot, which also openly supports Ukraine, was targeted by a DNS hijacking attack that caused severe operational disruption.
+DNS hijacking could, among other things, be used to deliver malicious updates to downstream users of CubePilot’s drone systems, though such a level of compromise was never confirmed.
+Adaptive Security's AI agents analyze email intent, context, and behavior to uncover phishing, business email compromise, and invoice fraud.
+See what's getting through with a 14-day read-only scan of Microsoft 365 or Google Workspace, with no MX changes.
+Start your free email security scan.

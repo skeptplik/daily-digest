@@ -1,0 +1,33 @@
+Microsoft has said it is "deeply sorry" for the service outage to its products, including Outlook and Teams, which has caused disruption around the world.
+Services were broadly recovering by Friday afternoon, nearly 24 hours after issues began. Microsoft said it was making "encouraging progress", but added it does not know when services will fully recover.
+The outage hit more than 70 countries, disrupting everything from business operations to government services and personal users. More than 430 million people use the affected products worldwide.
+Microsoft said it was a technical issue introduced during a "network capacity upgrade" and not related to cyber or artificial intelligence agents.
+Experts said the event was a "stark reminder" of how heavily businesses and vital services rely on a small group of big tech providers.
+Users began reporting they were having trouble accessing Microsoft 365 products on Thursday.
+By Friday, the far-reaching issue was affecting institutions from the Japanese government and the Philippines Supreme Court to the Australian spy agency, and trains, hospitals and courts in North America.
+In the UK, some parts of the NHS, including GPs and hospitals, were affected, as were some schools and police forces.
+UK cyber minister Liz Lloyd said the incident had "limited" impact on critical frontline services such as 999 calls, and there had been no disruption to the transport network.
+In Canada, however, the national rail network said passengers may not be able to receive email updates about their trips, and hospitals across the country also had issues with emails.
+In the US, staff members from the House of Representatives told Politico it had set back an entire day of legislative work as everything was on Microsoft's Outlook.
+Singapore's government acknowledged some of its systems had been impacted, and in India, the outage disrupted work for many on Friday.
+In Turkey, advisers and officials attending the COP31 climate summit in Antalya were left frustrated by being unable to access Outlook.
+The issues also affected smaller businesses and individuals.
+Peter Pentz, a winemaker in South Africa, said his entire business was basically brought to a "standstill".
+His winery's communication with exports was also brought to a standstill, he said, and "critical production work" was been halted as the Cape West Coast winery "relies on these systems for parts of our day-to-day operations".
+Georgia from Staffordshire in England said she was due to complete her first house purchase today after waiting eight months to get to this point - but the outage has delayed that.
+"The solicitor mentioned there may be a delay due to not being able to contact other agencies.
+"We're not the only one completing today, there are hundreds of houses and for them to ring everyone in time is unfeasible," Georgia said.
+'Encouraging recovery signals'
+Microsoft first acknowledged users in the Americas were unable to access Exchange Online mailboxes at 17:54 GMT on Thursday, and shortly after warned the disruption was possibly affecting Microsoft 365 globally.
+While it launched an investigation and engineers began working to restore services, by 04:36 on Friday Microsoft was reporting only a "partial recovery" in some parts of the world.
+By 13:32, the tech giant said there were "broader improvements" in North America, "sustained improvements" across much of Europe and "encouraging recovery signals" in the Asia Pacific region.
+Microsoft said it restored services gradually due to the scale of the problem and to help ensure services remain stable once they are up and running again.
+"We are deeply sorry for the disruption this incident has caused our customers and partners," a Microsoft spokesperson said.
+"We know the trust they place in our services and take that responsibility extremely seriously."
+Microsoft said it has no "ETA" for when services will be fully recovered.
+A full post-incident report will be released once Microsoft has completed a review.
+Experts said while workers may have been happy to not have email access for the day, the incident showed the dependence many organisations have on these cloud-based services.
+"The global Microsoft outage is a stark reminder of how heavily we rely on a handful of big tech providers," said Rob Demain, chief executive of cybersecurity firm e2e-assure.
+Matt Saunders, field chief technology officer at tech consultancy Adaptavist, said it would be challenging to mitigate against a similar problem.
+"Classic IT disaster planning strategies suggest using a second service for resilience, but in practice, it's almost impossible for a business to function without tools such as Microsoft," he said.
+"In the wake of this outage, organisations must have a plan in place for how to work without such tools, for when incidents like this occur."

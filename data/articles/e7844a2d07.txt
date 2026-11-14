@@ -1,0 +1,14 @@
+Several indie developers have had to postpone their game launches due to delays in Steam's game submission and approval process.
+Developer Rami Ismail told Eurogamer that the latest build of Australia Did It: End-of-the-World Railway Defense Business, co-developed with Aesthetican Labs, has been in Steam's approval queue since October 20, 2026.
+"[It] failed over a minor controller input on November 5 (which we resolved the same day), and we've been waiting again since with no meaningful response from Valve despite follow-ups."
+"I'm used to hold-and-wait patterns on console, but Steam has historically been much more snappy – 10 to 14 days pre-launch was usually enough to fail twice and ship on time," added Ismail.
+Eurogamer also cited other indie developers experiencing delays, including TwoMenGames, Monoii Studio, and Studio Daimon.
+Last week, Valve acknowledged a "significant increase in submissions for store page and build review in recent months" and stated it has been working over "the last several weeks to scale our process to match it."
+"We aim to test every game build in a timely manner, typically within three to five business days," it said. "However, we're running a little behind right now, and it's taking up to 12 business days. Much of that delay is due to having to re-review games."
+Last month, concerns were raised about an increase in 'AI slop' on Steam, specifically that generative AI is being used to clone games, especially indie titles.
+Valve did not attribute the slowdown to the influx of generative AI-developed games, but Ismail expressed concern that Valve's lack of acknowledgement could harm developers over time.
+"I am concerned that Valve trying to avoid taking a political position on AI is forcing them into choices that will inevitably be worse for developers," he said.
+"If sloppers can submit several game clones a day through automated systems, the only way for Valve to stem the tide of games damaging genuine developers' work is to put constraints on game distribution, increase fees, or make the process more complicated."
+"In the 'open market' Valve seems to so adore, they're going to be the ones carrying the costs for moderation, so I don't think they'll like the open market on this – but there's no outcome of this that allows Valve neutrality on AI and not do things that will ultimately make life worse for developers."
+Earlier this year, Valve amended its AI disclosure policy on Steam, requiring developers to disclose use of the technology only in specific cases, such as content generation.
+The company has also allowed "the vast majority of games" using AI on its platform since 2024.

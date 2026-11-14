@@ -1,0 +1,29 @@
+Cryptocurrency hardware wallet maker Trezor has confirmed that three Safe 5 devices sold by Southeast Asian reseller CryptoBilis contained malicious hardware implants designed to steal wallet recovery phrases and send them to attackers over cellular networks.
+The findings follow an investigation into a suspected hardware implant first reported in October, when a customer discovered an unauthorized circuit board inside a Trezor Safe 5 purchased from Indonesian reseller CryptoBilis.
+At the time, Trezor had not received the device for examination and could not confirm the implant's capabilities.
+In a new investigation update, the company says it has now examined the original device in its laboratory and identified two additional compromised wallets using photographs submitted by their owners.
+All three compromised devices were purchased from CryptoBilis between August 20 and September 23, 2026.
+Trezor says 48 CryptoBilis customers have contacted the company following its October warning, with devices being examined in its laboratory or through photographs of their internal components.
+The company has also inspected devices from other resellers in the region and found no evidence of tampering.
+So far, the confirmed implants have been limited to Safe 5 devices sold through CryptoBilis, and no affected customers have reported losing funds.
+Firmware update blocks hardware implants
+Trezor says its engineers analyzed the implant's firmware and confirmed that the malicious hardware can capture sensitive information displayed or entered on the wallet's screen.
+The implant consists of an additional circuit board installed between the Safe 5's main board and display, allowing it to monitor screen activity without modifying the device's legitimate firmware or Secure Element.
+When wallet recovery words appear on the screen, either during the creation of a new wallet backup or while restoring an existing wallet, the implant collects them.
+It can also capture passphrases displayed on the screen, encrypt the stolen information, and transmit it over a mobile network to an attacker-controlled server.
+If a connection is unavailable, the implant holds on to the captured data and repeatedly attempts to transmit it until successful.
+These reported implants follow confirmed hardware implants previously discovered in Ledger devices sold through CryptoBilis, which have been linked to cryptocurrency thefts.
+On November 11, Trezor released firmware version 2.13.1, which includes protections that prevent the implants from capturing information.
+"Our latest firmware update 2.13.1, released on November 11th, includes a protection that stops the implants we’ve found from capturing anything on devices that run it, making the current batch of implants useless," Trezor said.
+However, the company warns that the update cannot protect wallet recovery phrases that may have already been captured before it was installed.
+While no Trezor customers have reported stolen funs, those who purchased Trezor devices from CryptoBilis are still advised to transfer their cryptocurrency to a newly created wallet using a new recovery phrase.
+Trezor cuts reseller network by 80%
+Due to these supply-chain attacks, Trezor has reduced its global reseller network by approximately 80%, significantly reducing the number of third-party resellers of its hardware wallets.
+The company previously announced plans to reduce its reseller network in October, following reports of compromised Ledger wallets sold through CryptoBilis. This was before Trezor had learned of implants in its devices as well.
+Trezor says the removed resellers were trustworthy and of no threat, but did not meet the stricter supply-chain security requirements being introduced.
+Remaining partners must follow tighter controls governing how devices are sourced, stored, and accessed.
+The company is offering replacement devices to anyone who purchased a Trezor wallet from CryptoBilis since March 2026, including customers whose devices have not been confirmed as compromised.
+At this time, the company says it has found no evidence of device implants from other resellers and has received no reports of funds being stolen through the compromised Safe 5 wallets.
+Adaptive Security's AI agents analyze email intent, context, and behavior to uncover phishing, business email compromise, and invoice fraud.
+See what's getting through with a 14-day read-only scan of Microsoft 365 or Google Workspace, with no MX changes.
+Start your free email security scan.

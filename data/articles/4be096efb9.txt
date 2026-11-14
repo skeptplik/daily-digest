@@ -1,0 +1,11 @@
+Service is recovering for Microsoft Outlook and 365 after an almost two-day outage impacting millions of users around the world. While some apps and features are still running in a degraded state on Friday morning, some people (including Verge staffers) reported that access to their emails had been restored, though the flow of Outlook mail might be delayed.
+Microsoft’s massive Outlook outage might be over
+Nearly a day after the global email outage started, Microsoft said the issue has been addressed and that it wasn’t related to a cyberattack or AI.
+Just before noon on Friday, Microsoft said it’s seeing “broad recovery,” and that the problem “was a technical issue not related to cyber or AI / agents.”
+We are deeply sorry for the disruption this incident has caused our customers and partners. We know the trust they place in our services and take that responsibility extremely seriously. We are seeing broad recovery and stability across our services.
+This was a technical issue not related to cyber or AI / agents. The incident was introduced by an issue during an earlier network capacity upgrade that surfaced following a recent network change. We have addressed the underlying issue and continue to restore service to remaining customers and regions.
+Given the scale of demand, we restored services gradually, validating stability at each stage. While this took longer, it helped ensure a stable restoration.
+We will provide a full post-incident report once our review is complete.
+Senior Verge correspondent Tom Warren reports that according to his sources, the outage is linked to Azure VNet config changes. Microsoft has said that it hasn’t found any evidence of the outage being connected to “malicious activity,” and that a full report will be shared after the issues are mitigated. In a statement reported by Sky News tech correspondent Rowland Manthorpe, Microsoft described the outage as a “technical issue,” and says it isn’t related to “cyber, AI/agents, DDOS, etc.”
+The scope of the outage also affected features in other Microsoft services, including SharePoint Online, Teams, Copilot AI, and 365 apps.
+Update, November 13th, 2:15PM ET: Added the latest information from Microsoft.

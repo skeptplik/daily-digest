@@ -1,0 +1,26 @@
+Japanese workers dealing with the impacts of Microsoft's ongoing 365 outage have reportedly taken to analog measures, including using fax machines to deal with the ongoing blackout, the Japan Times reports. An outage that has now lasted nearly 24 hours was still going on Friday when employees turned up to work.
+The downtime has meant businesses reliant on Microsoft 365 are unable to use Outlook, Teams, and Copilot, with workplaces hit with error messages and blank screens, forced to reschedule meetings or delay work. For some, the outage has proven a respite from Japan's notoriously workaholic culture. "I couldn’t open Outlook and panicked … I got in touch with my boss and was told to stay home," one person reported on X, while another remarked that the only task they could carry out at work was to clean the coffee machine in the production room.
+But while some employees and companies are throwing in the towel and calling it an early weekend, others are taking a novel, more analog approach. "Microsoft’s server glitch has made it impossible to get any work done since this morning. I guess phones and fax machines really are unbeatable. … We’re going full analog!" one user claimed. The report cites another employee who confirmed that their company was switching to fax machines to send the regular updates the company normally sends out as PDFs. "Analog is strong," they rejoiced.
+Some 78% of Japanese companies rely on Microsoft for their digital infrastructure. The outage began on Thursday, with mass disruption to Outlook, Teams, Copilot, OneDrive, and Microsoft 365 as a whole. It's a saga impacting entire sectors, including UK health care, businesses, travel, and transport.
+Microsoft's latest update said it was seeing "encouraging recovery progress" in Europe, while the situation in America was improving, but warned some users may still experience intermittent issues. The company has also denied rumblings that the outage was caused by a cybersecurity breach. The outage has even caused some companies, such as Switzerland's luxury Richemont (Cartier) outfit, to delay giving their latest earnings report.
+Download the Tom's Hardware app for up-to-the-minute updates on iOS and Android. Also follow Tom's Hardware on Google News, or add us as a preferred source, to get our latest news, analysis, & reviews in your feeds.
+Get Tom's Hardware's best news and in-depth reviews, straight to your inbox.
+Stephen is Tom's Hardware's News Editor with almost a decade of industry experience covering technology, having worked at TechRadar, iMore, and even Apple over the years. He has covered the world of consumer tech from nearly every angle, including supply chain rumors, patents, and litigation, and more. When he's not at work, he loves reading about history and playing video games.
+- 
+"Back in my day..."
+I'm thinking companies that need access to high tech answers might want to consider lower-tech alternatives:
+Dialup servers that act like BBS's, and using offline mail readers.
+Software like older versions of Office that can be installed and run without an Internet connection.
+Communicating with colleagues by other means, including scheduling physical meetups at restaurants or the like.
+While the information might not be as up to date as "permanently online", often "recent enough" is plenty for many businesses. McDonald's doesn't change their burger prices every minute, for example. Even a legal team that can only get their email a few times a day can get by. And not everyone needs Microsoft anyways.
+Welcome to what happens in an always-connected world. One corporation has issues and suddenly everyone panics because people don't know how to NOT online. (And the fallout from Sony not producing physical media wasn't enough warning?)
+... Mindstab Thrull, sounding apparently like a grumpy old man... Reply
+- 
+Mindstab Thrull said:"Back in my day..."
+I'm thinking companies that need access to high tech answers might want to consider lower-tech alternatives:
+Dialup servers that act like BBS's, and using offline mail readers.
+Software like older versions of Office that can be installed and run without an Internet connection.
+Communicating with colleagues by other means, including scheduling physical meetups at restaurants or the like.
+While the information might not be as up to date as "permanently online", often "recent enough" is plenty for many businesses. McDonald's doesn't change their burger prices every minute, for example. Even a legal team that can only get their email a few times a day can get by. And not everyone needs Microsoft anyways.
+Welcome to what happens in an always-connected world. One corporation has issues and suddenly everyone panics because people don't know how to NOT online. (And the fallout from Sony not producing physical media wasn't enough warning?)
+... Mindstab Thrull, sounding apparently like a grumpy old man...As someone who works in IT, things that fail like this are called job security. Suddenly, IT persons are appreciated for a month or two. Also, google and many other services exist, so unless the power is out in a widespread manner, or the internet is down in a widespread manner, it does not matter in the end. Reply

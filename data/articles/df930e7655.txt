@@ -1,0 +1,114 @@
+The past year has been... a lot. Record-breaking temperatures, devastating floods and catastrophic wildfires have brought the realities of climate change into sharp focus for people around the world. At the same time, many governments and organisations have scaled back on their climate action.
+If you’re anything like me you might be feeling it’s all a bit ‘doom and gloom’. So in this series I decided to face my climate anxiety head on and set out in search of reasons for optimism.
+In this first episode of Cooked? I talk to experts around the world about what the data really show and why there are still reasons to hope.
+00:00 How climate change feels overwhelming
+04:27 What the data say about renewables
+11:23 Will AI stall climate progress?
+21:49 How are the world’s nations doing on climate change?
+35:13 Preview of next time
+Further reading:
+Nature: Biotech innovations are an opportunity to limit climate change
+This episode was written and produced by Nick Petrić Howe. Dan Fox was the editor. Music was by Daniel Knowler, Akio Jefferson, Lionel Cohen and The Conductor, and was provided by Triple Scoop Music via Getty Images. Thanks to Hannah Ritchie, Ketan Joshi and Niklas Höhne for featuring in this episode.
+Never miss an episode. Subscribe to the Nature Podcast on Apple Podcasts, Spotify, YouTube Music or your favourite podcast app. An RSS feed for the Nature Podcast is available too.
+Transcript
+Nick Petrić Howe:
+I’m going to be honest with you. I worry a lot.
+<Music>
+Nick Petrić Howe:
+I worry about all sorts of things. Money, friends, family, if my voice is weird as you’re listening to it... but there’s one thing I’ve been worried about since I was a teenager in the early 2000s. The climate.
+<Newsclip: “The world’s going to hell in a handbasket.”>
+<Newsclip: “It is a wakeup call.”>
+<Newsclip: “It is the greatest con job ever perpetrated on the world in my opinion.”>
+<Newsclip: “So how do we leave this pathway to disaster?”>
+Nick Petrić Howe:
+Those anxieties have only gotten worse. In recent years, it has felt like climate action has stalled. In 2024, the world passed the 1.5˚C ‘threshold’ set in Paris for the first time. Shortly thereafter, Donald Trump returned to the White House and on the first day of his Presidency set about reversing climate policies of the previous administration, vowing to promote fossil fuels. In Europe, right-wing politicians have taken aim at climate goals, with the EU weakening previously ambitious environmental policy. All while it’s getting hotter and hotter. In May there were record breaking temperatures in my home of the UK , then in June those records were broken again, twice in the same week in fact, with temperatures in some places across the continent more than ten degrees hotter than they were between 1991-2020. That was the story all over Europe. Without climate change, it’s extremely unlikely Europeans would have had to endure these heatwaves. And globally, scientists of all stripes have expressed doubts that any government has done enough to avoid the worst impacts of climate change.
+So, it feels like we’re failing on climate, heck, I can even look outside my window and see evidence for that. But what’s weird is that even as climate change is affecting me more, I find it harder to engage with.
+As things get worse, I’m having trouble staying optimistic that we, you me and everyone, can do anything about it. And that’s an odd position to be in, as a science journalist. Climate change is one of the biggest stories of our time.
+Every week, we pick out stories to cover on the podcast. And I always want to report the latest climate science, and I do, but I find it hard. Sometimes it just feels like more bad news at a time when our audience, and I, could do with less. I feel hopeless.
+But is that actually right? Am I justified in that feeling? As the one thing I know about science is often the truth is a bit more complicated than we think. So, while the narrative can feel overwhelming negative, is that really what the data says?
+To try and shake myself out of this climate funk, talking to some of the scientists and campaigners on the front lines of climate research, and what I found was a story of: Tipping points…
+Niklas Höhne:
+That has the potential to move this energy transition over the edge.
+Nick Petrić Howe:
+…unpredictability…
+Ketan Joshi:
+I don't think we've had this level of uncertainty about a technological shift before.
+Nick Petrić Howe:
+…societal change…
+Madalina Vlasceanu:
+I think there's this positive feedback loop by which all of our individual level actions can lead to bigger collective actions.
+Nick Petrić Howe:
+…and snowballing effects.
+Niklas Höhne:
+The system is changing at exponential speed.
+Nick Petrić Howe:
+This is Cooked? a three-part miniseries for Nature, where I try and find out whether we are well… cooked. Is it game over for climate or are there reasons for hope? I’m your host Nick Petrić Howe. And in this first episode, I decided to start with the data, and I had a good idea of who might be able to help me with that.
+Hannah Ritchie:
+As a data scientist, I'm biased. And I would say, look at the data to understand for these big problems, where they're coming from, why they're happening, and importantly, what we can do to solve them.
+<Music>
+Nick Petrić Howe:
+In the past year or so, I’ve found myself struggling with anxiety about the climate. But a couple of years ago a book came out that seemed to fly against what I had assumed was the case, as it stated, backed up with oodles of data, that it isn’t the end of the world. So, I knew I wanted to speak to its author — Hannah Ritchie.
+Hannah Ritchie:
+What I wanted to do in that book was, think, twofold.
+Nick Petrić Howe:
+That’s Hannah, the author of ‘Not the end of the world’ and a data scientist at our World in Data and the University of Oxford.
+Hannah Ritchie:
+One was that I was trying to write it to my former self, who was very, very pessimistic, wasn't sure if there was really a future there for me and present where we are now. And the point is not that these problems are solved in any way, they're still huge problems, but we have started to make progress and there's lots of opportunity for us to make more progress. My point is not that we should be complacent and optimistic that these problems will solve themselves. I think it's to kind of maybe get rid of a bit of the cynicism that there's nothing that we can do and actually no one is doing anything because I don't think that's true. And I think the second kind of motivation for doing that is to look at the data and understand if we want to solve these problems, what are the really key and big things that we need to do to solve them?
+Nick Petrić Howe:
+The book looked at seven huge challenges that humanity faces, including climate change, examining each through the lens of data, to understand the progress we have and haven’t made on them, and what we should do. So I was curious to hear from Hannah about how we were actually doing on climate change.
+Hannah Ritchie:
+If you go back 10 years, the world we were sitting in when the world signed the Paris Agreement was that the alternatives to fossil fuels were much more expensive than fossil fuels. For solar and wind were way more expensive. Batteries were extremely expensive. Electric vehicles were basically not on the radar at that point. So it seemed very, very hard to me at the time to see how the world would actually progress on this. What we've seen over the last decade is this huge drop in the costs of these low-carbon energy sources. And that now means that they're cost competitive with fossil fuels, right? So you have the kind of short-term incentive of picking the low-cost solution, now adding up and aligning with the long-term issue we're trying to solve, which is climate change.
+Nick Petrić Howe:
+These days renewable energy is very cheap. Let’s take solar energy as an example. Between 2009 and 2025, estimates from the investment firm Lazard suggest solar energy prices have dropped to less than a sixth of what it used to cost on average. This number even includes the continued costs of running solar plants, making them, along with wind, the cheapest form of energy.
+This change has helped Hannah go from pessimistic to optimistic about the future of climate change. It’s not just that the costs have tumbled, more and more this ‘clean’ energy is actually being implemented as well.
+Hannah Ritchie:
+We now also see that many countries are now rolling out clean energy at an increasingly fast pace. So it's not like it's just that the cost has dropped. You can actually now start to see that translating into action.
+Nick Petrić Howe:
+Hannah also thinks that this electrification of the world has other benefits too.
+Hannah Ritchie:
+What's really key about that electrification lever, and I think is under appreciated, is how much you gain there in terms of efficiency. You know, it's not just we want to do this because it saves us carbon emissions, which it will if we were powering that through low carbon power, but also you get huge efficiency gains from this. like driving in an electric car uses about a third of the energy of driving in a petrol car, right? So you actually also get rid of lots of this energy waste that we currently have in the system.
+Nick Petrić Howe:
+Worldwide, adoption rates of electric vehicles are increasing. Around a quarter of every new vehicle sold is electric, and in some countries this rate is much higher. In Norway 97% of new cars sold were electric, while in China 53% were. Now, many people are critical of electrical vehicles for various reasons. Mining of lithium for use in batteries can be very environmentally damaging, for instance. And using public transport is better than having a personal electric vehicle most of the time. But when it comes to their climate credentials, electric cars beat conventional every time.
+The world has also been built in many places to favour vehicles and in some areas public transport is not a viable option. So if we want the most people to use the least climate emission causing form of transport, electric vehicles will be part of the mix.
+But it’s not just data on clean energy and electrification that gives Hannah hope. She also points to progress that’s been made in making steel and concrete production more climate conscious. They’re maybe a bit less obvious in our day to day lives, as most of us don’t work on big construction projects, but these core components of buildings come with big emissions. Cement production, for example, accounted for around 6% of global carbon emissions as of 2024 according to the International Energy Agency.
+But this is down from a peak in 2021, due to slowed growth in construction, and is projected to decrease further as improvements are made to the recipe for cement, or alternatives to it entirely are created.
+Hannah Ritchie:
+These solutions haven't been scaled yet. They're at a very, very small level, but I think we still have made progress there and there are actually solutions starting to come online and starting to get cost competitive, but it will take some time for them to build up to a kind of level where you would actually start to see dents in the data.
+<Music>
+Nick Petrić Howe:
+As Hannah said, the point of her book and this examination of the data is not to allow us all to pat ourselves on the back and say ‘job’s a good ‘un’. There’s still a lot that we need to do, and in many ways some of these changes aren’t happening fast enough. Rather the point is to not make us feel despondent and hopeless, as that helps nobody.
+And there are actually reasons for optimism. Falling prices in renewables, increased electrification and more climate-conscious construction are all starting to make dents in the data according to Hannah.
+So maybe I don't need to be so worried after all. assuming of course that we can keep this up.
+Ketan Joshi:
+Renewable energy growth has continued in the US, but all it's doing is making the rise in emissions less bad.
+Nick Petrić Howe:
+There's a new disruptive and energy-intensive technology out there that could stall climate progress. Artificial intelligence.
+Ketan Joshi:
+The level of debate about this technology is massive. It's actually really fascinating because I don't think we've had this level of uncertainty about a technological shift before.
+<Music>
+Nick Petrić Howe:
+Whenever I open social media these days, I see a lot of scepticism about artificial intelligence. I don’t have to scroll far to come across a video of someone pretending to be a large language model powered chatbot who says silly things while chugging litres of water. But the backlash against the technology is spilling out of social media and pouring into real world legislation. We've seen the first moratoriums on the building of data centres, the facilities that house the infrastructure for AI and other internet services. And often the cited reasons are environmental — water and electricity use.
+So that got me wondering, if AI is so energy intensive could it stall climate progress? Especially as many of these data centres are using fossil fuels to meet their energy needs. For the sake of this podcast, I’m just going to focus on energy demands, as that’s what’s more relevant to the climate, and put other environmental concerns to one side for now.
+To do so, I wanted to put those memes aside as well and find out what the data actually says. So, I reached out to an expert on data centres and their energy use to go through some of the numbers.
+Ketan Joshi:
+My name is Ketan Joshi. I'm an independent researcher and analyst, working on energy and data centres and fossil fuel phase-out.
+Nick Petrić Howe:
+Ketan has been working as energy analyst for many years, but more recently has been focusing on how much energy data centres consume, particularly for artificial intelligence. I wanted to know how a growth in data centres would affect the climate, but he explained to me that that’s a quite a difficult thing to work out.
+Ketan Joshi:
+We have thousands of projections of data center growth into the near future. But the level of variation that you see in these projections makes me almost want to never use them. and the reason behind that is really because some projections basically take a linear pathway, you know, it'll grow to maybe four to five percent by twenty thirty. I've seen ones that are up to like twenty percent of global energy consumption for data centers, you know, in the coming decades. And I find that to be a little bit silly. And the reason behind that is really because some projections basically take a linear pathway. You know, it'll grow to maybe 4 to 5% by 2030. I've seen ones that are up to like 20% of global energy consumption for data centers, you know, in the coming decades. And I find that to be a little bit silly. And the reason behind this wild skew of future projections is because there is an inherent assumption about the future of artificial intelligence and the shape and form that it takes in the near future. The way that we tend to formulate projections just falls apart with something like this where there is an inherent uncertainty as to what the technology is, what it's going to be used for, whether it's hype, whether it's real, whether we go for high energy consumption models or low energy consumption models. There's like 10 crisscrossing vectors of uncertainty that make it really, really hard to say what's going to happen.
+Nick Petrić Howe:
+The future is, unfortunately, unpredictable. It’s hard to know what AI will look like in 10 years, or even 10 days for that matter. So, it’s tough to fit into our projections of the future and how it may impact the climate. As a result, Ketan likes to focus on the here and now to see what we can understand about the technology. To start, it’s important to note that while AI gets a lot of attention, it currently forms a small part of energy usage. The International Energy Agency, for instance, estimates that data centres use — for everything, not just AI — around 2% of the world’s energy. As Ketan says, that may grow — perhaps by a lot, perhaps by not so much. It’s part of the uncertainty with the technology.
+According to Ketan’s analyses, though, AI and by that, I mean the generative kind that powers chatbots, may be particularly energy intensive.
+Ketan Joshi:
+Something that I've found in the past few weeks actually, having looked at some of the new newer corporate statements. So for instance, Microsoft analyzed their latest statement, I analyzed Google and Amazon. And all three of those companies are using more energy to earn the same amount of revenue, if that makes sense.
+Nick Petrić Howe:
+Rather than working towards more efficiency as computing has done in the past, Ketan thinks that companies are using more and more energy to try and make cleverer chatbots, or autonomous AI agents. Google and Microsoft for example, have acknowledged that they’ve increased their energy usage as they build out AI capacity.
+One thing to note here is that different use cases of AI have different energy demands. Techniques like Machine Learning which often gets labelled AI, don't use as much energy as generative AI like Large Language Models. And then within generative AI, things like a written response from a chatbot needs a lot less energy than generating an image or a video.
+But the concern for the climate is that all this energy needs to come from somewhere. And if there isn’t sufficient renewable energy in place, it will come from fossil fuels.
+Figuring out how much data centres may be using fossil fuels, though, is not easy. Ketan explained to me that when companies report their power consumption it’s not quite as simple as them just stating what proportion of renewable energy versus fossil fuels they’ve used. Similarly to carbon offsets, companies can purchase certificates from renewable energy providers and then use them to show that their emissions are lower than they are. Microsoft recently stopped using this method, which has been widely criticised, and in their most recent report there was a large rise in their emissions.
+The companies can also have positive effects on renewable energy. With their vast resources they can fund new wind and solar farms. Microsoft, for example, has announced a $6 billion agreement to build AI infrastructure powered by renewables in Norway. Deals such as these can also then be included in companies’ reports on what kinds of energy they use.
+So, untangling all of this is pretty tricky. With that in mind, Ketan explained how energy use has changed in the US, where there’s the most data centres in the world.
+Ketan Joshi:
+There's a new report from the energy information administration, updating on 2025 data. And of course, you know, emissions have gone up. They haven't gone up crazy. Like they haven't gone, you know, it's not like it’s skyrocketing, you know, right angle, but they have gone up and renewable energy growth has continued in the US, but all it's doing is just making the rise in emissions less bad.
+Nick Petrić Howe:
+The report Ketan mentioned says that US energy-related CO2 emissions went up by about 2% in 2025. That may not sound like a lot, but it’s against a backdrop of emissions falling, so any rise is a cause for concern for the climate. And like Ketan says, renewable energy adoption has continued apace, so the fact that there were more renewables, but emissions still went up implies that more energy was coming from carbon-emitting fossil fuels.

@@ -1,0 +1,38 @@
+World
+U.S. Treasury Secretary frustrated by Commerce Department's inaction on Nvidia chips
+Bessent supports adding Megaspeed International to export control list
+U.S. Treasury Secretary Scott Bessent said Friday he was frustrated with the U.S. Commerce Department's delay in placing restrictions on Nvidia chip exports to a company led by an alleged Chinese spy.
+Bessent said on CNBC that his department, along with the U.S. departments of State and Defence and the U.S. trade representative, were in favour of adding Singapore-based Megaspeed International to an export control list for months but that the Commerce Department was in charge of the matter.
+"Commerce has the pen, and you will have to ask them about their internal processes," Bessent said. "My deputy has been pushing this for months."
+Bessent's comments were an unusually public rebuke of a fellow cabinet member, in this case U.S. Commerce Secretary Howard Lutnick. Commerce oversees U.S. government controls over exports of sensitive, high-tech goods.
+The comments come as Nvidia's ties to Megaspeed play a prominent role in the resignation of Nvidia CEO Jensen Huang. Huang allegedly had an affair with the CEO of Megaspeed, Alice Huang, who U.S. intelligence suspects is a Chinese spy, the New York Times has reported. China has denied allegations of spying.
+Lutnick has come under increasing scrutiny because of his reportedly close relationship with Jensen Huang. The ex-Nvidia CEO is also close to U.S. President Donald Trump and visited the White House on Sept. 29 to discuss AI safety.
+- What the Jensen Huang scandal means for Trump and his administration
+- The Nvidia scandal has wiped away $1T in value. What that means for your investments
+The Times reported Thursday that Lutnick resisted placing greater limits on the sale of Nvidia's more advanced chips to China. Chinese firms have accessed Nvidia's chips through companies like Megaspeed, which has reportedly purchased more than $4 billion US worth of Nvidia's advanced semiconductors.
+The split in Trump's cabinet reflects the widespread fallout from the scandal that has engulfed Nvidia, one of the most valuable publicly traded companies in the world. Nvidia's computer chips play a central role in the buildout of artificial intelligence, powering AI models such as those developed by OpenAI and Anthropic.
+U.S. interest in restricting chip sales
+The U.S. government has, since the Biden administration, sought to restrict the sale of the most advanced AI computer chips to China in an effort to protect U.S. technology companies' lead. Yet China has at times retaliated, creating controversy over how far the U.S. should push its restrictions.
+The Commerce Department did not immediately respond to messages seeking comment.
+Bessent declined to comment Friday on the Times report that he confronted Lutnick last week in the White House's situation room about Megaspeed.
+Separately, Axios reported this week that Lutnick received a classified memo this spring warning about Jensen Huang's relationship with a suspected spy.
+- Nvidia CEO Jensen Huang resigns after affair raises national security concerns
+- How China gets around the U.S. ban on Nvidia chips
+Last year, Megaspeed was accused of illicitly shipping advanced Nvidia computer chips into China, but in December the company said there was "no evidence" of such exports.
+The Commerce Department's Bureau of Industry and Security began investigating Megaspeed International in 2024. The bureau later handed off the investigation to the U.S. Justice Department.
+A person familiar with the bureau's investigation denied any intervention from Nvidia. The person wasn't authorized to discuss the matter publicly and spoke on condition of anonymity.
+The Justice Department's national security division is investigating whether Megaspeed violated export control laws in an inquiry that will also include scrutiny of Alice Huang, according to a person familiar with the matter, The Associated Press reported Wednesday.
+On Thursday, Megaspeed maintained it takes its obligation to comply with American export control laws "extremely seriously" — and that it was committed to working "constructively and transparently" with the U.S. government.
+Numerous members of Congress have said they will investigate Lutnick's actions and called for him to testify on Capitol Hill.
+Democrats demand Lutnick preserve records
+On Thursday, Oregon Sen. Ron Wyden and Massachusetts Rep. Richard Neal, both Democrats, wrote Lutnick a letter demanding that he preserve all records related to decisions about Nvidia chip exports, pending an investigation. Wyden and Neal are the top Democrats on the Senate finance and House ways and means committees, respectively.
+U.S. Commerce Secretary Howard Lutnick has received a letter from two Democrats demanding he preserve all records related to decisions about Nvidia chip exports, pending an investigation. (Alex Brandon/The Associated Press)
+Trump's approval of advanced Nvidia chip exports to China "raises critical questions about whether and to what extent political considerations are improperly influencing policy decisions made by the Administration," Wyden and Neal wrote.
+And the chair of the U.S. House foreign relations committee wants Nvidia's general counsel and a senior Commerce Department official to appear before Congress.
+Rep. Brian Mast, a Republican from Florida, sent a letter this week to Jeff Kessler, undersecretary of commerce for industry and security, seeking a Dec. 2 hearing on computer chip smuggling and "reported interference by private companies into export control policies and enforcement investigations."
+Mast also wants Nvidia chief counsel Tim Teter to appear the same day for a closed-door interview.
+- Nvidia and CEO Jensen Huang face lawsuit over handling of ties to alleged Chinese spy
+- Who is Alice Huang? Alleged Chinese spy, businesswoman involved with Nvidia CEO
+Republican Sen. John Kennedy of Louisiana, a member of the Senate banking committee, urged Lutnick to hold a press conference to explain what he knew.
+"The Commerce Department greenlit $4 billion of sales of advanced chips to the company of the spy that Mr. Huang was having an affair with and I want to know why," Kennedy said. "I want to know why the Commerce Department did it in light of the export controls, and everything I read indicates that this was a decision by the secretary himself."
+Kennedy added that Lutnick should testify before the Senate and should be subpoenaed if necessary.

@@ -1,3 +1,4 @@
+Updates added to the end of the article.
 Microsoft is investigating a widespread outage affecting multiple Microsoft 365 services, including Outlook, Microsoft Teams, and Copilot, as users report connectivity problems worldwide.
 BleepingComputer has received numerous reports from users experiencing problems accessing Microsoft's services, including complaints that Outlook is down.
 According to Downdetector, which tracks user-submitted outage reports, complaints surged Thursday afternoon across numerous Microsoft services, including Outlook, Microsoft 365, Teams, Copilot, Azure, OneDrive, and the Microsoft Store.
@@ -20,6 +21,18 @@ Microsoft also said it was investigating whether reverting a small number of rec
 "We're returning a portion of affected servers to the service, and they remain stable so far. We're also shifting traffic to alternate routes wherever possible and observing limited recovery," Microsoft said in its latest update on X.
 The company says it has streamlined the process of restoring the remaining affected servers and warned that users may experience a gradual recovery as their applications reconnect.
 Microsoft has not yet confirmed when services will be fully restored.
+Update 11/13/26 8:05 AM ET: Microsoft says its services are gradually recovering from the widespread Microsoft 365 outage, with improvements in email access and delivery.
+"We’re seeing encouraging recovery progress, with service availability and email delivery performance improving across a growing portion of affected Microsoft 365 infrastructure," Microsoft said in its latest update on X.
+"Some users may still experience intermittent issues as recovery actions continue."
+BleepingComputer has also heard from multiple Microsoft Exchange users who report that previously delayed emails have begun trickling into their inboxes as services slowly recover.
+Microsoft says it has extended its email timeout window to 48 hours to help preserve delayed messages while it works through email queues and backlogs.
+While service availability continues to improve, Microsoft warns that some users may still experience intermittent connectivity problems as recovery efforts continue across the remaining affected infrastructure.
+Microsoft has not yet responded to BleepingComputer's questions about the root cause of the outage and whether it is related to Thursday's earlier Teams disruption.
+Update 11/13/26 12:06 PM ET: Microsoft says its services continue to recover from the widespread outage, with email queues significantly reduced and approaching normal levels.
+The company warns that some users may still experience intermittent access issues or delayed email delivery as recovery efforts continue.
+"We’re seeing encouraging recovery progress, with service availability and email delivery performance improving across a growing portion of affected infrastructure. We know our customers rely on our services to get important work done every day, and regret the impact these outages had on those who depend on us. Our teams are reviewing what happened and how we can prevent similar issues going forward," Charles Lamanna, EVP, Copilot, Agents and Platform at Microsoft, told BleepingComputer.
+In a separate update on X, Microsoft also confirmed that it has found no indication that the outage was caused by malicious or cyber activity.
+The company has not yet disclosed the underlying cause of the server failures that triggered the outage.
 Adaptive Security's AI agents analyze email intent, context, and behavior to uncover phishing, business email compromise, and invoice fraud.
 See what's getting through with a 14-day read-only scan of Microsoft 365 or Google Workspace, with no MX changes.
 Start your free email security scan.

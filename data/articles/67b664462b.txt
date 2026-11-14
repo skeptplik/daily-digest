@@ -1,0 +1,5 @@
+People who received the brand new Apple TV 4k today saw some strange error messages as soon as they opened the YouTube app. As the first units arrived, the app was initially only showing a black screen with a QR code and an error message saying “YouTube is not yet available on this device.” In some cases the app was functional, but had a transparent red bar stuck at the bottom of the screen saying, “YouTube app is approved for device testing only and not for production use.”
+The new Apple TV has a YouTube problem
+A software update and a reboot should get YouTube working on your new Apple TV 4K.
+Installing the new tvOS 27.2 update and rebooting wasn’t enough to resolve the issue for The Verge’s Tom Warren, he also had to uninstall and reinstall the app.
+The Verge’s John Higgins said in his review of the new Apple TV 4K that it’s “one of the best streaming devices available,” but expensive compared to other streaming boxes.

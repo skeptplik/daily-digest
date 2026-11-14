@@ -9,7 +9,8 @@ SecurityWeek has not tested SignDrop, but understands that the proof-of-concept 
 According to the security researcher, SignDrop has been tested on Windows 11 26H2, Windows 11 26H2 Experimental, and Windows Server 2025 Experimental, and should work on 80% of the world’s Windows installations.
 “You’re generally vulnerable if your Windows installation is older than 90 days,” Naceri says.
 According to cybersecurity services provider Cyderes, which successfully compiled and tested the PoC exploit, there is no evidence that the zero-day has been exploited in the wild.
-SecurityWeek has emailed Microsoft for a statement on SignDrop and will update this article if the company responds.
+“Microsoft is actively investigating the reported vulnerability and will take the necessary steps to update impacted products as soon as possible. Microsoft Defender detects and blocks exploitation of this vulnerability and alerts on the associated privilege-escalation behavior. At this time, we have not observed exploitation in the wild,” a Microsoft spokesperson told SecurityWeek.
+*updated with statement from Microsoft
 Related: PHP2Shell Exploited in Destructive Check Point Gateway Attacks
 Related: Hackers Exploit New N-central Zero-Day Hours After PoC Publication
 Related: Apache Patches Critical HTTP Server RCE Found by Anthropic, Google

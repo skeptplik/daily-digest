@@ -1,0 +1,71 @@
+US flight outage live updates: FAA lifts nationwide ground stop as Trump officials holds press briefing
+Sean Duffy says ‘it’s going to take us some time to unwind what’s happened’ but also points finger at Congress, claiming lack of funding for systems upgrades
+The nationwide ground stop on departures from US airports has been lifted, the US Federal Aviation Administration said in an advisory on its website Friday.
+Sean Duffy, the US transportation secretary is now speaking at a press briefing in the White House, and began by praising Donald Trump, but did not immediately announce that the ground stop was lifted.
+'We have seen zero evidence that this was this was a cyber attack', Mullin says
+Markwayne Mullin, the US homeland security secretary, just told reporters at a briefing on the FAA outage that brought US aviation to a standpoint, “we’ve seen zero evidence that this was this was a cyber attack".”
+“Now, when we start looking at cyber threats, cyber attacks, typically some people is going to raise their hand up and say, ‘hey, we did that. There’s no chatter. We haven’t seen any any footprints, as you would say, or, or identifications of people that got into the system,” Mullin added. “It appears that this was mechanically driven.”
+Duffy says airspace is open, 'but it's going to take us some time to unwind what's happened'
+Speaking in the White House briefing room, Sean Duffy, the former Fox News host now serving as US transportation secretary, just said that the federal government has “identified the problem” that brought down the US air traffic control system on Friday and the system “is operational right now.”
+“So at 8:15 tonight, Eastern Time, we’ve opened up the airspace,” Duffy said. “But it’s going to take us some time to unwind what’s happened this afternoon.”
+The nationwide ground stop on departures from US airports has been lifted, the US Federal Aviation Administration said in an advisory on its website Friday.
+Sean Duffy, the US transportation secretary is now speaking at a press briefing in the White House, and began by praising Donald Trump, but did not immediately announce that the ground stop was lifted.
+'This is what the leadership of president Trump looks like,' Markwayne Mullin says
+“This is what the leadership of president Trump looks like,” Markwayne Mullin, the homeland security secretary just said at the start of a briefing on the crisis at US airports.
+Ronald Reagan Washington National is no longer accepting diverted aircraft, the FAA says.
+Earlier on Friday, at least 600 flights were diverted during the nationwide groundstop, to airports including Reagan Washington, Chicago O’Hare, Denver international, and Dallas Fort Worth international.
+Trump tells Fox News FAA outage does not seem like a cyber-attack since 'there’s nobody taking credit'
+While Donald Trump has spent hours out of sight during the crisis that paralyzed America’s airports on Friday, Fox News reports that the president told its White House correspondent, Peter Doocy, that the vast telecommunications outage does not seem like a cyber-attack.
+“I did just talk to president Trump on the phone, and this is going to be the first information that we have directly from the president that you’re about to hear,” Doocy told Laura Ingraham, a pro-Trump opinion host. “He says it does not seem like this is a cyber attack or I or anything like that.
+“He said there’s nobody taking credit, which would be common if somebody did execute a huge cyber attack like this on critical infrastructure,” the Fox correspondent added, “but that he would let us know and the team would let us know if that is something that happened”.
+According to Doocy, Trump “said instead, this seems to be a situation where there’s a bunch of old broken stuff in the infrastructure that the FAA relies on to keep planes in the sky”.
+Ingraham, who is normally a booster of Trump, expressed some indignation that his White House had not yet briefed the public on the crisis. Although Sean Duffy, the transportation secretary, is Ingraham’s former Fox News colleague, she as openly critical of his absence.
+“Is there any sense, Peter, that there will be a press conference to keep the public aware and reassured?” Ingraham asked. “I know we have this, a few comments here and there, and it’s nice to see that people are returning to the White House, but it seems to me that with so many people flying on a daily basis and still 400 plus flights in the air, that the American people want answers and they want them, they want them soon. Because this is not only a huge inconvenience, it frightens people.”
+US transportation secretary Sean Duffy due to brief public soon, White House says
+We are standing by for the start of a briefing, the first of the day, from the US transportation secretary, Sean Duffy, on the crisis that halted all departures from US airports for hours on Friday.
+Once the briefing begins, we will bring you updates.
+Hawaii suspends flights 'due to debris from SpaceX launch'
+Less than an hour after announcing that flights to Hawaii from the US west coast would resume, following the nationwide ground stop ordered by the FAA, Hawaii’s department of transportation posted on social media: “All west coast flights have been halted due to debris from SpaceX launch.”
+Outages in communication, radio frequencies and radar began in Chicago – report
+The FAA’s Washington DC command center was notified around 3.30pm local time on Friday that multiple air centers around the country had lost communication, radio frequencies and radar, Jon Ostrower, the editor-in-chief of the aviation news site the Air Current, reports.
+“The outages began with the Chicago air traffic route control center, with Boston, Washington, New York and Minneapolis verifying they had problems as well in rapid succession,” he added.
+A few minutes ago, Ostrower reported on social media that a single source, but one he considers “highly reliable”, tells him that Chicago’s O’Hare, the world’s busiest airport, is closing one of its eight runways, Runway 22R, “to park planes”.
+With Trump mute on social media amid crisis, Democrats call for answers
+Donald Trump remained uncharacteristically quiet about the crisis at US airports on Friday, posting about other matters but making no mention of what his administration is doing to fix the problem that has thrown travel into chaos.
+Democrats have filled the vacuum, demanding answers.
+Congresswoman Nellie Pou, a New Jersey Democrat who serves on the House aviation subcommittee said in a statement:
+I do not want to speculate the cause of this crisis right now but this is a massive, almost unprecedented disaster impacting tens of millions of Americans. We are nearing the holidays. The Trump administration must be prompt and forthright in providing answers. More generally, I would note this constitutes yet another crisis in the American skies under the Trump administration. Just this week, the GOP majority cancelled a hearing next week with the head of the FAA. Something must change. The American people are owed transparency, and the incoming Congress must seek a full accounting of how air traffic modernization is being implemented and what remains to be done to keep our airspace safe.”
+Some international flights depart for Europe from New York City, Boston and Philadelphia
+Some international flights have been able to depart from New York City’s John F Kennedy international airport, Boston’s Logan airport and Philadelphia’s international airport, according to airlines and data from Flightradar24.
+Among the flights now in the air are a Delta flight from New York City to Rome, which departed at 6.23pm ET, an SAS flight to Copenhagen that took off a few minutes ago, as well as an Air France flight to Paris and a Virgin Atlantic flight to London.
+A British Airways flight from Philadelphia to London departed three minutes early, at 6.32pm local time.
+Flights have also departed for Europe from Newark international airport in New Jersey, and Washington’s Dulles international.
+Pacific-bound flights now cleared to depart from SFO, airport says
+There are signs that the nationwide halt to departing flights has eased, at least for some international destinations.
+San Francisco international airport confirmed in a statement in the last 30 minutes that “Pacific-bound flights are now cleared to depart from SFO, including destinations in Hawaii and Asia”.
+National Weather Service debunks false report that its radar is down
+The US National Weather Service has been forced to dispel misinformation spreading online, and from some news services, that its radar system went down on Friday.
+“In case you heard otherwise, there is no radar outage and https://radar.weather.gov is fully operational!” the service said in a social media post. “Outdated content from isolated webpages stating otherwise has been circulating, but NWS radars are operating normally.”
+FAA outage appears to be affecting radio frequencies air-traffic controllers use – report
+The “temporary telecommunications outage” that caused the US Federal Aviation Administration to ground all departing flights on Friday just before 4pm ET appears to be a disruption of radio frequencies used by air-traffic controllers to communicate with pilots, the Wall Street Journal reports.
+Here is what unnamed sources told the Journal:
+The outage appears to be affecting a telecommunications network overseen by L3Harris Technologies, according to people briefed on the matter. The network handles crucial radio frequencies that air-traffic controllers use to communicate with pilots, the people said. It wasn’t immediately clear whether the outage also affected the radar feeds that controllers use to keep aircraft safely separated in the skies.
+'What the hell is going on?' House Democrats ask as Trump administration struggles to explain paralysis of nation's air system
+Moments after Markwayne Mullin, the homeland security secretary, stumbled through a media briefing at the White House on Friday, in which he made it clear that the Trump administration did not yet know what had caused the telecommunications outage that paralyzed the nation’s airports, congressional Democrats demanded to know: “What the hell is going on?”
+In a statement on social media in response to Mullin’s briefing, Democrats on the House homeland security committee argued that “Trump and his cabinet are completely out of their depth. Their incompetence, secrecy, and recklessness are putting Americans in danger – and they can’t even clearly explain to the American people what’s happening.”
+Meanwhile, the Republican-led Senate commerce committee, chaired by Ted Cruz, sought to cast the blame more widely, noting that no new air route traffic control centers have “been built since LBJ was in office”.
+American travelers trying to book last-minute trains on Amtrak have reportedly experienced error messages on the rail service’s website and app, and difficulty reaching representatives on the phone. “We’re currently experiencing higher-than-normal call volumes due to ongoing airline issues,” Amtrak said in a statement on social media.
+AI company says its new traffic management tool is not to blame for nationwide outage
+ASI, a Boston-based frontier AI company that was awarded an $875m software and AI contract in June by the Federal Aviation Administration wants everyone to know that its new air traffic management tool, known as Smart, which was deployed in September, is not to blame for the nationwide outage on Friday.
+“The current ground stop is not based on or a result of the Smart system, any product of ASI or our integration with FAA and ATC,” the company said in a statement posted on social media.
+In September, Sean Duffy, the former Fox News host leading the US Department of Transportation, starred in a social media video promoting the deployment of the Strategic Management of Airspace, Routing, and Trajectories, or Smart, system.
+“We’re here to move at the speed of Trump,” Duffy said in the video. “We’re leading the world in new technology.”
+The FAA said in a statement on Tuesday that the new Smart system was activated at all 22 air route traffic control centers in the US “to reduce delays, reduce fuel consumption and improve the travel experience for the flying public”
+What we know, and don't know, about total shutdown of departures from all US airports
+The US Federal Aviation Administration said in a statement that the nationwide halt to departures, and delays to landings, at all US airports that began at about 4pm ET on Friday was caused by “a temporary telecommunications outage”.
+“Every flight has been accounted for and international flights will be handled on a case by case basis,” the FAA added.
+Here is what we know about the rare nationwide “ground stop” issued by the FAA.
+There is, as of now, no sign that the “telecommunications outage” that led to the sudden halt to all departures at US airports has been fixed.
+It remains unclear what caused the outage, but, according to Markwayne Mullin, the former Oklahoma senator now leading the Department of Homeland Security, “there is no indication … that this was a nefarious attack”.
+There have been 10,343 flight delays within, into or out of the US so far, according to the website FlightAware, and 1,479 cancellations.
+This is just the second nationwide ground stop of all departures since the 11 September 2001 attacks. The previous one came in January 2023, when the FAA paused all domestic departures for less than two hours.

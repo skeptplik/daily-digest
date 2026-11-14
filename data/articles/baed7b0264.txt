@@ -1,0 +1,9 @@
+Fake GTA 6 download goes after Steam logins and crypto wallet data
+Cynet researchers followed a “GTA 6 EXE file download” link from a Google Colab notebook to a ZIP archive and found a WARDEN Stealer loader inside. The malware takes saved passwords, browser cookies, Steam and Roblox credentials, and cryptocurrency wallet data from the machine it runs on.
+A Google Colab notebook promotes a fake GTA 6 executable download (Source: Cynet)
+Grand Theft Auto VI launches November 19 with no PC version. Any site offering a PC installer is offering something other than the game. People searching for early access or a leaked build are the target, and this sample shows how much work the lure puts into keeping them clicking.
+The installer tells you to turn off your defenses
+The Colab link led to a page called “Windows Software Hub,” which showed a version number, a download count, and “Virus Free,” “Secure,” and “Verified” badges. The page advertised a 72 MB download. The archive held a 796 KB executable and a 1 KB README. A download page and a file manager measure different things, so the size mismatch proves little by itself. The README proves more: it tells the user to run the file as administrator, click past a security warning, and add an antivirus exclusion if the file is blocked.
+The binary contains no game engine, no game assets, and no Rockstar signatures. It checks whether it is running in a virtual machine or sandbox, injects code into browser processes, replaces cryptocurrency addresses copied to the clipboard, and can download more malware.
+What to block
+Cynet named uroker[.]casa as the probable command-and-control server, which is the machine the stealer reports back to. The company published SHA-256 hashes for the executable and the README. It also listed 104.21.75[.]176 but warned against blocking that address because it is a shared Cloudflare IP.

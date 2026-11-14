@@ -1,0 +1,18 @@
+For The Witcher 3's Songs of the Past expansion, CD Projekt Red used AI to alter the voice of Geralt's original Polish actor, Jacek Rozenek.
+In 2019, Rozenek suffered a stroke that left him unable to speak. In an interview with Game File, he described his recovery, which required six to seven hours of voice training daily.
+Rozenek briefly returned to voice Geralt in The Witcher 3's 2022 next-gen update but found the sessions exhausting. CDPR wanted him back for Songs of the Past but recognised his voice now differs significantly from 12 years ago.
+"For future projects, when we consider Geralt is becoming older and has a deeper voice, this is not a problem for us at all," said CDPR's localisation director Mikołaj Szwed.
+"It's more about this specific situation here, where we have both the voice from 12 years ago and from now next to each other, which could kind of take people out of the experience and feel that like there is this difference."
+"Because, when you listen to the voice from Jacek, it's still Geralt, but when you compare it to Geralt from 12 years ago, Jacek's voice now is much lower, much gruffer."
+CDPR approached Ukrainian AI company Respeecher to adjust Rozenek's voice, with the actor's consent.
+"The point is that this voice should be as close as possible to my voice from 12 years ago," Rozenek said. "I have great trust [...] for the creators of this game."
+CDPR previously worked with Respeecher to recreate the voice of Polish voice actor Miłogost 'Miłek' Reczek, who voiced Viktor Vektor in Cyberpunk 2077, following his death in 2021 with the family's consent.
+In this case, Respeecher's AI was trained on Rozenek's 2014 recordings to adjust his current voice to match his younger self.
+"We basically delivered to Respeecher all the lines that Jacek recorded for us for The Witcher 3," Szwed said. "They created an algorithm of his voice, based on his lines."
+"Getting there took dozens of hours, training models, going through the details with the CDPR team, and dealing with AI artefacts that never fully disappear," said Respeecher synthetic speech artist Dmytro Vasylets.
+"The hardest part was Jacek's emotional range: the half-tones, shouts, groans, anger, fear and laughter. Capturing all of that at the highest audio quality was the real challenge. I'd like to think we pulled it off."
+Szwed said CDPR's contracts confirm that they would not use any actors' voices with AI without the actor's consent.
+"I do think this is one of those ways where you can use AI ethically, with consent and also to do something good," Szwed said. "This was a special case."
+The use of generative AI in voice acting remains a strong topic of debate. Last month, the Japan Actors' Union announced new guidelines for the unauthorised use of generative AI to replicate voices.
+One stipulation is that if generative AI replicates a performance, it must be treated as a new performance and require additional royalties or compensation.
+UKIE also announced a partnership with law firm Sheridans to offer an AI Compliance and Accreditation Service, supporting UK studios in using AI lawfully and responsibly.

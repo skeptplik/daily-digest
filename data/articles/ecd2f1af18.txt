@@ -1,0 +1,12 @@
+Nvidia's interim CEO inherits risky AI bets and a legal mess
+A suspected intelligence scandal, reports of multiple extramarital affairs and the abrupt departure of one of Silicon Valley's most influential CEOs. It's been a dizzying week for Nvidia and the AI industry.
+Jensen Huang helped bankroll the AI boom. Now, after 33 years at the helm of the leading company in AI, he's out, leaving questions about the future of an industry that has relied heavily on his company's financial backing. Longtime finance chief Colette Kress has stepped in as interim CEO.
+"Nvidia has put itself basically in a position of being a bank, backstopping everything," Gary Marcus, a cognitive scientist and longtime AI researcher, told Morning Edition.
+He was describing circular financing: Nvidia invests in AI companies that then use the money to buy Nvidia's chips. OpenAI, Anthropic and CoreWeave have relied on that funding, he said, even as many AI businesses struggle to turn a profit.
+"Jensen was kind of a swashbuckler, willing to make bets of arbitrary size," Marcus said.
+Unlike Huang, whose background is in engineering, Kress comes from finance and appears more cautious about making large financial bets, potentially changing how Nvidia backs the wider AI industry.
+Kress will also have to contend with potential federal and congressional investigations into Nvidia's dealings involving China, leaving her to "clean up that mess," Marcus said.
+He said lawmakers need answers about what information Huang may have shared with Alice Huang and why Commerce Secretary Howard Lutnick had not intervened earlier.
+"Why didn't Lutnick shut some of this down when he was asked to?" Marcus said.
+Listen to the full interview by clicking the blue button above.
+The radio interview was edited by Simone Popperl and the web copy was edited by Suzanne Nuyen.

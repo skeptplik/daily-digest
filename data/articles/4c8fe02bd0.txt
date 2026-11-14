@@ -1,0 +1,19 @@
+University of Texas at Arlington warns personal information stolen during cyberattack
+The University of Texas at Arlington warned students and employees that personal information was stolen by hackers who breached the school’s systems during a cybersecurity incident last month.
+In a statement to Recorded Future News, a spokesperson said an investigation into the attack confirmed the stolen data but declined to say what information was obtained by the threat actors.
+“We are working to determine whose information may have been involved and the nature and extent of the information accessed. Once we have identified the individuals affected, we will contact them directly with information about what happened, steps they can take to help protect their information, and how the University will support them,” the spokesperson said.
+When the attack was initially announced, the university took down MachForms – an online portal used by students and employees for event registration, service requests and surveys.
+The spokesperson said MachForms is still offline and the university “continues to monitor for additional impacts to university systems or operations.”
+The University of Texas at Arlington is one of the state’s oldest and largest schools, serving more than 41,000 undergraduate and post-graduate students.
+The attack on the university was claimed this week by the Qilin ransomware gang, which has quickly become one of the most prominent cybercriminal groups currently operating.
+According to data from the Halcyon Ransomware Research Center, the group accounted for 344 alleged ransomware attacks from July to September 2026, the second highest of any group. It recently claimed to be behind an attack on the Bureau of Alcohol, Tobacco, Firearms and Explosives (ATF).
+One of the group’s leading affiliates was recently arrested in Japan and extradited to Germany. This week, multiple cybersecurity firms and researchers identified one of the group’s leaders as Russian national Aleksey Mikhailovich Yakovtsev.
+Universities battered by ransomware gangs
+University of Texas at Arlington is among a handful of universities currently dealing with the fallout of ransomware attacks.
+Canada’s York University confirmed that hackers stole troves of student information dating back more than a decade in a recent cybersecurity incident.
+Last week, Vanderbilt University was attacked and said on Wednesday that it will likely “take multiple weeks to fully restore normal operations across all systems.”
+“We are prioritizing crucial business operations across the university, including payroll, payment services, admissions, course registration and public safety,” the university said.
+They are still investigating what if any data was stolen.
+The attack was claimed by the BYOD ransomware gang — a new group researchers have little information on. The same group took credit for recent attacks on Michigan State University and the University of New Mexico.
+Jonathan Greig
+is a Breaking News Reporter at Recorded Future News. Jonathan has worked across the globe as a journalist since 2014. Before moving back to New York City, he worked for news outlets in South Africa, Jordan and Cambodia. He previously covered cybersecurity at ZDNet and TechRepublic.

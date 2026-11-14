@@ -1,0 +1,56 @@
+At least 74 countries were affected by the Microsoft outage which was detected after midday US Eastern Time (17:00 GMT) on Thursday.
+Microsoft 365 Services, including Teams, Outlook and artificial intelligence software Copilot, all experienced "connectivity problems", the company said.
+As of early Friday afternoon (GMT), Microsoft was reporting improvements, with email queues "significantly reduced and approaching normal levels".
+From city governments in the US to Australian spy agencies, the disruption was widespread. Here is what happened around the world.
+US and Canada
+In the US, staff with the House of Representatives told Politico, external their work had been halted by the outage.
+"We all use Outlook, that's our life, everything is there, our calendar is there, our boss's calendar, so it has been a challenge â¦ with no access to our Bible," one House staff member said. "There goes a day of legislative work."
+Tech giants OpenAI and Anthropic both reported problems.
+OpenAI, which makes ChatGPT, said it was investigating an issue affecting its connections to Microsoft's services, which caused some tools not to work as expected.
+Courts from Los Angeles to Texas also warned that communications might be delayed.
+Electric truck maker Workhorse Group, which was expected to report third-quarter results on 12 November, rescheduled to 16 November, citing business disruptions caused by the outage.
+Meanwhile, officials in some US cities encouraged citizens to call local offices and agencies where needed instead of using email.
+The City of Austin in Texas account posted on X early on Friday: "Due to an ongoing Microsoft Outlook outage, City of Austin employees cannot receive or send emails at this time.
+"City phone lines remain operational, and 911 Emergency services are not impacted."
+In Canada, a healthcare network running several hospitals in Toronto declared a "code grey", indicating an infrastructure failure.
+The company, Unity Health Toronto, said its teams were having trouble sending or receiving email but that patient care was not affected.
+Other hospitals, including Canada's largest children's hospital SickKids, also reported its staff having issues accessing phone calls and emails.
+Via Rail, Canada's national train network, said in a post on X that its passengers might not be able to receive emails about their trips because of the outage.
+Disruptions were also reported by Canadian municipalities, including the City of Ottawa and the City of Vancouver. Both urged residents in a notice to call in for any urgent issues.
+Asia
+In Japan, some companies reportedly turned to fax machines to maintain communications.
+"Can't send emails because of a Microsoft outage, so we're switching to fax for the regular updates we usually send as PDFs. Analog is strong," one unnamed X user was quoted as saying by the Japan Times, external.
+The Japanese government said its shared IT platform had been disrupted.
+"We understand that Microsoft is working to restore services, and we will continue to monitor the company's response," Deputy Chief Cabinet Secretary Masanao Ozaki told reporters.
+Singapore also confirmed the outage had affected some government systems, but stressed "emergency services remain fully operational".
+Singapore's courts also said they were "experiencing issues with incoming and outgoing emails", urging people to contact them by telephone for urgent matters.
+In the Philippines, the Supreme Court warned that "responses to emails and other transactions may be delayed".
+In India, the outage was disrupting work for many on Friday, with emails not landing and Teams calls not going through smoothly.
+People working in the equity markets told BBC News they had panicked when they realised they could not access daily research reports before their morning meeting where they make their big decisions of the day.
+"Outlook wasn't working. We fortunately have an alternative so it was not a problem. But we conduct most of our calls, especially with big clients, on Teams - that has been a challenge," a senior executive with a big Indian brokerage said on condition of anonymity.
+Firms in China use software that has been made locally - WPS Office is a favourite - but the Microsoft outage caused frustration there too.
+Outlook is one of the few reliable channels for many offices and businesses in the country who work with colleagues across the world.
+China operates one of the world's most sophisticated systems of internet censorship, known as the Great Firewall, which restricts access to many Western websites including Google, Facebook and Instagram along with many international news organisations including the BBC.
+Australia
+Australia's spy and federal police agencies were affected by the outage, though officials suggested the impact was minimal.
+"The impact that they are dealing with is very much on email system," the head of the Australian Security Intelligence Organisation, Mike Burgess, told reporters.
+Other Australian public service providers also confirmed they had been affected by the outage, but similarly said this was mostly limited to emails, and the BBC understands there were no major impacts across New South Wales' primary services in health, education, transport, and emergency services.
+Europe and the UK
+European stock market operator Euronext advised listed companies on Friday morning to use the phone to communicate corporate information because of the Outlook email disruption, Reuters reported.
+Speaking to the same news agency, the head of Germany's BSI cybersecurity agency, Claudia Plattner, said the country's authorities had not been affected because they did not rely on Microsoft 365 services.
+However, Reuters reported that Germany's national rail operator, Deutsche Bahn, was having difficulties sending out timetables for diverted trains due to the outage.
+Plattner added the disruption was "affecting the whole world". "It is a global disruption that spans a vast number of data centres â stretching from Asia right across to the US, via Europe," she said.
+In Antalya, Turkey, advisers and officials attending the UN Climate Change Conference, Cop31, were left frustrated by the outage.
+James Young, a climate change adviser at the Inuit Circumpolar Council, the organisation which represents around 180,000 Inuit people living in the Arctic, told Reuters the council relied on emails and Microsoft Teams to communicate across several countries.
+"It's just been really frustrating and challenging to maintain contact with our colleagues and to be able to effectively participate here," he said. "I think our dependence on technology leaves us vulnerable to situations like this."
+In the UK, GPs, police and pharmacies were among services affected.
+Some GP surgeries have urged patients not to submit messages via their website while the problem remains, while several large police forces are urging members of the public to call if they want to make a report.
+Politicians are also affected. At Westminster, MPs were reporting their access via parliamentary accounts to Microsoft products was down.
+A parliamentary spokesperson said: "We are aware of the global issue affecting Microsoft email services, which is impacting users of the parliamentary network. We are working with Microsoft to resolve the matter as quickly as possible.
+"Alternative communication arrangements are in place, allowing today's business to continue."
+Who was least affected?
+Some parts of Asia, Europe and Africa were unaffected, according to Downdetector. These include Russia, where the use of Microsoft applications is heavily restricted, or phased out in favour of domestic alternatives.
+However, this could also be a case of under-reporting in some countries, where Downdetector is among the websites blocked due to censorship.
+One winemaker in South Africa said almost his entire business had been brought to a "standstill" by the Microsoft outage.
+"It's incredibly frustrating," Peter Pentz added. "We export a lot, so communication with exporters in Europe has come to a standstill."
+Order processing, dispatch, communications and even "critical production work" were halted, he said, as the Cape West Coast winery "relies on these systems for parts of our day-to-day operations".
