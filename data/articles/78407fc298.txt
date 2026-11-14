@@ -1,8 +1,8 @@
 Microsoft says all services 'fully recovered' after global outage
-The tech giant confirmed on Saturday morning that all services have recovered across Teams, Outlook, Copilot and other applications, ending a global outage that crippled online communications across businesses and governments for over 24 hours. The US homeland security chief confirmed there was 'no Microsoft link' to the US air stoppage.
+The tech giant confirmed on Saturday morning that all services have recovered across Teams, Outlook, Copilot and other applications, ending a global outage that crippled online communications across businesses and governments for over 24 hours. The US homeland security chief confirmed there was 'no Microsoft link' to the US air traffic stoppage.
 Microsoft said on Saturday that services had fully recovered across Teams, Outlook, Copilot and other applications, ending a global outage that crippled online communications across businesses and governments for over 24 hours.
 "We have completed our efforts to address the underlying issue of the incident and restored service to the remaining impacted customers and regions," the company posted on X.
-The company earlier apologised for the shutdown affecting online software including Outlook, Copilot, and certain features of Teams, which since Thursday had impacted at least 74 countries across the Americas, Europe, Asia, and Africa.
+The company earlier apologised for the shutdown affecting online software including Outlook, Copilot and certain features of Teams, which since Thursday had impacted at least 74 countries across the Americas, Europe, Asia and Africa.
 The technology giant earlier said it was "monitoring the backlog of email messages accrued during this event" across its enterprise services before announcing the issue was resolved.
 To display this content from YouTube, you must enable advertisement tracking and audience measurement.
 One of your browser extensions seems to be blocking the video player from loading. To watch this content, you may need to disable it on this site.

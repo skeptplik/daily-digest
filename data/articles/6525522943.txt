@@ -1,3 +1,7 @@
-Microsoft said its consumer products services had fully recovered at 4:10 p.m. UTC on Friday (November 13, 2026) (1610 GMT), while it was seeing some sustained recovery for its Microsoft 365 enterprise services.
-The technology giant said it was “monitoring the backlog of email messages accrued during this event” before considering the issue with the enterprise services resolved.
-“Due to the severity of impact this incident caused, we’re monitoring for an extended period to ensure no additional mitigative actions are required,” Microsoft said in an update on its service status page.
+Microsoft said on Saturday (November 14, 2026) that services were fully restored after a massive outage that lasted for hours.
+“We have completed our efforts to address the underlying issue of the incident and restored service to the remaining impacted customers and regions,” the company said in an update on X.
+Users reported that Microsoft 365 services, including Outlook, Teams and AI assistant Copilot, were interrupted. Downdetector, an online tracker, said it received outage reports from users in more than 70 countries and territories.
+The outage affected governments, courts, healthcare services, businesses, airlines and banks in many places. Governments including those of Japan, Singapore and Australia reported that the hours-long episode had impacted some of their operations.
+Over 430 million people use Microsoft 365 apps, Microsoft said on its website. Problems started appearing around midday Thursday in the U.S.
+The Redmond, Washington-based company apologised on Friday for the disruptions and said the outage was “not related to cyber” or artificial intelligence agents.
+It said the incident “was introduced by an issue during an earlier network capacity upgrade that surfaced” following a recent network change.

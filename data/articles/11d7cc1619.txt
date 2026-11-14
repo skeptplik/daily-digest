@@ -4,4 +4,4 @@ According to Sean Duffy, U.S. Secretary of Transportation, the issue stems from 
 Was the FAA hit by a cyberattack?
 The cause of the air traffic control communications disruption remains unclear. Federal officials have yet to publicly identify what triggered the problem, and it is unclear if the incident is linked to a cyberattack.
 The FAA directed departing flights to remain on the ground until further notice and said it would handle inbound international flights case by case. The agency had already halted traffic in Chicago over air traffic control communications problems before issuing the nationwide order.
-Breaking News – Check back for updates.
+UPDATE: US officials found no evidence of hacking in the FAA outage that halted flights nationwide, as the FBI reportedly probes an update.

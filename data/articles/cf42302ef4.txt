@@ -1,0 +1,13 @@
+The US technology conglomerate Microsoft said on Saturday that a more than 24-hour global outage affecting its Microsoft 365 applications used by businesses and governments across the world has now ended.
+"We have completed our efforts to address the underlying issue of the incident and restored service to the remaining impacted customers and regions," the company posted on X.
+Microsoft applications such as Teams, Outlook and Copilot were all hit by the outage, leading to communications problems in scores of countries.
+The company has said it was "not aware" of any outside interference that could have been behind the outage, blaming the problem on server issues.
+The disruption was one of the longest in Microsoft's history and the second this year.
+What effects did the Microsoft outage have?
+The outage, which began around 1725 UTC on Thursday according to web testing and network diagnostics company Ookla, affected government agencies and businesses across much of the world.
+It made it impossible to carry out activities such as sending emails and holding online meetings.
+Germany was no exception, with a spokesperson for its Federal Ministry for Digital Transformation and Government Modernization saying that while the outage did not have a major impact on federal government functions, it did significantly affect German businesses.
+Britain's state health service (NHS) was also severely affected, with personnel forced to have recourse to paper records rather than those stored online.
+Altogether, there were more than 7.4 million reports of problems worldwide logged by Downdetector, which monitors online outages.
+The disruption highlights the widespread and perilous reliance of governments and businesses on a very small number of Big Tech companies.
+Tthe problems at Microsoft are so far believed to be unconnected with the major communications outage that has affected US aviation.
