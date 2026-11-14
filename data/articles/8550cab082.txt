@@ -1,6 +1,0 @@
-Introducing Polo: a Wayland MATE compositor
-Kerem Söke has announced the 1.0 release of Polo, a Wayland compositor for the MATE Desktop Environment:
-The idea is to keep MATE behaving as closely as possible to how it does on X11, rather than changing the desktop to fit a different compositor. [...]
-Window management, metacity, workspaces, tiling, XWayland, clipboard and clipman support, multiple monitors, display scaling, hotplugging, screenshots, screen sharing, and session management are all working.
-I've also added desktop effects: fade, zoom, zap, spin, squeemize, magic lamp, desktop cube, expo, and wobbly windows.
-Söke is looking for people to test Polo, particularly on multi-monitor setups, and report back with problems.

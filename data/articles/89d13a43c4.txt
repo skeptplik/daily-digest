@@ -1,11 +1,19 @@
-SpaceX’s Starship megarocket blasted off from Texas on Friday afternoon as the aerospace company sought to make history with a double catch of its reusable rocket.
+SpaceX’s Starship megarocket blasted off from Texas on Friday afternoon as the aerospace company sought to make history with a double catch of its reusable rocket, but ultimately fell short.
 Starship, the world’s largest rocket, standing at 407ft, is expected to orbit Earth about 14 times over the course of 22 hours, before the company catches the rocket at its launchpad at Starbase in south Texas.
-The rocket, which is on its 15th flight, is composed of two elements: the lower booster, with 33 raptor engines that fired off during takeoff, and the Starship at the top.
-SpaceX had planned for both components to return to its tower, but the booster, named Super Heavy, was aborted, and splashed down in the sea. The cause of that diversion remains unknown.
-The Starship, meanwhile, continued on sailing through space.
-Friday’s test fell short of the double-catch mantle, but the flight is poised to mark another milestone for the company. If all goes to plan, it would be the first time SpaceX has caught the rocket’s 171ft upper stage.
+The rocket, which is on its 15th flight, is composed of two elements: the lower booster, with 33 Raptor engines that fired off during takeoff, and the Starship at the top.
+As smoke plumes wafted from the launch site, SpaceX employees erupted into cheers.
+SpaceX had planned for both components to return to its tower, but the booster, named Super Heavy, was aborted, and splashed down in the Gulf of Mexico. The cause of that diversion remains unknown.
+“That certainly isn’t the news that we had hoped to hear for today,” said Kate Tice, SpaceX’s director of quality management, but she noted the booster’s return was in line with “rigorous safety checks”.
+Early in the webcast, SpaceX simulated the return. The entire rocket was expected to be grabbed in the launch tower’s “chopstick” mechanical arms.
+Friday’s test did not rise to the double-catch mantle, which Elon Musk had described early in November as a “critical breakthrough needed to make life multiplanetary”.
+Still, the flight is still poised to mark another milestone for the company. If all goes to plan, it would be the first time SpaceX has caught the rocket’s 171ft upper stage.
 Previous tests focused on the retrieval of the booster.
-SpaceX chief executive Elon Musk has sought to advance Starship’s “rapid reusability”, which he hopes will take humans to the moon and, controversially, to Mars.
-Nasa has contracted Space X, along with Jeff Bezos’s Blue Origin, to provide the lunar landers that will return astronauts to the moon in 2028.
-SpaceX has launched a flurry of test flights, in recent years, some of which have resulted in explosions that signaled major design flaws.
+The Starship, meanwhile, has continued to sail through space at over 26,000 km/h at an altitude of 270km.
+The launch went on as scheduled despite a nationwide ground stop that disrupted hundreds of flights.
+Flights to the west coast from Hawaii were temporarily paused, then resumed on Friday due to space debris from the launch, according to the island’s transportation agency.
+As in the past, Starship carried satellites for Starlink, SpaceX’s internet service wing, three of which were fitted with cameras to analyze the rocket’s heat shield. The data plays a role in determining if the spacecraft is ready to return.
+SpaceX chief executive Musk has sought to advance Starship’s “rapid reusability” as a vehicle, which he hopes will take humans to the moon and, controversially, to Mars.
+Nasa has contracted SpaceX, along with Jeff Bezos’s Blue Origin, to provide the lunar landers that will return astronauts to the moon in 2028.
+Musk has cast his reusable rocket as a buffer against the enormous costs associated with future space travel.
+SpaceX has launched a flurry of test flights in recent years, some of which have resulted in explosions that signaled major design flaws.
 In September, the most recent flight test, SpaceX notched a victory, sending the spacecraft into Earth’s orbit for the first time, although its engine failed during the ascent.

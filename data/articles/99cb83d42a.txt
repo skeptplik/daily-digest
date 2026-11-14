@@ -1,0 +1,4 @@
+Rust 1.100.0 released
+Version 1.100.0 of the Rust language has been released. Notable changes include the stabilization of the never type, core parts of the Allocator API, reporting of unused dependencies in Cargo, and more.
+The LWN site is currently under high scraper load, so comment display has been suppressed for anonymous users. If you are a human, you may read the comments by clicking the button below:
+Note: you can avoid this step in the future by logging into your LWN account.

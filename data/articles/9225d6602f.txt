@@ -1,3 +1,0 @@
-A global outage of Microsoft Outlook and Teams was easing after more than 24 hours of disruption crippled online communications across businesses and governments, though the company said it still had no timeline for full recovery of services.
-Microsoft said server issues were behind the incident that also affected its Copilot AI assistant and that a broader rollout of software fixes was stabilizing the system. It said it was not aware of any malicious activity and ruled out AI as the cause.
-Outlook and Teams are two of the most widely used workplace applications with hundreds of millions of users. The outage prevented people from performing essential functions such as sending emails, managing calendars and hosting virtual meetings.

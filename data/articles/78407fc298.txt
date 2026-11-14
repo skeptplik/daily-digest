@@ -1,0 +1,14 @@
+Microsoft says all services 'fully recovered' after global outage
+The tech giant confirmed on Saturday morning that all services have recovered across Teams, Outlook, Copilot and other applications, ending a global outage that crippled online communications across businesses and governments for over 24 hours. The US homeland security chief confirmed there was 'no Microsoft link' to the US air stoppage.
+Microsoft said on Saturday that services had fully recovered across Teams, Outlook, Copilot and other applications, ending a global outage that crippled online communications across businesses and governments for over 24 hours.
+"We have completed our efforts to address the underlying issue of the incident and restored service to the remaining impacted customers and regions," the company posted on X.
+The company earlier apologised for the shutdown affecting online software including Outlook, Copilot, and certain features of Teams, which since Thursday had impacted at least 74 countries across the Americas, Europe, Asia, and Africa.
+The technology giant earlier said it was "monitoring the backlog of email messages accrued during this event" across its enterprise services before announcing the issue was resolved.
+To display this content from YouTube, you must enable advertisement tracking and audience measurement.
+One of your browser extensions seems to be blocking the video player from loading. To watch this content, you may need to disable it on this site.
+The US Homeland Security chief in Washington also confirmed that there was no link between the Microsoft issue and Friday's US air stoppage. Microsoft earlier said it had no indication that the Federal Aviation Administration nationwide ground stop is related to the service disruption that took Outlook and other services offline Thursday, a spokesperson for the company said.
+Microsoft had said server issues were behind the incident that also affected its Copilot AI assistant, and that it was not aware of any malicious activity, ruling out AI as the cause.
+Outlook and Teams are two of the most widely used workplace applications with hundreds of millions of users. The outage prevented people from performing essential functions such as sending emails, managing calendars and hosting virtual meetings.
+It affected government agencies from Australia and Japan to the United States, caused delays at trading firms, hindered some companies from publishing earnings and prompted airlines to warn customers of communication lags, according to public statements.
+Organisations that host Microsoft services on their own servers, rather than in the cloud, were somewhat spared.
+(FRANCE 24 with Reuters and AFP).

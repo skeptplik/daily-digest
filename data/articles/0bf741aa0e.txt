@@ -1,0 +1,3 @@
+Microsoft said its consumer products services had fully recovered Friday, while it was seeing some sustained recovery for its Microsoft 365 enterprise services.
+The technology giant said it was “monitoring the backlog of email messages accrued during this event” before considering the issue with the enterprise services resolved.
+“Due to the severity of impact this incident caused, we’re monitoring for an extended period to ensure no additional mitigative actions are required,” Microsoft said in an update on its service status page.
