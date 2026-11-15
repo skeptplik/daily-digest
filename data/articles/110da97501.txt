@@ -1,0 +1,23 @@
+Business
+Microsoft services fully restored after global outage
+Microsoft had said server issues were behind the problem and that it was not aware of any malicious activity
+Microsoft said on Saturday that services had fully recovered across Teams, Outlook and its other products, ending a global outage that crippled online communications for businesses and governments for over 24 hours.
+"We have completed our efforts to address the underlying issue of the incident and restored service to the remaining impacted customers and regions," the company posted on X.
+Microsoft had said server issues were behind the problem that also affected its Copilot AI assistant, and that it was not aware of any malicious activity, ruling out AI as the cause.
+Outlook and Teams are two of the most widely used workplace applications, with hundreds of millions of users. The outage prevented people from performing essential functions such as sending emails, managing calendars and hosting virtual meetings.
+It affected government agencies from Australia and Japan to the United States, caused delays at trading firms, hindered some companies from publishing earnings and prompted airlines to warn customers of communication lags, according to public statements.
+Organizations that host Microsoft services on their own servers, rather than in the cloud, were somewhat spared.
+Another outage for Microsoft
+The outage, reports of which started climbing Thursday, is one of the longest in Microsoft's history and the second disruption to its services this year.
+Microsoft said the outage specifically hit features tied to Exchange Online — its cloud-based email and scheduling hub — leaving unconnected applications operational.
+The incident deepens questions about the global reliance on a handful of Big Tech companies that supply both the essential software and the cloud infrastructure that underpins it.
+It also highlighted the dependence on Microsoft's workplace software, with outage reports spiking as employees began their workdays across Asia and Europe, according to Downdetector's parent company, Ookla.
+Downdetector logged more than 7.4 million reports worldwide, peaking at nearly 20,000 a minute, more than 1,500 times normal levels.
+"It shows how much of the working day now runs through one provider's email and collaboration tools," said Luke Kehoe, lead industry analyst at Ookla.
+Microsoft shares closed flat at $523.88 on Friday. The stock has gained roughly eight per cent so far this year.
+Disruptions and financial losses from the outage could result in numerous insurance claims, but the overall hit to insurers is expected to be limited, said Mario De Cicco, vice-president of European financial institutions at Morningstar DBRS.
+De Cicco estimated global insured losses from the outage at between $300 million and $500 million, well below the $400 million to $1.5 billion financial toll from the 2024 CrowdStrike outage that crashed more than eight million Windows-based computers and caused widespread disruptions.
+Microsoft also faced an outage with its 365 services in January this year and in October last year. Last month, it reported an outage of its Azure cloud platform that impacted its suite of productivity software and a range of industries worldwide.
+"The bigger worry is that this is not the first Microsoft 365 outage this year," said Josh Gilbert, a market analyst at trading platform eToro.
+"If reliability starts to look like a recurring problem, it hands every IT department a reason to think twice before putting even more of their business in one provider's hands."
+Still, some analysts have questioned whether such incidents can push customers on to rivals due to the steep switching costs of replacing tools embedded so deeply in daily operations.

@@ -1,3 +1,0 @@
-Microsoft Corp. said access has been fully restored to its flagship software, ending an outage that paralyzed government offices, traders and businesses around the world.
-“All products are operational,” according to a service health status update on its website. A “backlog of email messages has been processed, thus this issue is remediated,” it said of its Microsoft 365 services.
-That included Outlook, Teams and the Copilot artificial intelligence tool, whose users experienced missed meeting invitations and unresponsive web pages on Friday. Previous disruptions have rarely lasted more than several hours.
