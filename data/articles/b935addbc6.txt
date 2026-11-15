@@ -14,3 +14,26 @@ Upon reading the headline, I was also concerned about the extent of untwisting. 
 The title is misleading. What he is doing is installing infrastructure cables not making 50000 patch cables. The time it takes to untwist a few wires is nothing compared to hauling a ladder around and doing the setup. Maybe he does 100 cables into a patch panel not 50,000 at one time
 The guys I used to watch install patch panels did it all by hand and were extremely fast.
 The machine he is trying to copy is what they use when they make patch cables in a factory sitting at a table. Reply
+- 
+Why doesn't anyone comment or complain about the obvious problem here?
+And that is the archaic way we connect Ethernet. I don’t care when Ethernet or the physical connection was invented, but that must be the worst design ever. And why hasn’t it been updated?
+Am I wrong about this? Reply
+- 
+AmirTHforum said:And that is the archaic way we connect Ethernet. I don’t care when Ethernet or the physical connection was invented, but that must be the worst design ever. And why hasn’t it been updated?I guess you're talking about the RJ-45 connector? If so, I'd agree that it's not optimal. I can't count how many times I've seen Ethernet connectors with a broken latch. I've even had a batch where latch seemingly broke through simple plastic aging, because a bunch of my cables had latches with zero springiness and I'm really careful with my cables so I know that wasn't due to them getting snagged on something or being abused.
+What I found disturbing about that is how at least one of these cables seemingly required the pressure exerted by the latch for the metal fingers to make good contact. Because, even though the cable was fully inserted, I found that the connection was unstable.
+I think two factors keep RJ-45 in use: backwards compatibility and the relative ease of attaching connectors after running bare cable through a conduit. I'm not an expert on connectors, but it seems to me that anything aiming to displace RJ-45 would need to be similarly cheap & easy for installers to crimp on. I don't know if there's anything which meets those objectives that's significantly better than RJ-45.
+As for the rest of the cable, shielded twisted-pair seems to be pretty much the gold standard in copper cable technologies, which is what the highest-grade Ethernet cables use. Reply
+- 
+AmirTHforum said:I don’t care when Ethernet or the physical connection was inventedMy first home Ethernet cards ran at 10Mbit and used BNC coax (10Base2). I was pleased to when 100Mbit RJ45 became affordable. Then I discovered the fragility.
+https://en.wikipedia.org/wiki/10BASE2
+AmirTHforum said:but that must be the worst design ever.I've had my fair share of RJ45 cable problem and have stopped buying patch leads with exposed plastic latches (see @bit_user's comments above).
+AmirTHforum said:And why hasn’t it been updated?If you want an alternative to RJ45, consider SFP/SFP+ (Small Form Pluggable).
+I started using second-hand ex-server SFP+ cards in 2018. Examples include the Solarflare 5122F which can be picked up on eBay etc.
+https://www.serversupply.com/NETWORKING/NETWORK%20ADAPTER/2%20PORT/SOLARFLARE/SFN5122F_222067.htm#
+For interconnections of a few metres, I use DAC (Direct Attached Copper) patch leads.
+For longer stretches, I use SFP+ optical transceivers and OM3 fibre optic cables. You can get Ethernet SFP+ RJ45 transceivers, but they use more power than optical.
+https://en.wikipedia.org/wiki/Small_Form-factor_Pluggable
+https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fc/10_Gbit_XFP_and_SFP_transceivers.jpg/960px-10_Gbit_XFP_and_SFP_transceivers.jpg?utm_source=en.wikipedia.org&utm_campaign=parser&utm_content=thumbnail
+Small Form Pluggable is common in data centres but probably not viable for most home users. I still have some 10Gbit RJ45 NICs (Asus XG-C100C). Another disadvantage is you may need to buy an SFP/SFP+ switch.
+When all said and done, RJ45 Ethernet is dirt cheap and common on most desktop PC motherboards. If you want something "better" than RJ45, reach for your wallet.
+bit_user said:As for the rest of the cable, shielded twisted-pair seems to be pretty much the gold standard in copper cable technologies, which is what the highest-grade Ethernet cables use.Agreed, plus I prefer pure Copper conductors to CCA in RJ45 cables. I accept CCA is cheaper in partition wall installations, but CCA can fail earlier with breaks in frequently used patch leads. Reply

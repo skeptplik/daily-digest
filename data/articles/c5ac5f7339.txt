@@ -1,13 +1,26 @@
-SpaceX’s Starship made a triumphant return to Earth on Saturday (November 14, 2026), caught in midair by giant mechanical arms where its journey began 22 hours earlier.
-It was the grand finale that Elon Musk and his team hoped for — the first-ever capture of a Starship flying back from space. But with the first-stage booster exploding shortly after Friday’s liftoff from Texas, the company fell short of its desired double catch.
-Wreckage remained in the Gulf of Mexico, cordoned off by buoys, as the stainless steel, bullet-shaped spacecraft lowered itself upright at the launch pad.
-“Can you believe it?” shouted SpaceX commentator Dan Huot.
-SpaceX officials said Saturday’s catch demonstrates the full reusability of Starship, intended for moon and Mars travel. Although Friday’s booster recovery failed, the company had already made three previous booster catches, validating the technique.
-NASA welcomed Saturday’s news. The space agency is paying billions of dollars for Starship to land Artemis astronauts on the moon later this decade and help build a permanent lunar base. Musk’s ambitions are even grander: He wants to launch a fleet of Starships to build a city on Mars.
-The world’s largest and most powerful rocket — a 407-foot (124-metre) behemoth — blasted off late Friday afternoon from SpaceX’s Starship base near the U.S.-Mexican border. Separating neatly from its booster before things went awry, the upper-stage spacecraft soared into orbit and released 26 advanced Starlink satellites.
-Starship continued circling the world 165 miles (265 kilometres) up, with live views of itself and Earth streaming down via Starlink. The spacecraft completed 14 laps around Earth, outshining the previous mission’s one to two laps.
-It was SpaceX’s 15th flight of a full-scale Starship since 2023 and its only second trip to orbit.
-SpaceX reported that everything on the spacecraft, including its vital heat shield, appeared to work well.
-As for the booster, SpaceX’s Kate Tice said its engines stopped firing too soon on the way back down. The booster’s guidance system sensed it wasn’t in the right position and automatically initiated the watery detour and self-destruction. Engineers are still investigating the cause.
-SpaceX expects to begin launching Starships from Florida’s Kennedy Space Center within the next few months. That is the starting point for NASA’s next Artemis mission, which will skip the moon and remain in orbit around Earth for lunar lander practice.
-Artemis III’s four astronauts will attempt to dock their capsule with not only Starship but also Blue Origin’s Blue Moon. The two companies will take turns delivering crews to the lunar surface. NASA is targeting as soon as 2028 for Artemis IV, humanity’s first moon landing since the Apollo era more than half a century ago.
+Elon Musk’s SpaceX on Saturday (November 14, 2026) pulled off the first-ever “catch” of a spaceship, a technical feat showing the feasibility of fully reusable rockets that would bring affordable spaceflight one step closer to reality.
+The Starship emerged from the clouds after surviving the extreme heat of re-entering Earth’s atmosphere, then descended slowly over SpaceX’s south Texas Starbase before slipping smoothly between mechanical “chopstick arms” above Launch Pad 2.
+The success marked a milestone in the space industry’s decades-long pursuit of fully reusable rocket systems -- a goal that can drastically reduce mission costs and make more frequent launches possible.
+“That was the Holy Grail of spaceflight, plummeting through fire to be snatched out of the air by steel. We caught a Starship and now, everything changes,” SpaceX spokesman Dan Huot said.
+Crowds outside Starbase broke into ecstatic cheers as the spaceship came into view, with the 1977 soft rock hit “Baby Come Back” serving as the soundtrack of the nerve-wracking final descent on SpaceX’s official livestream.
+“I really do believe this is the dawn of the space age,” said Dane Walter, 38, a spectator who came from Corpus Christi, Texas. “And truly, I consider it an equivalent moment to the Wright brothers at Kitty Hawk.”
+Coming in hot
+It was the 15th test flight of the world’s biggest and most powerful rocket system. Up until now, spaceships have been single-use items, discarded or destroyed after missions, making each launch an expensive resource-intensive venture.
+The Starship spacecraft that gives SpaceX’s rocket system its name orbited Earth 14 times and deployed 26 satellites for Musk’s Starlink internet constellation during its 22-hour journey.
+SpaceX had previously captured returning booster rockets three times. However, the “catch” of Starship was more complex because the spaceship fell much faster and from a much higher altitude compared to boosters.
+“I hugged ship 42 upon its return,” Mr. Musk posted on X about the captured vessel, sharing videos taken from various angles and saying it “looks great!”
+Clayton Swope, an aerospace expert at the Center for Strategic and International Studies, called the mission a “huge technical achievement and proves the whole idea of Starship as a fully reusable spaceship can work.”
+“Let’s see how quickly they can do it again,” he said.
+Analyst Kathleen Curlee hailed the achievement but said there was more work to be done.
+“What SpaceX needs is multiple repeated successes to prove the capability is ready to handle sensitive payloads and missions,” said Ms. Curlee, of Georgetown University’s Center for Security and Emerging Technology.
+‘Almost magic’
+Some versions of Starship are designed to launch internet satellites and data centers into orbit, while other iterations will be made to ferry people to the Moon and Mars.
+U.S. space agency NASA is expecting Starship to serve as a lunar lander on its Artemis mission. On Saturday (November 14), Administrator Jared Isaacman called the recovery “almost magic.”
+“Making more believers by the day...one step closer to (the Moon),” he said on X.
+Musk envisions Starship as being the workhorse of “rapidly reusable” rocket systems. He has predicted that in three to four years, Starship launches will take place more than once an hour, a pace that could establish orbital data centers at scale or transport components for human infrastructure on the Moon or Mars.
+Refueling challenge
+Mr. Musk, the world’s richest person, has already revolutionised the space sector with the partially reusable Falcon rockets, which regularly launch satellites and carry astronauts to the International Space Station.
+But the Starship project has been plagued by delays as SpaceX grapples with novel engineering challenges, including the unsolved problem of transferring fuel to the spaceship while in orbit -- a requirement for any journey to the Moon or Mars.
+It will also need to further fine-tune the Super Heavy booster, which ran into a technical issue Friday (November 13) on its descent, forcing a splashdown in the Gulf of Mexico instead of a “chopstick arm” recovery.
+Following SpaceX’s high-profile stock market debut in June that raised about $85.7 billion, the company is investing heavily in production and launch capabilities.
+During a tour of its million-square-foot (93,000-square-meter) factory at Starbase, SpaceX officials told journalists it now has the capability to produce a spaceship every two weeks and a booster every four weeks.

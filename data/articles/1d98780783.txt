@@ -16,3 +16,20 @@ But what's worse than that is that they are already retiring 2ge rations hopper 
 So there retiring gpus all the meanwhile us gamers are stuck on the cards from like 3 or 4years ago with no new ones In site Reply
 - 
 This'll end up being another case of, "we've investigated ourselves and found no wrongdoing", despite it being painfully obvious there's malfeasance going on. The issue is that the DOJ/Treasury/whoever is going to have to prove it conclusively in order to prosecute or levy fines. And given the sheer amount of government corruption and pure incompetence, nothing is going to happen.Reply
+- 
+If, as written, "Secretary Howard Lutnick feared that the move could worsen trade tensions with China," then it would appear the United States government allowed Megaspeed to smuggle GPUs for months after they knew. In my opinion it would be difficult for Howard Lutnick to engage in effective diplomacy if he fears worsening trade tensions.Reply
+- 
+WINTERLORD said:If it whernt for enthusiast gamers running cards an somtimes running overclocked to the moon just purchasing g a gpu help build the ai
+But what's worse than that is that they are already retiring 2ge rations hopper 100 an hopper200Its not just gamers, people are paying to use AI, if people didnt pay or use AI, then it wouldnt exist to this level. Gamers just accelerated it. Pretty sure you cannot game on Google chips, and those chips did not evolve from gaming GPUs. So, AI would have come out anyway, just a few years later.
+Whatever is getting retired has a huge market place for smaller companies to buy who cannot afford or cannot get thier hands on latest stuff. So its not getting wasted. Similar to how many top end gamers/mobilephone users upgrade every cycle. Reply
+- 
+This news about shell companies to avoid trade restrictions combined with the organized circular financing to create GPU scarcity news makes me think it's time for some prosecutor, looking to make a name for themselves, to investigate RICO charges. I don't trust the federal administration to do anything since punishing Nvidia could knock over the entire stock market. I do think several populous states could force the issue though. The GPU market is corrupt at its core.Reply
+- 
+WINTERLORD said:You know the thing that upsets me the most bout this ai buildout is one the gamers payed for an basicly built ai
+If it whernt for enthusiast gamers running cards an somtimes running overclocked to the moon just purchasing g a gpu help build the ai
+But what's worse than that is that they are already retiring 2ge rations hopper 100 an hopper200
+So there retiring gpus all the meanwhile us gamers are stuck on the cards from like 3 or 4years ago with no new ones In siteStop using your phone and spell check. Please. It just looks bad, honestly. Like, a third grader, and I know you're not one. I understand the why, just, maybe, check it before you post. So it looks like you're not as dumb as it seems when we read THAT ^^^^. Just saying. No harm, no foul. I'm asking you do that, for YOUR benefit. Because that looks, not too good all things considered. Reply
+- 
+I don't know, the benefits of keeping an adversary dependent on your technology are real. China has pushed the development of homegrown AI chips, i.e. Ascend, while actually opposing some nvidia imports. All of this is pretty well documented.
+https://www.nytimes.com/2025/04/18/technology/ai-chips-china-huawei.html
+https://www.cnbc.com/2025/11/07/chinas-strategy-in-ai-race-with-us-big-chip-clusters-cheap-energy.html Reply
