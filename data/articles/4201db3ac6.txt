@@ -1,0 +1,36 @@
+The FBI is warning that hackers are using an AI-powered penetration testing framework called ARTEX to automate cyberattacks against organizations worldwide, including a recent ConnectWise supply-chain breach that compromised Microsoft 365 customer environments.
+In a FLASH advisory released Friday, the agency said multiple threat actors have weaponized the open-source framework since at least August 2026 to target organizations across the financial, government, technology, defense, healthcare, and other sectors.
+"ARTEX significantly reduces the time required to chain attack techniques, with some intrusions progressing from initial targeting to privileged access in under three hours," reads the FBI advisory.
+"The framework enables threat actors with minimal technical expertise to conduct complex, multi-target operations simultaneously, fundamentally accelerating attack velocity and expanding operational scale."
+ARTEX is an autonomous penetration testing framework written in Go that uses artificial intelligence agents to perform reconnaissance, discover vulnerabilities, exploit systems, escalate privileges, and steal data with little human intervention.
+Rather than using its own AI model, the framework integrates with external large language models (LLMs), including Anthropic Claude, OpenAI GPT, DeepSeek, GLM, Grok, and Kimi.
+Attackers provide their goals and tasks to ARTEX, which converts them into commands executed by specialized AI agents. This allows them to automate intrusion activities and target multiple organizations simultaneously.
+The FBI says the framework is particularly effective at identifying vulnerabilities in overlooked systems, including partner portals, employee applications, legacy services, and third-party integrations.
+While these automated attacks can generate large volumes of suspicious traffic that trigger security alerts, their speed can leave defenders with little time to respond before attackers breach a system.
+ARTEX was originally released on GitHub in July 2026 by a developer known as Autumn-27, who removed the repository on October 8 after reports emerged that threat actors were abusing the framework.
+However, the FBI says the framework remains available through community forks, archived copies, localized versions, and a commercial edition called ARTEX PRO.
+As of early November, researchers had identified more than 1,600 publicly exposed ARTEX consoles, with the actual number of deployments believed to be significantly higher.
+The FBI's 13-page advisory includes indicators of compromise associated with known ARTEX campaigns, including IP addresses, command-and-control infrastructure, and suspicious network activity.
+Separately, cybersecurity researcher MalwareMustDie released an open-source ARTEX detection signature pack on Friday to help defenders identify attacks involving the framework.
+The detection pack includes rules and indicators for various security monitoring and threat detection tools, covering suspicious network requests, identity abuse, cloud activity, malicious files, and automated attack patterns.
+The researcher also published a detection playbook that categorizes indicators by confidence level, warning that IP addresses and other infrastructure indicators can become outdated or generate false positives.
+Organizations are urged to secure internet-facing applications, restrict access to cloud administration interfaces, review application permissions and authentication logs, and implement rate limits on sensitive APIs.
+The bureau also recommends monitoring for unusual bursts of automated requests, suspicious cloud activity, unexpected credential or privilege changes, and large data transfers.
+The FBI cautions that IP addresses listed in the IOCs may have changed since the attacks occurred.
+Organizations that identify suspicious activity associated with ARTEX are encouraged to report their findings to the FBI or its Internet Crime Complaint Center (IC3).
+Known Artex-linked attacks
+The advisory highlights several previously reported cyberattacks involving ARTEX, including the October ConnectWise Cloud Backup supply-chain attack that allowed hackers to gain unauthorized access to Microsoft 365 customer environments.
+The attack compromised application identities used by ConnectWise's cloud backup service, formerly known as SkyKick Cloud Backup, allowing attackers to authenticate to customer tenants using permissions previously granted to the applications.
+At the time, cybersecurity firm Huntress reported identifying at least 162 compromised tenants.
+In an investigation published in October, Microsoft attributed the campaign to a China-state-aligned threat actor tracked as Storm-0940, which used ARTEX to accelerate reconnaissance, password spraying, and abuse of cloud application permissions.
+After compromising ConnectWise application identities, the attackers used ARTEX to attempt authentication against more than 2,250 downstream Microsoft 365 tenants, with some intrusions progressing to credential modifications and attempts to establish persistent access.
+The FBI also referenced attacks against South Korean financial institutions that exposed personal information belonging to approximately 67,000 people.
+In that campaign, a Chinese-speaking threat actor combined ARTEX with Claude Code agents to attack multiple banks, including Shinhan Bank, KB Kookmin Bank, and Hana Bank.
+Researchers at CrowdStrike discovered the attacker's exposed infrastructure, which contained ARTEX configuration files, Claude Code session histories, and other records documenting the intrusions.
+In a separate investigation, South Korean police arrested seven suspects linked to attacks against more than 90 organizations, with ARTEX reportedly used in most of the intrusions.
+Authorities said the gang stole approximately 8.2 million data records from organizations including hospitals, educational institutions, and businesses.
+More recently, CrowdStrike reported that a Chinese cyberespionage group tracked as Vapor Panda used ARTEX in automated attacks targeting more than 200 organizations across 14 countries.
+The campaign compromised at least nine organizations, with AI agents performing reconnaissance, exploiting vulnerabilities, deploying web shells, stealing credentials, and pursuing different attack paths when initial attempts failed.
+Adaptive Security's AI agents analyze email intent, context, and behavior to uncover phishing, business email compromise, and invoice fraud.
+See what's getting through with a 14-day read-only scan of Microsoft 365 or Google Workspace, with no MX changes.
+Start your free email security scan.

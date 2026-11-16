@@ -1,0 +1,23 @@
+Alice Huang, a suspected China spy who has been linked to Nvidia's former boss Jensen Huang, left her executive role at Megaspeed in August last year, the company says.
+Jensen Huang resigned as chief executive of the AI chip-making giant Nvidia after it emerged he had allegedly had affairs with Alice Huang as well as with one of his employees.
+Megaspeed is the biggest buyer of Nvidia chips in South East Asia and the scandal at Nvidia has raised questions about the possibility that high-end AI chips may have ended up in China despite US export restrictions.
+The Singapore-based company said on Sunday it had launched an internal investigation into its business.
+Megaspeed said it was aware of reports "containing assertions about our business, supply chain and global operations that are not supported by verifiable evidence".
+It added that it "conducts legitimate and lawful business" and has "retained external legal counsel to conduct a thorough internal investigation".
+Also on Sunday, US Congressman John Moolenaar said that Jensen Huang has agreed to testify before the Select Committee on China, which he chairs, as well as the House Foreign Affairs and the House Permanent Select Committee on Intelligence.
+The committee heads had threatened to issue subpoenas to Huang if he did not comply with their requests to testify.
+Moolenaar told CBS, BBC's US partner, that none were ultimately issued. Huang's testimony is expected to take place behind close doors, with the dates still being finalised.
+"That's going to be a very important meeting to understand to what degree privileged information was accessed, and to what degree this potential alleged Chinese spy influenced Nvidia's philosophy and may have had an influence on some of our policies with respect to AI and export controls," the congressman told the Face The Nation programme.
+Separately, a group of tech leaders, including Space X's Elon Musk, have been trying to rally support to have Huang reinstated as Nvidia CEO.
+A representative for Huang declined to comment on a report in the Financial Times Sunday suggesting that he was discussing a comeback to the firm he co-founded.
+On Friday, US Treasury Secretary Scott Bessent blamed fellow Trump cabinet colleague Howard Lutnick's commerce department for failing to properly oversee the export of high-end chips.
+Bessent told CNBC that several agencies "were in favour of putting Megaspeed on the entity list for months... but Commerce has the pen... and you will have to ask them about their internal process".
+The so-called entity list restricts US trade with overseas firms and individuals.
+Lutnick has been called to testify before the Senate Banking Committee next month over his department's role in allowing Nvidia to export its advanced chips.
+Other congressional committees have asked both Lutnick and his department to retain all records relating to Nvidia and Jensen Huang.
+Megaspeed is suspected of giving backdoor access to Nvidia chips to Chinese companies via its data centres in Malaysia, Indonesia and Thailand.
+Nvidia has been banned from selling its advanced chips to China.
+While Singapore does not prohibit the transfer of advanced AI chips to companies abroad, such moves can breach US export controls.
+Singapore has said that while it does not enforce "unilateral export controls imposed by other countries" it expects all companies in its jurisdiction to respect such regulations.
+Megaspeed said it "designs and maintains its global operational and supply-chain control frameworks to comply with all applicable laws and regulatory regimes". It said this includes "US export control requirements and local jurisdiction rules in every market where we operate".
+China has denied that Alice Huang is a spy and warned the US not to use the scandal as a "pretext for imposing a technological blockade" on AI technology.

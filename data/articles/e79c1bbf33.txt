@@ -1,0 +1,34 @@
+SpaceX deploys Starlink satellites in Starship test, but booster crashes into Gulf
+SpaceX conducted a major test of its Starship rocket Friday night. It deployed several satellites for the Starlink constellation, but there was a problem with its booster.
+(SOUNDBITE OF ARCHIVED RECORDING)
+UNIDENTIFIED ANNOUNCER: T-minus 10, nine.
+SCOTT SIMON, HOST:
+Yesterday, SpaceX conducted another test launch of the largest rocket ever built.
+(SOUNDBITE OF ARCHIVED RECORDING)
+UNIDENTIFIED ANNOUNCER: Three, two, one.
+(SOUNDBITE OF ROCKET THRUSTERS FIRING)
+SIMON: But it's the rocket's return, planned for later today, that could make history and will have big implications for SpaceX's bottom line and the future of space travel. NPR's Geoff Brumfiel has been tracking the flight. Geoff, thanks so much for being with us.
+GEOFF BRUMFIEL, BYLINE: Good morning, Scott.
+SIMON: Where is the rocket now?
+BRUMFIEL: Well, the rocket is very happily orbiting the Earth. You can actually watch it on X if you really want to. As you said, it took off from Starbase, Texas yesterday evening. It climbed up into orbit, deployed 26 satellites for the Starlink constellation. That's SpaceX's satellite internet constellation. The booster rocket, which is really, really big, came back. It was supposed to land at Starbase, but it did not. There was some sort of problem, and they crashed it into the Gulf. But, you know, Starship's doing pretty well at the moment.
+SIMON: We mentioned the rocket's return could be historic later this afternoon. Why is this flight different from previous flights?
+BRUMFIEL: You know, this really is about whether SpaceX can stick the landing. Assuming everything goes OK, the plan is to reenter the atmosphere in a few hours, fly back to Starbase, where it took off from. Then it's going to turn itself vertical and land at the launch site. It's going to hover, and the launch tower actually has these two mechanical arms that are going to come out and grab it - assuming this all works, you know? The booster was supposed to do the same thing but crashed, so there's still a chance Starship may end up in the Gulf or somewhere else before all this happens.
+SIMON: And how is the landing so potentially important to SpaceX's future?
+BRUMFIEL: Well, SpaceX wants to use Starship for a couple of different things. It wants to launch, potentially, thousands of satellites for that internet constellation, Starlink, and someday, it wants to launch orbital data centers into space. These are both key to SpaceX's plans for revenue growth, but they can only happen if Starship becomes rapidly reusable.
+SIMON: Reusable means what, in this context?
+BRUMFIEL: Yeah. The idea is that the booster and the rocket both fly back to the tower. They get caught. They get restacked, refueled, shove a couple more satellites on board, and then they're launched again very quickly. This is a super ambitious, very difficult plan. If they can catch Starship, though, that's going to be a huge step. Nobody's ever really caught a rocket in midair after it's come back from space before.
+SIMON: And there are implications for NASA, too.
+BRUMFIEL: This is something I've been reporting on this week. Starship is getting all the headlines, but SpaceX's current smaller workhorse rocket, called Falcon 9, is really doing a lot of work for NASA, and SpaceX is going to retire it. Here's SpaceX president Gwynne Shotwell explaining why at the All-In Summit in September.
+(SOUNDBITE OF ARCHIVED RECORDING)
+GWYNNE SHOTWELL: Falcon 9 with a Dragon capsule on top is like a minivan - road trip in a minivan. The road trip to Mars is six months, so you don't want to be in the minivan.
+BRUMFIEL: The problem is that minivan is perfect for road tripping into the International Space Station, and, in fact, it's the only American vehicle NASA can use to get there right now. Now, the space agency has enough Falcon 9 launches to last through 2028, but there's supposed to be crew on the station until 2030. That means they might have to find another ride to get their astronauts to and from space.
+SIMON: What'll they do?
+BRUMFIEL: Well, Shotwell suggested they use a rival company, Boeing.
+(SOUNDBITE OF ARCHIVED RECORDING)
+SHOTWELL: We're just going to let them have some business. They should fly their capsule. overnment paid a lot of money for that.
+BRUMFIEL: The problem is that Boeing capsule has been plagued by lots of technical issues. It's not ready for humans yet. SpaceX is making this move because its NASA contracts aren't really worth that much to it anymore. You know, the satellite internet business it has and these potential data centers are just going to earn it a lot more money.
+SIMON: Back to Starship. What'll you be watching for as it comes back to Earth?
+BRUMFIEL: Well, it's really about that landing. But the other thing I'll see is, you know, SpaceX is now a public company. It's burning billions on the development of this rocket, and I'll be interested to see what shareholders think counts as a success.
+SIMON: NPR's Geoff Brumfiel. Thanks so much.
+BRUMFIEL: Thanks, Scott.
+Copyright © 2026 NPR. All rights reserved. Visit our website terms of use and permissions pages at www.npr.org for further information.

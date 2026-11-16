@@ -1,0 +1,51 @@
+Last Friday, the Federal Aviation Administration (FAA) grounded all flights in the United States for nearly four hours due to a reported equipment failure.
+It was only the second time since the attacks on September 11, 2001, that such an order was given.
+More than 9,000 flights were cancelled, and an estimated 1.5 million passengers were left stranded.
+Officials blamed the disruptions on an upgrade gone awry. The routers used to communicate with aeroplanes in mid-flight had suddenly stopped working, and pilots were no longer able to speak on their usual frequencies.
+As of Sunday, officials were still working to return the system to normal. “As we look to the end of the day and into tomorrow, we should be running at full capacity,” Transportation Secretary Sean Duffy told CBS News, while acknowledging continued delays.
+But the situation has led to scrutiny over whether the nationwide ground-stop could have been prevented.
+While President Donald Trump has blamed a lack of funding from Congress, critics say billions of dollars have already been allocated for badly needed upgrades. The work, they say, is what has lagged behind.
+Democratic lawmakers have also questioned the Trump administration’s choice of contractors to install the upgrades.
+“Secretary Duffy and the Federal Aviation Administration have received historical and monumental investments over the last two years,” Democratic Representative Rosa DeLauro said in a statement on Sunday.
+“Congress has shown its willingness to modernize the FAA’s systems and support its workforce as part of annual bipartisan legislation, but we need a competent partner at the Department of Transportation to carry this out in a sustainable, transparent manner.”
+Spotlight on a defence contractor
+Duffy has indicated that investigations are ongoing into what caused the malfunction on Friday.
+But he has described the problem as starting at “a remote FAA location” where workers from the defence contractor L3Harris were replacing ageing copper wire with fibre optic lines.
+A router used for communication reportedly began to malfunction, sending out 1,000 attempts to log onto the FAA’s system every four or five seconds, overloading the entire network.
+In an interview on Sunday with NBC’s Meet the Press, Duffy stopped short of blaming L3Harris.
+“Was this a faulty installation by L3Harris that was doing the work for us? Was it a fault of the router itself? We have to do that investigation and make sure we take precautions,” he said.
+Though Duffy did suggest he preferred to part ways with the company, which owns a significant chunk of the FAA’s telecommunications infrastructure.
+“I want to get away from L3Harris and get to a new one, but they own the network,” Duffy told Meet the Press. “I can’t cancel the network that they own, and I operate on.”
+L3Harris has existed since 2019, following a merger between the Harris Corporation and L3 Technologies.
+It is one of the largest defence contractors in the country, and its involvement with the FAA’s telecommunications network stretches back to 2002, when the Harris Corporation was awarded a billion-dollar contract to modernise the network’s systems.
+But Friday’s mass grounding was not the first time L3Harris’s systems were involved in flight delays and problems with communications during an upgrade operation.
+In November 2009, for example, the FAA’s network experienced a smaller outage as upgrades were being made to a router in Los Angeles, according to an agency investigation.
+“The most notable impact to the flying public was the inability of the FAA to process electronic flight plan data,” a report explained.
+“As a result, these flight plans had to be entered into the FAA air traffic control systems manually, causing the delay of over 800 flights that morning.”
+In a statement after Friday’s grounding, L3Harris said it was supporting the FAA’s current probe and had already replaced 70 percent of the system’s copper wire with fibre optics.
+“L3Harris takes the nationwide ground stop and its impact on travelers, airlines and air traffic operations seriously,” it said.
+Ageing FAA infrastructure
+Critics point out that many of the problems associated with the FAA’s telecommunications systems predate L3Harris’s involvement and stem from ageing infrastructure.
+The FAA has aimed for years to replace some 5,170 lengths of copper wiring dating to the 1960s, which is used by routers and other communication gear.
+Ageing copper, however, is just one of the tech problems the FAA faces.
+In a September report, the Government Accountability Office, an independent agency tasked with reviewing government departments, highlighted a series of areas in dire need of upgrades.
+Computers used by air traffic controllers to display key information like flight approach paths and aviation warnings were using obsolete hardware, including screens from the 1980s and floppy disk drives.
+Thousands of radios and specialised switches that allow radio communication over phone lines also rely on obsolete technology that is no longer manufactured.
+The agency had been forced to look for replacement parts on the online marketplace eBay, according to Duffy.
+The Government Accountability Office also pointed to the continued use of paper flight strips, slips of paper printed for each flight coming into an air traffic controller’s area of responsibility.
+Those documents help decide how to coordinate movements like takeoffs and landings so planes do not collide. But the print-out system has already caused dangerous situations.
+In August 2023, for instance, a printer used to print flight strips at San Diego International airport jammed. As air traffic controllers tried to fix it, a Southwest Airlines aircraft almost hit a Cessna jet by about 30 metres (100 feet).
+Before Friday’s incident, the last national ground stop happened in January 2023, after the FAA’s Notice to Airmen (NOTAM) system stopped working.
+Built in 1985, the NOTAM system was responsible for sending emergency messages out about dangerous weather, congestion or other safety issues.
+Its failure prompted the FAA to undertake a major review. The Government Accountability Office ultimately found that, out of the 138 systems the FAA relied on, 51 were unsustainable, and another 54 were potentially unsustainable because of ageing technology.
+Fifty-eight of those systems, according to the accountability office, had a critical impact on the safety of air traffic in the US.
+Unmet upgrades and lack of oversight
+In September, the Government Accountability Office reported that the FAA had failed to meet at least four of its 11 recommendations for modernising air traffic systems.
+One reason for the failure was the complexity of the upgrades. The FAA reportedly has 11,389 individual upgrade projects on its agenda, and it has struggled to coordinate the repairs, leaving it unable to prepare for network-wide problems.
+The accountability office also determined that the FAA failed to make upgrades because it was not properly overseeing work done by its contractors.
+It also pointed to a lack of funding. Unlike many critical government agencies, the FAA’s budget is not mandated by law, so Congress has to approve spending for the agency each year.
+Even if Congress does allocate funding, the Trump administration does not have to use all of the money right away, and Democrats have pointed to unspent funds as part of the problem.
+Though Congress allocated $12.5bn for the FAA’s upgrades in 2025, the Trump administration has only committed to spending $4bn of that sum. Only approximately $1bn has been spent so far.
+Still, Duffy has argued that the FAA needs at least $50bn in the wake of Friday’s grounding.
+Democrats like DeLauro have called that sum a “ransom without a real plan to deliver”. She urged full transparency from Duffy and the FAA.
+“No federal leader should be free to do their work without Congressional oversight,” she said.

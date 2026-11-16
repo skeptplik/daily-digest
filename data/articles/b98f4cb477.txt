@@ -1,0 +1,6 @@
+Apple and OpenEvidence on Sunday launched a study based around an experimental artificial intelligence-powered health chat application, hinting at possible new directions for both companies.
+After downloading the study application and enrolling in the Apple Health AI Usage Study, participants can ask health questions, such as how to improve their sleep or heart health. Users can ask questions about data they choose to share from Apple’s main health app, including vitals or lab results. Apple suggests the app can be used to help participants prepare for a doctor’s appointment. The app was developed with OpenEvidence, the medical evidence search engine that’s popular with clinicians, and it uses some of that company’s technology.
+Participants will be surveyed about their experiences, including the quality of the chatbot responses and how participants used the information they were given. Apple has been rumored to be working on a new AI health coach, and the study may inform the development of future Apple products.
+This article is exclusive to STAT+ subscribers
+Unlock this article — and get additional analysis of the technologies disrupting health care — by subscribing to STAT+.
+Already have an account? Log in

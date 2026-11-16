@@ -1,0 +1,14 @@
+Singapore – Singapore-based data center company Megaspeed International, under scrutiny for allegedly steering Nvidia chips to China, said on Sunday that suspected spy Alice Huang had left the firm more than a year ago.
+Megaspeed is suspected of helping Chinese firms get around U.S. export controls by buying Nvidia chips for its data centers in Southeast Asia and routing them to China.
+Its former director, Alice Huang, has been identified in U.S. media as an alleged Chinese intelligence asset who had a relationship with Nvidia co-founder Jensen Huang, who resigned as the tech giant’s chief executive on Thursday.
+“Ms Alice Huang officially left Megaspeed effective Aug. 30, 2025 and currently has no role with the company,” the firm said.
+“Megaspeed does not comment on Ms Huang’s personal and private matters.”
+Alice Huang and Jensen Huang are not related. Beijing has denied the spying allegations.
+Jensen Huang acknowledged an extramarital affair in a Nov. 8 letter to Nvidia employees that did not name the woman involved. He resigned days later.
+Nvidia’s board has said it will investigate the matter, and three U.S. Congress committee chairs have asked Jensen Huang to attend a closed-door briefing on Nov. 18.
+Megaspeed said it “conducts legitimate and lawful business“, and that it was aware of media reports “containing assertions about our business, supply chain and global operations that are not supported by verifiable evidence“.
+The tech group also said it has retained an external legal counsel “to conduct a thorough internal investigation” of its compliance obligations under U.S. export control laws, which limit the transfer of some advanced chips to China.
+Singapore authorities said servers containing advanced AI chips were being exported to Malaysia and were suspected of being delivered to other destinations, contrary to declarations made in the city-state.
+Investigations into Megaspeed “are ongoing“, Singapore’s police force has said.
+Authorities also said they had barred Alice Huang in February from re-entering the city-state after she provided inaccurate information during a probe into Megaspeed.
+She was not, however, investigated for espionage.

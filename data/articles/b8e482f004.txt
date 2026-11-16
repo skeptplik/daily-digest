@@ -1,0 +1,8 @@
+A new Cyberpunk 2077 mod has overhauled Night City's rain, swapping the game's flat wet weather effects for individual 3D drops and adding lightning storms.
+As spotted by DSOGaming, modder CyanideX's mod, Torrent, gives each raindrop its own size and falling speed. The drops also react to the player's movement, so they stream towards the windscreen when you're driving fast. If you find the wind has picked up, blustery weather can also push them sideways, too.
+The rain also catches the light from street lamps, neon signs, car headlights, and taillights, and won't fall through roofs or inside buildings. Drops splash on the ground, heavy rain leaves mist in the distance, and cars throw up spray from their tyres on wet roads.
+The mod complements this with a new lightning system, with branching bolts that flash and flicker before fading, and that can arrive in bursts during heavier storms.
+If you like a little lightning, the frequency of bolts can be adjusted across 10 levels, and with the AudioXL mod installed, thunder follows each strike, timed to how far away it landed.
+For players sensitive to flashing lights, a Reduce Flashes option dims the lightning, replaces its flicker with a single slow glow, and halves the number of strikes.
+Torrent supports Nova City 2 and other weather mods, and adds extra storm effects for Nova City 2 players, including mist that rolls through the streets with the wind. It’s available now on Nexus Mods.
+We recently learned that Cyberpunk 2 might be trying to revive Cyberpunk 2077’s online ambitions, as a new CD Projekt Red job listing is looking for someone familiar with "multiplayer network architecture".
