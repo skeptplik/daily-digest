@@ -1,0 +1,13 @@
+The social media company has 60 days to disable the ‘Get tips from your gallery while browsing Facebook’ feature and introduce explicit consent.
+Italy has fined Meta €805 million for using photos and videos from Android users’ galleries on Facebook without specific consent or adequate disclosure.
+The Italian Data Protection Authority said the feature, called “Get tips from gallery when browsing Facebook”, violated the European privacy directive known as the ePrivacy directive.
+The directive protects smartphones as part of a person’s private sphere and requires “free and informed consent” for such access, the authority said.
+Investigators found that the feature was enabled by default and that Facebook requested gallery access through a single permission covering multiple app functions with different purposes.
+The authority gave Meta 60 days to disable the feature and seek separate consent for its use. Italy has about 20 million Android users, the agency said.
+The fine was imposed on Meta Platforms Ireland Limited, which challenged Italy’s jurisdiction, according to the statement.
+The authority said Meta’s “lack of cooperation” with the investigation factored into the penalty, which amounts to approximately 0.47% of the group’s global turnover.
+The proceedings did not look at the possible use of user content to train AI models, something Meta also denies doing.
+Meta said it would appeal the decision. A Meta spokesperson said the company “strongly disagrees” with the regulator’s assessment, its interpretation of the law and the “disproportionate level of the fine”.
+“This is a simple feature that helps people share photos and videos on Facebook,” Meta said in a statement.
+“Users must grant permission on their device before the feature can operate, and they can change that permission at any time in their settings," Meta added.
+The investigation was launched in July 2025 following a complaint by the Bolzano Consumer Protection Centre and was based on a technical analysis conducted by Italian authorities.

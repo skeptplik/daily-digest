@@ -1,0 +1,11 @@
+Rspamd 4.3.0 stops forwarded mail from softening DMARC rejects
+Rspamd 4.3.0 fixes bugs that let an unauthenticated attacker crash the spam filter’s workers or slip forged authentication results through it.
+The worst crash took one HTTP request. A header line without a colon was enough to stop a worker, and an empty Deliver-To header could crash workers again and again. Sites running the milter proxy, the part that connects Rspamd to the mail server, have a separate bug. From 4.0.0 through 4.2.3, the proxy released a session twice when an upstream failed. That is a use-after-free flaw, where code keeps using memory it has already given back. Version 3.14 is not affected, and in 4.3.0 each failed message gets exactly one TEMPFAIL.
+Forwarded mail could soften DMARC
+ARC lets mail forwarders vouch for the authentication checks a message passed before they handled it. Before this release, ARC sets added after a genuine one could soften a DMARC reject. Rspamd trusts a forwarder only for what it vouched for, and it wants the forwarder’s own dmarc=pass before changing a DMARC result. Sender text also went into the Authentication-Results header unescaped. A sender could write dmarc=pass into it and have that read as a real result.
+Scores will move
+Rspamd also changed several checks on purpose, so verdicts will shift. SPF evaluates terms in record order and runs redirects after all mechanisms. DKIM fails RSA keys under 1024 bits, treats duplicate tags as invalid, and rejects l=0 on messages that have a body. URL mismatch scoring is now separate from phishing scoring. Plugins including asn, rbl, and dmarc emit separate symbol options in place of comma-joined values. If you keep local scores or scripts that read those options, test them before rolling the upgrade out.
+DKIM d= values are lowercased too, so any map that lists signing domains in mixed case needs updating.
+Must read:
+- 20 open-source cybersecurity tools to keep your team ready for anything
+- GitHub CISO on security strategy and collaborating with the open-source community

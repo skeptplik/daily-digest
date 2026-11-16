@@ -22,3 +22,7 @@ AI has changed the rules of the game and data center sales are a priority over g
 You 're dreaming if you think Nvidia would be better off without Jensen. Reply
 - 
 DrFrankensteinMBChBMScFFP said:That price is bonkers. You can buy 2 perfectly good gaming rigs for that amount. I know top of the range graphics cards are expensive but I wasn't prepared to pay $1499 5 years ago for a 3090 so only people with more money than sense will pay this price.Most probably will be gobbled up by AI engineers or scalpers. Reply
+- 
+Bigshrimp said:The price is the mark that Nvidia has gone off the deep end. Jensen Huang should of left a decade ago if I had any say in the matter. He destroyed so much with his greed and evil ways.If people weren't willing to pay that price, then either the price would drop, or it would be pulled off the market so that Nvidia could sell the workstation versions or do anything else with the wafers.
+They don't have competition for that performance level yet. Although you could at least match the VRAM with a Radeon AI Pro R9700 or Arc Pro B70 for a fraction of the cost.
+You can game fine with the 5050, 5060, 5060 Ti, and 5070, with the caveat that 8 GB is getting long in the tooth. Those are the products for which high pricing is destructive, not a Titan-class card. I saw the RTX 5050 for $400 and apparently that's actually "low" right now. Reply

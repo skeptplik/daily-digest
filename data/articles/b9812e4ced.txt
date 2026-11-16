@@ -1,0 +1,19 @@
+Anthropic recently rolled out Claude Mythos 5.2 to selected partners and Fable 5.2 to regular users, with improvements to coding and reasoning. But we also noticed some interesting cybersecurity changes.
+Anthropic describes Mythos 5.2 as its "most capable model for cybersecurity engineering," which means it's now ahead of Fable 5.2 in security research.
+However, that doesn't mean Fable 5.2 misses out on security restrictions, as it does come with cybersecurity safeguards, which block most potentially dangerous hacking activities.
+According to Anthropic, Mythos 5.2 beats Fable 5.2 at finding vulnerabilities, reproducing them, and developing fixes. This makes sense, as Mythos is designed for organizations working on advanced cybersecurity tasks.
+The company also shared some numbers. For example, Anthropic's CVE Rediscovery evaluation found that the Mythos 5.2 model can detect 10.2% more vulnerabilities than Claude Opus 5.5 and 14.4% more than Mythos 5.1.
+Moreover, a security company told Anthropic that "one in six confirmed bugs" identified by Mythos 5.2 had been missed by every other frontier model it tested.
+Claude Fable 5.2 blocks most high-risk cybersecurity tasks
+Although Fable 5.2 and Mythos 5.2 are based on the same underlying parent model, there are obvious differences, and it's totally due to their intended use cases.
+Unlike Mythos, Anthropic applied additional cybersecurity and biology safeguards to Fable so it can be made available to regular users.
+These safeguards block high-risk activities, including "penetration testing, exploit generation" and certain vulnerability research tasks involving binary analysis.
+If Anthropic detects high-risk activity, it will automatically switch to Opus 4.8 for cybersecurity-related responses. We've had those restrictions with Fable 5.1 as well, and at one point, it was starting to get annoying because Anthropic would block even normal requests.
+I've personally experienced unnecessary blocks when using Fable 5.1. For example, when I asked Fable 5.1 to log in to my droplet on AWS, it switched me to Opus 4.8, stating that it detected high-risk activity, even though Fable was the model that originally configured the AWS account via API.
+Thankfully, Fable is getting better at this. Anthropic says it has reduced unnecessary blocks by approximately 60% for cybersecurity requests compared with Fable 5.1.
+Anthropic observed "about 60% fewer in cybersecurity" during early testing across Claude.ai, Claude Code, and Cowork.
+Anthropic also tested Mythos 5.2 against sandbox escape attempts, where an AI agent tries to access files or credentials outside its permitted environment.
+Anthropic also admits that its evaluations cannot catch every potential failure before release, particularly as models become increasingly capable of recognizing when they are being tested.
+Adaptive Security's AI agents analyze email intent, context, and behavior to uncover phishing, business email compromise, and invoice fraud.
+See what's getting through with a 14-day read-only scan of Microsoft 365 or Google Workspace, with no MX changes.
+Start your free email security scan.

@@ -1,13 +1,13 @@
-Shareholders have sued US chip giant Intel, accusing it of hiding the severity of a slump in personal computer (PC) sales, which they say led to a nearly 29% one-day collapse in the firm's stock.
-A proposed class action lawsuit in San Jose, California said Intel was too late to alert shareholders about how slowing sales could impact its earnings, allegedly artificially inflating its stock price.
-Intel shares plunged on 30 October, erasing tens of billions of dollars off its market value the day after it forecasted disappointing revenue in its coming earnings report.
+Intel, the US chip giant, is being sued by its shareholders who accuse the firm of hiding the severity of a slump in its personal computer (PC) sales that caused its share price to plunge almost 29% in one day.
+Billions of dollars was knocked off the value of the company after it forecast disappointing revenues ahead of its latest earnings report.
+Shareholders allege that Intel made "materially false and misleading" statements that failed to disclose the slowdown in PC sales and the impact of its data centre projects, according to a proposed class action lawsuit filed in San Jose, California.
 The BBC has contacted Intel for comment.
+In October, Intel firm announced its computer hardware sales had dropped sharply in the three months that ended in September.
+That report undermined earlier suggestions from the chipmaker that demand had been improving, sending Intel shares plunging, according to the lawsuit.
+Shareholders claimed the "depressed demand for PC sales" caused "a dramatic slowdown" in quarterly earnings â a drop of 9%, or about $800m - to $8.1bn.
 The lawsuit, filed by legal firm Robbins Geller Rudman & Dowd on behalf of owners of Intel common shares between 23 July and 29 October this year, was filed against the chipmaker, its chief executive Tan Lip-Bu and other company leaders.
-Intel has been accused of making "materially false and/or misleading" statements that failed to disclose the slowdown in PC sales and the impact of its data centre projects, the complaint said.
-In October, the firm announced that its computer hardware sales had dropped sharply in the three months that ended in September. That report undermined earlier suggestions from Intel that demand had been improving, sending Intel shares plunging, according to the lawsuit.
-The lawsuit said the "depressed demand for PC sales" caused "a dramatic slowdown" in quarterly earnings â a drop of 9%, or about $800m, to $8.1bn.
 Intel has poured huge investments into manufacturing to meet the enormous demand for AI computing power.
 As more semiconductors are channelled towards data centres, chips for PCs and other electronics have become more expensive.
 Intel boss Tan had told analysts that the industry was facing an "unprecedented memory crunch", resulting in a shortage of chip supplies for PCs.
 "We need to address these challenges with urgency," Tan said in October.
-Intel shares have fallen sharply in the past month by 37.5%, though the stock is still up by 51% overall this year.
+Intel shares have fallen sharply in the past month by 37.5%, though its share price is still up by 51% overall this year.

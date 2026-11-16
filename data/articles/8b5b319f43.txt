@@ -1,0 +1,53 @@
+Climate
+Canada presented itself as a global leader in methane reductions at COP31. But is Alberta holding it back?
+Country’s largest oil and gas producer has yet to present emissions regulations to bring it in line with feds
+After more than a year of fielding scathing critique from climate experts for rolling back climate policies and doubling down on fossil fuel projects, Canada took centre stage at COP31 last week to showcase its track record on cutting methane emissions.
+But some experts say the federal government needs buy-in from Alberta before it can boast.
+Canada has touted itself as a leader in the field, with Environment and Climate Change Canada calling efforts to minimize methane emissions “a clear near-term success story” ahead of last Wednesday's ministerial meeting in Antalya, Turkey, for the Global Methane Pledge, a coalition of 159 countries that Canada co-convenes with the European Union.
+At the meeting, Canada pledged $10 million in funding to further global reductions of the potent greenhouse gas, and then on Friday announced a program that aims to connect Canadian businesses selling methane-reduction technology with interested buyers internationally, stating in a news release that it will "bring Canadian methane solutions to the world."
+But some experts are pointing out that while Canada has made progress in cutting methane emissions and has strong federal regulations, it's still waiting for Alberta — the country’s biggest oil and gas producer — to bring its equivalent provincial regulations up to date.
+And with emissions historically under-reported in Alberta, which relies on industry-reported data, experts are saying a stronger line needs to be taken at home before Canada can sell itself as a model to follow.
+The “job is sort of half-done,” according to Amanda Bryant, oil and gas analyst for the clean-energy think-tank the Pembina Institute.
+“Real progress has been made on methane emissions in Canada, particularly in the oil and gas sector, and that's because of the regulatory approach that's been taken to date across Canada,” she said.
+“But further progress really hinges on this federal government protecting the integrity of its own regulation and not kneecapping the strength of its regulation by being soft on Alberta.”
+How Canada's methane regulations work
+Methane is a heat-trapping greenhouse gas responsible for around a third of the rise in temperatures globally. Although it doesn’t linger as long in the atmosphere as carbon dioxide does, its impact is more than 80 times stronger over a 20-year period.
+Methane is emitted by a variety of sources, including wetlands, landfills and livestock, but nearly half of Canada’s methane emissions — 48 per cent — come from the oil and gas sector.
+Roughly 68 per cent of that comes from Alberta’s oil and gas sector, followed by 18 per cent from Saskatchewan and seven per cent from British Columbia, according to a 2024 study.
+Because it is potent and can be repurposed as the main component in natural gas, countries have long seen reducing methane emissions as a quick, cost-effective way to cut greenhouse gases. According to the federal government, Canada is currently on track to reduce methane emissions by more than 35 per cent by 2030 compared to 2020 levels.
+But the accuracy of this outlook depends on provincial regulations.
+- Youth, advocacy groups sue Carney government over climate rollbacks
+- Oil and gas emissions rising as other sectors mostly flat, federal data shows
+Under the Canadian Environmental Protection Act (CEPA), provinces can opt out of federal regulations provided they present a regulatory plan that shows they can provide equivalent results on the same timeline.
+The model has produced results in B.C., where, under an equivalency agreement put in place in 2020, the province roughly halved its methane emissions from oil and gas by 2023, surpassing its target reduction two years early, according to Canada’s 2025 National Inventory Report.
+However, Alberta, B.C. and Saskatchewan have yet to finalize equivalency agreements that match the latest methane regulations outlined by the federal government in December 2025, which laid out a pathway for a 75 per cent reduction in the oil and gas sector from 2012 levels by 2030.
+Moreover, according to the memorandum of understanding the federal government signed with Alberta last fall, that province has actually been given longer to comply with the regulations.
+As well as giving federal backing to a new oil pipeline and granting Alberta special exemptions from environmental laws, the MOU also laid out a requirement for the province to create a draft equivalency agreement, specifying a commitment of a 75 per cent reduction from 2014 levels by 2035 — an extension of the federal timeline that has confounded experts.
+"Any kind of delay translates into more cumulative emissions," said Bryant. "If we're thinking about how to achieve a national target of 75 per cent by 2030 … it's not clear how giving Alberta more time adds up."
+When asked by CBC News why Alberta was given a five-year-extension, Environment and Climate Change Canada (ECCC) did not provide a reason.
+"The approach to assessing equivalency in Alberta will remain consistent with the requirements of the Canadian Environmental Protection Act," said ECCC spokesperson Amy Falkner in a statement.
+- What's new in Ottawa-Alberta deal to cut methane emissions from oil and gas sector
+- Alberta, Ottawa reach 'agreement-in-principle' on methane emissions
+In March, Alberta followed up on the MOU by signing an agreement in principle, which promised it would deliver its draft equivalency agreement in time for a 60-day public comment period and finalization by the end of 2026. With less than 50 days left in the year, this hasn’t materialized.
+The updated federal regulations won't come into effect until January 2028. But the delay on Alberta's equivalency agreement has experts worried there will be a rush to approve inadequate provincial regulation, without public input, potentially leaving existing problems unaddressed.
+"This works remains ongoing," Falkner said of the timeline, without providing further detail.
+Alberta Environment Minister Grant Hunter, who was a speaker at a COP31 panel this week championing Canada’s methane reductions, did not respond to a request for comment.
+Emissions under-reported in Alberta
+One of the big updates in Alberta's agreement in principle is the requirement of independent, third-party verification of the province’s emissions — a crucial step forward considering multiple studies have found more methane is being emitted than is recorded in the province’s official statistics.
+According to Alberta’s numbers, calculated using industry-reported estimates, methane emissions in 2023 had reduced by 52 per cent compared to 2014 levels — but the federal government, which also includes aerial measurements and independent research, has said the reduction was only 35 per cent.
+If provinces and the federal government don’t agree on a baseline for emissions, an agreement to reduce them isn’t going to produce equivalent results, Bryant noted.
+“If someone promises you 75 per cent of a very small pizza or 75 per cent of a very large pizza, it really makes a difference, the sort of baseline size of the pizza, to how much pizza you're going to end up with,” she said.
+- Old, inactive oil and gas wells emitting almost 7 times more methane than official estimates
+- Wildfires, permafrost thaw in Canada causing even more climate change, new study shows
+Until the new equivalency agreement is approved, Alberta continues to operate under its existing agreement on methane regulations, which was only designed to achieve a 40 to 45 per cent reduction in methane emissions from 2012 levels by 2025.
+Additionally, Alberta currently has no regulations over intentional venting of methane into the atmosphere, which is prohibited federally except in rare circumstances. Federal rules also require more frequent leak checks at high-risk sites than Alberta does, and prohibits routine flaring, a practice of burning off excess gas during oil production, which the province doesn’t ban.
+“There are some major gaps between these sets of regulations and some real work for Alberta to do,” Bryant said.
+A 'good news story' to deflect climate criticism?
+Canada’s performance at COP31 comes at a time when the federal government is under serious scrutiny for backtracking on climate policies and ignoring the scientific consensus that new fossil fuel investments are incompatible with keeping global temperatures down.
+A group of youth climate activists are even suing the government for not doing enough to fight climate change.
+Robb Barnes, climate program director with the Canadian Association of Physicians for the Environment, noted Canada's climate reversal includes the Carney government scrapping a promised oil and gas emissions cap, backtracking on industrial and consumer carbon pricing and rollbacks of the EV mandate.
+He said methane is one area the government has been keen to point to, possibly as a "good news story" to deflect criticism while on the world stage.
+- 'Just stop burning fossil fuels.' Scientists stress our smoky skies have only one true fix
+- Leading climate think-tank says Canada won't meet 2030 climate target
+But amid claims of its perceived special treatment of Alberta, Barnes noted it's on the federal government to apply the necessary pressure if it wants to live up to its methane boasts.
+“The equivalency agreements are negotiations between the province and the federal government,” he said. “So there’s lack of political will in many places, if you know where to look.”
