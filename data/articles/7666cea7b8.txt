@@ -6,7 +6,7 @@ Simple check for changes
 It's thought between one and two adults in every 100 has Barrett's oesophagus, where cells have started to change. Most won't go on to develop cancer, but demand for NHS endoscopy is high, meaning some with the condition aren't checked as often as recommended.
 The National Institute for Health and Care Excellence (NICE) says the sponge tests, already offered in some places, could help give more patients peace of mind.
 For the test, patients swallow a small dissolving capsule attached to a thread. Once in the stomach, it releases a tiny sponge. This collect cells from the lining of the gullet as it's gently pulled back out of the patient's mouth by the doctor.
-The cells can then by analysed.
+The cells can then be analysed.
 Prof Jonathan Benger, chief executive of NICE, says sponge tests offer a "quick and less invasive" way to detect concerning changes, helping to identify people who should go on to have further tests and treatment.
 Prof Peter Johnson, national clinical director for cancer at NHS England, said: "The NHS is always looking for better ways to get to the bottom of people's symptoms, and thousands have already benefited from this incredibly efficient test through pilots we have been running, so it's fantastic it is now being considered for roll out across the country.
 "Many people have acid reflux, and having an easier way to check for changes in the lining of the oesophagus can make a big difference for patients, reducing the need for more complicated endoscopy tests and helping the NHS free up resources to find cancers at an earlier stage."

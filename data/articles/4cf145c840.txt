@@ -1,0 +1,14 @@
+Product showcase: ESET Mobile Security brings phishing protection and security checks to iOS
+ESET Mobile Security for iOS helps iPhone users identify suspicious links, review device security settings, and assess Wi-Fi connections. ESET Mobile Security is available for iPhones running iOS 18.0 or later. Free features can be used without creating an account.
+Device security checks and link verification
+The app’s Device Scan reviews security settings, permissions, and configuration issues, providing recommendations for improving protection. During the initial scan, it checks screen lock status, notification permissions, available storage, and whether security features are enabled.
+Results are divided into detected issues, recommendations, and checks that passed. The main dashboard displays the device’s protection status and provides access to individual security tools.
+Link Checker allows users to paste suspicious URLs received through emails, text messages, or messaging apps. Each link is checked against ESET’s security database to identify potential phishing attempts, scams, and malicious websites. Results indicate whether a suspicious link has been identified, without requiring users to open the website.
+Device Settings Check also includes a storage assessment that displays available space and provides recommendations for freeing up storage to accommodate iOS updates and security fixes.
+Premium phishing and network protection
+ESET Mobile Security Premium adds Anti-Phishing and Connection Security.
+Anti-Phishing provides real-time protection while browsing in Safari, checking websites for fraudulent or harmful content and blocking identified threats before pages load. Users can also enable an additional option to block potentially unwanted content from websites with unknown reputations.
+Connection Security evaluates the current network and alerts users to potential security risks. It identifies if a Wi-Fi connection is password-protected or open and allows users to mark trusted networks as home networks.
+Final thoughts
+ESET Mobile Security for iOS is easy to install, set up, and use, with a straightforward interface that makes security checks and recommendations easy to understand.
+The free version covers basic security checks, while Premium adds automatic phishing protection in Safari and network security monitoring. These features may be particularly useful for users who frequently encounter unfamiliar links or connect to different Wi-Fi networks.

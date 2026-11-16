@@ -1,0 +1,13 @@
+You can now self-host Kitesurf, Cloudflare’s open-source browser for AI agents
+Kitesurf is Cloudflare’s browser for AI agents, built to load web pages and run their JavaScript on Cloudflare Workers without starting up a full desktop browser. Cloudflare has published its source code so developers can inspect it, modify it, test it on their own machines, and deploy a copy to their Cloudflare account.
+A browser without Chromium
+Kitesurf needs no browser container, and it can return screenshots of the pages it loads. It supports the Chrome DevTools Protocol (CDP), the interface automation tools use to control a browser, so clients such as Puppeteer can connect to it. Cloudflare built it to use less CPU and memory than Chromium and to scale across its Workers network.
+Kitesurf splits the work three ways. The Engine handles sessions and incoming connections, PageScript executes the page and its scripts, and PageRenderer turns the result into an image. Underneath, Kitesurf relies on open-source Rust packages compiled to WebAssembly: Blitz for HTML parsing, the DOM, layout, and painting; Stylo for CSS; Linebender libraries for text layout and 2D graphics; and Krilla for PDF output. Boa runs JavaScript inside WebAssembly, but only as a last resort, when a page’s scripts can’t run in Dynamic Workers.
+Running it yourself
+After meeting the repository’s build requirements, a local copy takes four commands: clone the repository, change into it, install dependencies with pnpm, and run pnpm run dev. The first build compiles the Rust core and its dependencies, so expect a wait; later builds reuse the cache.
+Wrangler then serves the engine at 127.0.0.1:8787, where a Puppeteer script can connect. An agent harness can be pointed at the same CDP port. In Cloudflare’s words, “agents love CDP.”
+Deploying takes pnpm run deploy from the repository root. “A Workers Paid plan is required because Kitesurf uses Dynamic Workers to create isolated Workers for pages,” the Cloudflare team noted.
+Kitesurf is available for free on GitHub.
+Must read:
+- 20 open-source cybersecurity tools to keep your team ready for anything
+- GitHub CISO on security strategy and collaborating with the open-source community

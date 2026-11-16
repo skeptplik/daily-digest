@@ -1,0 +1,13 @@
+Ory Hydra: Open-source OAuth 2.0 server and OpenID Connect provider
+Ory Hydra is an open-source OAuth 2.0 server and OpenID Connect provider. Ory built it to issue and validate tokens, register client applications, and manage the keys that sign those tokens. Hydra stores no usernames or passwords, so logins stay with whatever identity system an organization already runs.
+The OAuth specifications run to more than 400 pages, and a team building its own server has to get every one of them right. Hydra does that work for you, and you can run it on your own infrastructure for free. The OpenID Foundation certified Hydra v1.0.0, running Ory’s reference login app, as an OpenID Provider across the Basic, Implicit, Hybrid, Config, and Dynamic profiles.
+What the server handles
+When a user signs in, Hydra redirects to a login and consent app. That app checks credentials against your user store, which could be Ory Kratos, another library, or a homegrown system. It then tells Hydra who the user is and what they agreed to share, and Hydra issues the tokens.
+Hydra supports the authorization code flow with PKCE, an extension that stops an attacker from using an intercepted code on mobile and single-page apps. It covers client credentials for machine-to-machine traffic, refresh tokens, and the device authorization flow used by TVs and command-line tools.
+Access tokens are opaque by default, and Hydra can revoke one immediately. Other services check a token’s status through introspection, defined in RFC 7662, and client apps can register themselves through dynamic client registration.
+Running it yourself
+Hydra runs on Linux, macOS, Windows, Docker, and Kubernetes, with PostgreSQL 12 or later, MySQL 8 or later, or CockroachDB as the production database. SQLite is for local development only. Hydra sends anonymized, summarized telemetry, which administrators can turn off.
+Ory Hydra is available for free on GitHub.
+Must read:
+- 20 open-source cybersecurity tools to keep your team ready for anything
+- GitHub CISO on security strategy and collaborating with the open-source community
