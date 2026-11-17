@@ -1,0 +1,20 @@
+A technical issue at JPMorgan Chase caused problems throughout the financial system on Monday (November 16, 2026), resulting in thousands of customers reporting difficulty accessing online accounts at several major U.S. banks and the money transfer service Zelle.
+Here's what we know.
+What's behind the outage?
+JPMorgan Chase, the largest U.S. bank by total assets, said a software bug was affecting its internal hardware systems and causing transaction delays. The company was working to bring banking services back online.
+Some Chase customers received a message that said, "Some services aren't available. We're working on them. Please try back later."
+Were other banks affected?
+In a sense, yes. Customers at Bank of America, Citigroup and other banks trying to transact with Chase may have seen their transactions slow, even though those banks were not having issues with their services.
+"Other banks may have been impacted by slowness in transactions only to the extent that they were a party to a transaction with us," explained Joe Evangelisti, a spokesperson for Chase.
+What about Zelle?
+Zelle was not directly affected by the Chase glitch. But customers at other banks may have experienced transaction delays while trying to send or receive Zelle payments involving a Chase customer.
+Zelle is a rapid peer-to-peer payment system used by major US banks. The platform is owned by Arizona-based Early Warning Services, which in turn is owned by financial institutions including Bank of America, Capital One, JPMorgan Chase, PNC Bank, Truist, US Bank and Wells Fargo.
+A spokesperson for Early Warning Services said the Zelle network was fully operational.
+Was this a cyberattack?
+Chase said that the technical problem was not the result of a cyberattack, stressing that it was an isolated incident and not related to anything other than a bug.
+When might service be fully restored?
+Chase said its customers still have access to their accounts and funds. The company expects the issue to be resolved by the end of day Monday.
+Was this related to the Microsoft and air traffic disruptions last week?
+No. While the disruptions took place just days apart, government officials and company leaders have said they were unrelated.
+The major outage by Microsoft on Thursday (November 12, 2026) that lasted for hours, severely impacting services including Outlook, Teams and AI assistant Copilot, was due to a technical issue that arose during an upgrade. The tech giant has said there is "no indication" that the disruptions were caused by malicious activity, such as a cyberattack or due to action by artificial intelligence agents.
+Another outage that affected the nation's air traffic control system on Friday (November 13, 2026), grounding all U.S. flights for several hours and disrupting domestic air travel over the weekend, was caused by a router that malfunctioned and overwhelmed the aging air traffic control system.

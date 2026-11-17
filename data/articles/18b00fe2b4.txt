@@ -1,0 +1,26 @@
+Microsoft says a software bug introduced in July caused last week's worldwide Microsoft 365 outage, triggering a cascading failure that left more than 80% of its networking gateway servers unresponsive.
+The nearly 24-hour outage on November 12 disrupted Microsoft 365 services worldwide, including Outlook, Exchange Online, Teams, and Copilot, leaving users unable to access their email and causing significant delays in message delivery.
+In a preliminary post-incident report shared in the Microsoft 365 Admin Center, the company said the outage was caused by three problems: a previously undetected software bug, increased traffic after a Microsoft Teams failover, and reduced server capacity.
+The incident began at 11:20 AM ET on Thursday, November 12, and continued until 11:10 AM ET the following day, when Microsoft confirmed that services were full restored.
+According to Microsoft, the software bug was introduced in July through an update developed for Microsoft 365 networking gateway servers.
+While the update had been deployed for more than three months without issues, it contained a bug that could overwhelm servers under certain traffic conditions, causing them to stop responding.
+Microsoft says its tests of the update did not detect the bug as it used less powerful testing hardware than the production servers.
+"Our normal load testing did not detect the latent issue because the traffic mix and SKUs used in our labs," Microsoft explained in its preliminary report.
+"The contention issue is worsened on machines with more cores and newer hardware; whereas our load testing tended to focus on weaker hardware with fewer cores."
+The bug was eventually triggered after Microsoft Teams automatically switched to the networking infrastructure used by Exchange Online approximately 15 hours before the outage, increasing traffic on those servers.
+Microsoft Teams also experienced a separate outage earlier that day, but it is unclear whether the two incidents are related.
+To make matters worse, Microsoft says nearly 14% of the gateway's server capacity was already offline due to an unrelated issue. While the infrastructure had sufficient capacity to handle the reduction, the combination of increased traffic and reduced capacity triggered the software bug.
+As servers stopped responding, Microsoft's systems redirected users to other available servers, which also became overwhelmed by the additional traffic and failed as well.
+"In less than two hours, the previously unknown defect was encountered across our fleet and rendered them unresponsive. At its lowest, more than 80% of servers were unresponsive," explained Microsoft.
+Microsoft says safeguards designed to prevent problems from spreading between regions also failed to contain the cascading outages, allowing the disruption to spread worldwide.
+While other Microsoft 365 services, like Teams, OneDrive, and SharePoint, could switch to alternative infrastructure and recover earlier, Exchange Online could not make the same switch, leaving users unable to access their mailboxes.
+Microsoft says recovery was difficult because restarting affected servers caused them to be quickly overwhelmed again by backed-up traffic.
+After identifying the bug, Microsoft engineers developed a fix and deployed it across affected servers, allowing services to stabilize throughout Friday.
+Microsoft confirmed that active customer impact had ended by 11:10 AM ET on November 13.
+The company says it has since increased capacity, improved monitoring, and added safeguards to prevent traffic redirection from triggering similar cascading failures.
+In a separate statement on X, Charles Lamanna, Microsoft's executive vice president of Copilot, Agents, and Platform, apologized for the disruption.
+"We are deeply sorry for the impact to all our customers and recognize the impact that this has on their normal business & operations," Lamanna said.
+Microsoft says its investigation is continuing, with a final post-incident report expected later this week.
+Adaptive Security's AI agents analyze email intent, context, and behavior to uncover phishing, business email compromise, and invoice fraud.
+See what's getting through with a 14-day read-only scan of Microsoft 365 or Google Workspace, with no MX changes.
+Start your free email security scan.

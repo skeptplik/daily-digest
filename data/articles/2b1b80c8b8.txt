@@ -1,0 +1,15 @@
+Exploitation attempts against a vulnerability in Copeland’s XWEB EVO refrigeration controllers began less than two hours after the issue was made public last week, according to VulnCheck.
+The security firm disclosed 14 vulnerabilities in XWEB EVO, a Dixell supervisory system now sold under the Copeland name. VulnCheck’s Valentin Lobstein said each flaw was shown to yield root privileges on test systems.
+The product drew the researcher’s attention after the October 11-12 attack that triggered defrost cycles at roughly 700 French supermarkets. CERT-FR named Copeland and Dixell XWEB controllers among the compromised products, and France has blamed Iran for the campaign.
+Nine of the flaws disclosed by VulnCheck only affect firmware builds that predate a 2021 rewrite. They include unauthenticated command execution, a hardcoded administrator password, and command injection via the login page.
+The other five vulnerabilities also impact the latest firmware. Four of them involve predictable credentials: the administrator’s daily password is generated from the device’s MAC address and the current date, and the MAC address is exposed to unauthenticated users.
+An attacker can calculate the password offline, enable SSH, and log in as root, since the root password is built from the same daily code. The fifth flaw is a command injection issue that requires authentication.
+These five issues will not be fixed. Copeland ended software support for the XWEB EVO family on March 16, 2026, and has advised customers to move to XWEB Pro models.
+The CVE records were published on November 12, and VulnCheck’s sensors saw the first exploitation attempts within two hours. They targeted CVE-2026-124014, which allows unauthenticated attackers to write to the system configuration file.
+A single IP address sent 125 requests overnight. On November 13, a second IP sent four probes aimed at CVE-2026-124010, the unauthenticated root command execution flaw. Both targeted flaws only affect the older firmware.
+“Neither scanning source is evidence of the October refrigeration campaign that France attributed to Iran’s IRGC unit Shahid Kaveh: that was a targeted sabotage operation, while these are opportunistic hosts acting on fresh advisories,” Lobstein said.
+Onyphe data cited by VulnCheck shows nearly 2,000 internet-exposed XWEB EVO hosts, compared with 108 for XWEB Pro.
+“Operators who still run one should treat it as a device that must never touch the public internet, segment it behind a VPN, and plan the move to a supported platform,” the researcher added.
+Related: Cyberattack Hits French Blood Bank Site but No Blood Products Are Compromised
+Related: Over 100 European Stores Hit as Supermarket Fridge Attacks Return
+Related: US Agencies Urge Organizations to Harden Refrigeration Controllers

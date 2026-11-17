@@ -1,0 +1,14 @@
+Singapore said Tuesday (November 17, 2026) it was seeking “trusted access” to advanced AI chips after the United States imposed new curbs aimed at stopping Chinese firms from accessing the technology through overseas data centres.
+The curbs came days after a spy scandal forced Jensen Huang to quit as Nvidia chief, as questions emerged over whether Singapore-based Megaspeed aided Chinese firms in accessing advanced artificial intelligence chips in violation of US rules.
+“We are studying the details of this new measure carefully,” Singapore’s ministries overseeing digital development and energy, trade and industry said in a joint statement.
+“We are engaging affected companies to understand the potential impact on their businesses,” the ministries added.
+The city-state was also talking to the “relevant US authorities on the scope and implementation of the measure, as well as exploring how to facilitate trusted access for Singapore companies”, the ministries added.
+One loophole allowed Chinese firms to rent AI computing power from data centres in Southeast Asia and elsewhere that run on US hardware not available for export to China.
+Under the new rule, data centres anywhere in the world will need a US licence to provide large volumes of computing power from advanced chips to companies headquartered in China, Macau or other countries under US arms embargoes.
+The rule also requires licences to ship advanced chips to Singapore, Malaysia, Thailand, Indonesia and Brazil, which the US commerce department says present a “higher-than-normal risk of diversion”.
+Singapore is finding itself at the centre of the controversy as cloud computing firm Megaspeed, suspected of helping Chinese firms get around US export controls, is based there.
+The scandal erupted on November 8 when The New York Times reported that Jensen Huang and Megaspeed executive Alice Huang -- who are not related -- were romantically linked, and that some within the US government suspected she might be a spy for China.
+The city-state is battling to contain the damage to its reputation as a stable rules-based business hub and trusted destination for multinational investment.
+“We take our international reputation seriously and do not condone companies using their association with Singapore to circumvent or violate the laws of other countries in their international business activities, including export controls,” Singapore said.
+The government added it would continue to “safeguard continued access to advanced semiconductors and computing capabilities for legitimate companies operating here, and act against those who flout our laws.”
+Megaspeed on Sunday said Alice Huang left the firm more than a year ago.

@@ -1,0 +1,19 @@
+World
+United Airlines says issue affecting departing flights has been resolved
+The airline's outage on Monday was the latest high-profile technology meltdown
+United Airlines said Monday that it had resolved a technology issue that delayed departing flights, just days after a malfunction in the U.S. Federal Aviation Administration's network prompted a nationwide ground stop.
+Chicago-based United said in a statement that while some flights were delayed because of the issue Monday afternoon, flights that were in the air and flights on its United Express regional network were not impacted. It also said, "There is no indication that this was a cybersecurity-related issue."
+United apologized to customers for the inconvenience on social media. It resolved the issue about one hour and 40 minutes after pilots first began reporting problems to air traffic controllers.
+United did not immediately provide details about which of its systems were affected, but pilots told air traffic controllers that the problem was related to a system that helps them determine a plane’s final weight.
+Before every departure, pilots use performance software, often on a cockpit tablet, to check that the aircraft can safely take off under current weather and runway conditions. The pre-flight calculations include the aircraft's weight along with information about the fuel, baggage, cargo and passengers the plane is carrying.
+United grounded planes last year
+In August 2025, United grounded planes at major U.S. airports, delaying more than 1,000 flights because of an hourslong outage of a system called Unimatic, which houses flight information that is fed to other systems including those that calculate weight and balance and track flight times.
+United said in response to a message from The Associated Press that it had no further information to provide about whether the same system was affected by Monday's outage.
+- Listen Is $30 billion the price tag on preventing another FAA ground stop order?
+- Trump breaks silence on FAA's nationwide ground stop, demands more money for air traffic control
+A recording posted on the ATC app showed a United pilot in Houston asking the tower for permission to stay put at the gate until the system was working again. The app combines live air traffic control radio feeds with real-time visual aircraft tracking.
+The flight-tracking website FlightAware showed United with about 600 delayed flights Monday evening, though it was unclear how many were directly related to the system outage.
+The United computer problem is just the latest high-profile technology meltdown.
+Earlier in the day, thousands of people reported being unable to access their online accounts at several major U.S. banks after JP Morgan Chase had a technical problem.
+On Friday, the FAA ordered every U.S. flight grounded because a new router that was installed malfunctioned and overwhelmed the aging air traffic control system.
+And one day earlier, Microsoft experienced a major disruption to its Outlook email service. Microsoft said Saturday that services were fully restored.

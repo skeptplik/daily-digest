@@ -1,0 +1,40 @@
+The personal information of Centrelink customers, taxpayers and childcare workers is among a trove of sensitive data that may be ending up in Palantir’s surveillance software in Australia, without the departments responsible for the information even knowing about it.
+As Guardian Australia reported in September, Palantir’s software is used by the Australian Criminal Intelligence Commission (ACIC) as part of the multi-agency fraud fusion taskforce, which was established in 2022 with the goal of targeting fraud in government payments from the national disability insurance scheme, childcare and welfare.
+New documents, released under freedom of information requests, reveal the extent to which at least 10 government agencies share sensitive data with the taskforce, which could be fed into Palantir’s software.
+The controversial US tech company, co-founded by the Donald Trump-aligned billionaire Peter Thiel, has clients including the Israeli military and US Immigration and Customs Enforcement (ICE) that use the software to analyse vast amounts of data.
+While the company has insisted it has no access to the data clients enter into the software, the Greens leader, David Shoebridge, has led calls for a ban on Palantir contracts with the Australian government.
+In April, the company implied some cultures were inferior to others in a 22-point manifesto posted on X and described by one UK MP as the “ramblings of a supervillain”. Shoebridge has said Palantir should not be near Australian data given how the data mining software is used by the IDF and ICE.
+The Australian government has spent nearly $80m on Palantir contracts since May.
+A data-sharing network
+The taskforce is headed up by the National Disability Insurance Agency (NDIA) and Services Australia. The intelligence program – known as the fraud fusion centre – is led by the ACIC, and brings in “large volumes of information, data and intelligence” held by agencies that could be relevant to the taskforce work, according to the documents released under FoI.
+The FoI requests, undertaken by Dr Gabrielle Josling, an independent researcher and data scientist, showed at least 10 federal agencies were sharing data with the ACIC – data that could ultimately be put in Palantir’s software by the commission.
+Documents from the Department of Education show the ACIC is “collecting criminal intelligence and analysing and crossmatching data” from sources including:
+- The education department.
+- The NDIA.
+- Services Australia.
+- The NDIS Quality Safeguards Commission.
+- The Australian Taxation Office.
+- Australian federal police.
+- The Australian Securities and Investments Commission (Asic).
+- The Australian Transaction Reports and Analysis Centre.
+- The health department.
+- The Department of Employment and Workplace Relations.
+The personal information authorised by Services Australia to be obtained by the ACIC includes names, date of birth, information about proof of ID, addresses, telephone numbers, Centrelink claims or reviews, itemised income and asset details, employer information, bank account information and “surveillance material” held by the agency.
+The collected data is held by the fraud fusion centre and, while a privacy impact assessment noted that the ACIC is not subject to the Privacy Act, the agency’s protocols state it acts in accordance with the Australian privacy principles “wherever reasonably consistent with the effective performance of its statutory functions”.
+Services Australia said each disclosure to the ACIC was considered on a case-by-case basis. There had been two disclosures in the financial year to date, compared with 21 in 2025-26 and 47 in 2024-25.
+The ATO’s documents do not reveal the extent of the data provided by the agency but state that tax file numbers cannot be provided under law. It made 758 disclosures between November 2022 and July 2026, including 376 to the NDIA and 42 to the ACIC.
+A spokesperson for the ATO told Guardian Australia the taxpayer information was disclosed where it was “lawfully able” to do so under the terms of the memorandum of understanding as part of the taskforce, the ATO’s intelligence disclosure governance plan and the Tax Administration Act.
+The federal education department has withheld releasing information about what data it has provided to the taskforce but the documents state it is data related to the childcare subsidy scheme.
+A spokesperson for the department refused to comment on “detailed operational information-sharing arrangements” and directed questions about Palantir use to the ACIC.
+The ACIC said data handling is subject to agreements with the agency supplying the data, and that Palantir was “part of a suite of analytical tools to undertake analysis on specific cases to assist partner agencies to disrupt serious organised crime networks defrauding government programs”.
+The agency did not respond to questions from Guardian Australia on whether other federal agencies were informed if the data provided was ingested into Palantir’s software. Neither the ATO nor Centrelink were aware if Palantir was used.
+“The use of software by another agency is a question for that agency, and any questions relating to ACIC use of data obtained under the FFT are best directed to the ACIC,” an ATO spokesperson said.
+‘Guide’ replaced ethics framework
+The documents reveal that the memorandum of understanding in 2024 between taskforce agencies originally required the taskforce to develop an ethics and human oversight framework governing the control of the information shared. It was described as “an important part of effective risk management for the FFT”.
+Ethical risks were supposed to be assessed and recorded on a risks register.
+But correspondence released from September 2025 reveals that it was determined that the process was “too difficult to implement” and the framework instead became an “ethics guide” in October last year.
+In a submission to the Australian National Audit Office’s review into the taskforce, Josling said the new model abandoned requirements for defined assessments and reviews of the taskforce. A framework for evaluating and monitoring the performance of the taskforce was also not developed.
+“A multi-agency taskforce needs a way to learn from data quality problems, data matching limitations, unproductive referrals, emerging risks, and weaknesses in governance,” Josling said in the submission.
+Companies and governments have faced pressure to stop using Palantir, with both Coles and Westpac reportedly deciding against renewing their contracts with the firm. The UK government has also faced pressure to drop its contracts with Palantir, including a contract with the NHS.
+Palantir has maintained that it does not have access to the data clients enter into its software. A spokesperson has previously defended the company’s contracts with the Australian government, saying it is just a software company.
+“We are committed to supporting Australian government agencies in tackling complex challenges, including serious financial crime and fraud,” they said.

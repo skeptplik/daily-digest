@@ -1,0 +1,5 @@
+Description
+This collage shows 49 drill holes captured by NASA’s Curiosity Mars rover as of November 2026. Each hole represents a sample collected from rocks on the Martian surface; Curiosity’s drill, located on the end of its robotic arm, drops pulverized rock samples into instruments in its belly that analyze their composition.
+These images were taken by the Mars Hand Lens Imager (MAHLI), a camera that is also located on the end of the rover’s robotic arm. Each hole has a diameter of 0.63 inches (16 millimeters).
+Curiosity was built by NASA’s Jet Propulsion Laboratory, which is managed by Caltech in Pasadena, California. JPL leads the mission on behalf of NASA’s Science Mission Directorate in Washington as part of NASA’s Mars Exploration Program portfolio. MAHLI was built by Malin Space Science Systems in San Diego.
+To learn more about Curiosity, visit:

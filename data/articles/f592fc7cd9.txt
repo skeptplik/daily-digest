@@ -1,0 +1,13 @@
+Microsoft previews remote lock for lost or stolen Windows devices
+Microsoft’s Remote lock allows IT administrators to lock a lost, stolen or compromised Windows device through Intune without wiping it. The feature is currently in preview for devices running Windows 11, Windows 10, Windows Server 2022, Windows Server 2019 and Windows Server 2016.
+Source: Microsoft
+Remote lock signs out all active sessions, hides sign-in options and displays a lock screen. The lock persists across restarts and while the device is offline. Users can resume work once an administrator restores access.
+The device remains enrolled and managed.
+Configured through Intune
+Administrators configure Remote lock through a custom configuration profile in Intune, Microsoft’s cloud service for managing and securing devices and work apps. Devices must be Microsoft Entra joined, hybrid joined or MDM-enrolled and run Windows Enterprise, Education or Pro.
+To lock a device, an administrator creates a profile with LockState set to 1 and assigns it to a dedicated device group. Adding a device to that group applies the lock at its next Intune check-in.
+To unlock it, the administrator creates a second profile with LockState set to 0, assigns it to an unlock group and moves the device from the lock group to the unlock group.
+Security limits remain
+Remote lock leaves user accounts unchanged. Credentials remain valid and can still be used to sign in on other devices. Administrators must use Microsoft Entra ID to disable an account or revoke its sessions.
+A locked device is not isolated from the network. There is also no offline or local unlock option. PINs, passwords, local administrator accounts and web sign-in cannot unlock it. The unlock instruction must arrive through Intune.
+Remote lock does not block Windows Recovery Environment, Safe Mode or booting from USB drives and other media. Microsoft recommends keeping BitLocker enabled to protect device data.

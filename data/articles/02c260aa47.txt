@@ -1,0 +1,17 @@
+Thank you for visiting nature.com. You are using a browser version with limited support for CSS. To obtain
+the best experience, we recommend you use a more up to date browser (or turn off compatibility mode in
+Internet Explorer). In the meantime, to ensure continued support, we are displaying the site without styles
+and JavaScript.
+A genetic variant that seems to reduce the size of brain areas involved in visual processing comes from an unexpected source — Neanderthals. People who carry the variant also have a reduced risk of schizophrenia.
+Geneticists have previously found fragments of Neanderthal DNA in the genomes of many modern humans, suggesting that the two species interbred in the millennia before Neanderthals died out about 40,000 years ago. But this variant, described in a study published in Proceedings of the National Academy of SciencesUSA today1, has an unusually powerful effect on brain anatomy.
+“This is a very important variant,” says computational biologist Davide Marnetto at the University of Turin, Italy. “Its effect is really one of the most beautiful and strong that I’ve ever seen.”
+A tale of two brains
+When it comes to their brains, humans and Neanderthals have many subtle anatomical differences. Neanderthal brains were more oblong and elongated front to back, whereas modern human brains are rounder. Neanderthals also tended to have slightly larger occipital lobes — the region at the back of the brain that processes visual information.
+In their study, evolutionary geneticists Hugo Zeberg and Svante Pääbo at the Max Planck Institute for Evolutionary Anthropology in Leipzig, Germany, compared ancient DNA to data from the 1000 Genomes Project and UK BioBank, among other sources. They found evidence that a genetic variant that influences the volume of modern humans’ occipital lobes was inherited from Neanderthals.
+Zeberg and Pääbo identified the variant in all five detailed Neanderthal genomes that are available to scientists, but found that it is not present in genomes of Denisovans, another extinct hominin group. In modern humans, the variant only occurs in people with non-African ancestry. It is unlikely to have been inherited from an older species that is ancestral to both humans and Neanderthals because it is found in a chunk of DNA that is 59.7 kilobases long — too big to have survived for hundreds of thousands of years.
+“This is a piece of DNA that looks like it comes from Neanderthals,” says Zeberg.
+The variant itself is a deletion of four nucleotides on chromosome 14 and was originally identified in 20192. Its effect on people’s brains is the opposite of what might be expected, say Zeberg and Pääbo. Even though Neanderthals had larger occipital lobes than humans do, this Neanderthal-derived variant is associated with a decrease in the volume of a part of the occipital lobe called the cuneus. Each copy of the variant was associated with 0.85 cubic centimetres less volume — an effect on the cuneus larger than any other known variant.
+Enjoying our latest content?
+Log in or create an account to continue
+Access the most recent journalism from Nature's award-winning team
+Explore the latest features & opinion covering groundbreaking research

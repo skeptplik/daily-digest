@@ -1,0 +1,30 @@
+A supply chain attack targeting Optimizely has led to malicious JavaScript being loaded on numerous popular websites, including Zoom, CNN, Fox News, BBC, Salesforce, and GitLab, exposing visitors to scripts designed to steal cryptocurrency and payment information and exploit vulnerabilities in iOS devices.
+Optimizely is a digital experience and experimentation platform used by organizations to test and personalize their websites, with its JavaScript files loaded into customers' webpages to deliver this functionality.
+The company confirmed to BleepingComputer that attackers exploited a vulnerability in its Experimentation account signup flow to inject malicious JavaScript into customer projects, causing websites using the platform to load malware.
+"Earlier today, Optimizely identified a security incident in which an unauthorized party exploited a vulnerability in the Experimentation account signup flow," Optimizely told BleepingComputer.
+"They used it to add malicious JavaScript to some customer projects. We have blocked access to the vulnerable path and deployed a fix. We have removed the injected code from affected projects. We have also ended active sessions, revoked tokens, and reset access for affected user accounts. Finally, we have blocked any code from being delivered in Cloudflare.
+"We are continuing to investigate and will publish any relevant updates at status.optimizely.com. We have notified all affected customers."
+Major brands impacted
+The attack was first uncovered by security researcher Scott Helme, who reported Monday that his team identified 188 infected Optimizely JavaScript files belonging to 178 organizations after analyzing 1,611 scripts used by the platform.
+BleepingComputer independently confirmed that the malicious script loaded, or attempted to load, on numerous affected websites using scans recorded by urlscan.io, including Zoom, KLM, GitLab, BBC, Scheels, CNN, American Girl, ManageBuilding, Smartsheet, Stamps.com, and Salesforce.
+Other affected websites include Fox News, Mutual of Omaha, American Eagle, Air France, Change.org, Optimizely, HSBC Insurance, Bitly, IG, and UNICEF USA.
+BleepingComputer analyzed copies of the modified Optimizely JavaScript files and confirmed that attackers had injected code designed to load an additional malicious script from https://1688360[.]cc/track.js.
+The injected code used several methods to load the payload, with some files referencing the malicious URL directly, while others used Base64 encoding and JavaScript's atob() function to decode the URL.
+Helme also identified a variation that could execute an embedded copy of the malicious code if the remote script was blocked.
+An analysis of the malicious track.js file revealed several capabilities, which Helme also documented in his investigation:
+- Cryptocurrency hijacking: Monitors webpages for cryptocurrency wallet addresses and replaces them with attacker-controlled addresses to steal transfers.
+- Payment card skimming: Searches for credit card numbers, expiration dates, and security codes entered into webpages, and attempts to transmit the captured information to https://1688360[.]cc/card.php.
+- iOS exploit delivery: Loads additional malicious JavaScript targeting iPhones and iPads. Helme identified these secondary payloads as the Coruna and DarkSword exploit kits, which target different iOS versions.
+The malicious script also contains functionality to collect browser cookies, webpage URLs, and screenshots, which can be transmitted to the attackers.
+Helme's investigation found that cryptocurrency wallets embedded in the `track.js` script had received approximately $7,000 in transactions as of November 16. However, some wallets were active before the attack, making it difficult to determine how much cryptocurrency was stolen during the campaign.
+Below are the cryptocurrency wallet addresses identified by BleepingComputer in the malicious JavaScript, along with the transaction activity observed as of November 16.
+Helme reported that cleanup efforts had reduced the number of infected scripts, with only one of the 188 previously compromised files still containing malicious code as of 21:52 UTC on November 16.
+His investigation traced the earliest observed Optimizely script injection to the early morning of November 16, although it remains unclear how long the vulnerability had been present or how many website visitors were exposed to the malware.
+Visitors who accessed affected websites on November 16 should review any cryptocurrency transfers made during that time to ensure the destination wallet addresses were not replaced by the malware.
+Anyone who entered payment card information should monitor their credit card accounts for unauthorized transactions and contact their card issuer if they notice suspicious activity.
+iPhone and iPad users who visited affected websites should ensure their devices are running the latest available iOS or iPadOS updates, as the attack also delivered exploit kits targeting vulnerabilities in older versions.
+Overall, users should also watch for suspicious account activity, particularly if they were logged into sensitive services while visiting affected websites.
+Update: Added Optimizely's statement confirming the vulnerability and remediation measures.
+Adaptive Security's AI agents analyze email intent, context, and behavior to uncover phishing, business email compromise, and invoice fraud.
+See what's getting through with a 14-day read-only scan of Microsoft 365 or Google Workspace, with no MX changes.
+Start your free email security scan.

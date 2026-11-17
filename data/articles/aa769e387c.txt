@@ -1,0 +1,38 @@
+Climate
+Data centres in the U.S. put out more carbon emissions in a year than Denmark, says Harvard study
+Study results come as nations at COP31 pledge to power data centres with clean energy
+The 400 largest data centres in the United States put more heat-trapping gases into the atmosphere in one year than the entire nation of Denmark did, and that was before the artificial intelligence boom really got going, according to a Harvard University study published Monday.
+Researchers found that more than half of the electricity powering hyperscale data centres in the U.S. was generated using fossil fuels, contributing to a significant increase in emissions.
+The study results come as negotiators at the United Nations COP31 climate talks in Antalya, Turkey, which the U.S. skipped this year, launched a voluntary pledge Monday calling on companies and countries to power the world's data centres with clean energy and be more transparent about their power and water consumption and emissions.
+"We cannot ask people to accept higher bills, more planet heating pollution and deeper inequality today in exchange for promises of a better tomorrow," United Nations climate chief Simon Stiell said Monday during the launch of the pledge. "Claims about future emissions savings cannot excuse rising pollution now, making climate disasters even worse."
+As public opposition to data centres continues to mount, the political backlash has played out in U.S. elections and major local objections for new sites.
+In Canada, plans for massive data centres have triggered protests in communities across the country, including this fall over a proposed data centre for AI giant Anthropic in Nova Scotia and a $52-billion data centre near Regina, Saskatchewan.
+Inside the climate toll of data centres
+Harvard researchers looked at 403 of the largest U.S. data centres between May 2024 and April 2025, using available data and modelling to analyze their electricity use and emissions. They estimated electricity used by the centres produced around 28.3 million tons (25.7 million metric tons) of carbon dioxide, according to the study in Monday's Nature Sustainability.
+The Dave Johnson coal-fired power plant is silhouetted against the morning sun in Glenrock, Wyo. in this 2018 file photo. (J. David Ake/ The Associated Press)
+More than half their 82 terawatt-hours of electricity use, enough to power nearly seven million homes for a year, came from fossil fuels, the primary cause of global warming, the researchers found. Coal, widely considered the most environmentally damaging fossil fuel, generated 15 per cent of the electricity used.
+- Protests across Nova Scotia oppose AI data centres
+- ASK CBC NEWS Why are there suddenly so many data centres planned in Canada? Your questions answered
+The emissions estimate is two to three times higher than previous studies had shown, said Francesca Dominici, the study's senior author and a Harvard biostatistics professor.
+"It is the equivalent to the CO2 emission of an entire state like Michigan or a small European country," Dominici said, adding that plans for 2,000 more data centres make that quantity more worrisome for the future. "We are going backwards toward the goal of controlling CO2 emissions."
+- Canada presented itself as a global leader in methane reductions at COP31. But is Alberta holding it back?
+- Video Why data centre communities worry about water
+- Bell AI data centre expansion raises questions over power, water and local impact
+Researchers noted that data centre construction has only expanded since the study period, meaning emissions from this industry are probably even higher now.
+"What we're seeing is already striking, but it's only a snapshot of a rapidly expanding industry," lead author Gianluca Guidi, postdoctoral fellow in the Department of Biostatistics, said in a press release.
+Several outside experts in climate, energy and artificial intelligence said Monday's study reached realistic conclusions and that its use of modelling was reasonable because companies disclose little about their power consumption and pollution.
+"We cannot manage environmental impacts effectively without reliable measurements and disclosure," said Fengqi You, a Cornell University energy systems scientist who wasn't involved in the study. "Ultimately, the environmental footprint of AI is not fixed. It depends on where we build data centres, how efficiently they operate, and how we supply their electricity."
+'Selling us hope while hiding the harms'
+The Antalya Artificial Intelligence Pledge, launched by COP31 host Turkey and the International Telecommunication Union, says data centres should use clean power and efficient energy and water systems.
+The pledge says the environmental impacts of data centres should be assessed and disclosed, but it also calls for harnessing artificial intelligence to help address climate change, which some climate experts see as a contradiction given AI's growing environmental footprint.
+- Video 'The planet is not dying, it is being killed' - Thunberg at COP 31
+- Canada can't control climate change on its own, economist tells landmark trial
+- Canada's credibility on the line at COP31 as it defends fossil fuel expansion while trumpeting clean energy
+The explosion of new and planned data centres has driven demand for new sources of power generation and contributed to some of the biggest tech companies missing their climate goals, according to a report by the advocacy group Climate Action Against Disinformation.
+The report, published earlier this month, found that electricity consumption by Amazon, Microsoft and Google had risen 240 per cent between 2022 and 2025 amid the AI race. Its authors accused Big Tech of "greenwashing" AI by obscuring its current environmental impact behind claims of future climate gains.
+Former U.S. vice-president and climate advocate Al Gore said that while it is essential for data centres to be powered by carbon-free energy, he is hopeful their computing power could help find new ways to fight climate change.
+In an interview with The Associated Press, Gore cited research by prominent British economist and climate advocate Nicholas Stern, who predicted that by 2030 "we will see 6 to 9 per cent reduction in emissions of greenhouse gases because of the use of advanced AI in finding new ways to be far more efficient in the use of materials and energy."
+Caleb Max, president of the National Artificial Intelligence Association, said, "AI will solve not only the energy usage issues that data centres face, but unlock numerous currently unknown advances in science and technology that will address climate change and make lives better for humanity. I respect the concerns about energy and water consumption from data centres, but the fears may be overblown."
+But Climate Action Against Disinformation spokesman Philip Newell was skeptical.
+"We have hope in one hand and then harms in the other," Newell said. "They're selling us hope while hiding the harms from us."
+With files from CBC News's Alexandra Mae Jones
