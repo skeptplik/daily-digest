@@ -1,0 +1,11 @@
+Suspected ransomware affiliate extradited to US over $500 million in extortion demands
+A 43-year-old Kazakh national accused of helping a ransomware crew steal data from US hospitals and schools, then threatening to publish patients’ medical information, has been extradited from Italy, the US Department of Justice announced.
+Prosecutors believe Roman Khlynovskiy was a member of the “8-Digits Team,” a group affiliated with the INC and Lynx ransomware operations.
+They allege the conspirators broke into victims’ networks, stole data, and demanded payment in exchange for not releasing it. The group also threatened to publicize sensitive medical information to pressure victims into paying.
+Court documents state the group went after victims in at least six states, with schools and hospitals among them. The conspirators “boasted that they possessed over 50 terabytes of data,” according to the DOJ, including more than 70 million confidential health records.
+“Khlynovskiy and other members of the ‘8-Digits Team’ repeatedly targeted hospitals and schools, extorting victims and threatening to release highly sensitive information,” said FBI Director Kash Patel. “This widespread extortion campaign resulted in over $500 million in ransom demands.”
+Assistant Attorney General A. Tysen Duva of the Justice Department’s Criminal Division said the defendant is charged with participating in “one of the largest healthcare data breaches in decades.”
+Khlynovskiy is charged with conspiracy to commit computer fraud and identity theft, conspiracy to commit wire fraud, extortion involving computers, and conspiracy to commit money laundering. Prosecutors also charged him with threats to disclose nonconsensual intimate images under the TAKE IT DOWN Act.
+If convicted, he could spend up to 27 years in prison.
+Patel credited the Italian partners and tied the extradition to a wider FBI push to bring back suspects held abroad. Over the last 21 months, the bureau has recorded 84 foreign transfers of custody, up 71%, and 157 extraditions, up 121%.
+“Those who victimize Americans cannot evade justice by operating overseas,” Patel concluded.

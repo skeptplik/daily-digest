@@ -1,0 +1,14 @@
+California fines Hertz $1.5 million for breaking state data privacy law
+California’s data privacy regulator on Tuesday fined rental car giant Hertz $1.55 million for making it difficult for customers to protect their data and failing to honor consumers’ requests to opt out of having their information shared.
+Hertz agreed to the fine and said it would change its business practices, according to a court filing shared by the regulator, the California Privacy Protection Agency (CPPA).
+The car rental company allegedly broke state law by not processing opt-out preference signals, which are automated digital signals consumers send from their devices or browsers to notify websites not to sell or share their data.
+Hertz, which also owns the Dollar and Thrifty brands, allegedly did not tell consumers how it processed the signals and added “friction” to the opt-out process, according to a CPPA press release.
+A spokesperson for Hertz did not immediately respond to a request for comment.
+Hertz has agreed to quarterly testing and monitoring practices to ensure they are submitting the correct information to CPPA, reviewing all new tracking technologies and testing opt-out compliance, the press release said.
+“Businesses have been on notice for years that we expect them to listen when Californians
+say no to trackers,” Lara Kehoe Hoffman, Acting Deputy Director of Enforcement for
+CalPrivacy, said in a statement.
+CPPA also announced a separate settlement with outdoor clothing and accessories manufacturer CC Filson Co. on Tuesday. The company must pay a $218,000 fine and agree to stop all device-based sales and sharing of consumers’ personal information to advertising technology companies within 30 days.
+A spokesperson for CC Filson Co. did not immediately respond to a request for comment.
+Suzanne Smalley
+is a reporter covering digital privacy, surveillance technologies and cybersecurity policy for The Record. She was previously a cybersecurity reporter at CyberScoop. Earlier in her career Suzanne covered the Boston Police Department for the Boston Globe and two presidential campaign cycles for Newsweek. She lives in Washington with her husband and three children.

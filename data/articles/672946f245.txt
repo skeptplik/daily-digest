@@ -1,0 +1,32 @@
+As US President Donald Trump heads to China, his administration has renewed efforts to curb Beijing's access to advanced semiconductors.
+On Monday, Washington announced new interim rules that will increase scrutiny of data centre operators in Singapore, Malaysia, Thailand, Indonesia and Brazil.
+The move not only restricts the export of advanced chips, but also access to their computing power, which Chinese firms currently rent abroad to train artificial intelligence (AI) models.
+South East Asian countries in particular have invested heavily in data centres to power their AI ambitions - and Chinese firms seeking computing power overseas have been a key market.
+But now these firms will need a US government licence to buy advanced chips from Nvidia or other American chipmakers. This allows Washington to monitor if those chips are being used to serve Chinese companies, or being smuggled to China.
+This poses a fresh challenge for Beijing, which has become deeply dependent on compute from abroad in the wake of US export restrictions. At least 30% of China's advanced AI computing power is projected to come from renting overseas or smuggling in 2027, according to research by the Institute for Progress, external, a US-based think-tank.
+China's foreign ministry called the new rules "economic coercion" and said Beijing "will take necessary measures to firmly safeguard its own legitimate rights and interests".
+A blow to Asia's AI boom
+This is also a problem for South East Asian economies where large numbers of data centres have sprung up recently. Some of the firms behind them are accused of helping China evade US export controls on advanced chips.
+One of those is Singaporean data centre firm Megaspeed, whose former director Alice Huang is suspected of being a Chinese spy. Calls for tighter export controls have grown after Nvidia's Jensen Huang admited to an affair with her and resigned as CEO.
+Megaspeed, the biggest buyer of Nvidia's chips in South East Asia, is accused of illegally smuggling chips to Chinese companies after purchasing them for use in data centres in Malaysia, Indonesia and Thailand.
+The company has denied these allegations, defended its business as "legitimate and lawful", and said it has "retained external legal counsel to conduct a thorough internal investigation". It also said Alice Huang stepped down from her role as director in late 2023 and left the firm last year.
+The US Commerce Department's Bureau of Industry and Security, however, has said Brazil and the four South East Asian nations "present a higher-than-normal risk of diversion" of the chips that Washington wants to keep out of China's hands.
+The new measures are aimed at ensuring sensitive US technology "cannot be circumvented through remote computing arrangements involving data centers in third countries," the bureau added. Licences will be issued on a "case-by-case basis", it said.
+Countries like Malaysia and Thailand whose data centre roll out has been heavily driven by Chinese buyers could be hit hardest, says international trade expert Naoise McDonagh from Australia's Edith Cowan University.
+But the new rules are unlikely to derail the data centre boom as a whole, says Reema Bhattacharya from advisory firm Verisk Maplecroft, adding that investment backed by major tech firms and clearly identifiable customers should "remain relatively resilient".
+Singapore was an early adopter of data centres but when it began limiting new construction, investment flowed to neighbours Malaysia and Thailand. Johor in Malaysia and Batam in Indonesia have also approved billions of dollars worth of data centres to catch the spillover demand.
+These countries have been offering incentives such as cheaper land to attract foreign investment, including from Chinese tech giants Alibaba and Tencent.
+But now, the region could find it harder to get hold of advanced chips.
+The BBC has contacted Indonesia, Malaysia and Thailand for comment.
+Singapore said it is "engaging relevant US authorities" to understand the new rules better, and is "exploring how to facilitate trusted access" for local firms.
+A spokesperson for Brazil's Ministry of Development, Industry, Trade and Services said it is aware of the US announcement and it "is closely monitoring any potential developments regarding this measure".
+Malaysia previously said it welcomes data centre investment but "will not allow itself to be used to get around export controls".
+A headache for China
+The new rules also come just ahead of Trump's meeting with Chinese leader Xi Jinping in Shenzhen this week.
+Beijing has made self-sufficiency in tech a national priority and needs the best chips to build powerful AI models.
+Chinese firms DeepSeek and MoonShot have come close to US rivals like Anthropic and OpenAI. So much so that The Institute for Progress estimates top US AI models lead the best Chinese platforms by only about six and half months.
+"This is despite US AI companies having significantly better compute access and financing," it said.
+Still, China needs advanced US chips to ensure its best AI models are competitive, experts tell the BBC.
+The new restrictions on South East Asia and Brazil have taken away "one of the more practical routes Chinese AI developers had to accessing frontier computing power," Bhattacharya said.
+But tighter restrictions could also push Chinese firms towards domestic semiconductors and further drive advancement at home.
+That has been a longstanding dilemma for Washington, McDonagh said: whether to keep selling chips to China to retain its reliance on the US, or restrict access and risk further spurring Chinese innovation.

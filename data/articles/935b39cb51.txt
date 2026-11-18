@@ -1,6 +1,0 @@
-Customers reported difficulty accessing the online accounts at some of the U.S.’ largest banks on Monday (November 16, 2026).
-Bank of America, Chase, J.P. Morgan, U.S. Bank, Wells Fargo and Zelle were listed by users as down or experiencing issues, according to the website downdetector.com.
-Chase Bank’s services are experiencing a technical bug issue, not a cyber issue, a spokesperson said Monday (November 16, 2026).
-“Due to a technical issue, some transactions are taking longer than usual to complete but customers still have access to their accounts and funds,” a Chase spokesperson said in a statement. “We are working to resolve this as quickly as possible.”
-The reports follow a major outage by Microsoft that began on Friday (November 13, 2026) and lasted for hours, which impacted services including Outlook, Teams and the AI assistant Copilot.
-Some Chase customers received a message that said, “Some services aren’t available. We’re working on them. Please try back later.”

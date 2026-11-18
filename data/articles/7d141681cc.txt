@@ -1,0 +1,18 @@
+N-able on Monday rolled out a fresh batch of N-central patches, targeting 17 zero-day vulnerabilities recently dropped online, as well as flaws already exploited in attacks.
+The fixed vulnerabilities, tracked as CVE-2026-129271 to CVE-2026-129287, cover privilege escalation, predictable passcode, command execution, missing authentication/authorization, audit log tampering, user enumeration, XXE injection, SSRF, RCE, and validation error flaws.
+Described as a critical update, N-central 2026.4 Hotfix 3 builds on the previously released Hotfix 2 and also brings several security hardenings across authentication, Agent and Probe communication, file and XML import handling, request and outbound connection handling, and user management.
+N-central 2026.4 HF3 also improves Agent verification and inactive Agent management and adds a device identification requirement to allow devices to connect to N-central.
+N-able says it has already applied the patches to hosted environments and urges users to update their on-premises deployments as soon as possible.
+“To keep your environment protected, customers running on-premises N-central deployments should upgrade their servers as soon as possible. All customers, hosted and on-premises, must upgrade all of their Agents and Probes to the latest version to be fully protected. Agents and Probes that are not upgraded are susceptible to impersonation,” N-able notes.
+One of the most important changes the security update brings is the removal of the configuration option for legacy APIs. As a result, legacy APIs are now permanently blocked, N-able explains in HF3’s release notes.
+The change effectively blocks the exploitation of 4EverAble2Shell, an exploit chain disgruntled security researcher Sean Bales dropped on GitHub on November 12.
+It chains CVE-2026-90436, a critical Apache Axis remote code execution (RCE) bug, with an N-central bug affecting deployments with legacy APIs enabled to run a shell script with root privileges.
+Threat actors started using the 4EverAble2Shell proof-of-concept (PoC) code in attacks hours after public disclosure to deploy cryptocurrency miners.
+Shortly after N-able announced the fixes, Bales published technical information on 24 more N-central vulnerabilities, noting that they have been patched and should not be exploitable against deployments running the latest patches.
+As of November 13, the Axis RCE flaw’s exploitation broadened, as threat actors also started using it against Atlassian Confluence instances, cybersecurity outfit Rapid7 says.
+Patches were included in Confluence version 9.2.28, which rolled out on November 9. Vulnerable Confluence deployments have the ‘Remote API (XML-RPC & SOAP)’ enabled, Atlassian warned.
+“Please note that this setting was turned off by default for new installations starting in Confluence 3.0. This feature was fully removed in Confluence 10.0,” Atlassian said.
+Related: Telegram Widgets Hit by RCE Demos, Malware Warning Days After Launch
+Related: Recent UnrealIRCd Vulnerability Exploited in Attacks
+Related: Hackers Probe Newly Disclosed Flaws in Copeland Refrigeration Controllers
+Related: Citrix Patches 10 Critical NetScaler Vulnerabilities

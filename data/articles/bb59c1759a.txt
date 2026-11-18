@@ -1,0 +1,17 @@
+NSA Net, agency’s classified internal network, faces unspecified disruptions
+Editor's Note: Story updated 2:30 Eastern U.S. time with statement from the NSA.
+The difficulties with the system, known as NSA Net, are not believed to be the result of a cyberattack, according to two people familiar with the ongoing situation. CNN first reported the development.
+NSA “experienced temporary degradation during scheduled routine maintenance. While some internal systems were affected, mission-critical capabilities remain fully operational and our ability to defend national security continues,” an agency spokesman said in a statement.
+The organization’s “infrastructure is designed with multiple layers of redundancy to maintain operations during planned maintenance or unexpected events."
+There was a staggered arrival at agency headquarters, located at Fort Meade, Maryland, specifically because officials want to reduce the load of tens of thousands of personnel signing in the morning at the same time on the same network, one source told Recorded Future News.
+This same person noted that the system is not completely shut down, but is only providing intermittent service.
+Another person said NSA Net has been unstable for weeks, prompting frustration among employees.
+NSA backup centers located around the country are expected to pick up the slack caused by the delay and conduct the agency’s chief mission of collecting signals intelligence from around the globe.
+The disturbance at the secretive spy agency is the latest in a series of high-profile technical disruptions that have impacted the United States in recent days — though there is no evidence that they are linked.
+Last week there was a day-long, global outage that crippled software produced by tech giant Microsoft, including Outlook. On Monday, a senior company official revealed a months-old bug was responsible for the blackout, which lasted for 24 hours and lingered through the weekend.
+On Friday, the Federal Aviation Administration (FAA) issued a nationwide ground stop that halted all U.S. departing flights for more than four hours. The agency has since traced the issue to a single router in Arkansas.
+Still, the FBI on Tuesday said its cybersecurity teams are working with the FAA, the Transportation Department and contractor L3Harris “providing technical assistance following Friday’s air traffic communications outage.”
+The NSA has experienced glitches in the past, including in 2013 when its public website went dark. Though some hackers claimed they had crashed the site with a denial of service attack, officials said it was the result of a scheduled update.
+In 2000, the agency’s computers went dark for three days. The issues were eventually attributed to a software anomaly and infrastructure problems. Recovery required thousands of man-hours and the agency reportedly spent $1.5 million to restore its IT infrastructure.
+Martin Matishak
+is the senior cybersecurity reporter for The Record. Prior to joining Recorded Future News in 2021, he spent more than five years at Politico, where he covered digital and national security developments across Capitol Hill, the Pentagon and the U.S. intelligence community. He previously was a reporter at The Hill, National Journal Group and Inside Washington Publishers.

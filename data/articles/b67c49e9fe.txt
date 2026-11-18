@@ -1,0 +1,8 @@
+Roblox has launched a new creator program that lets developers convert existing games to its platform for free.
+As Roblox Game Solutions senior director Jim Greer explained, Roblox has "built agentic conversion tools that bring games to Roblox, and today we're opening the program to everyone."
+Developers with games built on any engine, including Unity and Unreal, can apply to have Roblox convert their titles to the platform.
+The program will initially include a limited group of developers and games across mobile, PC, and console. Approved developers will be asked to provide their source code and assets.
+Roblox clarified that while it "may use AI-assisted tools" to work with a developer's code, "the code and assets provided won't be used to train or fine-tune AI models."
+Roblox will handle the conversion at no cost, and developers will retain ownership of their game, intellectual property, and the Roblox version. Nothing will be published on Roblox's platform unless a developer chooses to do so.
+In September, Roblox introduced the Everywhere initiative, enabling creators to publish games as standalone apps across multiple platforms.
+Roblox also announced that creators will soon be able to enable offline solo play, with early access available before the full release in mid-2027.

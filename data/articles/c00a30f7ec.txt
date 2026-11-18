@@ -1,0 +1,53 @@
+November 17, 2026
+NASA’s NICER Telescope Ends Science Operations
+After studying the universe for six and a half years beyond its initial mission, NASA’s NICER (Neutron star Interior Composition Explorer) telescope on the International Space Station has ended science operations.
+The mission and space station teams are now focused on plans to finalize NICER’s 8-year archive of X-ray science observations and decommission and detach the telescope from its perch near the station’s starboard solar array.
+In June 2025, NICER was suddenly unable to swivel side-to-side beyond its current orientation, which limited its ability to track cosmic objects. The team paused data collection to investigate the issue.
+Robotic cameras on the outside of the station collected photographs of NICER that helped eliminate external causes. After an extensive investigation, engineers think an internal motor has failed, limiting the telescope’s motion.
+Launched in 2017, NICER embarked on an initial 18-month prime mission. Since then, it has made groundbreaking measurements of neutron stars, which contain the densest matter in the universe that we can measure, and revolutionized our understanding of black holes, active galaxies, and other mysterious phenomena in our universe.
+The telescope also successfully demonstrated the potential of pulsar-based spacecraft navigation in X-rays that could be used for travel to Mars and beyond. Closer to home, technology developed to test NICER before launch is being incorporated into prototype portable CT scanners, materials analysis systems, and other applications.
+August 5, 2025
+Science Observations Remain Paused for NASA’s NICER Telescope
+Science operations by NASA’s NICER (Neutron star Interior Composition Explorer), an X-ray telescope on the International Space Station, remain paused as the team continues to evaluate the telescope’s systems after an issue developed with one of its motors. The motor is unable to move NICER beyond its current position side to side, and the telescope’s status has not changed since operations were halted June 17.
+The primary goal is to move NICER into its stowed configuration in case it needs to accommodate space station activities, though the current placement does not pose a safety issue to the station or crew. The team currently does not have a timeframe for returning to science operations.
+Photos taken by robotic cameras outside the station are helping eliminate external causes for the issue. Now the team is coordinating with space station personnel to perform troubleshooting maneuvers and determine potential causes within the payload.
+Since it began observing the X-ray universe in 2017, NICER has successfully demonstrated a form of deep space navigation that could be used for travel to Mars and beyond.
+Designed for a prime mission of 18 months and now in its eighth year of operations, NICER has made groundbreaking measurements of neutron stars, which contain the densest matter in the universe that we can measure, and revolutionized our understanding of black holes, active galaxies, and other mysterious phenomena in our universe. Technology developed to test NICER before launch is being incorporated into prototype portable CT scanners, communications systems, and several other applications on Earth for the benefit of all.
+June 24, 2025
+NASA’s NICER Telescope Suspends Science Operations
+NASA’s NICER (Neutron star Interior Composition Explorer), an X-ray telescope on the International Space Station, has paused observations due to a problem with one of the motors that drives its ability to track cosmic objects.
+The NICER team paused operations June 17 when performance degradation in the motor began affecting science observations. Engineers are investigating the cause and potential solutions.
+The telescope was installed near the space station’s starboard solar array in 2017. The NICER mission has successfully demonstrated a form of deep space navigation that could be used for travel to Mars and beyond. It has also made groundbreaking measurements of neutron stars, which contain the densest matter in the universe that we can measure, and revolutionized our understanding of black holes, active galaxies, and other mysterious phenomena in our universe.
+April 17, 2025
+Following Repair, NASA’s NICER Improves Daytime Measurements
+A NASA X-ray telescope on the International Space Station called NICER, or Neutron star Interior Composition Explorer, has regained additional daytime observation capabilities thanks to repairs completed during a spacewalk and a reconfiguration of its detectors.
+In May 2023, NICER developed a light leak in which unwanted sunlight began entering the instrument. Photos taken from inside the space station revealed several small areas of damage to the telescope’s thin thermal shields, which block sunlight while allowing X-rays through to the detectors. Nighttime observations were unaffected, and with operational adjustments, the NICER team was able to recover about 20% of station daytime observations.
+In January, NASA astronaut Nick Hague installed nine patches to cover the largest areas of damage during a spacewalk. After resuming science operations, the NICER team determined the overall level of sunlight inside NICER had substantially reduced. Still, it experienced more visible-light interference than expected.
+Close-up, high-resolution photos from the spacewalk allowed the team to see additional small holes and cracks in the thermal shields that were not previously visible. These accounted for the remaining sunlight intrusion.
+After further analysis, the NICER team developed a novel approach to regaining additional daytime data collection.
+Each X-ray that hits a NICER detector generates electrical charge that is sensed by a measurement/power unit (MPU). After so many hits, the detector resets — like emptying a cup before it overflows.
+Sunlight can also create charge that accumulates in the detector, adding water to the metaphorical cup. There was so much sunlight entering NICER that the detectors were filling up with charge and resetting thousands of times for every X-ray detection. It overwhelmed the MPU’s ability to process the valid X-ray events.
+Hague’s repair in January reduced the amount of sunlight entering NICER, which enabled the team to reconfigure the MPUs to ignore the sunlight-generated resets. After initial testing on the ground, the team updated one MPU before switching all seven. The changeover was completed March 12.
+In combination with the patches, the reconfiguration has allowed NICER to return to collecting observations during more than 70% of station daytime, as the telescope continues to help us better understand the X-ray universe, including neutron stars, black holes, and other energetic phenomena. The team continues to look for more opportunities to improve NICER’s operations.
+Jan. 24, 2025
+NASA’s NICER Continues Science Operations Post Repair
+NASA crew aboard the International Space Station installed patches to the agency’s NICER (Neutron star Interior Composition Explorer) mission during a spacewalk on Jan. 16. NICER, an X-ray telescope perched near the station’s starboard solar array, resumed science operations later the same day.
+The patches cover areas of NICER’s thermal shields where damage was discovered in May 2023. These thin filters block sunlight while allowing X-rays to pass through. After the discovery, the NICER team restricted their observations during the station’s daytime to avoid overwhelming the mission’s sensitive detectors. Nighttime observations were unaffected, and the team was able to continue collecting data for the science community to make groundbreaking measurements using the instrument’s full capabilities.
+The repair went according to plan. Data since collected shows the detectors behind the patched areas are performing better than before during station night, and the overall level of sunlight inside NICER during the daytime is reduced substantially.
+While NICER experiences less interference from sunlight than before, after analyzing initial data, the team has determined the telescope still experiences more interference than expected. The installed patches cover areas of known damage identified using astronomical observations and from photos taken by both external robotic cameras and astronauts inside the space station. Measurements collected since the repair and close-up, high-resolution photos obtained during the spacewalk are providing new information that may point the way toward further daytime data collection.
+In the meantime, NICER continues operations with its full measurement capabilities during orbit night to enable further trailblazing discoveries in time domain and multimessenger astrophysics.
+June 8, 2023
+Sunlight ‘Leak’ Impacting NASA’s NICER Telescope, Science Continues
+On Tuesday, May 22, NASA’s NICER (Neutron Star Interior Composition Explorer), an X-ray telescope on the International Space Station, developed a “light leak,” in which unwanted sunlight enters the instrument. While analyzing incoming data since then, the team identified an impact to daytime observations. Nighttime observations seem to be unaffected.
+The team suspects that at least one of the thin thermal shields on NICER’s 56 X-ray Concentrators has been damaged, allowing sunlight to reach its sensitive detectors.
+To mitigate the effects on measurements, the NICER team has limited daytime observations to objects far away from the Sun’s position in the sky. The team has also updated commands to NICER that automatically lower its sensitivity during the orbital day to reduce the effects from sunlight contamination. The team is evaluating these changes and assessing additional measures to reduce the impact on science observations.
+To date, more than 300 scientific papers have used NICER observations, and the team is confident that NICER will continue to produce world-class science.
+Media contacts
+Alise Fisher
+202-358-2546
+alise.m.fisher@nasa.gov
+NASA Headquarters, Washington
+Claire Andreoli
+301-286-1940
+claire.andreoli@nasa.gov
+NASA’s Goddard Space Flight Center, Greenbelt, Md.

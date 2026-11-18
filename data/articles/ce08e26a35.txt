@@ -1,0 +1,11 @@
+Unity has acquired 3D asset creator and publisher Synty Studios.
+Announced today at Unite Tokyo, Synty's artist-created content will be integrated into Unity Spark, Unity's AI game-creation platform, which will enter closed beta later this year on Google Playground.
+Founded in 2014, New Zealand-based Synty creates low-poly 3D asset packs for Unity, Unreal Engine, and Godot.
+In a blog post, Unity stated that Synty will retain the "same brand, same artists, and same style" after the acquisition. It added that "most" of Synty's artists will join Unity full-time and continue developing new packs.
+Synty asset packs, licenses, and workflows will remain unchanged, as will the Synty Store and Synty Pass, which provides unlimited access to the full asset library.
+Packs will continue to be available for the "engines and tools they support today," including Unreal Engine and Godot. Free assets will remain free. Synty's asset packs will stay on the Unity Asset Store, and there are "no plans to change Synty's pricing at this time."
+"Unity Spark will give more people the opportunity to turn their ideas into games, and artist-created content is an important part of that experience," said Unity VP of marketing Chris Gfroehrer.
+"Synty has built an extensive library of distinctive, high-quality 3D art that creators around the world use to bring their ideas to life. Bringing its team and content into Unity will help us give Unity Spark more ways to build the games they imagine."
+Synty co-founder Mike Clephane added: "Our goal has always been to create fun, high-quality art that helps people make great games faster. Joining Unity will allow our artists to continue building the detailed worlds, characters, and assets our community creates with today, while reaching a new generation of creators through Unity Spark."
+Yesterday, Unity launched a $50,000 grant program for indie developers, with no equity or repayment required.
+The Unity Fellowship program will select ten studios to receive the grant, along with direct support from Unity and expert guidance before their game's launch. Recipients will be announced at the GDC Festival of Gaming in March 2027.

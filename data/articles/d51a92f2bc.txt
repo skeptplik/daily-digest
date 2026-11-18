@@ -1,0 +1,17 @@
+A Kazakh national has been extradited from Italy to face charges alleging he targeted US schools, hospitals, and healthcare entities in ransomware attacks.
+43-year-old Roman Khlynovskiy, who was arrested in July 2025 while on vacation with his family in Rimini, Italy, is believed to be a member of the "8-Digits Team" ransomware group, known for its affiliation with the INC and Lynx ransomware operations.
+Together with his accomplices, Khlynovskiy is believed to have extorted victims in at least six US states (including hospitals and schools) after breaching their networks and stealing sensitive data.
+After exfiltrating data from victims' compromised systems, they pressured them to pay the ransoms by threatening to release the stolen files online.
+"The conspirators boasted that they possessed over 50 terabytes of data consisting of more than 70 million confidential health records," the Department of Justice said.
+"The conspirators also threatened to publicize this highly sensitive medical information to increase pressure on victims to pay ransom demands. The coconspirators' actions resulted in over $500 million in ransom demands."
+Khlynovskiy faces up to 27 years in prison if convicted of conspiracy to commit computer fraud, identity theft, wire fraud, extortion, money laundering, and threats to disclose non-consensual intimate images.
+INC Ransom and Lynx ransomware operations
+The INC Ransom cybercrime gang, whose leak site lists over 1,000 victims, emerged as a ransomware-as-a-service (RaaS) operation in July 2023.
+education, healthcare, government, and industrial entities
+Lynx ransomware, which surfaced in July 2024, is believed to be a rebrand of INC ransomware rather than a new extortion group and has added over 400 victims to its dark web leak site since then.
+The group's operators have used an encryptor likely based on the source code of INC Ransom malware, which was allegedly put up for sale on the Exploit and XSS hacking forums for $300,000 in May 2024. 
+However, this could also be a rebranding effort to help the INC Ransom gang operate under less law enforcement scrutiny.
+BleepingComputer also found in August 2024 that Lynx ransomware and recent INC encryptors were mostly the same based on a string analysis.
+Adaptive Security's AI agents analyze email intent, context, and behavior to uncover phishing, business email compromise, and invoice fraud.
+See what's getting through with a 14-day read-only scan of Microsoft 365 or Google Workspace, with no MX changes.
+Start your free email security scan.

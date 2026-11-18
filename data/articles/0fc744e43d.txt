@@ -1,0 +1,6 @@
+Google is expanding the rollout of Tasks, a toggle in Gemini that converts the chatbot into a more active helper.
+Unlike Gemini’s Chat, which merely allows users to talk to Google’s AI assistant for informational purposes, Tasks empowers the app to complete basic secretarial functions, deputizing it as a kind of personal assistant.
+How, specifically, can you use it? Google says that the app can call businesses and book appointments on users’ behalf; it can also complete purchases for them via Google Pay, and even sign into websites securely if prompted to do so.
+In a blog post, Josh Woodword, VP of Gemini, claims to have recently used the feature to call local car dealerships to schedule a service appointment for his family’s minivan. He says he also used it to analyze his electrical bill.
+Tasks was initially launched to select testers back in May as Gemini Spark, a 24/7 agentic helper, and was expanded to U.S. subscribers of its Google AI Ultra tier. Gemini Spark eventually became “Task Mode.” Google is now making the feature available for free to hundreds of millions of people who are using the company’s new Gemini 4 Hydrogen model.
+Getting the function up and running is easy. Users merely flip a toggle within the app from Chat to Tasks, which enables the feature. Users can also send texts to Gemini or call the app to give it commands.

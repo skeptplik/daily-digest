@@ -1,0 +1,54 @@
+I'm a human doctor with human intelligence. But I sure do like my AI notetaker
+Dr. Mara Gordon, a family physician in Camden, N.J., answers reader health questions monthly. Send in your question to: thrive@npr.org.
+Question: My doctor has started recording our office visits with an artificial intelligence scribe. She says it helps write notes in my medical record. I said yes when she asked if I was comfortable with it, but in hindsight I feel a little freaked out. Should I be worried about AI listening in on my private medical conversations?
+Answer: AI scribes are all the rage in medicine right now. Doctors are using them to take notes everywhere from the gynecologist's office to the emergency room.
+I admit I've been an eager adopter in my own primary care practice. I use an app on my phone that records my conversation with a patient and then uses AI to write a preliminary summary for the medical record.
+It saves me time. But more importantly, I like using it because it helps me focus more fully on my patient. When I use the AI scribe, I don't have to talk and take notes at the same time – I can actually make eye contact with my patient rather than staring at the computer screen.
+But I totally get why people feel uncomfortable with the technology. I share my patients' concerns about privacy and how AI scribes might impact the doctor-patient relationship.
+I also worry that corporate health systems will put pressure on doctors to use any time we save with an AI scribe to squeeze in even more patients.
+And like many people, I worry that artificial intelligence might one day put me out of a job!
+Here's what you need to know.
+How AI scribes work
+When I use an AI scribe during a primary care visit, I first ask the patient if they're comfortable using the service. If the patient says yes, I start recording using an app on my smartphone. I usually set it down on the desk in the exam room.
+The scribe uses a technology called "automatic speech recognition" which records our conversation and automatically distinguishes between the doctor's and patient's voices. (Sometimes, when the patient has a family member accompanying him, the app needs to distinguish between three – or more! – voices.)
+When the visit ends, the recording is then transcribed. A large language model – the kind of AI technology that powers ChatGPT, but specifically geared toward medicine – converts the raw transcript into a medical note. These notes follow a standard format that is specific to the speciality and the type of visit. They reflect what the patient told the doctor, physical exam findings, and the doctor's medical decision-making.
+What is the software like?
+There are lots of AI scribes on the market, ranging from products embedded within the electronic medical record to free apps a doctor can download on her phone. Most scribes use a smartphone's recording capabilities to "listen in" on the conversation, although there are some that use a desktop computer or a separate recording device.
+I use my personal smartphone for this purpose, as do many physicians I know. I downloaded the AI scribe software as an app on my phone. This causes occasional hiccups. For example, I've gotten notification pings from my book club's group chat while recording a patient visit – which made me make sure to put the phone in "do not disturb" mode whenever I'm using it for patient care.
+What about privacy?
+Even though I use my personal phone for scribing patient visits, our conversations aren't stored on my device. They're uploaded directly to a HIPAA-compliant cloud, where the data is then transcribed into the AI-generated clinical note. Most scribe systems then delete the recording and the note after a set period of time.
+HIPAA-compliance is an important feature of all AI scribe services. It means that the computer program was designed in accordance with the Health Insurance Portability and Accountability Act, a federal law designed to protect patients' privacy.
+The software company is responsible for safeguarding the data at every step of the process, from recording to generating notes. AI scribe companies encrypt the data, control who has access to it, and have systems to protect against "data breaches." It also means these companies are liable if the data is leaked.
+AI scribes can make mistakes
+Recently, I saw a patient who had metastatic cancer. Despite multiple conversations about his diagnosis with me, his oncologist, and his surgeon, he did not believe he had cancer. I had even – with his permission – called his spouse to tell her what was going on. He still did not accept it.
+This kind of tricky clinical situation comes up on occasion, and the AI scribe did not get it right. Rather than reflecting the nuances of our conversation, the note that the scribe produced simply said that the patient had been misdiagnosed.
+I often catch other errors that the software makes, like mistaking a patient's gender or age. Alarmingly, these scribes are also known for mistaking "I do" statements with "I do not." In medicine, this can be critical: The difference between "I do have chest pain" and "I do not have chest pain" can be a matter of life and death.
+To better understand how AI scribes can contribute to errors in the medical record, I talked to Dr. Eileen Kim, an assistant professor of internal medicine at the University of California San Diego. Kim specializes in clinical informatics and thinks a lot about how AI might shape the future of medicine.
+"You have a doctor who's overburdened, seeing way too many patients," she said. "They have this AI tool that's offered to them that seems like a great solution, but they don't have time to adequately review everything. It goes into the chart. Then you have another AI tool that's reading through all these notes. But they're wrong. And then it just propagates errors throughout the chart."
+In my work caring for patients, I come across erroneous information in the electronic health record all the time. It's hard to know how much is related to AI and how much is caused by human error. But I think Dr. Kim is right to worry that AI scribes might make the problem worse.
+Who is liable for errors?
+As the doctor caring for my patient, I'm ultimately the one responsible for the content of the AI-generated note, so I always read them carefully before clicking "sign" and adding them to the medical record. Most AI scribe software makes doctors sign a user agreement stating doctors are liable for everything they write in the medical record, even if a scribe helps them with it.
+When the AI-generated notes are factually accurate, I almost always end up editing them to make my clinical decision-making more clear. I'm happy to have robots help me with my administrative tasks, but I still take pride in being a human doctor with human intelligence!
+Health equity concerns
+Many AI scribes can only be used with English-speaking patients. Health equity advocates say they fear this means unequal access to the technology, which could further widen health disparities.
+For example, the scribe allows me to look more at my patient and less at my computer, which might make a patient feel more comfortable disclosing a stigmatizing health concern. Or the opposite might be true, too: A patient fearful that an AI company is "listening in" to our conversation might be afraid to share sensitive information, which in turn could affect the quality of their medical care.
+Are the recordings ever used for anything other than scribing?
+As a security feature, most AI scribe companies delete the recorded conversations within a set period of time. This is to protect patient privacy and also protect doctors from lawsuits. There is widespread concern in health care that the transcriptions could be used in medical malpractice lawsuits.
+But some researchers call the recordings "digital gold" that could be used to assess the quality of AI-generated medical notes or even to study broader questions about physician-patient communication.
+For example, I'd love to know how other doctors handle tricky conversations with patients who are fearful of vaccines. There are theoretical best practices, but analyzing hundreds of thousands of office-visit transcripts could help doctors learn what actually works best in real life.
+For now, recordings of regular doctors' appointments — unless you've been enrolled in a research study — are not used for research purposes.
+Can I opt-out?
+Most of my patients readily agree when I ask if it's OK to use the AI scribe software, but occasionally my patients have concerns. They worry that the data isn't really secure or that it could be used to identify them in the future.
+If a patient doesn't want to use the AI scribe, it's no problem. I just take notes on the computer while they talk — it's what I've done for years before the AI scribes became available.
+Opting out of AI in medicine more broadly may prove to be tricky.
+"It's just everywhere," said Kim, the clinical information specialist. "It would be impossible to separate. We use it throughout the healthcare system."
+Software that relies on machine learning is used for billing, for clinical decision-making, and for communication between the doctor's office and patients.
+AI is often used in risk calculators, like clinical tools that estimate a patient's risk of, say, heart disease based on variables like cholesterol levels and blood pressure. AI is also common in "early warning" systems that notify clinicians their patients might be vulnerable to high-risk conditions like sepsis, based on vital signs and lab values.
+Kim says it's basically impossible for patients to opt out entirely from having AI involved in their medical care, "unless you're so healthy that no risk calculators ever come near you," she said.
+Will AI replace my doctor?
+I asked Kim — a primary care doctor like me — if she thought AI would replace us in the coming years. If the AI scribe could learn to ask the same questions I do, could it generate a treatment plan as good — or better — as the one I recommend?
+Kim thought AI might change how patients experience primary care. (Possibly for the better, she said, if AI scribes allow doctors to focus more on their patients and less on the computer!)
+But ultimately, she thinks human intelligence is critical in medicine.
+"It looks really good because it's really good at sounding like us, and it's really good at pretending to be us," she said. "But it's still just pretending in a way. There's no real brain."
+I agree. I think the AI scribe technology has the potential to do both good and harm for health care. But the core of medicine is the relationship I have with my patients. No robot can replace that.
+Dr. Mara Gordon is a family physician in Camden, NJ. Find her newsletter Your Doctor Friend on Substack.
