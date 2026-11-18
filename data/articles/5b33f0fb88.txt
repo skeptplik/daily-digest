@@ -1,0 +1,8 @@
+The need to keep essential public services running during Russia’s war has accelerated Ukraine’s adoption of artificial intelligence, offering lessons for Europe, the country’s chief AI officer told Euronews.
+Russia’s war in Ukraine is accelerating the rollout of artificial intelligence across the country, with the need to maintain essential public services driving rapid technological innovation, Ukraine’s Chief AI Officer Roman Kyslyi told Euronews.
+While Ukraine has become a testing ground for AI-powered military technologies, including self-guided drones, the country is also pioneering the use of artificial intelligence in public administration.
+“We are among the first countries who started an AI assistant for citizens,” Kyslyi said, referring to Ukraine’s digital government app, Diia, which offers advice and access to public services.
+Ukraine is also developing its own national AI language model, drawing on locally gathered data, including cultural and scientific material, while partnering with US technology giant Nvidia to build its sovereign AI infrastructure.
+Kyslyi said Europe could learn from Ukraine’s experience of deploying technology rapidly while maintaining services under extraordinary pressure.
+“The reason why we are so quick is because we don’t have any other choice,” he said. “We have to continue to provide the services because services are essential for our citizens.”
+Ukrainians can even get married or divorced through the app, he said, highlighting its importance for soldiers on the front lines and the millions of Ukrainians living abroad.

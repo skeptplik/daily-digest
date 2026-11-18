@@ -17,4 +17,9 @@ AMD’s continued support for native FP64, even as Nvidia retreats from that cap
 As the Senior Analyst, Graphics at Tom's Hardware, Jeff Kampman covers everything that has to do with graphics cards, gaming performance, and more. From integrated graphics processors to discrete graphics cards to the hyperscale installations powering our AI future, if it's got a GPU in it, Jeff is on it.
 - 
 I'm surprised they didn't focus on energy-efficiency, as well. There's no way that using low-precision tensors to emulate FP64 is as energy-efficient as native FP64 hardware.
-That said, the Ozaki approach is pretty clever. When all you have is a hammer, try to make everything look like a nail! It could provide a second life for a lot of AI inferencing hardware, since that's a heck of a lot more common that full-throughput native fp64 support. Reply
+That said, the Ozaki approach is pretty clever. When all you have is a hammer, try to make everything look like a nail! It could provide a second life for a lot of AI inferencing hardware, since that's a heck of a lot more common than full-throughput native fp64 support. Reply
+- 
+When buying GPU accelerators I would get ones that can also be used for scientific computing. If AI fails, use the accelerator for science. If AI succeeds, new co-designed AI accelerators will be much more efficient and again you can use the GPU for science.Reply
+- 
+ejolson said:When buying GPU accelerators I would get ones that can also be used for scientific computing.Okay, you're not talking about graphics cards then... because nobody makes such a thing, any longer. The last graphics card AMD made with decent fp64 throughput was the Radeon VII, in 2019. Nvidia's was the Titan V, in 2017.
+I bought a Radeon VII, partly for that and partly for the HBM2 and its 1 TB/s of memory bandwidth. But, then I sold it to a crypto miner for a profit, because I had never used it and didn't know when I actually would. Reply

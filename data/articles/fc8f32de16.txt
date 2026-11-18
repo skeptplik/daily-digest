@@ -1,0 +1,14 @@
+An update gone awry at Apple follows a rash of major outages in recent days, including problems affecting the Federal Aviation Administration, United Airlines and Microsoft.
+Many of Apple’s online services went down in a major outage following an update on Tuesday by the company, which followed other major outages in recent days, including problems affecting the Federal Aviation Administration, United Airlines and Microsoft.
+Apple acknowledged on its system status page that its Apple Music, App Store and AppleCare services suffered full outages and that its iCloud sign-in interface was also having issues. The technology monitoring site Downdetector.com also showed a spike in user complaints about Apple Pay.
+“Many of our systems are back up and running after an internal update caused some outages this morning,” the company said in an emailed statement. “We’re working to get the remaining systems online as soon as possible.”
+Apple’s status page now suggests that none of its services is down.
+Marriott International, the largest US hotel operator, also had technology issues, according to users posting on Reddit. Downdetector.com also reported that Marriott was experiencing an outage.
+In an emailed statement, Marriott said it has “resolved a technical issue” that affected sign-in capabilities on Marriott.com and the Marriott Bonvoy app. The company added that a company review found no sign the problem “was cybersecurity-related.”
+The outages are the latest in a string of technology breakdowns.
+On Monday, a system outage at United Airlines lasted more than 90 minutes, forcing the carrier to delay departing flights. The problem at United came just days after a malfunction in the Federal Aviation Administration’s network prompted a nationwide ground stop that delayed hundreds of flights and stranded hundreds of thousands of travellers across the US.
+Chicago-based United said there was no indication its outage was cybersecurity-related.
+Banks were also affected on Monday after thousands of customers reported difficulty accessing online accounts at several major US banks and the money transfer service Zelle after a technical issue at JPMorgan Chase caused ripple effects throughout the financial system.
+Chase said Monday the technical problems were not the result of a cyberattack, and on Tuesday confirmed the bank's systems were operating normally.
+Last week, a global Microsoft outage disrupted email and other workplace tools, plunging business chatter and everyday services into disarray worldwide. Microsoft 365 services, including Outlook, Teams and AI assistant Copilot, were interrupted.
+The tech giant said there was “no indication” that malicious activity caused the disruptions, specifically noting on Friday that the outage was not related to a cyberattack or artificial intelligence agents.

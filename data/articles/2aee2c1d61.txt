@@ -1,0 +1,12 @@
+Product showcase: iVerify Basic helps users check device security and improve privacy
+iVerify Basic is a mobile security app for individuals who want to check their devices for signs of compromise and improve their security settings. It is available for iOS and Android, including tablets.
+Device security checks
+The Device tab puts scan controls and security status on one screen. Users can select Run Scan to check device integrity. After a check, the app displays its findings and records when the device was last checked.
+Device Health lists whether Face ID and screen lock are enabled, alongside the status of iOS and iVerify updates. These checks give users a starting point for reviewing their configuration.
+Security and privacy guides
+The Guides tab groups recommendations into categories covering theft protection, software exploits, signs of compromise, wireless data, communications, and advertising data leakage. Each category shows a completion count.
+The theft protection section includes instructions for disabling Control Center while locked, using Emergency SOS and Lockdown Mode, enabling Stolen Device Protection, and configuring automatic updates.
+Individual guides explain the feature and any required setup, with an option to flag an item for later.
+The Online tab adds guidance on security software, account authentication, and network security.
+Final thoughts
+I found the guides very useful for people who need understandable instructions on improving their iPhone’s security and personal privacy. The topic groups make it easy to choose an area to work on, and marking each reviewed guide Done provides a record of progress.

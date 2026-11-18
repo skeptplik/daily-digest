@@ -1,0 +1,41 @@
+As winter approaches in the Northern Hemisphere, so does smog season, and few places are hit harder than South Asia.
+Cities across the region, from New Delhi to Dhaka, are blanketed in a thick grey haze, with the Air Quality Index (AQI) exceeding 350 in several parts of India’s capital last week, a level classed as “hazardous”, according to the air quality monitoring platform IQAir.
+In winter, a layer of warmer air can trap cooler air near the ground. Combined with low wind speeds, this stops pollution from vehicles, industry and crop burning from dispersing.
+Al Jazeera visualises which cities have the worst air quality, how it is measured, how smog affects your health and what you can do to protect yourself.
+What causes smog?
+Smog mostly comes from burning fossil fuels, particularly coal, along with exhaust from vehicles and factories, and smoke from forest and crop fires.
+Summer smog and winter smog form differently. In summer, sunlight reacts with nitrogen oxides and other pollutants to form ground-level ozone. In winter, a layer of warm air can sit on top of cooler air near the ground, trapping pollution and stopping it from dispersing.
+In South Asia, winter smog is made worse by geography. The Indo-Gangetic Plain, which stretches across parts of Pakistan, northern India, Nepal and Bangladesh, is one of the world’s most polluted regions. Hemmed in by the Himalayas to the north, the plain has weak winds and a shallow layer of air in winter, so pollution has nowhere to go.
+How is air quality measured?
+The air we breathe is mostly nitrogen and oxygen, but it also contains small amounts of other gases and tiny particles, some of which are harmful.
+Monitoring stations track six main pollutants, including ozone, nitrogen dioxide and particulate matter (PM), tiny particles suspended in the air.
+The most harmful is PM2.5, particles 2.5 micrometres or less in diameter, about 30 times thinner than a human hair. They can travel deep into the lungs and enter the bloodstream.
+These readings are combined into an Air Quality Index (AQI). The US AQI runs from 0 to 500 and is split into six colour-coded categories:
+- Green (0-50), good: little or no risk.
+- Yellow (51-100), moderate: acceptable for most people.
+- Orange (101-150), unhealthy for sensitive groups: children, older adults and people with heart or lung conditions.
+- Red (151-200), unhealthy: the general public may be affected.
+- Purple (201-300), very unhealthy: health risks for everyone.
+- Maroon (301+), hazardous: emergency conditions.
+Which cities have the most polluted air?
+All 50 of the world’s most polluted cities in 2025 were in Asia, according to IQAir, with 42 of them in India and Pakistan.
+Loni, on the outskirts of Delhi in Uttar Pradesh state, topped the list with average PM2.5 levels of 112.5 µg/m³ (micrograms per cubic metre), more than 22 times the WHO’s recommended limit, followed by Hotan in China and Byrnihat and New Delhi in India.
+Vehicles account for 23 percent of Delhi’s winter pollution, while biomass burning, including farm stubble fires, contributes 20 percent, according to India’s Ministry of Environment, Forest and Climate Change. The four Chinese cities on the list are in Xinjiang, where desert dust is a major source.
+How does pollution affect your health?
+Air pollution, both outdoors and inside homes, is linked to about seven million premature deaths worldwide each year, according to the World Health Organization (WHO).
+Pollutants mainly enter the body through the lungs, where they can cause inflammation, damage cells and weaken the immune system. PM2.5 can also pass into the bloodstream, reaching organs including the heart and brain.
+Air pollution is most strongly linked to stroke, heart disease, chronic obstructive pulmonary disease (COPD), lung cancer and pneumonia. It can also worsen asthma and reduce lung function, while smoke from cooking with fossil fuels indoors is linked to cataracts.
+Long-term exposure has also been linked to dementia and a higher risk of diabetes.
+Children, older people, pregnant women and those with heart or lung conditions are most at risk. Exposure during pregnancy has been linked to premature birth and low birth weight.
+What can you do to protect yourself?
+You can’t control the air outside, but these simple steps can reduce how much pollution you breathe in:
+- Wear a mask: Use a well-fitting N95 or similar mask outdoors, as cloth masks offer little protection against fine particles.
+- Keep indoor air clean: Close windows on high-pollution days and use an air purifier with a HEPA filter.
+- Limit outdoor activity: Avoid strenuous exercise outside on high-pollution days.
+- Check air quality: Check the Air Quality Index (AQI) in a weather app before going out.
+- Protect those most at risk: Take extra care with children, older people and those with asthma.
+How governments are tackling pollution
+Governments are trying a range of measures to cut air pollution, particularly in large cities.
+Car-free days close city centres to vehicles or limit driving by number plate. Paris held its first car-free day in September 2015, covering about a third of the city. Nitrogen dioxide levels fell by up to 40 percent in some areas, according to monitoring agency Airparif. From 2016, the city also began closing the Avenue de Champs-Elysees to traffic on the first Sunday of each month.
+Low-emission zones charge the most polluting vehicles. Within three months of London’s Ultra Low Emission Zone (ULEZ) launching in 2019, nitrogen dioxide concentrations at roadside monitoring sites in central London fell by 19.6 percent, according to a University of Birmingham study.
+Some cities have targeted household fuel burning. Krakow, Poland, replaced more than 25,000 coal and wood-burning heating devices before banning solid fuels for home heating in September 2019. Average annual PM2.5 levels in the city fell by 40 percent between 2010 and 2021, according to a 2025 study.

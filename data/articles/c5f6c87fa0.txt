@@ -1,0 +1,27 @@
+Oracle and the OpenJDK project have patched Java4Shell, a critical Java runtime vulnerability that researchers say can be exploited to hijack popular enterprise applications without authentication.
+The issue, tracked as CVE-2026-114938, is a memory safety flaw in the way OpenJDK processes Base64-encoded data. Calif, whose researcher Quang Luong discovered the bug, made its findings public on November 17, after news of the flaw surfaced ahead of the coordinated disclosure.
+Specifically, the bug was found in a routine that OpenJDK relies on to decode Base64 on x86-64 CPUs supporting AVX-512 VBMI. Calif’s analysis shows that invalid Base64 strings can cause the routine to write past the end of its output buffer, potentially corrupting nearby heap data before Java flags the input as invalid.
+“With careful exploitation, the corruption can reveal sensitive memory, as Heartbleed did, or lead to remote code execution,” Calif explained.
+The researchers call the memory leak capability JavaBleed. They warn that heap data exposed this way could contain PII, secret keys and tokens.
+Default configurations exposed to Java4Shell attacks
+In its initial tests, Calif achieved pre-authentication remote code execution (RCE) on Keycloak, Atlassian Jira and Confluence, JFrog Artifactory, Jenkins and PingFederate, all running with default settings. Authenticated attackers could also execute code on Apache Kafka Broker, Solr, Elasticsearch, Gerrit and Spinnaker, and the researchers say neither list is exhaustive.
+Code execution was also achieved against sample apps based on Apache Struts and Spring Boot. Calif warns that the decoder can be reached through everyday functionality, including authentication and file uploads.
+Client-side attacks are possible too. Based on an exploit shared with Calif by security researcher samczsun, a Java application can be compromised when it connects to an attacker-controlled server over TLS, even if it does not run any services.
+“One thing to note about this vulnerability is that there is no universal exploit. Depending on how Base64 is used and how the application works, different steps may be required for exploitation,” Calif noted.
+VulnCheck says crashing a vulnerable JVM is easy once an attacker finds a reachable entry point that relies on the affected decoding logic. In its tests, a quick series of crafted requests reliably took down the service.
+The security firm says it has developed a full RCE exploit as well, but noted that achieving RCE is much harder, as the attacker must manipulate the heap layout and find a way (specific to each target) to leak addresses and bypass ASLR.
+“In other words, we don’t anticipate that CVE-2026-114938 will be easily or widely exploitable, but as with PHP2Shell, adversaries are likely to find narrow but functional paths to RCE in specific applications,” VulnCheck said.
+The proof-of-concept (PoC) code published by Calif demonstrates the memory corruption but does not achieve code execution. “The weaponized chains for individual products stay private until everyone has had a chance to upgrade. We will publish them later,” the company noted.
+According to Calif, AI played a key role in both discovering and exploiting the vulnerability.
+“It took our own Quang Luong an hour to discover the vulnerability, and two more hours to develop the first working exploit. The total token cost was less than $200,” Calif said.
+Affected versions and patches
+According to Calif, OpenJDK versions starting with 17.0.6 are vulnerable, and so are the Java distributions based on it, including Amazon Corretto, Eclipse Temurin, Microsoft Build of OpenJDK, Azul Zulu, Red Hat OpenJDK and Oracle Java SE. The OpenJDK advisory lists Java 17, 21, 25 and 27 as affected by CVE-2026-114938.
+Exploitation requires x86-64 hardware with AVX-512 VBMI support, such as Intel Xeon processors from the Ice Lake generation onward and AMD chips based on Zen 4 or newer architectures. Systems powered by ARM64 chips are not vulnerable.
+Calif assigned the flaw a CVSS 4.0 score of 9.2. Oracle’s advisory gives it a CVSS 3.1 score of 8.1 and lists it as remotely exploitable without authentication, but with high attack complexity.
+Oracle released fixes in its November 2026 Critical Security Patch Update, which resolves 11 Java SE vulnerabilities.
+Endor Labs pointed out that users of other Java distributions will need to wait for their vendors to roll out patched builds. It also noted that, as of November 17, the fix was not yet present in the public OpenJDK 17, 21 and 25 update repositories.
+CISA has called for immediate patching, with internet-exposed systems at the top of the list. The agency also advises hunting for Java installations embedded in third-party software, containers and appliances, warning that these may not be listed separately in asset inventories.
+Cisco Talos has yet to see the vulnerability exploited in the wild, but noted, “we anticipate probing attempts may pick up soon after public disclosure.”
+Related: Telegram Widgets Hit by RCE Demos, Malware Warning Days After Launch
+Related: Nightmare Eclipse Drops Windows Zero-Day Exploit ‘SignDrop’
+Related: N-able Kills Legacy APIs, Patches 17 N-central Zero-Days
