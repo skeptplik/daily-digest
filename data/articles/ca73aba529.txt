@@ -28,8 +28,8 @@ The Eindhoven project has the backing of former ASML chief executive Peter Wenni
 In a news release backing the new pilot line, Wennink described it as "a launchpad for Europe's future digital economy".
 "By investing in scalable production capacity, we are creating an ecosystem that can help shape the global technological direction," he said.
 Of course, Europe is not alone in looking to the potential of photonics to earn a global economic advantage.
-In June this year, US photonics company Coherent, external announced what it called "the world's first and largest volume-production six-inch indium phosphide manufacturing platform" at its plant in Sherman, in Texas.
-The expansion is backed by chip manufacturing giant Nvidia, as well as $50 million public funds under the US Chips Act.
+In June this year, US photonics company Coherent announced what it called "the world's first and largest volume-production six-inch indium phosphide manufacturing platform" at its plant in Sherman, in Texas.
+The expansion is backed by chip manufacturing giant Nvidia, external, as well as $50 million public funds under the US Chips Act.
 It's an illustration of how quickly the market is moving, and how central photonic chips could be to the continuing race to retain an influential stake in AI and technological development more generally.
 Europe's bid to establish itself as a global leader in photonic chips â exemplified by the Eindhoven project â is the kind of strategy that makes sense in a globalised economy, says Joris Teer, policy analyst at the European Institute for Security Studies in Brussels.
 If the continent can take a lead in photonic chips, then future developments in AI and data will partly be dependent on Europe.

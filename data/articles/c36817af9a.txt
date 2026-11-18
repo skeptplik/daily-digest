@@ -1,0 +1,17 @@
+CISA warns of ‘Java4Shell,’ an AI-found Java bug touching most of the Fortune 500
+The federal cybersecurity agency urged organizations to immediately patch a new vulnerability affecting Java — one of the world’s most used programming languages — after experts warned that it could allow an attacker to take over servers without a password.
+The Cybersecurity and Infrastructure Security Agency (CISA) sent out a notice on Tuesday night about CVE-2026-114938 — a memory corruption vulnerability researchers are calling “Java4Shell.”
+CISA said those exploiting the bug could use it to crash the critical Java Virtual Machine and conduct unauthenticated remote code execution.
+The agency urged organizations to review their software inventories for affected Java installations — including those bundled within third-party applications. Organizations should prioritize internet-facing systems, CISA added.
+Oracle released a patch for the bug in its November Patch Tuesday release, writing that the bug carries a severity score of 8.1.
+Oracle credited Quang Luong and Albert Yang of cybersecurity firm Calif with discovering the vulnerability. Calif, which also discovered the highly publicized vulnerabilities impacting PHP last month, released its own advisory about CVE-2026-114938.
+The company noted that Java is the world's third most popular programming language and powers about 90% of Fortune 500 companies.
+“It is the beating heart of the modern economy. Banking, aviation, telecommunications, nearly every critical sector runs on Java, including national security systems,” the company said, providing video demonstrations of their exploits.
+Calif added that it used AI to discover the bug, as it did with PHP2Shell.
+“It took our own Quang Luong an hour to discover the vulnerability, and two more hours to develop the first working exploit. The total token cost was less than $200,” the company said.
+While the bug is concerning, Calif explained that there is no universal exploit and each system may require different steps to exploit.
+Luong provided a longer, in-depth explanation of the bug in the advisory and noted that he discovered it while “developing a 0-click exploit on a certain phone vendor.”
+Luong said they are holding back on releasing application-specific exploits and weaponized chains for individual products “until everyone has had a chance to upgrade.”
+Several other companies confirmed Calif’s findings and urged organizations to patch the bug immediately.
+Jonathan Greig
+is a Breaking News Reporter at Recorded Future News. Jonathan has worked across the globe as a journalist since 2014. Before moving back to New York City, he worked for news outlets in South Africa, Jordan and Cambodia. He previously covered cybersecurity at ZDNet and TechRepublic.

@@ -1,0 +1,36 @@
+World
+Theft of trade, tech secrets 'a global issue' extending beyond recent headlines: security CEO
+Recent episodes illustrate risks companies face from those motivated to steal their secrets
+Some of the leading tech companies in the U.S. have been finding out recently that the threat of espionage extends into the corporate realm.
+At Nvidia, an alleged Chinese spy had a relationship with the company's top executive, Jensen Huang. The scandal has rocked markets, raised national security concerns and led to Huang's ouster. China has denied trying to entrap him. Congress still has questions.
+At OpenAI, a former employee was criminally charged after allegedly planting a listening device in a conference room. FBI Director Kash Patel has said that was done "to secretly capture sensitive communications" about the company's technology. The accused has pleaded not guilty to illegally intercepting communications.
+And at Google, a former employee was charged and accused of stealing AI technology from the company. In January, a jury convicted the man of multiple counts of economic espionage and theft of trade secrets — with prosecutors stating the theft had benefitted China. A judge later dismissed the espionage-related counts.
+These episodes have shone a light on the ongoing threat to companies — and by extension, the wider economy — from efforts to surreptitiously steal information and secrets. These include efforts involving state or state-linked actors.
+In Canada, authorities warn that the risks of these types of actions are increasing at a time when the global economy is becoming more competitive and some of the country's key sectors hold knowledge and insights of interest to hostile actors.
+A man walks past an OpenAI booth at a tech summit in San Francisco in September. (Carlos Barria/Reuters)
+Yet the drive to steal secrets extends beyond the AI and tech sectors — and beyond borders, warns Don Aviv, the CEO of security firm Interfor International.
+"This is a global issue," Aviv told CBC News in an interview.
+These events happen when a secret can be surreptitiously obtained that will benefit another party, he said.
+A problem for Canada, too
+Canada's national intelligence agency, CSIS, has warned that the country is "a target" for states seeking "to acquire sensitive research and technology to advance their own strategic political, economic and military advantage."
+In its 2025 public report, the spy agency predicted these threats will increase amid a more competitive global economy, as states jostle for advantages.
+AI is one area of interest for states to target at the moment, but it's not the only one that has their attention, according to Stephanie Carvin, an associate professor at the Norman Paterson School of International Affairs at Carleton University in Ottawa.
+"It's not just about AI, it's a whole range of high-level technologies," Carvin, a former national security analyst for CSIS, told CBC Radio's Fresh Air.
+"In any kind of high-tech area, which is considered to be a strategic priority, where intellectual property is valuable — these are going to be targets as well," she added.
+Ottawa has made defending the economy a top priority of its new national security strategy.
+The framework plan says "Canadian workers, firms, and innovators need a secure foundation, free from foreign interference, espionage and economic predation, so their efforts can build a prosperous future for all Canadians."
+One measure Ottawa plans to take, according to the strategy, is to strengthen the sharing of intelligence information with the private sector and with research institutions. The government says it will also "build intelligence, counterintelligence and security screening capacity to support these partnerships."
+Defending against threats
+There are companies, like Aviv's own, which provide training on how to prevent these incidents and defend against them.
+In general, Aviv said an effort to prevent the theft of a particular set of knowledge or processes involves conducting an assessment of how valuable that information is, how readily it can be stolen and then determining what can be done to protect it in the long run.
+Carleton University's Carvin says companies need to carefully consider the level of access to information that is required for the people in their organizations.
+"Who has access to what information? What do they need? Do you have a need-to-know policy?" said Carvin.
+"Do you have compartmentalization of information?" Carvin asked, noting that may be a more complicated question in an era in which working with AI may require making use of broad swaths of data.
+In Canada, AI is on a formal list of technologies that Ottawa considers to be sensitive. These carry concerns about to risk to Canada or its allies if such technologies are transferred to adversaries.
+Some major AI companies seem to recognize the threats they are facing, given the interest in their technology and products — and they are beefing up their staffing accordingly.
+OpenAI appointed Paul Nakasone, the former director of the U.S. National Security Agency, to its board of directors in 2024.
+Over at Anthropic, the company announced the creation of a national security and public sector advisory council last year, which included a former deputy director of the CIA and a former executive director of U.S. Cyber Command.
+More broadly, Reuters has reported that chip, tech and AI firms have been hiring former intelligence professionals to help guard their secrets.
+"The AI firms have snapped up a lot of security talent," Christopher Falkenberg, the president of the New York-based Insite Risk Management, recently told Reuters.
+"There are some very sophisticated people out of government thinking about security for these businesses," said Falkenberg, who's also a former U.S. Secret Service agent.
+With files from Reuters and CBC Radio's Fresh Air

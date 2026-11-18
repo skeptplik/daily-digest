@@ -1,0 +1,14 @@
+Threat actors have been exploiting a critical-severity vulnerability in Perforce Puppet to execute code on vulnerable servers.
+Puppet is an infrastructure-as-code (IaC) and configuration management platform that uses a client-server architecture for device management.
+Tracked as CVE-2026-115731 (CVSS score of 9.4), the exploited security defect is described as a deserialization of untrusted data issue in the report processing of Puppet Enterprise and Puppet Core, leading to remote code execution (RCE).
+It allows clients that have a certificate signed by the Puppet certificate authority (CA) to send reports containing malicious payloads that would be executed on the server with the service user permissions, putting managed systems at risk.
+“A successful attack could expose the server’s certificate-signing key, allow an attacker to issue trusted certificates, and enable changes to software and configuration delivered to managed systems on their next Puppet run,” Perforce explains in an advisory.
+Unauthenticated attackers could obtain a certificate if the CA auto-signs requests without performing strong verification. Administrators are advised to turn off auto-signing and enforce strong validation to ensure only trusted systems and authorized users can receive certificates.
+The security hole was patched on November 3 alongside CVE-2026-115732, a critical issue where an attacker could use a certificate with a name that extends an approved name to bypass authorization and impersonate a managed machine.
+Puppet Enterprise and Puppet Enterprise Advanced versions 2026.0.1, 2025.12.1, and 2023.8.13, and Puppet Core versions 9.1.3 and 8.22.2 contain patches for both flaws.
+CVE-2026-115731 was flagged as exploited on November 4 and the US cybersecurity agency CISA added it to its Known Exploited Vulnerabilities (KEV) catalog on November 17, urging federal agencies to patch it within two weeks, in line with BOD 26-04’s recommendations.
+The vulnerability also affects the OpenVox configuration management platform. A proof-of-concept (PoC) exploit targeting OpenVox was published shortly after CVE-2026-115731 was patched.
+Related: Oracle Patches 950 Vulnerabilities With November 2026 CSPU
+Related: Java4Shell Vulnerability Puts Many Enterprise Applications at Risk of Takeover
+Related: AI Framework Autonomously Weaponized Flaws in Real Attacks, Google Says
+Related: Google Project Zero Sets Course for 30-Day Disclosure Deadline
