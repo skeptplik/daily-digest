@@ -1,5 +1,0 @@
-The Securities and Exchange Commission is opening a civil probe into Nvidia over whether the company’s disclosures misled investors, according to The Wall Street Journal.
-The investigation adds to Nvidia’s stack of drama after CEO Jensen Huang resigned following news of his extramarital affairs, including one with an alleged Chinese spy, Alice Huang, an executive at Singapore-based data company Megaspeed.
-The Commerce Department has been investigating Megaspeed since late 2024 under suspicion that the company diverted some of its Nvidia chips to China, which would violate U.S. export laws.
-Congress has also demanded that Huang answer questions about his affair and how it might have affected his stance that export restrictions should be loosened. Treasury Secretary Scott Bessent put it more bluntly over the weekend, accusing Nvidia of knowingly selling powerful chips to China to “goose their revenues and their earnings.”
-The news of the SEC probe also comes as Nvidia reports earnings to a market that has seen its stock fall more than 10% since Huang departed. The chipmaker reported revenue of $115.8 billion, up 103% from a year ago.

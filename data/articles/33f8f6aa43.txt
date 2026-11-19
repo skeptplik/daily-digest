@@ -1,0 +1,13 @@
+Judge signs off on sale of Spirit Airlines’ data to Google
+A New York federal bankruptcy judge on Tuesday greenlit the sale of Spirit Airlines’ employees’ data to Google, a decision that follows the tech giant’s agreement to abide by restrictions on how it uses and deidentifies the information.
+After shutting down in May, Spirit announced it would sell Google its former employees’ data for $10 million, prompting a lawsuit from the flight attendants’ union and criticism from 121 federal lawmakers.
+Soon after the outcry began, Google agreed to new terms designed to better protect sensitive data.
+On November 9, the union withdrew its objection to the sale, citing Google’s pledge to exclude employees’ health and medical data, alcohol and drug testing results, safety and disciplinary records and identification documents. The tech giant also agreed to what the union called a “rigorous de-identification process” and a mandatory review of the deidentified data by an independent assessor chosen in collaboration with the union.
+Google also agreed not to attempt to reidentify the data.
+In signing off on the sale, U.S. Bankruptcy Judge Sean Lane said the “procedures for the deidentification, transformation and preparation of the data” comply with applicable data protection laws, according to a court filing.
+Google did not immediately respond to a request for comment.
+The company has said it intends to use the data for AI model training. The agreement is the first of this scale to emerge in the AI era. The dataset includes an estimated 100 million emails and half-billion Microsoft Teams messages, which experts say will be useful for training agents handling professional tasks.
+While the flight attendants’ union has celebrated the protections it won, Arjun Bhatnagar, the CEO of the consumer privacy startup Cloaked, said the data sale still poses a threat to employees.
+“Google said it won't try to reidentify anyone, and that promise is supposed to follow the data, but every time a dataset like this gets copied, licensed or breached, someone always finds an opening to connect all the data points,” he said via email.
+Suzanne Smalley
+is a reporter covering digital privacy, surveillance technologies and cybersecurity policy for The Record. She was previously a cybersecurity reporter at CyberScoop. Earlier in her career Suzanne covered the Boston Police Department for the Boston Globe and two presidential campaign cycles for Newsweek. She lives in Washington with her husband and three children.

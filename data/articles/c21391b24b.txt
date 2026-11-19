@@ -1,0 +1,54 @@
+For Andrew, the hardest part of counting Russia’s war dead isn’t reading through the grim stories of how soldiers perished on the battlefield or the often sordid details of their backgrounds.
+It’s thinking of the children whose lives are forever changed by the conflict, like the seven-year-old girl who wrote “please come back” on her father’s social media page.
+“It pains me to realize that the lives of all these people could have turned out differently in another country,” he said. “Russia, as a political and social system, bears responsibility for this human tragedy.”
+Andrew is part of the small but dedicated community of researchers, journalists and volunteers whose goal is to pin down the elusive number of Russian soldiers who have died in the war with Ukraine. Because he is based in Russia, where such work carries the risk of jail time, Andrew requested anonymity to speak freely.
+It’s an imperfect science relying on data analysis, risky on-the-ground verification and combing through web pages and social media feeds for evidence, like newly inaugurated war memorials and social media tributes from grieving relatives.
+Even with automation, the process is time-consuming. But those who do it say the work matters, both for the public’s understanding of the war and for the Russians who have lost family members to it.
+“Unfortunately, there were dozens and dozens of cases where relatives learned about their loved ones not from officials, not from Wagner, but from us,” said Olga Ivshina, a journalist for BBC Russian, which has tracked casualties since the start of the war.
+“Some are angry at the commanders, some are angry at the higher chain of command, some are angry at the officials. But then later on, most of them started saying ‘well, it was destiny,’ trying to find some meaning in it,” she said.
+The extensive legwork put in by volunteers and journalists is a product of the Russian government’s silence around the issue.
+The Kremlin, highly sensitive to how the war is portrayed to the public, does not publish data on the number of fallen soldiers. While regional officials used to release some statistics, they have stopped at the direction of the Defense Ministry in recent years, according to Russian media reports.
+For Russia, the number of soldiers killed in the war is a proxy for measuring the conflict’s cost. Officials’ reluctance to reveal official tallies likely masks a staggering loss of life.
+The BBC is one of the organizations at the forefront of tracking efforts. Alongside the exiled news outlet Mediazona, it collects and verifies information about soldiers’ deaths. The results are published in a publicly available database that contained more than 285,000 entries as of early November.
+For those involved in the project, motivations vary from trying to provide closure to the families of fallen Russian soldiers to creating a historical record.
+“In the first months, we thought that maybe we could open the eyes of Russian society by showing them the enormous size of losses,” said David Frenkel, who helps lead Mediazona’s data collection efforts.
+Back then, there were only about 10,000 dead, he said. There was a belief that Russians would resist the government’s efforts to commit more manpower to the conflict if they knew about the loss of human life, recalling the immense losses the Soviet Union suffered during the unpopular, decade-long Afghan War, which totaled more than 15,000. That conflict helped erode people’s trust in the state, eventually contributing to the Soviet collapse.
+But as the number of dead ticked past that of the Afghan War within the conflict’s first year and the Kremlin restricted Russians’ ability to speak out, the project’s goal morphed into something different.
+“It’s pretty obvious that this war is a crime,” Frenkel said. “The question is, how big is this crime? And what cost does Russia pay for this crime?”
+In an interview, Frenkel walked The Moscow Times through his team’s process.
+The BBC and Mediazona mainly rely on two sources of information: social media posts from families and statements from regional authorities. There, they find the majority of the obituaries that represent a starting point for inputting a new death into the database.
+After a name is found, the team looks to pin down basic facts: that the person existed and died, and that they participated and most likely died in the war.
+Even though regional governments have stopped publishing figures, local officials across Russia continue to post on social media about fallen soldiers from their communities, providing some of the strongest initial indicators of deaths.
+While these sources provide relatively straightforward leads, things can get stranger in other corners of the Russian internet, where leads don’t always come in the form of a traditional, written obituary.
+Frenkel said his team has found names everywhere from the photos of memorial desks in schools set up to honor deceased former students to the readings of influencers with supposed psychic powers who predict whether a missing soldier is alive or not.
+Russia’s immense size and diversity present their own challenges. In some regions, Indigenous languages can make open-source evidence harder to track down. In others, people may be less open about their loved ones’ fate.
+“In regions like Bashkortostan and Tatarstan that are leading in the absolute figures, we get hold of a more realistic number of deaths,” Ivshina said.
+People in more close-knit and economically disadvantaged regions in Siberia and the Far East are less likely to speak openly for fear of backlash from the state or their community.
+“In a tiny place, if you go against the state, there is nowhere else to go,” Ivshina said. “So I think there are many more settlements which were harshly affected. We don’t know about them because people keep silent.”
+Researchers also struggle with a months-long backlog of cases, uncertainty over the fate of some soldiers — particularly those who might have been captured by Ukraine — and a government that has made it exceedingly difficult to get reliable information.
+Whereas people in Russia initially submitted photos of military graves to the project, that kind of information-gathering has become too dangerous for most.
+Recently, a man in the northwestern city of Yaroslavl was sentenced to 14 years in a maximum-security penal colony for just such activity, the first judgment of its kind. The man, who was convicted on treason charges, allegedly sent footage of military graves to the Ukrainian security services.
+Mediazona now explicitly warns prospective volunteers not to send them footage from graveyards.
+“The Russian government is doing a lot of work to stop us,” Frenkel said.
+And then there’s the emotional toll that this work can take. For some, it’s not easy wading through the heart-wrenching laments of families coming to terms with loss and the endless stream of memorial photos.
+“The nature of this work is such that you cannot use AI or machine learning, you have to process all these obituaries by hand,” said U.S.-based researcher Maria Vyushkova, who has tallied Russia’s war dead for different projects. “Of course, it is very emotionally taxing. You have to think about this 24/7.”
+Vyushkova said she knows people who, in the course of verifying the data, have even discovered the deaths of people they know.
+“I have talked to other activists … who do the same kind of work, and some of them described the nightmares they’re having about those fallen soldiers,” she added.
+This month, a major data leak from state statistics agency Rosstat seemed to open an unprecedented window for researchers. It showed that more than 450,000 Russians have been killed since the beginning of the full-scale invasion in 2022 — a number that eclipses the independent monitors’ estimates.
+Since the data was released, researchers have pored over its contents, assessing its accuracy.
+There are discrepancies: Ivshina pointed to cases where infants and elderly people were recorded as military personnel. But the frequency of these issues is in line with expected levels of human error for a database with 11 million entries.
+Then there are the issues with the initial analysis from the hacker groups that released the data, Cyber Partisans of Belarus and Silent Crow. By relying on the WHO International Classification of Disease codes used to record the causes of death, Ivshina said initial counts may have missed some cases or included ones they should not have.
+The hacker groups also used different methodologies for their counts, producing markedly different tallies.
+Ultimately, even this kind of leak is unlikely to reveal a full picture of the situation given the difficulty of accounting for every one of the hundreds of thousands of Russian troops who have fought and died in the war.
+For instance, neither the official number nor the BBC and Mediazona’s estimates include soldiers who are missing in action, whose deaths may only be confirmed over a year after they were killed.
+“On average, it takes 150 days to get hold of the body and 236 days to register the death,” Ivshina said.
+All of that means that the best estimate of Russia’s war dead is really just an educated guess.
+“Even the Russian Defense Ministry doesn’t know the number,” Frenkel said. “It would probably take years after the war ends to figure out at least something close to the real number.”
+A Message from The Moscow Times:
+Dear readers,
+We are facing unprecedented challenges. Russia's Prosecutor General's Office has designated The Moscow Times as an "undesirable" organization, criminalizing our work and putting our staff at risk of prosecution. This follows our earlier unjust labeling as a "foreign agent."
+These actions are direct attempts to silence independent journalism in Russia. The authorities claim our work "discredits the decisions of the Russian leadership." We see things differently: we strive to provide accurate, unbiased reporting on Russia.
+We, the journalists of The Moscow Times, refuse to be silenced. But to continue our work, we need your help.
+Your support, no matter how small, makes a world of difference. If you can, please support us monthly starting from just $2. It's quick to set up, and every contribution makes a significant impact.
+By supporting The Moscow Times, you're defending open, independent journalism in the face of repression. Thank you for standing with us.
+Remind me later.

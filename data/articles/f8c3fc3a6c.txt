@@ -1,9 +1,0 @@
-Xbox VP of Next Generation Jason Ronald has clarified that Project Helix is "designed to be a console that is also capable of playing games, not a PC that can also play console games."
-In the Xbox 25th Anniversary Magazine, Ronald described Project Helix as "the ultimate gaming machine – one that removes all the barriers of play that have historically existed."
-"The goal is making it easy, intuitive, and instant to access games. But if you're a hardcore gamer or a power user who wants to have that deeper level of customisability across settings and performance options, you can absolutely go do it."
-Xbox CEO Asha Sharma confirmed Project Helix's console and PC compatibility in March, adding that the console will "lead in performance" for Xbox and PC games.
-As Ronald previously discussed at GDC Festival of Gaming, Project Helix will utilise neural rendering, which uses AI models to enhance graphics. Ronald identified neural rendering as a particular focus for Project Helix, as it also addresses the ongoing component crisis.
-"It's definitely a challenging time, but as a system and platform designer, it's one of the most exciting times, because we have to invent entirely new technology to continue to advance the state-of-the-art while also [making] things accessible and affordable."
-"This is a big reason why we're really focused on advancements like neural rendering, because it's an entirely new way to generate a frame without requiring more computational horsepower [and] additional memory."
-He concluded: "I think you're going to see more innovation over the next three to five years than you've seen in the last ten years."
-Reports last month indicated that Project Helix is expected to launch during the 2028 holiday season, with a projected price between $1,200 and $1,800.

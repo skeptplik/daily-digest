@@ -6,9 +6,9 @@ Production AI involves decisions beyond model selection: how context is retrieve
 The InfoQ AI Engineering Program examines these decisions through RAG architectures, agent design, platforms, and evaluation. Participants work through technical approaches and failure modes, applying them to AI systems or proposals from their own work.
 Three January cohorts are planned:
 - Hien Luu, AI/ML leader and author of MLOps with Ray, starts January 9, Saturdays at 09:00 PST.
-- Adi Polak, Director of Developer Experience Engineering at Confluent, starts January 21, Thursdays at 08:00 PST.
+- Adi Polak, director of developer experience engineering at Confluent, starts January 21, Thursdays at 08:00 PST.
 - Lan Chu, principal engineer at Rabobank and author of Post-training LLMs, starts January 22, Fridays at 14:00 CET. Her QCon London 2026 presentation examined a production RAG system built on more than 10,000 documents and used by more than 300 people.
-Architecture: Decisions Across Teams and Platforms
+Architecture: Decisions across Teams and Platforms
 Architecture choices are shaped by system requirements, team boundaries, platform ownership, and organizational constraints.
 The InfoQ Architect Program covers distributed systems, decentralized decisions, platform engineering, and AI architecture. Participants apply the material to architecture decisions they currently own, compare trade-offs with peers, and practice communicating their reasoning to stakeholders.
 The capstone involves co-authoring a technical article examining AI's role in software architecture or platform engineering. Selected articles may be published on InfoQ.
@@ -21,4 +21,4 @@ The January 12 cohort is facilitated by Olimpiu Pop, InfoQ Podcast co-host with 
 Workshop Format and Participation
 The live online workshops focus on discussion and application rather than recorded lectures. Participants work with an experienced facilitator and a small cross-company peer group, bringing current engineering decisions into the sessions and testing approaches between meetings.
 Sessions are not recorded, allowing participants to discuss organizational constraints more openly. Certification requires attendance, active participation, and successful completion of the program capstone.
-Participation costs USD 1,470 per person. Full schedules, syllabi, and registration details are available on the InfoQ Online Certification Programs website.
+Participation costs USD $1,470 per person. Full schedules, syllabi, and registration details are available on the InfoQ Online Certification Programs website.

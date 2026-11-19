@@ -1,0 +1,48 @@
+World
+Flights, banks, emails: What we know about a U.S. wave of tech outages
+Back-to-back disruptions cause concern for many over high-profile technology meltdown
+A string of recent technical outages across the U.S. has affected everything from air travel and banking to security systems, raising questions about whether the seemingly unrelated incidents are caused by cyberattacks, artificial intelligence (AI) or simply overdue updates.
+This distressing series of glitches has affected multiple organizations — Microsoft, the Federal Aviation Administration (FAA), JPMorgan Chase, the National Security Agency's communications network and Apple — and left the U.S. administration scrambling to calm an American public worried about accessing their emails, checking their bank accounts or safely flying on airplanes.
+Those organizations say the disruptions were not a result of cyberattacks; in most cases, the outages have been blamed on technical glitches.
+If you've been confused about what's been glitching where, here's a breakdown of what happened.
+Air travel
+The FAA issued a countrywide ground stop on Friday that caused upheaval after halting thousands of flights over an air traffic control communications outage, lasting for almost five hours.
+It was the longest countrywide halt to U.S. air travel since the Sept. 11, 2001, al-Qaeda attacks on the U.S.
+Transportation Secretary Sean Duffy said there was no evidence of a cyberattack.
+Duffy said Wednesday an issue with a Juniper router installed by L3Harris Technologies in a remote Arkansas facility "was not identified quickly enough" and that lessons have been learned to prevent future incidents.
+Jay Clayton, the Trump administration's director of national intelligence, said Wednesday at a House committee hearing that there was "no indication of any external threat actors or state-sponsored actors."
+A screen at Miami International Airport displays information about the ground stop order issued by U.S. aviation regulators on Nov. 13. (Georgio Viera/AFP/Getty Images)
+Equity research and brokerage firm Bernstein estimated the ground stop and the weekend work needed to recover from it cost the four biggest U.S. airlines $345 million US combined.
+Days after the ground stop, United Airlines said an outage that triggered departure delays for more than 100 flights on Monday was related to a system that helps them determine a plane's final weight. The airline said there was no indication it was a cybersecurity-related issue.
+While these outages may not have been caused by cyberthreats themselves, some experts say the race to address software vulnerabilities exposed by AI has put companies at risk of the updates themselves getting botched.
+"We have systems like the FAA systems, which are known to be ancient and really need an upgrade," Anne Neuberger, a general partner with the venture capital firm Andreessen Horowitz and former White House deputy national security adviser, told the Wall Street Journal. "In addition to that, we have this whole set of AI attackers that are able to find vulnerabilities in code."
+Banking
+JPMorgan Chase, the largest U.S. bank, said a software bug was affecting its internal hardware systems and causing transaction delays that began on Monday.
+Some customers of the company's retail bank, Chase, received a message Monday that said, "Some services aren't available. We're working on them. Please try back later."
+A Chase spokesperson said in an email Tuesday that the problem was resolved later Monday and that "transactions are processing normally."
+While the disruptions took place just days apart, government officials and company leaders have said the banking glitches were unrelated to the Microsoft and air traffic disruptions last week.
+A person walks past an advertisement for Chase bank in Washington, D.C., on Monday after Chase customers reported outages. (Brendan Smialowski/AFP/Getty Images)
+The parent company said the technical problem was not the result of a cyberattack, stressing it was an isolated incident and not related to anything other than a bug.
+Customers at Bank of America, Citigroup and other banks trying to transact with Chase may have seen their transactions slow, even though those banks were not having issues with their services, a Chase spokesperson said.
+While this incident was isolated to technical problems at Chase, the way the modern financial system works is that a failure at one bank can make it appear as if other banks are affected, even if they are operating normally.
+"Even when the cause is a technical failure rather than a cyberattack, an issue at one point in the system can disrupt transactions elsewhere," said Christina Powers, who specializes in cybersecurity and banking issues at West Monroe, a Chicago-based digital services firm.
+Many customers took to social media with concerns over whether their money is safe in the bank amid the rise in wider cyber issues. Even when online banking services are down, the money in the actual account remains safe and untouched, The Associated Press reported. Bank deposits are insured up to $250,000 US by the Federal Deposit Insurance Corporation.
+Email, video-conferencing and Apple services
+Tech giant Microsoft said the outage that hit its email and video-conferencing services last week was not the result of a cyberattack or rogue AI agents, but instead an unspecified issue with what the company described as a "network capacity upgrade."
+The Thursday outage lasted for more than 24 hours, severely impacting services including Outlook, Teams and AI assistant Copilot.
+The U.S.-based company said on Saturday that services had fully recovered across Teams, Outlook and its other products.
+Outlook and Teams are two of the most widely used workplace applications, with hundreds of millions of users. The outage prevented people from performing essential functions such as sending emails, managing calendars and hosting virtual meetings.
+It affected government agencies from Australia and Japan to the United States, caused delays at trading firms, hindered some companies from publishing earnings and prompted airlines to warn customers of communication lags.
+Organizations that host Microsoft services on their own servers, rather than in the cloud, were somewhat spared.
+The outage is one of the longest in Microsoft's history and the second disruption to its services this year.
+On Tuesday, Apple said it was working to restore its systems after an internal update caused an outage that affected customer services, including iCloud and Apple Pay.
+The issue was not caused by a cyberattack, Apple said.
+National Security Agency
+An internal network the National Security Agency uses to communicate classified information was offline Tuesday after what the agency described as "temporary degradation" during "routine maintenance."
+The problem disrupted the operations of NSANet, a classified internal network used by employees of the agency, according to a defence official who was not authorized to discuss the matter by name and spoke to The Associated Press on the condition of anonymity.
+- Canada-wide flight grounding unlikely, says aviation expert
+- United Airlines says issue affecting departing flights has been resolved
+"While some internal systems were affected, mission-critical capabilities remain fully operational and our ability to defend national security continues," the NSA said.
+"NSA's infrastructure is designed with multiple layers of redundancy to maintain operations during planned maintenance or unexpected events."
+The intelligence agency did not provide any additional details on the cause of the outage or the scope of the disruption.
+With files from Reuters and The Associated Press

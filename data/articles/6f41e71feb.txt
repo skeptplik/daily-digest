@@ -1,0 +1,31 @@
+This article is crossposted from IEEE Spectrum’s careers newsletter. Sign up now to get insider tips, expert advice, and practical strategies, written in partnership with tech career development company Parsity and delivered to your inbox for free!In one year, the number of developers working for themselves has more than doubled. Stack Overflow’s annual survey of more than 30,000 developers showed that freelancers and sole proprietors went from about four percent of respondents to ten percent.
+You can read this as a polite way of saying, “I got laid off and I’m figuring it out.” But I don’t think the number can be ignored.
+Whatever the case, it leads to the question I keep hearing from engineers right now: What can I do to stay employable? One tried and true answer is to build a personal brand.
+But what does that actually mean?
+Over the last six years, I grew my LinkedIn audience to 40,000 followers and YouTube channel to 10,000. I don’t think you should aim to be famous (unless you’re into that sort of thing) but I do think it’s worth exploring how to be discoverable online in 2027 if you want an advantage in the open market.
+A personal brand is a discovery mechanism
+Strip away the follower counts and the AI-generated thought leadership, and a personal brand comes down to a simple question: Does the internet know who you are? When a hiring manager goes looking for someone who has your skills, do you show up?
+You can think of this as search engine optimization for your employability. Recruiters have mostly consolidated around a single platform to find people: LinkedIn.
+Those 40,000 followers and millions of impressions came with barely a viral post to my name. Nobody is begging me to do sponsorships. But I rarely have trouble finding work, and far more opportunities come to me than I go looking for. That has much less to do with fame than with being easy to find.
+You don’t need 10,000 followers. You need a trail of breadcrumbs.
+Don’t write AI slop
+LinkedIn is notorious for being overrun with AI-generated posts. It’s become a running joke. That’s good news for you, because the bar to stand out is “sound like a human being.”
+Write about what you actually achieved: a hairy bug you squashed, how your team handles deployments, why you picked some obscure library, the migration that went sideways at 2 a.m. Specifics are hard to fake and easy to trust. (But be careful not to post sensitive information.)
+And post a picture of yourself once in a while. People connect with faces a lot faster than with walls of text.
+Hot takes, with caution
+Posts with an opinion tend to outperform tutorials, but you don’t have to dunk on anyone to have one. For instance, if you work on a tech stack people love to mock (VB, .NET, some ancient Java monolith held together with prayer), try something like “What people get wrong about .NET.”
+You’ll attract a few trolls in the comments—free engagement, honestly—plus people who want an actual conversation. These comments can turn into actual connections and even… friends.
+A routine you can follow
+Posting twice a week is not a big ask. Pick a simple, repeatable format so you’re never staring at an empty text box: what you worked on, what broke, and what you learned. Even a post that gets 10 views leaves one more breadcrumb about who you are and what you know.
+Over time, the people who comment become your network. And because so few engineers post about their work on LinkedIn, you can become a big fish in a small pond surprisingly fast.
+Write for the people a few steps behind you
+The best audience is engineers one or two steps behind where you are now. Answer the questions you had a year ago. It helps them, it sharpens your own thinking, and every so often it turns into mentorship in both directions.
+It also tells a future employer more about how you think than any résumé bullet ever could.
+The engineers who grab the most opportunities are the ones employers can find. You don’t need to become an influencer to be one of them. You just need to leave enough breadcrumbs that the right person can follow them back to you.
+—Brian
+To help researchers search through the millions of peer-review publications in the IEEE Xplore Digital Library, IEEE has released a custom AI suite optimized for STEM literature. The suit allows users to search with natural-language queries and provides overviews with reference links.
+AI has made it easier to access information in different domains, but specialist knowledge and human judgement still serve an essential role. Today, an engineer’s core value comes from knowing how to ask the right questions—not from knowing everything.
+In this feature article, Agility Robotics’ cofounder Jonathan Hurst tells the inside story of the company’s latest humanoid robot and offers a valuable lesson about learning to pivot. “To deliver a useful commercial product, Agility has taken a path that is very different from what I first imagined,” Hurst writes.
+Brian Jenney is the owner of Parsity, an online education platform that helps people break into AI and modern software roles through project-based learning and one-on-one mentorship with senior developers. Parsity helps career changers transition into software by focusing on practical skills, real-world systems, and the kind of experience companies actually look for.
+Outside Parsity, Brian works a senior software engineer in the SF Bay Area.
+Brian is also a father of three, and when he’s not working with students or building programs, you might catch him running around Lake Merritt in Oakland, California.

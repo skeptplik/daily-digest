@@ -8,10 +8,9 @@ The NSA did not specify whether its outage was linked to the identified Java bug
 Apple also reported multiple services suffered full outages due to an internal update, while a network failure grounded all flights in the US.
 US Secretary of State Marco Rubio said there was "zero evidence" the incidents were related.
 Java releases critical update
-With the help of AI, Calif discovered a serious security vulnerability called Java4Shell, which allowed an adversary to remotely execute unwanted commands to Java's memory system.
+With the help of AI, Calif discovered a serious security vulnerability it has called Java4Shell, which allowed an adversary to remotely execute unwanted commands to Java's memory system.
 In this case, the adversary was OpenAI's recently-released model GPT-6 Cyber, which is not yet available to the public.
-But there are fears hackers could now identify the bug if the flaw isn't fixed.
-Oracle, the owner of Java, has not acknowledged the bug, but released a "critical patch update" on Tuesday, which it said contained security vulnerability fixes.
+Oracle, the owner of Java, released a "critical patch update" on Tuesday, which it said contained security vulnerability fixes - including for this flaw.
 At this stage it is unclear if any platforms or companies have been affected by the latest incident.
 But the Java flaw remains a huge concern for cyber-security experts, who say overloading a system's memory is one of the most common ways for hackers to exploit or crash a system.
 The BBC has contacted Oracle for comment.

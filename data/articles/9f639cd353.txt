@@ -1,0 +1,27 @@
+A reported cyberattack on Wellington IT has exposed sensitive information belonging to members of 50 credit unions, the majority of which are located in Ireland.
+Wellington IT is a Belfast-based supplier whose services are used by about 50 credit unions, including 43 in Ireland.
+While the company has not publicly disclosed a security incident, Minister of State Robert Troy confirmed to RTÉ that Wellington IT is the third-party service provider linked to the cybersecurity incident involving credit unions, resulting in the exposure of data from about 40 credit unions in Ireland.
+The company reportedly notified affected organizations of a data breach that posed a risk of financial fraud, impersonation, and targeted phishing to their members.
+According to the Irish Examiner, which saw the notices, Wellington IT informed customers that an automated script made five million requests to exploit an authorization flaw in the company's infrastructure.
+The attack unfolded between October 2 and 4, 2026, and the attacker accessed private records using valid credentials.
+However, the firm said it lacked activity logs that would specify which member data was compromised and therefore cannot verify the impact on individual payees.
+Minister R. Troy characterized the massive delay in Wellington IT notifying the credit unions as "not acceptable."
+At this time, the total number of impacted individuals is unknown.
+Sensitive information exposed
+At least six credit unions have independently disclosed impact linked to the incident, including Capital Credit Union, Phoenix Credit Union, St. Canice's Credit Union, First South Credit Union, Malahide Credit Union, and Limerick & District Credit Union.
+The announcements confirmed unauthorized access to payee information, with some noting that members' login credentials and funds haven't been affected, while others are working to determine exactly what was exposed.
+The notices list the following payee records saved in online banking platforms as potentially exposed:
+- Payee name or name associated with the payee's bank account
+- Nickname the member used to save the payee, if provided
+- International Bank Account Number (IBAN)
+- Bank Identifier Code (BIC)
+- Bank account number
+- Bank sort code
+- Payee address information
+- Payment reference information entered for the saved payee
+The records could also reveal which credit union member saved a particular payee.
+Account passwords, PINs, payment card details, and online banking credentials were unaffected, but union members are advised to remain vigilant for phishing and impersonation attempts.
+BleepingComputer has contacted Wellington IT to learn more about the incident, and we will update this post with their response once we receive it.
+Adaptive Security's AI agents analyze email intent, context, and behavior to uncover phishing, business email compromise, and invoice fraud.
+See what's getting through with a 14-day read-only scan of Microsoft 365 or Google Workspace, with no MX changes.
+Start your free email security scan.

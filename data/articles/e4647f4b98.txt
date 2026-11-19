@@ -1,0 +1,109 @@
+Abstract
+The Amazon rainforest is a cornerstone of regional and global carbon cycling1 and is widely regarded and modelled as a perennially evergreen ecosystem2,3. This prevailing view, however, masks substantial fine-scale variation in leaf phenology, limiting our capacity to predict ecosystem responses to climate change. Here by combining 10-m Sentinel-2 observations with machine learning, we uncover pervasive, spatially structured seasonal deciduousness across the basin. In 70.0% of the Amazon, leaf shedding precedes leaf flushing by at least 3 months, creating pronounced asynchrony between deciduousness and greenness seasonality, whereas the remainder shows near-synchronous phenology. Hydroclimate emerges as the dominant factor associated with this asynchrony across 51.6% of the area, followed by soil properties (33.2%) and light availability (15.2%). Motivated by this widespread decoupling between deciduousness and canopy greenness, we incorporated deciduousness-constrained leaf turnover and the resulting leaf-age demography into ecophysiological models, yielding spatially widespread improvements in the seasonal agreement between simulated gross primary productivity and satellite-derived photosynthetic seasonality across 79.9% of the basin. These findings challenge the conventional view of Amazonian phenology, demonstrating that previously overlooked deciduousness influences Amazonian carbon dynamics. Incorporating these insights into process-based models is essential for refining projections of climate–forest feedbacks in the Amazon and for understanding its ecological functions under accelerating global change.
+Access options
+Access Nature and 54 other Nature Portfolio journals
+Get Nature+, our best-value online-access subscription
+Receive 51 print issues and online access
+Buy this article
+- Purchase on SpringerLink
+- Instant access to the full article PDF.
+USD 39.95
+Prices may be subject to local taxes which are calculated during checkout
+Data availability
+Satellite data from Sentinel-2 are freely available at GEE (https://developers.google.com/earth-engine/datasets/catalog/COPERNICUS_S2_SR_HARMONIZED). MODIS MCD43A1 V061 data are available at GEE (https://developers.google.com/earth-engine/datasets/catalog/MODIS_061_MCD43A1). MODIS MAIAC EVI data (MCD19A3CMG V061) are available at https://www.earthdata.nasa.gov/data/catalog/lpcloud-mcd19a3cmg-061. MCD12Q1 V061 and MCD12C1 V061 data are available at https://www.earthdata.nasa.gov/data/catalog/lpcloud-mcd12q1-061 and https://www.earthdata.nasa.gov/data/catalog/lpcloud-mcd12c1-061. Daytime LST data (MOD11A2 V061) are available at https://www.earthdata.nasa.gov/data/catalog/lpcloud-mod11a2-061. ERA5-Land precipitation and surface downwelling shortwave radiation data are available at https://cds.climate.copernicus.eu/datasets/reanalysis-era5-land-monthly-means?tab=download. Soil moisture data are available at https://data.tpdc.ac.cn/en/data/bc51e1b0-494c-4cd5-ae4d-eba6b9d2322c (ref. 98). Soil texture data are available at https://soilgrids.org/. Soil fertility data are available at https://doi.org/10.1594/PANGAEA.879542 (ref. 99). Herbivory data are available at Zenodo (https://zenodo.org/records/11047796)100. The ecoregion polygon across the Amazon basin was obtained directly from the authors of ref. 37. Litterfall data were obtained from the data source provided in ref. 71 and directly from the authors of ref. 72. EC data are available at https://www.earthdata.nasa.gov/data/catalog/ornl-cloud-cd32-fluxes-brazil-1842-2. sPlotOpen data are available at https://idata.idiv.de/ddm/Data/ShowData/3474 (ref. 101). BIEN forest inventory data were accessed through the BIEN R package, available at https://cran.r-project.org/package=BIEN (ref. 102). MOD44B V061 data are available at https://www.earthdata.nasa.gov/data/catalog/lpcloud-mod44b-061. MODIS LAI data (MOD15A2H V006) are available at https://www.earthdata.nasa.gov/data/catalog/lpcloud-mod15a2h-006. VODCA v.2.0 data are available at https://doi.org/10.48436/t74ty-tcx62 (ref. 103). GOSIF v.2 data are available at https://globalecology.unh.edu/data/GOSIF.html. CSIF data are available at https://doi.org/10.11888/Ecolo.tpdc.271751 (ref. 104). Plant trait data are available from the TRY Plant Trait Database at https://www.try-db.org/TryWeb/Database.php. GEI used for validation was accessed through Google Earth (https://earth.google.com/). Phenocam imagery and associated crown-level leaf-status records used for validation were described previously28. The processed validation data used in the present study are available at Zenodo (https://doi.org/10.5281/zenodo.23132616)105.
+References
+- Malhi, Y. et al. Biogeochemical cycles in the Amazon. In Amazon Assessment Report 2021 (eds Nobre, C. et al.) Ch. 6 (United Nations Sustainable Development Solutions Network, 2021).
+- Nunes, M. H. et al. Forest fragmentation impacts the seasonality of Amazonian evergreen canopies. Nat. Commun. 13, 917 (2022).
+- Chen, X. et al. Novel representation of leaf phenology improves simulation of Amazonian evergreen forest photosynthesis in a land surface model. J. Adv. Model. Earth Syst. 12, e2018MS001565 (2020).
+- Hoorn, C. et al. Amazonia through time: Andean uplift, climate change, landscape evolution, and biodiversity. Science 330, 927–931 (2010).
+- Gatti, L. V. et al. Amazonia as a carbon source linked to deforestation and climate change. Nature 595, 388–393 (2021).
+- Staal, A. et al. Forest-rainfall cascades buffer against drought across the Amazon. Nat. Clim. Change 8, 539–543 (2018).
+- Fu, R. et al. Increased dry-season length over southern Amazonia in recent decades and its implication for future climate projection. Proc. Natl Acad. Sci. USA 110, 18110–18115 (2013).
+- Xu, H. et al. Rising ecosystem water demand exacerbates the lengthening of tropical dry seasons. Nat. Commun. 13, 4093 (2022).
+- Restrepo-Coupe, N. et al. Do dynamic global vegetation models capture the seasonality of carbon fluxes in the Amazon basin? A data-model intercomparison. Glob. Change Biol. 23, 191–208 (2017).
+- Manoli, G., Ivanov, V. Y. & Fatichi, S. Dry-season greening and water stress in Amazonia: the role of modeling leaf phenology. J. Geophys. Res. Biogeosci. 123, 1909–1926 (2018).
+- Wu, J. et al. Leaf development and demography explain photosynthetic seasonality in Amazon evergreen forests. Science 351, 972–976 (2016).
+- Wu, J. et al. Leaf reflectance spectroscopy captures variation in carboxylation capacity across species, canopy environment and leaf age in lowland moist tropical forests. New Phytol. 224, 663–674 (2019).
+- Chavana-Bryant, C. et al. Leaf aging of Amazonian canopy trees as revealed by spectral and physiochemical measurements. New Phytol. 214, 1049–1063 (2017).
+- Doughty, C. E. & Goulden, M. L. Seasonal patterns of tropical forest leaf area index and CO2 exchange. J. Geophys. Res. Biogeosci. 113, G00B06 (2008).
+- Lopes, A. P. et al. Leaf flush drives dry season green-up of the Central Amazon. Remote Sens. Environ. 182, 90–98 (2016).
+- Reich, P. B. Phenology of tropical forests: patterns, causes, and consequences. Can. J. Bot. 73, 164–174 (1995).
+- Park, J. Y. et al. Quantifying leaf phenology of individual trees and species in a tropical forest using unmanned aerial vehicle (UAV) images. Remote Sens. 11, 1534 (2019).
+- Hashimoto, H. et al. New generation geostationary satellite observations support seasonality in greenness of the Amazon evergreen forests. Nat. Commun. 12, 684 (2021).
+- Tian, J. et al. A leaf age-dependent light use efficiency model for remote sensing the gross primary productivity seasonality over pantropical evergreen broadleaved forests. Glob. Change Biol. 30, e17454 (2024).
+- Doughty, R. et al. TROPOMI reveals dry-season increase of solar-induced chlorophyll fluorescence in the Amazon forest. Proc. Natl Acad. Sci. USA 116, 22393–22398 (2019).
+- Restrepo-Coupe, N. et al. What drives the seasonality of photosynthesis across the Amazon basin? A cross-site analysis of eddy flux tower measurements from the Brasil flux network. Agric. For. Meteorol. 182–183, 128–144 (2013).
+- Song, G. et al. Scale matters: spatial resolution impacts tropical leaf phenology characterized by multi-source satellite remote sensing with an ecological-constrained deep learning model. Remote Sens. Environ. 304, 114027 (2024).
+- Song, G. et al. Monitoring leaf phenology in moist tropical forests by applying a superpixel-based deep learning method to time-series images of tree canopies. ISPRS J. Photogramm. Remote Sens. 183, 19–33 (2022).
+- Wang, J. et al. Multi-scale integration of satellite remote sensing improves characterization of dry-season green-up in an Amazon tropical evergreen forest. Remote Sens. Environ. 246, 111865 (2020).
+- Condit, R. et al. Quantifying the deciduousness of tropical forest canopies under varying climates. J. Veg. Sci. 11, 649–658 (2000).
+- Wu, J. et al. Biological processes dominate seasonality of remotely sensed canopy greenness in an Amazon evergreen forest. New Phytol. 217, 1507–1520 (2018).
+- Bradley, A. V. et al. Relationships between phenology, radiation and precipitation in the Amazon region: phenology drivers in the Amazon. Glob. Change Biol. 17, 2245–2260 (2011).
+- Wang, J. et al. An ecologically-constrained deep learning model for tropical leaf phenology monitoring using PlanetScope satellites. Remote Sens. Environ. 286, 113429 (2023).
+- Huete, A. R. et al. Amazon rainforests green-up with sunlight in dry season. Geophys. Res. Lett. 33, L06405 (2006).
+- Wright, S. J. & van Schaik, C. P. Light and the phenology of tropical trees. Am. Nat. 143, 192–199 (1994).
+- Guan, K. et al. Photosynthetic seasonality of global tropical forests constrained by hydroclimate. Nat. Geosci. 8, 284–289 (2015).
+- Ouédraogo, D. et al. The determinants of tropical forest deciduousness: disentangling the effects of rainfall and geology in central Africa. J. Ecol. 104, 924–935 (2016).
+- Garcia, M. N., Domingues, T. F., Oliveira, R. S. & Costa, F. R. C. The biogeography of embolism resistance across resource gradients in the Amazon. Glob. Ecol. Biogeogr. 32, 2199–2211 (2023).
+- Van Schaik, C. P., Terborgh, J. W. & Wright, S. J. The phenology of tropical forests: adaptive significance and consequences for primary consumers. Annu. Rev. Ecol. Evol. Syst. 24, 353–377 (1993).
+- Givnish, T. J. Adaptive significance of evergreen vs. deciduous leaves: solving the triple paradox. Silva Fenn 36, 703–743 (2002).
+- Huete, A. et al. Overview of the radiometric and biophysical performance of the MODIS vegetation indices. Remote Sens. Environ. 83, 195–213 (2002).
+- Chen, S. et al. Amazon forest biogeography predicts resilience and vulnerability to drought. Nature 631, 111–117 (2024).
+- Sulla-Menashe, D. & Friedl, M. A. User Guide to Collection 6 MODIS Land Cover (MCD12Q1 and MCD12C1) Product (NASA, 2018).
+- DiMiceli, C., Sohlberg, R. & Townshend, J. MODIS/Terra Vegetation Continuous Fields Yearly L3 Global 250m SIN Grid V061 MOD44B-061 (NASA DAAC, 2022).
+- Zotta, R.-M. et al. VODCA v2: multi-sensor, multi-frequency vegetation optical depth data for long-term canopy dynamics and biomass monitoring. Earth Syst. Sci. Data 16, 4573–4617 (2024).
+- Tian, F. et al. Coupling of ecosystem-scale plant water storage and leaf phenology observed by satellite. Nat. Ecol. Evol. 2, 1428–1435 (2018).
+- Camps-Valls, G. et al. A unified vegetation index for quantifying the terrestrial biosphere. Sci. Adv. 7, eabc7447 (2021).
+- Vico, G., Dralle, D., Feng, X., Thompson, S. & Manzoni, S. How competitive is drought deciduousness in tropical forests? A combined eco-hydrological and eco-evolutionary approach. Environ. Res. Lett. 12, 065006 (2017).
+- Lieberei, R. South American leaf blight of the rubber tree (Hevea spp.): new steps in plant domestication using physiological features and molecular markers. Ann. Bot. 100, 1125–1142 (2007).
+- Chen, T. & Guestrin, C. XGBoost: a scalable tree boosting system. In Proc. 22nd ACM SIGKDD International Conference on Knowledge Discovery and Data Mining 785–794 (Association for Computing Machinery, 2016).
+- Lundberg, S. M. et al. From local explanations to global understanding with explainable AI for trees. Nat. Mach. Intell. 2, 56–67 (2020).
+- Liu, M., Jiang, P., Chase, J. M. & Liu, X. Global insect herbivory and its response to climate change. Curr. Biol. 34, 2558–2569 (2024).
+- Malhi, Y. et al. Exploring the likelihood and mechanism of a climate-change-induced dieback of the Amazon rainforest. Proc. Natl Acad. Sci. USA 106, 20610–20615 (2009).
+- Reich, P. B. The world-wide ‘fast–slow’ plant economics spectrum: a traits manifesto. J. Ecol. 102, 275–301 (2014).
+- Jones, M. O., Kimball, J. S. & Nemani, R. R. Asynchronous Amazon forest canopy phenology indicates adaptation to both water and light availability. Environ. Res. Lett. 9, 124021 (2014).
+- Xu, X. et al. Variations of leaf longevity in tropical moist forests predicted by a trait-driven carbon optimality model. Ecol. Lett. 20, 1097–1106 (2017).
+- Li, X. & Xiao, J. A global, 0.05-degree product of solar-induced chlorophyll fluorescence derived from OCO-2, MODIS, and reanalysis data. Remote Sens 11, 517 (2019).
+- Zhang, Y., Joiner, J., Alemohammad, S. H., Zhou, S. & Gentine, P. A global spatially contiguous solar-induced fluorescence (CSIF) dataset using neural networks. Biogeosciences 15, 5779–5800 (2018).
+- Albert, L. P. et al. Age-dependent leaf physiology and consequences for crown-scale carbon uptake during the dry season in an Amazon evergreen forest. New Phytol. 219, 870–884 (2018).
+- Brando, P. M. et al. Seasonal and interannual variability of climate and vegetation indices across the Amazon. Proc. Natl Acad. Sci. USA 107, 14685–14690 (2010).
+- Friedlingstein, P. et al. Global carbon budget 2024. Earth Syst. Sci. Data 17, 965–1039 (2025).
+- Hilker, T. et al. Vegetation dynamics and rainfall sensitivity of the Amazon. Proc. Natl Acad. Sci. USA 111, 16041–16046 (2014).
+- Saleska, S. R. et al. Dry-season greening of Amazon forests. Nature 531, E4–E5 (2016).
+- Gonçalves, N. B. et al. Amazon forest spectral seasonality is consistent across sensor resolutions and driven by leaf demography. ISPRS J. Photogramm. Remote Sens. 196, 93–104 (2023).
+- Morton, D. C. et al. Amazon forests maintain consistent canopy structure and greenness during the dry season. Nature 506, 221–224 (2014).
+- Chen, J. et al. A simple method for reconstructing a high-quality NDVI time-series data set based on the Savitzky–Golay filter. Remote Sens. Environ. 91, 332–344 (2004).
+- Lyapustin, A. MODIS/Terra+Aqua Vegetation Index from MAIAC, Daily L3 Global 0.05Deg CMG V061. NASA LP DAAC https://doi.org/10.5067/MODIS/MCD19A3CMG.061 (2023).
+- Sentinel-2 MSI Level-2A BOA Reflectance. European Space Agency https://doi.org/10.5270/S2_-6eb6imz (2018).
+- Bai, H. et al. Unprecedented Amazonian rainforests damage during the 2023–2024 droughts. Proc. Natl Acad. Sci. USA 123, e2514066123 (2026).
+- Skakun, S. et al. Cloud Mask Intercomparison eXercise (CMIX): an evaluation of cloud masking algorithms for Landsat 8 and Sentinel-2. Remote Sens. Environ. 274, 112990 (2022).
+- Wang, J. et al. Automatic cloud and cloud shadow detection in tropical areas for PlanetScope satellite images. Remote Sens. Environ. 264, 112604 (2021).
+- Claverie, M. et al. The Harmonized Landsat and Sentinel-2 surface reflectance data set. Remote Sens. Environ. 219, 145–161 (2018).
+- de Moura, Y. M. et al. Spectral analysis of Amazon canopy phenology during the dry season using a tower hyperspectral camera and MODIS observations. ISPRS J. Photogramm. Remote Sens. 131, 52–64 (2017).
+- Somers, B., Asner, G. P., Tits, L. & Coppin, P. Endmember variability in spectral mixture analysis: a review. Remote Sens. Environ. 115, 1603–1616 (2011).
+- Zare, A. & Ho, K. C. Endmember variability in hyperspectral analysis: addressing spectral variability during spectral unmixing. IEEE Signal Process Mag. 31, 95–104 (2014).
+- Janssen, T. et al. Drought effects on leaf fall, leaf flushing and stem growth in the Amazon forest: reconciling remote sensing data and field observations. Biogeosciences 18, 4445–4472 (2021).
+- Zhang, H., Yuan, W., Dong, W. & Liu, S. Seasonal patterns of litterfall in forest ecosystem worldwide. Ecol. Complex. 20, 240–247 (2014).
+- Lian, X., Morfopoulos, C. & Gentine, P. Water deficit and storm disturbances co-regulate Amazon rainforest seasonality. Sci. Adv. 10, eadk5861 (2024).
+- Maitner, B. S. et al. The BIEN R package: a tool to access the Botanical Information and Ecology Network (BIEN) database. Methods Ecol. Evol. 9, 373–379 (2018).
+- Sabatini, F. M. et al. sPlotOpen—an environmentally balanced, open-access, global dataset of vegetation plots. Glob. Ecol. Biogeogr. 30, 1740–1764 (2021).
+- Kattge, J. et al. TRY plant trait database—enhanced coverage and open access. Glob. Change Biol. 26, 119–188 (2020).
+- Zou, Y. et al. Positive feedbacks and alternative stable states in forest leaf types. Nat. Commun. 15, 4658 (2024).
+- Ma, H. et al. The global biogeography of tree leaf form and habit. Nat. Plants 9, 1795–1809 (2023).
+- Réjou-Méchain, M. et al. Local spatial structure of forest biomass and its consequences for remote sensing of carbon stocks. Biogeosciences 11, 6827–6840 (2014).
+- Bruelheide, H. et al. Global trait–environment relationships of plant communities. Nat. Ecol. Evol. 2, 1906–1917 (2018).
+- Deng, C. & Wu, C. A spatially adaptive spectral mixture analysis for mapping subpixel urban impervious surface distribution. Remote Sens. Environ. 133, 62–70 (2013).
+- Vrugt, J. A., Ter Braak, C. J. F., Clark, M. P., Hyman, J. M. & Robinson, B. A. Treatment of input uncertainty in hydrologic modeling: doing hydrology backward with Markov chain Monte Carlo simulation. Water Resour. Res. 44, W00B09 (2008).
+- Zhang, K. et al. A global dataset of terrestrial evapotranspiration and soil moisture dynamics from 1982 to 2020. Sci. Data 11, 445 (2024).
+- Poggio, L. et al. SoilGrids 2.0: producing soil information for the globe with quantified spatial uncertainty. SOIL 7, 217–240 (2021).
+- Zuquim, G. et al. Making the most of scarce data: mapping soil gradients in data-poor areas using species occurrence records. Methods Ecol. Evol. 10, 788–801 (2019).
+- Lundberg, S. M. & Lee, S.-I. A unified approach to interpreting model predictions. In Advances in Neural Information Processing Systems (eds Guyon, I. et al.) Vol. 30 (Curran Associates, 2017).
+- Wan, Z., Hook, S. & Hulley, G. MODIS/Terra land surface temperature/emissivity 8-day L3 global 1 km SIN grid V061. NASA LP DAAC https://doi.org/10.5067/MODIS/MOD11A2.061 (2021).
+- Yuan, W. et al. Increased atmospheric vapor pressure deficit reduces global vegetation growth. Sci. Adv. 5, eaax1396 (2019).
+- Yuan, W. et al. Deriving a light use efficiency model from eddy covariance flux data for predicting daily gross primary production across biomes. Agric. For. Meteorol. 143, 189–207 (2007).
+- Zheng, Y. et al. Improved estimate of global gross primary production for reproducing its long-term variation, 1982–2017. Earth Syst. Sci. Data 12, 2725–2746 (2020).
+- Running, S. W. & Zhao, M. User's Guide: Daily GPP and annual NPP (MOD17A2/A3) products NASA Earth Observing System MODIS Land Algorithm (MODIS Land Team, 2015).
+- Xiao, X. et al. Satellite-based modeling of gross primary production in a seasonally moist tropical evergreen forest. Remote Sens. Environ. 94, 105–122 (2005).
+- Muñoz Sabater, J. ERA5-Land Monthly Averaged Data From 1981 to Present (Copernicus Climate Change Service Climate Data Store (C3S CDS), 2019).
+- Myneni, R., Knyazikhin, Y. & Park, T. MOD15A2H MODIS/Terra Leaf Area Index/FPAR 8-Day L4 Global 500 m SIN Grid V006. NASA LP DAAC https://doi.org/10.5067/MODIS/MOD15A2H.006 (2015).
+- Aguirre-Gutiérrez, J. et al. Canopy functional trait variation across Earth’s tropical forests. Nature 641, 129–136 (2025).

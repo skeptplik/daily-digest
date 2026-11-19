@@ -7,7 +7,7 @@ Since its launch, a series of standards has been developed to provide practical 
 This year marks the 10th anniversary of EAD’s first draft. To celebrate, IEEE SA recently launched a website, a podcast series, and a blog that reflect on the report’s achievements and impact.
 Eight guiding principles
 The word ethics is often used interchangeably with morality, but that is not the case in responsible AI systems design, according to EAD’s first version. The report includes insights from classical ethics traditions and value-based design methodologies to offer actionable recommendations for engineers developing AI tools.
-The report established eight foundational general principles for designing autonomous systems: respecting human rights, prioritizing increased well-being as success criteria for development, empowering individuals with data agency to have control over their identity, effectiveness, transparency, accountability, awareness of misuse, and competence for the system creators.
+The report established eight foundational general principles for designing autonomous and intelligent systems: respecting human rights, prioritizing increased well-being as success criteria for development, empowering individuals with data agency to have control over their identity, effectiveness, transparency, accountability, awareness of misuse, and competence for the system creators.
 The principles shift applied ethics to the design stage of AI systems, compared with being a concern after they’re released, the authors wrote.
 A suite of standards
 The IEEE 7000 series of standards has been developed based on EAD’s framework. Currently the series consists of 29 projects, 11 of which have been published, and more are still being added. They cover topics such as ethical system design model process (IEEE 7000-2021), AI system transparency (IEEE 7001-2021), data privacy (IEEE 7002-2022), algorithmic bias considerations (IEEE 7003-2024), the impact on people’s well-being (IEEE 7010-2020), machine-readable personal privacy requirements (IEEE 7012-2025), and systems that mimic human empathy (IEEE 7014-2024).
@@ -29,6 +29,7 @@ The episodes center around the vision for EAD, the process for selecting its fou
 The first podcast, “Origins of Ethically Aligned Design,” explored early efforts to make ethics a practical part of AI and autonomous system design. The experts discussed challenges, debates, global collaboration, and the real-world impact that helped move responsible technology from ethical principles toward actionable standards and practices.
 The second podcast, “The Chapters and Committees” focuses on the multidisciplinary groups that worked on turning broad human values into practical guidance for AI and autonomous systems.
 The podcast discussions serve as material for a thought leadership program that also includes blog articles about the IEEE 7000 series and educational resources to continue to raise awareness and support of this groundbreaking work.
+This article was updated on 18 November 2026.
 - How Microcredentials Can Help Engineers Build Trustworthy AI ›
 - IEEE Global Initiative Aims to Advance Ethical Design of AI and Autonomous Systems ›
 - Two New AI Ethics Certifications Available from IEEE ›

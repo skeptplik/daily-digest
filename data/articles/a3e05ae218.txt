@@ -1,0 +1,17 @@
+Abstract
+Perovskite solar cells (PSCs) have emerged as a promising photovoltaic technology, with efficiencies rapidly approaching those of established crystalline-silicon solar cells. Further efficiency gains, however, are increasingly limited by charge extraction and recombination at the interface between the perovskite absorber and the electron-transport layer. Interfacial modifiers are widely used to suppress these losses, yet many conventional ammonium-based modifiers are weakly electronically coupled to the perovskite surface and can introduce barriers to electron extraction 1-5. Here we realize electronically coupled heterointerfaces by introducing a family of heteroatom-containing, fully conjugated formamidinium interfacial modulators, establishing band-edge-extending conjugated heterointerfaces that overcome the bottleneck of inefficient interfacial electron transfer. The resulting band-edge-extended heterointerface establishes delocalized electron connectivity at the perovskite/electron transporting layer (ETL) interface and suppresses interfacial non-radiative recombination. We report a certified power-conversion efficiency (PCE) of 27.96% and a stabilized power output (SPO) of 27.84% for inverted PSCs. The corresponding devices retained over 95% of their initial efficiency after 2000 h continuous maximum-power-point tracking under 1-sun irradiation (ISOS-L). Extending this strategy to monolithic perovskite–silicon tandems enables a certified SPO of 34.71%, establishing band-edge extension as a broadly applicable approach to overcoming the conventional trade-off between interfacial passivation and charge extraction.
+Access options
+Access Nature and 54 other Nature Portfolio journals
+Get Nature+, our best-value online-access subscription
+Receive 51 print issues and online access
+Rent or buy this article
+Prices vary by article type
+Prices may be subject to local taxes which are calculated during checkout
+Supplementary information
+This Supplementary Information file contains the following: Synthesis of MeOTFI, TTFI, and BTFI; Supplementary Note 1: Experimental evidence for interfacial electronic coupling; Supplementary Note 2: Validation of the electronic-coupling mechanism in 1.68 eV perovskites; Supplementary Note 3: Temperature-dependent operational stability and Arrhenius analysis; Supplementary Figs. 1–52; Supplementary Tables 1–2; and Supplementary References.
+About this article
+Cite this article
+Dong, B., Cui, M., Chen, C. et al. Band-Edge-Extended Heterointerfaces for Perovskite Solar Cells and Tandems. Nature (2026). https://doi.org/10.1038/s41586-026-11427-1
+- Received:
+- Accepted:
+- DOI: https://doi.org/10.1038/s41586-026-11427-1
