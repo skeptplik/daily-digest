@@ -22,6 +22,12 @@ The notices list the following payee records saved in online banking platforms a
 The records could also reveal which credit union member saved a particular payee.
 Account passwords, PINs, payment card details, and online banking credentials were unaffected, but union members are advised to remain vigilant for phishing and impersonation attempts.
 BleepingComputer has contacted Wellington IT to learn more about the incident, and we will update this post with their response once we receive it.
+Update 19/11 - Wellington IT CEO Colin Mitchell sent BleepingComputer the below statement:
+“Wellington IT recently notified its credit union customers of a cyber security incident potentially involving certain information maintained within its CU Online platform. As soon as we confirmed the potential risk to customer data, we alerted our customers.
+We have taken steps to address the issue and engaged external cybersecurity experts to assist with our investigation and response. This investigation remains ongoing as we work to confirm the nature and scope of the incident, including any information that may have been involved.
+We are responding to customer inquiries as quickly as possible and we are collaborating fully with both regulators and law enforcement including the Data Protection Commissioner (DPC), the National Cyber Security Centre (NCSC), and the Garda National Cyber Crime Bureau (GNCCB).
+We are directly supporting our customers in their assessment of the potential impact on affected individuals and to help them meet any applicable regulatory obligations.
+We recognise the importance of this matter to our customers and their members and are treating it with the utmost seriousness. We remain focused on completing a thorough investigation and communicating directly with our customers as the investigation progresses.”
 Adaptive Security's AI agents analyze email intent, context, and behavior to uncover phishing, business email compromise, and invoice fraud.
 See what's getting through with a 14-day read-only scan of Microsoft 365 or Google Workspace, with no MX changes.
 Start your free email security scan.

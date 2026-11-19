@@ -1,0 +1,25 @@
+A Lack of ownership verification on the Hugging Face platform allowed researchers to take control of Kokoro, a text-to-speech model used in projects from Google, NVIDIA, AMD, Intel, and Amazon Web Services.
+An attacker hijacking the account could use it as a distribution channel in supply-chain attacks, potentially leading to data theft or code execution.
+However, the researchers demonstrated a stealthier attack: they modified the model's weights so it produced audio that differed from the input text, without changing the underlying application code.
+Because only the weights change, there is no malicious code or signature for malware scanners to detect, the researchers say.
+"We changed what this model says by fine-tuning its neural weights. Same input text. Same voice file. Same configuration. Same inference code — not a single line touched in the application that runs it," said security researcher Alon Hertz.
+Kokoro is an open-weight model that converts text into speech. It supports multiple languages and has more than 50 voice presets.
+Although its developer, Hexgrad, has not pushed an update since April 2025, the project continues to be popular, with nearly 13 million monthly downloads on Hugging Face. The GitHub repository and the Python package on PyPI also went silent around the same time.
+Kokoro is supported by developer tools from Google, NVIDIA, and Intel, including software for voice agents and on-device speech synthesis. AMD and Amazon Web Services have also published guides demonstrating its use in AI-agent workflows.
+Hertz and his team took control of the Kokoro account on Hugging Face by simply registering the domain used by the original owner and resetting the login password.
+Over the past weekend, the researchers registered the “hexgrad.com” domain listed on Kokoro’s public DONATE.md file and used it to perform a password reset on the publisher’s account.
+They then ran a controlled test in which they modified Kokoro’s model weights in 87 seconds using a gaming GPU, causing the model to produce poisoned output.
+Hertz says the team tested the modified Kokoro model locally using its normal inference pipeline, but never uploaded the modified weights to Hugging Face, as that would likely put at risk many production systems depending on the model.
+The researcher underlines that an update would still carry all the hallmarks of a legitimate release, as tests from another account showed that Hugging Face would not flag anything as suspicious.
+Despite the takeover, the publisher appeared the same, just like the file delivery route, the format, and the architecture. File sizes would be similar, and the release would contain no malware.
+A broader trust problem
+The researcher notes that the supply-chain risk from compromised publisher accounts distributing altered weights via routine updates to systems that automatically fetch new revisions is significant.
+Kokoro was just a high-profile example the team used to highlight the issue.
+Hertz says even non-hijacked accounts could pose a risk, as anyone can curate an ostensibly legitimate image for a period of time, then push a malicious update at some point.
+“Hugging Face does not vet publishers. It doesn’t verify whether an account is still held by its original, legitimate owner — or by whoever quietly took it over last week. It doesn’t vet the models or datasets those accounts upload,” Hertz says.
+“The same unvetted weights and datasets flow through mirrors and converted versions, GitHub releases, package registries, deployment guides, and direct downloads across the entire open-model ecosystem,” added the researcher.
+Hertz reported the issue to Hugging Face, hoping for quick action, but received no response.
+BleepingComputer has also contacted Hugging Face for comments, but we have not received a response yet.
+Adaptive Security's AI agents analyze email intent, context, and behavior to uncover phishing, business email compromise, and invoice fraud.
+See what's getting through with a 14-day read-only scan of Microsoft 365 or Google Workspace, with no MX changes.
+Start your free email security scan.

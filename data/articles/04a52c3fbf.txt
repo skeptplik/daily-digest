@@ -1,0 +1,41 @@
+Anthropic, the artificial intelligence (AI) giant, is set to make its Nasdaq debut Thursday in one of the largest share sales in history.
+The Claude maker offered 980 million shares at $83 (€76) per share, raising $81.3 billion. This values the firm at $1.5 trillion, well above market estimates of around $1.3 trillion.
+This public listing is being seen as a key test of investor appetite for AI, as stock prices have swung wildly in recent months.
+2026 was meant to be the year Wall Street’s trillion-dollar bet on what US President Donald Trump calls superintelligence (SI) started paying off.
+In the first half of the year, it did. Many AI stocks hit record highs as US hyperscalers like Google's Alphabet, Meta and Microsoft recorded bumper earnings.
+AI doubts trigger market turbulence
+The second half of 2026, however, has brought a lot more uncertainty.
+While the stock of chipmaker Nvidia pushed even higher last month, many hyperscalers and chip or memory firms have seen erratic movements in their stock prices.
+Then, after the Democrats won control of the United States Congress in the midterm elections earlier this month, technology stocks sold off again dramatically.
+The Magnificent Seven — including Meta, Apple, Amazon and Tesla — lost more than $1 trillion in value in a single trading day.
+In a further twist, the AI sector took another hit last week as Nvidia shares plunged nearly 10% over two days.
+The sell-off followed revelations that CEO Jensen Huang had an affair with a woman reportedly suspected by US intelligence of being a Chinese spy.
+Huang resigned from the chipmaker, sending Nvidia's shares lower still and prompting a campaign by current and former staffers, investors and other key figures in Silicon Valley to have him reinstated.
+Questions over timing of Anthropic IPO
+While OpenAI — the maker of ChatGPT — has delayed its public listing until next year, some analysts have been left scratching their heads at Anthropic's decision to proceed, even though the IPO is reportedly about six times oversubscribed.
+"Is this the best timing?" asked Dennis Dick, chief market strategist at the Canada-based Stock Trader Network, in an interview with DW last week.
+Dick said Anthropic's valuation depends on whether it can deliver on a forecast by Goldman Sachs of more than $600 billion in revenue by 2030.
+"If you get to a company with $600 billion in revenue, [a] $1.3 trillion [valuation] doesn’t sound that bad," he told DW. "But when you’re talking about a company with currently $52 billion in revenue, it sounds like it’s overvalued."
+Other analysts, like Vivek Seth, chief executive officer of Shaires Holdings, are more bullish about the Claude maker's prospects.
+"Anthropic is a once-in-a-generation company," Seth told Bloomberg last week, noting how it has grown rapidly and has strong institutional backing. "Its IPO will establish a market-clearing valuation as conditions stabilize."
+Amid huge spending, big returns remain elusive
+Wall Street is growing increasingly cautious about the sheer size of the AI outlay, amid warnings that future earnings may not justify the huge spending.
+In September, investment bank Goldman Sachs estimated that hyperscalers need around $300 billion in annual AI revenue to break even on their spending, leaving a gap of roughly $230 billion.
+"We're not in Kansas anymore," Dick quipped, borrowing a line from the classic movie "The Wizard of Oz," which means times have changed. Now, he said, investors are telling companies: "Show me the money."
+AI stocks needed a 'healthy correction'
+Other analysts, however, think it's too soon to expect the AI bubble to burst, including Kit Rees, investment strategist at London-based wealth manager Quilter, who thinks the post-election rout was a "healthy correction."
+"We’re still in the very early innings of the AI build-out," Rees told DW. "There’s still a lot of excitement around this technology and investors will want to have a slice of the pie."
+In addition to the roughly $800 billion invested in capital expenditures this year, AI hyperscalers plan to spend a further $1.2 trillion in 2027 and $1.4 trillion in 2028, according to Goldman Sachs estimates.
+Signs to watch, not reasons to flee
+With many investors already running for the hills, Rees isn’t convinced the AI bubble will burst in the way skeptics expect. She thinks they should watch for stronger signs that the AI trade is maturing.
+This could be "a slowdown in AI-related revenues for companies, or signs of less demand or less appetite for financing companies’ AI plans, be it through debt or through equity offerings," Rees told DW.
+There are early signs that investors have less appetite for AI-related debt. Borrowing costs for AI infrastructure firms like CoreWeave and Oracle have soared recently. Even the cost of insuring Nvidia’s debt against default has risen 76% in a month, CNBC reported recently.
+"They [Oracle] have been spending, some people say, like drunken sailors," Dick told DW. "They’ve compromised their balance sheet to a point where the stock’s fallen 65% from the highs."
+That has not stopped Oracle, along with Meta, Microsoft and Alphabet, from continuing to issue new AI bonds. Since the end of last month, the four AI giants have announced deals worth $67 billion.
+Rees said another sign could be any new regulations that make it harder to build out US data centers, due to pressure on local water and electricity supplies.
+Is AI next in a long line of bubbles that burst?
+In his upcoming book "AI Mania: Blather, Bluster, and the Bubble of All Bubbles," economist Gary Smith compares the AI boom with earlier frenzies around railways, automobiles, television and the internet. He warns of a "frightful crash" when the AI bubble eventually pops.
+When the dot-com bubble burst in 2000, the tech-heavy Nasdaq stock market index lost nearly 80% of its value. Yet, previous bubbles have often lasted far longer than expected, making the timing of any crash hard to predict.
+Joachim Klement, head of market strategy at UK-based investment bank Panmure Liberum, believes a reckoning could happen as early as next year.
+"My core conviction is that the AI bubble will either burst in 2027 or in 2028, so sometime in the next two years,” Klement told Bloomberg last month.
+Editor's note: This article was first published on November 13, 2026 and was updated on November 18 and 19 to reflect the latest developments.

@@ -1,4 +1,0 @@
-Three stable kernels for Tuesday
-Greg Kroah-Hartman has announced the 7.3.5, 6.18.64, and 6.12.118 stable kernels. Each contains quite a few important fixes.
-The LWN site is currently under high scraper load, so comment display has been suppressed for anonymous users. If you are a human, you may read the comments by clicking the button below:
-Note: you can avoid this step in the future by logging into your LWN account.
