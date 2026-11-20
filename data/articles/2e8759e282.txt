@@ -7,3 +7,10 @@ Additionally, they found it possible to invisibly navigate whichever programs th
 Download the Tom's Hardware app for up-to-the-minute updates on iOS and Android. Also follow Tom's Hardware on Google News, or add us as a preferred source, to get our latest news, analysis, & reviews in your feeds.
 Get Tom's Hardware's best news and in-depth reviews, straight to your inbox.
 Bruno Ferreira is a contributing writer for Tom's Hardware. He has decades of experience with PC hardware and assorted sundries, alongside a career as a developer. He's obsessed with detail and has a tendency to ramble on the topics he loves. When not doing that, he's usually playing games, or at live music shows and festivals.
+- 
+If I remember correctly - it's been many years - about 15 years ago I encountered a random website that had a simple universal hack for windows based on a similar process of bringing up a file dialogue when clicking on the Accessibility button/settings. I tried it once way back when, and it worked on the versions of windows I had access to at the time. Kind of blows my mind that such a simple crack has been potentially hiding in plain sight, in some form or another, for decades.Reply
+- 
+a bit of a misunderstanding of bitlocker.
+bitlocker protects the data at rest, once the PC boots into windows bitlocker isn't part of the equation, so this doesn't bypass bitlocker, and would function the same whether the PC is protected by bitlocker or not Reply
+- 
+Ok, my narrator was already switched off by default. then I went into settings and disabled all settings individually -- like verbosity to minimum. no context, etc. should make my machine more difficult to hackReply

@@ -9,7 +9,7 @@ According to F6, the attackers first breached two Expressway X15.5.3 devices exp
 After securing root privileges, the attackers prepared tools for lateral movement. These included custom Python scripts designed to scan the network, locate SMB resources, interact with SQL Server and WinRM, and search GitLab repositories, aiming to exfiltrate credentials and other sensitive information.
 F6 determined that the attackers modified the scripts on the fly, during the attack. “The source code contained characteristic comments and descriptions of fixes indicating the use of an AI assistant,” the company says.
 F6 did not name the victim or attribute the attack to a known threat actor.
-To detect exploitation, F6 points to the Erlang system log on Expressway devices. The security firm has also published IP addresses and file paths associated with the attack in a Russian-language press release.
+To detect exploitation, F6 points to the Erlang system log on Expressway devices. The security firm has also published IP addresses and file paths associated with the attack.
 Although Cisco lists no workarounds, F6 recommends that organizations unable to patch immediately block connections to TCP ports 4371–4372 at the firewall, except from the IP addresses of trusted cluster nodes.
 SecurityWeek has reached out to Cisco for comment on F6’s findings and will update this article if the company responds.
 Related: Java4Shell Exploitation Attempts Begin as Vendors Rush Out Advisories

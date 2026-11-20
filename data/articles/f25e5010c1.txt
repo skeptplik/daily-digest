@@ -16,3 +16,6 @@ Well, vibe-coded specifically means you give the AI a vibe of what you want and 
 Vertigo_1 said:How's app compatibility? Steam, in particular. Any games working?Still early days, their wiki shows 2 games working, the wiki curiously says Raspberry Pi GPU is supported and Intel/AMD GPU's in development.
 I'm going to try is later on an actual Raspberry Pi, I wonder is the AI actually wrote Direct3D drivers for the Broadcom GPU or is it doing translation into Vulkan.
 This is a cool project with a lot of promise a classic Windows experience I hope it matures into something that can actually be used as Linux is just too programmer/terminal centric. Reply
+- 
+It's nice to have options and it's cool that side projects have taken on the scale of an OS!
+That said, unless Windows adds some monthly fee I don't see myself leaving it. It's basically free and gives lifetime (outlasting the hardware running it) support...how often do you get that deal? I don't think I've seen a blue screen in 5 years...and performance is good. I don't even think about the OS much anymore which is probably a good thing. Reply

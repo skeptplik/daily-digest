@@ -1,7 +1,7 @@
 White House fires national cyber director over widespread outages
 The White House fired national cyber director Sean Cairncross on Thursday following a week of technology disruptions affecting US air travel, email services and national security systems. The departure comes as the Trump administration faces criticism over its response to the outages, which officials say were unrelated incidents.
 White House national cyber director Sean Cairncross was "fired" from his job, a person close to the White House said on Thursday, days after tech outages hit US air travel, banking and national security systems.
-Cairncross oversaw cybersecurity policy and strategy across the federal government. Department of Defense Chief Information Officer Kirsten Davies will assume the position temporarily, according to the source.
+Cairncross oversaw cybersecurity policy and strategy across the federal government. Department of Defence Chief Information Officer Kirsten Davies will assume the position temporarily, according to the source.
 "The president fully supported firing Sean Cairncross from his position," said the person, who spoke on condition of anonymity.
 Cairncross declined to comment on his departure.
 Technology-related outages have hit regularly over the last week, including a nationwide halt to air travel, a Microsoft outage that hit email services and a temporary disruption to the US National Security Agency's network.
