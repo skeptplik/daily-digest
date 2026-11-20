@@ -1,0 +1,17 @@
+Hackers exploited a critical Cisco Expressway vulnerability to breach a Russian organization soon after proof-of-concept (PoC) exploit code was released publicly, according to cybersecurity firm F6.
+Expressway gateways allow remote employees, partners, and third-party users to securely connect to an organization’s collaboration services, including video calls, voice calls, and instant messaging.
+Tracked as CVE-2026-76466 (CVSS score of 9.8), the flaw can be exploited without authentication by remote attackers with network access to a device, allowing them to execute commands as root. It affects virtual and appliance versions of Expressway Core and Expressway Edge, but only when the devices are clustered.
+Cisco, which disclosed the issue on October 21, said it resides in the Expressway database service feature and stems from persistent cookies.
+An attacker possessing the persistent cookies could reach the database service and issue certain remote procedure call (RPC) commands, gaining the ability to run root-level commands on the underlying operating system.
+Expressway X15.5.20 resolves the vulnerability. There are no workarounds, and customers on X14 or earlier releases need to move to a fixed release, Cisco says.
+The advisory has not been revised since its initial release and still states that Cisco is unaware of public announcements or malicious use of the flaw. However, a PoC exploit has since been posted on GitHub, and F6 says the attack it investigated came shortly after.
+According to F6, the attackers first breached two Expressway X15.5.3 devices exposed to the internet. They then pivoted from one of them to two other cluster nodes sitting on the organization’s internal network.
+After securing root privileges, the attackers prepared tools for lateral movement. These included custom Python scripts designed to scan the network, locate SMB resources, interact with SQL Server and WinRM, and search GitLab repositories, aiming to exfiltrate credentials and other sensitive information.
+F6 determined that the attackers modified the scripts on the fly, during the attack. “The source code contained characteristic comments and descriptions of fixes indicating the use of an AI assistant,” the company says.
+F6 did not name the victim or attribute the attack to a known threat actor.
+To detect exploitation, F6 points to the Erlang system log on Expressway devices. The security firm has also published IP addresses and file paths associated with the attack in a Russian-language press release.
+Although Cisco lists no workarounds, F6 recommends that organizations unable to patch immediately block connections to TCP ports 4371–4372 at the firewall, except from the IP addresses of trusted cluster nodes.
+SecurityWeek has reached out to Cisco for comment on F6’s findings and will update this article if the company responds.
+Related: Java4Shell Exploitation Attempts Begin as Vendors Rush Out Advisories
+Related: F5 Patches Critical NGINX2Root Flaws as PoC Exploits Go Public
+Related: PHP Readies Critical Security Updates to Patch Another RCE Flaw

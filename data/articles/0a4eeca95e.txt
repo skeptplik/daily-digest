@@ -1,0 +1,49 @@
+It was during November 2020 that somewhere in San Francisco, a woman called Daniela Amodei phoned a friend, asking for advice.
+Daniela oversaw safety and policy at OpenAI, one of the most talked-about AI companies in the world.
+But Daniela and her brother Dario - who worked there too - had misgivings over safety levels at OpenAI and thought it could be time to walk away.
+So she did what many do when we can't make a decision about something, she phoned a friend. The friend's reply was direct and to the point: "You don't need to be on the phone with me. You already know the answer."
+The Amodei siblings and a handful of other colleagues quit. Together, they set up a rival â Anthropic.
+Six years on and Anthropic, the maker of leading AI model Claude, has predicted revenues of $52bn in 2026 and $135bn in 2027, according to analyst estimates.
+It is selling shares to the public for the first time in what's known as an Initial Public Offering or IPO, aiming for a valuation of an estimated $1.4tn (Â£1tn), which would propel it straight into the top 10 of the most valuable US companies.
+The sale comes at a crucial time when many are wondering whether, amid increasing concern about the potential of AI, the industry's bubble is showing signs of bursting.
+Where once investors were "all in" on a technological revolution to rival the railroads, the car, electricity and the internet, some are now hedging their bets, amid arguments that AI prices will be driven down as the technology becomes more common and concerns that a hefty wedge of the AI investment is tech giants investing in each other.
+Shares in companies that supply the raw computing power behind AI, like Coreweave and Nebius, have seen their value cut in half while even the mighty Nvidia has lost its crown as the world's most valuable company with its shares down 30% - a staggering $2tn fall in value.
+So could the Anthropic IPO reinflate the bubble or will it be remembered as the last gasp of a boom that is heading for a bust?
+A benchmark valuation
+At an event last week, Anthropic CEO Dario Amodei told JPMorgan Chase's CEO Jamie Dimon that his guiding principle was to "never let your company be worth a single dollar more than it's worth".
+The company is selling roughly $81bn worth of shares to the general public and a further $26bn on to other big tech companies. It is comfortably the single biggest money raising event in US corporate history.
+It's an old adage that during a gold rush you should buy companies that sell the picks and shovels as opposed to those staking everything on striking gold. In AI's case that's the chip makers, the data centre builders, the energy providers. But Anthropic is arguably the gold itself and this IPO will see what value people put on it, according to Fiona Cincotta from StoneX trading.
+"I think the reason that this IPO is so important is basically it's the first ability for the public investors to access a pure play AI trade," she says, adding that previous offerings have been about "other parts of the ecosystem, which are, the semiconductors, the chips, the, data centres. But this is the first time that we were actually able to access the AI provider."
+What a company is worth depends almost entirely on predicted future earnings.
+It's that calculation that many think presents the sharpest needle to the AI bubble.
+Will current and future users of AI be prepared to pay enough to justify the trillions being spent on the chips, data centres, energy and employees, some of whom can command annual salaries of over $100m?
+"AI is certainly in a financial bubble. While LLMs [large language models] offer genuine utility and are undoubtedly here to stay, the economics don't add up," said Gary Marcus, Professor Emeritus at New York University and author of Taming Silicon Valley, speaking earlier this year.
+"[The] more companies build AI models, the [more the] technology becomes commoditised, eliminating meaningful competitive advantages and driving down prices."
+So far, the growth rates in Anthropic revenue are extraordinary.
+But these explosive growth rates hide a potential problem. Around a quarter of that revenue came from just a handful of companies, among them Google and Amazon.
+It's also concentrated in the US which accounts for two-thirds of its revenue.
+There is also the staggering network of circular financing found in the AI world. For example, Anthropic has agreements to buy or lease hundreds of billions of dollars worth of chips and computing power from a handful of companies including Broadcom, Google, Amazon. Many of those firms are also investors in Anthropic and major customers of its products.
+Public doubts
+It's not just some Wall Street investors questioning whether the AI boom is all it's cracked up to be. Out on Main Street, ordinary Americans have concerns too.
+With the US driving so much of global AI growth, a growing public backlash against a technology that threatens to replace millions of jobs and hoover up vast amounts of energy and water became a factor in the recent midterm elections in the US.
+Many areas in the US have passed moratoriums on data centre development and many candidates deemed too close to big tech found that association a political liability rather than an asset. Many Democrat candidates publicly opposed data centre development and won.
+Added to that, the Pied Piper of AI, chip maker Nvidia's CEO Jensen Huang, resigned last week after admitting to having been "unfaithful" to his wife after reports he had an affair with a suspected Chinese spy, Alice Huang and another with a company executive who reported to him.
+Huang's spectacular fall from grace and Nvidia's 30% fall in value from its peak have left AI investors looking for a new champion for the AI boom that has underpinned the US stock market and arguably much of its entire economy for the last two years.
+If Anthropic and its CEO are to be AI's new Pied Piper, he will be playing a different tune to the relentlessly upbeat, leather jacket-clad talisman Huang.
+While Huang wanted AI development to continue full throttle, Anthropic was built on misgivings over the levels of safety and responsibility the OpenAI leavers felt were being exercised over the development of society-changing technology.
+Amodei has warned that AI capabilities could enable biological weapon development, mass surveillance, authoritarianism and the replacement of millions of white-collar, tax-paying workers.
+He has called for a slowdown in its development as its powers are growing at such an exponential rate that it could very soon elude any human oversight.
+That said, his paternalistic overtures have been sceptically received by those who point out that the pace of Anthropic's development of new more powerful models has shown no sign of the slowdown he's advocating for the rest of the industry.
+Hype and FOMO
+But for all the concerns, just as with Elon Musk's SpaceX before it, the hype and the FOMO (fear of missing out) on an undoubtedly profound moment in technological and perhaps human development, means that buying interest is high.
+It's reported that orders to buy shares exceed the number on offer by over six times.
+With demand outstripping supply by such a margin, a first-day jump is to be expected given the oversubscription, but it doesn't tell you much about long-run return.
+Using SpaceX as an example again, shares initially rose nearly 70% from its IPO sale price of $135 to $225. Shares in SpaceX are currently back to $145.
+The Anthropic IPO could be wildly successful and blow a bit of fresh new air into what some maintain still looks a lot like a bubble.
+Eileen Burbidge, founder of tech investors Passion Capital, is one of those who reject the notion that AI is a bubble about to burst.
+"Maybe the growth of the bubble has slowed down a little bit, but actually I wouldn't be willing to say that it's about to burst yet," says Burbidge. "I think this IPO could actually mean everyone could be off to the races again."
+Fiona Cincotta believes Anthropic's IPO is about far more than just Anthropic. "I think what's going to be really interesting here is I think it can actually be used as a valuation benchmark for the entire AI ecosystem," she says.
+"That's why I don't think this is just going to affect the share price of Anthropic. I think this is going to have much wider implications across the whole AI trade."
+Two things can be true at the same time. The Anthropic IPO could be wildly successful - FOMO is a powerful emotion in financial markets. But its probable success won't soothe the unease in some quarters that not every company, every investor and every citizen will think of AI as the answer to humanity's problems.
+Lead image: Getty
+BBC InDepth is the home on the website and app for the best analysis, with fresh perspectives that challenge assumptions and deep reporting on the biggest issues of the day. Emma Barnett and John Simpson bring their pick of the most thought-provoking deep reads and analysis, every Saturday. Sign up for the newsletter here

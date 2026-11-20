@@ -23,7 +23,7 @@ He led GPT-3 engineering at OpenAI, and prior to that was at Google on its DeepM
 Brown established his entrepreneurial credentials co-founding an app called "Grouper" that helps set up drinks between groups of friends.
 He has supported US President Donald Trump's stance on datacentres, arguing that they are "an enormous source of prosperity".
 Now as chief compute officer at Anthropic he is responsible for how the company secures and uses its computing resources.
-Jack Clark $19.8bn
+Jack Clark - $19.8bn
 Jack Clark, is another arts graduate among the original start-up's founding members and the only one who is not from North America.
 Originally from Brighton in the UK, he studied English Literature and Creative Writing at the University of East Anglia and became a technology journalist, writing for publications including ZDNet UK, The Register, and Bloomberg.
 He was caught up in the excitement of artificial intelligence and joined OpenAI, where he worked initially in communications, later becoming its policy director.
@@ -32,7 +32,7 @@ Jared Kaplan - $19.8bn
 Jared Kaplan, 42, is chief science officer at Anthropic, and heads its technical research. He is also an associate professor at Johns Hopkins University in Baltimore.
 He holds a PhD in physics from Harvard University.
 His work on scaling laws - which describe mathematical patterns that show that bigger AI models trained on more data tend to be more consistent - has helped provide AI firms with a framework for predicting AI behaviour, according to Anthropic.
-Chris Olah $19.9bn
+Chris Olah - $19.9bn
 Chris Olah is described as "interpretability research lead" primarily focused on how AI models work with each other.
 But according to the New York Times, Olah has spent much of the last year convening meetings with faith leaders from across the religious spectrum.
 Described by the newspaper as "boyish" but with "the zeal of an evangelist" the 34-year-old is reportedly exploring the relationship between morality and AI.

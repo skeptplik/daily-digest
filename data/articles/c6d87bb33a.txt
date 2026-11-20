@@ -1,34 +1,34 @@
-Anthropic will be valued at $1.5tn (Â£1.14tn) when the five-year-old AI firm makes its stock market debut on Thursday, becoming one of the most valuable companies in the world.
-The firm behind the chatbot Claude said its shares will be priced at $83 when it lists on the Nasdaq, a tech-focused stock exchange based in New York.
-Anthropic's flotation will make it the first US firm focused exclusively on AI to go public. The seven founders, who set the business up in 2021, will become multi-billionaires.
-It will also mark a crucial test for the fast-growing industry, which faces questions over whether the huge amounts of money being poured into the technology will pay off.
-The firm said earlier this month it would offer its shares for between $70 and $78 each, which valued the company at up to $1.3tn.
-But demand for Anthropic's stock debut - commonly referred to as its initial public offering, or IPO - is very high, according to one early investor in the company who spoke to the BBC on condition of anonymity.
-They said shares were more than 10 times oversubscribed ahead of the public listing, meaning demand exceeded the number of shares available.
-If that turns out to be the case, Anthropic's valuation could quickly blow past its target on Thursday when trading begins.
-Leah Bramwell from Canaccord Wealth said demand for the shares had been "well supported across the board" with strong interest from both institutional and retail investors.
-She said that "gives comfort that we're not looking at just a sort of retail-driven frenzy into into AI names".
+Anthropic, the company behind AI chatbot Claude, has raised a record $81bn (Â£62bn) in a stock market debut that will make it one of the most valuable companies in the world.
+A surge of investor appetite to buy shares in the loss-making business meant more stock was sold than originally planned. Anthropic's shares have been priced at $83, up from the proposed $70-$78 range.
+Shares will begin trading later on Thursday in New York, valuing the five year-old firm at around $1.5 trillion.
+The flotation is being seen as a crucial test for fast-growing AI sector. Anthropic is the first purely AI-focused firm to publicly sell its shares.
+Vast amounts of money have been poured into AI infrastructure and the development of AI based tools. But questions are being raised over whether and when those investments will pay off.
+The seven founders, who set up Anthropic up in 2021, will become multi-billionaires immediately.
+The company's $1.5tn estimated valuation is on a "diluted" basis, a broader reflection of the firm's value that takes things like employee stock options into account. On a basic share count Anthropic is worth about $1.1tn, more valuable than Walmart and Samsung but less than Tesla and Meta.
+But strong demand could push its share price, and overall valuation, higher, once shares are publicly traded.
+One early investor in the company who spoke to the BBC on condition of anonymity, said the original sale was heavily oversubscribed, with demand ten times the number of shares available.
+Anthropic's revenues have ballooned in the last year, to $33bn in the nine months to September this year, as the market for its tools, designed to speed up processes including coding, writing and digesting information, has grown.
+But net losses have also increased, reaching $104bn for the same period, according to the company's IPO document.
+Leah Bramwell from Canaccord Wealth said there had been strong interest in Anthropic shares "across the board" including both institutional and retail - that is private individual - investors, which she said suggested it was not simply a "retail-driven frenzy into into AI names".
 Crucial test for AI
-Depending on how strong demand is, Anthropic could exceed the early market valuation of Elon Musk's SpaceX, which went public in June worth at $2.2tn.
-However, in the weeks that followed, SpaceX's share price fell sharply.
-As it stands, Anthropic will raise more than $68bn from investors and an additional $26bn from share sales to technology firms including Nvidia which has a long track record of funding firms that buy its AI chips.
-OpenAI, the maker of ChatGPT and Anthropic's biggest AI rival, is expected to go public next year.
-Until then, Anthropic will be the only public company in the US that is entirely focused on the technology, or one that was founded and built around AI tools and products. Its scope is different from tech giants like Google and Microsoft that also develop AI but are involved in other tech services.
-There is excitement around Anthropic's listing, but also some concern from investors around its ability to generate future revenue and profits
-Yang Wang, a principle financial analyst with Counterpoint Research, said the central issue for Anthropic is whether its business "can keep pace" as hundreds of billions of dollars in financial obligations come due in the next couple of years.
-"Nevertheless, it is not an everyday occurrence for public investors to gain direct exposure to a frontier-model developer with the potential to shape the next stage of productivity," Wang said.
+In total Anthropic could raise $107bn. Over $81bn comes from the public share sale, with an additional $26bn from separate investments from a group of tech firms including Google, Microsoft and Nvidia.
+Anthropic could raise a further $12bn through an additional provision, which is normal practice, to permit further shares to be sold if demand is very high.
+Elon Musk's SpaceX raised an initial $75bn in its IPO in June this year.
+The company soared in value when it joined the Nasdaq, reaching $2.2tn, although in the weeks that followed, the share price fell.
+OpenAI, the maker of ChatGPT and Anthropic's biggest AI rival, is expected to go public next year. Until then, Anthropic will be the only public company in the US that is entirely focused on the technology.
+While there is excitement around Anthropic's listing, there is also some concern from investors about its future ability to generate profits in a competitive area.
+Yang Wang, a principle analyst at Counterpoint Research, said the central issue was whether it could "keep pace" as hundreds of billions of dollars in financial obligations come due in the next couple of years.
+However, the share sale would give investors "direct exposure to a frontier-model developer with the potential to shape the next stage of productivity", Wang said.
 Rapid rise
-Anthropic was started by seven former OpenAI employees, led by brother and sister Dario Amodei and Daniela Amodei
-Dario Amodei has been outspoken in his belief that AI tools may soon be so powerful that they present a threat to human existence.
-The company has urged developers to slow the development of AI, arguing that advanced systems could pose "catastrophic" risks to humanity if they are not handled with safeguards.
-OpenAI has also voiced similar sentiments and delayed its plans to list on the stock market to address AI safety concerns.
-Nonetheless, Anthropic is looking to grow quickly and gain more access to financing through the public markets.
-Stock market trading in technology stocks has been volatile in recent weeks following the US midterm elections when Democrats took control of both chambers of Congress.
-Investors are worried about tougher regulation of AI, after Democrat candidates opposed the data centres needed by the technology.
-Marta Norton, who heads strategy at investment firm Empower, said the decision by Anthropic to go public now, in a time of market volatility, comes down to the simple fact that the company needs access to more money.
+Anthropic was started by seven former OpenAI employees, led by brother and sister Dario and Daniela Amodei.
+Dario Amodei has been outspoken about the risks posed by AI, amounting in his view to a possible threat to human existence.
+The company has called for a slowdown in the development of AI, and a greater focus on safeguards while forging ahead with plans to grow quickly and boost its financing through the public markets.
+OpenAI has voiced similar sentiments and delayed its plans to list on the stock market in order to address AI safety concerns.
+Technology stocks have lost value in recent weeks following the US midterm elections. Democrats, who now control of both chambers of Congress, are expected to be tougher on AI regulation. Some Democrat candidates opposed the rapid build of data centres required to run AI.
+But Anthropic went ahead with its market listing, despite the market volatility, because it needed to tap into additional funds, said Marta Norton, who heads strategy at investment firm Empower.
 "AI is financially demanding," Norton told the BBC. "The public markets open up the financial spigot a little bit more and so the time has come."
-But broader anxieties have started to grow about the AI industry's business model, which is reliant on expensive computer chips that are in short supply.
-The technology is dependent on controversial data centres and funding such operations require deals with other tech companies.
-The US Federal Reserve has expressed concern about the rapid growth of AI-related debt being financed through "complex and opaque" structures, according to minutes from its October meeting to discuss interest rates.
-A few Fed members also noted that "AI-related exposures were becoming increasingly concentrated among a small number of firms".
+Broader anxieties about the AI industry remain.
+Competition from low-cost rival models is growing.
+Expensive computer chips, necessary for the industry to operate, are in short supply.
+And the US Federal Reserve is concerned about high AI-related debt being financed through "complex and opaque" structures, according to minutes from its October meeting to discuss interest rates, as well as the high concentration of AI exposure among a small number of firms.
 With additional reporting by Rachel Clun

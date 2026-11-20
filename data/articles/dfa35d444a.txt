@@ -1,0 +1,13 @@
+Four PHP security releases including fixes for critical vulnerabilities
+The PHP Project has announced the release of PHP 8.5.13, 8.4.28, 8.3.37, and 8.2.36. Each contains a
+number of security and bug fixes, including several fixes for critical
+vulnerabilities that could allow remote-code execution. According to the
+project's pre-release
+announcement on November 18, all of the vulnerabilities of critical
+severity "
+require either non-default configuration or uncommon
+setups
+". See the release notes for details; Linux vendors and projects
+should be releasing updated packages soon.
+The LWN site is currently under high scraper load, so comment display has been suppressed for anonymous users. If you are a human, you may read the comments by clicking the button below:
+Note: you can avoid this step in the future by logging into your LWN account.

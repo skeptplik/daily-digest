@@ -1,0 +1,20 @@
+Credential stealer slipped into Microsoft’s official Python agent framework
+Two releases of Microsoft’s official agent-framework package on the Python Package Index (PyPI) carried code that steals cloud and CI/CD credentials from developers’ systems. Agent Framework is Microsoft’s open-source toolkit for building AI agents and running them in workflows.
+Three supply chain security companies, StepSecurity, OX Security and Socket, caught the malicious versions and shared their analysis.
+“On November 17, 2026, versions 1.26.1 and 1.26.2 of the official Microsoft agent-framework package on PyPI were published carrying a credential-stealing payload. The payload is installed as a .pth startup hook, so it executes during Python startup in an affected environment when the interpreter processes the installed hook, with no import of the framework required,” wrote StepSecurity.
+“PyPI has quarantined both releases, but the attacker demonstrated continued publishing access by uploading 1.26.2 after 1.26.1 was already quarantined,” they added.
+With 192,534 monthly downloads, according to OX, the package has a wide reach. Agent-framework 1.26.0 is the last clean release. Both rigged versions kept their dependency on the genuine agent-framework-core 1.26.0, so the framework worked as usual while the credential stealer ran in the background.
+In the second release, the attacker restored Microsoft’s original package initializer and moved the hook into a new file named af_runtime_diag.pth, which makes the change harder to spot.
+Attack overview (Source: OX Security)
+Stored secrets and new tokens
+The stealer collects environment variables with names containing strings such as TOKEN, SECRET, AZURE, AWS and GITHUB. It reads the environments of up to 300 other processes and copies .env files along with credential files for Azure CLI, pip, npm, Git, Docker and Hugging Face.
+It also asks cloud services for new tokens. “They actively request fresh Azure managed-identity and CI federation tokens,” Socket’s researchers noted. Version 1.26.2 added GitHub Actions OIDC tokens to the list. StepSecurity cautioned that the code only attempts these requests, and there is no confirmation that any tokens were issued.
+The haul is compressed, encoded and sent to a webhook.site endpoint in a single request.
+Build systems as credentials
+Eric Paulsen, Field CTO, EMEA at Coder, says the token requests change how teams should respond.
+“A build system that can ask a cloud provider for new access tokens is itself a credential, and this attack treated it as one. Replacing stored passwords and keys is therefore an incomplete response, as an attacker who can request new tokens does not need those passwords and keys,” he told Help Net Security.
+“The attack worked because installing a package is an act of trust. Once a package is installed, Python runs certain files automatically every time it starts, so compromised code executes whether or not anyone uses the package. By the time anyone checks it, the code has already run.”
+His advice is to limit what such code can reach. “Start by installing dependencies from an internal mirror of approved versions, not straight from the public index. Then make sure builds run in environments that are deleted after each job, and that any credentials they use expire within the hour. Finally, block outbound connections to anything that isn’t on an approved list. If you do those things, a compromised package has very little to steal and nowhere to send it.”
+Anyone who installed either version should isolate the affected hosts and runners before running Python or pip again, rebuild from a clean base and pin agent-framework to 1.26.0, StepSecurity advises.
+OX recommends treating “every secret reachable from that host as compromised.” StepSecurity warns that rotating stored secrets won’t cancel identity tokens that were already issued, so teams should also review OIDC permissions, federated credentials and managed-identity role assignments.
+None of the reports explain how the attacker got publishing rights.

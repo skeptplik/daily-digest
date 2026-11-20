@@ -1,0 +1,25 @@
+NGINX2Root: F5 patches five critical NGINX vulnerabilities
+F5 has patched five critical vulnerabilities in NGINX, the world’s most widely used open-source web server, that can allow remote code execution under certain conditions.
+Dubbed “NGINX2Root” by Xint researchers, two of the bunch (CVE-2026-123633 and CVE-2026-123007) were also independently unearthed and reported by Rapid7, Wiz, Ikotas Labs, Palo Alto Networks and Metnir researchers.
+There’s no evidence that any of them has been exploited in the wild, and none were on CISA’s Known Exploited Vulnerabilities (KEV) catalog as of November 19. A public proof-of-concept exploit for one of them (CVE-2026-123007) is already available, though.
+The NGINX2Root vulnerabilities
+NGINX is a web server, but it’s also used as a reverse proxy, load balancer, mail proxy, static file server, and HTTP cache.
+The NGINX2Root vulnerabilities are:
+- CVE-2026-123007 (aka “NGINX2Shell”): an integer underflow in HTTP/2 flow control, leading to out-of-bounds read/write on the heap, which may lead to a crash of the NGINX worker process and pontentially allow remote code execution.
+- CVE-2026-123633: a use-after-free that is reachable when HTTP/2 is used and requests are forwarded to an upstream server.
+- CVE-2026-123634: a use-after-free in NGINX’s DNS resolver. It can only be triggered (via a specially crafted HTTP request) if the server uses the resolver, request-derived proxy_pass, and mirror (with mirror_request_body off) directives together.
+- CVE-2026-121810: a use-after-free from closing a QUIC connection while an HTTP/3 request runs
+- CVE-2026-113425: a use-after-free in the mail proxy’s auth_http path
+If address space layout randomization (ASLR) is disabled or bypassed, any of the five can allow remote code execution with the privileges of the NGINX worker process.
+To get from there to root, attackers need a sixth flaw, and Xint found that one too: a use-after-free in the Linux kernel’s SCTP code that can turn into a double free. The researchers used it to get root on cloud hosts, and also got a root shell on the host from a Docker container. (The Linux kernel flaw has no CVE as of November 18 and hasn’t been patched yet).
+Xint and Wiz have built proof-of-concept exploits for the five flaws, but haven’t released them yet.
+Rapid7’s Stephen Fewer has published a technical analysis and a PoC exploit for CVE-2026-123007.
+“Rapid7 describes the exploit as constrained: it depends on a glibc memory-copy routine specific to x86-64 builds, requires roughly 128 gigabytes of HTTP/2 traffic, and needs to defeat ASLR by recovering heap addresses from server responses. Execution lands in the NGINX worker process,” Tenable researchers noted.
+“The exploit is also unlikely to succeed against servers behind HTTP/2-terminating proxies or on connections too slow to deliver the required data volume before NGINX’s one-hour connection limit is reached,” they added
+What to do?
+Mitigations are available, but upgrading to a fixed release – NGINX Open Source versions 1.30.7 and 1.31.9, NGINX Plus versions 37.0.8.1 and 37.3.0.1 – is the better option. (F5 also fixed five more NGINX flaws in the same releases.)
+Admins should upgrade and then restart NGINX, because a configuration reload doesn’t replace the running executable. Those who use distro packages should check for backported fixes.
+NGINX is also part of other F5 products, such as NGINX Instance Manager, NGINX Ingress Controller and NGINX Gateway Fabric. F5 has released updates for some of them and is still working on the rest.
+Xint researchers also provided instructions on how to investigate possible attacks via CVE-2026-123007.
+Johannes Ullrich, dean of research at the SANS Technology Institute, says that large organizations probably won’t manage to patch all their NGINX instances before exploits appear, so they should think beyond these vulnerabilities.
+His general advice to meet the ongoing “vulnocalypse” is to automate patching as much as possible, cut the number of internet-facing systems, and limit which data and resources each application can access.

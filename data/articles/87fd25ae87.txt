@@ -1,4 +1,0 @@
-Why has Waymo pulled all its driverless cars from US freeways?
-Waymo has temporarily suspended driverless rides on US freeways after California banned the service over safety concerns.
-California's Department of Motor Vehicles said a series of traffic incidents, including robotaxis entering active construction zones, posed an imminent risk to public safety. Waymo has now restricted freeway operations in all other US markets while it reviews the performance of its vehicles.
-Waymo currently operates in 15 US cities, though only offered driverless freeway rides in a handful of cities, including San Francisco and Los Angeles.

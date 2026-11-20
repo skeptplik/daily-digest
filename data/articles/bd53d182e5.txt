@@ -1,0 +1,24 @@
+Exploited Puppet flaw puts the server that configures your endpoint fleet at risk (CVE-2026-115731)
+Attackers are exploiting CVE-2026-115731, a critical remote code execution vulnerability in Perforce Puppet Enterprise, an enterprise solution used by IT teams to centralize and automatize endpoint management.
+Details about the in-the-wild attacks have yet to be made public, but the US Cybersecurity and Infrastructure Security Agency (CISA) added the flaw to its Known Exploited Vulnerabilities catalog on Tuesday and ordered US federal civilian agencies to address it by December 1, 2026.
+Perforce Puppet explained
+Perforce Puppet works on a client-server model: a central Puppet Server holds the configuration code that describes how each managed machine should be set up, and a Puppet agent installed on every endpoint periodically checks in with the server, retrieves its configuration and applies it.
+Agents and server authenticate each other with certificates issued by the Puppet Server’s own certificate authority (CA).
+About CVE-2026-115731
+CVE-2026-115731 is a deserialization of untrusted data vulnerability in Puppet’s report-processing code, i.e., the part of Puppet Server that ingests the reports agents send back after each configuration run.
+A client holding any certificate signed by the Puppet CA can submit a report containing a crafted rich-data type via a PUT request and get the server to execute arbitrary code with the privileges of the Puppet Server service user, CISA explained.
+It might seem that requiring a signed agent certificate is a meaningful barrier to exploitation, but if the CA signs certificate requests without strong verification (e.g., when autosigning is enabled) an unauthenticated attacker on the network could obtain a certificate and exploit the flaw.
+“If exploited, this vulnerability could allow an attacker to run arbitrary code on the Puppet Server with the privileges of its service account. This could give the attacker access to sensitive data held on the server (Confidentiality), let them modify data and configuration on the server (Integrity), or disrupt the service (Availability),” Centre for Cybersecurity Belgium noted.
+Patch and check for evidence of compromise
+CVE-2026-115731 affects:
+- Puppet Enterprise 2023.8.0 before 2023.8.13, 2025.0.0 before 2025.12.1, and 2026.0.0 before 2026.0.1
+- Puppet Core 8.x before 8.22.2 and 9.0.0 before 9.1.3
+OpenVox, a community-maintained open-source Puppet fork, is also affected: OpenVox Agent versions before 9.3.0 and 8.32.0 and OpenVox Server versions before 9.2.0 and 8.18.0 are vulnerable.
+Perforce released security updates fixing CVE-2026-115731 and CVE-2026-115732, a certificate name authorization bypass flaw that was also reported by Alain Rödel of Neodyme AG, on November 3.
+“Customers should upgrade to the latest applicable security release and then restart the server as soon as possible. Fixed versions are Puppet Enterprise/Advanced 2026.0.1, 2025.12.1, or 2023.8.13, and Puppet Core 9.1.3 or 8.22.2,” the company said and advised customers who are unable to upgrade immediately to review their autosign configuration and authorization rules as a temporary mitigation.
+Patching should be a priority for any organization that relies on autosigning or whose Puppet Server is reachable from untrusted networks (it listens on port 8140 by default).
+Admins should also check the list of signed certificates for nodes they don’t recognize and look for unexpected processes, files or outbound connections tied to the Puppet Server service user.
+If the server shows signs of compromise, patching is not enough: the CA should be treated as compromised and rebuilt.
+The OpenVox project’s GitHub advisory, published alongside the fixes, includes a proof-of-concept malicious report (in the form of a JSON event) that runs a shell command on the OpenVox / Puppet server.
+“In configuration with autosign (which is common for enterprise deployment), this is an unauthenticated attack chain to compromise the OpenVox / Puppet server, as a valid cert can be requested via the OpenVox / Puppet client enrollment endpoint,” the maintainers noted.
+“Code execution as puppet gives access to the CA signing key. This allows the attacker to sign certificates with EKU critical, serverAuth, clientAuth, which could enable direct command execution on other hosts if certain kinds of orchestration is configured.”

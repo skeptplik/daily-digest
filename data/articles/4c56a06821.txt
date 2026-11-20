@@ -1,0 +1,17 @@
+SonicWall urges customers to replace Gen 6 firewalls now
+SonicWall is urging customers still running Gen 6 firewalls to replace them immediately and to stop using them at the internet edge.
+All Gen 6 and Gen 6.5 appliances running SonicOS 6.x have now reached end of support. That means no more firmware updates or security patches, “regardless of severity,” the company said in a product advisory published on Wednesday.
+Why now?
+SonicWall calls the Gen 6 fleet a high-risk exposure and expects internet-facing units to be actively targeted.
+“Edge devices are now a favorite way in. Edge devices and VPNs were the target in 22% of breaches that began with an exploited vulnerability, up from 3% a year earlier,” the company said, citing findings from the Verizon 2025 DBIR report.
+The median time from disclosure to confirmed exploitation has fallen drastically, and threat actors are leveraging automation and AI to find unsupported devices, analyze advisories and patches, and build working exploits faster, it added.
+“Every fix is a map. When a vulnerability affects several generations, supported firewalls receive a fix and Gen 6 does not. The public advisory then tells attackers where to look,” SonicWall said, and noted that “any new flaw, even a Critical one, stays open permanently on Gen 6.”
+In the last two years or so, the US Cybersecurity and Infrastructure Security Agency flagged three vulnerabilities that have been used by attackers to target SonicWall firewalls.
+What to do?
+SonicWall advises organizations to:
+- Inventory every Gen 6 firewall, including spares and branch office units
+- Prioritize units that are exposed to the internet or provide remote access (SSL VPN, WAN management)
+- Replace them with Gen 8 firewalls running SonicOS 8, which “has been hardened with frontier AI-assisted security testing”
+The full list of end of support Gen 6 and Gen 6.5 firewalls (including virtual ones) is available in the advisory.
+The company recommends getting help from authorized SonicWall partners to plan the migration and notes that organizations don’t have to rebuild their configuration when making the switch: “Supported settings migrate from SonicOS 6.5 into Gen 8 with the in-product import or the NSM Migration App.”
+Provisional steps to reduce exposure until the upgrade is effected include disabling WAN management interfaces, SSL VPN, and other services and interfaces that are not used; enforcing multi-factor authentication on remote-access and admin accounts, and monitoring logs for indicators of unauthorized access and compromise.

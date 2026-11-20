@@ -1,0 +1,8 @@
+In the version of the article initially published, the “β-Actin” blot in Fig. 4e (and the uncropped version in Supplementary Fig. 1e) was flipped horizontally and has now been corrected in the HTML and PDF versions of the article, as seen in Fig. 1, below.
+Rights and permissions
+Open Access This article is licensed under a Creative Commons Attribution 4.0 International License, which permits use, sharing, adaptation, distribution and reproduction in any medium or format, as long as you give appropriate credit to the original author(s) and the source, provide a link to the Creative Commons licence, and indicate if changes were made. The images or other third party material in this article are included in the article’s Creative Commons licence, unless indicated otherwise in a credit line to the material. If material is not included in the article’s Creative Commons licence and your intended use is not permitted by statutory regulation or exceeds the permitted use, you will need to obtain permission directly from the copyright holder. To view a copy of this licence, visit http://creativecommons.org/licenses/by/4.0/.
+About this article
+Cite this article
+Yankova, E., Sapetschnig, A., Thomas, B. et al. Author Correction: Pharmacological inhibition of METTL1 as a therapy against solid and blood cancers. Nature (2026). https://doi.org/10.1038/s41586-026-11421-7
+- Version of record:
+- DOI: https://doi.org/10.1038/s41586-026-11421-7

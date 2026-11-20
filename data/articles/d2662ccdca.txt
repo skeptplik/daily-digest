@@ -1,0 +1,3 @@
+PostgreSQL 19 released
+The PostgreSQL Global Development Group has announced the release of PostgreSQL 19. Notable features in this release include the introduction of the REPACK (CONCURRENTLY) command to optimize tables without disruption to ongoing operations, better control over plan stability and query performance with the new pg_plan_advice extension, and a number of performance improvements.
+In September, LWN covered the removal of several features initially slated for this release. See the release notes for a full list of new features and changes.

@@ -1,0 +1,27 @@
+The PHP dev team released security updates for 18 vulnerabilities, including critical flaws that could allow unauthenticated attackers to remotely execute code on vulnerable servers.
+The updates were released Thursday, November 19, for all supported PHP branches, with PHP 8.5.13, 8.4.28, 8.3.37, and 8.2.36 now available.
+Security firm Aikido reports that the updates address 18 CVEs affecting PHP's core engine, session handling, PHP-FPM, CGI, and other components.
+One of the most serious flaws, tracked as CVE-2026-129289, is a critical PHP-FPM request smuggling vulnerability with a CVSS score of 9.2.
+According to Aikido, the flaw allows unauthenticated attackers to execute PHP code remotely on vulnerable servers that reuse connections to PHP-FPM under certain conditions.
+The vulnerability affects certain nginx, Apache, HAProxy, and LSAPI configurations that reuse backend connections to PHP-FPM.
+Standard nginx and Apache configurations that do not reuse backend connections are not affected by the attack.
+Other important vulnerabilities fixed in the updates include:
+- CVE-2026-129474: A use-after-free vulnerability involving magic method backtraces that could lead to remote code execution.
+- CVE-2026-129496: A timezone cache use-after-free vulnerability that could lead to remote code execution.
+- CVE-2026-126714: A vulnerability involving partially overwritten session files that could lead to remote code execution.
+- CVE-2026-115560: A session serializer mismatch vulnerability that could lead to remote code execution.
+- CVE-2026-129291: A PHP-FPM epoll use-after-free vulnerability that could lead to local privilege escalation.
+- CVE-2026-128090: A PHAR OpenSSL signature bypass vulnerability involving an algorithm downgrade.
+Additional fixes address memory corruption, information disclosure, cross-site scripting, denial-of-service issues, and potentially unsafe handling of HTTPS and FTPS URLs.
+The releases follow a warning issued Wednesday by the PHP security team that the upcoming updates would address vulnerabilities affecting all supported PHP versions, with the highest severity rated critical.
+"The issues rated CRITICAL require either non-default configuration or uncommon setups," the PHP security team warned.
+One of the vulnerabilities, CVE-2026-115560, was already disclosed in an October 23 informational advisory and relates to how PHP handles session data under certain configurations, potentially leading to remote code execution.
+As a temporary mitigation, PHP recommended disabling session upload progress by setting session.upload_progress.enabled=0 and restarting PHP workers. This setting was also recommended to mitigate the recent PHP2Shell flaws.
+For CVE-2026-129289, administrators who cannot immediately install the security updates can mitigate the vulnerability by disabling persistent backend connections between their web servers and PHP-FPM, ensuring connections are closed after each request.
+Aikido warns that these mitigations do not address all vulnerabilities fixed in the November updates and recommends ensuring PHP-FPM and LSAPI listeners are not directly exposed to untrusted networks.
+Although the official security updates are limited to supported PHP branches, third-party maintainer Ondrej Surý has also released patched packages for unsupported PHP versions dating back to PHP 5.6.
+Aikido has similarly released hardened PHP container images containing backported security fixes for unsupported versions, including PHP 5.6, 7.0, 7.1, 7.2, 7.4, and 8.1.
+PHP administrators are urged to upgrade to PHP 8.5.13, 8.4.28, 8.3.37, or 8.2.36, depending on their supported branch, to address the newly disclosed vulnerabilities.
+Adaptive Security's AI agents analyze email intent, context, and behavior to uncover phishing, business email compromise, and invoice fraud.
+See what's getting through with a 14-day read-only scan of Microsoft 365 or Google Workspace, with no MX changes.
+Start your free email security scan.

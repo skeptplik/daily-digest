@@ -1,0 +1,27 @@
+Anthropic shares closed 17% higher in their record Nasdaq debut on Thursday (November 19, 2026), defying a broad Wall Street sell-off as investors shrugged off the Nvidia spy scandal and fears of a tech bubble to back the AI giant.
+The shares ended at around $97, up from the $83 at which the company priced its shares on Wednesday (November 18, 2026), already above its expected range.
+They had opened at $111.50, briefly valuing the maker of the Claude chatbot at about $2 trillion.
+The gain came on a rough day for the market, with both the tech-heavy Nasdaq and the broader S&P 500 closing down more than two percent.
+Anthropic raised a record $81.3 billion in the offering. The IPO price valued the company at about $1.5 trillion, including employee stock options and restricted shares. At the close, it was worth about $1.75 trillion.
+The debut marks a milestone in the AI boom. A company founded five years ago by OpenAI defectors worried about AI safety has become the first of the leading model developers to list on Wall Street, at a valuation rivalling decades-old tech brands.
+The offering made thousands of Anthropic employees millionaires and rewarded Silicon Valley venture capitalists who backed a company that once trailed rivals OpenAI and Google.
+The listing, under the ticker “ANT,” gives ordinary investors their first chance to bet directly on a stand-alone AI giant.
+“Today puts the company in a stronger financial position, and in doing so, only strengthens our resolve to do the right thing,” chief executive Dario Amodei said at the Nasdaq in New York’s Times Square, underlining the company’s priority of promoting safe AI.
+The offering surpasses the $75 billion that Elon Musk’s SpaceX raised in its June IPO at a valuation of $1.77 trillion.
+‘Breath of fresh air’
+SpaceX’s total ultimately rose to $86 billion after its underwriters exercised an option to buy additional shares. Anthropic has granted its underwriters a similar option, which would lift its total to about $93.5 billion.
+“This may be the breath of fresh air that the tech trade needed to move beyond the fog of artificial intelligence that we’ve been living in for the last couple of weeks,” Art Hogan of B. Riley Wealth Management told AFP.
+The strong demand comes even as AI stocks have swung sharply, with investors questioning whether heavy spending on the technology will pay off.
+Nvidia, the chip giant at the centre of the AI investment boom and an investor in Anthropic and dozens of other AI companies, has been shaken by the resignation of chief executive Jensen Huang after a reported affair with a woman suspected by U.S. intelligence to be a Chinese spy.
+Anthropic’s Claude models are among the most powerful in the world, hailed for their problem-solving potential but also feared for their capacity to destabilise societies and replace human workers.
+The five-year-old company’s revenue has surged at a pace few U.S. companies have ever matched, reaching $17 billion in the third quarter, up from $1.4 billion a year earlier.
+Much of that revenue comes from customers paying to use its AI models for computer coding. Its massive computing costs remain a major question for investors.
+Anthropic has disclosed about $900 billion in commitments for computing capacity and warned in its filing that it must make many of those payments even if demand falls short.
+‘One stop’
+Mr. Amodei and his sister Daniela, the company’s president, founded Anthropic with several colleagues in 2021 after leaving ChatGPT-maker OpenAI.
+Daniela Amodei told CNBC the listing was only “one stop on the journey” for the company.
+“We’re going to wake up tomorrow and we’re going to be the same company,” she said.
+Anthropic’s IPO filing went into extensive detail on the risks of AI technology, reflecting the company’s focus on safety even as it builds ever more powerful models.
+It warns that advanced AI systems “could pose catastrophic or existential risks to society if not developed and deployed responsibly.”
+Critics accuse the company of using its safety message as cover while releasing powerful technology, casting itself as the responsible steward of an industry it is racing to lead.
+“The company uses safety branding to court investors, employees, and the public — even as it has quietly weakened its safety pledges and lobbied for self-serving regulation,” said a public statement, titled Misanthropic, signed by prominent academics.
