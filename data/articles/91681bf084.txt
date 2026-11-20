@@ -6,7 +6,7 @@ In late October, security researchers discovered a major flaw that, if found by 
 Since then, researchers, IT teams and the National Cyber Security Centre have been working around the clock to warn dozens of companies.
 The BBC has not reported on the large-scale, secretive operation until now to reduce the chances of hackers causing harm if they found the vulnerability.
 Thousands of fridges taken off-line
-The security threat was discovered by ethical hackers at a firm called Omega Systems - it was then verified and expanded upon by experts at Pen Test Partners who helped raise the alarm.
+The security threat was discovered by staff at refrigeration consultants Omega Solutions - it was then verified and expanded upon by experts at Pen Test Partners who helped raise the alarm.
 The National Cyber Security Centre (NCSC), the Department for Environment, Food & Rural Affairs (Defra) and Food Standards Agency (FSA) were then involved in the campaign to plug the security holes.
 They held industry conference calls and tasked teams to contact firms at risk.
 Thousands of devices controlling tens of thousands of refrigeration devices were taken off the open internet either remotely or, in some cases, physically - with staff ordered to remove internet cables and monitor temperatures manually.

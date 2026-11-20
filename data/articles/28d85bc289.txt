@@ -1,0 +1,16 @@
+265,000 Oyster photocard customers’ data exposed in Transport for London breach
+Account details belonging to some 265,000 Oyster photocard holders may have been compromised in a breach of the photocard website, Transport for London (TfL) has warned.
+They include children with Zip cards and Londoners with the 60+ London Oyster photocard. TfL says it spotted suspicious activity on the site on 16 November and took the photocard system offline to limit access.
+“While we acted quickly to restrict this, this activity has unfortunately resulted in unauthorised access to the personal information contained in your web account. We apologise for this,” TfL told affected users in a message sent on 18 November, which one recipient shared on Reddit.
+Some cardholders noticed a problem before any official word came out. On Monday, a user on a UK rail forum said he had received a message claiming he’d tried to register a photocard that already existed, which he hadn’t done.
+“Now the photocard website has gone down for “planned maintenance”. At 13:00 on a Monday?” he wondered.
+Passwords and card details not affected
+According to TfL’s latest update on the incident, the compromised details include email addresses, phone numbers, home addresses, dates of birth and security questions and answers.
+“Our current assessment is that no passwords, bank or payment card details, customer journey information, or names and date of births of any children with a Zip Oyster card have been compromised,” the email continues.
+Photographs and copies of supporting documents were spared as well, the notice adds, and the incident did not reach any other TfL websites or services.
+TfL has notified the Information Commissioner’s Office and is “working at pace with our partners to progress the investigation.” The company has not disclosed how the intruders got in.
+“If you did not receive an email from us on 18 November 2026 advising that your personal information has been compromised, the information currently available suggests that your information has not been affected by this incident,” the incident page explains.
+Online accounts will stay locked while the investigation continues. Once the portal is restored, affected holders will be asked to choose a new password, security question and answer, and to change them on any other accounts where they used the same ones.
+Second incident in two years
+This is not the first time a cyberatack has hit TfL. In September 2024, attackers broke into its back-office systems, cutting staff off from internal tools and email and halting new Dial-a-Ride bookings. The attack cost TfL an estimated £29 million.
+In July 2026, two Scattered Spider members each received five years and six months in prison for the intrusion.

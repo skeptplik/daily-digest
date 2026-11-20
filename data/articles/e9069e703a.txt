@@ -1,0 +1,23 @@
+European Commission confirms AI-generated cyberattack disrupted its systems
+The European Commission has confirmed it was hit by a cyberattack that misused a publicly available AI tool and forced the institution to take several of its applications offline.
+Commission spokesperson Thomas Regnier gave the confirmation at Thursday’s midday press briefing in Brussels. Politico was the first to report the attack, in an exclusive published earlier that day.
+Reporters used the Q&A session to press Regnier on which systems were hit, whether staff data was stolen and who was behind the attack. On the AI angle, Regnier said that “following our investigation, we can confirm that this was an AI generated cyber campaign,” describing it as “a misuse of an AI tool.” Later in the session he added that “it was an AI tool that is publicly available.”
+He did not name the tool, and he did not address a reporter’s request to confirm that it was a Chinese AI tool used to identify vulnerabilities.
+Regnier opened his answers with a general statement on AI and security. “While AI can of course help to detect vulnerabilities and prevent cyberattacks, it can of course be misused for cyber operations,” he began, adding that “no one is immune to this.” He also mentioned the action plan on cybersecurity and AI that the Commission presented in July, noting it “shows that we are very well aware of what’s going on around us.”
+Detected in October
+According to the spokesperson, the incident “was detected on the 22nd of October and it was confirmed following the initial investigation on the 26th of October.” The Commission then opened an investigation and took preventive steps.
+Among those steps, the Commission “temporarily took down several applications” as “a protective and preventive measure,” Regnier explained, and “most of them have since then been restored.” He did not say which Commission services were targeted.
+The Commission is in “close contact with both CERT-EU and the European Data Protection Supervisor,” he added, and the investigation is ongoing.
+No sign of a staff data breach so far
+Asked whether personal data had been taken, Regnier responded that “at this stage of the investigation, we have not detected any evidence of a data breach affecting Commission staff as a whole.”
+He would not say whether the attack has ended, though “many elements have been contained, so that’s the good news.” Conclusive remarks, he made plain, would have to wait until the investigation wraps up.
+One reporter asked whether the attackers had demanded money. “I’m really not aware of any ransomware request made to the Commission, so definitely not,” Regnier replied.
+“So on the attribution, I will not go there,” Regnier said when asked who was behind the attack, citing the ongoing probe. When a journalist asked what the attackers wanted, he answered that “it’s not a question for me, that’s more a question for the threat actor.”
+He also declined to say whether the Commission used AI tools to defend itself, explaining that for security reasons he would not go into “the measures we’re taking and which tools we’re using.” On whether other EU institutions had been compromised, he replied, “I’ll not speak on behalf of other institutions, I only speak on behalf of ours.”
+CERT-EU warned about ARTEX
+Politico reported that CERT-EU detected the attackers using ARTEX, a publicly available AI tool for finding weaknesses in IT systems.
+CERT-EU had warned about ARTEX on 5 November, describing it as “an AI-powered penetration-testing framework” whose original repository was pulled in October after reports of misuse, though forks are still available. The agency said it had seen similar AI-driven activity against the EU bodies it protects, highly likely involving ARTEX, and cautioned that “ARTEX’s public availability will likely accelerate adoption by threat actors.”
+A journalist wanted to know why the Commission had said nothing about an incident that took place weeks earlier, until Politico broke the story.
+Regnier argued that measures taken against a cyber campaign stay out of public view “for them to be effective.” The Commission followed what he called “the processes as per usual practice,” informing CERT-EU, the European Data Protection Supervisor and the affected services within the institution.
+“There was no hiding whatsoever,” he insisted. “It’s just the Commission taken and following the usual procedural steps.”
+Reporters also wanted to know whether the incident deserved the “huge” label Politico had given it. “I’m not going to qualify the scale and extent of this cyber attack,” Regnier told the room. “It is a campaign, so there was a series of incidents indeed, and that’s all I can share with you at this stage.”

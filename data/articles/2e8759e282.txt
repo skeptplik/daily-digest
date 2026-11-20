@@ -14,3 +14,7 @@ a bit of a misunderstanding of bitlocker.
 bitlocker protects the data at rest, once the PC boots into windows bitlocker isn't part of the equation, so this doesn't bypass bitlocker, and would function the same whether the PC is protected by bitlocker or not Reply
 - 
 Ok, my narrator was already switched off by default. then I went into settings and disabled all settings individually -- like verbosity to minimum. no context, etc. should make my machine more difficult to hackReply
+- 
+Phew. Thankfully, any corp would have disabled usb devices with ZERO users running as full admin. Even the administrator.
+Come on MS, fix this.
+TechieTwo said:Ya just gotta trust your security to MS... or maybe NOT. :(Group policies are awesome. Home users?? They all run as admin, so what does anyone expect???!! Reply
