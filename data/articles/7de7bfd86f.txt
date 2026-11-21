@@ -1,8 +1,0 @@
-In the version of this article initially published, the reagent information for the DNA2 inhibitor was incorrectly reported as DNA2i; Sigma-Aldrich, SML4192 and should instead have read DNA2i; NSC-105808. The change affects the Methods “Thymidine analogue incorporation” section and the Supplementary Table 7 reagents sheet. The error has been corrected in the HTML and PDF versions of the article.
-Rights and permissions
-Open Access This article is licensed under a Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License, which permits any non-commercial use, sharing, distribution and reproduction in any medium or format, as long as you give appropriate credit to the original author(s) and the source, provide a link to the Creative Commons licence, and indicate if you modified the licensed material. You do not have permission under this licence to share adapted material derived from this article or parts of it. The images or other third party material in this article are included in the article’s Creative Commons licence, unless indicated otherwise in a credit line to the material. If material is not included in the article’s Creative Commons licence and your intended use is not permitted by statutory regulation or exceeds the permitted use, you will need to obtain permission directly from the copyright holder. To view a copy of this licence, visit http://creativecommons.org/licenses/by-nc-nd/4.0/.
-About this article
-Cite this article
-Gaggioli, V., Sengupta, K., Choudhury, A. et al. Author Correction: Replication-stress-induced chromatin loops protect fork stability. Nature (2026). https://doi.org/10.1038/s41586-026-11436-0
-- Version of record:
-- DOI: https://doi.org/10.1038/s41586-026-11436-0

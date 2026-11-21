@@ -1,0 +1,13 @@
+NSA resumes normal operations following internal network disruptions
+Updated 3:00pm EST with comments from NSA.
+The National Security Agency has mostly returned to business as usual after patches to a commonly-used programming language caused an internal communications network to crash for much of the week.
+An NSA spokesperson said they “can confirm that we are now operating under normal conditions.”
+The spy agency is operating under “normal conditions, with exceptions” today, according to a Friday morning voicemail inbox recording for its workforce.
+Certain facilities remain under “Code Orange” for non-essential employees, meaning delayed openings and some must check in with their supervisors.
+The instructions come after three days of disruptions to NSANet, which allows employees to communicate classified information internally. The disruptions were attributed to maintenance affecting PHP, a ubiquitous programming language.
+“The patching that has gone on following that has caused some of these systems to not come back up when you patch them as expected,” Director of National Intelligence Jay Clayton said in a television interview earlier this week.
+Workplace interruptions also occurred at NSA Georgia. Intelligence operations at that facility, focused on the Middle East, were not negatively impacted, according to two sources familiar with the situation.
+The outages also did not curtail NSA’s ability to support President Donald Trump’s trip to Asia, where he met with the leaders of China and Russia, these people said.
+Administration officials have insisted the problems at the spy agency are not the result of a cyberattack and not connected to other IT woes that have impacted Microsoft products, airline travel and online banking services in recent days.
+Martin Matishak
+is the senior cybersecurity reporter for The Record. Prior to joining Recorded Future News in 2021, he spent more than five years at Politico, where he covered digital and national security developments across Capitol Hill, the Pentagon and the U.S. intelligence community. He previously was a reporter at The Hill, National Journal Group and Inside Washington Publishers.

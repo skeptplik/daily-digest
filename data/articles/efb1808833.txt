@@ -1,0 +1,61 @@
+Whether it's scrolling through endless choice, spotting fake reviews, or working out if a "deal" is a deal at all, Black Friday sums up a lot of online woes.
+Retailers promise bargains - but the sheer number of offers can leave us feeling no closer to finding the best deal.
+It's an area where generative AI products, such as ChatGPT, Claude and Gemini, have promised to help.
+But are they any good at finding Black Friday deals? We had a go ourselves a week ahead of the big day.
+Figures suggest relatively few UK shoppers currently go to AI tools for help.
+A recent YouGov survey of 19 countries found the UK ranked second-last in the proportion of people who said they had used AI to help them shop.
+Crucially, 36% of respondents who said they would be shopping around Black Friday didn't plan to use an AI tool at all.
+But the survey suggested a growing number of people were considering it - and tech firms have released features to capitalise on this.
+Amazon launched Alexa for Shopping for UK users in November and OpenAI launched a Shopping Research tool on ChatGPT days before last year's Black Friday.
+In the US, Google recently launched Universal Cart, with AI-powered features such as price tracking and identification of relevant promo codes.
+But there has been criticism that fact-checking AI ends up taking more time, while some brands are working to try to make sure their products show up in chatbot answers.
+We asked four models to find a 55-inch TV deal, using the free versions of many of the most popular tools.
+While this was not a rigorous scientific test, the experience we had produced mixed results.
+ChatGPT - full price and not available to buy
+OpenAI's ChatGPT came up with four options.
+Its top pick was a Hisense TV on Chinese retailer Joybuy's website, on sale for Â£499 down from Â£649.
+The next recommendation was a 55-inch TCL-branded TV, but a sidebar showed prices for the 50-inch version, from Â£379 to Â£814.
+Option three was the same Hisense TV as before, but for full price at Â£649 from John Lewis and Richer Sounds.
+This was the "best safer purchase" according to ChatGPT, as the sites offered longer guarantee periods.
+But clicking on the links did not go well. Both retailers said the TV was no longer listed online.
+The fourth option was equally fruitless - another TCL TV, at full price, Â£150 over our budget and not available online.
+At the bottom, ChatGPT served one last offer - "one OLED option to compare" - for a Â£1,100 LG TV that was marked as "Ad".
+Claude - honest, but not too helpful
+Claude produced the shortest answer of all the models we tested, and unlike the others, it did not give much detail on the specifications of each model.
+Instead, it seemed to base its results on a small number of reviews published online.
+It recommended the same two TCL TVs as ChatGPT.
+But when we clicked on the links, they sent us to two dead pages on the Richer Sounds website.
+Some other links led to year-old round-ups of Black Friday 2025 deals.
+Claude was not very enthusiastic about its other two recommendations due to a lack of independent reviews - calling one "a decent option" but saying it "wouldn't pick" the other.
+It also listed two Samsung TVs, but it told us not to buy them, with one "over budget and not clearly better than the TCLs".
+We were left wondering why it even mentioned them in the first place.
+Gemini - a familiar pattern
+Different AI model, same TV manufacturers - albeit different Hisense and TCL models to the previous chatbots' recommendations.
+Gemini generated a table comparing four different models, but offered no links to the stores it named, so we searched for them ourselves.
+The prices for one TCL TV were correct at Â£649, but it was sold out at one of the named retailers.
+It said the other TCL model was available from Argos and Currys for Â£539 - correct for Argos, but when we checked Currys, it was Â£60 more expensive.
+Again, it included two Samsung models to avoid due to lower screen specs.
+Alexa - accurate but limited
+Alexa came back with four TVs, from its own Amazon Ember at Â£532 to a Â£699 Samsung.
+But its top recommendation was to go for another Samsung model at Â£616 (down from Â£749), based on its picture quality and Amazon customer rating.
+Its fourth option was for a Sony TV, but it was only 50 inches, leaving us unsure why it had included it.
+All the prices stated were correct, but Amazon only searches its own store. Alexa did acknowledge this, encouraging us to check its rivals for better deals, "as prices can vary" and we could get longer guarantees elsewhere.
+Inconsistent pricing
+There are methods that can boost the likelihood of getting a better response, from crafting more informative prompts to upping a chatbot's "thinking" level.
+Tech journalist Alex Hughes had better luck than we did when he used ChatGPT's agentic AI mode to find a TV in last year's Black Friday sales.
+Agentic AI is still in its early days, but it allows AI to act with more autonomy and carry out multi-step tasks.
+The search took about 20 minutes "with very little work on my end needed," Hughes wrote for Tom's Guide, external in November 2025.
+A year on, he told the BBC he didn't go through with buying a TV at that time.
+He did later purchase one of the seven models ChatGPT had surfaced - but he had found it for a lower price in a bricks-and-mortar shop.
+Will he be using AI to find Black Friday deals again this year? "Probably not," he said.
+He reckoned it saved him time, but "when you're trying to deal with something like live price data... it will be inconsistent and quite often incorrect".
+Slim pickings
+While we were served up the same brands again and again, in reality there are tonnes of products listed for sale around Black Friday.
+Naureen Mohammed, who advises businesses on how to get their products to appear in AI results, told the BBC customers did not see the full picture when they talked to chatbots.
+If businesses fail to update their prices when people start hunting for bargains, "last year's prices are served up as today's deals".
+"I suspect the whole model for advertising is going to start influencing AI recommendations," she said.
+Her own analysis of chatbots' Black Friday tech deals in the UK suggested the big retailers came out on top - with Amazon mentioned in half of responses, and Currys following closely behind.
+Her tips include asking an assistant "is that this year's price?" and clicking on the links provided - "because you shouldn't take any advice from the AI system at face value".
+But consumer group Which? recently said inaccurate pricing in AI results added more work, external to Black Friday deal-hunting.
+"If you ask ChatGPT for a list of 10 laptops under Â£400 and seven of the results are priced higher, you've likely wasted a good chunk of time going through them to discover the bot gave you only three options," said senior researcher Hannah Walsh.
+"The opposite is also true - you could miss out on great models in your budget if ChatGPT tells you they are more expensive than they actually are."

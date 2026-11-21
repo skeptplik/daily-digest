@@ -1,0 +1,16 @@
+WhatsApp has patched a low-impact vulnerability in its Android apps that it believes a scammer may have exploited to make scam messages seem more credible.
+Tracked as CVE-2026-23871, WhatsApp’s security team found the flaw. It’s tied to Click to WhatsApp ads and affects both WhatsApp and WhatsApp Business for Android.
+“Incomplete validation of external ad-reply URLs in WhatsApp for Android and WhatsApp Business for Android before 2.26.17.4 could have caused a target’s device to reveal its IP information to an attacker if an attacker sent media from an attacker-controlled URL when a crafted Click to WhatsApp ad-reply message was rendered and displayed in a message thread,” WhatsApp explained in its advisory.
+The advisory also says the vulnerability “may have been abused in conjunction with specific spam messages.”
+Asked by SecurityWeek about the exploitation, a WhatsApp spokesperson said, “Our team found this issue while disrupting a scam campaign, and we believe a scammer was using it to make their scam message seem more credible.”
+WhatsApp also published advisories for two medium-impact vulnerabilities, saying it has seen no evidence that either was exploited.
+One of them, CVE-2026-102769, is an SQL injection bug affecting WhatsApp for Android versions prior to 2.26.35.74. Tapping a maliciously crafted “order details” message sent from an unofficial client could lead to the deletion of WhatsApp files stored on the device.
+If the recipient was online when the message arrived, an attacker could also have learned one bit of information about their chat database. An external researcher reported the issue through Meta’s bug bounty program.
+The second, CVE-2026-44908, was discovered by Meta’s own researchers. It affects the remote-attestation verifier that WhatsApp apps use to confirm they can trust Meta AI’s confidential computing backend.
+Someone “positioned within Meta infrastructure” could have bypassed the hardware root of trust using a certificate not signed by the hardware manufacturer’s key.
+The bug impacted certain versions of WhatsApp and WhatsApp Business for iOS and Android, as well as WhatsApp for Mac.
+WhatsApp noted that such a certificate could not have been used without first being published to a third-party binary transparency ledger that WhatsApp Private Processing relies on.
+“The ledger shows that every published VCEK certificate chains to the hardware root of trust, confirming no exploitation,” the company said.
+Related: WhatsApp Adds Multiple Passkeys and Stronger 2SV in Account Security Update
+Related: WhatsApp Unveils New Scam Alert Feature
+Related: WhatsApp Rolling Out Username Feature to Bolster Phone Number Privacy

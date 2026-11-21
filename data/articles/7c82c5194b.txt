@@ -1,8 +1,0 @@
-The authors retract this article, following a suggestion from the editors. Shortly after publication, a preprint (subsequently published (see ref. 1 below)) by Till Sawala identified an inconsistency in our analysis. Our calculations were erroneously comparing the comoving distance between the observed galaxies to the luminosity distance between galaxies in the simulated mocks. Correcting these issues reduces the discrepancy between the observed and simulated samples to 1.48–2.75 sigma, depending on the sample construction. This falls below the standard significance threshold of 3 sigma in the cosmology literature.
-Despite the revised uncertainties, our method remains valid and provides tentative evidence for anisotropy in the large-scale distribution of galaxies in the Universe. The revised paper, with corrected uncertainties, will be submitted to another journal. This retraction will contain a link to the new publication, if and when it is published.
-Both authors agree with this retraction.
-About this article
-Cite this article
-Sylos Labini, F., Galoppo, M. Retraction Note: Detection of anisotropic cosmic structures on a gigaparsec scale. Nature (2026). https://doi.org/10.1038/s41586-026-11388-5
-- Version of record:
-- DOI: https://doi.org/10.1038/s41586-026-11388-5

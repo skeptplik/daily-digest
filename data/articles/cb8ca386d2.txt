@@ -1,6 +1,0 @@
-Executives at Epic Systems Corp., the largest maker of electronic health records, said Wednesday they would make it easier for companies to use artificial intelligence to read data stored in the company’s platforms, and defended Epic against allegations of anticompetitive conduct.
-At a panel discussion on a STAT stage at HLTH, a health technology conference in Las Vegas, Epic’s executives for the first time responded directly to a STAT investigation that found the company is undercutting competition by selectively withholding data access needed by rival application developers. They said the company is seeking to build a more open ecosystem amid a deluge of requests for integration coming from third-party software vendors.
-Seth Howard, executive vice president of research and development at Epic, said the company received about 75,000 inquiries last year from organizations seeking to tap into its data systems, which hold records on more than 280 million Americans. “If we built a bespoke connection for every single one of those, that’s all we’d ever be [doing],” Howard said.
-This article is exclusive to STAT+ subscribers
-Unlock this article — and get additional analysis of the technologies disrupting health care — by subscribing to STAT+.
-Already have an account? Log in

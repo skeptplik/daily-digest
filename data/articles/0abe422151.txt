@@ -1,0 +1,22 @@
+Hackers used an autonomous AI agent platform called "Cairn" to discover a zero-day vulnerability in a medical imaging application and exploit it to take complete control of a server.
+According to Amazon Threat Intelligence, the suspected Chinese-linked attackers simply instructed the AI agents to "obtain shell access," leaving them to independently discover and exploit the flaw.
+Amazon Threat Intelligence uncovered the campaign after discovering that the attackers had left their Cairn instance publicly accessible without authentication, exposing their hacking operations.
+According to the researchers, the attacks were launched by a Chinese-nexus threat actor between September 8 and 10, 2026, targeting mainly East Asian educational institutions outside China.
+Cairn is a legitimate pentesting tool that can be used to coordinate multiple AI agents in cyber-operations, created for research and defense strengthening.
+Gambit Security documented cases of Cairn abuse as part of a large-scale credit card stealing operation in September. More recently, Google reported it was deployed in an attack against an aerospace organization in the U.S.
+During the campaign investigated by Amazon, the AI agents were not always successful. For example, a 16-hour and 148-action effort to take control of a Redis server failed.
+In a separate case targeting a university GPU server, the agents tried over 30,000 credential combinations over six hours but failed to brute-force their way in.
+Finding and using a zero-day
+According to Amazon, Cairn's AI agents found a path traversal zero-day in MONAI Label, an open-source medical imaging application that uses AI to help researchers label medical images.
+The flaw enabled the agents to write files to arbitrary locations on the server, and within 11 minutes, they went from mapping the application's API to exploiting the vulnerability.
+In a subsequent session, the AI agents used the flaw to write a Python reverse shell to the sitecustomize.py file that automatically loads when Python starts, then triggered an API endpoint to establish root access to the server.
+After discovering the zero-day, the operator provided the agents with a proxy into a second university network running the same vulnerable software and directed them to target other machines.
+Amazon reported the flaw to MONAI Label maintainers, and they released a security update to address it on November 18.
+The researchers attributed the campaign to a Chinese-nexus threat actor with moderate confidence, based on the language of the retrieved prompts, the activity timestamps, and the choice of targets.
+Amazon also shared two IP addresses associated with the campaign, observed between September 8 and 10, 2026:
+- 142[.]4.98.145
+- 142[.]4.107.34
+Amazon warned that AI agents can find and exploit vulnerabilities faster than security teams can react, urging organizations to rely more on automated defenses rather than manual investigations.
+Adaptive Security's AI agents analyze email intent, context, and behavior to uncover phishing, business email compromise, and invoice fraud.
+See what's getting through with a 14-day read-only scan of Microsoft 365 or Google Workspace, with no MX changes.
+Start your free email security scan.

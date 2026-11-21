@@ -5,7 +5,9 @@ It was thought the UK had largely escaped such hacks as the British refrigeratio
 In late October, security researchers discovered a major flaw that, if found by hackers, could have led to even worse damage to the UK.
 Since then, researchers, IT teams and the National Cyber Security Centre have been working around the clock to warn dozens of companies.
 The BBC has not reported on the large-scale, secretive operation until now to reduce the chances of hackers causing harm if they found the vulnerability.
-Thousands of fridges taken off-line
+Tech Life: The everyday tech at risk of hacks
+As Europe sees a wave of cyber-attacks on commercial fridges, we investigate how everyday devices are vulnerable to basic attacks using easily-available tools.
+Thousands of fridges taken offline
 The security threat was discovered by staff at refrigeration consultants Omega Solutions - it was then verified and expanded upon by experts at Pen Test Partners who helped raise the alarm.
 The National Cyber Security Centre (NCSC), the Department for Environment, Food & Rural Affairs (Defra) and Food Standards Agency (FSA) were then involved in the campaign to plug the security holes.
 They held industry conference calls and tasked teams to contact firms at risk.
