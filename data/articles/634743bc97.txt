@@ -1,6 +1,0 @@
-NASA tested RS-25 engine No. 10001 on Nov. 18 on the Fred Haise Test Stand at NASA’s Stennis Space Center near Bay St. Louis, Mississippi.
-Test teams fired the developmental engine for the planned duration of three minutes and 20 seconds (200 seconds).
-While this developmental engine will not be used in flight, the hot fire test provides NASA and NASA’s prime contractor L3Harris Technologies with the capability to capture critical data to improve engine performance and reliability for future Artemis missions.
-For the Artemis IV Moon landing mission in 2028, the SLS rocket will launch astronauts aboard the Orion spacecraft from NASA’s Kennedy Space Center in Florida. This mission will be a key step in the agency’s broader goals to explore the lunar South Pole, establish an enduring human presence on the lunar surface, and build on the agency’s foundation for the first crewed mission to Mars.
-For each Artemis mission, four RS-25 engines produce up to 2 million pounds of combined thrust to help launch the SLS rocket.
-All RS-25 engines are tested and proven flightworthy at NASA Stennis prior to use. Tests are conducted by a team of operators from NASA, L3Harris, and Nova Space Solutions.

@@ -1,7 +1,7 @@
 Anthropic's shares have dropped back towards their initial price after a soaring first day on the stock market, as a wider tech sell-off dragged markets down.
 The sell-off comes as concerns remain over the speed and size of artificial intelligence investment, but also as some large companies including Nvidia and SpaceX faced specific issues that worried investors.
 Those pressures combined to weigh on US markets through Friday, with all key US indexes closing sharply down on the day, furthering earlier falls over the week.
-The S&P 500 and the Dow Jones Industrial Average were pushed into correction territory, a point where they are trading at 10% or more down from a recent high.
+Both the S&P 500 and the Dow Jones Industrial Average were pushed into correction territory, a point where they are trading at 10% or more down from a recent high.
 The S&P 500 closed down 3.7%, the Dow Jones Industrial Average was down 1.9% and the tech-heavy Nasdaq Composite Index plunged 5.3%. However, all three indexes were up on where they were a year ago.
 The speed at which AI investment has been growing - with more than $1 trillion spent in the last year alone by a small handful of major tech companies - has led to ongoing concerns of a financial bubble. Questions are being raised over whether those investments will pay off, and when.
 Investors were also spooked after the Democrats' resounding win in the US midterms in early November, which sparked fears of a reduction in AI development.

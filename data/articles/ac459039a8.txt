@@ -1,0 +1,3 @@
+Washington – A researcher at AI company Anthropic said Friday that he had used the firm’s Claude chatbot to prove the Riemann Hypothesis, a problem that has eluded mathematicians for more than 160 years.
+First proposed by German mathematician Bernhard Riemann in 1859, the hypothesis concerns the distribution of prime numbers and is widely regarded as the most important open question in pure mathematics.
+“I believe I have, working with Claude, discovered a proof of the Riemann Hypothesis,” Levent Alpoge wrote in a four-page note released Friday.

@@ -4,3 +4,5 @@ This release includes applicable Vim patches up to Vim 8.2.3237, including
 numerous bug fixes, minor features, and compatibility improvements for Vim
 plugins. This release also removes Python 2 support from Vim Classic.
 The full list of changes in this release is available on sourcehut.
+The LWN site is currently under high scraper load, so comment display has been suppressed for anonymous users. If you are a human, you may read the comments by clicking the button below:
+Note: you can avoid this step in the future by logging into your LWN account.
