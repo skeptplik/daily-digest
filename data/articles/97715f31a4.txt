@@ -4,7 +4,7 @@ If found to be correct, the proof would be among the most significant in history
 The claim comes as AI firms like OpenAI have in recent months announced scores of solutions to major higher maths problems that have eluded scholars for decades.
 As for the Riemann hypothesis proof put forward on Friday, it was found using a non-public version of Anthropic's Claude.
 It is a nearly 170-year-old maths problem that deals with prime numbers and is widely considered to be the single most famous problem in maths, in large part due to how complex it is.
-Named for the mathematician Bernhard Riemann, the hypothesis puts forward that prime numbers have a determined order along the number line.
+Named after the mathematician Bernhard Riemann, the hypothesis puts forward that prime numbers have a determined order along the number line.
 Prime numbers are the bedrock of higher maths, leaving breakthroughs related to them to have broad impact.
 AlpÃ¶ge said that he messaged Anthropic CEO Dario Amodei on Sunday, asking him directly about how he could announce the discovery.
 "The precise timing is horrible," AlpÃ¶ge said, referring to Anthropic's public stock listing. "If I could have, I'd have finished this all much earlier."
