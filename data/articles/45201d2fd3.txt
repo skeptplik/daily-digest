@@ -1,10 +1,15 @@
-The FBI is investigating an apparent breach of its criminal information database, US media report citing two people briefed on the issue.
-The National Crime Information Center (NCIC) database is used by federal and local law enforcement to share information on warrants and background checks. The BBC has contacted the FBI for comment.
-This comes after string of tech outages which hit banking, air traffic control and other sectors in the US last week. Officials have said they were not caused by cyberattacks - but the blackouts have sparked scrutiny from lawmakers.
-White House National Cyber Director Sean Cairncross was fired this week, with US President Donald Trump saying he was not good enough.
-It would not be the first time hackers have targeted the FBI, the domestic intelligence and security service of the US.
+The FBI is investigating an apparent breach of its criminal information database, US media reports, citing two people briefed on the issue.
+The National Crime Information Center (NCIC) database is used by federal and local law enforcement to share information on warrants and background checks.
+It would not be the first time hackers have targeted the FBI, the domestic intelligence and security service of the US. The agency did not respond to the BBC's request for comment.
+When asked about the breach in a Fox News interview on Saturday, President Donald Trump said he had "just heard" about the hack. "I will say that it's not good. I don't like that," he said.
+"But maybe we'll learn things that we would've never learned otherwise," Trump added.
+This apparent breach of FBI database comes after a string of tech outages which hit banking, air traffic control and other sectors in the US last week. Officials have said they were not caused by cyber-attacks, but the blackouts have sparked scrutiny from lawmakers.
+White House National Cyber Director Sean Cairncross was fired this week, with Trump saying he was not good enough.
+Dan Lorhmann, a former analyst for the National Security Agency (NSA), told the BBC News Channel that the NCIC's data included "critical information relating to nationwide criminal activity" and needed to be protected.
+He added that while US security agencies including the FBI have "an amazing ability" to keep such information safe" and are "globally respected", the level of cyber-attacks is rising globally.
+"There's a lot of different reasons why that's happening but I do have faith in our experts in government," Lorhmann said.
 In September, the FBI said it was investigating an apparent breach by a cyber-crime group ShinyHunters, which claimed it had stolen sensitive information on all bureau staff - around 38,000 people.
 After that hack, one former FBI agent told the BBC he feared for the safety of current employees, whose personal information could soon become available online to criminals and hostile nation-state hackers.
-In a separate development, NBC reported an apparent cyberattack against the US Department of Agriculture (USDA) .
+In a separate development, NBC reported an apparent cyberattack against the US Department of Agriculture (USDA).
 Employees were informed on Thursday that its farm payment system had been targeted, NBC said.
 The USDA has not publicly commented on the issue.

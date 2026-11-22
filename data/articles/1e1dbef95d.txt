@@ -1,0 +1,28 @@
+Microsoft is warning organizations that it suffered a data breach after attackers exploited a vulnerability in its Entra Connect Health service to gain unauthorized access to administrator email addresses and tenant configuration information.
+Microsoft Entra Connect Health is a cloud-based monitoring service that allows administrators to monitor the health, performance, and alerts of their on-premises identity infrastructure through the Microsoft Entra admin center.
+According to a security notification sent to admins yesterday and shared on Reddit, Microsoft discovered the vulnerability in the Entra Connect Health API on November 9, 2026, after it was first introduced on July 23.
+An investigation determined that the flaw was exploited, allowing unauthorized parties to access tenant and service-monitoring metadata and potentially modify Connect Health monitoring configurations.
+"On 20 November 2026, we concluded our investigation and determined that unauthorized read-only access to tenant-level metadata associated with your organization had occurred. We did not identify any unauthorized configuration changes," Microsoft said in the notification.
+The company says the exposed information included:
+- Email addresses belonging to tenant technical contacts and administrator accounts.
+- Tenant IDs, display names, initial domain names, country codes, and regional information.
+- Microsoft Entra license tiers and directory synchronization status, including whether synchronization was enabled and the last synchronization timestamp.
+- Connect Health onboarding status.
+- An expired certificate previously used to register Connect Health agents with a Microsoft internal service that was decommissioned in late 2024.
+Microsoft says the expired certificate was no longer in use but remained in Connect Health storage and was still returned by the API.
+However, the company says the vulnerability did not expose user passwords, password hashes, authentication tokens, valid cryptographic keys, on-premises server and Active Directory topology details, or Azure subscription information.
+Microsoft deployed a server-side fix on November 19 to prevent further exploitation and reviewed available telemetry to identify unauthorized API calls affecting customers. The company finished its investigation on November 20 and began notifying affected organizations.
+Microsoft has not disclosed how many organizations were impacted, but more than a dozen administrators have reported receiving the notification in the Reddit post.
+Some managed service providers (MSPs) also reported receiving notifications for multiple customer tenants, with one administrator saying the emails arrived hours apart.
+The notification says no software updates or other customer remediation are required to address the vulnerability.
+However, Microsoft recommends that organizations alert their security teams to potential targeted phishing and social-engineering attacks that could target the exposed administrator email addresses and tenant information.
+Organizations are also advised to ensure privileged accounts use phishing-resistant multifactor authentication, review their Connect Health configurations, and examine Microsoft Entra audit and sign-in logs for suspicious activity.
+Microsoft also published a PowerShell script at https://aka.ms/ConnectHealth/scripts that allows administrators to view the types of tenant metadata that could have been exposed.
+However, the script displays current configuration values rather than the information that was accessed during the breach.
+Microsoft has not disclosed who exploited the vulnerability, how many tenants were impacted, or when the attacks first began.
+When contacted by BleepingComputer, Microsoft confirmed that it had fixed the vulnerability and notified impacted customers.
+"We identified and addressed a security issue affecting Microsoft Entra Connect Health that could have resulted in unauthorized access to tenant-level contact and configuration metadata. We deployed a fix on November 19, 2026, and have notified impacted customers through Azure Service Health, providing guidance and support," a Microsoft spokesperson told BleepingComputer.
+Microsoft declined to provide further details about the breach.
+Adaptive Security's AI agents analyze email intent, context, and behavior to uncover phishing, business email compromise, and invoice fraud.
+See what's getting through with a 14-day read-only scan of Microsoft 365 or Google Workspace, with no MX changes.
+Start your free email security scan.

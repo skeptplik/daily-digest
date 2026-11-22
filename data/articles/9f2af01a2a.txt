@@ -1,0 +1,24 @@
+Rackspace warned customers that hackers breached its Rackspace Spot cloud platform using compromised credentials, allowing them to deploy unauthorized workloads and access Kubernetes secrets in customer clusters.
+Rackspace Spot is a cloud platform that allows organizations to deploy and manage containerized applications using Kubernetes.
+The company disclosed the breach in a notification sent to affected customers and obtained by BleepingComputer, stating that attackers accessed parts of the platform on November 17, 2026, between approximately 00:20 and 22:00 UTC.
+Rackspace says it learned of the intrusion on November 18 after receiving a customer report and confirmed that the recipient's organization was affected that same day.
+"On 17 November 2026 (about 00:20–22:00 UTC), an unauthorized party used leaked credentials to access parts of Rackspace Spot," reads the notification.
+According to Rackspace, the attackers were able to act as legitimate users in some customer organizations, allowing them to create pods in Kubernetes clusters, read Kubernetes Secrets, and list nodes and volumes.
+Kubernetes Secrets store sensitive information such as passwords, authentication tokens, and API keys that can be used to access databases, cloud services, and other systems.
+Rackspace warned that the attackers could have read any Secret stored in an affected user's clusters, as well as any Spot API tokens or refresh tokens held by that user.
+The company says it has since revoked affected tokens and sessions, removed the unauthorized pods, rotated keys, and strengthened access controls and monitoring.
+Affected customers have been instructed to reissue their Spot API tokens, replace refresh tokens used in automation tools, download fresh Kubernetes configuration files, and rotate credentials stored in their cluster Secrets.
+Rackspace also advised customers to analyze logs associated with databases, container registries, Git repositories, cloud storage, and third-party services dating back to November 17 to identify possible abuse of exposed credentials.
+The company shared the following indicators of compromise associated with the attack:
+- IP address: 23.224.79.106
+- IP range: 23.224.0.0/15
+- Suspicious Kubernetes pod and object prefixes: i1, glm-, and probe
+BleepingComputer contacted Rackspace to ask how many customers were affected and whether customer data was stolen, but has not received a response.
+The breach also caused an extended outage of the Rackspace Spot administration console, temporarily preventing customers from managing their clusters and rotating potentially compromised credentials.
+In a Reddit discussion, Sirish Raghuram, co-founder and Chief Growth Officer of Platform9, which co-developed Rackspace Spot with Rackspace, explained that the company deliberately disabled access while securing its infrastructure.
+"I've been instrumental in creating Spot and in its operations to date, and I can tell you that the team and I are incredibly disappointed to have let you down in this way," Raghuram said.
+"I know you disagree, but we made the decision that shutting all access down and sanitizing the entire environment is what we can do to best protect everyone using Spot."
+After multiple delays, Rackspace announced that service had been fully restored on November 21.
+Adaptive Security's AI agents analyze email intent, context, and behavior to uncover phishing, business email compromise, and invoice fraud.
+See what's getting through with a 14-day read-only scan of Microsoft 365 or Google Workspace, with no MX changes.
+Start your free email security scan.

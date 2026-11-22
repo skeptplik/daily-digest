@@ -1,0 +1,15 @@
+Kirsten Davies, currently Chief Information Officer at the Department of War, has been appointed as the new National Cyber Director.
+Sworn in as DOW’s CIO in December 2025, Davies will replace Sean Cairncross, who was confirmed as the top cybersecurity official in August 2025, more than five months after being nominated for the position.
+Before her DOW tenure, Davies led cybersecurity at multiple organizations. She served as CISO at Unilever, The Estée Lauder Companies Inc., Hewlett-Packard, and Siemens, and as CSO at Barclays, and founded and was the CEO of the Institute for Cyber.
+“Our nation stands in the crossroad of analog, digital, and quantum technologies, our American way of living increasingly interconnected. Our opportunity is to dominate the cyber landscape for generations to come …but only if we modernize and drive resilience into the foundations our great nation runs on, as well as build cyber talent for our future,” Davies said on X.
+“The Department congratulates Kirsten Davies on her new role as the National Cyber Director. Throughout her tenure at DOW, she has proven herself to be a dedicated patriot and professional, and we are confident she will advance President Trump’s America First agenda across the cybersecurity landscape,” Secretary of War Pete Hegseth said in an X post.
+Her appointment comes amid a series of outages across the US, some with worldwide impact, and a surge in AI-assisted attacks.
+Microsoft’s 365 services, including Outlook and Teams, went down on November 12, affecting government and private organizations across the globe. The company said it was a technical issue and ruled out a cyberattack.
+On November 13, the Federal Aviation Administration (FAA) issued a ground stop, disrupting thousands of flights. Officials blamed communication system failures on patches and new technology that overwhelmed the older system.
+This week, JPMorgan Chase experienced a technical issue that impacted the financial system, United Airlines delayed departing flights due to an internal systems outage, and NSANet, a classified internal network the National Security Agency uses to communicate classified information, experienced an outage blamed on “scheduled routine maintenance”.
+The outages occurred amid an increase in AI-assisted cyberattacks, mainly powered by the Chinese agentic AI penetration testing framework Artex, and many have been wondering if there is a connection between them.
+The Trump Administration has said there is “no indication of a coordinated cyberattack, state-sponsored activity, or malign actor behind the recent tech outages.”
+Director of National Intelligence Jay Clayton and Secretary of State and National Security Adviser Marco Rubio explained that the incidents were not related and stemmed from companies patching vulnerabilities and upgrading outdated systems.
+Related: European Commission Confirms AI-Assisted Cyberattack Disrupted Services
+Related: Pentagon Renames CDAO ‘Super Intelligence Office’
+Related: Barracuda Hacked Amid Surge in Artex-Powered Cyberattacks

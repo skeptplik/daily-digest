@@ -10,3 +10,5 @@ winding up the effort. Any contributors with code contributed before January 19,
 contributions made available under Apache-2.0 with the LLVM-exception can still
 reach out to the project to ensure their code has the appropriate SPDX license
 identifier.
+The LWN site is currently under high scraper load, so comment display has been suppressed for anonymous users. If you are a human, you may read the comments by clicking the button below:
+Note: you can avoid this step in the future by logging into your LWN account.

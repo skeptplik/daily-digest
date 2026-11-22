@@ -1,6 +1,0 @@
-It’s time to retire vanity security dashboards
-In this Help Net Security video, Abdul Khadir Mahamed, OT Security Architect at Estée Lauder Companies, explains why security teams should retire vanity dashboards in IT and OT environments.
-He walks through an example from a manufacturing site, where the same approved maintenance work triggers the same alert week after week. Analysts close thousands of tickets, but the underlying problem stays. He describes how SOC and control engineering teams can review these patterns together, tune detection rules with the right context, and test that unexpected activity still raises an alert.
-He applies the same thinking to vulnerability dashboards. A lower severity finding on a server reachable through a supplier connection may need more attention than a high severity issue on a restricted workstation.
-Mahamed argues that security dashboards should show what exposure was removed, who owns the next action, and whether that action worked, not just how many alerts or findings were closed.
-Strategies: CISSP exam prep with ISC2 experts

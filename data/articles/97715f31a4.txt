@@ -10,7 +10,7 @@ AlpÃ¶ge said that he messaged Anthropic CEO Dario Amodei on Sunday, asking him
 "The precise timing is horrible," AlpÃ¶ge said, referring to Anthropic's public stock listing. "If I could have, I'd have finished this all much earlier."
 "I am clearly unilaterally responsible for feeling I just could not live if I waited even longer. There is an obvious cynical view, to do with the timing, but it is false," he added.
 The complete textual proof that AlpÃ¶ge put forward in Lean, a computer language used for confirming maths proofs, is over 250,000 pages long.
-Terrance Tao, a prominent mathematician, said on Friday, external that verification of the proof is still some way off.
+Terence Tao, a prominent mathematician, said on Friday, external that verification of the proof is still some way off.
 "I imagine the digestion process will take some time, though in this case at least we have a human author to communicate with to assist with this task," Tao said.
 No such human was obviously a part of major maths proofs made earlier this year using AI.
 OpenAI in September claimed that employees using a non-public version of its AI tools were able to solve part of a notoriously difficult problem in just 88 hours. The problem was part of the Navier-Stokes equations, which concern how fluids move.
