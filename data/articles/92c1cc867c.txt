@@ -1,8 +1,0 @@
-In the midst of dealing with the fallout from its ouster of CEO Jensen Huang, Nvidia delivered its latest earnings report this week, with healthy growth and promises that the good times will continue.
-At the same time, the chipmaker said it will stop selling its H200 chips in China, and it dismissed calls to bring Huang back as CEO.
-On the latest episode of TechCrunch’s Equity podcast, Kirsten Korosec, Anthony Ha, and Tim De Chant discussed what the future holds for Nvidia and the broader AI industry, especially as Anthropic goes public and puts the industry’s circular funding model to the test.
-Keep listening to hear more about:
-- Waymo’s decision to suspend freeway rides nationally
-- Tesla making the Cybercab available for personal orders, with some serious fine print
-- Battery startup Our Next Energy going public after a brush with death
-- Plural’s new fund to back European moonshots
