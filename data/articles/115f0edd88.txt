@@ -12,3 +12,7 @@ Fun is that some graphics designers could make 10-20 years Windows look like tod
 - 
 Stomx said:Fun is that some graphics designers could make 10-20 years Windows look like todays Windows11 so the 99.999% people will not distinguishThey already do stuff like that, but usually the opposite.
 Stomx said:Microsoft has to return to users the money for the Windows taking may be 1% to themselves. Linux spent for its OS development not by few times but by few orders of magnitude less. Even more shocking difference looks for the Office app. There probably difference reach 10000x numbersWindows market share will not be taken too easily. There will be some attrition to macOS and elsewhere, but Microsoft is starting to take ARM and its memory usage seriously. If they maintain their relationships with OEMs, not much will change. Any amount of friction hurts Linux adoption for the majority of people. Also, I think the Googlebook launch will be a bust and cause ChromeOS/WhateverOS usage to decline. Reply
+- 
+usertests said:If they maintain their relationships with OEMs, not much will change.This, pretty much.
+Though many of the OEMs, especially the little ones, are more and more comfortable with offering Linux as a visible second option. Not a you have to call to find out.
+Linux is best positioned to be a strong contender in the gaming space though even in light of Microsoft's OEM advantage. Windows with its advertisements only pisses people off. Reply

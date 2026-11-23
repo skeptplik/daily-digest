@@ -1,0 +1,61 @@
+Apple’s first folding phone has upended the usual order of things with some interesting choices about how you use a iPhone – for better or worse.
+The Duo sits atop the pile as Apple’s most expensive smartphone – at £1,999 (€2,299/$1,999/A$3,499) it costs more than most of its folding Android rivals and as much as the iPhone 18 Pro Max and the latest iPad mini combined.
+It is designed as a pocketable device that replaces your phone and tablet but it is neither a regular iPhone when closed nor an iPad when open, it’s something else entirely.
+The Duo is a squat, wide and weighty device, flying in the face of eight years of folding Androids that have generally been tall and thin. The outside 5.4in screen is bright, crisp and smooth. Open the Duo like a book to reveal its fantastic 7.6in folding OLED screen with a matt finish similar to the company’s high-end iPads, MacBooks and displays. This eliminates glare and hides the crease down the centre where it folds.
+Like all folding screens, though, it is not made of regular hardened glass and so must be treated with care. Press hard enough with a fingernail and you will leave a permanent mark. And there have been multiple reports of faulty devices with broken screens.
+Short and wide
+The Duo is short and squat when closed because Apple has used the same 1.4:1 ratio for the outside and inside screens, just at different sizes, which is mathematically beautiful but does present some usability challenges.
+The closed Duo is a very wide device measuring 84.1mm across – 6.1mm wider than the giant iPhone 18 Pro Max – which makes it almost exclusively a two-handed device for typing or reaching anything across the screen even with a PopSocket on the back.
+The display is short, which does not leave much room for your messages or content when you use the keyboard. Apple has altered iOS for the first time in a decade to try to make the most of the restricted vertical space by moving what would be at the top and bottom of the screen to the right.
+The dock has been moved to the right, while the status bar has been condensed into a circle under the selfie camera. The right bar is home to controls, such as the back button and tab bars, but shoves the main body of the app to the left, making it harder to reach when held in your right hand. With the Touch ID fingerprint scanner on the right side, it will be tricky to use for the left-handed.
+The inside screen and stereo speakers are well suited to landscape video, photos and other widescreen content. Old TV shows shot in 4:3 ratio fill it almost exactly, while modern 16:9 TV shows have narrow black bars top and bottom and wider films are letterboxed. Browsing, reading and certain apps are better turned to portrait for a longer view.
+Specifications
+- Main screen: 7.6in Super Retina XDR (120Hz OLED) (430ppi)
+- Cover screen: 5.4in Super Retina XDR (120Hz OLED) (460ppi)
+- Processor: Apple A20 Pro
+- RAM: 12GB
+- Storage: 256, 512GB, 1TB or 2TB
+- Operating system: iOS 27.2
+- Camera: 48+48MP rear; 12MP+4MP selfie cameras
+- Connectivity: eSIM-only 5G, wifi 7, NFC, Bluetooth 6, Thread, USB-C, Satellite, UWB and GNSS
+- Water resistance: IP68 (6 metres for 30 mins)
+- Dimensions folded: 117.8 x 84.1 x 11.3mm
+- Dimensions unfolded: 117.8 x 164.6 x 5.2mm
+- Weight: 254g
+The app situation
+The Duo runs iPhone apps in broadly three classes: those that haven’t been updated, those that have been updated for iOS 27.1 or later and those that have been redesigned specifically for the Duo.
+Most apps are in the first or second class. The first is a standard iPhone app in the middle of the Duo’s screen, which doesn’t look too bad on the outside screen, but is comical on the inside, similar to the early days of the iPad.
+The second class will stretch to fill either screen of the Duo, but will not use the right panel at all, leaving it as black wasted space.
+The third class are the best, making use of the full screen and the side bar. Apple’s apps mostly have the best layouts, but there are a rapidly growing number of third-party apps that make decent use of the screen with dual-panel views. Google Maps was recently updated to expand the map across the full screen with small tools for navigation and the compass in the bottom right. Simple but effective.
+Other app redesigns have been less successful, ending up with information obscured by the status bubble and dynamic island. Instagram’s boss, Adam Mosseri, recently admitted on Threads “it’s a bit of a tricky form factor” and that it will be “pretty challenging” to make the best of the Duo. Even Apple hasn’t got it all right: moving the equals button from the bottom right corner on the calculator app is particularly irritating.
+Modes and multitasking
+The hinge of the Duo can hold the phone open in multiple forms. For example, you can stand the Duo like an A or a greetings card to show iOS’s standby clock and widgets when locked. Partially open the inside screen, and iOS neatly pushes app icons, the clock, playback buttons and other elements away from the central fold. You can use the Duo like a mini laptop with the keyboard on the bottom or play media with video pushed to the top half and controls on the bottom. Netflix even has a nice immersive effect that projects some of the colour from the video on to the bottom half of the screen.
+The inside screen supports up to two apps in split screen for multitasking, but only when in landscape orientation. You can’t resize them, but you can pin the apps as a pair to launch them together. Some apps, such as Safari, allow you to open more than one window, so you can split-screen two websites.
+In portrait orientation, you can pin a video to the top half of the screen with an app open below it, but that’s it. Any video app that supports picture in picture should work, including YouTube, Netflix, BBC iPlayer and other streaming apps.
+Surprisingly long battery life
+The Duo has the same A20 Pro chip as the iPhone 18 Pro and performs very well. But it also has surprisingly good battery life, lasting almost two days between charges with the screens actively used for about 3.5 hours each for apps, browsing, messaging and photos.
+The battery lasts longer when predominantly using the outside screen, while gaming drains it much faster. It should outlast most heavy days with some left in the tank, with most people needing to charge the Duo every other night.
+A full charge takes about 82 minutes hitting 60% in 30mins using a 60W or greater USB-C power adapter (not included) or longer using 25W Qi2/MagSafe wireless charging.
+Sustainability
+The battery will last more than 1,000 full-charge cycles with at least 80% of its original capacity and can be replaced for £209. Out-of-warranty screen repairs cost £389 for the outer display and £999 for the inner display. The nano-texture display layer can be replaced for £49.
+The specialists at iFixit awarded the phone five out of 10 for repairability, the highest score for a foldable but far behind the best traditional slab phones.
+It contains 35% recycled material. The company breaks down the phone’s environmental impact in its report. Apple offers trade-in and free recycling schemes, including for non-Apple products.
+Cameras
+The Duo has four cameras: a 12MP selfie camera on the outside screen, a 4MP camera hidden under the inside screen, and two cameras on the back.
+The regular selfie camera is decent and supports Apple’s Center Stage tech to automatically reframe the shot but it is a small step down from regular iPhones. The selfie camera under the inside screen is only good enough for video calls and only in bright light.
+The rear camera is one of the biggest compromises for the folding form. The Duo lacks a telephoto camera similar to the base-model iPhone 17, having only the main and ultra-wide 48MP cameras. They shoot good photos and video in most scenarios, but are noticeably worse than the iPhone 18 Pro in low-light conditions.
+The Duo has one big advantage: you can use the main cameras for selfies with the outside display as the viewfinder. It is a bit awkward, but the results are better than any selfie camera.
+The camera has a few other tricks. You can show your subject what they look like in the outside screen, or display animated characters to capture the attention of children. You can prop the Duo up half-folded and activate Smart Take to automatically capture photos and video of you in front of the camera.
+Price
+The iPhone Duo costs from £1,999 (€2,299/$1,999/A$3,499).
+For comparison, the iPhone 18 Pro costs £1,199, the iPhone 18 Pro Max costs £1,299, the iPhone Air costs £1,099 and the iPhone 17 costs £899. The Samsung Galaxy Z Fold 8 costs £1,699, the Galaxy Z Fold 8 Ultra costs £1,899, the Google Pixel 11 Pro Fold costs £1,799 and the Honor Magic V6 costs £1,300.
+Verdict
+The Duo is the most interesting and different iPhone in almost a decade, changing the way Apple’s ubiquitous smartphone works.
+The folding form opens up many new possibilities. The inside screen is brilliant and the matt texture eliminates glare, while hiding imperfections. It is a great size and shape for content – watching TV on a public-transport commute is a delight – but less ideal for multitasking with multiple apps, which feel a bit short and cramped.
+The short and wide outside screen takes some getting used to, particularly for messaging, and requires two hands to type on. This isn’t the device for small-phone aficionados.
+The app situation is rapidly improving with 100s of developers deploying updates to better make use of the Duo’s shape every day. But you’ll still run into some jarring app experiences, which are eased a little by lots of slick software touches built into iOS.
+Shifting the dock to the right felt logical after a day of use and I really like the new condensed status icon circle. But it will be tricky to use for the left-handed, as will Touch ID on the right side, which works well but is a step back from the convenience of Face ID.
+The folding form brings many compromises. It is extremely expensive. The dual camera on the back is decent, but not the best on an iPhone and lacks a telephoto option. The Duo is heavier, thicker and not as robust as a regular iPhone. The inside screen must be treated with care. The performance and battery life are good, however.
+The Duo is far from perfect, and there are better folding phones on the Android side. But it is the most fun I’ve had with an iPhone in quite some time, and for those locked into Apple’s ecosystem but craving a different experience, this is it. For everyone else, there are better and far cheaper options available.
+ Pros: phone and tablet in one, fabulous matt tablet screen, top performance, good battery life, novel software, a different iPhone experience, fast Touch ID sensor, water resistance, decent dual cameras, great speakers.
+Cons: extremely expensive, heavy, hard to use one-handed, squat shape not ideal for messaging when closed, no Face ID, bit of a learning curve, more fragile than a regular device and costly to repair, no telephoto camera, tricky for left-handed users.

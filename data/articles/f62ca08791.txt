@@ -1,0 +1,19 @@
+Xalgorix: Open-source AI penetration testing tool
+Xalgorix, an open-source AI penetration testing tool, checks its work before it reports anything. When its main agent finds a bug, a second agent has to exploit that bug again. If the second agent can’t prove the bug is real or rule it out, Xalgorix keeps the finding and flags it for a person to review.
+The check targets false positives, findings that look like vulnerabilities and turn out to be harmless. Krishna Kumar, the project’s founder, said the team measures that with internal benchmarks but has no plans yet to publish the results.
+What it runs
+Xalgorix is a Go binary with a local web dashboard, released under the Apache-2.0 license. An LLM agent with a browser and a terminal works through a 22-phase test plan, from reconnaissance to a final report. It drives standard tools such as Nmap, Nuclei and SQLmap, and it works with seven LLM providers, including local models through Ollama. A scope guard blocks tool calls to any host outside the configured targets and their subdomains.
+A second agent checks the first
+“The verifier is a separate agent role, not a second pass by the agent that found the bug,” Kumar told Help Net Security. The verifier starts from a fresh context, treats the hunting agent’s proof as untrusted and gets read-only tools. Each check is capped at eight turns and three minutes.
+The verifier sets a different bar for each bug class. “XSS: the script has to execute. Reflection alone doesn’t count,” Kumar said. Server-side request forgery (SSRF), which tricks a server into making requests for an attacker, needs “an HTTP callback from the target’s server to a fresh token, with redirects disabled. A DNS-only hit, or a callback that came from the scanner itself, doesn’t count.”
+The code also overrules the model. “If the model returns ‘confirmed’ without a successful re-test of its own, the code downgrades the verdict to inconclusive,” Kumar said. The verifier drops a finding only on positive disproof, such as by-design behavior. A bug that needs a second account, or triggers out of the verifier’s view, lands in the manual review pile.
+No published scores
+The README compares Xalgorix with Nuclei, OWASP ZAP and commercial DAST tools, but only in broad terms. It describes how each one works and doesn’t include any test results. Kumar described two internal tests. One pairs small vulnerable apps with secure builds of the same feature, so any bug reported on a secure build counts as a false positive. The other runs real CVEs in containers next to their patched releases, such as Grafana 8.2.6 and 8.2.7 for CVE-2021-43798. A run passes only if every repeat finds the CVE and leaves the patched version clean.
+The team has also started on the XBOW validation benchmarks. “We haven’t run all 104 yet, so I don’t have a full score to share,” Kumar said. “We haven’t planned to publish benchmark results yet.”
+Models, and a root container
+Claude Opus 5.5 has given the best results, Kumar said. “A full run is a long chain of tool calls, and weaker models start producing malformed tool calls or lose track of state as the context grows,” he said. Xalgorix recovers from malformed output, he added, but local models still need more supervision on long scans.
+The Docker image runs as root and needs --privileged or a list of added capabilities. The maintainers tell users to treat the container as a disposable sandbox on an isolated network.
+Xalgorix is available for free on GitHub.
+Must read:
+- 20 open-source cybersecurity tools to keep your team ready for anything
+- GitHub Agentic Autofix and the question of who owns a bad AI patch

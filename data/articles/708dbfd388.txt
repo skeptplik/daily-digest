@@ -1,0 +1,17 @@
+COBIT 7 adds AI risk scenarios to ISACA’s governance framework
+To help organizations strengthen how they govern information and technology, ISACA has released COBIT 7, the latest version of its globally recognized framework for information and technology (I&T) governance.
+COBIT 7 brings together trusted guidance, an intuitive digital platform, customizable resources, and practical tools. Together, these help practitioners turn technology into measurable value, align decisions with strategy, and manage emerging risks, including those posed by AI, with confidence.
+The update builds on the framework’s long-standing role in helping businesses connect I&T operations to broader strategic goals, manage technology risk, and stay compliant with regulations.
+Now available on a modern digital platform, COBIT 7 offers several new enhancements, including:
+- A new performance management and assessment module, designed to support the design and implementation of enterprise I&T governance systems, and including practitioner guidance, downloadable assessment tools at three different levels, as well as how-to videos
+- An adapted toolkit that can be tailored to an organization’s goals, helping automate the updated workflow and suggesting achievement levels for each COBIT 7 objective based on the practitioner’s design inputs
+- Objectives updated with expanded process-component activities
+- Organizational structures presented by role rather than task
+- An updated design guide that simplifies the design workflow from four steps to three and adjusts the activities within each step
+- Revised scoring mechanisms that indicate whether design factors are forward-looking or reflect an enterprise’s current situation
+- Two new design factors: Organizational Health Context and Information/Data Management Strategies
+- New AI risk scenarios added to the I&T Risk Profile design factor
+- IT Implementation Methods that consider AI and cloud
+- Refreshed IT-Related Issue examples that address AI, cybersecurity, and other areas of the modern technology landscape.
+“Over the last 30 years, COBIT has been a trusted framework for countless organizations, providing a holistic, structured approach to digital governance, security and enterprise accountability,” says Karen Heslop, VP of Content Development at ISACA. “Through these latest updates, COBIT 7 builds upon the strengths of COBIT to provide enterprises with even greater value, ease of use and relevance in today’s latest technology and standards and frameworks landscape.”
+Strategies: CISSP exam prep with ISC2 experts

@@ -9,3 +9,6 @@ Domestic rival Lisuan’s G100, meanwhile, is only at 12GB and 24GB for consumer
 Get Tom's Hardware's best news and in-depth reviews, straight to your inbox.
 Further revelation may come at MDC 2026, Dec. 29–30, at Zhongguancun International Innovation Center in Beijing, during a keynote by CEO Zhang Jianzhong. The keynote starts at 9:30 a.m. Beijing time on Dec. 29 (8:30 p.m. ET on Dec. 28), and Moore Threads says it will bring new flagship products, technologies, and solutions.
 Follow Tom’s Hardware on Google News, or add us as a preferred source, to get our latest news, analysis, & reviews in your feeds.
+- 
+Good luck sourcing the RAM. The memory cost will probably make the thing so expensive that it doesn't really matter which GPU is on the card. It's going to be unaffordable, no matter what.
+And whether GDDR6 or GDDR7, it sounds like they'll be using just 16 Gbit dies. So, 64 GB translates to a 512-bit interface with clamshell configuration (i.e. sort of like a dual-rank DIMM). Reply

@@ -1,0 +1,18 @@
+Black Friday scams started earlier this year without the usual red flags
+This year’s fake Black Friday deals started appearing on September 1, more than a month earlier than last year, and most of them don’t mention the holiday or use a lookalike address, according to Doppel.
+The company describes the lure most shoppers are likely to meet this season as “a post in a Facebook group or a page on Google Sites, carrying a retailer’s sale language on behalf of a software, payment, travel, or crypto brand, and asking for a login.”
+Facebook groups carry the bulk of it
+Half of the confirmed social media brand impersonation Doppel tracked between September 1 and late October was posted inside Facebook groups, and 99.7% of confirmed fraudulent ads ran on Facebook Ads.
+Bargain and buy-and-sell groups are where people go hunting for discounts, and Doppel says a scam post in one of them “carries the group’s implied vetting.”
+Source: Doppel
+Checking the address won’t help
+Looking for the brand’s name in the web address is the one habit most shoppers have, and Doppel found it “passes most of this season’s confirmed fake pages.”
+About one in four lookalike pages are hosted on legitimate platforms such as Google Sites, Blogger and GitHub Pages, and those with their own domain tend to use a generic deal or outlet term while the brand’s logo appears on the page.
+More than a third of these sites are built to steal logins to accounts visitors already hold. About a third also cloak, so “a scanner, a reviewer, or a brand’s own staff can see something harmless while a shopper in the target market sees the lure.” One holiday sale scam showed its checkout only to visitors on phones.
+Software and travel brands lead the target list
+Retailers made up under a tenth of confirmed sale-themed lookalikes in 2025 and about a tenth so far this year. Last season, airlines were the biggest target through discount and deal pages, followed by crypto exchanges and neobanks. In 2026 business software has taken the top spot, with travel, crypto, retail and payment brands behind it.
+“A holiday discount is a credible pretext for any brand a shopper has an account with,” researchers explained.
+Travel scams have also picked up the holiday name. Most of the Black Friday-named hosts Doppel confirmed between September 1 and October 15 posed as travel fare or booking pages, while no travel page with Black Friday in its address turned up in either of the two previous seasons. Travel is an expensive purchase that people tend to make quickly when a fare looks like it might disappear, and “the holiday supplies the scarcity,” the analysts wrote.
+Cyber Monday, on the other hand, hasn’t appeared in the address of a single confirmed lookalike aimed at a Doppel-protected brand in three holiday seasons. “When actors name the holiday, they name Black Friday.”
+The company also found that a quarter of confirmed brand impersonation texts were delivered through iMessage and RCS, which SMS spam filters don’t cover.
+“A security leader at a brand that never runs a sale now has a Black Friday problem, because the lure does not care whether the brand sells anything,” Doppel concluded.
