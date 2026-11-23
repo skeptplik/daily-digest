@@ -1,0 +1,22 @@
+E-commerce platform Cleverbridge is warning that hackers breached its systems and stole customers' payment card information, including credit card numbers and CVV security codes.
+Cleverbridge provides e-commerce services to software and SaaS companies, allowing them to sell products, process payments, and manage subscriptions.
+The company lists numerous technology brands as its customers, including Red Hat, SUSE, Tenable, Veeam, Jamf, Sony, and Parallels. However, it has not disclosed which businesses' customers were impacted by the breach.
+In a new page about the security incident, Cleverbridge says it detected unauthorized activity on November 4, 2026, and temporarily took systems offline to contain the breach.
+"All systems were brought back online on 4 November 2026; however, our investigation subsequently determined that a third party copied payment card data stored on our platform," reads the security incident disclosure.
+Cleverbridge began notifying affected customers on November 20, warning that hackers had stolen payment card details used to make purchases through its platform.
+While its public disclosure confirms the theft of payment card data, it does not specify which card details were stolen, instead referring affected customers to their individual notifications for more information.
+However, a breach notification shared with BleepingComputer reveals that the stolen information includes payment card numbers, expiration dates, and CVV/CVC security codes.
+"Based on our investigation to date, the information involved includes the payment card details you used to make a purchase through Cleverbridge, notably your card number, expiry date, card security code (CVV/CVC)," reads the notification.
+"Note however that no other personal data (for example your name, contact or billing details) were copied. The affected card ends in XXXX."
+BleepingComputer redacted the last four digits of the affected payment card.
+The company has not disclosed how the attackers gained access to its platform, how long they remained in its systems, or how many customers were affected by the breach.
+Of particular concern is the theft of CVV/CVC security codes, which are used to verify payment card transactions.
+Cleverbridge also confirmed that the incident was not a ransomware attack and that attackers did not encrypt any of its systems.
+The company says it has notified data protection authorities, law enforcement, payment card networks, and payment partners about the incident.
+Cleverbridge is also working with TransUnion's Cyberscout to distribute breach notifications and provide affected customers with complimentary credit monitoring and fraud assistance.
+Affected customers are told to review their payment card statements for unauthorized transactions. Cleverbridge also recommends contacting card issuers about the incident, as banks may decide to replace compromised cards.
+BleepingComputer contacted Cleverbridge with questions about how many customers were affected, how the attackers accessed its systems, whether the stolen payment card data was encrypted, and why CVV/CVC security codes were accessible.
+The company has not responded to our questions.
+Adaptive Security's AI agents analyze email intent, context, and behavior to uncover phishing, business email compromise, and invoice fraud.
+See what's getting through with a 14-day read-only scan of Microsoft 365 or Google Workspace, with no MX changes.
+Start your free email security scan.
