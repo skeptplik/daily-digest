@@ -1,0 +1,20 @@
+Attackers exploited Microsoft Entra Connect Health flaw to access tenant data
+Attackers exploited a vulnerability in the Microsoft Entra Connect Health API to read the technical contact email addresses and configuration details of Entra tenants, the company warned affected organizations.
+Microsoft Entra Connect Health is a cloud-based monitoring service that gives administrators a single view of the health, performance and alerts for their on-premises identity infrastructure in the Microsoft Entra admin center.
+According to the security notification, received by Help Net Security and shared by an administrator on Reddit, the vulnerability was introduced on July 23, 2026, and went undetected until November 9.
+A bug that went unnoticed for months
+Microsoft deployed a service-side fix on November 19 and wrapped up its investigation the following day, when it determined that “unauthorized read-only access to tenant-level metadata associated with your organization had occurred.”
+“We did not identify any unauthorized configuration changes,” the company added.
+The API responses accessed by the intruders contained the email addresses of the tenant’s technical contacts, along with the tenant ID, tenant display name, initial domain name, country code, region scope, Microsoft Entra license tier, directory synchronization status and last sync timestamp, and Connect Health onboarding status.
+User passwords, password hashes, authentication tokens, valid cryptographic keys, on-premises server and Active Directory topology details, and Azure subscription information were not exposed, the notification noted.
+Microsoft has not disclosed how many tenants were affected or who was behind the attack.
+Phishing is the main concern
+Customers don’t need to install anything, since “no software update or other remediation is required from your organization to address the vulnerability itself,” Microsoft explained.
+Because email addresses were exposed, organizations are advised to “notify your SOC, IT operations teams, and your tenant’s Technical Contact(s) to be vigilant for targeted phishing or social-engineering attempts that may reference your organization, tenant, Microsoft Entra or Connect Health.”
+If the technical contact is also a Global Administrator or holds another privileged role, Microsoft recommends requiring phishing-resistant multifactor authentication for that account and using Privileged Identity Management for just-in-time role activation.
+The administrator who posted about the incident on Reddit’s r/sysadmin forum came to the same conclusion.
+“The real risk is phishing. Someone now knows your admins’ real addresses and true facts about your tenant, so ‘Your Entra Connect sync failed at 02:14, sign in to review’ suddenly looks very believable,” they wrote, adding that “there’s no public advisory or CVE yet.”
+Checking the exposed data
+Microsoft has published a read-only PowerShell script that organizations can run locally to check the information the API could have returned for their tenant. “The script returns current values, which may differ from the values that were exposed if the information has changed since the exposure occurred,” the company cautioned.
+Customers should also review Entra audit and sign-in logs and Azure Activity Logs for unexpected Connect Health changes or unusual administrative activity.
+Microsoft urges recipients to verify the notification by signing in to the Azure portal directly and checking the Security Advisory in Azure Service Health, instead of clicking links in an email.

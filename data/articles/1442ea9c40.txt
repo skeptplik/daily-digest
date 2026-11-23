@@ -1,0 +1,17 @@
+The European Commission suspects a China-backed hacking group is behind a cyberattack that has hit its systems for a month and is still ongoing. The first confirmed leak of personal data involves EU Academy users.
+The European Commission suspects that a large-scale cyberattack, still spreading through its IT systems, is the work of a China-backed network of threat actors, according to two sources with knowledge of the matter.
+"Panda" is the codename circulating inside the Commission for the suspected perpetrators. In the cybersecurity community, the animal name is used to loosely tie threat actors to their state sponsors, in this case China.
+On 22 October, the Commission's IT department detected a malicious actor in its internal networks. A month after the attack began, the EU executive has yet to fully contain the breach and was forced to take the EU Academy website offline on Saturday.
+The EU Academy is an online platform offering professional development and specialised learning to young people.
+"The incident is still under investigation. Public access to the platform has been disabled and measures to contain, mitigate and limit the impact of the incident have been taken, including the implementation of preventive, detective and corrective controls," reads the EU Academy's website.
+The Commission has confirmed a leak of names and email addresses and is warning users of possible follow-ups from the attacker, such as phishing campaigns based on their personal data.
+That is the first major consequence of the incident. For other IT systems, EU cyber experts have not confirmed data theft affecting Commission staff, though several internal apps were taken offline as a precaution and some remain unavailable.
+According to the current threat assessment, the China-linked actor was not targeting specific systems or individuals, which would have called for a less visible attack. Instead, it wanted to test more broadly how far it could compromise the Commission's IT networks.
+Suspicion of a link to Chinese security services rests on the sophistication of the attack and on the use of ARTEX, a Chinese-developed cybersecurity tool that uses AI to detect vulnerabilities that hackers can then exploit.
+Leading cybersecurity firms like Microsoft and CrowdStrike have attributed to the China-linked groups Storm-0940 and Panda Vapor attacks using ARTEX for AI-driven global espionage campaigns targeting hundreds of organisations globally.
+The Commission has been hit by two other cyberattacks this year: one on the cloud infrastructure hosting its Europa.eu website and one on its mobile infrastructure in January.
+Both are also deemed to stem from China's cyber threat landscape, but from different groups, and neither was ever formally attributed.
+The Chinese government has consistently denied sponsoring, directing or supporting hacking groups accused of conducting cyberattacks on foreign governments and institutions.
+Since the hack became public last week, the main trade union of Commission staff has vehemently criticised management of the incident, notably for leaving civil servants to learn about it from the press.
+A Commission official rejected that criticism, stressing that public communication is not foreseen in such cases because it would tip off the malicious actor that mitigation measures are under way.
+Secrecy also prevents the spread of panic, which makes life harder for the security experts trying to contain the incident, Euronews understands.

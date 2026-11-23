@@ -9,7 +9,7 @@ With the spacecraft heading deep into the inner Solar System, it has had to batt
 So it has had its brakes on for the entire journey, and has also taken a very convoluted path - looping once around the Earth, twice around Venus and six times around Mercury - to slow it down enough to get into orbit.
 This journey should have taken seven years, but a problem with BepiColombo's propulsion system meant the already epic voyage was extended by a year.
 The final manoeuvre to get into orbit was a perilous one: a 37-minute handbrake turn that allowed it to be grabbed by the planet's gravity.
-The European Space Agency said on X that the probe had made contact and its telemetry data confirmed that it was now flying around the planet.
+The European Space Agency said on X that the probe had made contact and its telemetry data confirmed that it was now flying around the planet, though it's thrusters had fired for a shorter time than planned following a software issue.
 Only two spacecraft have visited Mercury until now - both Nasa missions.
 Mariner-10 flew past the planet three times in the 1970s, and then the Messenger spacecraft arrived at Mercury in 2011 and spent four years in orbit.
 But there is still much to discover about this tiny world.
