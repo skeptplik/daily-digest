@@ -6,7 +6,7 @@ AVP, Information Security
 Amerisure Insurance | USA | Hybrid – View job details
 As an AVP, Information Security, you will lead cybersecurity strategy, governance, and security teams while advising executives on risks and regulatory compliance. You will oversee enterprise risk assessments, third-party security, security operations, threat detection, incident response, and vulnerability management. You will also develop security policies, strengthen business resilience, manage security vendors, and drive continuous improvements in cybersecurity capabilities.
 Cyber Security Engineer
-TaskVerse | Germany | Remote – View job details
+TaskVerse | Germany | Remote – No longer accepting applications
 As a Cyber Security Engineer, you will develop and automate security controls across SAP environments, particularly SAP BTP. You will implement Policy-as-Code, security monitoring, and automated remediation, integrate security into development workflows, and coordinate secure production rollouts. You will also collaborate with engineering and governance teams to improve security processes and strengthen organizational security controls.
 Get weekly updates on new cybersecurity job openings. Subscribe here!
 Cyber Threat Intelligence Analyst
@@ -16,7 +16,7 @@ Cybersecurity Engineer
 Space Coast Credit Union | USA | Hybrid – View job details
 As a Cybersecurity Engineer, you will monitor security systems, detect and respond to threats, investigate incidents, and coordinate remediation efforts. You will conduct threat hunting, vulnerability assessments, and penetration testing while managing security patches across systems and devices. You will also implement security controls, support regulatory compliance and audits, maintain security policies, collaborate with IT teams, and promote cybersecurity awareness.
 Cybersecurity Manager
-Forbes Research & Insights | USA | Hybrid – View job details
+Forbes Research & Insights | USA | Hybrid – No longer accepting applications
 As a Cybersecurity Manager, you will lead security teams, oversee cybersecurity governance, manage security projects, and maintain policies and compliance, including PCI and HIPAA requirements. You will manage identity and access controls, endpoint and network security, email protection, and incident response. You will also oversee cloud and web platform security, vulnerability management, secure development practices, and third-party risk while collaborating with Engineering, Legal, and other stakeholders.
 Cybersecurity Specialist
 SAIC | USA | On-site – View job details

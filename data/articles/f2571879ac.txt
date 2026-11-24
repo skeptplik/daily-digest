@@ -9,9 +9,9 @@ Originally focusing on chips which process graphics for computer games, it pivot
 It is now one the most valuable firms in the world and its rapid growth is poised to continue as the firm's quarterly sales doubled from a year earlier.
 Huang played a major role in the company, leading its shift towards AI, and maintained a firm grip on it, with up to 200 people directly reporting to him.
 Some suggested his departure, which was sparked by the emergence that Huang had an affair with a woman alleged to have been a spy for China, posed a risk to the wider AI industry.
-That was because it was unclear whether Nvidia would change strategy and potential rein in spending - a move could have had wider implications for the US economy, but which looks unlikely now Huang has returned.
+That was because it was unclear whether Nvidia would change strategy and potentially rein in spending - a move could have had wider implications for the US economy, but which looks unlikely now Huang has returned.
 Spider's web of financing
-The fears were sparked due to Nvidia being a key source of finance for many firms, as well being a microchip supplier. On its journey to the top of the AI industry, it has, through Huang, created a spider's web of deals through what is known as "circular financing".
+The fears were sparked due to Nvidia being a key source of finance for many firms, as well as being a microchip supplier. On its journey to the top of the AI industry, it has, through Huang, created a spider's web of deals through what is known as "circular financing".
 Not only does it sell microchips to its customers, which include the likes of Meta, SpaceX and OpenAI, it has also provided funds for them and other firms in the supply chain by either handing out loans or investing in them directly.
 The practice has prompted concerns among some investors, who worry what might happen if Nvidia were to turn off the spending taps. If investment dried up, would other firms in the supply chain cut spending or jobs themselves? Would that spread to the wider US economy?
 That risk was perhaps why tech bosses including Elon Musk and Tim Sweeney, the CEO of Fortnite maker Epic Games, had called for Huang's reinstatement.

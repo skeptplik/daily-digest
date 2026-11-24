@@ -1,6 +1,6 @@
 The US has said it intends to ban a Singaporean artificial intelligence (AI) company allegedly tied to the Nvidia scandal from doing business in America.
 The Department of Commerce announced it planned to add Megaspeed Ltd to a list of entities that are blacklisted from buying or selling goods in the US.
-The company is mainly a developer of data centres, but in recent weeks a former executive of Megaspeed was accused of working as spy for China while having a romantic relationship with Nvidia head Jensen Huang.
+The company is mainly a developer of data centres, but in recent weeks a former executive of Megaspeed was accused of working as a spy for China while having a romantic relationship with Nvidia head Jensen Huang.
 The relationship led to additional scrutiny by US officials and heightened concern that Megaspeed was funnelling Nvidia's advanced AI computer chips to China.
 When exactly the ban against Megaspeed will go into effect was not specified in the commerce department announcement. The BBC has asked the agency for comment, along with the White House and Megaspeed.
 Megaspeed was not well known within the US until last month when media reports emerged that a former Megaspeed executive, Alice Huang, had an affair with Jensen Huang.

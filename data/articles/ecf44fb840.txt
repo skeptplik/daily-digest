@@ -1,0 +1,129 @@
+Key Takeaways
+- A drafting agent should refuse to draft when the evidence is missing. Stopping with an explicit "insufficient context" signal is safer than a fluent narrative built around gaps.
+- An LLM judge is itself non-deterministic. Freeze its version and pair it with a deterministic fact-checker for names, dates, and amounts.
+- Building agentic systems on probabilistic LLMs requires engineering around them: evals, context engineering, observability, regression runs, and human-in-the-loop controls contain the effects of randomness rather than removing it.
+- Grounding the system in authoritative case evidence and a knowledge-augmented graph data system helps ensure that every material claim is supported by traceable data.
+- Versioned models, prompts, policies, retrieval configurations, and reviewer actions make the system observable, reversible, and suitable for regulated production environments.
+Investigative narrative drafting in a financial institution
+Financial institutions must investigate potentially suspicious activity and prepare accurate, complete, and timely reports for Financial Intelligence Units. The process is sensitive, labor-intensive, and subject to strict deadlines. This article explains how non-deterministic Artificial Intelligence (AI) components can be incorporated into a dependable agentic system that reduces the cost of doing business, increases drafting and review speed, and maintains the quality of the final report.
+What is a Suspicious Activity Report?
+A Suspicious Activity Report (SAR) is a formal document submitted by regulated entities and financial institutions to law enforcement or financial intelligence units (such as the UK's National Crime Agency) to flag known or suspected instances of money laundering, fraud, or terrorist financing.
+SARs should give a clear and concise explanation of the reason(s) for the suspicion, identifying:
+- Who – the identity of the party, or parties involved
+- What – the transaction they are involved in
+- Where – a description of the criminal property
+- How – a description of the prohibited act(s)
+- Why – the criminal activity suspected
+- When – any critical deadlines
+The Inverted Pyramid Plot Model for SAR narratives organizes information from most to least important, much like a news article.
+- The narrative opens with the lead, a short summary of the most noteworthy details and the main story event.
+- It answers the five W questions: who, what, when, where, and why.
+- Next comes the body, a series of crucial details that build up the main story event, supported by evidence, facts, and patterns.
+- The narrative closes with the tail, which gives concluding remarks.
+Because the structure moves from the broadest, most critical information down to the narrowest, a reader can grasp the core of the case from the opening lines alone and turn to the later sections only for supporting detail.
+Risks and cost of non-compliance
+- Regulators penalize institutions for systematic data deficiencies, missing narratives, or failing to report suspicious transactions adequately.
+- Public enforcement actions can undermine the confidence of investors, business partners, and customers.
+- Considering the sensitivity of data and investigations, typically these cases are investigated and reported by in-house employees in a very secure environment. If suspicious activity volumes increase, the cost of investigation and reporting increases as well. For example, If there are 10% of active customers who are detected, investigated, and reported, and each case takes $50 in human labour cost, there is a significant increase in the cost of doing business, which has to be eventually passed back to the customer.
+Typical Deterministic System Architecture
+In the following system context diagram, a human agent views the investigation notes prepared by another human agent and then drafts the suspicious activity report. Once the report is reviewed by another peer, it is submitted to a financial intelligence unit.
+System Context Diagram of Suspicious Activity Reports in a Financial Institution (Source: authors)
+In the following diagram, there are 4 key timelines of any investigation:
+- Detection: Any suspicious activity is detected either through manual oversight or with the support of machine learning models.
+- Investigation: Once suspicious activity is detected, it goes for thorough investigation and peer review to confirm the suspicion.
+- Reporting: Any confirmed suspicious activity has to be reported to the national financial intelligence unit within a tight deadline. The report has to be factually correct, and the suspicion has to be clearly articulated.
+- Further investigation by the Financial Intelligence Unit: All of these suspicious reported activities by all financial institutions enable the national intelligence unit to understand the complete web of illicit activities and intervene before they become a threat to national or international security.
+High-level diagram of a traditional reporting system (Source: authors)
+- The quality of the reports is directly proportional to the quality of investigation & editorial style of the human workforce. There is a lack of consistency.
+- If there is an increase in suspicious activities, then the manual system can not keep pace with the increase in demand.
+- There is a cost to the business and the customer for every suspicious activity investigation and reporting.
+Non-Deterministic Agentic System Architecture
+We propose improving the traditional reporting system by using AI to automate selected tasks and generate high-quality SAR drafts, followed by specialized human review and minor edits where necessary. The goal is to increase throughput, reduce cost per case, and decrease reporting failures.
+In the following system context diagram, human agent effort is shifted to review/edit the AI-assisted report drafting and review.
+System Context Diagram of Suspicious Activity Reports in a Financial Institution (Source: authors)
+We changed the earlier design to support background automation of suspicious activity report generation. As soon as the investigation is complete, the case is sent to the queue for processing by the Agentic System. Before the human agent picks the case for drafting the report, the AI Agent has drafted the first version to speed up the report generation.
+High-level diagram of an AI-powered reporting system (Source: authors)
+The non-deterministic nature of AI, particularly Large Language Models (LLMs), creates two central concerns:
+- High-quality first-attempt drafts require strong control, evaluation, and monitoring of AI components.
+- Low-quality drafts create repeated draft-and-review cycles and additional human editing, increasing the cost per report.
+Multi-agent system for report generation
+The proposed solution is a multi-agent system, with access to selected LLMs via a gateway, and supported by a tailored knowledge graph built from operational data.
+Grounding is the foundation of trustworthy SAR generation. The system should make it easier to state only what the evidence supports, not merely make the prose more fluent.
+High-level diagram of the agentic system (Source: authors)
+- Preprocessed Event Plot Knowledge Graph: All the data is already tagged and collected by previous processes. There is an Event Plot Knowledge Graph already generated as part of detection and investigation.
+- Data Query Planner Agent: fetches the quality data required to generate the report. If the data is not present, then we stop the agentic automation and give feedback to the user that Agents cannot generate the report as the data is not present.
+- Data Reranker Agent: takes the data returned by Data Query Planner and re-ranks the data to ensure that data is relevant to the context.
+- Drafter Agent: specialized agents produce a narrative from factual data, against a defined SAR schema, and cite supporting source identifiers.
+- Judge Agent: deterministic checks and an independent judge assess factuality, completeness, consistency, and style.
+- Coordinator Agent: Once the quality of the generated report is of decent standard, then the report is published for human review.
+- Since the investigation of the network is already done, there is no need for community detection. Hence, the GraphRAG approach is not considered.
+- We also need to ensure that security and privacy concerns of the cases are under consideration; hence, data is carefully labelled and collected.
+- All the real-time updates are present in operational databases, which can be fetched by the agents if there are some updates for a particular user profile or transaction.
+- Knowledge Graph of main and associate suspects are generated at a regular cadence through data pipeline jobs.
+- If a case is investigated and reported, then data needs to be retained as per data retention policies of the jurisdiction.
+Sequence diagram of Drafter agent, Judge Agent and Human (Source: authors)
+High-quality report generation with Evals
+Quality means more than well-written prose. It means a complete, internally consistent, reviewable narrative that meets institutional and jurisdictional requirements.
+- Completeness against the required SAR narrative fields.
+- Consistency across names, dates, amounts, accounts, locations, and transaction sequences.
+- Clear separation of observed facts, analysis, and unresolved uncertainty.
+- Appropriate tone and terminology without overstatement or unsupported conclusions.
+- Traceable provenance for material statements and reviewer edits.
+Unlike traditional software, LLM outputs are non-deterministic, and "quality" is subjective. In the case of report writing, "what does a good report look like?" becomes more subjective. Hence, there is a need to test the "subjective" aspects against "objective" metrics, and here the Eval shines.
+Evals are like tests of regular software development practices, and they can be leveraged in the following processes:
+- Initial development of the system
+- Updates to the system when there is a change in the requirements
+- Updates in the models
+- Regular run on some percentage of production spans to assess overall drift in quality
+- Any new release in any aspect of the AI system has to be gated with the Evals suite
+Eval Creation
+There are a few broad focus areas where the model output has to be tested on a continuous basis:
+- Instruction following capability
+- Generation capability
+- Narrative-specific correctness
+For example, Evals can be written to assess different aspects of the generated narrative like:
+- Factual accuracy of the narrative
+- Factual completeness of the narrative
+- Name identification
+- Timeframe of events
+- Narrative follows the Inverted Pyramid Plot structure
+- Narrative Articulation
+- Narrative Coherence
+- Narrative tone
+- ..etc.
+Sample Eval can look like this:
+Sample Eval (Source: authors)
+Once we have scores from all the evals, either we can use a weighted average or a simple average of all the individual scores to figure out the final grading criteria. This is how the Evals can be leveraged to grade the quality of generated output
+Sequence diagram of Evals grading (Source: authors)
+Regression Evals with Golden Data Set
+Since the model and prompt are bound to change, this adds another dimension of non-determinism to the system. With any production system, we need to have a regression run of all evals against the golden data set before any model upgrade or prompt/config change happens.
+The golden data set has to be collected initially with different edge cases with defined input and output. This will help in testing the system during development. The Golden Data Set can be augmented with human feedback in production where they love the output generated by the AI system.
+Evals shall answer some of the generated report’s quality metrics like :
+- Did the system provide a factually correct answer?
+- Was the summary faithful to the source?
+- Was the final response actually helpful to the user?
+System Behavior observability
+Traditional testing is a deterministic process of verification - it asks, "Did we build the product right?" against a fixed specification. This approach fails when a system’s core logic is probabilistic, because non-deterministic output may be more likely to introduce subtle degradations of quality that do not result in explicit crashes and may not be repeatable. Hence, it is important to monitor the decision-making trajectory, from initial intent to final outcome.
+- LLM Model: We first check the core reasoning. Is the LLM Model itself the problem? Failures here include hallucinations, nonsensical or off-topic responses.
+- RAG Performance: The response depends on the quality of its retrieved information. Failures include irrelevant document retrieval, fetching outdated or incorrect information, or the LLM ignoring the retrieved context entirely and hallucinating an answer anyway.
+- System Failures: What happens when the Model is not able to find the right context or data? Does it make things up or throw the error? What happens when the underlying system is unavailable?
+The system is gradually improved by generating telemetry, understanding the system, and patching the underlying issues.
+Human-in-The-Loop Control
+Human review remains a policy decision owned by the BSA/AML function. AI accelerates preparation; it does not replace accountable judgment.
+- Risk-tiered routing: low-risk, familiar typologies may use sampling or streamlined review; novel, high-risk, multilingual, or low-confidence cases default to full review.
+- Reviewer experience: show evidence beside each material claim, highlight uncertainty, and make changes explainable rather than forcing reviewers to rewrite from scratch.
+- Review quality: evaluate human edits as well as AI output so reviewers correct errors without introducing unsupported statements.
+- Accountability: the designated BSA/AML officer retains responsibility for filing decisions and approved risk thresholds.
+Release Process
+Treat models and prompts as regulated production changes. The release plane provides controlled progress rather than "ship and hope."
+- Version: register the model, prompts, retrieval logic, data mappings, policies, and eval set with an owner and change rationale.
+- Test: run deterministic factuality checks, rubric scoring, security and privacy checks, and jurisdiction-specific regression suites.
+- Gate: require approval from engineering, Compliance/AML, Risk, and Legal according to the change type.
+- Shadow and canary: compare the candidate with the incumbent before increasing traffic.
+- Monitor: track factuality pass rate, judge scores, reviewer edit rate, latency, queue age, and escalation volume.
+- Rollback: use configuration-based feature flags to revert to the previous model, stricter review, or full human drafting when thresholds are breached.
+Engineering Trust Into AI-Drafted SARs
+The bottleneck in drafting a quality Suspicious Activity Report was qualified personnel. LLM-based systems can reduce that dependency, but only if they're engineered for it, with grounding and evals as the substitute for the judgment of a qualified investigator.
+The mechanism we've described treats non-determinism as an engineering problem rather than an excuse. Grounding drafts in a case-specific knowledge graph and operational data keeps the Drafter Agent grounded in evidence. A Judge Agent and deterministic fact-checker turn "does this read well?" into measurable checks against factuality, completeness, and the Inverted Pyramid structure the FIU expects. Evals and a golden dataset give these subjective judgments an objective, regression-testable backbone, the same way unit tests do for deterministic code. And a release process that versions models, prompts, and configuration, gated with shadow/canary rollout and feature-flag rollback, treats every change to the system as a production release
+None of this shifts accountability away from the humans who own it. The BSA/AML officer still decides what gets filed; the agentic system's job is to make sure that when a human reviews a draft, the evidence is already assembled, the uncertain claims are flagged, and the reviewer's time goes to judgment rather than transcription. Risk-tiered routing means the system earns trust on familiar, low-risk cases before it is ever allowed near the ones that matter most.
+SAR narratives can now be drafted at machine speed, by codifying what "good" looks like into evals a machine can check against. When a human reviews the output, they're not taking the narrative on faith; they can trace the reasoning and the evidence lineage behind it, and that traceability is what turns speed into trust.

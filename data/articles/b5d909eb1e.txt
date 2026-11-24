@@ -1,0 +1,4 @@
+CachyOS November 2026 release
+CachyOS, a performance-focused distribution based on Arch Linux, has announced its November 2026 release. Notable changes in this release include a new recovery environment ("cachyos-recovery") for rolling back broken systems, Easy Anti-Cheat (EAC) v2 support for games that require EAC to run, version 2.0.0 of the CachyOS Package Installer, and more.
+The LWN site is currently under high scraper load, so comment display has been suppressed for anonymous users. If you are a human, you may read the comments by clicking the button below:
+Note: you can avoid this step in the future by logging into your LWN account.

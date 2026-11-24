@@ -1,0 +1,12 @@
+Linux patches can take weeks, and OpenAI and Cisco built Shirudo to help in the meantime
+OpenAI and Cisco released Shirudo, an open-source tool that puts temporary protections on running Linux systems while their owners work on a patch. Shirudo is Japanese for “shield,” which is also what each protection is called: a small program that blocks the specific behavior a vulnerability depends on, with no restart needed.
+Testing and deploying a patch can still take days or weeks, and the vulnerable service stays exposed in the meantime. Blocking a risky Linux operation outright can take that service offline, because an attack and a normal request may use the same operation. Shirudo lets a team test whether a shield stops the attack while legitimate traffic still gets through. An operator approves the shield before it goes live.
+What it runs on
+Shirudo is built on eBPF, a Linux feature that runs small programs at set points inside the operating system. Shields are cryptographically signed and checked before they load. A Trusted Platform Module, a security chip on the machine, keeps a record of protections being loaded or removed, so operators can check later what was running.
+The Elasticsearch test
+In a controlled test, the team had OpenAI’s Codex generate a shield that added an input check to Java’s Base64 decoder, then attached it to a running Elasticsearch process. The shield rejected a Java4Shell exploit attempt, and Elasticsearch kept running. The people who built the tool also ran that test and set its conditions.
+“We’re giving defenders better models and tools to find and fix vulnerabilities faster, but finding a bug today doesn’t mean you can patch every system tomorrow. We are partnering closely with Cisco on Shirudo to help teams protect the systems they need to keep running while they build and roll out a fix. So many teams rely on the same software that it makes sense to build these tools in the open. Now when one team finds a better way to protect a system, others don’t have to start from scratch,” said Greg Brockman, President and Co-founder of OpenAI.
+Shirudo is available for free on GitHub. To run it in production, you need a Linux kernel with Shirudo’s kernel patches and a TPM 2.0 chip.
+Must read:
+- 20 open-source cybersecurity tools to keep your team ready for anything
+- GitHub Agentic Autofix and the question of who owns a bad AI patch

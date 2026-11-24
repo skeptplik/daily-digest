@@ -1,0 +1,21 @@
+LaLiga hacked: Spain’s top football league confirms theft of fans’ personal data
+Spain’s professional soccer league LaLiga said Monday hackers stole personal information belonging to fans in a cyberattack affecting its digital services and those of several Spanish clubs.
+The intrusion occurred between November 14 and 16 and targeted a technology platform that provides digital services to fans, LaLiga said in a statemen. The organization has since contained the attack but is still investigating the extent of the breach.
+LaLiga represents 42 clubs across Spain’s top two professional men’s soccer divisions. In addition to organizing competitions and managing broadcasting rights, it operates several digital platforms and services for clubs and their fans.
+LaLiga said the incident did not disrupt soccer competitions or affect its other systems. Its security teams identified the source of the unauthorized access, stopped the hacker from stealing more data and blocked access to the platform. The league has not disclosed how the hacker broke in or how many fans were affected.
+Spain’s National Police is investigating the breach, and LaLiga has notified the country’s data protection regulator.
+At least five Spanish soccer clubs — CD Eldense, Real Oviedo, Real Zaragoza, Cordoba CF and CD Leganes — have confirmed that some of their fans’ personal information was compromised.
+CD Eldense said the stolen information included personal identification and contact details that fans had provided when registering for digital services. Based on the information available so far, passwords, banking details and payment information were not compromised.
+Real Oviedo and Real Zaragoza said their own technology infrastructure and databases had not been affected, while Córdoba CF said the breach involved a platform operated independently of the club.
+CD Leganes said it was not aware of any publication or fraudulent use of the stolen information at the time of its announcement.
+Spain’s two most prominent soccer clubs, Real Madrid and FC Barcelona, have not publicly said whether their fans were affected.
+The affected clubs warned that cybercriminals could use the stolen information to impersonate individuals or carry out fraud through emails, text messages and phone calls.
+No hacking group has been publicly linked to the attack, and it remains unclear whether the incident involved ransomware.
+Professional soccer clubs and governing bodies have become attractive targets for cybercriminals.
+In May, Dutch police arrested a 35-year-old man suspected of hacking into the computer systems of Ajax, one of the Netherlands’ most prominent soccer clubs.
+The hacker exploited an unpatched vulnerability that exposed the email addresses of several hundred people and personal information belonging to a small number of individuals subject to stadium bans. Ajax said the security flaw could also have allowed the hacker to transfer tickets and alter stadium ban records.
+In 2024, Italian soccer club Bologna FC suffered a ransomware attack that resulted in the theft of financial documents, players’ medical records and confidential employee information.
+Other major European clubs targeted in recent years include Paris Saint-Germain, which disclosed an attack on its online ticketing service in 2024, and Manchester United, which suffered a ransomware attack in 2020.
+National soccer associations have also been targeted. The Royal Dutch Football Association suffered a ransomware attack in 2023, while the French Football Federation disclosed a cyberattack in 2025.
+Daryna Antoniuk
+is a reporter for Recorded Future News based in Ukraine. She writes about cybersecurity startups, cyberattacks in Eastern Europe and the state of the cyberwar between Ukraine and Russia. She previously was a tech reporter for Forbes Ukraine. Her work has also been published at Sifted, The Kyiv Independent and The Kyiv Post.

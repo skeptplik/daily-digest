@@ -6,6 +6,7 @@ While Cisco says that its Product Security Incident Response Team (PSIRT) is not
 The cybersecurity agency also added it to its Known Exploited Vulnerabilities (KEV) Catalog on Tuesday and ordered US Federal Civilian Executive Branch (FCEB) agencies to secure their systems within three days, as mandated by Binding Operational Directive (BOD) 26-04.
 Although BOD 26-04 targets only federal agencies, CISA urged all network defenders, including private-sector security teams, to prioritize patching this flaw to block ongoing attacks that may target their networks.
 "These types of vulnerabilities are a frequent attack vector for malicious cyber actors and pose significant risks to the federal enterprise," it warned.
+Internet intelligence company Censys now observes nearly 14,900 Cisco Expressway hosts exposed online, but there is no information on how many have already secured against attacks targeting the CVE-2026-76466 vulnerability.
 Exploited to gain root on Internet-exposed devices
 While CISA has yet to share details on these ongoing attacks, Russian cybersecurity company F6 said on Thursday that it spotted attackers using an unnamed AI assistant to successfully exploit CVE-2026-7646 and gain remote command execution with full root privileges on Internet-exposed Cisco Expressway devices.
 "The attackers initially compromised two Cisco Expressway internet-facing devices. Through one of them, they gained access to two additional cluster nodes located on the organization’s internal network," F6 security researchers noted.

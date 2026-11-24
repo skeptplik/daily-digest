@@ -1,0 +1,40 @@
+The tech-heavy Nasdaq stock index roared back to life this week after a worrying sell-off recently that saw huge falls in technology and artificial intelligence (AI)-related stocks.
+After suffering its worst week since the pandemic crash of March 2020, the Nasdaq opened Monday nearly 1,700 points, or 7%, higher.
+The AI trade received a further boost after Nvidia reinstated CEO Jensen Huang on Monday, just 11 days after he was forced to resign amid a scandal involving extramarital affairs, including one with an alleged Chinese spy.
+The chipmaker's stock rose more than 30% on the news, opening at nearly $170 (€155.5) per share and recovering most of the losses since last month, when the affair was first reported.
+How passive investing is fueling the AI trade
+The recent volatility around AI, memory chips and other technology stocks has unnerved even the most experienced and bullish investors.
+Yet, those seeking a safe haven away from the United States stock market, which has enjoyed the majority of the AI hype — along with Taiwan and South Korea — are increasingly finding few places to shelter.
+Economists warn that this is partly due to the way index funds, including exchange-traded funds (ETFs), work. These funds hold the pensions and other savings of hundreds of millions of passive investors.
+These indices have become increasingly exposed to the AI boom.
+Riding the winners works — until it doesn't
+Most flagship index funds are keen to ride winners, so they automatically buy stocks according to a company's market value. The bigger a company grows, the more of it they hold.
+The values of Nvidia, Microsoft, Apple, Alphabet and other US technology giants have benefited from this effect, with many soaring after ChatGPT was first released in late 2022.
+The US also has an outsized position in funds that track the global economy. Nine of the top 10 holdings of the MSCI All Country World Index (ACWI), an index of more than 2,400 firms across 47 developed and emerging markets, are US Big Tech names.
+The other is TSMC, a Taiwanese chipmaker that produces 90% of the high-end AI semiconductors.
+Together, these 10 holdings make up nearly a quarter of the index.
+Although it's a global index, nearly two-thirds of MSCI ACWI's value is in US-listed companies, even though they make up only around a fifth of its firms.
+Don't put all your chips in AI stocks
+"A well-diversified portfolio should ... reasonably represent the entire global economy," Gerd Kommer, founder of the Munich-based asset manager Gerd Kommer Invest, told DW.
+"That's not the case if 70% of the portfolio is concentrated in just one country — the US. The global economy is more resilient than any national economy."
+Kommer, who is known as Germany's "ETF pope," said investors need exposure to all economic sectors and that no single sector should make up more than a quarter of a portfolio.
+Yet, even if investors want to avoid US-dominated World funds altogether, the AI trade still overshadows several other top index funds.
+In MSCI's Emerging Market index, for example, the top 10 make up 37.5% of its value and TSMC alone accounts for almost 16%. Tech, chip and internet firms make up eight of the largest holdings, alongside two banks — one Chinese, one Indian.
+How funds fuel investor hubris
+That matters, according to Dimitri Vayanos, a finance professor at the London School of Economics who studies how passive investing pushes up the prices of the biggest firms.
+"My model suggests that the effects of flows into index funds are larger when the large stocks happen to be in the same industry," Vayanos told DW.
+When some investors get over-optimistic about a company and push the stock price up, index funds add to that price pressure.
+Professional investors then often bet against overpriced stocks, a practice known as "shorting," which helps pull prices back down. But that's far riskier with, say, a tech giant than with a small firm.
+"Being short 1% of SpaceX involves much more risk than being short 1% of a small company," said Vayanos.
+The problem gets worse when the biggest firms are all in the same sector, as they are now. As short-sellers hold back, the biggest stocks climb further, creating what he calls an "amplification-overpricing spiral."
+Lower AI risk outside of US, Asia
+To cut exposure to AI-related stocks, investors may have to turn to developed market funds outside the US and Southeast Asia. These funds have offered lower returns over the past decade.
+In the MSCI Europe, Australasia and Far East (EAFE) index fund, the top 10 holdings make up about 14.5% of the index, about 40% lower than the all-country world index.
+EAFE's major holdings include healthcare giant Roche, oil major Shell, HSBC bank and Nestle — the world's largest food and beverage company.
+However, its biggest holding, ASML, is still very much part of the AI trade. The Dutch tech firm sells the equipment that firms such as TSMC, Samsung, Intel, SK Hynix and Micron need to make their chips.
+AI crash will have ripple effects
+If Monday's rebound in the AI trade is sustained, stock prices may move sharply higher over the next few months. Yet if history is a guide, the bubble will eventually burst, leaving both institutional and passive investors nursing heavy losses.
+Kommer warned that if the AI bubble bursts, "in all likelihood it will drag down the global stock market," though the damage would be most severe in tech and AI stocks.
+Those hit hardest would be retail investors "with heavy portfolio weights in tech and AI stocks," he told DW, including "a lot of people who have bought individual AI-related stocks on top of their equity ETFs."
+LSE's Vayanos thinks it is still "certainly safer to hold an ETF than to hold individual stocks."
+But as index providers add mega-IPOs such as SpaceX and Claude-maker Anthropic to benchmarks within weeks of their debut, and money continues to pour into passive funds, he warned that "the conditions are present for the effects of our theory to be even stronger."
