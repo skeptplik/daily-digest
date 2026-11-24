@@ -1,0 +1,16 @@
+A cyberattack disrupted operations at B2B top-up solutions provider GlobeTopper, causing an estimated $2.5 million in lost revenue, while the attacker redeemed digital gift cards worth $70,000.
+Parent company iQSTEL said that the intrusion was detected on October 22 and GlobeTopper responded by suspending its platform and starting an investigation.
+GlobeTopper is a business-to-business digital gift card distributor. Various retailers, fintech apps, and rewards platforms use its API. According to the platform’s website, it is used by more than 4,000 brands across 65 countries, including IKEA, Adidas, Spotify, Target, and Roblox.
+In a filing with the U.S. Securities and Exchange Commission (SEC), iQSTEL said that GlobeTopper detected more unauthorized activity the day after it identified the attack. In response, the company "took the platform and all affected servers offline" in the early hours of October 23 to investigate and fix the problem.
+The company deployed a completely rebuilt platform on AWS on October 31, while commercial operations were restored in stages, starting November 1.
+GlobeTopper says the attacker obtained certain client API credentials and integration keys, which have been revoked and replaced, and it has observed no unauthorized use of them yet.
+“During its investigation, the Company determined that the unauthorized party obtained API credentials and integration keys of certain GlobeTopper business customers,” iQSTEL says.
+“All affected credentials and integration keys have been revoked and rotated, and affected business customers have been issued new credentials subject to additional access restrictions.”
+The company further stated that an investigation is ongoing to determine whether other customer, personal, payment, or provider data was accessed or acquired.
+Regarding the digital gift cards the attackers redeemed, the company says it cannot block, recover, or reclaim them, and will incur the losses.
+iQSTEL said the incident hurt GlobeTopper’s fourth-quarter transaction volume and operating results, but as of the filing, it has not determined it to be material.
+BleepingComputer has emailed iQSTEL with additional questions regarding the incident, but the company declined to share further information.
+At the time of writing, no ransomware groups have listed iQSTEL or GlobeTopper as victims on their extortion portals.
+Adaptive Security's AI agents analyze email intent, context, and behavior to uncover phishing, business email compromise, and invoice fraud.
+See what's getting through with a 14-day read-only scan of Microsoft 365 or Google Workspace, with no MX changes.
+Start your free email security scan.

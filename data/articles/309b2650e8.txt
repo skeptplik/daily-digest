@@ -1,0 +1,19 @@
+GL.iNet cloud compromise hits routers and KVMs, older backdoors also found
+Attackers compromised GoodCloud, GL.iNet’s cloud remote management service, and used it to install malware on routers and KVM (keyboard, video and mouse) devices connected to it.
+The Chinese company, best known for its small travel routers, is still investigating, and it’s not yet known how many devices have been affected.
+The incident has also sparked additional research by RemoteToHome Consulting (RTH), a GL.iNet Services Partner, and a number of users, some of whom reported finding backdoors that have been installed on their GL.iNet routers back in 2025.
+GL.iNet’s findings
+On November 20, 2026, GL.iNet discovered that GoodCloud was compromised via a still unspecified “cloud vulnerability”, which has since been fixed.
+The cloud-side fix does not remove the malware from the infected devices, though.
+GL.iNet advised affected users to install the latest stable security firmware, which removes that specific malware and doesn’t require them to perform a factory reset of the device.
+The company also instructed users to look for a specific indicator of compromise – a process running as crond -i /tmp/.log – but more recently added that additional indicators of compromise have been identified that their official quick checks would not surface.
+They also linked to a community-created script that can be used in addition to their checks, to find additional malware infections and perform a clean-up.
+However, the company noted that “the two approaches have different detection coverage, and neither can guarantee that a device is free of compromise.”
+Customers who find that their KVM has been infected should also check whether the connected computer has been compromised, by searching for unfamiliar programs, browser extensions, user accounts; unexpected startup items and scheduled tasks; and unusual settings changes or network activity.
+GL.iNet has notified affected customers by email and will follow up with further updates. “We are still determining the scope of the incident, including whether computers connected to affected KVM devices were impacted,” the company said.
+Partner finds older backdoors, possible entry point
+RemoteToHome Consulting mounted its own investigation and checked routers they manage.
+“Of 199 routers we have reached so far, 166 show the attack of 20 November, an older backdoor, or both: a root remote shell on 24 ([models] GL-AXT1800 and GL-MT6000), an older backdoor installed and running on 49 ([models] GL-MT2500, GL-MT3000, GL-MT6000, GL-AX1800 and GL-AXT1800), and on 93 more a command from the attacker that ran as root,” the company shared. (RTH could not determine how the older backdoors ended up on the devices.)
+The company published a technical analysis of a command injection vulnerability they found in GL.iNet’s GoodCloud client they believe was used by the attackers (GL.iNet has yet to confirm this).
+Affected users should check RTH’s list of indicators of compromise and search for those, as well.
+“The attacker had a root shell, so every key, password and profile stored on the device could be copied. Cleaning or reinstalling the router does not take those back. You have to remove that access at the other end,” the company advised, and laid out a comprehensive to-do list after compromise is confirmed.

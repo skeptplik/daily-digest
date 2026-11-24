@@ -1,0 +1,18 @@
+To address the challenge posed by modern iOS UI systems where the logical UI structure may not mirror the native UIKit hierarchy, LinkedIn engineers developed a view-agnostic analytics system build around a shared MeasurableNode contract.
+As LinkedIn senior software engineer Keerthana Reddy Ragi explains, while traditional iOS analytics relies on UIView instances as the unit of measurement, modern UI architectures increasingly use flattened layouts and custom rendering systems where UI elements such as cards, sections, and containers are represented by virtual nodes that never materialize as UIViews. Consequently, analytics systems built solely around UIKit may fail to capture impressions for virtual nodes, lose logical hierarchy and contextual information, miscalculate visibility and impression duration, and attribute user actions to the wrong elements.
+LinkedIn's solution introduces a shared MeasurableNode contract relaxing the requirement for every measurable element to be a UIView. A MeasurableNode exposes four properties: identity, geometry, hierarchy, and lifecycle.
+protocol MeasurableNode: AnyObject { 
+    var telemetryIdentity: TelemetryIdentity { get } 
+    var frame: CRect { get } 
+    var logicalParent: MeasurableNode? { get }
+    var isAttached: Bool { get } 
+    func attach ()
+    fun detach)
+As MeasurableNode is a shared contract, both traditional UIViews and virtual nodes can participate in the same analytics system. Indeed, while existing UIKit views continue using native UIKit properties and lifecycle hooks, virtual nodes explicitly provide the corresponding information to the same analytics layer.
+The attach and detach methods are central to this approach, because they enable the layout or rendering system to notify the analytics system "when a node attaches, when its frame changes, and when it detaches". Unlike virtual nodes, UIKit already sends automatic lifecycle notifications to UIViews. Similarly, as virtual nodes are not directly recognized by UIKit as gesture-recognizer targets, the rendering framework must traverse the hybrid UIKit/virtual-node parent hierarchy to attribute user actions to the appropriate logical virtual node.
+Ragi emphasizes that this design enables gradual adoption without requiring existing view-based analytics to be rewritten.
+Teams can modernize one part of the UI without rewriting everything around it. Existing view-based analytics can keep working while newer virtual nodes use the new contract.
+LinkedIn engineers encountered three main challenges developing this approach to analytics. First, the widespread assumption that everything is a UIView is embedded in existing codebases. For example, "helper code that walked superviews, visibility checks that read frames directly from views, cleanup logic tied to view removal". All these cases had to be found and updated. Second, they had to strike the right balance between short-term compatibility and long-term correctness. Third, they needed to enforce the attach/detach discipline at the framework level.
+Commenting on Ragi's article on LinkedIn, senior AI prompt engineer Artien Nadal observed:
+I think there's a bigger opportunity here than just making analytics independent of the UI. What if teams could automatically detect when a UI change breaks event tracking or changes what an event actually means?
+As a final note, although LinkedIn's implementation focused on UIKit, the underlying approach is far from being limited to it. With many apps now mixing UIKit and SwiftUI, cross-platform layout engines, or hybrid solutions, a view-agnostic analytics model based on a shared contract has broader applicability.

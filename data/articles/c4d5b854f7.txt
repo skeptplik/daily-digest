@@ -1,0 +1,9 @@
+Activision has filed a patent to train NPCs from in-game voice chat using a neural network and large language models (LLMs).
+Eurogamer reports that the patent was filed in July and published in November. It is titled 'Methods and Systems for Applying Machine Learning to Generate Gameplay Audio.'
+As the abstract reads, the patent is for a "system and method to generate audio reactions for a virtual game character that closely resembles reactions of a human player in a multiplayer video game environment."
+The method involves capturing human player reactions and correlating them with specific game events, such as kills and deaths, that triggered those responses.
+"The correlated information is used to train a neural network that subsequently aids in generating audio reactions for non-player characters during a similar game event."
+As Eurogamer notes, the goal of this technology is for NPCs to "speak naturally" instead of relying on prerecorded audio. The technology could also be used outside of in-game voice chat on other social apps including Discord.
+As with any patent, filing does not guarantee the technology will be implemented in-game.
+The use of generative AI in the games industry is surrounded by signfiicant debate, especially regarding its use in voice acting.
+Recently, six European game workers' unions published a manifesto examining generative AI's impact on the industry, while the Japan Actors Union announced new guidelines addressing unauthorised use of the technology to replicate voice performances.

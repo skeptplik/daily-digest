@@ -1,7 +1,7 @@
 Attackers exploited Microsoft Entra Connect Health flaw to access tenant data
 Attackers exploited a vulnerability in the Microsoft Entra Connect Health API to read the technical contact email addresses and configuration details of Entra tenants, the company warned affected organizations.
 Microsoft Entra Connect Health is a cloud-based monitoring service that gives administrators a single view of the health, performance and alerts for their on-premises identity infrastructure in the Microsoft Entra admin center.
-According to the security notification, received by Help Net Security and shared by an administrator on Reddit, the vulnerability was introduced on July 23, 2026, and went undetected until November 9.
+According to the security notification shared by an administrator on Reddit, the vulnerability was introduced on July 23, 2026, and went undetected until November 9.
 A bug that went unnoticed for months
 Microsoft deployed a service-side fix on November 19 and wrapped up its investigation the following day, when it determined that “unauthorized read-only access to tenant-level metadata associated with your organization had occurred.”
 “We did not identify any unauthorized configuration changes,” the company added.

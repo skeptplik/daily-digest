@@ -1,0 +1,17 @@
+Abstract
+Poxviruses enclose a complete viral transcription machinery alongside their dsDNA genome within the viral core, a transcription-competent compartment delimited by a permeable multi-layered protein shell. Upon infection of a cell and core release, this machinery almost immediately starts synthesizing early mRNAs, which are extruded across the core wall into the cytoplasm for translation. While in vitro structures of the isolated viral DNA-dependent RNA polymerase (vRNAP) have been described1–3, its native in virio architecture, spatial organization, and physical coupling to the genome remain unknown. Using cryo-electron tomography and sub-tomogram averaging on purified Vaccinia virus cores, we reveal that packaged vRNAP exists not as monomer, but as massive 1.8 MDa resting-state dimer bridged by fully ordered vaccinia virus early transcription factor (VETF). We also identify a subpopulation of these dimers bound to the essential kinase VPK2 and the core protein L4, which directly tether the transcribing engines to the packaged genome near the inner core wall. Furthermore, we determine a sub-nanometer structure of the putative poxvirus mRNA extrusion portal complex, revealing a rigid assembly integrated into the core wall comprising an E8 hexameric crown, an E6 hexameric central hub, and a basal L3 dodecameric channel suited for nucleic acid export. Together, these structures provide a comprehensive architectural blueprint of important components of the poxvirus core and open new structural and functional avenues for investigating poxvirus genome packaging, transcription activation, and mRNA extrusion.
+Access options
+Access Nature and 54 other Nature Portfolio journals
+Get Nature+, our best-value online-access subscription
+Receive 51 print issues and online access
+Rent or buy this article
+Prices vary by article type
+Prices may be subject to local taxes which are calculated during checkout
+Supplementary information
+Supplementary Figs. 1-12: Subtomogram averaging and single-particle processing workflows, local resolution and FSC curves, identification of VPK2, L4, E8 and L3 densities, and sequence alignments. Supplementary Tables 1-2: cryo-EM data collection, refinement and validation statistics.
+About this article
+Cite this article
+Arragain, B., Bauer, L.W., Hodirnau, VV. et al. Architecture of the poxvirus early-transcription machinery and portal complex. Nature (2026). https://doi.org/10.1038/s41586-026-11458-8
+- Received:
+- Accepted:
+- DOI: https://doi.org/10.1038/s41586-026-11458-8

@@ -1,0 +1,21 @@
+Thank you for visiting nature.com. You are using a browser version with limited support for CSS. To obtain
+the best experience, we recommend you use a more up to date browser (or turn off compatibility mode in
+Internet Explorer). In the meantime, to ensure continued support, we are displaying the site without styles
+and JavaScript.
+AI company Anthropic has claimed to have proved the Riemann hypothesis — perhaps the most famous open problem in mathematics — with the help of its model Claude. The proposed proof, which is still being scrutinized, is the latest in a series of spectacular AI advances in mathematics that are upending the field.
+But the technology’s rapid progress is making early-career mathematicians anxious about the impact that it will have on their futures, according to two studies released in October.
+One was a survey of graduate students and postdocs1 designed by three PhD students at the Massachusetts Institute of Technology (MIT) in Cambridge and uploaded to the preprint server arXiv. The other was conducted by the Martingale Foundation, a non-profit organization in London that supports postgraduate students. It surveyed people at all career stages, but the respondents were limited to UK mathematicians.
+Key concerns included job security and feelings of demotivation — 70% of respondents to the student-led survey said that they were now more likely to consider careers outside academia.
+Career uncertainty
+Many mathematicians interviewed by Nature say that the survey results match what they have been hearing from their peers. Graduate students, in particular, feel that they need to develop their own skills and prove their worth at solving mathematical problems without AI. Some are also concerned about the long-term availability of academic jobs — and whether hard-won results produced by their human reasoning could be put them at a disadvantage in a job market where others use AI.
+“The younger generation seems much more sceptical,” says Tasmin Chu, a mathematics PhD student at the California Institute of Technology in Pasadena. “Fundamentally, that’s because they are in a much worse material position.”
+The student-led survey found that only around 7% of the 268 voluntary respondents — most of whom were at US institutions — felt that AI developments would make it easier for them to get a job that would lead to an eventual professorship. Meanwhile, more than 75% of people expected it to become harder.
+Only 13% of respondents said that they were letting AI tools produce papers for them from start to finish, although a majority of people said that they were using the tools for literature searches or finding mistakes in their papers. Of those respondents who do use AI tools, more than half said that they dislike doing so, and only around 30% said that they enjoy using them. More than three-quarters of respondents said that they would be unhappy if an AI model were to solve a problem that they had worked on (see ‘Pride in discovery’).
+Paying for AI
+Enjoying our latest content?
+Log in or create an account to continue
+- Access the most recent journalism from Nature's award-winning team
+- Explore the latest features & opinion covering groundbreaking research
+- Join us to pioneer solutions for global environmental & energy challenges at a world-class institute in China‘s innovation hub, Shenzhen.
+- Peking University Shenzhen Graduate School in the heart of the Guangdong-Hong Kong-Macao Greater Bay Area, China’s most dynamic economic and innovation region.
+- School of Environment and Energy (SEE), Peking University Shenzhen Graduate School

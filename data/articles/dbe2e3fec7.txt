@@ -23,7 +23,7 @@ The trial will not change what happens during a breast screening appointment.
 Instead, it will test whether AI-assisted tools could replace one of the two human specialists reviewing mammograms.
 Researchers say machine-learning software can be trained on millions of previous images in order to detect patterns, and so potentially find subtle changes in breast tissue that might be missed by the human eye.
 In one arm of the trial, an AI programme will grade images before they are sent to NHS experts. In another, it will review images afterwards.
-The Â£11m trial is funded by the National Institute for Health and Care Research (NIHR).
+The Â£10m trial is funded by the National Institute for Health and Care Research (NIHR).
 It is being led by the University of Warwick, the University of Cambridge and Cambridge University Hospitals NHS Foundation Trust, working with NHS England.
 'Huge potential'
 On a visit to the breast screening unit at Addenbrooke's Hospital, Health Secretary Yvette Cooper told the BBC: "AI has huge potential to improve treatment, which is why we need trials like this to ensure we are using it in the most effective way with proper safeguards."

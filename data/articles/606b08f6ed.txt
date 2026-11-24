@@ -1,0 +1,22 @@
+At QCon San Francisco 2026, Mark Khuzam, senior software engineer at Netflix, described how the company's Commerce team retrofitted its software development lifecycle so that AI coding agents and engineers could ship together safely.
+Khuzam argued that most of the work was not about agents at all, but about documentation, consistency and review.
+Much of Commerce runs as server-driven UI, an approach Netflix has discussed at QCon before. A single screen-composition service behind the API gateway builds screens for iOS, Android, web and TV.
+Khuzam opened with a mock company email announcing that every engineer now had Claude Code and asking how much faster everyone was shipping. The problem the team ran into next was summed up in one line.
+Agents promised speed. But we spent 20 years building for humans.
+The team's first attempt was having an agent migrate tests, and it took four tries. The team started with "migrate this file," then added instructions, then the APIs to use, then how to mock data.
+The docs were also hard to find, since the agent's context window ran out before it found the right page. And they were inconsistent, because tests were not written the same way across the codebase.
+Developers rated the internal framework at a Net Promoter Score of -3. Moving from one test to a whole feature, from screen to data to route to test, meant teaching the agent how the team builds.
+Khuzam described the fix as context engineering, "getting what engineers know into what agents see." The team wrote 45 architecture decision records, each "written for people and for agents."
+Each record covers the context, the decision, a pattern and an anti-pattern, and AI usage notes on what an agent should do. It also links to related docs and code, and the records now ship inside almost every repository.
+To keep those records and more than 300 other documents findable, the team borrowed from how search engines read a site. An AGENTS.md file, the project instructions file that coding agents read before anything else, plays the part of robots.txt.
+The second half of the talk followed code after an agent writes it. Khuzam noted that the CI pipeline is still deterministic, running builds, tests, screenshot diffing, merge queues and canaries.
+What changed is how agents plug into each phase. A review agent pre-reviews each pull request against the docs and ADRs, flags anti-patterns and looks at what depends on the change.
+Its first version left 23 comments on a single PR, starting with "Overall this PR looks great!" It now posts only verified blockers, each with evidence, a fix and the ADR rule it breaks. Engineers can add a revise label to have an agent read the review and push a fix to the same PR. Changes aren't yet auto-merged, and engineers own the code.
+Khuzam reported no Sev 1 incidents in 2026 on a core service and 32% more pull requests year over year. Developer NPS rose from -3 to +25 over three quarters.
+Ahead of the session, Khuzam framed the stakes on LinkedIn: "Agents can write code, but what gives us the confidence to ship Tier 0 services to 300M+ members without everything falling apart?"
+Work that crosses services raised a harder question. A product engineer building one feature touches the payment API, billing, the gateway and every client, so the team had to decide who owns the context and how it follows the work.
+Khuzam listed approaches that did not hold up. Loading every repository did not fit, Git submodules were brittle, a Git MCP server "sees one file, not the system," and shared copies went stale.
+The team needed context that was accurate, portable across agents, owned per domain and kept fresh. It settled on GraphRAG per domain, taking structure from the code and meaning from the docs and ADRs.
+Each graph is pinned to specific commits and served through a single Model Context Protocol tool. Claude Code, Cursor, Codex, a Slack bot and CI review all query the same graph, and every answer cites a file and a line.
+Khuzam closed with three rules: decide what agents should do and tell them, make it easy to find how to do it, and remember that human judgement still matters. "None of this is new. It's good engineering, built for a new reader."
+Developers interested in learning more can watch InfoQ in the coming weeks for video of the session and can view the session details here.

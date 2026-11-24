@@ -1,0 +1,17 @@
+Cleverbridge alerts customers that hackers stole their credit card and CVV numbers
+Hackers breached e-commerce platform Cleverbridge and made off with payment card data stored on it, the company has confirmed.
+Cleverbridge handles purchases, payments and subscriptions for other businesses, and its website lists Red Hat, Sony, SUSE, Veeam, Tenable and Jamf among its clients. The company has not said which of them, if any, had customers affected by the breach.
+“On 4 November 2026, Cleverbridge detected unauthorised activity in our platform and took immediate steps to contain the incident. Whilst our investigation remains ongoing, regretfully, we have been able to determine that a third party copied payment card data stored on our platform ,” reads the security incident disclosure.
+According to BleepingComputer, which obtained a copy of the breach notification, the stolen information includes card numbers, expiry dates and CVV/CVC security codes. The letter adds that no other personal data, such as names, contact or billing details, was copied.
+The affected systems were taken offline for a short time and were all back online the same day. The company says the incident was not a ransomware attack and that none of its systems were encrypted.
+Cleverbridge has not disclosed how the attackers got in or how many cardholders were affected.
+Letters sent through Cyberscout
+Cleverbridge started notifying affected individuals on November 20. The letters come from TransUnion’s Cyberscout, a vendor hired to help send them on the company’s behalf, and Cleverbridge asks recipients to treat them as legitimate and read them.
+People who received a notice are advised to check their card statements closely, report any unfamiliar transactions to the card issuer and ask the issuer whether they need a replacement card.
+“As always, we recommend that our users follow general best online security practices, remain vigilant, and be aware of phishing attempts. Out of an abundance of caution, please be cautious of unexpected emails, calls, or messages about this incident. Cleverbridge will never ask you for your card details, passwords, or security codes by email, phone, or text message,” the company warned.
+CorvusPay loses IBANs and purchase records
+Another company that handles online payments for other businesses, Croatia’s CorvusPay, is dealing with a breach of its own.
+On November 17 the company detected unauthorized access to part of the system behind CorvusPayByIBAN, a service that lets customers pay directly from their bank account.
+The attackers took users’ email addresses and IBANs, along with the merchant name, payment description, amount, currency and date of some transactions. CorvusPay says card numbers and the data needed to authorize payments were not compromised. It has not said how many users were affected.
+“The main danger lies in possible follow-up phishing messages,” the company told Croatian business news outlet Lider. CorvusPay warns that fraudsters could send messages that mention a user’s genuine purchase, down to the payee and the exact amount, to get them to pay again, approve a transaction or hand over more personal data.
+The company has notified the Croatian Personal Data Protection Agency (AZOP), the police, partner banks, merchants and affected users. It advises anyone who gets an unexpected payment request to confirm it with their bank or the merchant, using contact details they already know.

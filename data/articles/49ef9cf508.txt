@@ -1,0 +1,6 @@
+Anthropic is launching some new Claude AI features to help software engineers ship code. As part of a new Claude Ship product being announced today, Claude now can review, fix, and approve pull requests.
+Claude AI can review pull requests and ship fixes on its own now
+Anthropic is bringing new AI tools to software engineers with Claude Ship.
+Engineers have already been able to take advantage of Claude’s code review capabilities thanks to the Code Review feature, which was announced in March and became generally available in October. What’s new alongside Claude Ship are the PR Steward and Claude Approvals agents, which are launching in beta today.
+PR Steward “jumps in on failing CI checks, merge conflicts, and review feedback from Code Review, other review tools, or team members” and leaves comments on what it changed, according to Anthropic. Claude Approvals can approve routine changes if an organization’s policy allows it. “Teams can have Claude Approvals consider a variety of signals in its decision-making process, including Code Review findings or their own classifiers using natural language,” Anthropic says.
+Claude Ship is now available for Claude Team and Enterprise customers and works with repositories on GitHub.

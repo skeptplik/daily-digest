@@ -1,0 +1,16 @@
+CrowdStrike to purchase Zscaler for $43.9 billion
+Cybersecurity giant CrowdStrike will acquire cloud security company Zscaler for $43.9 billion in an all-stock deal announced on Monday morning.
+The deal will see two of the largest cybersecurity companies consolidate, merging Zscaler’s tools with CrowdStrike’s suite of cyberattack response services, endpoint security platforms, and threat intelligence offerings. Zscaler CEO Jay Chaudhry will continue to run Zscaler and will join CrowdStrike’s board of directors.
+CrowdStrike CEO George Kurtz said the acquisition of Zscaler will allow them to build “cybersecurity’s operating system: a single control plane to deploy AI, control AI, and enable any agentic application to run safely.”
+“We see a path to become the largest AI safety and security company the world has ever seen,” he said.
+News of a potential acquisition emerged on Friday when Bloomberg reported that CrowdStrike was circling Zscaler, which had a market value of about $32 billion as of Friday.
+Zscaler shareholders will receive 1.135 shares of CrowdStrike common stock for each share of Zscaler common stock, or $260.41 per Zscaler share. Existing CrowdStrike shareholders are expected to own approximately 84.1% of Zscaler once the deal closes.
+CrowdStrike said the acquisition would allow it to sell its platforms to Zscaler’s 8,000 customers, including 50 percent of the Fortune 500. The company explained that while CrowdStrike’s tools focus on securing endpoints and data, Zscaler’s products are adept at “securing the connections between them.”
+“With Zscaler, CrowdStrike will enter network security, cybersecurity’s largest single addressable market segment,” a company spokesperson explained.
+Chaudhry warned that AI agents are “rapidly becoming the new weakest link” and said the deal with CrowdStrike will accelerate their ability to expand their zero trust tools to a larger customer base.
+“We see a significant opportunity to offer customers far superior protection in a rapidly evolving threat landscape and enable enterprises to safely adopt AI,” he said.
+Zscaler’s products will be sold through CrowdStrike’s system of resellers and distributors.
+Both companies released their quarterly earnings reports on Monday, with Zscaler reporting $949.3 million in revenue for the first quarter — a 20% increase compared to last year’s first quarter.
+The $43.9 billion figure tops last year’s largest deal, when Google purchased cloud security company Wiz for $32 billion.
+Jonathan Greig
+is a Breaking News Reporter at Recorded Future News. Jonathan has worked across the globe as a journalist since 2014. Before moving back to New York City, he worked for news outlets in South Africa, Jordan and Cambodia. He previously covered cybersecurity at ZDNet and TechRepublic.

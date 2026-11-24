@@ -1,0 +1,14 @@
+NASA, on behalf of the National Oceanic and Atmospheric Administration (NOAA), has awarded a contract to Northrop Grumman Systems Corporation for the Sounder for Microwave-Based Applications (SMBA) instruments on NOAA’s Near Earth Orbit Network (NEON) satellites.
+The cost-plus-fixed-fee, firm-fixed-price, and time-and-materials hybrid contract has a value of $290.6 million. The period of performance runs from Nov. 23 through April 1, 2042. The work will take place at the awardee’s facility.
+Under the contract, Northrop Grumman will provide the design, development, production, testing, and mission support for three SMBA instruments, the next generation of low Earth orbit microwave sounders. NASA’s Goddard Space Flight Center in Greenbelt, Maryland, is managing the acquisition, and NOAA will own and operate the instruments and deliver the data to users worldwide. Microwave sounders provide critical measurements of temperature and moisture in the atmosphere, which significantly influence weather patterns. The SMBA instruments could improve the medium-range forecasts for NOAA’s National Weather Service.
+The NEON mission is a collaboration between NASA and NOAA. The mission is led by NOAA, which provides funding, technical requirements, and postlaunch operations. NASA will manage the development of the NEON satellites and launch them for NOAA. NASA and NOAA will work with commercial partners to design and build the NEON spacecraft and instruments.
+For information about NASA and agency programs, visit:
+-end-
+Liz Vlock
+Headquarters, Washington
+202-358-1600
+elizabeth.a.vlock@nasa.gov
+Peter Jacobs
+Goddard Space Flight Center, Greenbelt, Md.
+301-286-3308
+peter.jacobs@nasa.gov

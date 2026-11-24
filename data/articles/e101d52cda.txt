@@ -1,0 +1,14 @@
+A security issue discovered in Microsoft’s Azure API Management (APIM) service appears to have been responsible for the security incidents reported last week by two Norwegian energy firms, with impact extending beyond Norway.
+Microsoft is notifying customers about the issue in Azure APIM, which is designed for publishing, securing and managing APIs. The vulnerability may have allowed threat actors to gain access to secrets stored in some APIM instances.
+According to a private notification shared on Reddit by one customer, the tech giant discovered the issue on November 18 and closed the access path the next day.
+“Our investigation found that customers were exposed and an unauthorized party could have used the issue to access secrets stored in Azure API Management Classic instances before Microsoft identified the security issue,” Microsoft said.
+Exposed data can include secrets stored as named values, client secrets for identity providers, subscription keys, and tokens for APIM’s direct management APIs.
+Microsoft noted that APIM Classic tiers that don’t follow its documented security guidance are affected. Instances on v2 tiers are not impacted.
+Norway’s National Security Authority (NSM) said on November 20 that the vulnerability had affected several organizations in the country, including energy companies Equinor and Skagerak Energi, which independently disclosed cybersecurity incidents last week.
+Equinor reported the attack on November 17, one day before Microsoft identified the APIM flaw. The company said it found no evidence that data was stolen or altered. Skagerak Energi disclosed the incident on November 18, saying it did not impact operations or production, and it found no evidence of information compromise.
+NSM said an unknown threat actor targeted tokens, secrets and named values stored in APIM. It’s unclear how widely the weakness has been exploited, but the organization noted that several sectors in Norway and abroad are impacted.
+APIM users have been advised by NSM to treat their secrets and named values as compromised and replace them. They should also verify that their instances have been updated and identify the data accessible through the service.
+Security expert Anders Kristiansen warned that credentials lifted from APIM could be used against outside services. The extent of the exposure depends on each credential’s permissions.
+Related: N-able Patches Critical Flaw Disclosed After Mail Assure Cyberattack
+Related: GL.iNet Routers, KVMs Compromised via Remote Management Service Flaw
+Related: AI Inference Providers Failed to Detect Hacking and Prompt Theft, Says Dragos

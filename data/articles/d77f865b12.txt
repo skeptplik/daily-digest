@@ -1,0 +1,15 @@
+Cisco Expressway vulnerability exploited to breach internal networks (CVE-2026-76466)
+Attackers have been spotted exploiting a critical vulnerability (CVE-2026-76466) in Cisco Expressway gateways to breach organizations, Russian security company F6 revealed late last week.
+The US Cybersecurity and Infrastructure Security Agency added the flaw to its Known Exploited Vulnerabilities catalog on Friday, along with CVE-2026-123890, a VMware vCenter authentication bypass vulnerability that has been exploited as a zero-day for months by a suspected China-nexus espionage group.
+About CVE-2026-76466
+An unauthenticated remote attacker with network access to a vulnerable Cisco Expressway device can use CVE-2026-76466 to run OS commands as root.
+CVE-2026-76466 affects Cisco Expressway Core (Expressway-C) and Cisco Expressway Edge (Expressway-E) devices, which are used by organizations to give remote workers and external partners secure access to internal voice, video and messaging systems without a VPN, and to connect on-premises collaboration infrastructure to the Cisco Webex cloud.
+The flaw affects only clustered deployments, Cisco explained. It sits in the database service that Expressway cluster peers use: the service relies on persistent cookies, and client certificates are not validated when cluster TLS verify mode is enabled.
+Exploitation in the wild
+F6 says the attackers initially compromised two internet-facing perimeter devices, so they were likely Expressway Edge devices. They used one of them as a jump-off point to gain access to two additional cluster nodes located on the organization’s internal network.
+“After obtaining root access, the attackers began preparing tooling for further lateral movement across the infrastructure. They used custom Python scripts designed to scan the network, discover accessible SMB resources, interact with SQL Server and WinRM, and explore GitLab repositories in order to exfiltrate credentials and other sensitive information,” the company found.
+What to do?
+F6 shared the IP addresses used in the attacks (66.179.31[.]32 and 18.130.47[.]116), the path where the Python scripts were staged (/mnt/harddisk/i{0-9}{4}[a-zA-Z]?/*.py), and a specific entry that shows up in the Erlang system log on exploited Cisco Expressway devices (nodeup ‘wombat@127.0.0.1’).
+If the above log entry is detected, organizations should review other logs and look for the Python scripts to confirm the compromise.
+Customers are advised to update Cisco Expressway to release X15.5.20 or later. “If immediate updating is not possible, F6 recommends restricting connections to ports TCP/4371–4372 at the firewall and allowing access only from the IP addresses of trusted cluster nodes,” F6 advised.
+“This incident demonstrates that compromise of a perimeter device can open a path for an attacker to an organization’s critical systems. That means protection should therefore include not only timely vulnerability remediation but also properly configured segmentation and infrastructure monitoring,” they added.

@@ -1,14 +1,14 @@
 Lauren Goldboss is busy. The owner of a small San Francisco dog-walking company, she has been hiring staff and buying vans.
 Fuelling the growth is her new office dog-walking service Paw Perk, popular with some local AI start-ups.
 Her business is an example of how the AI boom in San Francisco is benefiting other sectors.
-The city saw an exodus of residents during the pandemic and its downtown was weakened by remote work, but it s now enjoying a rejuvenation, with AI being the major driver.
+The city saw an exodus of residents during the pandemic and its downtown was weakened by remote work, but it's now enjoying a rejuvenation, with AI being the major driver.
 Leading AI firms OpenAI and Anthropic â which have been hiring top engineering talent, often on eye-popping salaries â are based here. Anthropic, the company behind the Claude chatbot, last week listed on New York's Nasdaq stock exchange.
 Thousands of other AI start-ups have also sprung up, external in San Francisco.
 Signs of the boom are evident in soaring rents and house prices, falling office vacancies, and buses and billboards plastered with cryptic AI adverts.
 But what if there is a significant downward correction in AI share prices and a resulting big fall in investment in the industry? The International Monetary Fund last month became the latest organization to warn, external that this was a possibility.
 Concerns have since continued due to the scandal surrounding Jensen Huang, the former boss of AI firm Nvidia, based south of San Francisco, causing some wider AI stock falls. However, Nvidia remains highly profitable, and Wednesday of this week it reported that its latest quarterly profits had doubled from a year earlier to $65bn (Â£49bn).
 What are the thoughts of AI workers in the city, and should San Francisco â no stranger to tech's boom-and-bust cycles â be preparing for a possible crash?
-One AI worker, employed by one of the largest companies in the city, is convinced that a crash is coming. "I am certain that the house of cards will come downâ¦ and I'm sure it will affect me," says the man who asked that we didn't use his name.
+One AI worker employed in the city is convinced that a crash is coming. "I am certain that the house of cards will come downâ¦ and I'm sure it will affect me," says the man who asked that we didn't use his name.
 He questions whether leading US AI companies can generate enough revenues to justify their enormous spending commitments as cheaper, increasingly capable AI models emerge, especially from China.
 But he isn't losing sleep over it. "Why worry about things I can't control?"
 Another San Francisco-based AI worker, who also asked to remain anonymous, says that a significant market correction is "totally possible".

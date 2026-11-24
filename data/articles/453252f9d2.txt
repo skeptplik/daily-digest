@@ -1,0 +1,50 @@
+Cybersecurity jobs available right now: November 24, 2026
+Applied Cyber, Detections
+Doppel | USA | Remote – View job details
+As an Applied Cyber, Detections, you will support customer detection operations, implement and optimize detection logic, and automate alert triage across web domains, social media, and other digital channels. You will investigate detection gaps, false positives, and alert issues, support customer onboarding and configurations, and collaborate with customer-facing, Engineering, and Product teams to improve detection capabilities and address cyber threats.
+AVP, Information Security
+Amerisure Insurance | USA | Hybrid – View job details
+As an AVP, Information Security, you will lead cybersecurity strategy, governance, and security teams while advising executives on risks and regulatory compliance. You will oversee enterprise risk assessments, third-party security, security operations, threat detection, incident response, and vulnerability management. You will also develop security policies, strengthen business resilience, manage security vendors, and drive continuous improvements in cybersecurity capabilities.
+Cyber Security Engineer
+TaskVerse | Germany | Remote – View job details
+As a Cyber Security Engineer, you will develop and automate security controls across SAP environments, particularly SAP BTP. You will implement Policy-as-Code, security monitoring, and automated remediation, integrate security into development workflows, and coordinate secure production rollouts. You will also collaborate with engineering and governance teams to improve security processes and strengthen organizational security controls.
+Get weekly updates on new cybersecurity job openings. Subscribe here!
+Cyber Threat Intelligence Analyst
+Check Point Software | Israel | Hybrid – View job details
+As a Cyber Threat Intelligence Analyst, you will monitor and analyze cyber threats, investigate threat actors and attack techniques, and deliver actionable intelligence reports. You will configure and optimize customer intelligence environments, develop data sources across dark web and social platforms, and contribute to platform improvements. You will also collaborate with internal teams and present findings to clients.
+Cybersecurity Engineer
+Space Coast Credit Union | USA | Hybrid – View job details
+As a Cybersecurity Engineer, you will monitor security systems, detect and respond to threats, investigate incidents, and coordinate remediation efforts. You will conduct threat hunting, vulnerability assessments, and penetration testing while managing security patches across systems and devices. You will also implement security controls, support regulatory compliance and audits, maintain security policies, collaborate with IT teams, and promote cybersecurity awareness.
+Cybersecurity Manager
+Forbes Research & Insights | USA | Hybrid – View job details
+As a Cybersecurity Manager, you will lead security teams, oversee cybersecurity governance, manage security projects, and maintain policies and compliance, including PCI and HIPAA requirements. You will manage identity and access controls, endpoint and network security, email protection, and incident response. You will also oversee cloud and web platform security, vulnerability management, secure development practices, and third-party risk while collaborating with Engineering, Legal, and other stakeholders.
+Cybersecurity Specialist
+SAIC | USA | On-site – View job details
+As a Cybersecurity Specialist, you will maintain system authorizations to operate (ATOs), oversee vulnerability scanning, continuous monitoring, incident response, and compliance reporting for classified and unclassified systems. You will coordinate system access, investigate security incidents, and collaborate with system owners, vendors, and stakeholders. You will also support DevSecOps initiatives, evaluate security technologies, secure application and data migrations, and maintain cybersecurity metrics and documentation.
+Data Protection Officer
+Helfie.AI | United Kingdom | Remote – View job details
+As a Data Protection Officer, you will oversee data protection governance, advise on privacy risks, conduct compliance reviews, guide Data Protection Impact Assessments (DPIAs), and support incident response and international data transfers. Working closely with our leadership, regulatory, and product teams, you will help embed privacy-by-design into our AI-powered healthcare solutions, support compliance with the EU AI Act, and serve as the primary contact for data protection authorities and individuals exercising their privacy rights.
+Defensive Cybersecurity Analyst
+Quantum Sky | USA | On-site – View job details
+As a Defensive Cybersecurity Analyst, you will investigate security alerts, analyze logs and network data, and correlate evidence to identify threats and support incident investigations. You will integrate threat intelligence into security monitoring tools, document technical findings, and collaborate with incident response teams to ensure timely reporting to customers and USCYBERCOM.
+Director, Cyber Defense
+American Express Global Business Travel | USA | On-site – View job details
+As a Director, Cyber Defense, you will lead CSIRT, Cyber Threat Intelligence, Detection Engineering, and Data Security Investigations. You will set strategy, manage budgets, develop teams, and report security risks and performance to leadership. You will oversee incident response, strengthen threat intelligence, improve detection capabilities, and drive automation. You will also lead sensitive data investigations, ensure sound evidence handling, and work with Legal, Privacy, HR, and other stakeholders to improve security and response readiness.
+Director, Information Security
+Weatherford | USA | On-site – View job details
+As a Director, Information Security, you will lead enterprise cybersecurity strategy, governance, and risk management. You will oversee identity and access management, Zero Trust initiatives, data protection, and security across IT, OT, cloud, and AI environments. You will also direct security operations, threat detection, vulnerability management, and incident response while ensuring regulatory compliance and reporting security risks and progress to executive leadership.
+Senior Cyber Security Engineer
+CNS | Australia | On-site – View job details
+As a Senior Cyber Security Engineer, you will design and implement security architectures and controls across client environments, lead security delivery, and conduct risk assessments and threat modeling. You will improve detection capabilities, support incident response, and develop security roadmaps and resilience plans.
+Senior Security Engineer
+Aleroy | UAE | Remote – View job details
+As a Senior Security Engineer, you will conduct threat modeling, architecture reviews, and security testing across applications, APIs, and cloud environments. You will assess tenant isolation, production access, secrets management, and data protection practices, oversee vulnerability remediation, evaluate third-party security risks, and provide technical evidence for customer security reviews and ISO 27001 and SOC 2 audits.
+Senior Specialist, Data Loss Prevention
+HomeEquity Bank | Canada | Hybrid – View job details
+As a Senior Specialist, Data Loss Prevention, you will advise the CISO on DLP strategy, technology, and risk management. You will develop and optimize DLP policies, data classification, monitoring, and automated controls across enterprise systems. You will also design alert investigation workflows, integrate security tools, support audits and compliance, and track performance metrics to improve data protection and reduce risk.
+Senior Web Application Penetration Tester
+SIXGEN | Ireland | Remote – View job details
+As a Senior Web Application Penetration Tester, you will assess the security of web and mobile applications, APIs, databases, and supporting infrastructure. You will identify and exploit vulnerabilities, analyze attack paths, develop custom testing tools, and research emerging threats. You will also collaborate with clients, document findings, assess risks, and recommend remediation strategies.
+SIEM Engineer II
+Securonix | India | On-site – View job details
+As a SIEM Engineer II, you will lead SIEM implementations and integrations, design secure data collection and monitoring solutions, and develop tailored detection use cases, dashboards, and connectors. You will troubleshoot data onboarding issues, integrate SOAR capabilities, collaborate with customers and internal teams, and provide training to support successful platform adoption.

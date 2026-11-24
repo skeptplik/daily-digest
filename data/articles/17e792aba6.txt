@@ -1,0 +1,16 @@
+Threat actors breached at least three AI inference providers and stole customer prompts, but none detected the intrusions until they were notified, according to cybersecurity firm Dragos.
+AI inference providers host AI models and sell access to them through APIs. The hacks were detected after a team led by Dragos chief research officer HD Moore sent out roughly two million prompts to widely used AI services between July and November.
+These prompts contained a unique, trackable bait such as URLs, hostnames, and credentials, including AWS keys. The security firm then set up a monitoring system to see whether anyone used the bait information in the wild, which meant the prompt had been compromised.
+Dragos soon found evidence indicating that someone had stolen information from one of the tested AI inference providers. 
+“Although our prompts were bait, they were processed along with real customer requests, and those were almost certainly copied too,” Moore noted.
+The biggest breach involved roughly 200 AWS test keys sent to a provider, which were stolen in late October.
+“Some of the stolen keys came from requests that the provider rejected before a model ever ran – this tells us that the attacker was copying requests at the provider’s front door, and not somewhere deeper in the inference stack,” Moore said.
+Dragos saw the attackers checking which stolen keys worked, then trying to use them to obtain valuable data from the associated accounts.
+The attackers have not been identified, but Dragos said one adversary appears to have hacked two of the providers at the same time, using secrets stolen from both from a single rented server.
+OpenRouter, an AI gateway that sends customer requests to dozens of inference providers, was indirectly affected. The company said its own systems were not breached, but it removed three unnamed providers in response to the incident.
+OpenRouter also listed security notices published by several providers. It did not say whether these are among the three it removed.
+The list includes confidential AI cloud provider Phala, which said an attacker compromised a server running a DeepSeek model served via OpenRouter. It admitted that requests sent between October 21 and November 8 should be considered exposed.
+AI cloud platform Together AI revealed that an AI coding agent leaked credentials on GitHub, which were then used to obtain stored prompt samples. Model hosting platform Novita and inference platform Atlas Cloud traced potential exposure to requests that reached the API of model developer MiniMax.
+Related: Amazon: China-Linked Hackers’ AI Agents Exploited Medical Software Zero-Day
+Related: Industry Reactions to Major Outages and AI Patching Debate: Feedback Friday
+Related: The Governance Gap in Open-Weight AI and What to Do About It

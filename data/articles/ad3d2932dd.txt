@@ -1,0 +1,18 @@
+OpenRouter removed three AI providers from its platform after discovering that they had violated their stated data-handling policies and exposed sensitive data.
+The company also revoked Zero Data Retention (ZDR) eligibility for 125 endpoints as a precaution and notified all potentially affected customers.
+OpenRouter is an AI model broker that lets developers access AI models from different companies using a single API key.
+When an app sends a request, OpenRouter forwards it to a provider that runs the selected model and passes the answer back.
+Operational technology security company Dragos alerted OpenRouter after sending two million test prompts through the platform, each containing a unique tracking link or decoy credential, and detecting "activity indicating that data from at least three AI providers was exposed."
+Dragos discovered that, in some cases, those credentials were leaked to outsiders and used in the wild, indicating that the test prompts had escaped.
+“We observed activity indicating that data from at least three AI providers was exposed. Our seeded test prompts were used in attempts to access our controlled test systems and canary AWS accounts,” Dragos says.
+OpenRouter says there was no breach on its own systems, making the leak point at the provider level and leading to the decision to remove the three leaking inference providers: Together AI, Phala, and Novita.
+Another provider, Atlas Cloud, said it would voluntarily withdraw its models from OpenRouter pending security testing, following a third-party security incident.
+The other three published separate announcements responding to Dragos’ findings and explaining how the leaks occurred.
+Together AI said an AI coding agent exposed a repository credential on GitHub, allowing an unauthorized party to download stored prompt samples from June and July involving MiniMax M3, GLM-5.2, and Kimi K2.6.
+Phala said an attacker compromised a server processing DeepSeek V4 Flash 0731 requests routed through OpenRouter between October 21 and 22, and possibly up to November 8, and obtained application credentials from affected virtual machines.
+Novita said a routing misconfiguration forwarded some MiniMax requests, including those sent through OpenRouter, to MiniMax’s official API between May 28 and November 11.
+All four providers are tightening security controls, strengthening their zero data retention or data deletion policies, and advising potentially impacted users to rotate any secrets that may have been exposed in the leaked requests.
+OpenRouter is also adapting Dragos’ tests for ongoing use to check whether AI providers forward or leak user requests/responses to third parties, and will require validation before restoring ZDR eligibility.
+Adaptive Security's AI agents analyze email intent, context, and behavior to uncover phishing, business email compromise, and invoice fraud.
+See what's getting through with a 14-day read-only scan of Microsoft 365 or Google Workspace, with no MX changes.
+Start your free email security scan.

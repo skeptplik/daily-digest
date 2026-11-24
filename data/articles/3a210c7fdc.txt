@@ -1,0 +1,40 @@
+Thank you for visiting nature.com. You are using a browser version with limited support for CSS. To obtain
+the best experience, we recommend you use a more up to date browser (or turn off compatibility mode in
+Internet Explorer). In the meantime, to ensure continued support, we are displaying the site without styles
+and JavaScript.
+Ayanna Howard thinks ‘everyone has to be part of’ building ethical AI tools
+The researcher and educator explains why she’s optimistic about the future of work and what individuals can do to thrive alongside artificial intelligence.
+Rebooting the Machines: A New Human Vision for Artificial Intelligence Ayanna Howard Broadleaf (2026)
+As artificial-intelligence tools upend the graduate job market, it might seem that there’s little for educators to be optimistic about. But AI and robotics pioneer Ayanna Howard, who is the president of Spelman College, a historically Black women’s university in Atlanta, Georgia, sees promise ahead.
+Howard’s career has ranged from developing autonomous robotic systems at NASA’s Jet Propulsion Laboratory to serving as dean of the college of engineering at Ohio State University. She is a co-founder of Zyrobotics, a company that creates educational technologies for children who need extra support, and academic co-lead of Black in Robotics, an organization dedicated to making the robotics field more inclusive.
+In her book Rebooting the machines, Howard explains that the dangers of AI are real. Yet AI tools can improve people’s quality of life and create job opportunities — if humanity implements guard rails. She spoke to Nature about why she tells her students to embrace the technology, albeit with healthy scepticism.
+Are you an AI optimist or pessimist?
+I consider myself a realistic optimist. I’m positive about the possibilities of AI tools, but I realize that not everyone thinks the same way as I do — including some AI developers and companies in this space. We still need to do something to turn that optimistic viewpoint into reality.
+How can AI improve quality of life?
+If all types of individuals — those from various socio-economic backgrounds, races, genders and nationalities, and those that have disabilities, for example — all become part of the AI ecosystem, tools can be personalized. For instance, in health care, I want AI tools that are trained on my body composition, taking into account my age and the fact that I’m female. I don’t want a general model that was trained on men.
+Can we have personalization without losing our privacy?
+I think so, but we have to be realistic about the fact that we currently have no guard rails in place. Our data can be scraped, so we have to protect our own information as individuals. I am optimistic about the future of data privacy, because companies are starting to consider paying people for their data. We pay artists to see their art and listen to their music, why doesn’t that happen for personal data?
+What AI applications are you most optimistic about?
+Honestly, I’m optimistic about jobs. AI tools make knowledge much more accessible. For smart individuals who have not been trained as, say, a computer scientist, AI is an equalizer.
+What advice do you give to graduates entering the job market?
+My advice is to have a healthy scepticism towards AI, but also to work out how to use these tools in your discipline and for your passions. Jobs are changing. For students starting university this year, I guarantee that when they graduate, the jobs available to them will be different to those that exist now.
+I think that there is some fear, frankly, because some recent graduates don’t have jobs thanks to AI models accelerating the eradication of early-career roles. But the graduates who do get hired are those who know how to work with the AI tools that companies are throwing at them.
+What are valuable skills in the current job market?
+The ones that some people call soft skills, although I call them hard skills because AI models can’t replicate them. One of them is human curiosity, which leads to creativity. Also, people are really good at learning things for the first time, whereas AI needs tonnes of data to work anything out. That means humans are really good at dealing with anomalies.
+The other element is that many jobs still rely on human connection. AI tools are pretty useful for diagnosis in health care. But we still want a human to interpret the AI output and interact with us. Those jobs are going to be difficult to replace.
+Many people now have emotional relationships with AI. What’s your take on that?
+Studies have shown that the current generation of young people report high levels of loneliness, and yet they’re also more connected than previous generations. I think that at some point they will say, ‘you know what? I don’t like being lonely. I need human connection’. But if people feel that AI is making them less lonely — although there is evidence that it isn’t — there is a risk that they will take a long time to come to that realization.
+The other risk is that people begin to trust AI tools too much. Because AI models are getting so good, there is a tendency not to question them. For example, if an AI tool used in health care tells people something incorrect and they don’t examine it, that could be disastrous.
+How are AI tools intersecting with advances in robotics?
+The cost of hardware has gone down, and the time needed for a robot to learn what we call the action space — I see something, I work out how to do something and then I am able to actually do it physically — has shortened. That’s what’s required to operate in the real world.
+Are there risks to using AI in robotics?
+You can’t ‘control–alt–delete’ harm to a human. With a virtual AI tool, if it completes a task, it’s not doing anything physically. (Although, as AI agents become more sophisticated, there’s a question of how much longer that will be the case.) Currently, a human still has to say ‘yes’, or confirm or click something to initiate a behaviour. When an AI model controls a physical system, you don’t necessarily have that feedback loop. That is a very risky scenario.
+How can people avoid biases creeping into AI models?
+One answer is to collect more data. There are communities that don’t give their data to organizations training AI models because they know that their information could be used against them. But for applications that involve high risk but high return, we have to have a conversation about it. When a company tests a drug, people are willing to volunteer to take it and provide their data, because the benefits outweigh the risks. Can we do the same thing for some AI applications?
+Enjoying our latest content?
+Log in or create an account to continue
+- Access the most recent journalism from Nature's award-winning team
+- Explore the latest features & opinion covering groundbreaking research
+- Join us to pioneer solutions for global environmental & energy challenges at a world-class institute in China‘s innovation hub, Shenzhen.
+- Peking University Shenzhen Graduate School in the heart of the Guangdong-Hong Kong-Macao Greater Bay Area, China’s most dynamic economic and innovation region.
+- School of Environment and Energy (SEE), Peking University Shenzhen Graduate School

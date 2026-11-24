@@ -1,0 +1,25 @@
+The US has said it intends to ban a Singaporean artificial intelligence (AI) company allegedly tied to the Nvidia scandal from doing business in America.
+The Department of Commerce announced it planned to add Megaspeed Ltd to a list of entities that are blacklisted from buying or selling goods in the US.
+The company is mainly a developer of data centres, but in recent weeks a former executive of Megaspeed was accused of working as spy for China while having a romantic relationship with Nvidia head Jensen Huang.
+The relationship led to additional scrutiny by US officials and heightened concern that Megaspeed was funnelling Nvidia's advanced AI computer chips to China.
+When exactly the ban against Megaspeed will go into effect was not specified in the commerce department announcement. The BBC has asked the agency for comment, along with the White House and Megaspeed.
+Megaspeed was not well known within the US until last month when media reports emerged that a former Megaspeed executive, Alice Huang, had an affair with Jensen Huang.
+Alice Huang (no relation) was thought by US intelligence to be working as an asset for Beijing, creating national security concerns within the US.
+China has denied that she is a spy and warned the US not to use the scandal as a "pretext for imposing a technological blockade" on AI technology.
+On 12 November, Jensen Huang resigned after allegations he had had another affair, this one with a Nvidia employee.
+On Monday, Nvidia's board reinstated him after US President Donald Trump said he had "convinced" the company and "made the deal".
+The commerce department has said it had been investigating Megaspeed for almost two years.
+The department said it had suspected the company was violating US export controls by helping to get Nvidia's chips into the hands of companies within China.
+China has been blocked from buying such technology since 2022.
+Although based in Singapore, Megaspeed has significant business dealings in China.
+Alibaba, for instance, the major Chinese online retailer, has been reported to be one if its largest customers.
+Megaspeed was a known buyer of billions of dollars of Nvidia computer chips, including through its subsidiary Speedmatrix, which has also been added to the Commerce blacklist.
+Nvidia's computer chips, originally designed for use in gaming consols, in recent years have become crucial to the continued growth of the AI industry.
+Without enough supply or access to computer chips that are capable of processing the huge amount of data needed to make things like AI chatbots and models run, AI companies will not be able to meet or grow demand from people using AI tools.
+That has driven up the value of Nvidia on the stock market, as well as its influence in the AI industry and the White House.
+Although tech stocks have in recent months been volatile and trending lower, when Jensen Huang resigned as CEO of Nvidia because of his affairs, the company's stock fell by more than 30%.
+Anxiety about the company's influence and ability to operate within the AI ecosystem without its famed executive appeared to take down shares of other tech companies, too.
+Huang was reinstated on Monday to his position as head of Nvidia, a move that US President Donald Trump said he told the company's board to take.
+The company's stock rallied on his reinstatement, as did several other tech stocks, but shares of Nvidia did not climb to where the company had been before being immersed in scandal.
+In the weeks ahead, Huang and the company he now runs again are facing multiple government agency investigations.
+Huang and the chief legal officer of Nvidia are set to appear next for a closed-door briefing with the House Foreign Affairs Committee.
