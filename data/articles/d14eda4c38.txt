@@ -5,14 +5,17 @@ But developer Norwich Apex said an ecological impact assessment concluded no eff
 Data centres are facilities that store and process vast amounts of data and run the software and online services used by millions of people.
 This centre, off the A140 Ipswich Road, would need 150 MW of power to run and would feature 72 chiller units on its roof.
 According to planning documents, the building would be about 20m (65ft) high.
-A planning appiclation for the centre has been lodged wth South Norfolk Council.
+A planning application for the centre has been lodged with South Norfolk Council.
 If approved, construction could begin at the end of 2027 and it would be operational by 2028.
-Smith, who lives in Suffolk, said: "We haven't got enough water, and data centres use an awful lot of water.
-"It's one of the biggest [data centres] and it doesn't do anything for Norfolk. It doesn't do anything for the Norfolk community. Where is the Â£1.2bn coming from?"
-It is hoped the centre will utilise wind energy by connecting to the Hornsea 3 substation nearby.
+The plans have emerged at the same time as a much bigger proposal for a data centre and solar farm elsewhere in Norfolk, south of King's Lynn, which would require more than five times as much electricity.
+The developer has said the Keswick facility would use "air-cooling technology" and not require water for cooling.
+But Smith, who lives in Suffolk, said: "We haven't got enough water, and data centres use an awful lot of water.
+""It's one of the biggest [data centres] and It doesn't do anything for the Norfolk community. Where is the Â£1.2bn coming from? And who are the people who are going to presumably make money out of it?
+"It's not going to do anything for the local community, it's the opposite. It's going to be bad."
+It is hoped the centre will harness wind energy by connecting to the Hornsea 3 substation nearby.
 Smith said: "Renewable energy is going into the grid but it doesn't supply everything now.
 "What are you going to do when you have this huge data centre absolutely sucking up energy?"
-Other opponents of the plan include broadcaster and entrepreneur Jake Humphrey, who lives nearby.
+Other opponents of the plan include broadcaster and entrepreneur Jake Humphrey.
 Other campaigners include Matt Tomlinson of Yare Valley Meadow Makers, who believes the development will have a "disastrous effect" on nocturnal wildlife.
 "On this Marston Marsh site we have nine protected bat species, we have three different owl species and these will all need the quiet conditions to effectively hunt," he said.
 "I think this is an awful idea; awful for the wildlife and awful for the people."
@@ -20,4 +23,5 @@ In recent days, Labour MP for South Norfolk, Ben Goldsborough, who believes the 
 Matt Bartram, chief executive of Norwich Apex, said: "Our ambition is to deliver one of the UK's greenest data centres, using low-carbon power supplied via Norwich Main substation. Protecting nearby ecological sites, including Marston Marshes has shaped the design from the outset.
 "Detailed environment assessments have informed our plans to reduce noise and screen the development from view.
 "We propose planting more than 15,700 trees and over 1.7km of new hedgerow, with the plans delivering a 13% biodiversity net gain."
+Correction 24 November 2026: This article was amended to clarify the size of this data centre in comparison to other planned developments and to make clear the developer's position on water usage.
 Do you have a story suggestion for Norfolk? Contact us below.

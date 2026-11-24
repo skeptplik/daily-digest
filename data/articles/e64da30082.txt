@@ -1,5 +1,5 @@
 World·Analysis
-Trump says Jensen Huang 'did nothing wrong.' The investigations aren't over
+Why Trump's move to get Jensen Huang reinstated as Nvidia CEO won't end the questions
 U.S. president takes credit for convincing Nvidia to reinstate CEO, despite intelligence concerns
 U.S. President Donald Trump's extraordinary intervention to get Jensen Huang reinstated as Nvidia CEO does little to shut down many pressing questions about a scandal that has rocked both Washington and the stock markets.
 Nvidia's about-face comes just 11 days after Huang stepped down, following allegations he'd had multiple extramarital affairs, including one with a woman reportedly suspected of spying for China.
@@ -36,6 +36,9 @@ One common theme in all the Republicans' posts: they stopped short of calling ou
 Jensen Huang, centre, was one of several top tech executives who met U.S. President Donald Trump at the White House on Sept. 29, 2026, to try to quell public concerns about the potential risks of artifical intelligence. (Alex Brandon/The Associated Press)
 Democrats have no such hesitation.
 "Trump is putting his own financial interests and the needs of his billionaire buddies before our national security," Sen. Chuck Schumer wrote on X.
+Many Americans stand to benefit from the stock market bounce from Huang's reinstatement, including the president.
+At the end of 2025, Trump had Nvidia holdings worth at least $12.5 million US to $58 million US, according to his annual financial disclosure report filed in June 2026. That's up from the $615,000 US to $1.3 million US in Nvidia stock at the end of 2024.
+The White House has said the president's portfolio is independently managed by third-party financial institutions.
 Come January, Democrats will control Congress and the subpoena power of its committees. if those Congressional investigations dig up evidence that the Huang saga compromised national security, Trump's insistence to the contrary would backfire spectacularly.
 - Analysis What the Jensen Huang scandal means for Trump and his administration
 - U.S. Treasury Secretary frustrated by Commerce Department's inaction on Nvidia chips
@@ -48,3 +51,4 @@ Trump also suggested that had he not intervened to get Huang back on Nvidia's bo
 "People say, 'Is it a [national security] threat to have him?' No, it's a threat to lose him," Trump said.
 "Jensen could take the next plane to China, and I guarantee you they would give him whatever he wanted," he said.
 That statement raises yet another concern: if Trump truly believes there was a risk Huang would go work for China, perhaps the national security concerns of the whole affair weren't fully put to rest.
+With files from the Associated Press

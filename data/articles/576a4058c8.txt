@@ -1,4 +1,0 @@
-Seven stable kernels for Monday
-Greg Kroah-Hartman has announced the 7.3.6, 6.18.65, 6.12.119, 6.6.163, 6.1.193, 5.15.226, and 5.10.275 stable kernels. Each of these contains quite a few patches throughout the tree—6.12.119 has the fewest with more than 1,700 patches, while 6.6.163 has more than 3,300. Users are advised to upgrade.
-The LWN site is currently under high scraper load, so comment display has been suppressed for anonymous users. If you are a human, you may read the comments by clicking the button below:
-Note: you can avoid this step in the future by logging into your LWN account.

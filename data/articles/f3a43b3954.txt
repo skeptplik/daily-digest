@@ -1,0 +1,14 @@
+South Korean state-owned electric company Korea Electric Power Corporation (KEPCO, KRX: 015760, NYSE: KEP) has disclosed a data breach impacting approximately 1.5 million people.
+The incident, the company says, involved KEPCO ON, its integrated customer service portal, and the supplier relationship management (SRM) platform, which handles procurement and service contracts.
+KEPCO attributed the incident to an external attacker and noted the growing sophistication of AI-driven cyberattacks. It did not disclose how the attacker gained access or confirm that AI was used in this breach.
+According to KEPCO, it suspended the affected services immediately after discovering the incident, blocked external access, conducted a thorough review of the relevant systems, and took remediation actions.
+On November 20, the company confirmed that data was exfiltrated from its systems, including electricity customer and SRM user information.
+From KEPCO ON, the hackers stole the personal information of 650,487 people, including names, addresses, phone numbers, unique ID numbers, customer numbers, card numbers and details, bank names, bank account numbers, account-holder names, card issuers, cardholder names, and billing/payment details.
+Additionally, the information of 869,761 individuals was stolen from the SRM systems: the names, unique ID numbers, email addresses, and company addresses of 426,827; and the names, affiliation, employee IDs, email addresses, phone numbers, and company phone numbers of 442,934 (including KEPCO staff and partners’ employees).
+The company has notified the affected individuals directly and reported the incident to the relevant authorities. It is also strengthening its security against AI-assisted attacks, and will share details on the exposure of financial information with government and financial institutions.
+KEPCO’s disclosure followed a November 19 post on a dark web forum by a user operating under the handle Noiem, who reportedly claimed to have stolen KEPCO user and supplier data, as well as bidding and contract documents.
+South Korea’s Personal Information Protection Commission (PIPC) has launched an investigation into the incident, noting that KEPCO received an email from the hacker, verified sample data received from the sender, and confirmed a dark web posting. PIPC has not attributed the data breach to Noiem.
+Related: AI Inference Providers Failed to Detect Hacking and Prompt Theft, Says Dragos
+Related: SBC Medical Group Data Breach Impacts Over 2 Million
+Related: JPMorgan, Visa, Mastercard Cite Third-Party Incidents Amid Data Leak
+Related: Market Research Giant Ipsos Investigating Breach of Internal System

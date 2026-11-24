@@ -1,12 +1,6 @@
 Abstract
 Benzene rings are the most frequently encountered ring system in small-molecule drugs1. However, benzenes with six substituents are notably absent from small molecule libraries, owing to challenges associated with their synthesis and the limited availability of commercially available aromatic building blocks2. Therefore, new chemical processes that enable their synthesis with predictable regiochemical control and broad substituent diversity could enable medicinal chemists to explore this uncharted aromatic chemical space in hit-to-lead and lead optimization campaigns. Herein, we describe a highly modular and programmable platform for accessing hexa-substituted benzene rings from aromatic cyclopropenium cations and (trialkylsilyl)allenes, with precise control over all six benzene positions encoded in the starting materials. The exceptional regioselectivity observed originates from the selective evolution of an unusual non-classical carbocation featuring four-centre four-electron bonding as revealed by density functional theory calculations. Our benzannulation enables the selective installation of synthetic handles that were exploited for the synthesis of previously inaccessible penta- and hexa-substituted analogues of the anticancer drug sonidegib and the antihypertensive drug telmisartan, as well as the polyaromatic hydrocarbon triphenylene. Notably, the use of enantiopure allenes unlocks a new route to enantioenriched multi-substituted biaryls through our benzannulation occurring with “memory of chirality”.
 Access options
-Access Nature and 54 other Nature Portfolio journals
-Get Nature+, our best-value online-access subscription
-Receive 51 print issues and online access
-Rent or buy this article
-Prices vary by article type
-Prices may be subject to local taxes which are calculated during checkout
 Supplementary information
 This Supplementary Information file contains the following sections: 1. General information; 2. Synthesis of starting materials; 3. Cyclopropenium-to-benzene ring conversion: reaction optimization and scope; 4. Product derivatizations; 5. Computational details; 6. References; and 7. NMR spectra.
 About this article

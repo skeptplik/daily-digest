@@ -1,0 +1,16 @@
+McDonald’s Japan discloses breach exposing customer purchase and location data
+McDonald’s Japan recently experienced a cybersecurity breach that exposed customers’ purchase histories and mobile device location data.
+The fast-food giant said Friday that an unauthorized third party had gained access to a database associated with its official mobile app. The company has not disclosed how many customers were affected, when the intrusion occurred or who was behind it.
+The compromised information included customers’ purchase histories, IP addresses, internal customer identification numbers and location data from mobile devices used to access McDonald’s services.
+The company said the internal identification numbers could not be used on their own to identify individual customers. Names, email addresses, phone numbers, home addresses and credit card information were not affected by the breach.
+McDonald’s Japan said it was working to invalidate the authentication credentials used in the attack but did not explain how the hacker obtained them.
+The company has not detected any unauthorized use of its app or related services as a result of the incident and said customers did not need to change their passwords or take other security measures.
+McDonald’s Japan is investigating the affected systems and has reported the incident to Japan’s data protection authorities. It remains unclear whether the attacker stole any customer information.
+The McDonald’s Japan breach follows other cybersecurity incidents that have affected Japan’s food and retail industries in recent months, disrupting supply chains and forcing some restaurants to scale back operations.
+In July, a cyberattack on Japan’s largest refrigerated logistics company disrupted deliveries to food manufacturers, supermarkets and restaurant chains across the country.
+Among those affected was KFC Japan, which reported ingredient shortages affecting products including its signature Original Recipe chicken. The disruptions forced some of the chain’s more than 1,300 restaurants to offer limited menus and shorten their operating hours.
+Japanese takeout chain Hotto Motto, restaurant chain Yayoi Ken and conveyor-belt sushi operator Kura Sushi were also affected.
+The ransomware group RansomHouse claimed responsibility for the attack on the logistics company. The group previously targeted Japanese online retailer Askul, disrupting its e-commerce operations.
+There is no indication that the McDonald’s Japan incident is linked to those attacks.
+Daryna Antoniuk
+is a reporter for Recorded Future News based in Ukraine. She writes about cybersecurity startups, cyberattacks in Eastern Europe and the state of the cyberwar between Ukraine and Russia. She previously was a tech reporter for Forbes Ukraine. Her work has also been published at Sifted, The Kyiv Independent and The Kyiv Post.

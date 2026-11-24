@@ -1,0 +1,24 @@
+Elastic puts AI agents to work on the SOC alert backlog
+Elastic announced Elastic Security 9.6, which introduces AlertZero, a set of AI agents that triage alerts, hunt threats and tune detection rules in the background. The release also adds ransomware protection for Linux, expanded entity resolution and an expanded set of 143 detection rules covering AI agents and large language model platforms.
+AlertZero takes on the alert queue
+AlertZero organizes its agents, called Workers, into four teams known as Watches: triage, threat hunting, detection engineering and forensics. The technical preview includes six Workers. Each Worker runs on a schedule or in response to events such as new alerts, then submits a proposed action, such as closing a false positive or isolating a host, along with supporting evidence.
+Alertzero Workers (Source: Elastic)
+Depending on the Worker, teams can choose from three autonomy levels: Manual, Assisted and Supervised. In Manual mode, proposed actions require analyst approval. Assisted mode allows Workers to investigate detection rules and coverage gaps independently, but changes still require approval. Supervised mode permits selected actions without prior approval, with analysts reviewing the results afterward. Actions approved by analysts run with their privileges and are recorded as their decisions.
+Analysts spend more time gathering context around an alert than deciding what to do with it, according to Elastic. “We built AlertZero to do that digging for you,” the company wrote.
+Customers choose the models used by Workers across three tiers: Efficient, Balanced and Frontier. Options include open-weight and self-hosted models. AlertZero is available in technical preview in Elastic Cloud Serverless. It is expected to become available in Elastic Cloud Hosted and Elastic Self-Managed deployments in early December with an Enterprise subscription or a trial license.
+Entity Analytics adds a daily starting point
+The Entity Analytics updates are generally available with an Enterprise subscription. A refreshed overview features six tiles highlighting users, hosts and services with changes in risk, alerts or behavior. An AI brief summarizes entity risk and identifies up to three entities to investigate first.
+Entity Analytics (Source: Elastic)
+Entity resolution links accounts belonging to the same person across endpoint, identity and cloud data to provide a single view of risk. Version 9.6 adds matching rules for Windows and CrowdStrike security identifiers, Microsoft Entra globally unique identifiers (GUIDs) and Microsoft 365 user principal names, along with case-insensitive email matching.
+Elastic Defend adds Linux ransomware protection and custom YARA scanning
+Elastic Defend extends its behavior-based ransomware protection, already available on Windows and macOS, to Linux hosts. In Prevent mode, it blocks attacks as they occur.
+Security teams can also load custom YARA signatures to scan process memory. A match generates a Memory Threat – Detected alert that displays the matched signature name and memory strings. Both capabilities reach general availability with version 9.6.
+Migration tools gain AI-assisted editing
+Automatic Migration now lets analysts edit translated detection rules through chat and confirm the changes in the same interface. The feature supports rules from Splunk, QRadar and Microsoft Sentinel.
+Rules and models target AI threats
+The 143 AI security SIEM detection rules cover coding agents hijacked to execute attacker commands, malicious Model Context Protocol (MCP) servers, credentials pasted into prompts, jailbreaks and stolen API keys. Coverage spans endpoint telemetry, Amazon Bedrock, OpenAI ChatGPT Enterprise, Anthropic, Google Cloud Vertex AI, Microsoft Foundry and Azure OpenAI. The rules map to the MITRE ATLAS and MITRE ATT&CK frameworks.
+Elastic cited two real-world incidents that illustrate the threats covered by the rules. In August 2025, malicious versions of the Nx build tool invoked installed AI coding tools to find sensitive files. In another incident, an npm package impersonating a Postmark MCP server copied every outgoing email to an attacker.
+On developer machines running macOS or Windows, Elastic Defend can terminate a process if it was launched by a coding agent and attempts to establish persistence.
+A Security for AI integration package, available in technical preview with a Platinum or trial subscription, adds four small models that score prompts and responses as they are indexed. The models run within the customer’s own cluster. Eight prebuilt detection rules act on the results.
+Availability
+Most Elastic Security 9.6 capabilities are available now in Elastic Cloud Serverless, except for the new Elastic Defend features. Elastic expects version 9.6, including those features, to become available in Elastic Cloud Hosted and Elastic Self-Managed deployments in early December.
