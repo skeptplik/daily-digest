@@ -1,0 +1,22 @@
+Thank you for visiting nature.com. You are using a browser version with limited support for CSS. To obtain
+the best experience, we recommend you use a more up to date browser (or turn off compatibility mode in
+Internet Explorer). In the meantime, to ensure continued support, we are displaying the site without styles
+and JavaScript.
+The proof was released on 20 November by mathematician Levent Alpöge at AI giant Anthropic in San Francisco, California, who used an advanced version of the firm’s Claude model. It came in the form of 17 million lines of code in the open-source programming language Lean, which translates mathematical arguments into computer-certifiable code. In a matter of hours, a separate set of mathematicians rushed out a human-written proof of the Riemann hypothesis, which is in the branch of number theory and pertains to the randomness of prime numbers.
+Alpöge’s proof has been independently verified by the non-profit organization behind Lean and the Mathlib Initiative, which runs the reference library of formalized mathematics results written in Lean. “We have full confidence that Alpöge’s proof of the Riemann Hypothesis is correct, and we congratulate him,” the community said in a statement on 21 November.
+Nature hears reactions from four mathematicians on what solving the Riemann hypothesis means to them.
+‘My reaction is grave concern’
+Tasmin Chu, PhD student in mathematics at the California Institute of Technology in Pasadena.
+A technology that can autonomously prove the Riemann hypothesis is no trivial matter. I think that it is imperative our society acts to pause AI development as soon as possible. Over the past year, mathematical institutions have faced the impossible task of adapting to the rapidly changing capabilities of AI in real time.
+It’s enormously disruptive for early-career researchers — the people who are the intellectual future of our field. Soon other sectors of society will face the same issues.
+My reaction is grave concern. AI companies urgently require democratic oversight. I do not think AI’s encroachment into math is inevitable, nor is the death of human mathematical practice inevitable. It’s a choice to disempower ourselves, just as it’s a choice to continue building these technologies despite grave safety concerns. I continue to practice mathematics without LLMs, because I believe it’s critical that scientific inquiry continues in the hands of human beings. Many of us at the Association for Human Mathematics — whose organizing committee I am on — are collectively making the same decision.
+‘It could present a great opportunity for discovery’
+Harini Desiraju, postdoc in mathematics at the University of Warwick, UK.
+Given the events of the past few months, this news wasn't entirely a surprise, but we need to wait to understand the Lean proof and let the experts verify it. It is several million lines of code, after all.
+I am not a number theorist, so I might not have the same emotional attachment to the Riemann hypothesis. Nevertheless, I have deep appreciation for the ubiquity and the importance of the problem in several areas of maths and physics.
+As for the recent events, I want to distinguish between formal proofs versus knowledge. It is an impressive feat to solve such a problem. However, because it is a Lean proof over millions of lines, it is going to take a while before the community gets real understanding, and validity of the proof. With an AI-independent approach available as well, it could present a great opportunity for discovery of new ideas and mathematics. We need to see how it all plays out.
+There is another discussion to be had, which involves the role of frontier labs in research. Most of us see the potential benefits of this technology, but it is of utmost importance that we work towards a future where the agency is with the scientific community and not a couple of companies.
+‘Three months ago, I would have never predicted it’
+Marcus Du Sautoy, mathematician and professor for the public understanding of science at the University of Oxford, UK.
+It was real mix of emotions. A part of me says, how exciting to be alive when this great problem was solved! I think even when Fermat’s last theorem was solved, we had the same excitement and the same melancholy: that great motivator is gone.
+Mixed in with that, is the complete surprise that it ended up being proved this way. If you’d asked me three months ago, I would never have predicted it.

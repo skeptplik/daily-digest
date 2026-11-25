@@ -1,0 +1,13 @@
+Czech Railways’ mobile app now has a ‘check connection’ function, and it works with trains operated by other carriers, too.
+Whether it’s a bus, a plane or a train, missing a connection is never fun.
+As you sit watching the delay on the first leg of your journey get longer and longer, you start doing the mental maths on the chances you’ll make it in time.
+Well, now one European country is taking the guesswork out of it by allowing customers to request their train connection to wait for them.
+State-owned operator Czech Railways has just unveiled its “check connection” function, which is available in the mobile app My Train.
+Passengers who are on a delayed train will be able to use the verify connection button, which will send a request to Czech Railways dispatchers. You’ll then receive a response directly in the app about whether or not the next train will wait for you.
+You can request a verification until about 15 minutes before the next train is due to depart. The service works on both Czech Railways trains and other carriers.
+“We want our passengers to have as much useful information as possible directly on their mobile phones and be able to make better decisions based on it,” Lenka Hamplová, chairwoman of the board of directors and CEO of Czech Railways, said.
+“The new function will bring them greater clarity and certainty in situations where they are having to deal with a connecting train due to a delay.”
+Other destinations where trains will wait for you
+According to Czech Railways, the only other destination offering a similar service is Bavaria.
+Through the MoBY mobility app, passengers can make connection requests for all regional trains.
+If the train isn’t able to wait at the transfer station, you’ll be given alternative options instead.

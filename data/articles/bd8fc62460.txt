@@ -1,0 +1,18 @@
+Earlier this week, Microsoft resolved a known issue that was preventing some Microsoft 365 customers from accessing Office applications.
+This follows widespread reports on social media and Microsoft's support website about what affected users described as a persistent white screen or square that can't be dismissed, displayed over Office apps' user interfaces or Microsoft 365 sign-in windows.
+"We've installed 3 separate versions of 365 on this device, but no matter how we try to get into a 365 app we get stuck on this white screen. I've launched applications in safe mode as well without any luck," one user said.
+The company confirmed in a support document updated Monday that a blank dialog box prevented customers from opening Microsoft 365 Outlook, Word, Excel, PowerPoint, OneNote, and Access apps.
+"When you open an Office application, a blank dialog window might appear. The dialog box doesn't show any text or buttons," Microsoft said. "If you can't dismiss it, you might be unable to continue using the application."
+Microsoft says the issue is now fixed in Microsoft 365 Apps Version 2611 (Build 16.0.20625.20142), released last week.
+However, Microsoft says that customers who can't update because of this bug can also upgrade to the latest version from the command line by going through the following procedure:
+- Save your work and close all Office applications.
+- Open an elevated command prompt.
+- Run the following command "%programfiles%\Common Files\Microsoft Shared\ClickToRun\officec2rclient.exe" /update user updatetoversion=16.0.20625.20142.
+This is the last in a series of bugs that have affected Microsoft 365 and Office customers since the start of the year.
+For instance, in June, Microsoft fixed another issue that blocked Office for the web users from opening Excel and PowerPoint documents, and another that prevented Windows 365 users from downloading the Office suite.
+One month later, it resolved a bug that blocked third-party apps from launching Microsoft Office apps like Word, Excel, PowerPoint, and Access and from opening documents on Windows systems.
+More recently, in September, Microsoft fixed a known issue causing copy-and-paste and autofill failures for Excel users after installing the September 2026 security updates.
+That same month, Microsoft also had to temporarily pause the rollout of the KB5002907 Microsoft 365 update to fix a bug that deactivated (and in some cases completely removed) perpetual Office 2016 and Office 2019 installations for some users.
+Adaptive Security's AI agents analyze email intent, context, and behavior to uncover phishing, business email compromise, and invoice fraud.
+See what's getting through with a 14-day read-only scan of Microsoft 365 or Google Workspace, with no MX changes.
+Start your free email security scan.
