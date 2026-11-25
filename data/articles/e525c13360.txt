@@ -1,0 +1,14 @@
+The personal information of over 11 million customers, clients and workers of major private railway operator Keio may have been leaked as a result of a cyberattack in September.
+The passport photos of more than a million foreign travelers who have stayed at Keio-affiliated hotels were also accessed during the breach.
+The company said Tuesday that the Sept. 26 ransomware attack affected itself and dozens of its subsidiaries in the travel, real estate, hotel, construction and other sectors.
+The attack was linked to cybercrime group Qilin, which has claimed the most victims of any such group in the past year, according to the ransomware tracker Ransomware.live. The United States Department of Human and Health Services’ cybersecurity office says the group likely has Russian origins.
+The breach left highly sensitive details across Keio’s businesses at possible risk of having been leaked, with the cyberattacker accessing the information of 10.63 million customers of Keio companies.
+The figure included 1.6 million passport photos of foreign guests at hotels under the Keio Presso Inn and Keio Plaza Hotel brands, and Takayama Green Hotel, and the passport numbers of around 1,000 more people who stayed at Keio hotels or used Keio’s travel agency.
+The numbers of over 20,000 Keio co-branded credit cards and the personal ID documents of 46,000 people, submitted to real estate subsidiaries for transactions and leasing, were also accessed.
+In addition to customers, Keio said that the personal information of approximately 360,000 people who applied for positions at the company and its subsidiaries was breached. About 77,000 current and former employees and their dependents also had information accessed, including some details of residence certificates and My Number cards.
+The company said its investigation also determined that the personal information of over 12,000 employees, job applicants and people who rented Keio’s apartment complexes and houses was confirmed to have been leaked. These details included names, phone numbers and addresses.
+Keio said it had not identified any case of further damage in relation to the breach, such as financial losses or unauthorized use, but it warned those affected to remain on alert for fraudulent credit card activity and suspicious communications, particularly by those impersonating the company.
+The company also promised to strengthen its security systems.
+Keio first reported the ransomware attack on Sept. 26 — the day it happened. But in the following weeks, the company found out more about what had transpired during the attack.
+On Oct. 16, Keio announced that the attackers had claimed to have leaked some of the accessed information.
+On Oct. 21, the company said external experts it hired reported that more information had been published by the hackers.

@@ -1,0 +1,21 @@
+The Rust team has released Rust 1.100.0, the language's first three-digit stable version, with a release that finally lands the never type after a decade of work. Announced on 12 November 2026, the release also stabilises the core of the custom allocator API, introduces a DropGuard helper, and gives Cargo opt-in dependency cooldowns and warnings for unused dependencies.
+The headline is the stabilisation of !, the canonical uninhabited type for computations that never return a value, such as panic!(), return or an endless loop. Although functions have long used it as a return type, naming it elsewhere, for instance writing Result<T, !> to describe an operation that cannot fail, took ten years and five failed stabilisation attempts to land. The release also makes std::convert::Infallible an alias for !, which is what the type was always intended to be, so existing APIs using Infallible now accept ! transparently.
+To make that alias work, the team shipped a small breaking change for the 2015, 2018 and 2021 editions, flipping the never-type fallback from () to ! and matching behaviour already introduced in Rust 2024. The release notes describe the impact as largely unnoticeable but warn that more code may be flagged as unreachable. Developers hitting issues on upgrade are advised to update dependencies first, since fixes for widely used crates have already been published.
+The core of the long-awaited allocator_api is also now stable, letting library authors define custom allocators used with Vec and Box through the new Allocator trait. This forms the foundation of the Allocators 1.0 project goal. Critics on the internals forum have argued that Rust still lacks Zig's granular control over allocation because the current design cannot support inline storage, with moves invalidating internal pointers, but the stabilised core is seen as a workable starting point for broader collections support.
+On the Hacker News release post, one user noted that some of the changes weren’t mentioned in the blog post for the release:
+This release is so big that multiple useful stabilized API aren't event mentioned in the blog post like:
+- bool::toggle() https://doc.rust-lang.org/stable/std/primitive.bool.html#met...
+- Box::map() https://doc.rust-lang.org/stable/std/boxed/struct.Box.html#m...
+- str::trim_prefix(), str::trim_suffix, Path::trim_prefix()
+The new global-min-publish-age setting holds back newly published versions by a configurable window, an opt-in defence against malicious crate releases:
+[registry]
+global-min-publish-age = "3 days"
+On Hacker News, developer woodruffw argued cooldowns need to coexist with immediate security patching:
+You should do both: you should let normal updates cool down,
+and
+you should immediately patch security advisories.
+One of the biggest ergonomic problems with cooldowns is that many tools let the former goal obstruct the latter. Both should be part of the state machine of resolution itself, rather than things that get layered on.
+ImportStatic found on the beta that cargo install ignores the setting entirely and that an update could even downgrade a forced security fix, something the release notes also flag as a known caveat. The approach sits alongside GitHub's Dependabot cooldown protection but builds the age check into dependency resolution itself.
+Other notable additions include core::mem::DropGuard for running a closure on every exit path, std::mem::conjure_zst for zero-sized types in unsafe code, plus smaller ergonomic wins such as bool::toggle, str::trim_prefix, str::trim_suffix and Box::map.
+Upgrading uses rustup update stable; Rust 1.99 is no longer supported, and 1.101 follows the six-week cadence around 24 December 2026.
+Rust is an open-source systems programming language maintained by the Rust Foundation and a global community, designed to empower developers to build reliable and efficient software through strong type safety, memory safety guarantees without a garbage collector, and a mature package ecosystem through Cargo.

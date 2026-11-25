@@ -1,0 +1,24 @@
+Holiday scam losses force some victims to cut back on essentials
+The proportion of Americans who say they have fallen victim to a holiday shopping scam has nearly doubled since last year, according to new research from McAfee. Forty-two percent say they have fallen for one, up from 22% in 2025.
+Confidence in spotting scams drops
+Shoppers are less confident in their ability to detect scams than they were a year ago. Seventy-five percent of Americans say they can recognize an online scam, down from 90% in 2025. Many respondents said they had encountered a holiday deal or advertisement they initially believed was genuine but later discovered was a scam.
+A majority of respondents said AI-generated holiday scams can look convincing, while most expressed greater concern about AI-generated scams than they did a year ago.
+Twelve gifts tied to suspicious sites
+Researchers analyzed searches for popular gifts and linked 12 products to suspicious website activity. The list includes Applebee’s gift cards, KPop Demon Hunters Rumi dolls, New Balance 9060 sneakers, Saucony Peregrine 16 running shoes, Chanel Rouge Allure lipstick, Bvlgari Aqva Marine cologne, AMC movie tickets, TAG Heuer Carrera watches, Pokémon Trading Card Game products, Gucci cashmere-wool blend tailored jackets, Pandora advent calendars and Hot Wheels Black Widow.
+The median time between a search and the detection of suspicious activity was 13 seconds for AMC Theatres and 1 minute and 18 seconds for Pandora.
+Top holiday gifts being targeted by scammers (Source: McAfee)
+“Scammers know which gifts people want,” said threat researcher Charles McFarland. McAfee described the tactic: “Scammers use popular gifts to lure shoppers to lookalike sites.”
+Researchers found suspicious sites offering KPop Demon Hunters dolls, popular sneakers and Pokémon cards. Searches for Mona Pika, a fan-made Pokémon card that depicts Pikachu in the style of the Mona Lisa, featured prominently in the Pokémon-related research, illustrating how niche collectibles and viral products can also attract scammers.
+The findings concern suspicious website activity associated with searches for these products, instead of wrongdoing by the legitimate brands or retailers.
+Familiar brands used as bait
+Respondents most often recalled seeing Amazon (40%) and Temu (33%) impersonated in fake holiday deals. Nike, Apple, eBay and SHEIN were also mentioned.
+Respondents said that a retailer’s resemblance to a familiar brand or the presence of positive customer reviews could lead them to overlook signs of a scam. Gift card and prize offers were the most commonly reported types of suspicious messages, followed by messages about package delivery problems and limited-time deals.
+“Many rely on phishing, a tactic where scammers impersonate trusted businesses to trick people into clicking dangerous links, sharing personal information or making payments,” Brooke Seipel, Content Editor in Chief at McAfee, wrote.
+Risk-taking for better prices
+Sixty-eight percent of Americans reported engaging in at least one risky shopping behavior to secure a better holiday deal. Some made purchases from websites they were unsure about or from unfamiliar retailers. Others bought from sellers with few or no reviews or shared personal information to claim a discount.
+Some shoppers said they had ignored a scam warning sign to avoid missing out on a deal. An unusually low price was the warning sign they overlooked most often.
+Financial losses
+Of respondents who lost money to a holiday shopping scam, 60% lost $100 or more, while 48% recovered none of their money.
+Some scam victims spent additional money to replace a gift, while others could not afford a replacement. The financial consequences also included cutting back on everyday essentials, borrowing money or using credit to cover losses.
+About the research
+The year-over-year comparisons draw on separate surveys conducted in 2025 and 2026 using different research providers and sample sizes. McAfee also noted that the final methodology and product rankings for its Labs research were pending confirmation.

@@ -1,0 +1,14 @@
+Exploited: Abandoned Idunno.AntiCsrf library opens legacy ASP.NET apps to RCE (CVE-2026-131914)
+The US Cybersecurity and Infrastructure Security Agency added three new vulnerabilities to its Known Exploited Vulnerabilities catalog: CVE-2026-132224, an Optimizely Web Experimentation vulnerability attackers leveraged to plant malicious JavaScript on high-profile websites; a Drupal core remote code execution bug (CVE-2026-132165); and CVE-2026-131914, a deserialization of untrusted data vulnerability in Idunno AntiCsrf, a legacy ASP.NET anti-CSRF library.
+CVE-2026-131914 exploitation detected
+ASP.NET is a server-side web-application framework used for building dynamic web sites, apps and services.
+Disclosed last week by Mandiant and Google Cloud researchers, CVE-2026-131914 can be triggered by sending a specially crafted HTTP POST request, with no prior authentication or valid CSRF token.
+“The module reads data from an incoming form submission and reconstructs it into program objects without checking that the data is genuine or untampered. The vulnerable check runs before the application’s own page logic, so it can affect many pages on an affected site, not just ones that use a login form,” watchTowr explained.
+A successful attack allows the attacker to execute arbitrary code in the context of the IIS worker process that runs the website, which may lead to complete compromise of the web application server.
+“Attacker probes have been observed validating exploitation by triggering a web redirect on vulnerable applications,” watchTowr reported on Tuesday, and noted that legacy components like this library “tend to stay in place long after their projects end, sitting inside older ASP.NET applications that are still running in production.”
+It’s unlikely that CVE-2026-131914 will be patched since the open-source project hasn’t been updated for many, many years.
+Mandiant advised organizations to stop using Idunno.AntiCsrf and replace it with an actively supported alternative such as:
+- System.Web.Helpers.AntiForgery,
+- ASP.NET WebForms Page.ViewStateUserKey combined with MAC-verified/encrypted ViewState on postback forms, or
+- ASP.NET Core Anti-Request Forgery (IAntiforgery).
+CISA has ordered US federal civilian agencies to address CVE-2026-131914 and the other two vulnerabilities by November 27, and to check for signs of exploitation.

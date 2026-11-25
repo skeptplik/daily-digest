@@ -1,0 +1,13 @@
+gputaskman: Open-source task manager for GPUs
+gputaskman is an open-source task manager for GPUs that runs in a terminal on Windows, Linux, WSL, and Apple Silicon Macs. It shows which process is holding a machine’s GPU memory, how busy each process keeps the card, and which AI model sits behind the numbers, where it can find evidence for one.
+Windows Task Manager can report a figure like 15 GB used. It cannot say whether those bytes are model weights, KV cache (the memory a language model uses to hold its context), a browser, or the desktop compositor. Under WSL, nvidia-smi lists no processes at all.
+Every model row shows its evidence
+To work out what’s loaded, gputaskman pieces together clues: driver counters, the libraries a process has loaded, files mapped into its memory, launch flags, and what local AI servers say about themselves. Every model it names comes with a note on how it knows. It calls a model confirmed only when two strong clues agree, and a file that just sits in an app’s folder stays a candidate. It doesn’t dump VRAM or read model names out of other processes’ memory.
+In one live sample, Windows’ older per-process counter charged about 15.3 GiB to DWM, the desktop compositor, while the Local Usage counter read about 1.4 GiB. That older counter can charge one shared surface to several processes at once, so summing rows inflates the total. gputaskman prefers Local Usage.
+Estimates carry limits too. Raising a gemma-3-270m server’s context setting from 4,096 to 32,768 produced an estimated 504 MB of new KV cache, but the server’s measured dedicated memory grew by 83 MB. Gemma 3 uses sliding-window attention, so for that model the estimate is a ceiling. If you take one thing from the numbers, treat the breakdowns as estimates and the counters as measurements.
+Output and probes need handling
+gputaskman’s saved output includes file paths, launch flags, model names and local ports, so a shared recording can describe a machine’s AI setup in detail. To read server details, the tool sends simple requests to AI servers already listening on the machine. If a server needs a key that gputaskman can’t see, the request gets turned away, and the server logs one failed attempt every 30 seconds. If you spot that pattern in your logs, it may be the monitor.
+gputaskman is available for free on GitHub.
+Must read:
+- 20 open-source cybersecurity tools to keep your team ready for anything
+- GitHub Agentic Autofix and the question of who owns a bad AI patch
