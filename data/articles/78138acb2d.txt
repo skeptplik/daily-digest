@@ -1,0 +1,17 @@
+GTA 6 hacker sentenced to seven years and released the same day
+The Lapsus$ member who leaked footage of Grand Theft Auto VI (GTA 6) was sentenced to seven years in prison on Monday and released from custody on licence the same day, City of London Police announced.
+Arion Kurtaj, 21, formerly of Oxfordshire, pleaded guilty to six charges, including fraud and computer misuse offences, at Woolwich Crown Court on 16 November. The court set a nine-year term and then took off two years for the time he had spent under a hospital order.
+Hacking Rockstar from a hotel room
+Kurtaj was on bail when he went after Rockstar Games. In September 2022 he had been moved to a hotel for his own protection. From there, according to the Crown Prosecution Service (CPS), he broke back into company networks using a mobile phone, the hotel TV’s Wi-Fi and a Fire Stick.
+He took 90 gameplay videos of the unreleased game, posted them online under the name “TeaPotUberHacker” and threatened to leak the source code in an attempt to blackmail the developer.
+Uber and Revolut were hit during the same period. Prosecutors said the Uber attack, in which Kurtaj stole and deleted data and sent a lewd image to employees, cost the company more than $2.8 million. At Revolut, he compromised data belonging to thousands of customers.
+A year earlier he had gained remote access to systems at BT/EE. The CPS linked that intrusion to a jump in unauthorised SIM swaps at the telecoms provider in November 2021.
+Lengthy investigation
+Police worked with law enforcement agencies abroad and with private industry partners on the case, which covered hacks carried out between August 2020 and September 2022.
+“This was a lengthy investigation which spanned a number of years and highlights the dangers that young people can end up being drawn to online,” said Detective Inspector Mike O’Sullivan of the force’s Cyber Crime Unit.
+“That said, Kurtaj knew what he was doing when he carried out these crimes and has finally admitted his involvement,” he added.
+O’Sullivan thanked the targeted companies, whose “willingness to work with law enforcement may have prevented other organisations becoming victims of the group’s activities.”
+Four years in the courts
+Kurtaj was first arrested in September 2022. Doctors found him unfit to stand trial, and in 2023, after a jury decided he had carried out the hacks, he was given an indefinite hospital order.
+In January 2026 a court ruled that the order could be lifted, and the original charges were listed for trial. While on remand, Kurtaj was caught with a mobile phone in prison, which prosecutors said he used in March 2026 to send a mocking message to 999.
+“We hope this case serves as a lesson that these types of acts will not be tolerated. Although cyber crime is borderless, we will seek to utilise the co-operation of partner agencies and international law enforcement to ensure that offenders are brought to justice no matter where they offend from,” O’Sullivan concluded.

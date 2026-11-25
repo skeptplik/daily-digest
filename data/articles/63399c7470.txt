@@ -1,0 +1,37 @@
+The ShinyHunters extortion gang claims to have returned in posts on a new data leak site after a series of arrests over the past two months targeting alleged members.
+The new Tor site, launched on November 23, contains messages in both Russian and English announcing the group's return, distancing itself from alleged impostors, and denouncing a former member who was reportedly arrested and is cooperating with law enforcement.
+The site also includes two verification messages signed using historical ShinyHunters PGP keys dating back to 2020, including one previously used to authenticate communications with BleepingComputer in August 2025.
+BleepingComputer confirmed that both messages were signed using known PGP keys associated with the ShinyHunters extortion gang, confirming that the new operators have access to private signing keys historically used by the group.
+However, these keys do not confirm whether the individuals behind the new operation are the same people who previously controlled the group, as the keys have circulated among numerous people.
+The announcement follows a series of law enforcement operations targeting alleged ShinyHunters members after the group claimed to have breached FBI systems in September using an Oracle PeopleSoft vulnerability.
+Later that month, Dutch police confirmed the arrest of a 24-year-old Amsterdam man suspected of involvement with ShinyHunters, who was identified in media reports as Pepijn van der Stap, previously known online as Umbreon.
+In early October, another alleged ShinyHunters member known as Rey or Saif was reportedly detained in Jordan and is cooperating with law enforcement. Around the same time, Canadian cybersecurity executive Edward Dubrovsky was arrested in Pennsylvania in an extortion investigation reportedly linked to ShinyHunters.
+After the arrests, ShinyHunters' main representative, who had regularly communicated with BleepingComputer and other media outlets, abruptly stopped responding, and their Telegram account was deleted. Soon after, the group's data leak site went offline.
+In the new statement, the purported ShinyHunters operators say they are returning after months of rumors and misinformation circulated about the group.
+"We’re finally back. A lot has happened recently, and there’s still plenty going on right now," reads the English announcement.
+"To be honest, there’s just too much nonsense going on. Everyone’s telling different stories, but no one is really explaining what’s been happening over the last few months."
+The operators of the new data leak site say they will communicate exclusively through the Exploit hacking forum account, which they claim to have controlled since 2020, and through the new Tor site.
+The statement also addresses the reported arrest of a hacker and ShinyHunters member known as Rey, Dedale, or Saif, who was reportedly detained in Jordan in late September.
+According to the announcement, Rey previously collaborated with ShinyHunters but began operating independently, creating Telegram channels without the group's approval.
+"As far as we know, he has already been arrested and is now "actively cooperating" with the authorities," reads the English message.
+"We already rotated the PGP key that Rey used for DLS, since it has most likely been compromised."
+The message also mocks two other individuals reportedly tied to the ShinyHunters investigation, Umbreon and Canadian cybersecurity executive Edward Dubrovsky, referring to their arrests.
+"It was a pleasure working with you. And it’s truly a shame that our guys got caught because of such silly mistakes, ones that could easily have been avoided if you fools hadn’t gotten involved with the wrong people," reads the post.
+The operators say they plan to launch a new CDN for hosting stolen data and will no longer use any of the existing backup servers.
+Old PGP keys used to authenticate new site
+To attempt to prove their legitimacy, the operators published two verification messages signed using historical ShinyHunters PGP keys created in January and August 2020.
+The keys have the following fingerprints:
+- ShinyHunters RaidForums PGP key: 1FC4D0B1DEE914BB05B57FABF1F1B98A51C989B3
+- ShinyHunters Empire Market PGP key: 828537C15F43F135A8317153CD16A1660CC7CE51
+BleepingComputer verified that both messages were signed using these known PGP keys associated with the ShinyHunters extortion gang.
+PGP uses a pair of cryptographic keys: a public key that anyone can access and use to verify a message or data, and a private key used to create signatures. The private key must be kept secret to prevent others from impersonating the key's owner.
+BleepingComputer previously verified a message received from ShinyHunters on August 26, 2025, using the 1FC4D0B1DEE914BB05B57FABF1F1B98A51C989B3 public key.
+Successful verification of the November message with that same public key shows that whoever signed it had access to the same private signing key used in the earlier communications, linking it to the ShinyHunters operation behind the widespread data theft attacks in 2026.
+However, both historical keys were revoked in March 2026, when ShinyHunters announced a replacement PGP key with the fingerprint F4953411767DE71BEDCDABCB76F4E26F7A20978A.
+At the time, the group used both 2020 keys to authenticate the replacement and stated that the older keys would no longer be used for communications.
+Despite this, the November 23 announcement once again uses the two revoked 2020 keys to authenticate another new PGP key, 27DA9D5B183247CADFC322880ABC63E30F73822E.
+However, none of the November messages examined by BleepingComputer were signed using the March 2026 replacement key, leaving it unclear whether the new operators also have access to that private key.
+Because it was rumored that numerous people had the original 2020 keys, these unfortunately do not prove with certainty that the ShinyHunters group has returned or that the brand has not been revived by imposters.
+Adaptive Security's AI agents analyze email intent, context, and behavior to uncover phishing, business email compromise, and invoice fraud.
+See what's getting through with a 14-day read-only scan of Microsoft 365 or Google Workspace, with no MX changes.
+Start your free email security scan.

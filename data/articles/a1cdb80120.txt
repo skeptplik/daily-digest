@@ -1,0 +1,23 @@
+Thank you for visiting nature.com. You are using a browser version with limited support for CSS. To obtain
+the best experience, we recommend you use a more up to date browser (or turn off compatibility mode in
+Internet Explorer). In the meantime, to ensure continued support, we are displaying the site without styles
+and JavaScript.
+A post-mortem analysis of more than 300 people is offering new insights into how trauma chemically alters the brain.
+The study, published in Cell Reports on 20 November1, identifies molecular changes to DNA inside the brain cells of people with post-traumatic stress disorder (PTSD) and depression. These include ‘epigenetic marks’ — chemical tags added to DNA as a result of environmental influences, including stress and trauma. Epigenetic marks can affect how genes work, but do not alter DNA sequences.
+The analysis “gives the most comprehensive look at cell type differences” in brain regions following PTSD diagnosis, says Alicia Smith, who studies the epigenetics of PTSD at Emory University in Atlanta, Georgia.
+PTSD can develop after experiencing a traumatic event, causing symptoms such as flashbacks, anxiety and emotional distress. Understanding its epigenetic consequences helps researchers to track how trauma can alter gene regulation, and perhaps explain why some people experience symptoms and respond to treatment differently.
+The study analysed postmortem brain tissues and medical records donated by 101 people who were diagnosed with PTSD, 101 people with depression and 100 control participants who did not have a mental-health condition. The researchers examined DNA methylation in brain cells — an epigenetic mechanism in which methyl groups are added to or removed from DNA sequences.
+Traces of trauma
+Many previous studies of epigenetic marks linked to PTSD have used samples of DNA from blood2 or saliva3. “What we really want to understand is what’s going on in the brain,” says study co-author Frances Champagne, a behavioural epigeneticist at the University of Texas at Austin.
+Champagne and her colleagues examined DNA methylation across more than 850,000 genomic regions in cells taken from three parts of the brain: the amygdala, hippocampus and prefrontal cortex, which are involved in emotion processing, memory and cognitive control, respectively.
+The study found distinct methylation patterns in four DNA regions in the prefrontal cortex when comparing the PTSD group with the control group, but none in the amygdala or the hippocampus. One gene affected by these unique DNA methylations had not been previously linked to PTSD, but has a key role in memory.
+The researchers also identified differences at the cellular level. Compared with the control group, the amygdala in people with PTSD had significantly reduced levels of oligodendrocytes — cells that create a protective, insulating sheath around the connections between neurons and facilitate communication between them.
+The amygdala is central to fear responses. “That decrease in oligodendrocytes that we see in PTSD seems to be linked to, particularly, exposure to adult trauma,” notes Champagne. Oligodendrocytes were reduced across all three brain regions in 58 people who had experienced trauma as adults, regardless of whether or not they were diagnosed with a disorder. The researchers did not observe the same pattern in 97 donors who experienced childhood trauma.
+Sex-specific signatures
+Enjoying our latest content?
+Log in or create an account to continue
+- Access the most recent journalism from Nature's award-winning team
+- Explore the latest features & opinion covering groundbreaking research
+- Join us to pioneer solutions for global environmental & energy challenges at a world-class institute in China‘s innovation hub, Shenzhen.
+- Peking University Shenzhen Graduate School in the heart of the Guangdong-Hong Kong-Macao Greater Bay Area, China’s most dynamic economic and innovation region.
+- School of Environment and Energy (SEE), Peking University Shenzhen Graduate School

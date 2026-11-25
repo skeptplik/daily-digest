@@ -1,0 +1,22 @@
+A newly formed data extortion group named ‘Inception’ has been linked to a large-scale campaign that targets single sign-on (SSO) credentials of multiple global brands and firms.
+The gang surfaced on November 17, claiming seven victims on its extortion site, including chip maker AMD, PepsiCo, Cigna Healthcare, AutoZone, and Lucid Motors, but none of them have publicly confirmed a data breach.
+However, cybersecurity company ReversingLabs has been tracking Inception gang's activity and says that it has been operating since late October.
+The security firm has confirmed the existence of 21 domains used for SSO phishing, 41 domains believed to be used in campaign infrastructure, and 4 other domains with suspected use.
+The researchers identified an extensive phishing infrastructure impersonating dozens of major corporations, including Dropbox, Duolingo, Western Union, Indeed, Activision Blizzard, Riot Games, Twitch, Reddit, Nestlé, Anthropic, Nintendo, Starbucks, McDonald's, Paramount, and NBCUniversal.
+The existence of these domains is not proof that those firms have been breached, or even targeted yet, and none have recently disclosed cyberattacks or other related incidents.
+The campaign appears to rely on phone-based social engineering rather than email phishing, strongly resembling the tactics used by the infamous ShinyHunters extortion group.
+Inception is using legal-themed websites that imitate corporate authentication services, primarily Okta but also NetIQ/OpenText Access Manager.
+ShinyHunters link and denial
+One of those authentication providers, Okta, published a report yesterday linking Inception to O-UNC-053, a threat cluster it previously associated with ShinyHunters, which has been active since March.
+According to Okta, after law enforcement disrupted the ShinyHunters extortion group following the arrest of suspected members [1, 2], and the shutdown of the leak site, O-UNC-053 continued to register new phishing domains.
+In late October, the activity cluster launched its legal-themed campaign, and in mid-November, the Inception leak site went live, announcing victims that matched previous targeting.
+“This gap in publishing on any leak site followed by publishing on a new data leak site with a new brand is consistent with prior shifts from Com-affiliated actors,” describes Okta.
+“Before and after the change in DLS publication, O-UNC-053 maintained consistent infrastructure and TTPs, leading us to assess that the cluster has very likely changed their brand affiliation.”
+Inception was quick to respond and dispute the alleged links to other threat actors in an announcement on their extortion page.
+The threat actors claimed to operate independently and with no affiliation to any previous group, arguing that overlapping targets and the use of common domain registration and CDN services did not establish operational links.
+They also acknowledged that private tooling is circulating among independent threat actors, and using it does not prove affiliation.
+To defend against the latest Inception campaign, ReversingLabs recommends enforcing phishing-resistant authentication, including FIDO2 security keys and passkeys, and strengthening help desk identity verification procedures.
+DNS, proxy, and identity provider logs dating back to October 21, 2026, should be carefully reviewed for signs of suspicious activity.
+Adaptive Security's AI agents analyze email intent, context, and behavior to uncover phishing, business email compromise, and invoice fraud.
+See what's getting through with a 14-day read-only scan of Microsoft 365 or Google Workspace, with no MX changes.
+Start your free email security scan.

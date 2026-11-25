@@ -1,0 +1,26 @@
+Thank you for visiting nature.com. You are using a browser version with limited support for CSS. To obtain
+the best experience, we recommend you use a more up to date browser (or turn off compatibility mode in
+Internet Explorer). In the meantime, to ensure continued support, we are displaying the site without styles
+and JavaScript.
+Watch out, AlphaFold: Claude and ChatGPT’s new biology skills wow scientists
+Anthropic and OpenAI’s language models can design proteins and predict their sequences and structures — capabilities previously seen only in specialized AI tools.
+Earlier this month, Xinming Tu set out to test what artificial-intelligence models know about proteins. Tu, a researcher at an AI biology company called Phylo in South San Francisco, California, asked large language models (LLMs) from OpenAI, Anthropic and Google to predict the sequences of obscure bacterial proteins.
+He left the analysis to run overnight and woke up shocked at the results. The latest versions of Anthropic’s Claude models had outperformed other LLMs — but also specialized ‘protein language models’, which are trained on vast troves of sequence data and specially designed for such tasks.
+When Tu and Leo Chen, a computational biologist at Harvard Medical School in Boston, Massachusetts, shared the results in a 16 November blogpost, it set off a frenzy among computational biologists to see what other protein biology LLMs such as Claude could do. For instance, Tu and Chen and others have found it could perform a key step in protein-structure prediction.
+And on 24 November, OpenAI announced that its latest language models had successfully designed new proteins, some of which behaved as expected when made and tested in the lab. The results hint that the latest LLMs might be gaining a sophisticated understanding of protein biology.
+The research has kicked off a debate over the future of biological AI. Some scientists predict that ‘general purpose’ models such as Claude and ChatGPT will eventually outperform specialist tools such as AlphaFold at tasks including protein structure prediction and design.
+“We want to see a world where a scientist can just describe in natural language what they want a ChatGPT model to do, and the model can just be infinitely flexible and design exactly what the person wants,” says Joy Jiao, who leads life-sciences research at OpenAI in San Francisco, California.
+But some researchers question the extent to which LLMs are learning underlying lessons in protein biology. They suggest that some of their abilities could be the result of regurgitating training data.
+Generalists versus specialists
+The release of AlphaFold2, Google DeepMind’s blockbuster protein-structure-prediction AI, in 2020 launched a revolution in biological AI. There is now a vast ecosystem of software — much of it open source — for modelling different properties of proteins, such as how they interact with possible drugs, and for designing new proteins.
+Researchers have begun using LLMs to orchestrate these specialist models, but it has mostly been as a time-saving measure, says Martin Pačesa, a structural biologist at the University of Zurich. “In most cases, a specialist will always perform better than a generalist for a given task,” he says.
+To see if an LLM could stand in for specialist protein-design tools, Jiao and her colleagues asked an OpenAI model called GPT-6.2 to design 3D protein structures capable of binding to five different biological targets, including proteins implicated in cancer and immune disorders. After the LLMs generated the designs, the researchers used a specialist AI tool to determine a corresponding genetic sequence. Lab experiments confirmed that around 11% of designs were able to bind their target.
+In other experiments, the OpenAI team showed that its LLMs could design protein sequences, redesign existing antibodies, and other tasks typically performed by specialist tools. In some cases, the LLM performed as well as some specialist tools, and in others, such as predicting the 3D structure of proteins, it was far off. OpenAI researchers describe the work in a blogpost and technical paper.
+Jiao emphasizes that the work is a proof of principle, and that specialized AI tools were still needed for key steps. But Masatoshi Uehara, an OpenAI researcher who was part of the effort, believes that LLMs will only get better at protein biology. “I believe the large language model can technically beat every specialized model in even each capability,” he says.
+Enjoying our latest content?
+Log in or create an account to continue
+- Access the most recent journalism from Nature's award-winning team
+- Explore the latest features & opinion covering groundbreaking research
+- Join us to pioneer solutions for global environmental & energy challenges at a world-class institute in China‘s innovation hub, Shenzhen.
+- Peking University Shenzhen Graduate School in the heart of the Guangdong-Hong Kong-Macao Greater Bay Area, China’s most dynamic economic and innovation region.
+- School of Environment and Energy (SEE), Peking University Shenzhen Graduate School

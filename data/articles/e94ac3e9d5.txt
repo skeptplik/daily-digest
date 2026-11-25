@@ -1,0 +1,24 @@
+OpenAI and Cisco launched an open-source Linux security tool named Shirudo that deploys temporary runtime protections to block vulnerability exploitation while administrators prepare and roll out patches, without restarting services.
+Shirudo leverages the eBPF (extended Berkeley Packet Filter) mechanism in Linux to monitor for suspicious activity and deploy targeted protections called "shields."
+eBPF is a Linux technology that lets programs run in a controlled environment within the operating system's kernel without modifying its source code or requiring a restart.
+It enables real-time monitoring of system and network activity, performance analysis, and enforcement of targeted security protections, making it an ideal operational basis for Shirudo.
+Shirudo’s shields aim to block malicious behavior in a targeted way, leaving legitimate application operations undisturbed. OpenAI highlights four core capabilities for the tool:
+- Live protection: Blocks vulnerable code paths without restarting systems, letting operators assess shield impact before enforcing them.
+- AI-assisted defense: Enables agents to investigate vulnerabilities, develop shields, and validate their effectiveness, with deployment remaining under human control.
+- Trusted deployment: Uses cryptographic signatures, Linux's eBPF verifier, and kernel security controls to prevent unauthorized modifications.
+- Hardware-backed verification: Uses Trusted Platform Modules (TPMs) to provide verifiable records of shields being loaded or removed.
+OpenAI and Cisco researchers tested custom-generated shields and demonstrated that they could successfully block a Java4Shell exploit attempt against a running Elasticsearch service without interrupting its operation.
+Marcus Hutchins, principal threat researcher at managed detection and response company Expel, says that while there is "genuinely so much runtime exploit mitigation potential with eBPF," it may not be a good idea to let AI agents write rules that could impact the kernel.
+He also noted that the tool's "capabilities are limited to Linux because Mac/Windows haven't implement the components needed to be effective."
+Researchers at Isovalent, a cloud networking and security company acquired by Cisco in 2024, explain that "Shirudo is a rewrite of Tetragon," an open-source eBPF-based runtime security platform the company introduced in 2022, which also serves as the foundation for Cisco's existing Live Protect technology.
+Shirudo is designed for agentic control plane, and a configurable degree of autonomy when it comes to deploying mitigations. Isovalent says the tool isn’t limited to eBPF and can also modify application or userspace runtime bytecode to extend protection where needed.
+When a shield is deployed, they also provide operators with hit counts, giving them insight into attempted exploits and where defenses need strengthening.
+The two companies plan to provide “ready-to-use” mitigations in the form of tested shields, along with vulnerability disclosures, until patching is possible. Shields will be distributed as cryptographically signed ‘.bee’ packages through an OCI registry.
+Isovalent says that Shirudo can be activated through a command-line interface and doesn’t require a daemon to run permanently on the machine.
+"The Shirudo project is only the beginning, but it already shows the true potential of combining agents as a workforce with machine interfaces to let agents output what they are best at: code," the researchers say.
+They expect the tool to evolve and other projects to emerge around it, to the point of building self-defending that can run applications and agents side by side.
+Shirudo is open-source (BSD + GPL) and comes with a quick-start guide as well as "getting started" documentation from Isovalent.
+In a deep-dive webinar on December 15, OpenAI will provide a technical rundown of how the tool works and how it combines eBPF and artificial intelligence to detect and counter new attacks.
+Adaptive Security's AI agents analyze email intent, context, and behavior to uncover phishing, business email compromise, and invoice fraud.
+See what's getting through with a 14-day read-only scan of Microsoft 365 or Google Workspace, with no MX changes.
+Start your free email security scan.

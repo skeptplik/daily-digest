@@ -1,0 +1,18 @@
+Carnegie Endowment for International Peace says third-party breach leaked donation info
+Some donors to the Carnegie Endowment for International Peace had their information leaked due to a cyberattack on a third-party vendor named Soapbox Engage.
+The organization sent emails to past donors on Friday warning of the data breach, writing that the incident occurred on October 28. The threat actors were removed from the vendor’s system on October 30, they said.
+Carnegie Endowment for International Peace spokesperson Sharmeen Aly confirmed to Recorded Future News that the vendor was Soapbox Engage — an online fundraising and engagement software platform for nonprofits.
+Carnegie uses Soapbox Engage for online donations. The hackers stole names, email addresses, phone numbers and giving history.
+“Due to an integration with Carnegie's database, the unauthorized users were able to temporarily gain access to contact information maintained by Carnegie,” Aly said. “Based on our investigation, a small percentage of our database was affected. No full credit card numbers were exposed.”
+Aly added that the organization notified everyone in their database about the breach due to European data privacy laws. Carnegie hired a cybersecurity firm to confirm the hackers were removed from the system.
+Aly did not say how many people were impacted by the incident. Founded in 1910, the think tank currently employs more than 200 experts. The institute supports research efforts, diplomacy and more.
+In its last financial statement, the non-profit declared more than $522 million in assets and an operating revenue of about $51 million.
+Soapbox Engage did not respond to requests for comment but the incident coincides with the disclosure of data breaches and cyberattacks by multiple digital donation platforms.
+Fundraising software company DonorPerfect said it was impacted by a security incident last week, and on Friday GoFundMe said it identified a cybersecurity incident where hackers breached their systems in two separate attacks in October and November. GoFundMe reported the cyberattack to law enforcement.
+“We have reviewed the data involved, and determined it included limited personal information such as names, postal addresses, phone numbers and, for some, dates of birth or other information provided voluntarily in registration forms,” the company said.
+No card numbers or bank details were exposed and GoFundMe said they “addressed the known methods of unauthorized access, disabled unauthorized accounts, and are actively monitoring for further suspicious activity.”
+In its statement, GoFundMe said the recent attacks on other fundraising platforms were evidence that organizations had to do a better job of protecting donor information.
+“To help prevent something like this from happening again, we are identifying opportunities to further strengthen the safeguards protecting our platform and are using those findings to guide additional security improvements designed to help prevent similar incidents,” the company said.
+The Nonprofit Times news outlet reported that the recent attacks on the fundraising platforms appeared to be coordinated and at least one incident involved the theft of funds.
+Jonathan Greig
+is a Breaking News Reporter at Recorded Future News. Jonathan has worked across the globe as a journalist since 2014. Before moving back to New York City, he worked for news outlets in South Africa, Jordan and Cambodia. He previously covered cybersecurity at ZDNet and TechRepublic.

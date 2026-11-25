@@ -1,0 +1,265 @@
+In the version of the article initially published, in the Abstract, “Biogeography” section and Conclusion, the epoch in which bats originated was given as the “late Palaeocene” but should have been “late Cretaceous/early Palaeocene”. This has now been corrected in the HTML and PDF versions of this article.
+Explore related subjects
+Discover the latest articles and news in related subjects.
+Author information
+- Ariadna E. Morales Present address: The City College of New York, New York, NY, USA
+- These authors contributed equally: Yan Liang, William R. Thomas, Evgeny V. Leushkin, Francisco X. Castellanos, Denis M. Larkin, Tom Brown
+Authors and Affiliations
+- Senckenberg-Leibniz Institution for Biodiversity and Earth System Research, Senckenberganlage, Frankfurt, Germany Ariadna E. Morales, Evgeny V. Leushkin, Alexander Ben Hamadou, Alejandro Gonzales-Irribarren, Carola Greve, Leon Hilgers, Dimitrios-Georgios Kontopoulos, Shenglin Liu, Yury V. Malovichko, Tilman Schell & Michael Hiller
+- University of Montpellier–CNRS–IRD, ISEM, Montpellier, France Ariadna E. Morales & Sebastien J. Puechmaille
+- Tree of Life, Wellcome Sanger Institute, Hinxton, Cambridge, UK Yan Liang (梁妍), Eugene W. Myers, Mark Blaxter, Paul Davis, Matthieu Muffato, Guoying Qi & Emma C. Teeling
+- Department of Ecology and Evolution, Stony Brook University, Stony Brook, NY, USA William R. Thomas & Liliana M. Dávalos
+- Department of Biological Sciences, Texas Tech University, Lubbock, TX, USA Francisco X. Castellanos & David A. Ray
+- Instituto Nacional de Biodiversidad, Quito, Ecuador Francisco X. Castellanos
+- Department of Comparative Biomedical Sciences, Royal Veterinary College, University of London, London, UK Denis M. Larkin & Maksym Prylutskyi
+- Max Planck Institute of Molecular Cell Biology and Genetics, Dresden, Germany Tom Brown, Eugene W. Myers, Martin Pippel, Laura Uelze & Sylke Winkler
+- The Arctic University Museum of Norway, UiT-The Arctic University of Norway, Tromso, Norway Bastian Fromm
+- School of Biological, Earth and Environmental Sciences, UNSW Sydney, Sydney, New South Wales, Australia Suzanne J. Hand
+- School of Biology and Environmental Science, University College Dublin, Dublin, Ireland Zixia Huang, Graham M. Hughes, Sarahjane Power, Marek Uvizl & Emma C. Teeling
+- Conway Institute, University College Dublin, Dublin, Ireland Graham M. Hughes
+- School of Life Sciences, Arizona State University, Tempe, AZ, USA Matthew F. Jones & Nathan S. Upham
+- Department of Natural History, Royal Ontario Museum, Toronto, Ontario, Canada Burton K. Lim, Judith L. Eger, Mark D. Engstrom & Thomas W. Horsley
+- School of Biology, University of St Andrews, St Andrews, UK Meike Mai, Ine Alvarez van Tussenbroek & Sonja C. Vernes
+- Okinawa Institute of Science and Technology, Okinawa, Japan Eugene W. Myers
+- SciLifeLab, National Bioinformatics Infrastructure Sweden (NBIS), Department of Cell and Molecular Biology, Uppsala University, Uppsala, Sweden Martin Pippel
+- DRESDEN concept Genome Center, Dresden, Germany Martin Pippel, Laura Uelze & Sylke Winkler
+- Institut Universitaire de France, Paris, France Sebastien J. Puechmaille
+- Department of Mammalogy, Division of Vertebrate Zoology, American Museum of Natural History, New York, NY, USA Nancy B. Simmons & Melissa R. de Waal
+- The Vertebrate Genome Laboratory, The Rockefeller University, New York, NY, USA Linelle Ann L. Abueg, Giulio Formenti, Erich D. Jarvis, Bonhwang Koo, Kirsty McCaffrey, Brian P. O’Toole & Sam Talbot
+- Department of Bioengineering and Therapeutic Sciences, University of California San Francisco, San Francisco, CA, USA Nadav Ahituv, Michael W. Guernsey & Yelena Guttman
+- Institute for Human Genetics, University of California San Francisco, San Francisco, CA, USA Nadav Ahituv, Michael W. Guernsey & Yelena Guttman
+- Environment Authority, Muscat Governorate, Oman Zahran A. AlAbdulsalam
+- Center of Animal Behavior, Smithsonian Tropical Research Institute, Balboa, Panama Dineilys V. Aparicio, Nair Cabezón, Dina K. N. Dechmann, Mirjam Knörnschild & Jenna E. Kohles
+- University of California Santa Cruz, Santa Cruz, CA, USA Lina M. Arcila Hernández
+- Ecology and Evolutionary Biology, University of Toronto, Toronto, Ontario, Canada Lina M. Arcila Hernández & Mark D. Engstrom
+- Department of Zoology, National Museum, Prague, Czech Republic Petr Benda & Marek Uvizl
+- Department of Zoology, Faculty of Science, Charles University, Prague, Czech Republic Petr Benda & Marek Uvizl
+- Biodetics Data Solutions, Guelph, Ontario, Canada Alex V. Borisenko
+- Ecological and Regulatory Solutions, University of Guelph, Guelph, Ontario, Canada Alex V. Borisenko
+- SOH Conservación, Santo Domingo, Dominican Republic Jorge Brocca
+- Department of Medicine, KCVI, Oregon Health & Science University, Portland, OR, USA Lucia Carbone & Kimberly A. Nevonen
+- Department of Molecular and Medical Genetics, Oregon Health & Science University, Portland, OR, USA Lucia Carbone
+- Division of Genetics, Oregon National Primate Research Center, Beaverton, OR, USA Lucia Carbone
+- New Cultivar Innovation, New Zealand Institute for Bioeconomy Science Limited, Auckland, New Zealand Jose I. Carvajal & Elena Hilario
+- Programme for Emerging Infectious Diseases, Duke-NUS Medical School, Singapore, Singapore Wharton O. Y. Chan, Akshamal M. Gamage & Lin-Fa Wang
+- Max Planck Institute of Animal Behavior, Radolfzell, Germany Dina K. N. Dechmann & Jenna E. Kohles
+- University of Konstanz, Konstanz, Germany Dina K. N. Dechmann & Jenna E. Kohles
+- Institute for Neurobiology, University of Tübingen, Tübingen, Germany Annette Denzinger
+- Department of Environmental Science, School of Science, University of Namibia, Windhoek, Namibia Seth J. Eiseb
+- National Museum of Namibia, Windhoek, Namibia Seth J. Eiseb
+- Department of Ecology and Evolutionary Biology, University of Arizona, Tucson, AZ, USA David Enard & M. Elise Lauterbur
+- Veterinary Integrative Biosciences, Texas A&M University, College Station, TX, USA Nicole M. Foley & William J. Murphy
+- Center for Comparative Genomics, Texas A&M AgriLife Research, College Station, TX, USA Nicole M. Foley & William J. Murphy
+- Department of National Parks and Wildlife, Research and Development Section, Lilongwe, Malawi Jackson Fuller & William O. Mgoola
+- Department of Evolutionary Ecology, National Museum of Natural Sciences, CSIC, Madrid, Spain Ismael Galván
+- Department of Anatomy, Faculty of Biomedical Sciences, University of Otago, Otago, New Zealand Neil J. Gemmell, Joanne E. Gillum & William S. Pearman
+- Instituto de Investigación de Recursos Biológicos Alexander von Humboldt, Bogota, Colombia Mailyn A. Gonzalez
+- Negaunee Integrative Research Center, Field Museum of Natural History, Chicago, IL, USA Steven M. Goodman
+- Association Vahatra, Antananarivo, Madagascar Steven M. Goodman
+- Paratus Sciences, New York, NY, USA Jonathan Gray & Ning Zhang
+- Department of Biological Sciences, California State University Stanislaus, Turlock, CA, USA Michael W. Guernsey
+- Laboratorio de Bioconservación y Manejo, Escuela Nacional de Ciencias Biológicas, IPN, Mexico City, Mexico Edgar G. Gutiérrez & Jorge Ortega
+- Department of Genetics, University of Granada, Granada, Spain Michael Hackenberg
+- Bioinformatics Laboratory, Biotechnology Institute & Biomedical Research Centre (CIBM), Granada, Spain Michael Hackenberg
+- Institute of Cell Biology and Neuroscience, Faculty of Biosciences, Goethe University Frankfurt, Frankfurt, Germany Leon Hilgers, Shenglin Liu, Yury V. Malovichko & Michael Hiller
+- Department of Biological Sciences, Fairleigh Dickinson University, Teaneck, NJ, USA Melissa R. de Waal
+- Cobra Collective Guyana, Georgetown, Guyana Deirdre M. Jafferally
+- Hughes Medical Institute, Chevy Chase, MD, USA Erich D. Jarvis
+- Amazon Conservation Team, Paramaribo, Suriname Sahieda A. Joemratie
+- Institute for Biology, Humboldt-Universität zu Berlin, Berlin, Germany Mirjam Knörnschild & York Winter
+- Museum für Naturkunde-Leibniz Institute for Evolution and Biodiversity Science, Berlin, Germany Mirjam Knörnschild & Martina Nagy
+- Department of Ecology and Evolutionary Biology, University of California, Los Angeles, CA, USA Dimitrios-Georgios Kontopoulos
+- Department of Biology, University of Vermont, Burlington, VT, USA M. Elise Lauterbur
+- Paul G. Allen School for Global Health, College of Veterinary Medicine, Washington State University, Pullman, WA, USA Michael Letko & Stephanie N. Seifert
+- Julie Ann Wrigley Global Futures Laboratory, Walton Center for Planetary Health, Arizona State University, Tempe, AZ, USA Harris A. Lewin
+- Department of Molecular Medicine, Aarhus University Hospital (AUH), Aarhus, Denmark Shenglin Liu
+- Department of Clinical Medicine, Aarhus University, Aarhus, Denmark Shenglin Liu
+- Bragato Research Institute, Lincoln, New Zealand Darrell K. Lizamore
+- Science and Research Directorate, Department of Conservation, Wellington, New Zealand Brian D. Lloyd
+- Medical Affairs Organization, Illumina, San Diego, CA, USA Livia Loureiro
+- Centro de Investigaciones Tropicales, Universidad Veracruzana, Veracruz, Mexico M. Cristina MacSwiney G
+- Institute of Evolutionary Ecology and Conservation Genomics, Ulm University, Ulm, Germany Dominik W. Melville, Magdalena Meyer, Bismark A. Opoku & Simone Sommer
+- Laboratory of Virology, Division of Intramural Research, National Institute of Allergy and Infectious Diseases, Hamilton, MT, USA Vincent J. Munster
+- University of Caen Normandy, INSERM, Normandie University, Caen, France Nicolas Nesi
+- Department of Forests, Ministry of Agriculture Rural Development and Environment, Nicosia, Cyprus Haris Nicolaou
+- Department of Wildlife and Range Management, Kwame Nkrumah University of Science and Technology, Kumasi, Ghana Evans E. Nkrumah
+- Bina Hill Institute Youth Learning Centre, Bina Hill, Guyana Zacharias Norman
+- Wildlife Conservation Society, Health Program, Bronx, NY, USA Sarah H. Olson
+- Wildlife Health Program, Wildlife Conservation Society, Brazzaville, Republic of the Congo Alain Ondzie
+- School of Biological Sciences, University of Auckland, Auckland, New Zealand William S. Pearman
+- West German Genome Center (WGGC), Medical Faculty and University Hospital Düsseldorf, Heinrich Heine University Düsseldorf, Düsseldorf, Germany Francy J. Perez-Llanos
+- Biological and Medical Research Center (BMFZ), Medical Faculty and University Hospital Düsseldorf, Heinrich Heine University Düsseldorf, Düsseldorf, Germany Francy J. Perez-Llanos
+- Department of Veterinary and Biomedical Sciences, College of Veterinary Medicine, University of Minnesota, St. Paul, MN, USA Kendra L. Phelps
+- School of Life and Health Sciences, University of Nicosia, Nicosia, Cyprus Myrtani Pieri
+- Escuela de Ciencias e Ingeniería, Universidad del Rosario, Bogota, Colombia Paola Pulido-Santacruz
+- School of Biology and Center for Research in Biodiversity and Tropical Ecology (CIBET), University of Costa Rica, San Jose, Costa Rica Bernal Rodríguez-Herrera
+- Department of Natural Sciences and Mathematics, Pontificia Universidad Javeriana Cali, Cali, Colombia Danny Rojas
+- Environmental Management Consultants Guyana, Ogle, East Coast Demerara, Guyana Indranee Roopsind
+- Rupununi Wildlife Research Unit, Lethem, Guyana Indranee Roopsind
+- School of Biological and Behavioural Sciences, Queen Mary University of London, London, UK Stephen J. Rossiter
+- Institute of Biology, Freie Universitat Berlin, Berlin, Germany Constance Scharff
+- Wildconscience, Kralendijk, Bonaire, the Netherlands Fernando Simal
+- CARMABI Caribbean Research and Management of Biodiversity, Willemstad, Curaçao Fernando Simal
+- Princess Maha Chakri Sirindhorn Natural History Museum, Prince of Songkla University, Songkhla, Thailand Pipat Soisook
+- Independent Wildlife Consultant, Muscat, Oman Andrew Spalton
+- Bat Conservation Research Lab, Milner Research Institute, University of Bath, Bath, UK Emma L. Stone
+- African Bat Conservation, Lilongwe, Malawi Emma L. Stone
+- Department of Integrative Biology, University of California Berkeley, Berkeley, CA, USA Peter H. Sudmant
+- Biodiversity Institute, University of Kansas, Lawrence, KS, USA Robert M. Timm
+- Department of Ecology & Evolutionary Biology, University of Kansas, Lawrence, KS, USA Robert M. Timm
+- Czech Academy of Sciences, Institute of Vertebrate Biology, Brno, Czech Republic Peter Vallo
+- Department of Biology, Pennsylvania State University, University Park, PA, USA Juan M. Vazquez
+- Freshwater Quality Monitoring Division, Science and Technology Branch, Environment and Climate Change Canada, Burlington, Ontario, Canada Linet C. Watson
+- AEWC Ltd/BatCRU, Fittleworth, UK Daniel Whitby
+- Department of Bioinformatics and Genomics, University of North Carolina, Charlotte, NC, USA Laurel R. Yohe
+- Otago Genomics Facility, University of Otago, Dunedin, New Zealand Monika Zavodna
+- State Key Laboratory of Virology and Biosafety, College of Life Sciences, Wuhan University, Wuhan, China Huabin Zhao
+- Consortium on Inter-Disciplinary Environmental Research, Institute for Advanced Computational Science, Stony Brook University, Stony Brook, NY, USA Liliana M. Dávalos
+- Ariadna E. Morales
+- Yan Liang (梁妍)
+- William R. Thomas
+- Evgeny V. Leushkin
+- Francisco X. Castellanos
+- Denis M. Larkin
+- Tom Brown
+- Bastian Fromm
+- Suzanne J. Hand
+- Zixia Huang
+- Graham M. Hughes
+- Matthew F. Jones
+- Burton K. Lim
+- Meike Mai
+- Eugene W. Myers
+- Martin Pippel
+- Sebastien J. Puechmaille
+- Nancy B. Simmons
+- Linelle Ann L. Abueg
+- Nadav Ahituv
+- Zahran A. AlAbdulsalam
+- Ine Alvarez van Tussenbroek
+- Dineilys V. Aparicio
+- Lina M. Arcila Hernández
+- Alexander Ben Hamadou
+- Petr Benda
+- Mark Blaxter
+- Alex V. Borisenko
+- Jorge Brocca
+- Nair Cabezón
+- Lucia Carbone
+- Jose I. Carvajal
+- Wharton O. Y. Chan
+- Paul Davis
+- Dina K. N. Dechmann
+- Annette Denzinger
+- Judith L. Eger
+- Seth J. Eiseb
+- David Enard
+- Mark D. Engstrom
+- Nicole M. Foley
+- Giulio Formenti
+- Jackson Fuller
+- Ismael Galván
+- Akshamal M. Gamage
+- Neil J. Gemmell
+- Joanne E. Gillum
+- Alejandro Gonzales-Irribarren
+- Mailyn A. Gonzalez
+- Steven M. Goodman
+- Jonathan Gray
+- Carola Greve
+- Michael W. Guernsey
+- Edgar G. Gutiérrez
+- Yelena Guttman
+- Michael Hackenberg
+- Elena Hilario
+- Leon Hilgers
+- Thomas W. Horsley
+- Melissa R. de Waal
+- Deirdre M. Jafferally
+- Erich D. Jarvis
+- Sahieda A. Joemratie
+- Mirjam Knörnschild
+- Jenna E. Kohles
+- Dimitrios-Georgios Kontopoulos
+- Bonhwang Koo
+- M. Elise Lauterbur
+- Michael Letko
+- Harris A. Lewin
+- Shenglin Liu
+- Darrell K. Lizamore
+- Brian D. Lloyd
+- Livia Loureiro
+- M. Cristina MacSwiney G
+- Yury V. Malovichko
+- Kirsty McCaffrey
+- Dominik W. Melville
+- Magdalena Meyer
+- William O. Mgoola
+- Matthieu Muffato
+- Vincent J. Munster
+- William J. Murphy
+- Martina Nagy
+- Nicolas Nesi
+- Kimberly A. Nevonen
+- Haris Nicolaou
+- Evans E. Nkrumah
+- Zacharias Norman
+- Brian P. O’Toole
+- Sarah H. Olson
+- Alain Ondzie
+- Bismark A. Opoku
+- Jorge Ortega
+- William S. Pearman
+- Francy J. Perez-Llanos
+- Kendra L. Phelps
+- Myrtani Pieri
+- Sarahjane Power
+- Maksym Prylutskyi
+- Paola Pulido-Santacruz
+- Guoying Qi
+- Bernal Rodríguez-Herrera
+- Danny Rojas
+- Indranee Roopsind
+- Stephen J. Rossiter
+- Constance Scharff
+- Tilman Schell
+- Stephanie N. Seifert
+- Fernando Simal
+- Pipat Soisook
+- Simone Sommer
+- Andrew Spalton
+- Emma L. Stone
+- Peter H. Sudmant
+- Sam Talbot
+- Robert M. Timm
+- Laura Uelze
+- Nathan S. Upham
+- Marek Uvizl
+- Peter Vallo
+- Juan M. Vazquez
+- Lin-Fa Wang
+- Linet C. Watson
+- Daniel Whitby
+- Sylke Winkler
+- York Winter
+- Laurel R. Yohe
+- Monika Zavodna
+- Ning Zhang
+- Huabin Zhao
+- David A. Ray
+- Sonja C. Vernes
+- Liliana M. Dávalos
+- Michael Hiller
+- Emma C. Teeling
+Corresponding authors
+Correspondence to David A. Ray, Sonja C. Vernes, Liliana M. Dávalos, Michael Hiller or Emma C. Teeling.
+Rights and permissions
+Open Access This article is licensed under a Creative Commons Attribution 4.0 International License, which permits use, sharing, adaptation, distribution and reproduction in any medium or format, as long as you give appropriate credit to the original author(s) and the source, provide a link to the Creative Commons licence, and indicate if changes were made. The images or other third party material in this article are included in the article’s Creative Commons licence, unless indicated otherwise in a credit line to the material. If material is not included in the article’s Creative Commons licence and your intended use is not permitted by statutory regulation or exceeds the permitted use, you will need to obtain permission directly from the copyright holder. To view a copy of this licence, visit http://creativecommons.org/licenses/by/4.0/.
+About this article
+Cite this article
+Morales, A.E., Liang, Y., Thomas, W.R. et al. Author Correction: Reference genomes and fossils revise bat family phylogeny and biogeography. Nature (2026). https://doi.org/10.1038/s41586-026-11403-9
+- Version of record:
+- DOI: https://doi.org/10.1038/s41586-026-11403-9
+Anyone you share the following link with will be able to read this content:
+Sorry, a shareable link is not currently available for this article.
+Provided by the Springer Nature SharedIt content-sharing initiative

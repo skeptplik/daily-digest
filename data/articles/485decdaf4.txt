@@ -1,6 +1,0 @@
-Kagi, which already offers a paid alternative to Google Search and its own Orion browser as a rival to Chrome, is taking on another Google service: Gmail. Today, Kagi announced a public beta of Kagi Mail, a new email service that has “no surveillance, no ads, open standards, and no lock-in.”
-Google alternative Kagi launches an email service
-Kagi Mail is launching in public beta with a 60-day free trial.
-With Kagi Mail, you get an @kagimail.com address, but the service also supports unlimited aliases and domains. It also offers 50GB of storage and a built-in calendar. On the roadmap, you can expect contacts and an address book in Q1 2027, but native mobile apps aren’t expected to arrive until Q3 2027.
-“Does the world need another email service? We asked ourselves that question more than once,” Kagi says. “There are great ones out there, and we’re fans of what Fastmail and Tuta are doing. We still built our own, for the same reason we build everything at Kagi: technology should do its job and then get out of your way.”
-Kagi Mail is available now with a 60-day free trial before you have to pay $99 per year. The service is available as part of a $25 per month Kagi Ultimate subscription.
