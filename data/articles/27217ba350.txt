@@ -1,0 +1,21 @@
+US regulators have given SpaceX the go-ahead to launch a million satellites into Earth's orbit to help build data centres in space - the first approval of its kind.
+The company, which is owned by Elon Musk, wants to use sunlight to power satellites that will process data for AI and send the results back to Earth.
+The Federal Communications Commission (FCC) said on Wednesday that the project, known as Starmind, will "support America's booming super intelligence economy".
+Its approval comes as communities across the US have pushed back against the expansion of data centres on the ground.
+Space X believes the "orbital data centres" are the most cost and energy-efficient way to meet the growing demand for artificial intelligence (AI) computing power that is beyond "terrestrial capabilities".
+FCC Chairman Brendan Carr said in a statement that the project "opens a bold new frontier for the computing infrastructure needed to power America's leadership and growth".
+"This is the kind of American ingenuity that can unite our strengths in space and advanced technology, reinforce our economic leadership, and expand prosperity here at home," Carr said.
+Responding to the announcement, Musk wrote on X: "Much appreciated. This will be a great asset to America and the world."
+Under the FCC licence, deployment of the satellites has to begin no later than November 2033. SpaceX will be required to have deployed 10% by November 2035, rising to 50% by November 2038.
+The company has already said it wants to launch its first Starmind satellite next year.
+Its unclear if a million satellites will be launched or if SpaceX has sought approval for a higher number than it will use.
+Like SpaceX's current Starlink network, which provides high-speed internet via more than 10,000 satellites, Starmind's satellites will operate in low-Earth orbit at altitudes ranging between 500-2,000km (310-1,242 miles).
+Starmind's satellites will communicate with Starlink's and then relay the data to Earth.
+The solar-powered satellite system "promises to bring the human race closer to a Kardashev II civilisationâone that can harness the full power of the sun", the FCC statement said, in a reference to a hypothetical society, proposed by an astronomer in the 1960s, capable of harnessing the entire energy output of its home star.
+The orbiting data centre concept is also being explored by other firms - including Google and Blue Origin - and is being pitched as a greener alternative to traditional centres, which require enormous amounts of power to run and water for cooling.
+The ever-expanding use of AI computing has seen a massive increase in the amount of data that needs to be stored and processed around the world.
+New facilities continue to be built but it is becoming difficult to find places to put them. Data centres are large and sprawling, use enormous amounts of power and water for cooling, and increasingly local people don't want them built nearby.
+Data centres were a central issue in the midterm elections earlier in November, with many Democratic candidates promising tougher regulation on their construction.
+An expert previously told the BBC that launching hardware into orbit remains expensive and that the infrastructure to protect, cool and power them can be complex - while a growing quantity of space debris puts the physical hardware at risk.
+Separately, another cautioned that the growing number of low-orbit craft increases the possibility of crashes between objects - which could damage machines or send materials falling back to earth.
+Starlink has been accused of creating congestion in space, something Musk denies. He has also rejected claims his satellites have been taking up too much room and crowding out competitors.

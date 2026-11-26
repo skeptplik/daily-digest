@@ -3,8 +3,9 @@ The source told The New York Times, which first reported the incident, that the 
 While the CIA and the ODNI have not yet replied to a request for more details regarding this incident, no classified data or systems were exposed in the breach.
 "The hack did not involve our classified networks or classified information, and no other systems are currently at risk," the source said.
 Hours after the CIA security breach was reported, the Financial Crimes Enforcement Network (FinCEN) also disclosed that it's investigating a cybersecurity incident involving unauthorized access to a limited subset of its systems. After detecting the attack, the agency took some systems offline as a precaution and told banks to use the Financial Institutions Hotline to file reports, since some services may be unavailable.
-FinCEN is a US Department of the Treasury bureau that acts as the country's official Financial Intelligence Unit (FIU) and protects the nation's financial system from illicit activities by sharing financial intelligence with law enforcement agencies both domestically and internationally.
-BleepingComputer reached out to a FinCEN spokesperson with questions about the incident, but a response was not immediately available.
+"Treasury is working with the Federal Bureau of Investigation, the Cybersecurity and Infrastructure Security Agency, and third-party forensic examiners to determine the scope and impact of the incident," a FinCEN official told BleepingComputer. "In the meantime, as a proactive measure, we have taken certain FinCEN systems offline and provided exceptive relief for filers that are not able to submit reports as a result of the disruption."
+BleepingComputer has also learned that, while forensic analysis remains ongoing, there is no evidence of any breach of beneficial ownership databases or the Bank Secrecy Act.
+FinCEN is the Treasury Department's financial crimes unit and the country's official Financial Intelligence Unit (FIU), protecting the nation's financial system from illicit activities by sharing financial intelligence with domestic and international law enforcement agencies.
 One week ago, the US National Security Agency's classified network also suffered a days-long outage, but the agency blamed scheduled routine maintenance and said its mission-critical capabilities remained fully operational.
 US agencies targeted by cyberattacks
 These incidents follow a series of other cyberattacks that have led to security breaches at other US federal agencies in recent years.
@@ -12,6 +13,7 @@ For instance, two years ago, the Silk Typhoon Chinese state-backed hacking group
 The same threat group also breached the Treasury's Office of Financial Research, and it reportedly infiltrated the Committee on Foreign Investment in the United States (a Treasury Department office that reviews foreign investments for national security risks).
 More recently, as BleepingComputer reported over the weekend, hackers reportedly breached the FBI's National Crime Information Center (NCIC). However, it is unclear how the attackers gained access, when the breach occurred, or whether they stole any information from the compromised systems.
 This follows a claim by the ShinyHunters extortion group that it breached the FBI's recruitment website, FBIJobs.gov, prompting an FBI investigation that led to the arrests of multiple suspected ShinyHunters members, including a Canadian cybersecurity executive reportedly linked to the attack.
+Update November 25. 12:09 EST: Added FinCEN statement.
 Adaptive Security's AI agents analyze email intent, context, and behavior to uncover phishing, business email compromise, and invoice fraud.
 See what's getting through with a 14-day read-only scan of Microsoft 365 or Google Workspace, with no MX changes.
 Start your free email security scan.

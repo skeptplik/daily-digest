@@ -1,0 +1,3 @@
+Pop!_OS 26.04 LTS released
+System76 has announced the release of Pop!_OS 26.04 LTS, which is based on Ubuntu 26.04 LTS. Notable features in this release include drawing tablet support, automatic updates, a number of new COSMIC applications, and more. Updates for users on Pop!_OS 24.04 LTS will be enabled in December.
+LWN last covered Pop!_OS and an early version of its COSMIC desktop in August 2024.

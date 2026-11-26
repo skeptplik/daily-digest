@@ -1,0 +1,23 @@
+Thank you for visiting nature.com. You are using a browser version with limited support for CSS. To obtain
+the best experience, we recommend you use a more up to date browser (or turn off compatibility mode in
+Internet Explorer). In the meantime, to ensure continued support, we are displaying the site without styles
+and JavaScript.
+The question had remained unanswered since it was formulated in 1859 by German mathematician Bernhard Riemann (1826–66). His statement is central to the theory of prime numbers, the whole numbers that cannot be evenly divided by any other number except themselves or 1.
+The hypothesis concerns the distribution of primes, and it is important because these numbers are central to all of maths. “There is nothing more basic and more fundamental in mathematics that the prime numbers,” says Álvaro Lozano-Robledo, a mathematician at the University of Connecticut in Storrs.
+Riemann arrived at his idea by studying prime numbers as waves — in a way that presages the way music recordings are compressed into mp3 files — and his hypothesis is usually described in abstruse-sounding language. But at its heart, the idea boils down to a statistical test that is familiar to any scientist who’s ever analysed data.
+Nature breaks down the Riemann hypothesis.
+What do prime numbers have to do with statistics?
+Mathematicians want to know how predictable the prime numbers are. The German scientist Carl Friedrich Gauss (1777–1855), who many consider to be the greatest mathematician in history, had noticed in the late 1700s (when he was a teenager) that if you pick any whole number, the odds that it’s a prime depend on the number’s size. Primes slowly become sparser as numbers become bigger. Gauss observed that their frequency seems to depend on (or, is inversely proportional to) the number of digits. Roughly speaking, among numbers with k digits, one in every k of them is a prime.
+In Riemann’s time, a half-century after Gauss’s guess, there was still no rigorous proof of this. In a landmark paper in 1859, Riemann stated his belief that the late Gauss, who had been one of his mentors at the University of Göttingen, had been right.
+But Riemann — who was a “daring” thinker, says maths historian Rossana Tazzioli at the University of Lille in France — went much further. He proposed that Gauss’s “one in every k” guess was a good statistical prediction, meaning that the frequency of the primes should not fluctuate away from it too much. In other words, Riemann made a guess about the margin of error of Gauss’s prediction.
+If true, this ‘Riemann hypothesis’ would make primes’ behaviour similar to that of a random process, such as a series of coin tosses. More precisely, he suggested that when you count the primes among the first n whole numbers, fluctuations would take a form that many scientists are familiar with: “The idea of the Riemann hypothesis is that the error term looks a lot like √n, which is what any random model will give you,” says Andrew Granville, a number theorist at the University of Montreal in Canada.
+Such square-root terms pop up everywhere in data analysis, because they control the shrinking of a margin of error as the number n of data points grows.
+What evidence did Riemann have for his hypothesis?
+In his paper, Riemann did much more than guess. He introduced tools that would constitute the basis for much of the work on number theory — the branch of mathematics that concerns integers, primes and divisibility — in the following centuries.
+First, by developing new techniques in analysis — another word for advanced calculus — as he went along, Riemann constructed the ‘Riemann ζ function’ (ζ is the Greek letter ‘zeta’).
+Riemann then showed that the function embodied an enormous amount of information about prime numbers. First, he proved that the solutions to the equation ζ (z) = 0 — where z is a point on a plane — encode the statistical distribution of prime numbers along the number line. To do so, Riemann employed a type of Fourier analysis, the type of maths that nowadays enables the compression of music into compact mp3 files by breaking sound waves down into sinusoidal components.
+What do primes have to do with sound?
+Enjoying our latest content?
+Log in or create an account to continue
+- Access the most recent journalism from Nature's award-winning team
+- Explore the latest features & opinion covering groundbreaking research

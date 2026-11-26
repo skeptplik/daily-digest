@@ -1,0 +1,8 @@
+WhatsApp’s 3 billion users are getting an option that Meta says is one of the most requested features, with the ability to schedule messages in advance for both private conversations and group chats. Most messaging platforms have had this for a very long time, but now it’s on WhatsApp too.
+WhatsApp’s new scheduled messages let you choose the right time to send
+You can schedule WhatsApp texts you might forget to send up to two weeks ahead of time.
+If you think of a text at an inconvenient time or don’t want to forget to fire off a birthday message at 4AM, you can draft it and set it to send anywhere from 10 minutes to two weeks later. The feature works with photos and videos, too.
+Meta:
+To schedule a message, press and hold the send button and pick the date and time you want it to arrive. It will look like any other message to the person receiving it. You can see all future messages you have lined up, and delete them beforehand if you change your mind.
+Even if your phone is off or out of battery, your scheduled message will still show up at the time you chose, and it remains end-to-end encrypted like all your personal messages, so no one else can read it, not even us.
+Scheduled messages work with text, photos and videos, and are rolling out globally over the coming weeks. It’s one more way to show up for the people who matter to you, now at exactly the right time.

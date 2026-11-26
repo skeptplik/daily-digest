@@ -1,4 +1,0 @@
-Firefox 161.0 released
-Version 161.0 of the Firefox web browser has been released. Notable changes in this release include the ability to assign a shortcut to copy the current tab's URL, addition of a menu item for Tab Groups, and the built-in VPN can be turned off or on for specific sites. There are also a number of security fixes in this release.
-The LWN site is currently under high scraper load, so comment display has been suppressed for anonymous users. If you are a human, you may read the comments by clicking the button below:
-Note: you can avoid this step in the future by logging into your LWN account.

@@ -1,0 +1,21 @@
+The U.S. Cybersecurity and Infrastructure Security Agency (CISA) is warning about a critical vulnerability in Danfoss AK-SM 8xxA Series controllers used by food retailers to manage commercial refrigeration, HVAC, and lighting systems.
+Danfoss controllers have been compromised recently in attacks at various supermarkets and food retailers across Europe where hackers remotely shut down cooling systems or raised their temperatures.
+The security issue is tracked as CVE-2026-129713 and received a severity score of 9.8. It is a stack-based buffer overflow in the controller’s server.
+CISA says an attacker can trigger the flaw without authentication, cause the server to restart, and potentially achieve remote code execution with the web server's privileges.
+Danfoss AK-SM 8xxA controllers are central control units for supermarket and convenience-store refrigeration. They are used to manage equipment such as refrigerated display cases and compressor racks, to log temperatures, and to alert when changes occur.
+Danfoss calls the product line the AK-SM 800A Series, which includes the 820A, 850A, and 880A models. Depending on the model, they can also control store lighting and HVAC.
+CISA notes that the controllers are deployed worldwide, but their exact number remains unclear.
+On November 20, Danfoss published a security advisory saying that the CVE-2026-129713 vulnerability would be addressed in the upcoming software version 5.5.x for Danfoss AK-SM 8xxA Series.
+The company said that the update would also remove the option that allows customers to turn off ‘Strict mode’ in the product.
+Currently, there is no patch available for CVE-2026-129713, and potentially impacted system administrators are advised to take the following actions:
+- Keep controllers off of the public internet and minimize network exposure where possible.
+- Segregate control systems from business networks and place them behind firewalls.
+- Use up-to-date Virtual Private Networks (VPNs) when remote access is required.
+Prior Danfoss incidents
+Danfoss systems were recently targeted in high-impact cybersecurity incidents across Europe. Between October 11 and 12, several French supermarkets and food retailers suffered significant losses after attacks attributed to Iran’s IRGC-linked Shahid Kaveh unit compromised Danfoss AK-SM/AK-SC and Copeland/Dixell XWEB refrigeration controllers and remotely altered their defrost settings.
+On November 2, at least 115 supermarket stores in Belgium, the Netherlands, Sweden, Luxembourg, Ireland, Romania, and Estonia, had their refrigeration equipment shut down or their settings changed remotely.
+Supplier Sabcobel said the attackers used the same vulnerability previously seen in the October attacks in France, indicating that Danfoss systems were involved again.
+On the same day, attackers suspected to be linked to the same campaign targeted a refrigeration supplier for the French national blood service, altering cold-storage settings at three facilities.
+Adaptive Security's AI agents analyze email intent, context, and behavior to uncover phishing, business email compromise, and invoice fraud.
+See what's getting through with a 14-day read-only scan of Microsoft 365 or Google Workspace, with no MX changes.
+Start your free email security scan.

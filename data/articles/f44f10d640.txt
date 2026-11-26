@@ -1,5 +1,5 @@
 A recently patched Drupal core vulnerability is being exploited in the wild, according to the cybersecurity agency CISA and Drupal developers.
-The vulnerability, CVE-2026-132165, can be exploited for remote code execution. It was patched on November 18, and Drupal’s advisory says in-the-wild exploitation began shortly after.
+The vulnerability, tracked as CVE-2026-132165 and dubbed Fail2Install, can be exploited for remote code execution. It was patched on November 18, and Drupal’s advisory says in-the-wild exploitation began shortly after.
 “The Security Team has received a report this was exploited on live sites as early as 2026-11-19 19:00 UTC,” Drupal noted.
 The discovery of the flaw is credited to Anthropic’s OSS Scanner, a free opt-in service that regularly scans enrolled open source projects for vulnerabilities.
 Anthropic has not said how many vulnerabilities OSS Scanner has found since its October launch, but as of early November, it reported disclosing more than 5,000 vulnerabilities overall, across 680 open source projects.
@@ -11,6 +11,7 @@ Patches are included in Drupal 11.4.13, 11.3.22 and 10.6.22; end-of-life branche
 It’s worth noting that Drupal raised the vulnerability’s rating to ‘highly critical’ (CMSS score of 20/25) after it learned of the attacks.
 This is the third Drupal vulnerability exploited in the wild this year. Drupal warned in late October that CVE-2026-118539, a highly critical access bypass flaw in the Commerce Core module, had been exploited against online stores.
 In May, security firms reported seeing attacks exploiting a vulnerability tracked as CVE-2026-9082 against thousands of websites.
+*updated to add Fail2Install name
 Related: Apache Patches Critical HTTP Server RCE Found by Anthropic, Google
 Related: VMware Updates Patch Critical ESX, vCenter Vulnerabilities
 Related: Check Point Security Management Servers Hacked in AI-Assisted Campaign

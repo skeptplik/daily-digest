@@ -1,0 +1,16 @@
+Critical Drupal installer flaw under active attack (CVE-2026-132165)
+Attackers have been exploiting CVE-2026-132165, a flaw that lets them take over unpatched Drupal sites without logging in, since at least November 19, the Drupal Security Team has warned.
+Drupal is a free and open-source web content management system used by government agencies, universities, media outlets and large enterprises.
+The vulnerability is one of three that the US Cybersecurity and Infrastructure Security Agency (CISA) added to its Known Exploited Vulnerabilities catalog on Tuesday, and federal civilian agencies have until November 27 to fix it.
+“These types of vulnerabilities are a frequent attack vector for malicious cyber actors and pose significant risks to the federal enterprise,” the agency noted.
+The installer as a way in
+The vulnerability was found by Anthropic’s OSS Scanner in install.php, the script that sets up a new Drupal site, and Drupal released fixes for it on November 18.
+Under specific conditions, an attacker can use that script to try to reinstall Drupal on a site that is already running, and this can lead to site takeover or remote code execution. Whoever takes over a site controls its content and the data it holds about users and subscribers.
+The team had no reports of attacks when the patches came out, but a later update to the advisory said the flaw was “exploited on live sites as early as 2026-11-19 19:00 UTC,” a day after the fixes. The advisory rates the flaw 20 out of 25, the top tier on Drupal’s risk scale.
+On November 24, Searchlight Cyber researchers Kevin Gervot and Adam Kues, who found the same bug after Anthropic’s scanner had reported it, published a technical write-up showing how it can be exploited on stock Drupal configurations.
+Updates and workarounds
+The flaw affects Drupal 10 before 10.6.22, Drupal 11 before 11.3.22, and Drupal 11.4.x before 11.4.13, and admins should upgrade to 10.6.22, 11.3.22 or 11.4.13.
+Drupal 11.2.x, 10.5.x and older branches, including Drupal 8 and 9, are end-of-life and won’t get a fix, so sites on those versions need to move to a supported branch.
+“Some (but not all) exploit paths are mitigated if the web server cannot write to or change permissions on settings.php. In addition to upgrading, the Drupal Security Team recommends securing the Drupal installer after installation,” the advisory states.
+This can be done by blocking access to /core/install.php in the web server configuration or in the .htaccess file in the web root, and admins who can’t upgrade right away should do this in the meantime.
+Sites using Drupal Steward, the project’s paid web application firewall service, are protected against the known attack vectors, though Drupal still advises them to update in case attackers find other ways in.

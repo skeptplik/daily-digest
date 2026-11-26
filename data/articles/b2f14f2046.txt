@@ -1,0 +1,29 @@
+Thank you for visiting nature.com. You are using a browser version with limited support for CSS. To obtain
+the best experience, we recommend you use a more up to date browser (or turn off compatibility mode in
+Internet Explorer). In the meantime, to ensure continued support, we are displaying the site without styles
+and JavaScript.
+From sketch to publication-ready flowchart: how AI tools can bridge the gap
+The use of generative AI is a practical way to translate hand-drawn scientific diagrams into digital formats without handing over total control, explains Ensar Aydemir.
+When making a scientific diagram, whether I am outlining a clinical study, planning a flowchart or mapping a signalling pathway, I often start in the same way: with a pen and a piece of paper.
+Sketching by hand is fast. I can draw a box, cross something out and reorganize a whole idea without thinking about fonts, alignment or software menus. At this stage, my aim is not to make the figure beautiful, it is to work out the logic.
+Turning that rough sketch into a clean figure for a manuscript can be surprisingly tedious, however. Text boxes need to line up; arrows need to connect properly; and fonts, spacing and colours must be consistent. A diagram that took five minutes to draw might take an hour or longer to recreate digitally.
+Multimodal artificial-intelligence tools can shorten this process. Rather than asking an AI model to create the final scientific image, I use it as a translator. The model reads my sketch, interprets its structure and converts it into editable diagram code that I can open in a vector-based editor, such as Draw.io — a free application for making diagrams.
+This distinction matters. I do not want AI to invent a figure for me; I want it to help me to digitize a figure that I have already designed.
+Don’t just ask for a picture
+One tempting approach is to provide a description to an image-generation model and ask for a polished scientific figure.
+For research diagrams, this can create more problems than it solves. Text might be misspelt, arrows misdirected and pathways altered. More importantly, the resulting image is usually flat (that is, the text, images and background are merged together), making it mostly uneditable. For diagrams in research publications, if a reviewer later asks you to alter it, you might have to start from scratch.
+A better option is to ask a multimodal language model — for example, Google’s Gemini — to turn your idea into a structured diagram format, such as Draw.io-compatible XML or Mermaid syntax. The output can then be imported into a diagram editor, in which every box, label and connector remains editable.
+In this workflow, AI is less an illustrator than a compiler: a programming tool that translates human-readable instructions into code that a computer can run. My sketch is the source, and Draw.io XML is the output.
+Start with the logic
+Focus first on the structure of your figure. I roughly sketch the important nodes, branches and connections without worrying about visual polish. For a clinical study, these might include eligibility criteria, treatment groups and follow-up visits. For a laboratory workflow, they might represent experimental stages or decision points.
+The key is to make the relationships clear. What box comes first? Where does the pathway split? Which arrow connects to which endpoint? If the logic is ambiguous to a human reader, it will be ambiguous to the AI model, too.
+Once the sketch is complete, I photograph it, upload the image to a vision-enabled language model and provide a detailed prompt. For instance:
+“Recreate the uploaded hand-drawn figure as a clean, editable academic flowchart in Draw.io-compatible XML format. Preserve the original structure as faithfully as possible, including box positions, arrows, dashed connectors, side boxes, branching pattern, and text content. This is a reconstruction task, not a redesign task. Use a plain white background, thin dark slate-grey borders, white box fills, thin connector lines, clean sans-serif text, and no shadows, gradients, or decorative elements. Make it publication-quality while keeping it recognizably the same diagram.”
+The instruction “This is a reconstruction task, not a redesign task” is crucial. Scientific diagrams are not the place for creative completion. I want the model to reconstruct my structure, not improve it on my behalf.
+Note also that this prompt indicates what the model should not change. I explicitly ask it to preserve wording, branching relationships and directionality. If the diagram contains important numbers, doses or time points, I check each one manually.
+Turn the sketch into an editable figure
+Enjoying our latest content?
+Log in or create an account to continue
+- Access the most recent journalism from Nature's award-winning team
+- Explore the latest features & opinion covering groundbreaking research
+This is an article from the Nature Careers Community, a place for Nature readers to share their professional experiences and advice. Guest posts are encouraged.

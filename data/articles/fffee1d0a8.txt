@@ -1,0 +1,16 @@
+Thank you for visiting nature.com. You are using a browser version with limited support for CSS. To obtain
+the best experience, we recommend you use a more up to date browser (or turn off compatibility mode in
+Internet Explorer). In the meantime, to ensure continued support, we are displaying the site without styles
+and JavaScript.
+Singapore is one of the world’s smallest countries by land area, spanning roughly 744 km2. Yet as a technologically advanced city, it consistently punches above its weight. Earlier this year, Singapore placed ninth in the IMD Smart City Index 2026 — the highest-ranked city in Asia — noted for the strong trust its residents had in the government’s use of digital technologies. The index, published by IMD, a Swiss research institute, uses citizen surveys to evaluate cities’ physical and digital infrastructure across areas such as health and safety, governance and mobility.
+The centralized government of Singapore, as a city-state, allows it to coordinate nationwide digital infrastructure projects with a speed and consistency that would be difficult in larger, more fragmented countries, says Orlando Woods, director of Singapore Management University’s Urban Institute, which studies urban growth and governance. “It has a single layer of government,” says Woods. “To make decisions and implement things is just so much easier.”
+Singapore was among the earliest countries to digitize public services and integrate technological advancement across multiple government sectors, including health care, public services, transport and urban planning. In 2014, it announced these strategies as part of its ‘Smart Nation’ initiative, a major part of which is Virtual Singapore — one of the world’s first national-scale ‘digital twins’.
+A dynamic, 3D replica of Singapore, the Virtual Singapore model encompasses everything from real-time air-quality statistics to population data and traffic flow. Comprising more than 100 TB of data collected from aerial photography, remote-sensing technologies and the thousands of sensors installed across the island, it is continually updated with new geospatial, environmental and infrastructure data.
+Local authorities use Virtual Singapore to inform urban-planning decisions, such as identifying the best rooftops for solar panels. It is also used in planning public-safety measures, including modelling flood impacts, drafting disaster-response plans and pinpointing potential risk areas for disease outbreaks, such as dengue fever. Some features and data sets are freely available to researchers, businesses and residents.
+Enjoying our latest content?
+Log in or create an account to continue
+- Access the most recent journalism from Nature's award-winning team
+- Explore the latest features & opinion covering groundbreaking research
+This article is part of Nature Index 2026 Science cities, a supplement produced with financial support from the Beijing Municipal Science & Technology Commission, Administrative Commission of Zhongguancun Science Park. Nature maintains full independence in all editorial decisions related to the content.
+References
+- Aydt, H. et al. City Environ. Interact. 29, 100301 (2026).

@@ -1,0 +1,16 @@
+CISA Adds 10 Known Exploited Vulnerabilities to Catalog
+CISA has added 10 new vulnerabilities to its Known Exploited Vulnerabilities (KEV) Catalog, based on evidence of active exploitation.
+- CVE-2023-25914 Danfoss AK-SM 800A Series Path Traversal Vulnerability
+- CVE-2023-25915 Danfoss AK-SM 800A Series Improper Input Validation Vulnerability
+- CVE-2025-41450 Danfoss AK-SM 800A Series Improper Authentication Vulnerability
+- CVE-2026-103406 Hewlett Packard Enterprise (HPE) Juniper Session Smart Conductor and Session Smart Router OS Command Injection Vulnerability
+- CVE-2026-133275 Mitel MiCollab Unrestricted Upload of File with Dangerous Type Vulnerability
+- CVE-2026-133303 Mitel MiCollab XML Injection Vulnerability
+- CVE-2026-133311 Mitel MiCollab Weak Authentication Vulnerability
+- CVE-2026-133323 Mitel MiCollab OS Command Injection Vulnerability
+- CVE-2026-133324 Mitel MiCollab Not Failing Securely Vulnerability
+- CVE-2026-133469 Vates Xen Orchestra Improper Validation of Specified Type of Input Vulnerability
+These types of vulnerabilities are a frequent attack vector for malicious cyber actors and pose significant risks to the federal enterprise.
+Binding Operational Directive (BOD) 26-04: Prioritizing Security Updates Based on Risk establishes vulnerability management requirements for Federal Civilian Executive Branch (FCEB) agencies. BOD 26-04 reinforces the importance of the KEV Catalog and requires federal agencies to prioritize rapid remediation of high-risk vulnerabilities, specifically those identified by Common Vulnerabilities and Exposures (CVEs) listed in CISA’s KEV Catalog on publicly exposed assets that grant total control of the asset post-exploitation, while deferring action for lower-risk vulnerabilities. BOD 26-04 further establishes basic expectations for when agencies must check whether threat actors compromised the system before the patch was applied.
+While BOD 26-04 applies only to FCEB agencies, CISA encourages all organizations to adopt risk-based vulnerability management and prioritize remediation of KEV Catalog vulnerabilities. CISA will continue to add vulnerabilities to the catalog that meet the specified criteria.
+Aware of an exploited vulnerability not currently listed in the KEV Catalog? Submit it for potential addition through CISA’s KEV Nomination Form. Potential KEV additions must have a CVE ID, evidence of exploitation, and clear mitigation guidance.
