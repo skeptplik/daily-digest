@@ -1,0 +1,31 @@
+Both Russian and international media refer to the satellite communications network Rassvet (Dawn) as the "Russian Starlink," a satellite internet service operated by the US company SpaceX.
+Rassvet, which was developed by the Russian aerospace company Bureau 1440, operates in low Earth orbit.
+Interest in the system surged after the Russian military lost access to Starlink terminals, which until then had ensured communications and internet access in the battle zone in Ukraine.On the front, for example, Starlink helps drone pilots and commanders receive images from drones equipped with cameras. Military personnel also communicate together thanks to Starlink.
+Though Russia does not fall within Starlink's area of coverage, the Russian military managed to acquire "illegal" terminals through third countries and was thus using the same system as the Ukrainian army.
+In early 2026, SpaceX, in coordination with the Ukrainian Defense Ministry, introduced a "whitelist," which registered all devices on Ukrainian territory authorized to operate on the Starlink network. Any terminals being used by Russian forces were subsequently deactivated, and reports of serious communication problems on the front then began to appear in Russian social media channels.
+In May, the US news channel Bloomberg reported that the Ukrainian army had recaptured about 400 square kilometers (ca. 155 square miles) of Ukrainian territory since Russian forces lost access to Starlink.
+What is Rassvet?
+Two first launches of serial Rassvet satellites took place in March and July 2026.
+According to information from Ukraine's military intelligence (HUR) published by the Reuters news agency in early November, Russia has started using Rassvet for military communications over Ukraine and to carry out attacks.
+The system is reportedly being used to improve strike accuracy, expand capabilities of reconnaissance drones and to strengthen resilience against electronic warfare.
+HUR spokesperson Andriy Yusov also told Reuters that "the constellation is currently insufficient to provide uninterrupted coverage of Ukrainian territory."
+Georgiy Trishkin, a rocket analyst and operator of Telegram channel Tekhassky Vestnik (The Texas Herald), told DW that Russia aims to have a functioning "sovereign" alternative to Starlink — consisting of 292 satellites in orbit — running by the end of 2027.
+According to Serhii Beskrestnov, aka Flash, an advisor to the Ukrainian president, the main danger posed by the Rassvet system is that it could allow the Russian army to control drones over Ukrainian territory.
+He also pointed out on the platform Facebook that the Ukrainian military cannot use Starlink to control drones over Russian territory, since the US service does not work there.
+SpaceX remains far superior to Rassvet in tech terms
+Inspired by the Starlink model, the Russian military also wants to be able to equip drones with terminals, which will enable connectivity in more remote parts of Ukrainian territory. Bureau 1440 unveiled some initial models last month, but according to Trishkin, the similarities between Rassvet and Starlink stop at the "basic features and concept."
+"When it comes to details, these are completely different projects. No one can currently match SpaceX's technological edge — and especially its lead in production technology," he said, pointing out that while the Starlink constellation comprised over 10,000 satellites, Rassvet would not have more than 300 in its first phase.
+He added that Bureau 1440 would struggle to make enough of the kits used on the ground. While SpaceX can manufacture about 15,000 per day, this would be a "remarkable achievement even over the course of a year" for the Russian company.
+He also said that the terminals produced by Bureau 1440 were much more expensive than those by Starlink as they relied "on foreign components."
+"Right now, no one can beat SpaceX in terms of price, volume and quality of service," Trishkin said. "The next step for the company is mobile satellite services, where it's making very rapid progress. Will Bureau 1440 be able to respond? Unlikely for the time being."
+SpaceX's Starlink was primarily designed as a civilian service, while Starshield is more for government and military sectors.
+According to DW sources, Rassvet was likely designed to support battlefield communications and thus does not currently require as many satellites as Starlink.
+Ukrainian military expert Oleh Starikov said that if Rassvet continues to develop as it has then it could fulfil the mission put to it by the Russian military. He added that SpaceX CEO Elon Musk was developing a system that would work around the world, whereas Bureau 1440's satellites sufficed for Russian military purposes.
+But he also underlined the massive expansion of Russia's satellite network generally, which — on January 1, 2022, before the full-scale invasion of Ukraine — comprised 102 satellites according to Dmitry Rogozin, who at the time was general director of the Russian space agency Roscosmos.
+In September of this year, Rogozin's successor Dmitry Bakanov said that the number almost quadrupled.
+Did SpaceX throttle Starlink in Ukraine?
+Recent restrictions to Starlink services in Ukraine have brought the issue to the fore again. In mid-November, Ukrainian President Volodymyr Zelenskyy said that Starshield had been throttled in Ukraine.
+"Unfortunately, our units have been recording significant disruptions to Starshield's operations over the territory of Ukraine for several days now — along the entire front line and in the temporarily occupied territories of Ukraine," he said, adding that the restrictions occurred at speeds of 161 km/h and higher.
+Restrictions on the use of Starlink were first put in place on October 14 and then lifted, according to US President Donald Trump, on October 23.
+When asked by DW whether the Ukrainian military could gain access to Rassvet, Trishkin said it was "only a matter of time" before terminals fell "into foreign hands and are subsequently examined."
+This article was originally published in Russian.

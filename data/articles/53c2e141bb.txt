@@ -1,0 +1,63 @@
+Live
+Happy Thanksgiving and welcome to day two of our Black Friday coverage! All of the sales are in full swing, even though the event technically doesn't kick off tomorrow. As such, we're seeing all the big-name retailers push out their best deals early, which means it's the perfect time to grab a bargain.
+Our live coverage continues to showcase the best deals in every category, whether you're hunting for CPUs, GPUs, RAM, SSDs, a gaming laptop or desktop, peripherals, monitors, and more. We combine our years of hands-on testing experience with our extensive benchmark data and price tracking information to help you find savings.
+With the PC market in flux thanks to AI, finding deals on PC hardware is more difficult, but more important, than ever before. Here's all the latest and greatest in tech deals.
+Quick Links: Black Friday deals
+- Amazon: All Black Friday deals
+- Amazon: 73% off computers and accessories deals
+- Amazon: All Gaming GPU Deals
+- Amazon: Up to $500 off Gaming Monitors
+- Amazon: Desktop and gaming PCs
+- Newegg: Up to 69% off PC hardware
+Hottest Black Friday Tech Deals
+The Corsair Xeneon Edge is a 14.5-inch display designed to serve as an extension for your desktop and give you a small screen to host your most important apps. Its versatility means you can mount it practically anywhere — horizontally under your main monitor, vertically beside your primary display, or as a digital status panel inside your PC case.
+Returning to its lowest-ever price, get a 32-inch curved QHD (2560 x 1440) gaming monitor with a 165Hz refresh rate for just $189, a massive $140 saving.
+Now with M.2 NVMe SSD dock!
+The most expensive of the bunch, this optical CD/DVD writer from SUIDEK upgrades the SATA dock to an M.2 NVMe SSD dock, but keeps the SD card reader, USB-A, and USB-C hub.
+Get a 25-piece electric screwdriver for PC maintenance or any DIY task. Comes with a 1,500mAh battery, LED, and extension rod.
+This T-Force G50 Evo offers sequential read speeds of 5,000 MB/s and write speeds of up to 4,800 MB/s.
+* The listed previous prices can vary based on retailer, as many use different metrics, like 90-day rolling averages or ‘estimated value’ due to ongoing shortages and price hikes.
+LIVE: Latest Updates
+The cheapest RTX 5060 you can buy right now
+If you're in the market for a current-gen RTX 50-series card that won't set you back thousands of dollars, then this might be the deal for you. Newegg is selling the cheapest RTX 5060 you can buy right now at $439.99, an $80 saving. While that's a far cry from the MSRP of $299, GPUs are very expensive these days, so this is about as good as it gets for 1080p gaming.
+At 1080p, the RTX 5060 can put out more than 60 fps, making it perfect for entry-level gaming. It also supports Nvidia's DLSS technologies, so you can squeeze out more frames or even try your hand at 1440p.
+This specific version of the RTX 5060 is Zotac's AMP series, with core clocks of 2550 MHz, with the same speed listed for its boost clocks. It has 3840 CUDA cores, and 8GB of GDDR7 VRAM with a 128-bit memory interface. While this won't blow titles out of the water at 4K, this is budget gaming performance at a time when GPUs are becoming increasingly more expensive. - Stephen Warwick
+Get an RTX 5060 Ti pre-built for just $1,299 — Intel Core i7 14700F, 16GB DDR5, 1TB SSD
+Buying a PC on Black Friday doesn't have to mean spending the Earth. If you want a budget build, this Intel Core i7 14700F rig from Cyberpower is a fantastic cheap option for 1080p gaming. With an RTX 5060 Ti 8GB, this should be brilliant for entry-level gaming and could even be pushed to 1440p with Nvidia's DLSS technology.
+The CyberPower Gamer Xtreme prebuilt PC offers a 20-Core Intel i7 14700F CPU, RTX 5060 Ti GPU, 16GB of DDR5 memory, and 1 TB of storage, wrapped up in a white case, and flush with glowing RGB fans.
+As you can see from our testing data, in our 19-game testing suite, the RTX 5060 Ti 8GB is good for average frame rates of 72 fps. This drops to around 46 at 1440p without any help from frame generation.
+The CPU in this build is Intel's i7 14700F with 20 cores and 28 threads, boasting boost clocks of up to 5.4 GHz- a great processor for productivity and gaming.
+Aside from the potent 20-core CPU and GPU for 1080, you also get 16GB of DDR5 RAM and a 1TB SSD. Windows 11 Home comes as standard, and the motherboard supports Wi-Fi 6 and Bluetooth 5.3. There are also ports aplenty. - Stephen Warwick
+Triple your Nintendo Switch 2 storage for just $92 — Samsung's P9 up to 44% off
+Samsung's P9 Express microSDXC is one of the top storage solutions for Nintendo Switch 2. With transfer speeds of up to 800 MB/s and similar sequential read speeds, this is a speedy storage solution for your handheld.
+The Switch 2 ships with 256GB of internal storage as standard, so a 512GB expansion will triple that capacity for storing games and files. While not quite its lowest-ever price, there's a great deal on this card, 38% off at Amazon, now just $92.99.
+The Samsung P9 is a microSD Express card that offers great performance and reliability for its price. The 512GB model is currently priced at its original MSRP of $99.99.
+The P9 Express comes with Dynamic Thermal Guard technology to stop your card from overheating while in use for smoother gameplay. It also has a three-year warranty and can be used with microSD UHS-I devices such as tablets and drones, too.
+The 256GB model is also on sale, an arguably better value. At 44% off, it's less than half the price of the 512GB model. In theory, buying two would get you the same amount of storage for $89, provided you don't mind swapping cards around.
+The Samsung P9 is a microSD Express card that offers great performance and reliability for its price. The 256GB model is currently priced at its original MSRP of $44.99.
+With SSD and flash storage prices through the roof thanks to AI, this is a solid deal on a great Nintendo Switch 2 card. - Stephen Warwick
+Upgrade your mechanical keyboard with Gateron Oil King Ghost Pro switches, 90 for just $33.87
+I use the Gateron Oil King Ghost Pro switches on my own keyboard, and they're a go-to linear switch for a good reason. The heavier 50gf operating force is heavier than a standard Red-style switch, leading to a deep sound and more pronounced feedback while typing, particularly if you're a heavy typer.
+The Oil King Ghost Pro switches are linear key switches for a mechanical keyboard with a 50gf operating force.
+These switches are an upgraded version of standard Oil Kings, with the new Ghost name noting the passthrough channel for lighting. The switches themselves are the same, and they come factory lubricated, so they sound great out of the box. You can use the switches with any standard 3-pin or 5-pin PCB — Jake Roach
+The first sub-$4,000 5090 laptop of the weekend — save a huge $1,300 on this Lenovo Legion Pro 7i
+This hefty Lenovo Legion gaming laptop is the first RTX 5090-powered laptop we've seen under $4,000. This is a huge spec with a 240Hz OLED display, 24GB VRAM GPU, a massive 24-core Intel Core Ultra 9 290HX CPU, 32GB of DDR5 RAM, and a 1TB SSD.
+The 16-inch Lenovo Legion Pro 7i gaming laptop comes with an Intel Core Ultra 9 290HX Plus CPU, RTX 5090 (175W TGP) GPU, 32GB of DDR5 memory, and 1TB of storage. The OLED display offers a 240Hz refresh rate and a 2560 x 1600 resolution.
+With its 24 cores and performance core boost clocks of up to 5.5 GHz, this is a fantastic mobile CPU for both work and play. Combined with the laptop RTX 5090, the best laptop GPU on the market, this will make light work of any title you can throw at it in the 2560 x 1200 resolution. That stunning OLED will really make games pop, too.
+Also offers 1x Thunderbolt 4 port (USB-C), 1x 3.2 Gen 2 (USB-C), 1x USB 3.2 Gen 2 (USB-A), 2x USB 3.2 Gen 1 (USB-A), a 3.5mm headphone jack, 1x HDMI 2.1 port, and a 2.5 Gbps Ethernet jack, as well as Wi-Fi 7 and Bluetooth 5.4. While we haven't reviewed this specific spec, in our Lenovo Legion Pro 7i Gen 10 review, the laptop scored very well thanks to its exceptional OLED screen, aluminum chassis, and sharp webcam. - Stephen Warwick
+The $599 MacBook Neo returns!
+Earlier this week, we highlighted a great deal on Apple's MacBook Neo, which is $100 off and back to its original launch price of $599. This is also better than the previous $50 discount to $649, so if you missed out the first time, this deal is now better! The $599 price gets you 256GB of storage and 8GB of RAM, and is available in all four of Apple's vibrant colors.
+The A18 Pro chip in the MacBook Neo is solid for single-core productivity performance excelling in single-core performance, though the 8GB can be difficult for serious multitasking. For people working on basic tasks, this is going to be sufficient.
+There have been a handful of other deals on the Neo so far this week. We saw the base model drop to $599 (in citrus only) at one point, while the upgraded 512GB model with Touch ID dropped to $699 (in blush) at another. It's possible we'll see more color-specific price drops, but it's not a guarantee, and $649 isn't bad given the RAM situation. — Andrew E. Freedman
+Get a monster RTX 5080 gaming PC — Intel 270K build is just $2,699
+In what might be one of the best gaming PC deals we've seen so far, this HyperX OMEN desktop at Best Buy, featuring Intel's Core Ultra 7 270K Plus and RTX 5080 GPU, is now just $2,699. The graphics card in this build alone currently retails for around $1,700, making this a really good value build.
+Get an RTX 5080 PC with Intel Core Ultra 7 270K Plus, 16GB of RAM, and a 1TB SSD, with plenty of space to upgrade. Also features Wi-Fi 7.
+The star of the show here is the RTX 5080, a fully-fledged 4K GPU that will take care of any title you want to play at high resolutions and settings. That's complemented by the Intel Core Ultra 7 270K, a much-improved Intel gaming CPU released not too long ago. With 24 cores, it performs extremely well in productivity tasks as well as gaming. While it can't quite match the X3D SKUs of AMD for gaming performance, it is still a very strong desktop CPU.
+The supporting cast of the build is perhaps the only compromise. The 1TB SSD is fine to get you started, but 16GB of RAM is a little less than we'd like in a build of this caliber. Still, this is such a cheap build for an RTX 5080 that it will be worth the trade-off for some. Of course, if you already have some DDR5 RAM lying around, you could swap that in, or you could spend some of that $1,700 saving on an upgrade.
+The build supports up to 128GB of memory, with 4 DIMM slots for future expansion. It also has two further SSD slots, as well as Wi-Fi 7 and Bluetooth 6.0, thanks to the Intel Z890 motherboard inside.
+This build will not be around for long, so move fast if you want to grab one. - Stephen Warwick
+Rosewill’s SSD cloner is a life-saver when you need it, and currently just $32 at Amazon — its lowest-ever price
+Whether you need to upgrade your boot drive or you’re attempting to rescue the laptop or gaming PC of a friend or family member, an SSD cloner can make a scary, potentially tedious job surprisingly easy. I know because I bought this cloner a couple of years ago (when it cost about $15 more) and moved someone’s existing OS from an extremely cramped 128GB drive onto a faster 512GB drive in less than half an hour. And now Rosewill’s SSD cloner is on sale for its lowest-ever price at Amazon.
+With support for NVMe M.2 SSDs and offline cloning, this handy device makes it simple to move your files or OS from one drive to another. And with a 20 Gbps USB-C interface, it's also speedy in your OS of choice if you want to use software to clone or move your data between drives.
+Keep in mind this device only supports M Key PCIe / NVMe drives, so it won’t work with SATA M.2 drives. But it can work both as a standalone drive or with software if you need to, say, resize the partition. The Rosewill cloner is also handy for checking the contents of M.2 drives you may have lying around. But if that's all you need, you can get a good tool-free enclosure for less than $20. -- Matt Safford
+Hello and welcome to day two of our Black Friday coverage, Stephen here to see you through the early hours of the morning!

@@ -9,3 +9,5 @@ Dave Täht given the Jonathan B. Postel Service Award
 	practice. 
 Dave is still deeply missed by those of us who knew him; this is an award
 he richly deserved.
+The LWN site is currently under high scraper load, so comment display has been suppressed for anonymous users. If you are a human, you may read the comments by clicking the button below:
+Note: you can avoid this step in the future by logging into your LWN account.

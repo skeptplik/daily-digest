@@ -1,0 +1,20 @@
+Black Friday cybersecurity deals 2026: Stay safe, spend less
+Black Friday is here again, and for once your inbox full of “limited time offer” emails might be worth opening. Every year, security vendors join the sales rush with discounts on the tools we rely on every day.
+Below you’ll find some great Black Friday 2026 cybersecurity deals. Grab a coffee, check the fine print and maybe pick up a little extra peace of mind while it’s on sale.
+Passwork is a self-hosted password and secrets manager for enterprise infrastructure that gives you full data sovereignty: zero-knowledge encryption plus control over data location, keys, and backups, air-gapped if needed. Set access per team, department, or project, and use granular roles to give each employee the rights their work requires. Sync groups from Active Directory and audit every action. DevOps teams get API integration and secrets management tools within a single platform. Easy onboarding lets teams start working on day one. Passwork delivers the control and flexibility that complex, multi-team environments need.
+The Black Friday offer includes 67% off the Standard plan and 56% off the Advanced plan. Every order comes with one gift of your choice: a free upgrade to 5,000 user seats or 25% off your first renewal, valid until November 1, 2027. The offer runs through December 7, 2026.
+CrowdStrike’s Black Friday and Cyber Monday sale covers our three product bundles: Falcon Go, Pro, and Enterprise. The deal is available to new customers only.
+No promo code, discount code, or coupon code is needed. The deal price applies automatically. The deal is available in the United States and select countries and regions, including Australia, Brazil, Canada, France, Germany, Italy, Japan, Latin America, South Korea, Spain, and the United Kingdom.
+Yubico is taking 15% off its best-selling phishing-resistant hardware security keys, including the YubiKey 5, Bio and Security Key series, applied automatically at checkout.
+Mix and match up to four keys per order, with prices from €30.81. Hurry: the offer ends November 30, 2026.
+Save 50% on eligible cybersecurity training from November 27 through December 18, 2026.
+Certification courses:
+- Offensive Development Practitioner Certification (ODPC)
+- Advanced Red Team Operations Course (ARTOC)
+- Attacking & Securing CI/CD Pipeline Certification (ASCPC)
+- Offensive Azure Operations and Tactics Certification (OAOTC)
+- Offensive Active Directory Operations Certification (OADOC)
+- Offensive GCP Operations and Tactics Certification (OGOTC)
+- Entry-Level Penetration Tester Certification (ELPT)
+Nitrokey is offering 10% off every product in its online store. For 48 hours only, on Black Friday and Saturday, November 28–29, you can save on hardware security keys, encrypted devices and the newly added NitroPad T480 and T480s, entry-level laptops running Coreboot and Heads.
+With global RAM and SSD prices rising and further increases expected, this is a smart moment to upgrade. Made in Germany, open source and built for privacy, Nitrokey hardware puts you in control of your digital security.

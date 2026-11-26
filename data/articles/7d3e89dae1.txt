@@ -1,0 +1,22 @@
+Heat pumps are becoming increasingly popular amid spiralling gas prices, but can the green technology survive a freezing winter?
+Leaders have been urged to make it easier to install heat pumps in every building across Europe, as the US-led war on Iran continues to send gas prices soaring.
+There are currently an estimated 30 million residential heat pumps installed on the continent, with around three million added in 2025. While this may sound like a significant increase, it is a million below the four million target set out by the European Commission.
+A new analysis from the European Heat Pump Association (EHPA) found that fitting heat pumps in every building and “compatible industrial process” – powered by renewables like solar and wind – would avoid around 600 million tonnes (Mt) of CO2.
+To put that into perspective, this is more than the annual emissions of Germany, the bloc’s biggest economy, or the 17 smallest EU countries combined.
+But as Europe faces a potentially freezing winter, can heat pumps withstand the cold?
+How do heat pumps work?
+Heat pumps capture energy from air, water or the ground and turn it into heat or cold air – rather than burning fossil fuels on-site.
+Think of it like a refrigerator but in reverse: heat pumps use a liquid chemical that turns into a hot gas through compression, which is then released into your central heating and hot water tank.
+For every one kilowatt-hour (kWh) of electricity they consume, heat pumps typically deliver three to four kWh of heat. It is this efficiency that means they can run in the winter for a little as €2.20 per day.
+Do heat pumps work in cold weather?
+Contrary to popular myths, modern heat pumps can still extract heat from the air even in low temperatures.
+“The key is the refrigerant: a special chemical that can boil even at very low temperatures,” explains UK energy firm Octopus Energy. “That means even when it feels cold outside to you and me (say -20°C), the air temperature is still hot enough to boil the refrigerant in your heat pump.
+“That boiling action soaks up a bunch of heat energy. Then through the magic of valves and a compressor, the refrigerant temperature soars up to 65°C and gives up its heat to your radiator water. Then the cycle repeats.”
+Of course, lower temperatures mean that the heat pump has to work harder, but experts say a modern heat pump can still perform at three times more efficiency than a traditional gas boiler during freezing conditions.
+It’s therefore no surprise that Norway, Finland and Sweden, some of Europe’s coldest countries, have some of the highest heat pump installations in the continent.
+According to EHPA, more than half the households in these countries already have a heat pump – while traditionally warmer countries like Spain and Portugal lag behind.
+Can heat pumps work in old buildings?
+Another common myth is that heat pumps are solely reserved for new build homes, with previous reports claiming the green technology would be impractical for more than half (54 per cent) of British households due to factors such as poor insulation and limited space.
+However, The Fraunhofer Society, Europe’s largest application-oriented research organisation, states that heat pumps outperform gas boilers even in buildings more than 100 years old.
+In a 2019 study, buildings between 15 and 150 years old that had been partially or fully refurbished with energy-saving measures, including a heat pump being installed, were analysed.
+Researchers found that air-source heat pumps achieved an average seasonal performance rating of 3.1, meaning they’re more than three times more efficient than a gas boiler.

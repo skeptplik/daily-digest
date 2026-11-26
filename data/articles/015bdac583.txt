@@ -3,7 +3,7 @@ According to experts, demand has risen so sharply in recent years that it now fa
 New figures seen by BBC Scotland News suggest more than 38,000 adults are waiting for neurodevelopmental assessments, with at least 14,000 of them waiting longer than two years.
 Dr Marianne McCallum, who represents the Deep End group of doctors working in Scotland's most deprived areas, said it was a "tragedy" that people who really needed a diagnosis because they were not coping could not be seen by a specialist.
 She said those who had the most to gain from a diagnosis were currently the least likely to get it, with a huge rise in private referrals creating a two-tier system.
-Dr McCallum, who works in the Ferguslie Park area of Paisley, said: "It's just become a bit of a mess, because there's a bottleneck and the secondary services are overwhelmed.
+Dr McCallum, who works in Clydebank, said: "It's just become a bit of a mess, because there's a bottleneck and the secondary services are overwhelmed.
 "In primary care we're trying to hold a lot of this without any extra resource."
 Dr McCallum said some patients were influenced by social media.
 "I've had people who've come in saying they think they need an ADHD assessment and actually when I've spoken to them, the problem is dyslexia," she said.
@@ -25,7 +25,7 @@ But a 2025 report by the Royal College of Psychiatrists in Scotland (RCPsychiS) 
 It found the scale of need "far exceeded" what Scotland's mental health system could deliver.
 The report found people with autism and ADHD were at higher risk of developing other mental health conditions and at a higher risk of suicide, which could be reduced with timely diagnosis and care.
 It also said those with more severe mental illness faced longer delays accessing urgent care.
-The data tracking website ADHD.Scot asked all of Scotland's 14 regional health boards how many people were waiting for an assessment, how long they were waiting, and how many assessments had been carried out in the past year.
+The data tracking website ADHDScot.co.uk asked all of Scotland's 14 regional health boards how many people were waiting for an assessment, how long they were waiting, and how many assessments had been carried out in the past year.
 Nine responded with full figures but five health boards could not provide comparable data.
 Overall, the figures suggested that only 1,575 assessments were carried out on the NHS for neurodevelopmental conditions in the last year for which data was available.
 NHS Lothian, which had the most people waiting (13,253), only saw 537 patients for their first appointment last year.

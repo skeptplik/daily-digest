@@ -1,0 +1,19 @@
+1Password breached through hijacked employee GitHub account, customer names and emails stolen
+An attacker who got into a 1Password employee’s corporate GitHub account went on to copy account records for some of the company’s users and source code from private repositories, the password manager maker disclosed on Wednesday.
+“1Password identified a security incident involving some of our backend systems,” the company wrote in a post it plans to keep updated.
+“On November 19, 2026, 1Password began investigating indications that an attacker gained access to an employee’s corporate GitHub account. The actor used the account to access source code and push malicious code to backend services, which downloaded administrative data pertaining to our customers,” the company detailed.
+The post doesn’t explain how the employee’s access was obtained, and it gives no date for when the intruder was detected or shut out.
+“At no time were customer vault contents accessed by, or available to, the attacker,” 1Password stated.
+The keys that protect vaults and the account recovery keys weren’t reached either, with the company reporting that its apps, browser extensions and services kept working normally. “1Password does not have access to your password or secret keys,” it added.
+The stolen data
+The records pulled down by the malicious code belong to “a subset of our users,” and 1Password hasn’t said how many people that covers or whether individual, business or family accounts were affected. Each record holds the name and email address a customer uses with 1Password, account and user identifiers, the date the account was created and the time of its last sign-in.
+The attacker also got the public keys tied to those accounts, which are “public by design” and have “no impact to user security,” the company noted. Secure Remote Password (SRP) protocol parameters were taken too, and 1Password maintains these “cannot be used to access your account.”
+Another part of the haul affects a smaller group. Tokens from invitation, provisioning and account recovery emails were copied, though a token only works “when combined with an SSO sign-in or a six digit code.”
+1Password has since lengthened the code from six digits to ten alphanumeric characters and contacted the small number of users affected. So far, the company has “validated no internal evidence of user account takeovers or compromise using any exposed account provisioning tokens.”
+The rest was internal metadata, “version numeric identifiers” and “file numeric identifiers” tied to its internal architecture, which the company lists as non-secret.
+The attacker also got into the company’s CI/CD system. “Our source code is not customer data, and contains no user secrets,” 1Password noted. Infrastructure secrets kept in CI/CD have been rotated.
+Containment and remediation
+The compromised GitHub account was disabled, the token the attacker stole revoked and the access the attacker had set up removed. Internal credentials that may have leaked were rotated or revoked.
+On top of that, 1Password said it has tightened its GitHub, CI/CD and endpoint controls, added new detections, and brought in independent cybersecurity experts to validate the cleanup.
+Customers told to stay alert
+No action is needed on customers’ accounts, 1Password advised. “We recommend being cautious of phishing attempts in the form of unexpected emails about 1Password,” the post reads, and the warning extends to texts and phone calls that mention invitations or account recovery.
