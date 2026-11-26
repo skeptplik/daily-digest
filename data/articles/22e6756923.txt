@@ -1,0 +1,29 @@
+While the dust has barely settled on the Democrats' big midterm showing, lawmakers still have business to get done before a new US Congress takes office in 2027: namely, a permitting reform bill with rare cross-party support that could accelerate clean energy or fossil fuels — or both, depending on who's asked.
+Permitting reform might sound like a snooze. But the Bipartisan American Affordability and Jobs Act (BAAJA) could have far-reaching consequences for the country's energy mix, household utility bills and climate goals.
+BAAJA, which is backed by US President Donald Trump, has already cleared the Senate and now faces a vote in the House of Representatives. DW breaks down what's in the bill, the political fight playing out on the sidelines and what it could mean for consumers' pockets and the US energy transition.
+What does the bill do?
+Before many new solar farms, wind projects or power plants can connect to the electricity grid, they must first pass through an arduous and complex permitting process.
+Getting the greenlight for an energy project can often take years and requires permits from multiple government agencies. If it manages to overcome those hurdles, a legal challenge can easily stop new infrastructure in its tracks.
+The nearly 500-page bill aims to overhaul that process. It would speed up environmental reviews, simplify the planning and construction of power transmission lines, make permits harder to revoke and require the growing number of data centers to pay for grid upgrades they need.
+The bill is mostly technology-agnostic. So, the same reforms that would make it easier to build a lot of green energy infrastructure quickly could, in theory, be used to speed up oil and gas projects whose carbon emissions are warming the planet.
+That's what's made BAAJA controversial, with some Democrats saying permitting reform is needed to get energy bills down and others saying they support provisions, like building more transmissions lines required for transporting green energy, but not the whole package.
+Would the bill cut emissions or raise them?
+It's hard to estimate, and there's a lot of contradictory information out there.
+The Rhodium Group, an independent research firm, found the bill would lower US greenhouse gas emissions in every scenario it ran, by up to 4% in 2040 compared with no bill. This is a fraction of the emissions reductions targets the US dropped when it withdrew from Paris climate accord this year.
+Purdue University engineer Kevin Kircher reached the opposite conclusion. His analysis, which has not been peer-reviewed, estimates domestic emissions would rise by about 2%, mostly because he assumes the bill would boost US fossil fuel production.
+The difference comes down to a bet about what the bill ends up speeding up more: renewables and the power lines to carry them, or fossil fuels. That depends on which administration is issuing the permits.
+Under Joe Biden's administration, for instance, renewables got a boost but since Trump took office, his administration has favored fossil fuels and spent billions paying developers to give up their offshore wind leases.
+What would it mean for US household energy bills?
+The White House Council of Economic Advisers, a team of economists that advises the president, estimates it would eventually cut the average household's electricity bill by $178 to $251 (€162 to €229) a year.
+The logic is that long permitting delays discourage investment in infrastructure, which drives up prices. But that estimate considers only one part of the bill, faster environmental reviews, and doesn't say when the savings would arrive.
+Independent analyses also found a drop in electricity prices for consumers, though a more modest one. The Rhodium Group estimates the bill's passage would save the average household $41 to $66 a year by 2035. That's largely because new transmission lines would let cheaper power reach customers and the costs of expanding the grid for data centers would no longer be passed on to households.
+Critics point to the fact that those savings are relative. Electricity demand from data centers is expected to push up prices regardless, and permitting reform would only slow that rise rather than reverse it.
+Oil Change International, an advocacy group that opposes the bill, argues households will still end up paying more for energy than they do now, especially if the bill mainly speeds up gas projects, since US gas prices are expected to rise sharply over the next decade.
+What do environmentalists say about it?
+Most major US environmental groups oppose the bill as written, including the Natural Resources Defense Council, League of Conservation Voters and Earthjustice. The Sierra Club called it "fundamentally flawed."
+Much of the criticism focuses on provisions making federal permits harder to revoke.
+"It would prevent a future administration from reconsidering a prior administration's flawed decisions to authorize activities such as Arctic drilling, deep seabed mining, or development of data centers on public lands," Earthjustice wrote in a critique.
+The reverse is also true. That provision also makes it harder for an administration to come in and halt clean energy projects, as Trump did with offshore wind.
+Opponents warn the bill could weaken protection for water and habitats, and limit environmental lawsuits. One area that environmental groups praised is the overhaul of how transmission lines are planned and approved.
+That matters because the windiest and sunniest places in the US are often far from the cities that need power, and building long-distance power lines to connect them can take a decade or more.
+Still, many critics say they would rather wait until Democrats control Congress in January and pass a version more focused on clean energy. Though that approach is risky, any bill would still require Trump's signature to become law.
