@@ -1,0 +1,15 @@
+An 18-year-old has been detained over the latest breach of Denmark’s national civil registry, two months after a separate cyberattack exposed data linked to 8.8 million people.
+An 18-year-old has been arrested in connection to a cyber-attack that leaked the personal information of 11,000 people from Denmark's national registry, authorities said Thursday, two months after another huge data hack.
+Danish authorities said they had updated and modernised security systems since the early October attack, when the data of 8.8 million people was illegally accessed.
+Despite that "the administration of the Civil Registration System (CPR) has discovered a new security breach," the digital affairs ministry said.
+"Unauthorised third parties have accessed the CPR data of 11,000 people," it said, adding that the breach was detected on November 23.
+The incident "was stopped thanks to a new technical monitoring system for consultations, introduced after the first incident."
+An 18-year-old man has been arrested and remanded in custody "for having, without authorisation, accessed the Civil Registration System, where he managed to retrieve 11,000 identification numbers," police said in a statement.
+The perpetrators of the October hack have not been identified yet.
+But in October, an unidentified person contacted Danish newspaper Politiken in English via an encrypted messaging service and claimed responsibility.
+The supposed hacker said they had found an entry point into the register within a few hours by using the login credentials of a former employee of a small Danish company.
+They said the employee's password was 123456.
+In September, the Civil Security Agency raised the threat level for cyberattacks against Denmark to "high".
+There has been a surge in cyberattacks, notably targeting supermarket refrigeration systems.
+There has also been a series of false bomb threats against schools and planes across Europe, which could potentially be part of a hybrid warfare campaign.
+That theory has not been confirmed, however, due to a lack of evidence.

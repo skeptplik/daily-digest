@@ -1,0 +1,27 @@
+AI raises new questions about what penetration testing proves
+AI is becoming an established part of threat-led penetration testing (TLPT), with 81% of surveyed providers using the technology beyond experimentation, according to research from CREST.
+The study, AI and the Future of Threat-Led Penetration Testing: Capability, Control and Credible Assurance, draws on responses from 26 providers and insights from two industry roundtables involving cybersecurity professionals and institutional stakeholders, with a focus on financial services.
+AI expands threat emulation capabilities
+Over the next 12 months, 65% of respondents expect AI to support 40% or more of their TLPT tasks.
+Reporting and assessment is the most common area of live AI use, followed by reconnaissance and threat-informed preparation. The technology can influence engagement planning, intelligence prioritization and the selection of attack scenarios.
+Of the providers using AI for threat actor emulation, 86% report improved accuracy and realism. Reported benefits include faster intelligence analysis, more effective mapping of adversary TTPs, and support for the development of tools and adaptive attack paths.
+Biases in AI models and training data could introduce generic patterns into threat assessments, making it harder to distinguish between adversaries. Practitioners must evaluate whether generated techniques are relevant to the organization, consistent with the threat actor’s behavior and aligned with the engagement’s objectives.
+AI-enabled impersonation raises ethical concerns. Voice cloning, synthetic video and personalized content can be used to test verification procedures and escalation controls. Their use requires justification, authorization and safeguards proportionate to the potential intrusion or harm to individuals targeted during exercises.
+Autonomous testing remains limited
+None of the 11 regulated TLPT providers that answered questions about execution authority permit AI to perform testing activities autonomously. One commercial provider reported allowing autonomous execution.
+Scope and operational control, along with client data and confidentiality, were each ranked among the top three delivery risks by 68% of respondents.
+Uses selected as most clearly requiring explicit client approval (Source: CREST)
+Network restrictions, access permissions, monitoring and stop conditions can help contain unexpected system behavior. Providers need to maintain records of automated actions, practitioner interventions and decisions affecting the engagement.
+Human approval procedures can introduce delays into simulated attacks, potentially affecting the assessment of an organization’s ability to detect and respond to threats. The report recommends documenting changes to testing conditions and considering how they affect conclusions about cyber resilience.
+Client data protection drives approval requirements
+Some 92% of respondents believe that submitting client information to external or cloud-hosted AI services requires explicit client approval.
+Autonomous testing actions were identified as requiring explicit client approval by 62% of respondents. Data governance considerations include processing and storage locations, retention policies, model training practices, subcontractor involvement and access rights.
+Organizations commissioning penetration tests need visibility into the systems and integrations surrounding AI models. Changes to technology vendors, permissions or data flows during an engagement may require additional approval.
+Technical expertise remains essential
+Validation of AI-generated technical output was rated as an essential practitioner skill for the coming year by 92% of providers. Secure data handling, manual exploitation and an understanding of AI limitations and failure modes also rank highly.
+“TLPT, particularly in production environments, has always been high risk and in need of the strongest assurance. AI is amplifying this and is already changing how it is delivered,” said Nick Benson, CEO of CREST.
+The use of AI to develop offensive tools creates a supervision challenge for cybersecurity teams. Training, peer review and secure development practices are necessary to ensure practitioners have the expertise to assess generated code and anticipate its potential consequences before deployment.
+Procurement and disclosure requirements set to increase
+Looking ahead, 88% of providers anticipate greater use of AI-generated offensive tooling, with the same percentage expecting increased demand for testers with AI-specific skills.
+Some 85% of respondents expect AI-related procurement requirements to increase, while 81% anticipate more client requests for disclosure of AI use over the next year.
+Some financial institutions are developing internal testing capabilities, potentially changing demand for external cybersecurity services. Independent assessment, complex scenario design, threat relevance and professional judgment may become more important differentiators for external providers as AI capabilities become more accessible.

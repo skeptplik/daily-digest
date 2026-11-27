@@ -1,0 +1,28 @@
+Product showcase: Norton helps Claude users uncover the telltale signs of fraud
+The Norton connector for Claude brings the company’s Genie AI-powered scam detection capabilities into the chatbot. Users can submit suspicious emails, text messages, screenshots, and links for analysis, as well as ask questions about cybersecurity, privacy, and identity protection.
+The integration does not require a Norton account or a separate application.
+Setting up the connector
+I tested the Norton connector using Claude on an iPhone.
+The integration provides three tools. The first checks links, messages, emails, and phone numbers for scams. The second provides cybersecurity threat guidance, incident response recommendations, and safety education, while the third offers Norton product support, troubleshooting, and setup guidance.
+Users can manage permissions for each tool individually.
+Testing scam detection
+To test the integration, I used several examples, including a fraudulent text message impersonating a government agency, a legitimate promotional email, and a suspicious cloud storage subscription renewal notice.
+The first was a Croatian-language text message claiming to come from Croatia’s Ministry of the Interior. It informed the recipient of an unpaid speeding fine, referred to legal provisions, and threatened further consequences.
+I shared a screenshot of the message with Claude directly from the iPhone’s Photos app and requested a scam assessment using the Norton connector.
+Norton classified the message as an extortion scam with high confidence. The result appeared in a dedicated card within the conversation, displaying the scam classification, confidence level, diagnosis, detailed explanation, and recommendations.
+The analysis identified government impersonation, official-sounding language, references to legislation, and escalating urgency as indicators of fraud. It explained how scammers use these tactics to pressure recipients into making payments without verifying the claims.
+Norton advised against clicking links, replying to the message, or making a payment. It also recommended checking for outstanding traffic fines through the official website of the Croatian Ministry of the Interior.
+Analyzing a legitimate email
+For the second test, I submitted a screenshot of a Black Friday promotional email offering a 40% discount on new subscriptions.
+Norton classified the email as safe with high confidence, describing it as a legitimate promotional offer for a password manager subscription. The analysis identified the use of standard marketing language and the absence of suspicious urgency or requests for sensitive information.
+Despite the positive verdict, Norton recommended verifying the promotion by visiting the company’s official website instead of clicking buttons embedded in the email.
+The results included suggested follow-up questions, allowing users to continue the conversation and learn more about phishing, government impersonation scams, legitimate promotional emails, and password managers.
+Identifying a cloud storage phishing attempt
+In another test, I submitted a suspicious cloud storage subscription renewal notice that warned of a payment failure and potential service interruption.
+Norton classified the message as phishing, identifying generic branding and urgency tactics as warning signs.
+The analysis identified several characteristics commonly associated with phishing attempts, including the absence of a specific cloud storage provider’s name, pressure to resolve a payment issue, and an official-looking subscription ID that could not be verified.
+Unlike the earlier high-confidence classifications, the explanation acknowledged that the message could not be definitively confirmed as malicious based on the available information.
+Norton recommended avoiding links in the message and instead accessing the cloud storage provider’s official application or website directly to verify account status, payment methods, and subscription details.
+If no corresponding subscription could be found, the tool recommended deleting the message and treating it as a phishing attempt.
+Conclusion
+The Norton connector integrates scam detection and cybersecurity guidance into Claude’s conversational interface. Its structured responses identify suspected scams, explain the characteristics behind each classification, and recommend next steps, helping users recognize similar patterns in future communications.

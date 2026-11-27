@@ -1,0 +1,17 @@
+Hex, the package manager for Elixir and Erlang, fell victim to a cyberattack involving unauthorized access to its web servers.
+The incident occurred on November 23, when the attackers exploited a vulnerability in hex.pm to execute commands. The attack was immediately blocked, and the underlying security defect was addressed within 20 minutes.
+Between 18:16 and 18:29 UTC, the attacker sent 69 malicious requests, affecting six web servers. At 18:30, Hex replaced all hex.pm servers with patched versions rejecting the payload, and its firewall rule fully blocked the attacker’s traffic at 18:33.
+“We found no evidence of unauthorized package modifications, database changes, or that the attacker maintained access to our systems,” the package manager explains.
+According to Hex, potential access to database contents, such as email addresses, password hashes, API key hashes, sessions, second factor authentication secrets, and audit logs, cannot be ruled out.
+While all the observed reads of private packages came from Hex servers, any read from a compromised server would appear legitimate, it says. Additionally, database and private documentation reads are not logged, hindering visibility into potential data exposure.
+“The attacker’s commands could read the credentials our servers use, so we replaced them: the storage, CDN, email and database credentials, and the keys that sign sessions and access tokens. This logged everyone out of hex.pm and Hex clients,” Hex notes.
+The package manager has been working on a new registry signing system with key rotation support. Until new Hex client iterations are rolled out, users should avoid fetching packages from third-party mirrors and rely only on repo.hex.pm.
+Hex also recommends that all account holders change their hex.pm passwords and reset their two-factor authentication.
+“Because email addresses may have been exposed, be careful with emails that claim to come from Hex. Please double-check that the links they contain lead to hex.pm,” the package manager says.
+The attackers exploited an unauthenticated deserialization of untrusted data bug (tracked as CVE-2026-129514, CVSS score of 10) that allowed them to execute OS commands via a crafted Erlang external term format request body and gain remote code execution (RCE).
+Hex discovered that the Ash Framework was also impacted by the same class of vulnerability. Ash patched the flaw (tracked as CVE-2026-124283) on November 24, warning it could lead to code execution or SQL injection.
+Associated security defects were also patched in two other Elixir libraries: namely db_connection (CVE-2026-133555) and flop (CVE-2026-130411).
+Related: Critical Juniper Session Smart Conductor Flaw Exploited in Attacks
+Related: Mitel MiCollab Zero-Days Exploited in Suspected AI-Assisted Attacks
+Related: Drupal Installer Patch Left a Gap Attackers Are Already Exploiting
+Related: Hackers Exploit Unpatched Flaw in Defunct Idunno AntiCsrf Library

@@ -1,0 +1,26 @@
+In 2027, “the agent did it” stops being an excuse
+Enterprises will come under growing pressure to establish accountability for autonomous AI agents in 2027, with regulators, corporate boards and insurers demanding evidence of how organizations govern automated decisions, manage access privileges and prevent operational disruption, according to SailPoint’s 2027 Identity Security Predictions.
+The company’s Horizons of Identity Security 2026–2027 research found that 79% of enterprises have deployed AI agents in production, while just 2% have implemented identity security controls designed for them, creating what SailPoint describes as a 40:1 agent security gap.
+Autonomous agents could trigger billion-dollar operational failures
+SailPoint predicts that a major public company will experience a multibillion-dollar supply chain disruption caused by misconfigured autonomous agents with excessive access permissions.
+The company describes a potential incident called an “Authorized Outage,” in which misconfigured agents delete inventory databases, terminate supplier contracts and redirect shipments. The speed of automated execution could overwhelm intervention procedures, resulting in financial losses, contractual disputes and regulatory investigations.
+Such an incident could accelerate the adoption of separation-of-duties requirements for AI systems. SailPoint expects enterprises to establish independent governance environments that prevent agents from modifying their permissions, disabling security monitoring or authorizing privilege escalation.
+“While it will be possible to delegate a complex workflow to an autonomous agent, it will never be acceptable to delegate accountability, because agent accountability is enterprise responsibility,” said Mark McClain, CEO of SailPoint.
+Legal standards and executive accountability
+The company anticipates the emergence of a mandatory US governance standard for autonomous agents, involving the National Institute of Standards and Technology (NIST), the Federal Trade Commission (FTC) and state attorneys general.
+The predicted framework would require businesses to demonstrate that automated activities comply with legal obligations, fiduciary responsibilities and operating procedures.
+Identity governance records could play a role in helping enterprises establish accountability and demonstrate regulatory compliance. Organizations would need to document the relationships between agents, their human owners, assigned permissions and the actions performed throughout their operational lifecycles.
+Supply chain attacks and machine credentials
+Connections between autonomous agents, third-party applications and business partners are expected to expand the attack surface. Protocols such as the Model Context Protocol (MCP) introduce dependencies that could expose downstream organizations through compromised credentials and connectors.
+Major enterprises will begin restricting external agents’ access to their APIs unless vendors and business partners can provide cryptographic proof of the agents’ identities, ownership and authorized access scope.
+Credential theft is another area of concern. The company expects passkeys to account for more than 45% of human logins in 2027, prompting cybercriminals to increasingly target API keys, OAuth tokens and machine secrets.
+Its research found that 67% of enterprises have secured human access, and 24% govern agentic security. Agents represent 22% of non-human accounts, with machine identities outnumbering human identities by 45 to one.
+Zero trust moves toward continuous intent verification
+Autonomous systems can generate subtasks and modify workflows during execution, creating challenges for role-based access controls built around predefined responsibilities.
+SailPoint expects zero trust architectures to incorporate continuous intent assurance, requiring verification of an agent’s identity, associated human owner and business purpose before each API call.
+Organizations are expected to adopt just-in-time access mechanisms, granting permissions when required for a task and removing them upon completion. These measures could reduce exposure associated with persistent administrative privileges.
+Identity governance becomes a business performance metric
+Upcoming post-quantum cryptography requirements and EU AI Act obligations are expected to increase board-level scrutiny of identity management.
+Inventories of human, machine and cryptographic identities will influence corporate valuations, credit ratings and eligibility for cyber insurance. Visibility into credentials and their ownership will support compliance assessments and technology migrations.
+Investment policies are also expected to undergo changes. CIOs and CFOs could begin requiring measurable returns and documented security controls before approving funding for agent deployments.
+The transition could bring thousands of unsanctioned AI agents operating through employee credentials into centralized management, establishing oversight of their permissions, activities and contributions to business operations.

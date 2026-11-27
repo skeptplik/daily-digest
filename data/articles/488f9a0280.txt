@@ -1,0 +1,84 @@
+Canada·THE FIFTH ESTATE
+This suspected North Korean operative said he had an IT company in Toronto. It wasn't real
+Aku Alatao claimed to be founder and CEO of Canadian-based software company
+Aku Alatao seemed like the perfect job applicant to create a cryptocurrency and design a website for the Canadian startup Bananacoin.
+His resumé boasted lots of previous front- and back-end coding experience. He had his own IT company based in Toronto and he was eager to get started right away.
+"Aku, let me ask you a question. What do you think of Bananacoin? I'm not sure if I like the name Bananacoin," company executive Clark Shelley said to Alatao during an online job interview this past summer.
+"Yeah, maybe it is very good," Alatao replied.
+He got the job. The company offered to start him at $8,000 per month. He said he would work remotely.
+But there was a catch — Bananacoin wasn't real and neither was Aku Alatao.
+For the last year, the fifth estate has investigated multiple suspected North Korean operatives posing online as Canadian residents. They have been able to secure remote jobs in Canadian companies and government, their paycheques propping up the heavily sanctioned regime.
+Alatao has been presenting himself around the world as the founder and CEO of Toronto-based Neiluno Software.
+But according to our research and experts, Alatao is a suspected North Korean operative working under a false Canadian identity.
+- Watch the full documentary, "For Hire: North Korea's IT Army," from the fifth estate on YouTube, CBC Gem or CBC-TV on Friday at 9 p.m.
+To find out more about him and the scheme he is involved in, we created a fictitious crypto company, Bananacoin, and posed as potential employers looking to hire him.
+Alatao proved to be a phantom. As we tracked his operation online and around the globe, he was everywhere and nowhere and certainly not where he claimed to be based in Canada.
+Sanctions and cybercrime
+North Korea is a closed-off country.
+Ruled by leader Kim Jong Un, the state has been wracked by mismanagement and economic sanctions aimed at curbing its nuclear ambitions and human rights violations.
+So to make money, experts say, the regime has turned to crime — including counterfeiting currency, trafficking heroin and massive multibillion-dollar crypto hacks.
+According to cryptocurrency intelligence firm TRM Labs, North Korea-backed hackers stole $7.4 billion in crypto in 2026.
+The regime has also trained an army of information technology workers to get remote IT jobs around the world — including in Canada.
+One U.S. Department of the Treasury estimate put the total take from North Korean IT work at nearly $800 million from the U.S. for 2024 alone.
+Cybersecurity expert Evan Gordenker, who has led more than 150 investigations into threat actors and testified before a United Nations hearing on North Korean IT workers, estimates there are thousands involved in this scheme.
+"Fraud has been their job for, in most cases, at least six years, but in some cases even much longer than that and they're a well-oiled machine," Gordenker told the fifth estate in an interview.
+In early 2026, the fifth estate received a tip regarding a cache of documents on the computer programming website GitHub. It contained passports, resumés and other documents North Korean IT workers use to ply their trade. It was left available for anyone with an internet connection to access.
+Using open source intelligence tools and an artificial intelligence agent tasked with looking for specific quirks associated with North Korean IT workers, we scanned thousands of Github accounts to see what else might be available on public websites.
+What we found surprised us. Alongside fake IDs and fake resumés were working documents, including digital notebooks, shopping lists and photos that appear to have been taken inside North Korea.
+Metadata for this photo, linked to a suspected North Korean IT worker’s GitHub account, indicates the photo was taken inside North Korea. (Devops920719/GitHub)
+In the middle of it all emerged one particular account that caught our attention, alleycat1, owned by Toronto-based Aku Alatao.
+According to Ontario corporate filings, Alatao registered his company, Neiluno Software, in April 2025.
+But when we visited the registered address in Toronto, a converted house on a busy commercial strip in the west-end district of Etobicoke, we found a fast-food restaurant on the main floor and another unrelated small business in the basement. The building owner told us he'd never heard of Alatao or Neiluno.
+Internet phantoms
+When we looked into Neiluno's employees listed on its website, they were largely internet phantoms — strange accounts with changing names, connected to gambling websites and cryptocurrency ventures.
+The company website also listed former clients. One of them, Aqualoan, was connected by cryptocurrency experts to North Korea and the theft of $50 million from crypto firm Radiant Capital.
+When we invited Alatao to an online interview to discuss Bananacoin, using false identities ourselves, we weren't sure what to expect.
+He logged onto the meeting a few minutes early, eager to discuss the details of our proposed project.
+"I imagine you're taking on multiple projects. You must be busy," the fifth estate host Mark Kelley, posing as Bananacoin CEO Clark Shelley, asked in the interview
+"It is no problem to work for this project all day," Alatao responded.
+Among Neiluno's advertised portfolio project was a fake Forbes website, which the real Forbes confirmed was inauthentic. (Neiluno.io)
+"Your company, Neiluno, I see its head office is based here in Toronto?" Shelley asked.
+"Yes," he said.
+When asked where he was personally located, Alatao stumbled, pronouncing the Toronto suburb of Etobicoke incorrectly multiple times before providing the fake Etobicoke address where the fifth estate had confirmed neither he nor his business was.
+When the topic of money came up, Alatao asked to be paid in cryptocurrency.
+"They would love to move money across cryptocurrency where once a transfer is done, it is done," Gordenker said, adding "from there, making it invisible and having it disappear into the bytes and bits of the blockchain space, and really the many blockchains that they use, is totally trivial for them to do."
+We asked Alatao for a regular bank account, and he sent us the details for a CitiBank account in his name. CitiBank declined to comment on the record.
+Providing his ID for our fictitious payroll, Alatao sent a picture of an Ontario driver's licence we determined to be fake. The licence number was invalid, the photo appeared to be a cutout from a picture he had used in an online profile and the address was that same Etobicoke address that Neiluno and Alatao had no connection to.
+A photo of a fake Ontario driver’s licence provided by Aku Alatao. (Aku Alatao)
+North Korean IT workers often enlist the help of domestic facilitators in the countries where they pretend to be. Facilitators help them keep the scheme going by completing tasks the worker cannot do remotely, like opening a bank account or receiving mail.
+Local facilitators also get paid to host laptop computers that the North Koreans remotely work from, fooling their employers into believing they are based in a friendly location like Canada or the U.S.
+We told Alatao during our interview that he would need to do all his work from a company-provided laptop in the hopes that we could locate him or a Canadian facilitator working with him.
+- Suspected North Korean computer programmers did contract work for B.C. government
+- Ontario architect's seal forged by remote worker believed to be North Korean fraudster
+The day after our interview, Alatao emailed to tell us there was an urgent matter that required him to be out of the country.
+"I am currently navigating some significant personal matters involving my girlfriend in Indonesia, which requires my immediate departure for that country tomorrow," he wrote. "This absence is anticipated to last several months. I believe I have no issues working for this project there."
+He gave us an address in Cirebon, Indonesia, for delivery of the laptop and a contact name: Aisyah Isaa, who appeared on the Neiluno website as an employee
+Indonesia-based Aisyah Zahira Isaa was one of multiple employees listed on the Neiluno website. (Neiluno.io)
+Cirebon is more than 220 kilometres east of Jakarta. We hired a freelance journalist there to investigate and keep up the appearance that we were trying to legitimately get a Bananacoin company laptop to Alatao.
+The address turned out to be the home of Isaa's parents and neither she nor Alatao was there.
+The parents called their daughter, who gave us two addresses in Jakarta — one was a co-working office space in a building in the centre of the city, the other was a home in the suburbs.
+Our freelancer went to the office building. Seeing no sign of Neiluno, he arranged to meet Isaa at her home.
+- North Korea fires two ballistic missiles off east coast in three hours
+- Binance says billions replaced from hack that FBI blames on North Korea
+Throughout a nearly hour-long discussion — during which our freelancer identified himself as working with the CBC — Isaa said that she had met Alatao in Singapore at a tech conference and that she had been working with him for about a year. Neiluno's CEO wasn't in Indonesia, she said. He was in Hong Kong or possibly back home in Canada, where she believed he grew up.
+Isaa later sent emails to CBC explaining that she knew nothing about Alatao or any scheme that he may have been running and had connected with him online just a month prior, contradicting her statements from her conversation with our freelancer in Jakarta.
+It seems we were not the only people trying to find Alatao. About a week prior, in Neiluno's Telegram channel, someone posted wondering if the channel's owner had "disappeared."
+The reply came two days later, stating that the Neiluno's owner had just returned from a sailing trip that was extended due to stormy conditions.
+A member of the Neiluno Software Inc. chat on Telegram wondered about the apparent disappearance of the company’s leader. (Telegram)
+Wherever he was, it seemed that Neiluno's founder and CEO was a difficult man to pin down.
+"It's so easy for the North Koreans because for most ordinary citizens, I don't think the implications of doing some of these things is really registering," said Gordenker, "Certainly they're not registering, ‘Oh, this could be assisting a sanctioned country and I could be helping with illicit finance.'
+"Even people who are saying this is a little bit suspicious typically don't figure out the whole scope of the scheme. And that's partly a function of people just not understanding how serious this could be. But moreso, I think this is a function of people don't understand that they are being used. They're pawns in this grand scheme."
+On one online profile, Aku claimed to be based in Rehoboth Beach, Del. According to other accounts, he graduated from a university in Hong Kong and another in Ankara, Turkey, in the same year. (Peopleperhour.com)
+Alatao had heard from Isaa that something wasn't right about the conversation she had with our freelancer.
+"She stated that two individuals approached her and proceeded to record video and audio using concealed equipment," Alatao wrote. "They have accused our organization of fraudulent activity, which has understandably caused Aisyah considerable distress."
+We agreed to meet online and clear up the whole matter. Again, Alatao showed up to our video call as scheduled.
+When we informed Alatao that we had been by his office address in Toronto and no one had heard of him or Neiluno Software, he told us he had moved the office, but did not say to where.
+We also wanted to ask Alatao about a photo we had found online. In June 2025, X account @browsercookies posted two photos. The first was a picture Alatao had used on a personal website. The second was a photo of North Korean leader Kim Jong Un at a state event in 2020. In the crowd behind Kim, there is a smiling, clapping person sharing a striking resemblance to Alatao.
+The fifth estate could not independently verify that the man in the crowd was Alatao, but North Korea experts we interviewed said it could be him.
+"This event was the first event when Kim Jong Un's aunt was reintroduced to the public after Kim Jong Un had her husband executed," Gordenker said.
+"That someone with a vaulted position, that could be so close to Kim Jong Un, is also out here scamming Canadian companies means that scam is so profitable and he is so successful at this sort of thing that he has really earned his way there.
+"I think you've probably stumbled into one of the more elite attackers that the North Koreans have for their cyber force," Gordenker said.
+This photo was made available by the Korean Central News Agency in January 2020. (Reuters)
+When we asked Alatao during our interview if he was in North Korea and if he was North Korean, he responded "no."
+When we pressed him on whether was in fact a North Korean operative, he said: "I don't know what you mean" and that the allegation was "very weird."
+He told us we had him mixed up with someone else and left the meeting.
