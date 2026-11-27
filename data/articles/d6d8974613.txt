@@ -1,0 +1,39 @@
+St. Petersburg, RUSSIA — In September, a rescued seal named Kroshik slipped back into Lake Ladoga after a decade in human care. A satellite tag on his back let his rescuers follow along as he explored new waters and learned to live among other seals.
+Two months later, his signal disappeared from view. The French company that ran the satellite tracking service had cut off access to Russian users.
+“We will no longer be able to learn anything about Kroshik's further adventures,” the Baltic Seal Friends Foundation wrote on Telegram on Nov. 9.
+For Kroshik’s rescuers, the loss of the Argos satellite tracking service meant losing track of a seal they had raised since he was a pup.
+For researchers across Russia, it meant losing a tool they had used for years to do everything from following endangered tigers and tracking seals in Lake Baikal to measuring changes in Arctic sea ice.
+When fishermen found Kroshik on the ice of Lake Ladoga in 2016, the seal pup was emaciated and frostbitten.
+After they handed him over to wildlife rescuers, he grew so attached to his caretakers that it would be 10 years before they returned him to the wild. By then, the foundation’s Telegram followers had spent years reading about his exploits.
+“For now, we’re just happy that we were able to help our friend and family member become a truly wild seal, after overcoming so many difficulties along the way,” the foundation wrote of Kroshik, an affectionate Russian nickname meaning “little one.”
+On Nov. 1, CLS, the Argos system’s French operator, halted all services for Russian users, blocking them from signing in to its website.
+Alexander Salman, whose company spent nearly 25 years developing tracking collars for CLS in Russia, linked the move to sanctions pressure, difficulties processing payments from Russia and operational risks.
+From tiger collars to Arctic ice
+One of Russia’s most famous Argos users was Vladimir Putin.
+In August 2008, during his four-year stint as prime minister, Putin took part in a publicity event to draw attention to the plight of the endangered Amur tiger, a symbol of Russia’s environmental policy.
+He fired a tranquilizer dart at a tigress and fitted her with a GPS collar that relayed data through Argos. For a time, visitors to the prime minister’s website could follow the movements of the tigress, named Serga.
+For scientists, the value of Argos lay in what they could learn over years of tracking. Tags could transmit an animal’s location and, depending on the device, readings such as body temperature.
+Researchers used the system to follow animals from walruses and whales to Arctic foxes and bison, comparing migration routes from one year to the next and studying how populations responded to a changing climate. Instruments using the same network measured ocean temperatures and tracked changes in Arctic ice cover.
+A collar could also help keep an animal alive, a conservationist working in Russia told The Moscow Times. She spoke on condition of anonymity for safety reasons.
+“Wild reindeer, moose, bison, tigers and other wild animals often survive because poachers or licensed hunters spot the satellite collar,” she said. “They know someone is keeping a close eye on that animal.”
+While hunters and poachers rarely target Ladoga ringed seals like Kroshik, fishermen sometimes attack or kill seals that swim up to their nets to steal fish, she said. A tag that went quiet could give rescuers a reason to worry. With access to the tracking system gone, they’ve been left completely in the dark.
+“Now we don’t even have that information,” she said.
+“In recent years, a very large share of Russia’s satellite tracking work on wildlife relied on Argos,” Salman said in an interview with the Baltic Seal Friends Foundation. “That’s what makes the situation so dire. To put it bluntly, all that work is coming to a halt.”
+At Lake Baikal, researchers face a break in their satellite tracking of the Baikal seal, a freshwater species found only in the Siberian lake.
+Yekaterina Yegorova, head of the Lake Baikal Foundation, told the state-run TASS news agency that the loss of Argos would leave scientists unable to collect new satellite data on the seals’ movements.
+The foundation is looking for other ways to track the seals and is calling for Russia to develop its own satellite tracking system.
+Some tags already fitted to animals in Russia may still be transmitting to the Argos data center in Toulouse, France, the conservationist said.
+“Russian users don’t have access to this data. But theoretically, if the EU sanctions are lifted, it will be possible to buy back the data gathered in the meantime,” she said.
+Can Russia build a replacement?
+In October, the Agency for Strategic Initiatives and the Lake Baikal Foundation announced a working group to develop a Russian satellite system for tracking wildlife. The Russian tech giant Yandex has expressed interest in joining.
+But the group has yet to say when the system might be ready or what it will be able to do.
+“As things stand, I can’t imagine building a reliable wildlife tracking system using Russian satellites. I just don’t see how it could be done,” Salman told the Baltic Seal Friends Foundation.
+Russian companies already know how to make wildlife tags. The hard part, Salman said, is getting a small, battery-powered device on a seal or a tiger to send data reliably to a satellite.
+Russia’s existing Gonets satellites orbit higher than those used by Argos and have less sensitive receivers, Salman said.
+Because a tag would need more power to reach them, researchers would have to choose between a heavier battery and a shorter tracking period. Designing a reliable collar for a new system would take about a year and field testing could take several more, he said.
+Salman sees a possible route to funding if oil and gas companies, road operators and agricultural businesses also see a use for the network, as all of these firms have equipment or operations in remote areas that they need to monitor.
+“Nobody is going to fund that kind of development just to keep track of Kroshik,” Salman said.
+On Wednesday, fishermen on Lake Ladoga were surprised to see a seal bobbing alongside their boat. They waved at the seal — and to their surprise, he waved back.
+The fishermen had never heard of Kroshik, but when they spotted the antenna on his back, they alerted rangers at Ladoga Skerries National Park.
+The Baltic Seal Friends Foundation quickly recognized Kroshik from the video. He looked plump and active. After his brief visit with the crew, he swam away.
+“Swim on, Krosha,” the foundation wrote. “We all love you very much.”

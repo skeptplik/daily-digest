@@ -1,0 +1,14 @@
+In its latest update on deprecated features in Windows, Microsoft casually mentioned that "Telnet Client is deprecated and will be removed from Windows in a future release."
+This may not mean much to you if you didn't do a lot of computer networking in the 1990s or earlier, but the text-based protocol for remotely opening command-line interfaces was a workhorse we used for a bunch of things. It's how antique university lab computers that didn't even have Netscape Navigator installed connected to the internet, how I played text-based online games like the Discworld MUD back in the day, and how we used to connect to our routers.
+By default, Telnet didn't encrypt all the data it was swapping back and forth between computers, which is why it's since been replaced by tools like SSH and PowerShell. So it's not a surprise that it's being deprecated, and honestly I'm impressed that it outlived both WordPad and Cortana.
+A Windows feature being deprecated means that it won't be in active development and is a candidate for removal in a future update, so Telnet isn't being 86ed immediately. If you're still using it to test network connections because that's what you're used to then carry on as you were, but get ready to grumble and switch over to PowerShell when Microsoft finally does pull the plug.
+1. Best overall: TP-Link Archer GE800
+2. Best mid-range: TP-Link Archer BE9700
+3. Best budget: Asus TUF AX4200
+4. Best mesh: TP-Link Deco BE68
+5. Best budget mesh: TP-Link Deco BE25
+6. Best for wired: Asus RT-BE88U
+7. Best Wi-Fi 6E: TP-Link Archer AXE75
+👉Check out our full gaming router guide👈
+Keep up to date with the most important stories and the best deals, as picked by the PC Gamer team.
+Jody's first computer was a Commodore 64, so he remembers having to use a code wheel to play Pool of Radiance. A former music journalist who interviewed everyone from Giorgio Moroder to Trent Reznor, Jody also co-hosted Australia's first radio show about videogames, Zed Games. He's written for Rock Paper Shotgun, The Big Issue, GamesRadar, Zam, Glixel, Five Out of Ten Magazine, and Playboy.com, whose cheques with the bunny logo made for fun conversations at the bank. Jody's first article for PC Gamer was about the audio of Alien Isolation, published in 2015. Jody edited PC Gamer Indie from 2017 to 2018, and he eventually lived up to his promise to play every Warhammer videogame.

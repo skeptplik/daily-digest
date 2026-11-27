@@ -1,0 +1,29 @@
+Thank you for visiting nature.com. You are using a browser version with limited support for CSS. To obtain
+the best experience, we recommend you use a more up to date browser (or turn off compatibility mode in
+Internet Explorer). In the meantime, to ensure continued support, we are displaying the site without styles
+and JavaScript.
+Artificial-intelligence agents have already begun to wreak havoc by hacking into servers around the world, either spontaneously or directed by humans. Now, a threat is emerging that is on a whole other scale.
+Several computer scientists have suggested on social media that the leading AI laboratories — companies such as OpenAI and Anthropic, both in San Francisco, California — have discovered algorithms that could derail the security of Internet communications.
+“I’m virtually certain, from multiple reliable sources, that the AI labs are now sitting on one or more bombshells,” computer scientist Scott Aaronson wrote yesterday on his blog. The details are still hazy, added Aaronson, who is at the University of Texas at Austin. “Until I either see details or hear directly from someone at a lab, I feel much, much less confident about the specific nature of those bombshells.”
+The algorithms are rumoured to target the information-scrambling system known as RSA, which relies on the mathematics of prime numbers, as well as more-advanced technologies.
+While the rumours could not be confirmed, other breakthroughs announced by the AI companies this week make researchers cautiously optimistic that the mathematics of encryption could eventually come to help.
+Nature examines the threat, and what can be done about it.
+What are the rumours?
+Several researchers say they have heard that some of the leading AI laboratories have discovered algorithms capable of breaking public-key cryptography in ‘polynomial time’ (or ‘P’ in computer-science shorthand).
+Public-key cryptography helps to secure everything from banking apps to Internet browsers. It relies on mathematical problems that are considered practically impossible for computers to solve within a reasonable amount of time.
+An algorithm that could solve these problems in polynomial time would change that. It means the time needed to solve a problem would increase relatively slowly as the problem gets larger. For example, a password of length n could be broken in a number of steps proportional to the square or cube of its size (n² or n³).
+Theoretical computer scientists tend to think of P problems as relatively easy to solve, especially compared with problems that require exponential time, where the number of steps might grow as 2n, for example. As n gets larger — or a password gets longer — the time required by an exponential algorithm quickly exceeds that of any polynomial one.
+In practical terms, an algorithm that could break public-key cryptography in polynomial time could undermine much of the security on which the Internet relies.
+Would these algorithms immediately threaten the whole Internet?
+It depends on which encryption systems they could crack, and how efficiently they could do so.
+One of the most ubiquitous techniques for establishing public keys is to multiply two large prime numbers. This technique, called RSA, was long believed to be secure because ‘cracking the code’ requires factoring that product back into the original primes, a much slower process (at least, without a powerful quantum computer, which does not yet exist). One of the rumours now circulating is that the AI labs have found an algorithm that can do this.
+But even though a polynomial-time algorithm could be very powerful on paper, it could still be impossible to use except for the shortest passwords. An algorithm requiring n10000steps, for example, be very impractical to apply.
+However, proving that a problem is in ‘P’, even if the polynomial-time solution is practically useless, has usually been followed by improvements that have eventually led to efficient solutions. “The issue is that the idea that [the problem] was hard — because of needing exponential time — is dead,” Aaronson tells Nature.
+So is all public-key cryptography doomed?
+Not necessarily. This type of worst-case scenario hinges on a long-standing open question known as ‘P = NP’: could every problem whose solution can be checked in polynomial time also be solved in polynomial time? If so, problems that underpin essentially all public-key cryptography could become much easier to crack.
+But most researchers think that this is unlikely. In fact, some recent AI-aided results have made them cautiously optimistic. Earlier this week, both Anthropic and OpenAI announced results in theoretical computer science that suggest that many similar problems could be hard to solve. Before the recent explosion in AI-aided maths, each of those advances would have been hailed as the computer-science breakthrough of the decade, Aaronson says.
+Ryan Williams, a computer scientist at the Massachusetts Institute of Technology in Cambridge, agrees. “I am definitely blown away by the latest developments.” One especially interesting result, he says, shows that for a ubiquitous type of computation called matrix multiplication, the exponent in a polynomial-time algorithm cannot be too small. “Underneath the hood, it seems to provide a brand-new framework for proving limitations on efficient computation,” says Williams.
+Enjoying our latest content?
+Log in or create an account to continue
+- Access the most recent journalism from Nature's award-winning team
+- Explore the latest features & opinion covering groundbreaking research

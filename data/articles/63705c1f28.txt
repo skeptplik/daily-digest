@@ -1,0 +1,72 @@
+This week in science: anxiety in college students, potatoes on the moon and whale snot
+Science reporters Nate Rott and Sanden Totten talk about the growing risk of anxiety among college students, a simulation of growing potatoes on the Moon, and the genetic secrets in whale snot.
+JUANA SUMMERS, HOST:
+It is time now for our science news roundup from Short Wave, NPR's science podcast. I'm joined by science reporters Nate Rott and Sanden Totten. Hey to both of you.
+NATE ROTT, BYLINE: Hello.
+SANDEN TOTTEN, BYLINE: Hi.
+ROTT: Happy Thanksgiving.
+SUMMERS: Happy Thanksgiving to you guys. So I know you have brought us three science stories that caught your attention recently. Tell us what they are.
+TOTTEN: Anxiety is on the rise for Gen Z and young millennials, and scientists think they may have found something to help explain why.
+ROTT: We've also got how scientists are simulating potato gardening on the moon.
+TOTTEN: And a world first involving whale snot.
+SUMMERS: Really considering all the things here today, it sounds like, guys.
+(LAUGHTER)
+SUMMERS: All right. As an anxious girlie, I think I want to start with this new research on rising anxiety among young people.
+TOTTEN: Yeah. So a new study looked at a key risk factor for anxiety in college-aged people in the U.S. and Canada over the last 30 or so years.
+ROTT: And one of the reasons they started looking at this is because in the last 15 years, anxiety has started rising at a noticeably faster rate than before.
+SUMMERS: OK. So what happened over the past 15 years to drive that? Any ideas?
+TOTTEN: Well, the researchers pointed out that 15 or so years ago marks the start of when people really began using smartphones kind of all the time.
+SUMMERS: OK, I am on my phone all day, so I feel that deeply. All the social media, all the notifications, all of the alerts, they make me really anxious. But were they able to learn anything more about why?
+TOTTEN: That's the big question here. Let's say phones are ticking up anxiety. It's not clear what about the phones is making people more anxious.
+ROTT: So that's where this new research comes in. The team noticed that a key building block of anxiety has also risen at this time, something called intolerance of uncertainty, that might offer some clues.
+JEROEN VAN BAAR: And so, for example, somebody with high intolerance of uncertainty might want to know everything about a party they're attending before they go there because they don't feel comfortable attending if they don't know what's going to happen in advance.
+TOTTEN: That's Jeroen van Baar. He's the lead author on this paper, published in the Journal of the American Medical Association Psychiatry, and he's also a postdoc at Boston University School of Public Health.
+SUMMERS: OK, but, like, isn't it good to know more information in advance? Wouldn't that help someone feel more comfortable?
+ROTT: OK, Juana, we get it. You want to know the ending.
+SUMMERS: I do.
+TOTTEN: (Laughter).
+ROTT: But it's a double-edged sword, too, because, like, you know, when I'm trying to buy Christmas presents and have looked at my 30th review of a type of vacuum, I might just bail and never buy it, right? Or, you know, we've all had analysis paralysis, trying to pick a restaurant, right?
+TOTTEN: Yeah. And smartphones, they kind of encourage all of this because suddenly we have thousands of reviews at our fingertips for everything. So over time, we start to expect to know everything. And when you kind of want to know everything, you start to become intolerant of not knowing. And if you're me, you're also intolerant of lactose, so you're also checking every menu for vegan options, and...
+ROTT: (Laughter).
+SUMMERS: Oh boy.
+TOTTEN: It just goes on and on. So the theory is that when we can't handle uncertainty, we actually get more anxious.
+SUMMERS: Interesting. OK. So knowing all of this, is there anything we can do about it to lessen people's anxiety?
+ROTT: Yeah. I mean, there is a silver lining. There's been a lot of research into how people become more chill with uncertainty, like cognitive behavioral therapy, exposure therapy. These things have shown to be really effective. So there's hope that with treatment, you know, we can address some of these root causes of anxiety.
+SUMMERS: All right, crossing my fingers for that one. Let's now move on to potatoes on the moon. I have many questions. The first is why the moon?
+ROTT: Well, because Matt Damon already showed us that we can do it on Mars, right Juana? "The Martian"?
+TOTTEN: (Laughter).
+SUMMERS: Oh boy.
+ROTT: Spoiler alert. You like spoilers. OK, no, seriously though. NASA's Artemis program is aiming to get a sustained human presence on the moon by the 2030s. So that means feeding people. Enter the potato. They're nutritionally dense. They're pretty hardy plants. And they pack a lot of calories for the space they take up. So scientists want to know, could you grow potatoes in simulated lunar dirt?
+SUMMERS: Interesting. And lunar dirt is not at all like the rich soil here on Earth, correct?
+ROTT: That's right. Yeah. So lunar dirt real or simulated doesn't have enough nutrients. So in this experiment, the scientists added in fertilizer and compost. And they found...
+AYMERIC GOYER: If you go to 30% organic matter, plants look pretty much the same than an Earth control.
+TOTTEN: That's plant biologist and the lead researcher Aymeric Goyer from Oregon State University. He says, based on molecular tests, the potatoes, they seem safe to eat, and they seem to have similar nutrients to Earth potatoes. And so for future lunar missions, he pictures astronauts growing these plants in, you know, greenhouse-type structures on the moon using lunar dirt instead of having to ship it from home. But you will still need to ship some fertilizer and make some compost on the moon. They publish these results in the journal npj Microgravity.
+SUMMERS: Nate, you mentioned that the lunar dirt they grew the potatoes in is simulated. Do they know how well it stacks up to the real thing?
+ROTT: Yeah, so we talk to plant biologist Anna-Lisa Paul, who has sprouted seeds in actual moon dirt - how cool is that? - collected from the Apollo missions. And she was impressed by this work even though she says it is super hard to simulate just how sharp and poke-y (ph) real moon dirt is.
+ANNA-LISA PAUL: There's a big difference between having a bucket full of freshly broken glass and a bucket full of sand.
+ROTT: Not to mention, you know, the gravity differences, the temperature differences, the radiation differences on the moon, too. So there's a lot there.
+SUMMERS: So assuming we work all of that out and we can grow potatoes in moon dirt for our future human colonies on the moon - pretty cool, I have to say - I still have one big question. Will moon fries taste as good as Earth fries?
+TOTTEN: (Laughter) That is a great question. And bad news, Aymeric can only answer that one in theory.
+GOYER: For some reason, we didn't taste them either. I don't know why (laughter).
+TOTTEN: Lost opportunity.
+ROTT: But based on chemical analysis, he assumes they'll taste the same. Not to be a buzzkill, you'd also have to, you know, ship oil up there if you want something more than boring boiled potatoes, so...
+SUMMERS: I will put that on my list. Nate Rott, last one. We've got to talk about whale snot.
+ROTT: Juana, I would love nothing more. So scientists have been collecting whale snot for quite a while now because, much like our snot, it is packed with, like, loads of information.
+TOTTEN: You got stuff like viruses, bacteria, or cells from the whale's respiratory tract, even fragments of DNA, all of which can tell researchers a whole lot about the whale and his health.
+SUMMERS: OK, I think we all remember nasal swabbing for COVID tests. It did not feel very good.
+ROTT: No.
+SUMMERS: Didn't like that. How do you get whale snot?
+ROTT: Well, they let the snot come to them...
+(SOUNDBITE OF WHALE BLOWING AIR FROM BLOWHOLE)
+ROTT: ...By carefully positioning flying drones above the whales. So here's marine ecologist Éadin O'Mahony.
+ÉADIN O'MAHONY: The drones have got sterile Petri dishes attached to them, literally Velcroed on. And then as that whale comes up and breathes out...
+(SOUNDBITE OF WHALE BLOWING AIR FROM BLOWHOLE)
+TOTTEN: Splat. Snot sample collected.
+SUMMERS: That is disgusting, but also perhaps the coolest use of drones I've heard of in a while.
+ROTT: Yeah, so this collection technique is not, like, new new. What's new is what Éadin and her colleagues were able to learn from this snot.
+TOTTEN: Yeah, they collected dozens of snot samples from humpback whales off the coast of British Columbia. And they say in the journal Molecular Ecology Resources that they were able to use those to sequence a whole whale genome, which means, you know, they could get the full genetic code.
+ROTT: And that's really important, Juana, 'cause it can tell scientists about the genetic health of the broader population, you know, which is pretty crucial information for northern humpbacks, which have been in decline. So they can now get this in a noninvasive way instead of taking a tissue sample.
+SUMMERS: Did not expect to be talking about whale snot today, but here we are. That is Nate Rott and Sanden Totten with NPR science podcast Short Wave, which you can listen to for new discoveries and the science behind the headlines. Thanks to both of y'all.
+ROTT: Thanks.
+TOTTEN: So fun. Thank you.
+Copyright © 2026 NPR. All rights reserved. Visit our website terms of use and permissions pages at www.npr.org for further information.

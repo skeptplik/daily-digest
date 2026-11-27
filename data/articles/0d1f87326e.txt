@@ -1,7 +1,0 @@
-The sea might look level, but it turns out tidal height can vary by as much as a metre across the length of a single beach, new research shows. This development is important when it comes to flood predictions and when forecasting which locations are most vulnerable to storm surges.
-Up until now, our knowledge of tidal levels has been limited. Tide gauges tell us about a specific location, and satellite radar measurements typically average across tens of kilometres.
-But instead of using tide gauges, researchers at Technische Universität München and the University of Oxford analysed satellite photos of shorelines, using the beach itself as a giant ruler to measure tidal height for every 100 metres of beach.
-Assessing 40 years of satellite photographs from Pacific Ocean shorelines, they found wide variations in tidal height, with New Zealand’s South Taranaki Bight recording a difference in tidal height of almost a metre across the 56-mile (90km) bay.
-The research, which was published in Nature Communications: Earth and Environment, showed how tides varied significantly over relatively short distances.
-These variations could be the difference between one region being safe and a neighbouring region flooding during the same storm.
-This new approach to measuring tides could help to provide more localised tide and flood forecasts, especially in areas where tide gauges are sparse.

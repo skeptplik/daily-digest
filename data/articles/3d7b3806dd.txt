@@ -1,4 +1,6 @@
-Ubisoft teams pitching new projects are reportedly being asked to explain how generative AI would help them make games faster, and if they don't plan to use it, they have to give a detailed reason why.
+Update, November 26, 2026: Ubisoft has issued a response to reports that teams are reportedly being asked to explain why they would or wouldn't use generative AI when pitching projects.
+"We encourage our teams to explore where AI can be useful and bring value to their work. This doesn't mean that projects are required to use generative AI," the firm said in a statement to Vertical Slice. "Teams need to determine whether, and how, these technologies make sense for the game they want to make and the experience they want to create for players."
+Original story, November 25, 2026: Ubisoft teams pitching new projects are reportedly being asked to explain how generative AI would help them make games faster, and if they don't plan to use it, they have to give a detailed reason why.
 According to multiple current Ubisoft employees who spoke anonymously to Vertical Slice, pitches that do not set this out in proposals will not be approved.
 One source said that while Ubisoft leadership isn't outright mandating generative AI, it is all-in on the technology.
 "The attitude shift among our leaders [means] we all feel cornered by generative AI all the time," they said.

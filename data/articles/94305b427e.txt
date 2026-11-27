@@ -1,0 +1,3 @@
+Nvidia is under pressure to do things differently, and a new WSJ report shows how far that’s going.
+According to the Journal, Nvidia has told manufacturing partners, including Dell and Super Micro, to hit pause on server shipments to Malaysia, Singapore, Thailand, and Indonesia for an unspecified period as it assesses whether its regional partners are meeting U.S. export requirements.
+As for why those countries, Chinese companies have been tapping Nvidia chips remotely from data centers there, a loophole the US Commerce Department closed — reportedly grudgingly — earlier this month. The Journal notes that the think tank Institute for Progress estimates remote data centers like these supply about 24% of China’s AI computing power.
