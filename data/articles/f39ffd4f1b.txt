@@ -1,0 +1,54 @@
+Last year, I asked ChatGPT to add up my British state pension contributions. Thankfully, I double-checked. The total was wrong by a few pounds.
+A friend who teaches math wasn't surprised. Chatbots, he said, often get simple calculations wrong.
+Fast-forward to November 2026, and a mathematician working at artificial intelligence company Anthropic, Levent Alpöge, claims to have solved one of the hardest problems in mathematical history with the help of the company's chatbot, Claude.
+That problem was the Riemann hypothesis, which concerns the distribution of prime numbers, and has baffled mathematicians since 1859.
+How did AI go from stumbling over simple arithmetic to scaling such extraordinary mathematical heights?
+Why was AI so bad at math?
+The answer lies in how AI processes information, said Andrea Asperti, a professor in computer science at Italy's University of Bologna.
+Unlike conventional calculators, early chatbots were trained to predict language, producing plausible answers without necessarily doing the math.
+Ironically, they may perform millions of calculations to arrive at the wrong answer.
+"In a sense, asking why a chatbot makes arithmetic mistakes despite its enormous computational power is like asking why humans make mistakes in mental arithmetic despite having billions of neurons in their brains," Asperti told DW.
+Ken Ono, a mathematics professor at the University of Virginia in the United States, recalled how Google's Gemini once concluded that 9.11 was greater than 9.8.
+"But make no mistake, those errors are very rare today," Ono told DW.
+How AI got so much better at math
+Asperti attributed AI's gains to gradual improvements in model size, training data and methods rather than a single breakthrough.
+AI can now explore different approaches, check its work, correct mistakes and use specialized computational tools.
+"What is remarkable is that these relatively incremental technological improvements have resulted in qualitative leaps in intellectual capabilities," Asperti said.
+Perhaps most surprising was AI's ability to solve previously unsolved problems — something many had doubted it could do.
+"Solving open mathematical problems requires a considerable degree of creativity: it is not simply a matter of retrieving existing knowledge or reproducing known arguments," Asperti said.
+Kevin Buzzard, a mathematician at Imperial College London, UK, was excited but not surprised by the proposed proof of the Riemann hypothesis.
+He had already seen AI resolve a problem in algebraic geometry by finding a counterexample.
+"I had thought about the problem myself and could see what the difficulties were. AI cut through them," Buzzard told DW.
+What makes AI so good at math
+Ono draws an analogy with chess: While humans struggle to think several moves ahead, AI can explore countless possibilities. In advanced mathematics, the scope is far greater.
+"When it comes to pure mathematics, there are tens of thousands of research papers that are the individual moves that it gets to play with. And what we're seeing is the power of that capacity," Ono said.
+Another advantage is AI's ability to recognize connections across different areas of mathematics.
+"Most of us become specialists, building upon theories that we learn over time. And it's difficult to become proficient in many more than a small handful of areas," Ono said.
+The proposed Riemann proof illustrates that breadth. "It might be 30 or 40 mathematicians you would have to put in a room before you could assemble this proof," he said.
+And AI's knowledge extends well beyond math.
+Ono suggested that the mathematician behind the Claude-assisted proof could have interrupted his work to ask the chatbot: "Hey, by the way, next week I'm going to Hawaii. Come up with a beautiful itinerary for a long weekend in Hawaii."
+He and Claude could then have seamlessly returned to advanced mathematics.
+"The point I make there is that Claude seems to know everything at a fairly deep level, and humans don't," Ono said.
+A 'superhuman' achievement
+Ono suggests the individual ideas behind the proposed proof may all be within human intellectual reach.
+"But the sheer scope and the ability to assemble ideas that had never been assembled before, that is what is extraordinary here," he said.
+Ono called the achievement "superhuman."
+Asperti believes AI could develop an entirely different kind of mathematical intuition.
+Mathematicians work with abstract spaces of hundreds or thousands of dimensions, which humans, living in a three-dimensional world, struggle to visualize.
+AI might develop its own ways of understanding such structures and "discover relationships that are difficult for us even to imagine," Asperti said.
+'Deep worry' for mathematicians' future
+Ono is excited about the future of mathematics but concerned about the future of mathematicians.
+Until recently, he would have discouraged young mathematicians from tackling problems like the Riemann hypothesis, saying they could spend 20 years without producing any results.
+"Shoot for the moon! The bar has been raised so high that if your primary interest as a mathematician is in the questions themselves, then this is a great time."
+"The flip side, if you're a mathematician and your identity is that you want to be the source of the ideas, well, you may have lost most of that."
+Ono, who has trained 35 PhD students, is "deeply worried" about their future.
+"Make no mistake. In the year 2026, the ground shifted beneath the entire edifice of the world of human mathematical research," he said.
+Ono believes the role of future mathematicians will be "much more like being a conductor of the most extraordinary orchestra."
+How mathematicians can rethink their role
+In the past, mathematicians were trained by getting them to prove theorems.
+"Now you can prove a theorem by pressing a button," said Buzzard, "so we need new methods."
+Buzzard is setting up a lab that emphasizes understanding, explaining and defending complex mathematical arguments.
+"The best team for doing mathematics is a computer plus human team, and it is still relatively straightforward to extract insights and understanding from what machines are doing," he said.
+But, he said, mathematical research may "end up completely dominated by machines doing things which humans simply cannot comprehend any more, very cheaply and at the touch of a button."
+So, that is the issue of solving mathematical problems. What about AI's ability to come up with mathematical problems and propositions, like an Albert Einstein?
+Ono said: "If you trained a large language model on all the mathematics and all the physics that was known by the end of the 19th century, would a model spin up Einstein's theory of relativity on its own? I don't think we've seen that sort of creative spark, that sort of ability yet."

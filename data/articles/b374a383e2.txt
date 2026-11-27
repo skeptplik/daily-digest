@@ -1,11 +1,11 @@
-Black Friday is more or less here already, bringing with it some much-needed discounts on solid state storage. The official date is technically tomorrow, but the deals have already come out in force.
+Black Friday has landed, and while we've been talking about the sales event for the past week or so, with all the major retailers launching their own discounts, we're crossing our fingers in the hope that someone has a secret stock of drives they can unleash today. There is a chance that we'll get at least one standout Black Friday SSD deal specially launching for Black Friday itself.
 It's still a weird time for SSDs thanks to the memory supply crisis, so we're unlikely to see discounts harkening back to last year's prices. But that's why I'm here to highlight the Black Friday SSD deals that are the best value for money, even with all that weirdness at play.
 Since we regularly review the best SSDs for gaming, we already know which ones are actually worth your money, and I regularly track prices for the best SSD deals every week. So I'm not just recommending any old drive with a couple bucks knocked off it.
 Where are the best Black Friday SSD deals?
 PC Gamer's got your back Our experienced team dedicates many hours to every review, to really get to the heart of what matters most to you. Find out more about how we evaluate games and hardware.
-💾 1 TB PCIe 4.0 NVMe: Kingston NV3 | $140 @ Walmart
-💾 1 TB PCIe 4.0 NVMe: WD Black SN7100 | $149 @ Newegg
-💾 2 TB PCIe 4.0 NVMe: Biwin Black Opal NV7400 | $246 @ Amazon
+💾 1 TB PCIe 4.0 NVMe: Kingston NV3 | $140 @ Newegg
+💾 1 TB PCIe 4.0 NVMe: Biwin Black Opal | $148 @ Amazon
+💾 2 TB PCIe 4.0 NVMe: Biwin Black Opal NV7400 | $270 @ Newegg
 💾 4 TB PCIe 4.0 NVMe: Team Group T-Force G50 Evo | $400 at Newegg
 - Amazon - Money off internal and external SSDs
 - Walmart - Deals on internal and external SSDs
@@ -18,71 +18,61 @@ Key specs: 2.5-inch | 560 MB/s read | 500 MB/s write
 Price check: Amazon $108.49 | Best Buy $108.49 | Walmart $108.18
 With 6,000 MB/s read speed and 5,000 MB/s write speed, this is slower than the best but not as slow as the rest. It's still going to feel plenty fast for most use cases, particularly if you're replacing a Gen3 drive or using it as some extra backup space. Great for the cash, I reckon.
 Key specs: NVMe | PCIe 4.0 | 6,000 MB/s read | 5,000 MB/s write
-Price check: Amazon $139.99 | Newegg $139.99 | Best Buy $139.99 | B&H Photo $139.99
+Price check: Walmart $145 | Amazon $149.99 | Best Buy $139.99 | B&H Photo $149.99
 Okay, so our tests demonstrate it's slightly slower than the advertised speeds, but the actual sequential performance still isn't bad. Couple that with a very reasonable price point, plus its practically frosty temps, and you might well be looking at your next upgrade.
 Key specs: NVMe | PCIe 4.0 | 7,400 MB/s read | 6,500 MB/s write
 This may not be the fastest drive, but in the midst of the memory supply crisis, it is at least relatively cheap compared to some.
 Key specs: NVMe | PCIe 4.0 | 4,500 MB/s read | 5,000 MB/s write
 Price check: Amazon $159.99
-This DRAM-less drive is well-suited for stashing your operating system alongside a few games from your ever-growing Steam backlog. This is the version without a heatsink, which means you can slot it straight into a console, too.
-Key specs: NVMe | PCIe 4.0 | 7,100 MB/s read | 6,000 MB/s write
-Price check: Walmart $184.99 | Amazon $349.95
-The read/write on this thing are fantastic for the price, inflated as that price may be thanks to the memory shortage. This is the best SSD on the market right now, by our reckoning, so if you're looking for a 1 TB upgrade, I'd start here.
-Key specs: NVMe | PCIe 4.0 | 7,250MB/s read | 6,900MB/s write
-Price check: Newegg OOS | Amazon $202
 Though left in the dust by fellow PCIe 5.0 drive, the WD Black SN8100, Crucial still can't be beat when it comes to balancing price against performance. Though not the speediest internal SSD, the P510 still offers proper Gen 5 performance for the cost of a Gen 4 drive—check out our full review.
 Key specs: NVMe | PCIe 5.0 | 11,000 MB/s read | 9,500 MB/s write
-Price check: Newegg OOS | Walmart OOS
+Price check: Amazon $194.99 | Walmart OOS
+The read/write on this thing are fantastic for the price, inflated as that price may be thanks to the memory shortage. This is the best SSD on the market right now, by our reckoning, so if you're looking for a 1 TB upgrade, I'd start here.
+Key specs: NVMe | PCIe 4.0 | 7,250MB/s read | 6,900MB/s write
+Price check: Best Buy $194.99 | Amazon $202
 Yes, this is a pretty pricey 1 TB drive, but it's also a PCIe 5.0 SSD. Just get a load of those read/write speeds! If you're still not convinced, be sure to have a read of Zak's review.
 Key specs: NVMe | PCIe 5.0 | 14,700 MB/s read | 13,300 MB/s write
-Price check: Newegg OOS | B&H Photo $209.99 | Best Buy $209.99 | Walmart $229.99
+Price check: Newegg $209.99 | B&H Photo $209.99 | Best Buy $209.99 | Walmart $209.99
 Samsung's 990 Evo Plus range has a lot going for it (check out our review). Along with Samsung's excellent Magician software, it's a really solid SSD to stick in any gaming PC.
 Key specs: NVMe | PCIe 4.0 | 7,150 MB/s read | 6,300 MB/s write
-Price check: Amazon OOS | B&H Photo $289.99 | Newegg OOS | Best Buy $289.99
+Price check: Walmart $289.99 | Amazon $245 | B&H Photo $289.99 | Best Buy $289.99
 Black Friday SSD deals: 2 TB
-I've drawn the short straw this year trying to find the cheapest SSDs this Black Friday, but lo and behold, I've discovered a needle in this here haystack: this genuinely good PCIe 4,0 SSD that we reviewed highly (89%) is down to its lowest price all year. Plus it offers plenty of capacity at 2 TB.
-Key specs: NVMe | PCIe 4.0 | 7,450 MB/s read | 6,500 MB/s write
 This is a pretty decent SSD for a pretty decent price right now. It's not the fastest around, but it's pretty capacious at 2 TB with room for plenty of games. Use promo code BFF586 for the full discount.
 Key specs: NVMe | PCIe 4.0 | 6,000 MB/s read | 5,000 MB/s write
 Price check: Amazon $319.99 | Best Buy $319.99 | Walmart $319.99
 We really liked the SN5100 when it first came out at the tail-end of 2025. But that was when it was around $130 for a 2 TB model. Those days are gone (thanks, AI) and we're now looking at double that for similar storage. That said, we've seen worse prices for 2 TB drives than this, so if you must buy one, this is an option.
 Key specs: NVMe | PCIe 4.0 | 7,100 MB/s read | 6,700 MB/s write
-Price check: Amazon OOS | B&H Photo $289.99
+Price check: Best Buy $279.99 | B&H Photo $289.99
 This drive uses QLC memory and comes without DRAM cache, but it's still an impressively quick drive for the money, with strong sequential performance.
 Key specs: NVMe | PCIe 4.0 | Up to 7,100 MB/s read | up to 6,000 MB/s write
-Price check: Amazon OOS | Newegg OOS
+Price check: Walmart $329.99 | Newegg $311.95
 I won't pretend this is a great deal, as it's really a lot of money for 2 TB of storage. However, if you must have the speediest SSD in your machine, and you need it now, this is one of the cheaper PCIe 5.0 SSDs from a big name brand as things stand.
 Key specs: NVMe | PCIe 5.0 | 14,000 MB/s read | 13,000 MB/s write
 This is the best of the best. The Optimus GX Pro 8100 used to be known as the WD Black SN8100, but after Sandisk and WD parted ways, it was rebranded. Nevertheless, it's still the same excellent, high-performing SSD that we've really rated highly over the years. An easy pick for an all-out PC build; just check out the random 4K results on this bad boy.
 Key specs: NVMe | PCIe 5.0 | 14,000 MB/s read | 13,000 MB/s write
 Yes, this is a very pricey 2 TB drive, but it's also a PCIe 5.0 SSD. Just get a load of those read/write speeds! If you're still not convinced, be sure to have a read of Zak's review.
 Key specs: NVMe | PCIe 5.0 | 14,700 MB/s read | 13,300 MB/s write
-Price check: Amazon OOS | B&H Photo $349.99 | Walmart $379.99 | Newegg OOS
+Price check: Amazon $349.99 | B&H Photo $349.99 | Walmart $379.99 | Newegg OOS
 Black Friday SSD deals: 4 TB and up
 This is a clever buy for dramatically expanding your storage space. It's a PCIe 4.0 SSD, and while it doesn't quite match the upper echelons for speed, it is fast enough for an ample Steam library. It's the price per gigabyte to look out for here: it's $0.10/GB, which is much, much lower than most.
 Key specs: NVMe | PCIe 4.0 | 5,000 MB/s read | 4,700 MB/s write
 Price check: Best Buy $424.99 | Walmart $424.99
-This is a good drive for bulking out your storage, especially for a Steam library. It uses QLC NAND rather than TLC, which the slightly more expensive MP44 also uses, and that means it is a bit slower. Thankfully, that won't really be a problem unless you're moving huge files around on the regular.
-Key specs: NVMe | PCIe 4.0 | Up to 7,400 MB/s read | Up to 6,200 MB/s write
-Price check: Newegg OOS
 What it lacks in outright NVMe speed, this SN5000 makes up for with capacity. It's a lot of cash for four terabytes, especially with slower speeds, but if you consider the cost of two terabytes, it's not actually the worst deal under the current circumstances.
 Key specs: NVMe | PCIe 4.0 | 5,500 MB/s read | 4,000 MB/s write speed
-Price check: Amazon OOS | Newegg OOS
+Price check: Walmart $529.99 | Amazon $519
 This Team Group boasts some mighty specs for the money, though it's actually the same hardware as in the Lexar NM790. The sequential read/write speeds are extremely high, but it can only sustain them over short bursts. Read our full review of this SSD for more info.
 Key specs: NVMe | PCIe 4.0 | 7,400 MB/s read | 6,900 MB/s write
-Price check: Amazon OOS | Newegg OOS | Walmart OOS
+Price check: Best Buy OOS | Newegg OOS | Walmart OOS
 Black Friday external SSD deals
 You can save some money here with this slightly slower external SSD. It's still plenty quick for most use cases, including regular small transfers. It also has a metal shell and 1-meter shockproof design.
 Key specs: USB 3.2 Gen 2 | 1,050 MB/s read | 1,000 MB/s write
-Price check: Amazon OOS | Walmart $185.99
+Price check: Newegg $149.99 | Walmart $185.99
 It's not often you see a 2000 MB/s external SSD going for this sorta money. That's speedier than most in this price bracket. We've tested it, and while we don't love the peak transfer speed dropping so quickly, the size and (relative) price help alleviate some of our concerns.
 Key specs: USB 3.2 Gen2x2 | 2,000 MB/s read and write
-Price check: Newegg OOS
+Price check: Newegg $192.38
 Not only is this a nippy external SSD, but it also sticks darn close to those advertised peak speeds seemingly endlessly. It does this without getting all that toasty either, thanks to Samsung's "Dynamic Thermal Guard."
 Key specs: USB 3.2 Gen 2x2 | 2,000 MB/s read and write
 Price check: Amazon $254.47 | Best Buy $259.99 | Newegg $259.99 | Walmart OOS
-This Thunderbolt 3-compatible external SSD runs pretty quick for its small stature. It's also IP67 waterproof and dust-proof, which means it can weather some pretty bad spillages without issue.
-Key specs: TB3 + USB 3.2 Gen2 | 2,700 MB/s read and write (900 MB/s USB 3.2 Gen2 fallback)
 Black Friday internal SSD deals in the UK
 Where are the best Black Friday SSD deals in the UK?
 - 1 TB PCIe 4.0 SSD: Crucial P310 | £123 @ Amazon
@@ -99,21 +89,23 @@ Key specs: 2.5-inch | SATA 6 Gb/s | 550 MB/s read | 520 MB/s write
 Price check: AWD-IT £116.99
 While this is QLC memory and comes without a DRAM cache, it's still an impressively quick drive for the money, with strong sequential performance.
 Key specs: NVMe | PCIe 4.0 | 7,100 MB/s read | 6,000 MB/s write
-Okay, so our tests demonstrate it's slightly slower than the advertised speeds, but the actual sequential performance still isn't bad. Couple that with a very reasonable price point, plus its practically frosty temps, and you might well be looking at your next upgrade.
-Key specs: NVMe | PCIe 4.0 | 7,400 MB/s read | 6,500 MB/s write
 This drive's endurance rating of 600 TBW is pretty decent for 1 TB. The price, the five year warranty, and the read/write speeds also make this an appealing option for bulking out your storage.
 Key specs: NVMe | PCIe 4.0 | 7,000 MB/s read | 5,000 MB/s write
+Okay, so our tests demonstrate it's slightly slower than the advertised speeds, but the actual sequential performance still isn't bad. Couple that with a very reasonable price point, plus its practically frosty temps, and you might well be looking at your next upgrade.
+Key specs: NVMe | PCIe 4.0 | 7,400 MB/s read | 6,500 MB/s write
 Though not as fast nor always as cheap as the Biwin, this drive does happen to be supported by the Biwin Intelligence performance management software. That's some consolation, right?
 Key specs: NVMe | PCIe 4.0 | 7,200 MB/s read | 6,200 MB/s write
+This is one of our favourite SSDs for gaming right now. Unlike the cheaper SN770, the SN850X encapsulates the best PCIe 4.0 offers in terms of performance (check out our review). That makes it a great fit for a boot drive with space to spare for your game library, and at this price, we're happy to pay the premium for its higher speed.
+Key specs: NVMe | PCIe 4.0 | 7,300 MB/s read | 6,300 MB/s write
 Okay, so our tests demonstrate it's slightly slower than the advertised speeds, but the actual sequential performance still isn't bad. Couple that with a very reasonable price point, plus its practically frosty temps, and you might well be looking at your next upgrade.
 Key specs: NVMe | PCIe 4.0 | 7,400 MB/s read | 6,500 MB/s write
 Though not as fast nor always as cheap as the Biwin, this drive does happen to be supported by the Biwin Intelligence performance management software. That's some consolation, right?
 Key specs: NVMe | PCIe 4.0 | 7,200 MB/s read | 6,200 MB/s write
 Black Friday external SSD deals in the UK
-A slower drive but more affordable than most with 2 TB of capacity. If you're not worried about fast transfers, this is well suited to most tasks without a time limit.
-Key specs: USB 3.2 Gen2 | 1,050 MB/s read | 1,000 MB/s write
 Though chunky, you can definitely forgive this drive's more rugged design in light of its 5-year limited warranty. It's not as fast as other options, but still worth considering at this price point.
 Key specs: USB 3.2 Gen2x2 | 2,000 MB/s read | 2,000 MB/s write
+A slower drive but more affordable than most with 2 TB of capacity. If you're not worried about fast transfers, this is well suited to most tasks without a time limit.
+Key specs: USB 3.2 Gen2 | 1,050 MB/s read | 1,000 MB/s write
 If you need a small external SSD but don't want to sacrifice capacity or performance, then Crucial's X10 Pro is a great choice. It's the same size as the X6 model but has double the read/write performance, though you will need to plug it into a 20 Gbps USB port to reach full speed.
 Key specs: USB 3.2 Gen2x2 | 2,100 MB/s read | 2,000 MB/s write
 Though chunky, you can definitely forgive this drive's more rugged design in light of its 5-year limited warranty.
