@@ -1,0 +1,28 @@
+Online benefits and pensions services were still down on Saturday morning following a "cyber incident" which forced the government to take them offline.
+The Department for Work and Pensions (DWP) has not specified what triggered it to shut down access late on Thursday but has not ruled out that it was hit by hackers.
+The government has assured benefits recipients and pensioners that usual payments will continue to be made after some claimants reported delays. It is understood the department believes delays were not linked to the cyber incident.
+The UK's former chief technology officer David Knott told BBC Newsnight his "strong suspicion" was that the department had been targeted by hackers.
+He continued: "[The government has] taken down some of the citizen-facing services, which implies to me that there's some kind of attack could be mounted through the front door."
+John Curry, a leading cyber security expert based at Bath Spa University, told BBC News the DWP had "almost certainly" detected hacking activity taking place and shut down its systems in an effort to stop data being stolen.
+Curry said if the DWP had discovered hackers inside its computer systems, then the "best thing to do is slam the front door shut".
+He also said the government may deliberately release limited information in order to "keep the enemy in the dark" and not give any possible hackers hints about ongoing work to secure sensitive systems.
+On Friday, Work and Pensions Secretary Pat McFadden said there had been a "serious cyber incident" without offering further details, while the department said the move to close online services was a "precaution".
+Downing Street would not be drawn on whether the DWP had been targeted by hackers but did say other departments had not been accessed by a "malicious actor".
+The government said it was working with GCHQ's National Cyber Security Centre to investigate the incident, which indicates a hack has not been ruled out.
+The incident has fuelled concerns about the vulnerability of state computer systems and whether security protocols are keeping pace with demand and advances in AI technology, which can be used to aid hackers.
+Matthew Gould, former Cabinet Office head of cyber security, said: "There are hundreds and hundreds of legacy systems that are kept going with huge commitment and skill from the people doing it, but where frankly the system is relying on very old infrastructure."
+He added: "What is needed a lot of the time is quite boring investment in upgrading what is already there, moving platforms on to more stable bases, making systems more resilient.
+"It doesn't make for great headlines but there is an awful lot of investment that's required on a digital estate as large as the government's or the NHS's to keep it strong and resilient."
+The DWP makes around 2.5 million payments every day and is the primary source of income for millions of people.
+Some benefits claimants have reported delays in receiving their money and said they fear being penalised for not submitting information to the DWP on time.
+However, it is understood the department does not believe those delays are linked to the cyber incident, and it has moved to assure claimants their funds would be "paid as normal".
+A DWP spokesperson said: "Anyone experiencing delays or other issues with payments should call our helplines in the usual way.
+"As we work to safely get our services back online, customers directly affected by this incident will not face sanctions."
+The government also said on Friday that it did not believe any personal information had been lost or stolen.
+Online portals for Pip applications and the "Tell Us Once" system for registering deaths have also been impacted.
+Technology critic Bill Thompson told BBC Radio 4's Today programme shutting down the department's systems was an "extreme measure but also a very sensible one".
+Dame Chi Onwurah, chair of the House of Commons Science and Technology Committee, said the DWP incident should be a "wake-up call" for the government.
+She continued: "People rely on these systems for some of the most essential services the state provides, and they should be able to trust that the tech and data underpinning them are secure and resilient."
+Shadow AI minister Ben Spencer said the DWP incident was "deeply concerning", saying the government cannot "demand higher standards of cyber security from others without demonstrating that government are taking the necessary action to protect their own systems".
+It is the latest in a run of global cyber incidents impacting government and major organisations, which have been variously triggered by hackers, faulty tech or botched upgrades.
+Additional reporting by Jacob Phillips

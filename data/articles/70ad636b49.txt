@@ -1,0 +1,32 @@
+Live
+Black Friday might technically be over, but all the best gaming PC deals we've seen are still very much live. Right now, with AI driving up component prices, buying a gaming PC is one of the easiest ways to offset the very worst price hikes on SSDs, RAM, and GPUs, with buying a pre-built PC often cheaper than DIY in late 2026.
+A quick look at part prices will tell you this. The RTX 5080 GPU now costs around $2,000, while the RTX 5090 has all but disappeared from the consumer market. 32GB of DDR5-6000 RAM now costs $500, while a 1TB SSD is $250. Black Friday has given us some deals on these prices, but buying a gaming PC is still more economical in many cases.
+We're tracking the best configurations and rigs at Amazon, Newegg, Best Buy, and Walmart, as well as offerings from vendors like HP, MSI, Dell, and more. We use our hands-on testing experience, extensive benchmark data, and price tracking to find you real deals.
+Quick Links: Black Friday gaming PC deals
+- Amazon: Best gaming PC deals
+- Newegg: Up to 42% off gaming PCs
+- Walmart: Up to half price on gaming PCs
+- Dell: $1,000 off Alienware gaming PCs
+- Our full list of Black Friday Gaming PC Deals
+Hottest Black Friday gaming PC deals
+This model of the Cyclone Aqua gaming PC from ABS contains an Intel Core 5 Processor 120, an Nvidia RTX 5060 graphics card with 8GB of VRAM, 16GB of DDR4 RAM, and a 1TB NVMe SSD for storage.
+A powerhouse gaming PC with some of the best specs available. This rig has the 9950X3D fitted with the RTX 5090 to complement it, as well as 32GB DDR5 RAM and a 4TB SSD.
+Grab $200 off with promo code BFMONTH at checkout.
+A powerful gaming PC from PC building outfit CyberPowerPC, this formidable rig comes equipped with the specs you'll need for serious 1440p and 4K gameplay. It has an AMD Ryzen 7 7800X3D, Nvidia GeForce RTX 5070, 32GB of DDR5 RAM, and a 1TB NVMe SSD.
+LIVE: Latest Updates
+Get a Ryzen 9 9900X and RTX 5070 midrange PC for less with this CyberPowerPC deal
+We love a balanced gaming PC build here at Tom's Hardware, and CyberPowerPC's Gamer Xtreme prebuilt PC is a fine example of a balanced midrange build at a reasonable price. This PC nabs you a 12-core, 24-thread Ryzen 9 9900X CPU and an RTX 5070 GPU for $1999 at Amazon right now.
+Get 12 cores and 24 threads of Zen 5 power, plus RTX 5070 gaming prowess, in this CyberPowerPC Gamer Xtreme config. With 32GB of DDR5 RAM and a 1TB SSD, this system is ready for great 1440p gaming.
+The Ryzen 9 9900X isn't the most common Zen 5 CPU, but it still has plenty of grunt for games and multithreaded workloads. And thanks to the RTX 5070 inside, you're really going to want to play at 1440p with this system, so raw CPU performance is less important for your gaming experience than it otherwise might be.
+GPU Benchmarks — 1440p
+This PC comes with the 32GB of DDR5 memory (great) and 1TB SSD (just OK) we've come to expect in this price class during this year's Black Friday rush. But within that frame of reference, it's a well-rounded rig that will let you game however you like thanks to the RTX 5070's strong RT and raster gaming performance with support for the full DLSS 4.5 and DLSS 5 feature set.
+If you missed the best Black Friday deals yesterday, now is the time to pick up a sweet prebuilt like this at a great discount. -- Jeff Kampman
+This Thermaltake PC gets you Core Ultra 5 250KF Plus and 5060 Ti power at a friendly price
+Entry-level prebuilt PC spec lists can be a real luck-of-the-draw affair on the CPU side. Sometimes you have to take an older chip in exchange for a better GPU, memory, or SSD spec at a given price. But Thermaltake's LCGS NE u2560T-V170B prebuilt is thoroughly modern from top to bottom. It pairs Intel's latest Core Ultra 5 250KF Plus with an RTX 5060 Ti 8GB graphics card for just $1399 at Newegg this Black Friday weekend.
+Get a thoroughly modern budget gaming PC with Thermaltake's LCGS NE u2560T-V170B. This system pairs the latest Intel Core Ultra 5 250KF Plus with the RTX 5060 Ti 8GB for an awesome 1080p gaming experience.
+The RTX 5060 Ti 8GB gives you great 1080p gaming performance for around the same system cost as many RTX 5060 prebuilts right now. In our 2026 GPU Hierarchy testing, this chip delivered a geomean of 100.4 FPS in raster titles at 1080p, so it'll offer a great high-refresh-rate gaming experience in this system.
+GPU Benchmarks — 1080p
+The Core Ultra 5 250KF serves up a whopping 18 CPU cores (6P + 12E) of Arrow Lake Refresh power with peak clocks of up to 5.3 GHz on the P cores. We called it "the best new $200 CPU" in our review, and it's an awesome foundation for this system.
+Along with those parts, you get 16GB of DDR5-6000 RAM and a 1TB SSD for a solid starting point to your 1080p gaming adventures. And at least in raster titles, the power of the RTX 5060 Ti plus the performance boost offered by DLSS 4.5 upscaling means you might even be able to explore 1440p gaming, too. Get this power-packed system for less as we roll into the Black Friday weekend. -- Jeff Kampman
+The biggest draw to buying a pre-built gaming PC in 2026, aside from the usual benefits of convenience and dealing with just one vendor for shipping and warranties, etc., is price. Most Nvidia RTX GPUs are between 60-200% more expensive than their MSRP. Likewise, RAM and SSD prices are through the roof, making building your own rig a daunting task. The team is here to help you find pre-built alternatives.
+Welcome to Saturday and our ongoing coverage of the best gaming PC deals on Black Friday. While some of our top deals have expired, many more remain available, and we expect new offerings to emerge over the weekend.

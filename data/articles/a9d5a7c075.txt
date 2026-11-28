@@ -1,0 +1,27 @@
+Microsoft has made Azure AI Gateway generally available as a standalone Azure service for governing how applications and agents reach AI models and MCP tools, three months after it entered public preview as a dedicated tier of Azure API Management.
+When InfoQ covered the preview in August, the AI gateway tier ran only in East US 2 and Sweden Central, carried no SLA, and had no announced pricing. With general availability, Microsoft has moved it out of API Management into its own product with an AI-only roadmap. According to the Microsoft Learn overview, both services still use the Microsoft.ApiManagement resource provider, but as different resource types, and AI workloads on other API Management SKUs remain supported. Microsoft documents a migration path from the AIGateway SKU and suggests keeping business APIs in API Management while routing model and tool traffic through AI Gateway.
+Pricing is now public: each gateway gets 10,000 free requests per month, and paid billing begins January 1, 2027, at $500 per gateway per month for up to 10 million requests, plus $20 for each additional million. The service currently runs in 17 regions, and Microsoft will publish regional prices when billing starts.
+On the model side, the gateway fronts Microsoft Foundry, Azure OpenAI, OpenAI, Anthropic, Amazon Bedrock, Google Vertex AI, and any OpenAI-compatible endpoint behind custom aliases, with routing by priority, weight, or custom conditions and failover between backends. Applications call it through an OpenAI-compatible API or the Anthropic Messages API, while a cost- and quality-based Model Router remains in preview. For tools, it federates MCP servers and turns OpenAPI specifications, connectors, and API Management APIs into MCP tools, and Microsoft Agent 365 can discover those servers and apply tool policies that the gateway enforces.
+(Source: Microsoft Tech Community)
+For cost control, the gateway tracks tokens and estimated cost by user, team, application, agent, and provider, and enforced budgets stop new requests once estimated spend reaches the limit.
+Microsoft positions the service as the hub in a hub-and-spoke model, with Foundry projects as spokes that can share deployments, including provisioned throughput, and fail over to other Foundry resources or providers. Private Link for inbound calls, VNet integration for private backends, and Defender and Purview threat protection for tool calls are still in preview.
+Applications keep using standard SDKs and point them at the gateway instead of the model provider. The first-model-call lab in the Azure/aigateway repository shows the pattern, with the gateway alias in the model field and a gateway runtime key in place of a Foundry credential:
+import os
+from openai import OpenAI
+gateway_url = os.environ["AI_GATEWAY_URL"].rstrip("/")
+model = os.environ["AI_GATEWAY_MODEL"]
+client = OpenAI(
+    base_url=f"{gateway_url}/default/models/openai/v1",
+    api_key=os.environ["AI_GATEWAY_API_KEY"],
+)
+response = client.responses.create(model=model, input="Write a one-sentence status update.")
+print(f"Responses API:    {response.output_text}")
+The gateway applies token limits, cost limits, and content safety before forwarding the request, then swaps the caller's key for its own managed identity token toward Foundry.
+Dan Rios, a principal architect at Howden Insurance and Microsoft MVP, deployed the gateway with Bicep against a Foundry model and the Microsoft Learn MCP server. He named the per-caller spend policy as the biggest differentiator, noting that API Management's documented policy catalog has no equivalent monetary budget policy. He also found that associating a gateway with Foundry does not block direct calls to Foundry, so teams need private endpoints and RBAC to force traffic through the gateway. In the Reddit discussion of his post, Rios raised the deployment workflow as his main concern:
+My only gripe is I use APIOps as my gitops approach and it seems like with AI Gateway I am more limited in that approach to just a bit of IaC and then mostly ClickOps.
+Other commenters questioned whether a second gateway is needed at all. One argued that Foundry already covers much of the same ground with Azure Policy, RBAC, token quotas, and its own model router:
+Why have one gateway (Foundry) when you can have two at much more than twice the price?
+Rios replied that a single AI Gateway can serve multiple Foundry accounts, as API Management already does today, while acknowledging that it is not cheap. A third commenter focused on enforcement timing for agents:
+the per-caller spend policy is the part i'd want to see. does it actually cut a caller off when they pass the limit, or does it only show up in the logs? with agents calling models in loops, a report after the fact is kinda late
+Microsoft's announcement and lab describe the budget as enforced before the request reaches the model, although the limit is based on estimated rather than invoiced spend. In his analysis of the release, Darthick Somu advised starting with a pilot, cautioning that the gateway "does not eliminate the need for application-level safety checks, downstream authorization or model evaluation."
+The Azure/aigateway repository contains 26 labs, an Azure CLI extension, a coding agent plugin, and a migration tool, and the service documentation is available on Microsoft Learn.
