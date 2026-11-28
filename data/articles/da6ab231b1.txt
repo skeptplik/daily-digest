@@ -1,7 +1,0 @@
-Prof Caroline Mitchell is right that US systems designed for an insurance market are rife in the NHS (Letters, 18 November). But Palantir’s software isn’t among them – and should not be confused with a range of other systems, some designed as far back as the 1970s for billing and then exported to the NHS over the following decades.
-Our story is different. Each application built on the federated data platform – which connects information across the NHS – is bespoke to the NHS and to the healthcare trust that uses it. The NHS is a highly complex, loose association of healthcare trusts and commissioners, with data that is rich, but often unstructured and frustratingly disconnected.
-Through the national federated data platform, our software is helping to fix that with a range of tools purpose-built for the NHS, which perform functions like speeding up cancer diagnosis – not one of which has been adopted from the insurance market.
-I speak from experience, having worked for the NHS for more than 30 years and having been responsible for building one of these unique applications in partnership with Palantir to tackle delayed discharges.
-How data is managed in the NHS is a critical debate. We need to get the facts right or patient care and taxpayer value for money will suffer.
-Stephen Childs
-Special adviser, Palantir

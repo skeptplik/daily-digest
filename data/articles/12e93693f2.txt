@@ -23,6 +23,8 @@ Online portals for Pip applications and the "Tell Us Once" system for registerin
 Technology critic Bill Thompson told BBC Radio 4's Today programme shutting down the department's systems was an "extreme measure but also a very sensible one".
 Dame Chi Onwurah, chair of the House of Commons Science and Technology Committee, said the DWP incident should be a "wake-up call" for the government.
 She continued: "People rely on these systems for some of the most essential services the state provides, and they should be able to trust that the tech and data underpinning them are secure and resilient."
+The PCS trade union, which represents some civil servants working at the department, criticised investment levels in IT infrastructure, and said the DWP had opened a voluntary redundancy scheme in its technology division days before the incident. The DWP has been contacted for comment.
+On Friday the government insisted it was investing in strengthening cyber security, pointing towards a Â£210m cyber action plan.
 Shadow AI minister Ben Spencer said the DWP incident was "deeply concerning", saying the government cannot "demand higher standards of cyber security from others without demonstrating that government are taking the necessary action to protect their own systems".
 It is the latest in a run of global cyber incidents impacting government and major organisations, which have been variously triggered by hackers, faulty tech or botched upgrades.
 Additional reporting by Jacob Phillips

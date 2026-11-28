@@ -1,0 +1,15 @@
+Without denying having been hacked, the US military said its Cloud One computer platform was secured following media reports of US Air Force platform hack.
+After media reports of a breach into the US Air Force's flagship cloud computing platform, the US military issued a statement on Friday denying any issues with its computer security.
+"The Department of War's systems are safe, secure, and managed 24-7 by the best experts and teams in the world. We will continue to maintain all mission-critical operations and applications," a Defence Department official said.
+"As a matter of policy and operations security, the Department of War does not comment on the status of our networks," a Defence Department official said earlier on Friday.
+Although the Pentagon did not specifically answer whether the Air Force's Cloud One platform had been hacked, sources told Reuters the Cloud One platform breach was discovered the past month.
+Possible breach of 'sensitive military data'
+This breach, which could jeopardise a swathe of sensitive tactical, personal and logistical data, led to disruption across the platform, according to these sources, quoted by Reuters.
+"A breach here is a big deal," sources told Reuters.
+The US Air Force's Cloud-Based Command and Control platform is used for air defence radar, data feeds from across North America and combat systems, which track bombs and missiles across more than 200 US Air Force locations around the world, according to Reuters.
+NBC News reported on Friday that the cloud platform was hacked and that the attack "could have exposed sensitive military information." Federal News Network, a media covering US federal agencies, also reported the breach through a source "familiar with the incident."
+Cloud One has been the target of hackers for a long time. In 2023, the platform's leadership boasted a "100% success rate" in beating attempts to breach the platform.
+String of major outages in the US
+In recent weeks, the CIA and FBI were also reportedly subject to hacks along with suppliers for major American financial institutions including JPMorgan Chase, Visa and Mastercard.
+Microsoft Outlook, US air traffic control and a top-secret NSA network also suffered issues recently, with officials at pains to blame the outages on maintenance or defects — not intrusions.
+But these tech outages are not limited to the US; the European Commission was cyberattacked in October by an AI-assisted hack.

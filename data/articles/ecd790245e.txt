@@ -8,7 +8,7 @@ For some gamers, it's an exciting prospect, despite the legal questions surround
 For developers, it may be a warning: if a game as big as GTA 6 can be recreated, what does that mean for everyone else?
 Like 'looking at a painting and making your own replica'
 The recent wave of AI-assisted game recreation has been widely linked to Anthropic's Opus 5.5 model, released in September, and to agentic tools such as Claude Code.
-Mark Brown, creator of the YouTube channel Game Maker's Toolkit and whose own game Word Play was recently recreated using AI, said cloning largely took two forms: replication and reverse engineering.
+Mark Brown, creator of the YouTube channel Game Maker's Toolkit whose own game Word Play was recently recreated using AI, said cloning largely took two forms: replication and reverse engineering.
 Replication is where someone asks an AI chatbot such as Claude or ChatGPT to build a new game based on an existing one, possibly using screenshots or a description.
 This, he said, was similar to "looking at a painting and making your own replica" â something which is "a very close copy, but is ultimately a new painting".
 It's a particular issue among smaller studios, many of whom worry that AI makes it easier for others to copy their work.
@@ -33,16 +33,14 @@ However, Take-Two has issued take, externaldown notices, external of public proj
 Tech Life: One hundred years of AI
 Laura Cress talks to game designers who say their unreleased new game was copied using AI. And Shiona McCallum reports on a new AI police chatbot.
 Available for over a year
-Why is there a wait for the official PC version?
 News of the leak has been celebrated by some gamers on Reddit, who resent having to wait for the PC release.
 "Why should the PC players have to wait half a year if you can develop the game in weeks as shown so far!" wrote one gamer, external.
 "Will be funny when the decomp runs way better than whatever Rockstar can make," said another.
-Christopher Dring, editor-in-chief and co-founder of The Game Business, said part of the reason why the games are often released on PCs months after consoles is that PC versions are "complex" with "different hardware configurations", as opposed to the more standardised set-up of consoles.
+Christopher Dring, editor-in-chief and co-founder of The Game Business, said part of the reason why games are often released on PCs months after consoles is that PC versions are "complex" with "different hardware configurations", as opposed to the more standardised set-up of consoles.
 He added there could also be a more commercial reason, as Rockstar can "have a second moment when the PC version is ready".
 In an interview with The Wall Street Journal, external, the chief executive of Take-Two Interactive, Strauss Zelnick, said while piracy was a "fact of life" in the entertainment business, it had until now been "less of an issue" for video games due to their "file sizes and complexity".
 However, Zelnick also reportedly told an investor Q&A that the company was "utterly focused on enhancing our technical defences and... legal activities appropriately".
-Is reverse-engineering code legal?
-Dr Tommy Thompson, an AI consultant who presents the AI and Games YouTube channel, said the practice of decompilation exists in a "grey area" until it "reaches a point where copyright and intellectual property [IP] are infringed upon".
+When asked about the legality of reverse-engineering code, Dr Tommy Thompson, an AI consultant who presents the AI and Games YouTube channel, said the practice of decompilation exists in a "grey area" - until it "reaches a point where copyright and intellectual property [IP] are infringed upon".
 He added that decompiling code could be legal within limits, such as for educational purposes, but "as soon as you attempt to use it to redistribute or repackage existing software", then this is "largely illegal".
 "In most cases, decompiling or recompiling code is likely to involve unauthorised use of the game IP," said Aaron Treble, a UK intellectual property lawyer for Lewis Silkin.
 Anyone who releases or sells a clone "will almost certainly be infringing [on copyright]", Treble added, though he said the law on AI companies' own responsibility is still evolving.
