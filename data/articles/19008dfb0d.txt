@@ -1,0 +1,14 @@
+Hackers are reported to have breached the US air force’s flagship cloud computing platform, a break-in that comes days after reports that a CIA database was accessed.
+Reuters reported on Friday that the intrusion into the USAF’s Cloud One platform could jeopardize the security of sensitive tactical, personnel and logistics data.
+The outlet said the breach was discovered within the past month or so during a systems upgrade, citing two sources, and that it had led to disruption across the platform. But Reuters could not establish the identity of the hackers, the extent of the intrusion or whether any data had been stolen.
+The air force said it “does not comment on the security posture, vulnerabilities or operational status of specific networks and systems. We continuously take prudent measures to protect Department [of the Air Force] information, systems and mission capabilities”.
+Cloud One was designed to serve as a hub for the air force’s IT needs, including personnel data, pay, logistics and maintenance, using the services of four cloud managers – Microsoft, Amazon, Oracle and Alphabet.
+But the system is also used for command and control and theater-integrated combat munitions system, or TICMS, that tracks and manages munitions inventories across more than 200 locations worldwide.
+“A breach here is a big deal,” one of the sources told Reuters.
+One source said that intruders exploited a software vulnerability to reach the control system and could in theory leverage that to check the operational status of military aircraft or the movement of spare parts.
+The reported breach comes after reports of electronic break-ins at ‌the FBI,  Department of Homeland Security personnel information, the treasury department and two spy agencies.
+In a breach at the Pentagon, hackers were able to access a system known as defense manpower datacenter, affecting 2.76 million living people and 294,000 deceased individuals, a US defense official told Military.com.
+Exposed information included social security numbers and, depending on the individual, names, birthdates, contact information and military occupational specialties, the outlet said.
+Earlier this week, it was reported that hackers breached a system used by the CIA and Office of the Director of National Intelligence system to reach unclassified information.
+According to the New York Times, the affected system is an intelligence analysis tool that scans open-source and unclassified material for insights and information.
+The CIA has declined to comment, but the ODNI representative said in an emailed statement to Bloomberg that “there have been no disruptions to critical capabilities or classified systems”.

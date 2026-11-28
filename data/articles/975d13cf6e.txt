@@ -1,0 +1,11 @@
+FIFA hacked, cybercriminals claim access to sensitive internal records
+Cybercriminals broke into FIFA’s systems and gained access to “a limited set of personal and business information,” world football’s governing body confirmed on Thursday.
+“FIFA is working closely with the relevant authorities, including law enforcement,” the Zurich-based football governing body told The Associated Press, without saying when the attack happened or what kind of information the intruders took.
+“FIFA condemns in the strongest possible terms the unlawful acquisition and publication of information, particularly personal data. Such actions constitute a serious and unacceptable violation of privacy and can have significant consequences for the individuals concerned,” a FIFA spokesperson added.
+The confirmation came a week after a group calling itself the Handsome Boy Hacking Club (HBHC) posted a screenshot on X of what it said were FIFA files.
+According to the group, the data was exported from FIFA’s Microsoft environment, and the haul contains “a full export from their internal governance systems, as well as some other assorted documents and screenshots from various services.”
+The post lists identity documents, immigration records, executive information, financial data and legal documents among the stolen material.
+HBHC is a relatively new cybercrime group that listed its first victim on its data leak site on November 19.
+“We would like to clarify that we are purely financially motivated. We are not interested in the country of origin,” the gang wrote, before signing off with a promise of “more leaks soon.“
+The attack couldn’t have come at a worse time for FIFA president Gianni Infantino, who is under scrutiny after a scrapped plan to sell stakes in the World Cup to private investors.
+FIFA is the second football organization to disclose a cyberattack this week. On Monday, Spain’s LaLiga confirmed that a cybercriminal broke into one of its fan services platforms and stole personal data of people registered with the league’s digital services and those of some clubs.

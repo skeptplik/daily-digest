@@ -1,8 +1,0 @@
-The Defense Ministry on Friday released new guidelines on the use of artificial intelligence by the Self-Defense Forces, setting out five basic principles, including one stipulating that humans retain decision-making authority and responsibility.
-In its Defense AI Vision, the ministry said it would move beyond individual applications of AI to a stage where the technology transforms how defense capabilities are exercised.
-The new guidelines build on the ministry’s basic policy for promoting the use of AI, released in 2024.
-The ministry set out a policy of leveraging AI and data to strengthen defense capabilities.
-The four other basic principles are: compliance with international and domestic laws; the assurance of safety, reliability, transparency and accountability; avoiding excessive reliance on specific technologies, products or businesses; and starting AI use with operational needs and challenges.
-Regarding compliance with international and domestic laws, the guidelines said the ministry has no intention of developing fully autonomous lethal weapons that operate beyond human control.
-The guidelines call for more efficient information processing through AI-based analysis of radar tracks, satellite and aerial imagery and signals intelligence, as well as the use of physical AI to conduct missions without putting personnel at risk.
-On cooperation with allies and like-minded countries, the guidelines state that the ministry will seek to establish an environment in which information and analysis obtained from different systems and AI can be mutually understood and used in joint missions, while maintaining independent command and control structures as well as control over sensitive data.

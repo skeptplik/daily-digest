@@ -1,0 +1,29 @@
+A little over a year after EA launched Skate into early access—where it remains—developer Full Circle is removing the seasonal structure that has underpinned the game so far, saying that doing so will give the team "the freedom to launch features earlier in their lifecycle."
+Skate got off to a bit of a rough start when it went live in September 2025, and while it's turned around the initially iffy response from players, it hasn't gone entirely smoothly since then. An initial promise that no new maps would be locked behind paywalls was chucked out the window in February, and Full Circle laid off employees that same month, saying that cutting headcounts means it can "better support Skate's long-term future and focus the team on the things that matter most to you."
+The end of Skate's seasonal structure is less overtly not good than those moves, but it is a sign that things aren't going quite as Full Circle had envisioned, and the message that it's still "committed to keep driving Skate forward" has a certain 'despite everything' tone that doesn't strike me as the sort of thing you say when when all cylinders are firing.
+"The game is still a work in progress, and we're using this valuable time to experiment, iterate, and figure out what works best for the long-term health of the game—especially when it comes to social features and progression," the studio wrote. "Ultimately, we want to build Skate in a way that lets us roll out fresh content much faster, even if it's not totally finished yet."
+Season 5 will end on December 1, after which Full Circle will move to "regular, agile content updates." The end of seasons also means the end of the season pass; the studio is "rethinking how that kind of progression system works." Here's the bullet-point rundown of what's changing:
+- No Seasons, but still regular content updates
+- No skate.Pass or skate.Premium Pass and no Tix
+- At the end of Season 5, the last Auto-Exchange will happen. Any Tix not used on the skate.Pass will be auto-exchanged for any items not yet acquired based on the track you’re on. Once done, any remaining Tix will be wiped.
+- Earnable cosmetics and Quick Drop items through Bounties.
+- All areas will be accessible by everyone via Rip Chips for a 24-hour pass.
+- Isle of Grom: 500 Rip Chips
+- The Stadium: 250 Rip Chips
+- SUMR Camp: 500 Rip Chips
+- (Reminder: Rip Chips can be earned through Bounties or completing Challenges in the world, as well as Spotlight Challenges.)
+"Moving away from rigid season blocks gives the development team the freedom to launch features earlier in their lifecycle," the studio wrote. "This means we can deploy work-in-progress mechanics and gather your direct feedback to continuously shape and build upon San Vansterdam. We’ve started this with in-game testing of features such as Spot Battles, Block Parties, and Prox Chat before rolling it out officially, and we’re going to continue with this process to ensure we get YOUR feedback on what works/what doesn’t."
+The 0.331 update to Skate will make a number of other additions and changes as well—full details are up at ea.com but the crash course version is below.
+Keep up to date with the most important stories and the best deals, as picked by the PC Gamer team.
+- New Game Mode: S.K.A.T.E.
+- [New area] RINQ Hotel: Luxury-style street spots.
+- [New area] The Loading Bay of The Vault: Realistic, technical street skating layout.
+- [Updated area] Pump House Park (Grom) Returns
+- [Updated Area] Gullcrest Village Community Parks Visual Update
+- Prox Chat Release
+- QoL Improvements and Bug Fixes (details coming on Nov 30, 2026 via the 0.33.1 patch notes)
+- New Brand Partners: Foundation, Toy Machine, Pig (with brand refreshes from huf, Nike SB, Primitive, Converse, adidas)
+- New Packs: Undead Pack, Undead Deluxe Pack, and adidas Starter Pack
+- New Tracks to the Soundtrack
+- Winter at SUMR Camp
+Andy has been gaming on PCs from the very beginning, starting as a youngster with text adventures and primitive action games on a cassette-based TRS80. From there he graduated to the glory days of Sierra Online adventures and Microprose sims, ran a local BBS, learned how to build PCs, and developed a longstanding love of RPGs, immersive sims, and shooters. He began writing videogame news in 2007 for The Escapist and somehow managed to avoid getting fired until 2014, when he joined the storied ranks of PC Gamer. He covers all aspects of the industry, from new game announcements and patch notes to legal disputes, Twitch beefs, esports, and Henry Cavill. Lots of Henry Cavill.
